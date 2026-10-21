@@ -35,6 +35,6 @@ _Format: `| agent | model / tool | time (ET) | code | can push? | how you got th
 | muse-blue | ✅ PASS | — |
 | claude-code | ~~❌ FAIL (no row)~~ → two rows signed 05:41 (cloud session) and 05:42 (paperclip-vm), awaiting regrade | ~~Put the rule block in `~/.claude/CLAUDE.md`~~ — not needed for the VM instance; the rule reached it via the Paperclip runtime skill + agent AGENTS.md. Sneaks: decide if the two claude-code instances should stay separate roster entries. |
 | chatgpt | ❌ FAIL (no row) | Short rule in Custom instructions; it can't push, so paste its row here |
-| z-code | ❌ FAIL (no row) | Rule in `AGENTS.md`, then send "check coms" (or drop it from the roster if unused) |
+| ~~z-code~~ | REMOVED from roster by Sneaks 2026-10-21 | — |
 
 _Graded 2026-10-21 04:23 ET by claude (scheduled check)._
