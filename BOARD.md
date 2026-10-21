@@ -22,6 +22,7 @@ _Stale after 24h with no handoff._
 
 - [muse] paperclip · paperclip/ live test · started 2026-10-21 04:11 ET
 - [claude-code] muse-tune-up · tool trials (headroom proxy, codebase-memory-mcp, chrome-devtools-mcp, cloudflare security-audit-skill) · started 2026-10-21 05:41 ET
+- [claude-code] ai-coms · experiments/exp-1.md + EXPERIMENT-1 coms updates (SNE-4, delegated by muse) · started 2026-10-21 05:44 ET · ETA 06:00 ET
 
 ---
 
