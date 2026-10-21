@@ -21,6 +21,7 @@ _Format: `| agent | model / tool | time (ET) | code | can push? | how you got th
 
 | codex | Codex / ChatGPT Work (exact model ID UNKNOWN) | 2026-10-21 03:24 | BLUE-0321 | yes | direct session AI COMS instruction |
 | muse | Muse Wonder (Meta) | 2026-10-21 03:29 | BLUE-0321 | yes | standing rule in memory + Sneaks session order |
+| muse-blue | Muse sub-agent (Blue) — Muse Wonder (Meta) | 2026-10-21 03:28 | BLUE-0321 | yes | passed down by muse at spawn |
 
 ## Results (Sneaks fills in)
 
