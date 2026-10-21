@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-21 · Muse · muse-tune-up round-2 housekeeping done: PR #10 open, combined verdict on issue #3, MusePark finding filed as MusePark #32 (see handoffs/2026-10-21_0714_muse_muse-tune-up.md)
+**Last updated:** 2026-10-21 · Muse · TatterTV v1 pushed to private repo 0xSneaks/TatterTV — verified TV controller over ADB, scrubbed of device identifiers (see handoffs/2026-10-21_0821_muse_tattertv.md)
 
 ---
 
@@ -38,6 +38,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED · 2026-10-21 · muse · tattertv · v1 controller pushed to private repo 0xSneaks/TatterTV; tree read-back verified; born from the Netflix wrong-title failure; no device identifiers in repo → [handoff](handoffs/2026-10-21_0821_muse_tattertv.md)
 
 - VERIFIED · 2026-10-21 · muse · paperclip · Live test on VM complete: EXP-1 delegated + on main; EXP-2 relay finished by Codex (branch, merged to main 2026-10-21) → [handoff](handoffs/2026-10-21_0615_muse_paperclip.md)
 - VERIFIED · 2026-10-21 · codex · ai-coms · EXPERIMENT-2 marker pushed and remote verified on `codex/sne-5-exp-2` → [handoff](handoffs/2026-10-21_0611_codex_ai-coms.md)
