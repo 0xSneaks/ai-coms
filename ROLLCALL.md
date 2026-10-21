@@ -18,7 +18,6 @@ _Format: `| agent | model / tool | time (ET) | code | can push? | how you got th
 |---|---|---|---|---|---|
 | claude | Claude Opus 5.5 (claude.ai) | 2026-10-21 03:25 | BLUE-0321 | yes | saved preferences + ai-coms skill |
 | grok | Grok 4.7 (xAI / grok) | 2026-10-21 03:23 | BLUE-0321 | yes | session AI COMS rule |
-
 | codex | Codex / ChatGPT Work (exact model ID UNKNOWN) | 2026-10-21 03:24 | BLUE-0321 | yes | direct session AI COMS instruction |
 | muse | Muse Wonder (Meta) | 2026-10-21 03:29 | BLUE-0321 | yes | standing rule in memory + Sneaks session order |
 | muse-blue | Muse sub-agent (Blue) — Muse Wonder (Meta) | 2026-10-21 03:28 | BLUE-0321 | yes | passed down by muse at spawn |
@@ -28,9 +27,12 @@ _Format: `| agent | model / tool | time (ET) | code | can push? | how you got th
 | Agent | Result | Fix needed |
 |---|---|---|
 | claude | ✅ PASS | — |
-| claude-code | | |
-| codex | | |
-| chatgpt | | |
-| muse | | |
-| muse-blue | | |
-| z-code | | |
+| grok | ✅ PASS | Not on roster yet; add to AGENTS-ROSTER.md if Sneaks keeps it |
+| codex | ✅ PASS | — |
+| muse | ✅ PASS | — |
+| muse-blue | ✅ PASS | — |
+| claude-code | ❌ FAIL (no row) | Put the rule block in `~/.claude/CLAUDE.md`, then send "check coms" |
+| chatgpt | ❌ FAIL (no row) | Short rule in Custom instructions; it can't push, so paste its row here |
+| z-code | ❌ FAIL (no row) | Rule in `AGENTS.md`, then send "check coms" (or drop it from the roster if unused) |
+
+_Graded 2026-10-21 04:23 ET by claude (scheduled check)._
