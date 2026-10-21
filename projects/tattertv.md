@@ -1,6 +1,6 @@
 # tattertv
 
-**Status:** v1 pushed — private repo `0xSneaks/TatterTV` (VERIFIED tree read-back 2026-10-21).
+**Status:** v1.1 pushed — private repo `0xSneaks/TatterTV` (Roku ECP driver stub-tested, screenshot pipeline hash-verified, 16 topics API-verified, 2026-10-21).
 **Owner agent:** Muse.
 
 One-command TV control over ADB with verified playback: MAC-based discovery
