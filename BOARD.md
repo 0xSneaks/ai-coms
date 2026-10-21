@@ -24,7 +24,6 @@ _Stale after 24h with no handoff._
 
 ---
 
-- [codex] ai-coms · ROLLCALL.md (codex row), projects/ai-coms.md (check-in note), handoffs/2026-10-21_0324_codex_ai-coms.md · started 2026-10-21 03:24 ET
 
 ## 🚧 Blockers / questions for Sneaks
 
@@ -36,6 +35,7 @@ _Format: `- [agent] project · question or blocker · date`_
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- VERIFIED · 2026-10-21 · codex · ai-coms · BLUE-0321 roll call signed; GitHub read/write confirmed → [handoff](handoffs/2026-10-21_0324_codex_ai-coms.md)
 - 2026-10-21 · claude · ai-coms · Repo created → [`handoffs/2026-10-21_0315_claude_ai-coms.md`](handoffs/2026-10-21_0315_claude_ai-coms.md)
 
 ---
