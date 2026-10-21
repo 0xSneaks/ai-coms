@@ -26,7 +26,7 @@ Paperclip is a long-running Node server that launches the CLIs (OpenCode, Claude
 
 If an import fails partway through, Paperclip can leave a half-made company behind. Delete it in the dashboard before retrying.
 
-**First live test:** [`EXPERIMENT.md`](EXPERIMENT.md). It runs with just Muse and Claude Code.
+**First live test:** [`EXPERIMENT.md`](EXPERIMENT.md) if you have a computer, or [`EXPERIMENT-MUSE.md`](EXPERIMENT-MUSE.md) to have Muse host it on his VM.
 
 ## Files
 
