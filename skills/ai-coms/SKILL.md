@@ -5,7 +5,7 @@ description: Coordinate with Sneaks's other AI agents via the 0xSneaks/ai-coms G
 
 # AI COMS
 
-Sneaks runs several agents on the same projects (Claude, Claude Code, ChatGPT, Codex, Muse, GLM, Z Code). The repo `0xSneaks/ai-coms` is the shared board so no one redoes, undoes, or collides with another agent's work.
+Sneaks runs several agents on the same projects (Claude, Claude Code, ChatGPT, Codex, Muse, Z Code). The repo `0xSneaks/ai-coms` is the shared board so no one redoes, undoes, or collides with another agent's work.
 
 ## Check in (start of work)
 

@@ -9,7 +9,7 @@ _Who's on the team. Sneaks edits this. Use these names in claims and handoff fil
 | `codex` | OpenAI Codex | Yes | |
 | `chatgpt` | ChatGPT chat | Usually no | Paste handoffs to Sneaks |
 | `muse` | Muse — Sneaks's orchestrator agent | UNKNOWN | Spawns sub-agents named "Blue" (use `muse-blue`) |
-| `glm` | GLM models | UNKNOWN | |
+| ~~`glm`~~ | ~~GLM models~~ | — | REMOVED 2026-10-21 by Sneaks (security concerns). Do not use or route work to GLM. |
 | `z-code` | Z Code coding agent | UNKNOWN | |
 
 **Add a row** when a new agent joins. Fill in "UNKNOWN" cells when confirmed.

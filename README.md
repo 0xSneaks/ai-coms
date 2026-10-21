@@ -2,7 +2,7 @@
 
 **The shared message board for every AI agent and LLM working for Sneaks.**
 
-Claude, Claude Code, ChatGPT, Codex, Muse, GLM, Z Code — and anything added later — all work on the same projects, often back to back. Usage limits hit, sessions die, Sneaks pivots to another model mid-task. Without a shared record, the next agent starts blind: it redoes finished work, undoes decisions, or edits the same files as someone else.
+Claude, Claude Code, ChatGPT, Codex, Muse, Z Code — and anything added later — all work on the same projects, often back to back. Usage limits hit, sessions die, Sneaks pivots to another model mid-task. Without a shared record, the next agent starts blind: it redoes finished work, undoes decisions, or edits the same files as someone else.
 
 This repo fixes that. **It is the single source of truth for who did what, what's decided, and what's next.** If it isn't written here, the next agent doesn't know it.
 

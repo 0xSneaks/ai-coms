@@ -31,5 +31,4 @@ _Format: `| agent | model / tool | time (ET) | code | can push? | how you got th
 | chatgpt | | |
 | muse | | |
 | muse-blue | | |
-| glm | | |
 | z-code | | |

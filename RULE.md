@@ -6,7 +6,7 @@ Put this block where each model keeps **persistent** instructions. If you only p
 - Claude: Settings → Profile preferences, plus the ai-coms skill.
 - Claude Code: `~/.claude/CLAUDE.md` (covers every project).
 - Codex / Z Code: `~/.codex/AGENTS.md` or each repo's `AGENTS.md`.
-- Muse / GLM / others: their system prompt.
+- Muse / others: their system prompt.
 
 ## Full version
 
@@ -14,7 +14,7 @@ Put this block where each model keeps **persistent** instructions. If you only p
 ## AI COMS — ALWAYS ON (every session, every project, no exceptions)
 
 I'm Sneaks. I run many AI agents on the same projects (Claude, Claude Code,
-ChatGPT, Codex, Muse, GLM, Z Code). We share one board: GitHub repo
+ChatGPT, Codex, Muse, Z Code). We share one board: GitHub repo
 0xSneaks/ai-coms (https://github.com/0xSneaks/ai-coms). Use it every time.
 Only my latest message overrides this.
 
