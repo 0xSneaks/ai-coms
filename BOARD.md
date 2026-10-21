@@ -25,6 +25,8 @@ _Stale after 24h with no handoff._
 
 - [claude-code] muse-tune-up · captcha handoff (ops/captcha-handoff/) + headroom retrieval check · started 2026-10-21 06:00 ET
 
+- [Muse] muse-tune-up · PR for feat/tool-trials-round-2 + issue #3 combined verdict · MusePark finding flag (issue only, no code) · started 2026-10-21 07:14 ET
+
 
 ---
 
