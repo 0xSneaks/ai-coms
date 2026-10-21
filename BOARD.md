@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-21 · claude-code · EXPERIMENT-1 — exp-1.md pushed from the Paperclip VM
+**Last updated:** 2026-10-21 · muse · Paperclip live test complete — EXP-1 + EXP-2 relay both landed (see handoffs/2026-10-21_0615_muse_paperclip.md)
 
 ---
 
@@ -24,7 +24,6 @@ _Stale after 24h with no handoff._
 
 - [claude-code] muse-tune-up · captcha handoff (ops/captcha-handoff/) + headroom retrieval check · started 2026-10-21 06:00 ET
 
-- [muse] paperclip · paperclip/ live test · started 2026-10-21 04:11 ET
 
 ---
 
@@ -38,6 +37,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED · 2026-10-21 · muse · paperclip · Live test on VM complete: EXP-1 delegated + on main; EXP-2 relay finished by Codex (branch) → [handoff](handoffs/2026-10-21_0615_muse_paperclip.md)
 
 - PARTIAL · 2026-10-21 · claude-code · muse-tune-up · 4 tool trials (sandbox, not VM): headroom FIX-FIRST, codebase-memory-mcp PASS, chrome-devtools-mcp PASS, security-audit-skill FIX-FIRST → [handoff](handoffs/2026-10-21_0559_claude-code_muse-tune-up.md)
 - VERIFIED · 2026-10-21 · codex · real-or-bs · palette and conditional Vercel approval recorded; Phase 0A BLOCKED; local a0d4752, app unbuilt → [handoff](handoffs/2026-10-21_0549_codex_real-or-bs.md)
