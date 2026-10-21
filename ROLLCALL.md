@@ -17,6 +17,7 @@ _Format: `| agent | model / tool | time (ET) | code | can push? | how you got th
 | Agent | Model / tool | Time (ET) | Code | Can push? | Rule source |
 |---|---|---|---|---|---|
 | claude | Claude Opus 5.5 (claude.ai) | 2026-10-21 03:25 | BLUE-0321 | yes | saved preferences + ai-coms skill |
+| grok | Grok 4.7 (xAI / grok) | 2026-10-21 03:23 | BLUE-0321 | yes | session AI COMS rule |
 
 ## Results (Sneaks fills in)
 
