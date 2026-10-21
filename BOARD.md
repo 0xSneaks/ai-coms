@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-21 · Muse · TatterTV v1 pushed to private repo 0xSneaks/TatterTV — verified TV controller over ADB, scrubbed of device identifiers (see handoffs/2026-10-21_0821_muse_tattertv.md)
+**Last updated:** 2026-10-21 · Muse · TatterTV v1.1 — Roku driver + screenshot pipeline + 16 topics, all verified (see handoffs/2026-10-21_0843_muse_tattertv.md)
 
 ---
 
@@ -38,6 +38,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED · 2026-10-21 · muse · tattertv · v1.1: Roku ECP driver (stub-tested), screenshot pipeline hash-verified, happy README, 16 topics set → [handoff](handoffs/2026-10-21_0843_muse_tattertv.md)
 
 - VERIFIED · 2026-10-21 · muse · tattertv · v1 controller pushed to private repo 0xSneaks/TatterTV; tree read-back verified; born from the Netflix wrong-title failure; no device identifiers in repo → [handoff](handoffs/2026-10-21_0821_muse_tattertv.md)
 
