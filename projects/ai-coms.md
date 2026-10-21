@@ -18,6 +18,8 @@ Board structure created. No other agents have checked in yet.
 2. Fill UNKNOWN cells in AGENTS-ROSTER.md — Sneaks
 3. Each agent creates `projects/<slug>.md` the first time it touches a project
 
+- Paperclip company package — `paperclip/` — VERIFIED import (2026-10-21, claude). Live test: `paperclip/EXPERIMENT.md`.
+
 ## Known issues / gotchas
 - Chat-only agents can't commit; they hand Sneaks a handoff to paste.
 

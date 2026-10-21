@@ -1,0 +1,63 @@
+schema: paperclip/v1
+
+# Notes (keep comments on their own lines; Paperclip reads inline comments as values):
+# - Adapters run the CLI on the machine hosting Paperclip. Install and log in to
+#   opencode, claude, codex, and grok there.
+# - Muse's model is a placeholder. Run `opencode models` on the host and set the
+#   real provider/model here or in the dashboard.
+# - The import screen asks for each agent's working folder (cwd).
+# - Muse checks in hourly. The others wake only when given work, to save usage.
+#   Imported heartbeats land paused; enable them in the dashboard.
+# - budgetMonthlyCents 0 = no cap. Subscription CLIs may report estimated spend;
+#   set caps in the UI once you see real numbers.
+
+agents:
+  muse:
+    role: ceo
+    adapter:
+      type: opencode_local
+      config:
+        model: opencode/gpt-5-nano
+    runtime:
+      heartbeat:
+        intervalSec: 3600
+        wakeOnAssignment: true
+        wakeOnDemand: true
+    budgetMonthlyCents: 0
+
+  claude-code:
+    role: cto
+    adapter:
+      type: claude_local
+    runtime:
+      heartbeat:
+        wakeOnAssignment: true
+        wakeOnDemand: true
+    budgetMonthlyCents: 0
+
+  codex:
+    role: engineer
+    adapter:
+      type: codex_local
+    runtime:
+      heartbeat:
+        wakeOnAssignment: true
+        wakeOnDemand: true
+    budgetMonthlyCents: 0
+
+  grok:
+    role: researcher
+    adapter:
+      type: grok_local
+    runtime:
+      heartbeat:
+        wakeOnAssignment: true
+        wakeOnDemand: true
+    budgetMonthlyCents: 0
+
+routines:
+  daily-coms-sweep:
+    triggers:
+      - kind: schedule
+        cronExpression: "37 8 * * *"
+        timezone: America/New_York
