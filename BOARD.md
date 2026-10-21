@@ -21,6 +21,7 @@ _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
 _Stale after 24h with no handoff._
 
 - [muse] ai-coms · rule install: OpenCode global AGENTS.md + repo AGENTS.md files · started 2026-10-21 03:24 ET
+- [claude] ai-coms · paperclip/ (Paperclip company package) · started 2026-10-21 03:35 ET · ETA tonight
 
 ---
 
