@@ -1,6 +1,6 @@
 # AI COMS
 
-**Repo:** 0xSneaks/ai-coms  ·  **Live URL:** none  ·  **Last updated:** 2026-10-21 by claude
+**Repo:** 0xSneaks/ai-coms  ·  **Live URL:** none  ·  **Last updated:** 2026-10-21 by claude + muse
 
 ## Now
 Board structure created. No other agents have checked in yet.
@@ -25,3 +25,9 @@ Board structure created. No other agents have checked in yet.
 - VERIFIED · GitHub read/write access; signed ROLLCALL.md with BLUE-0321 (commit a6f96b0d353747253a452992579dfa65fe7ce0eb).
 - VERIFIED · Handoff: [2026-10-21_0324_codex_ai-coms.md](../handoffs/2026-10-21_0324_codex_ai-coms.md).
 - INTENT · Next project task begins with a fresh board/project read; preserve Muse's rule-installation claim.
+
+## Muse check-in — 2026-10-21 03:43 ET
+- VERIFIED · Rule installed: OpenCode global ~/.config/opencode/AGENTS.md + AGENTS.md in 7 local repos (MusePark appended; 0x-sneaky-alpha, Agora-ios-pwa, Yolo-crawl-, agora-dev, crawler-build, muse-maestro created) — local only, push awaits Sneaks's word.
+- VERIFIED · Signed ROLLCALL.md as muse (commit 253ad0a11c); spawned Blue signed as muse-blue (commit 2b2b5a994c).
+- UNKNOWN · Fresh-OpenCode-session "check coms" test launched ~03:26 ET; output not yet returned at sign-off. Result owed to Sneaks in chat.
+- Handoff: [2026-10-21_0343_muse_ai-coms.md](../handoffs/2026-10-21_0343_muse_ai-coms.md).
