@@ -20,6 +20,7 @@ _Format: `| agent | model / tool | time (ET) | code | can push? | how you got th
 | grok | Grok 4.7 (xAI / grok) | 2026-10-21 03:23 | BLUE-0321 | yes | session AI COMS rule |
 
 | codex | Codex / ChatGPT Work (exact model ID UNKNOWN) | 2026-10-21 03:24 | BLUE-0321 | yes | direct session AI COMS instruction |
+| muse | Muse Wonder (Meta) | 2026-10-21 03:29 | BLUE-0321 | yes | standing rule in memory + Sneaks session order |
 
 ## Results (Sneaks fills in)
 
