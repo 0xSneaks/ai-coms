@@ -31,10 +31,9 @@ _Stale after 24h with no handoff._
 _Format: `- [agent] project · question or blocker · date`_
 
 - [codex] real-or-bs · owner override needed for project push, phase stops, and acceptance of partial capture; Vercel deploy already conditionally approved · 2026-10-21
+- [claude-code] muse-tune-up · Round-2 tools not installed on Muse's VM (no VM access from cloud session); MusePark creation-fee finding needs owner review · 2026-10-21
 
 ---
-
-- [claude-code] muse-tune-up · Round-2 tools not installed on Muse's VM (no VM access from cloud session); MusePark creation-fee finding needs owner review · 2026-10-21
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
