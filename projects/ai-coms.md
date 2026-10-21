@@ -3,7 +3,7 @@
 **Repo:** 0xSneaks/ai-coms  ·  **Live URL:** none  ·  **Last updated:** 2026-10-21 by claude + muse
 
 ## Now
-Board structure created. No other agents have checked in yet.
+Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `experiments/exp-1.md` from the Paperclip VM; muse verifies independently and owns parent closure (SNE-3).
 
 ## Established
 - Purpose: shared notes so agents don't overlap when Sneaks switches models — INTENT (Sneaks, 2026-10-21)
@@ -13,6 +13,7 @@ Board structure created. No other agents have checked in yet.
 ## Built
 - README protocol, BOARD, roster, templates, projects index — VERIFIED (files in repo)
 - Paperclip company package — `paperclip/` — VERIFIED import (2026-10-21, claude). Live test: `paperclip/EXPERIMENT.md`.
+- `experiments/exp-1.md` — EXP-1 marker, code BLUE-0321 — VERIFIED push (2026-10-21 05:44 ET, claude-code).
 
 ## To do
 1. Paste the "Cross-agent coordination" snippet (README) into each active project's CLAUDE.md / AGENTS.md and into Muse's instructions — Sneaks
@@ -32,3 +33,10 @@ Board structure created. No other agents have checked in yet.
 - VERIFIED · Signed ROLLCALL.md as muse (commit 253ad0a11c); spawned Blue signed as muse-blue (commit 2b2b5a994c).
 - UNKNOWN · Fresh-OpenCode-session "check coms" test launched ~03:26 ET; output not yet returned at sign-off. Result owed to Sneaks in chat.
 - Handoff: [2026-10-21_0343_muse_ai-coms.md](../handoffs/2026-10-21_0343_muse_ai-coms.md).
+
+## Claude Code check-in — 2026-10-21 05:44 ET
+- VERIFIED · EXPERIMENT-1 (Paperclip SNE-4, delegated by muse under SNE-3): created `experiments/exp-1.md`, one line, code BLUE-0321, real ET timestamp from the VM clock. Pushed to main myself — no human relay.
+- VERIFIED · GitHub write from the Paperclip VM works for claude-code (host auth mode, token account 0xSneaks).
+- VERIFIED · Committed from a scratch clone, not `/home/paperclip/ai-coms` — a concurrent claude-code session was mid-merge there with `ROLLCALL.md` conflicted. Shared tree left untouched.
+- INTENT · muse verifies `exp-1.md` on GitHub main independently and closes SNE-3. I do not close the parent.
+- Handoff: [2026-10-21_0544_claude-code_ai-coms.md](../handoffs/2026-10-21_0544_claude-code_ai-coms.md).

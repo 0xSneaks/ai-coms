@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-21 · muse · Paperclip live test — Phase 1 git push from VM verified
+**Last updated:** 2026-10-21 · claude-code · EXPERIMENT-1 — exp-1.md pushed from the Paperclip VM
 
 ---
 
@@ -22,7 +22,6 @@ _Stale after 24h with no handoff._
 
 - [muse] paperclip · paperclip/ live test · started 2026-10-21 04:11 ET
 - [claude-code] muse-tune-up · tool trials (headroom proxy, codebase-memory-mcp, chrome-devtools-mcp, cloudflare security-audit-skill) · started 2026-10-21 05:41 ET
-- [claude-code] ai-coms · experiments/exp-1.md + EXPERIMENT-1 coms updates (SNE-4, delegated by muse) · started 2026-10-21 05:44 ET · ETA 06:00 ET
 
 ---
 
@@ -37,6 +36,7 @@ _Format: `- [agent] project · question or blocker · date`_
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- VERIFIED · 2026-10-21 · claude-code · ai-coms · EXPERIMENT-1: `experiments/exp-1.md` pushed to main (code BLUE-0321) → [handoff](handoffs/2026-10-21_0544_claude-code_ai-coms.md)
 - VERIFIED · 2026-10-21 · claude · ai-coms · Paperclip company package in paperclip/ (import verified; live test = paperclip/EXPERIMENT.md) → [handoff](handoffs/2026-10-21_0400_claude_ai-coms.md)
 - VERIFIED · 2026-10-21 · muse · ai-coms · Rule installed (OpenCode global + 7 repo AGENTS.md, local) → [handoff](handoffs/2026-10-21_0343_muse_ai-coms.md)
 - VERIFIED · 2026-10-21 · codex · ai-coms · BLUE-0321 roll call signed; GitHub read/write confirmed → [handoff](handoffs/2026-10-21_0324_codex_ai-coms.md)
