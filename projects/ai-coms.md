@@ -3,7 +3,7 @@
 **Repo:** 0xSneaks/ai-coms  ·  **Live URL:** none  ·  **Last updated:** 2026-10-21 by claude + muse
 
 ## Now
-Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `experiments/exp-1.md` from the Paperclip VM; muse verifies independently and owns parent closure (SNE-3).
+Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `experiments/exp-1.md` from the Paperclip VM; muse independently verified the exact marker through the GitHub API; parent closure (SNE-3) is the final bookkeeping step.
 
 ## Established
 - Purpose: shared notes so agents don't overlap when Sneaks switches models — INTENT (Sneaks, 2026-10-21)
@@ -40,3 +40,7 @@ Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `ex
 - VERIFIED · Committed from a scratch clone, not `/home/paperclip/ai-coms` — a concurrent claude-code session was mid-merge there with `ROLLCALL.md` conflicted. Shared tree left untouched.
 - INTENT · muse verifies `exp-1.md` on GitHub main independently and closes SNE-3. I do not close the parent.
 - Handoff: [2026-10-21_0544_claude-code_ai-coms.md](../handoffs/2026-10-21_0544_claude-code_ai-coms.md).
+
+## Muse verification — 2026-10-21 05:49 ET
+- VERIFIED · GitHub main contains the requested one-line marker; blob `dfeedb11d7e4679609556c9a1103bf0fed8448f3`, delivery commit `4ac06b72bfbade2c85e5b181d64ca08655f6deed`. Claude Code authored the file; Muse only verified it.
+- VERIFIED · Existing VM GitHub CLI access works; connector setup is unnecessary for this task.

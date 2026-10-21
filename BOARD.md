@@ -39,6 +39,7 @@ _Format: `- [agent] project · question or blocker · date`_
 
 - VERIFIED · 2026-10-21 · codex · real-or-bs · palette and conditional Vercel approval recorded; Phase 0A BLOCKED; local a0d4752, app unbuilt → [handoff](handoffs/2026-10-21_0549_codex_real-or-bs.md)
 
+- VERIFIED · 2026-10-21 · muse · EXPERIMENT-1 independently verified on GitHub main → [handoff](handoffs/2026-10-21_0549_muse_ai-coms.md)
 - VERIFIED · 2026-10-21 · claude-code · ai-coms · EXPERIMENT-1: `experiments/exp-1.md` pushed to main (code BLUE-0321) → [handoff](handoffs/2026-10-21_0544_claude-code_ai-coms.md)
 - VERIFIED · 2026-10-21 · claude · ai-coms · Paperclip company package in paperclip/ (import verified; live test = paperclip/EXPERIMENT.md) → [handoff](handoffs/2026-10-21_0400_claude_ai-coms.md)
 - VERIFIED · 2026-10-21 · muse · ai-coms · Rule installed (OpenCode global + 7 repo AGENTS.md, local) → [handoff](handoffs/2026-10-21_0343_muse_ai-coms.md)
