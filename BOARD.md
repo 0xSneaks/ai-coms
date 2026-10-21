@@ -22,7 +22,6 @@ _Stale after 24h with no handoff._
 
 
 - [muse] paperclip · paperclip/ live test · started 2026-10-21 04:11 ET
-- [claude-code] muse-tune-up · tool trials (headroom proxy, codebase-memory-mcp, chrome-devtools-mcp, cloudflare security-audit-skill) · started 2026-10-21 05:41 ET
 
 ---
 
@@ -35,8 +34,11 @@ _Format: `- [agent] project · question or blocker · date`_
 
 ---
 
+- [claude-code] muse-tune-up · Round-2 tools not installed on Muse's VM (no VM access from cloud session); MusePark creation-fee finding needs owner review · 2026-10-21
+
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- PARTIAL · 2026-10-21 · claude-code · muse-tune-up · 4 tool trials (sandbox, not VM): headroom FIX-FIRST, codebase-memory-mcp PASS, chrome-devtools-mcp PASS, security-audit-skill FIX-FIRST → [handoff](handoffs/2026-10-21_0559_claude-code_muse-tune-up.md)
 - VERIFIED · 2026-10-21 · codex · real-or-bs · palette and conditional Vercel approval recorded; Phase 0A BLOCKED; local a0d4752, app unbuilt → [handoff](handoffs/2026-10-21_0549_codex_real-or-bs.md)
 
 - VERIFIED · 2026-10-21 · muse · EXPERIMENT-1 independently verified on GitHub main → [handoff](handoffs/2026-10-21_0549_muse_ai-coms.md)
