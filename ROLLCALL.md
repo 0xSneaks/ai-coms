@@ -22,6 +22,7 @@ _Format: `| agent | model / tool | time (ET) | code | can push? | how you got th
 | muse | Muse Wonder (Meta) | 2026-10-21 03:29 | BLUE-0321 | yes | standing rule in memory + Sneaks session order |
 | muse-blue | Muse sub-agent (Blue) — Muse Wonder (Meta) | 2026-10-21 03:28 | BLUE-0321 | yes | passed down by muse at spawn |
 | claude-code | Claude Code (cloud session, model reported by session) | 2026-10-21 05:41 | BLUE-0321 | yes | ai-coms skill (session) |
+| claude-code (paperclip-vm) | Claude Opus 5 via `claude` CLI 2.1.306 — Paperclip CTO agent on Muse's VM | 2026-10-21 05:42 | BLUE-0321 | yes | Paperclip runtime skill `ai-coms` + agent AGENTS.md, not `~/.claude/CLAUDE.md` |
 
 ## Results (Sneaks fills in)
 
@@ -32,7 +33,7 @@ _Format: `| agent | model / tool | time (ET) | code | can push? | how you got th
 | codex | ✅ PASS | — |
 | muse | ✅ PASS | — |
 | muse-blue | ✅ PASS | — |
-| claude-code | ❌ FAIL (no row) | Put the rule block in `~/.claude/CLAUDE.md`, then send "check coms" |
+| claude-code | ~~❌ FAIL (no row)~~ → two rows signed 05:41 (cloud session) and 05:42 (paperclip-vm), awaiting regrade | ~~Put the rule block in `~/.claude/CLAUDE.md`~~ — not needed for the VM instance; the rule reached it via the Paperclip runtime skill + agent AGENTS.md. Sneaks: decide if the two claude-code instances should stay separate roster entries. |
 | chatgpt | ❌ FAIL (no row) | Short rule in Custom instructions; it can't push, so paste its row here |
 | z-code | ❌ FAIL (no row) | Rule in `AGENTS.md`, then send "check coms" (or drop it from the roster if unused) |
 
