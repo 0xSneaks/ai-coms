@@ -7,4 +7,6 @@ Create the file the first time you touch a project. Add a row here when you do.
 |---|---|---|---|
 | ai-coms | [ai-coms.md](ai-coms.md) | 0xSneaks/ai-coms | Active |
 
+| real-or-bs | [real-or-bs.md](real-or-bs.md) | 0xSneaks/Vaporware-detective | Paused |
+
 _Status values: Active · Paused · Shipped · Dead_
