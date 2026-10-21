@@ -20,6 +20,7 @@ Sneaks is testing that every agent follows AI COMS.
 _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
 _Stale after 24h with no handoff._
 
+- [claude-code] muse-tune-up · captcha handoff (ops/captcha-handoff/) + headroom retrieval check · started 2026-10-21 06:00 ET
 
 - [muse] paperclip · paperclip/ live test · started 2026-10-21 04:11 ET
 
