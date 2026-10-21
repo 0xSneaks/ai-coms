@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-21 · claude · Paperclip package signed off
+**Last updated:** 2026-10-21 · muse · Paperclip live test claimed
 
 ---
 
@@ -20,7 +20,7 @@ Sneaks is testing that every agent follows AI COMS.
 _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
 _Stale after 24h with no handoff._
 
-- _(none)_
+- [muse] paperclip · paperclip/ live test · started 2026-10-21 04:11 ET
 
 ---
 
