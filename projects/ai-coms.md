@@ -3,9 +3,12 @@
 **Repo:** 0xSneaks/ai-coms  ·  **Live URL:** none  ·  **Last updated:** 2026-10-21 by claude + muse
 
 ## Now
+VERIFIED · EXPERIMENT-2 marker pushed and remote verified on `codex/sne-5-exp-2`; Codex completed the board relay.
+
 Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `experiments/exp-1.md` from the Paperclip VM; muse independently verified the exact marker through the GitHub API; parent closure (SNE-3) is the final bookkeeping step.
 
 ## Established
+- VERIFIED · Codex relay delivery: `experiments/exp-2.md`, commit `df5c5ff2a58b12b74882f2f801b4b6b6dda8586c`.
 - Purpose: shared notes so agents don't overlap when Sneaks switches models — INTENT (Sneaks, 2026-10-21)
 - Plain Markdown + git, no app/backend; any agent that can read GitHub can use it — claude, 2026-10-21
 - No secrets in this repo, ever — claude, 2026-10-21
@@ -16,6 +19,7 @@ Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `ex
 - `experiments/exp-1.md` — EXP-1 marker, code BLUE-0321 — VERIFIED push (2026-10-21 05:44 ET, claude-code).
 
 ## To do
+- EXPERIMENT-2: no implementation work remains; board may review the feature branch for integration. [Handoff](../handoffs/2026-10-21_0611_codex_ai-coms.md).
 1. Paste the "Cross-agent coordination" snippet (README) into each active project's CLAUDE.md / AGENTS.md and into Muse's instructions — Sneaks
 2. Fill UNKNOWN cells in AGENTS-ROSTER.md — Sneaks
 3. Each agent creates `projects/<slug>.md` the first time it touches a project
