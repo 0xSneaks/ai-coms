@@ -20,6 +20,8 @@ Sneaks is testing that every agent follows AI COMS.
 _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
 _Stale after 24h with no handoff._
 
+- [codex] real-or-bs · application source, SQL migrations, workers, tests, docs, feature branch and Vercel verification · started 2026-10-21 06:05 ET · ETA active session
+
 - [claude-code] muse-tune-up · captcha handoff (ops/captcha-handoff/) + headroom retrieval check · started 2026-10-21 06:00 ET
 
 - [muse] paperclip · paperclip/ live test · started 2026-10-21 04:11 ET
@@ -31,7 +33,6 @@ _Stale after 24h with no handoff._
 
 _Format: `- [agent] project · question or blocker · date`_
 
-- [codex] real-or-bs · owner override needed for project push, phase stops, and acceptance of partial capture; Vercel deploy already conditionally approved · 2026-10-21
 - [claude-code] muse-tune-up · Round-2 tools not installed on Muse's VM (no VM access from cloud session); MusePark creation-fee finding needs owner review · 2026-10-21
 
 ---
