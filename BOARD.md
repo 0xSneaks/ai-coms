@@ -20,7 +20,6 @@ Sneaks is testing that every agent follows AI COMS.
 _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
 _Stale after 24h with no handoff._
 
-- [codex] real-or-bs · docs/DIRECTIVE.md, docs/PROGRESS.md, README.md; capture readiness check · started 2026-10-21 05:46 ET · ETA this session
 
 - [muse] paperclip · paperclip/ live test · started 2026-10-21 04:11 ET
 - [claude-code] muse-tune-up · tool trials (headroom proxy, codebase-memory-mcp, chrome-devtools-mcp, cloudflare security-audit-skill) · started 2026-10-21 05:41 ET
@@ -32,11 +31,13 @@ _Stale after 24h with no handoff._
 
 _Format: `- [agent] project · question or blocker · date`_
 
-- _(none)_
+- [codex] real-or-bs · owner override needed for project push, phase stops, and acceptance of partial capture; Vercel deploy already conditionally approved · 2026-10-21
 
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED · 2026-10-21 · codex · real-or-bs · palette and conditional Vercel approval recorded; Phase 0A BLOCKED; local a0d4752, app unbuilt → [handoff](handoffs/2026-10-21_0549_codex_real-or-bs.md)
 
 - VERIFIED · 2026-10-21 · claude-code · ai-coms · EXPERIMENT-1: `experiments/exp-1.md` pushed to main (code BLUE-0321) → [handoff](handoffs/2026-10-21_0544_claude-code_ai-coms.md)
 - VERIFIED · 2026-10-21 · claude · ai-coms · Paperclip company package in paperclip/ (import verified; live test = paperclip/EXPERIMENT.md) → [handoff](handoffs/2026-10-21_0400_claude_ai-coms.md)
