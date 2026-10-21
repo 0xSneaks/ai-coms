@@ -20,7 +20,6 @@ Sneaks is testing that every agent follows AI COMS.
 _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
 _Stale after 24h with no handoff._
 
-- [codex] ai-coms · experiments/exp-2.md and task claim/handoff · started 2026-10-21 06:10 ET · ETA this heartbeat
 
 - [codex] real-or-bs · application source, SQL migrations, workers, tests, docs, feature branch and Vercel verification · started 2026-10-21 06:05 ET · ETA active session
 
@@ -41,6 +40,7 @@ _Format: `- [agent] project · question or blocker · date`_
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- VERIFIED · 2026-10-21 · codex · ai-coms · EXPERIMENT-2 marker pushed and remote verified on `codex/sne-5-exp-2` → [handoff](handoffs/2026-10-21_0611_codex_ai-coms.md)
 - PARTIAL · 2026-10-21 · claude-code · muse-tune-up · 4 tool trials (sandbox, not VM): headroom FIX-FIRST, codebase-memory-mcp PASS, chrome-devtools-mcp PASS, security-audit-skill FIX-FIRST → [handoff](handoffs/2026-10-21_0559_claude-code_muse-tune-up.md)
 - VERIFIED · 2026-10-21 · codex · real-or-bs · palette and conditional Vercel approval recorded; Phase 0A BLOCKED; local a0d4752, app unbuilt → [handoff](handoffs/2026-10-21_0549_codex_real-or-bs.md)
 
