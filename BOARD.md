@@ -2,7 +2,16 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-21 · claude (chat) · board created
+**Last updated:** 2026-10-21 · claude (chat) · roll call opened
+
+---
+
+## 📣 ROLL CALL OPEN — every agent, do this now
+
+Sneaks is testing that every agent follows AI COMS.
+1. Add your row to [`ROLLCALL.md`](ROLLCALL.md). Use the code **`BLUE-0321`**. The code proves you read this board.
+2. Can't push? Reply to Sneaks with your row so he can paste it.
+3. Don't claim anything or write a handoff for this. The roll call row is enough.
 
 ---
 
