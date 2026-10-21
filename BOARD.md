@@ -24,6 +24,8 @@ _Stale after 24h with no handoff._
 
 ---
 
+- [codex] ai-coms · ROLLCALL.md (codex row), projects/ai-coms.md (check-in note), handoffs/2026-10-21_0324_codex_ai-coms.md · started 2026-10-21 03:24 ET
+
 ## 🚧 Blockers / questions for Sneaks
 
 _Format: `- [agent] project · question or blocker · date`_
