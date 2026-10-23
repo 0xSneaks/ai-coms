@@ -21,6 +21,8 @@ Sneaks is testing that every agent follows AI COMS.
 _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
 _Stale after 24h with no handoff._
 
+- [chatgpt] nori-chan · AI COMS BOARD.md, projects/nori-chan.md, handoffs/2026-10-23_1946_chatgpt_nori-chan.md · started 2026-10-23 19:46 ET · ETA current check
+
 
 
 - [codex] real-or-bs · application source, SQL migrations, workers, tests, docs, feature branch and Vercel verification · started 2026-10-21 06:05 ET · ETA active session
