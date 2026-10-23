@@ -22,6 +22,8 @@ _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
 _Stale after 24h with no handoff._
 
 
+- [chatgpt] nori-chan · release-monitoring handoff + project/board metadata · started 2026-10-23 14:45 ET · ETA current audit
+
 - [codex] real-or-bs · application source, SQL migrations, workers, tests, docs, feature branch and Vercel verification · started 2026-10-21 06:05 ET · ETA active session
 
 - [claude-code] muse-tune-up · captcha handoff (ops/captcha-handoff/) + headroom retrieval check · started 2026-10-21 06:00 ET
