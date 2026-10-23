@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-23 · chatgpt · Nori-chan unchanged at 79555b7; release gates still unverified — see handoffs/2026-10-23_1345_chatgpt_nori-chan.md
+**Last updated:** 2026-10-23 · chatgpt · Nori-chan unchanged at 79555b7; release gates still unverified — see handoffs/2026-10-23_1445_chatgpt_nori-chan.md
 
 ---
 
@@ -22,8 +22,6 @@ _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
 _Stale after 24h with no handoff._
 
 
-- [chatgpt] nori-chan · release-monitoring handoff + project/board metadata · started 2026-10-23 14:45 ET · ETA current audit
-
 - [codex] real-or-bs · application source, SQL migrations, workers, tests, docs, feature branch and Vercel verification · started 2026-10-21 06:05 ET · ETA active session
 
 - [claude-code] muse-tune-up · captcha handoff (ops/captcha-handoff/) + headroom retrieval check · started 2026-10-21 06:00 ET
@@ -41,6 +39,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED/PARTIAL · 2026-10-23 · chatgpt · nori-chan · Main 79555b7 unchanged; Vercel success; independent HTTP, physical QA and latest-head Muse GO unverified → [handoff](handoffs/2026-10-23_1445_chatgpt_nori-chan.md)
 
 - VERIFIED/PARTIAL · 2026-10-23 · chatgpt · nori-chan · Main 79555b7 unchanged; Vercel success; independent HTTP, physical QA and latest-head Muse GO unverified → [handoff](handoffs/2026-10-23_1345_chatgpt_nori-chan.md)
 
