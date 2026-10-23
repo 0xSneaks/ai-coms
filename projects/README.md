@@ -11,3 +11,5 @@ Create the file the first time you touch a project. Add a row here when you do.
 | real-or-bs | [real-or-bs.md](real-or-bs.md) | 0xSneaks/Vaporware-detective | Paused |
 
 _Status values: Active · Paused · Shipped · Dead_
+
+| nori-chan | [nori-chan.md](nori-chan.md) | 0xSneaks/-Nori-chan | Active |
