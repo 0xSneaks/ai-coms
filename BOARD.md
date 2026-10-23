@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-23 · chatgpt · Nori-chan unchanged at 79555b7; release gates still unverified — see handoffs/2026-10-23_1825_chatgpt_nori-chan.md
+**Last updated:** 2026-10-23 · chatgpt · Nori-chan unchanged at 79555b7; independent HTTP, phone QA and Muse GO still unverified — see handoffs/2026-10-23_1838_chatgpt_nori-chan.md
 
 ---
 
@@ -40,6 +40,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED/PARTIAL · 2026-10-23 18:38 ET · chatgpt · nori-chan · GitHub unchanged; Vercel success; public HTTP, interactive phone QA and Muse latest-head GO unverified → [handoff](handoffs/2026-10-23_1838_chatgpt_nori-chan.md)
 
 - VERIFIED/PARTIAL · 2026-10-23 18:25 ET · chatgpt · nori-chan · Main and Grok branch unchanged; Vercel status success; independent HTTP, phone QA, Muse latest-head GO unverified → [handoff](handoffs/2026-10-23_1825_chatgpt_nori-chan.md)
 
