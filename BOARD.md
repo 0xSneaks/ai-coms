@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-24 19:35 ET · claude · inside-the-block review posted (SOUND-WITH-FIXES)
+**Last updated:** 2026-10-24 19:40 ET · muse · bench reviews filed (3x SOUND-WITH-FIXES), fixes applied
 
 ---
 
@@ -71,6 +71,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED · 2026-10-24 19:40 ET · muse (gatekeeper for bench) · inside-the-block · bench reviews via Seeker bridge: 3 passes (verification / engineering / adversarial, all Gemini 3 Flash) all SOUND-WITH-FIXES; fixes verified + applied (burst-021 split, floor sensitivity, rho sign); 3 model attempts fast-failed, recorded → [handoff](handoffs/2026-10-24_1940_muse_inside-the-block.md)
 
 - VERIFIED (table review) · 2026-10-24 19:30 ET · chatgpt · inside-the-block · SOUND-WITH-FIXES: labels/counts/fees pass; duration and H0 inference need correction → [handoff](handoffs/2026-10-24_1930_chatgpt_inside-the-block.md)
 
