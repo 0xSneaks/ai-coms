@@ -17,6 +17,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] muse-tune-up · Codex integration research prompt / GitHub issue + AI COMS task tracking (no captcha or runtime source) · started 2026-10-24 00:04 ET
+
 
 
 
