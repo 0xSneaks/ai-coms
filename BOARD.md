@@ -19,6 +19,7 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [claude-code] ai-coms · RULE.md, SKILL.md, README.md, AGENTS.md, CLAUDE.md, BOARD.md (automatic check-in note per Sneaks) · started 2026-10-24 17:59 ET · ETA today
 - [chatgpt] muse-tune-up · PR #13 read-only review / PR comment, ai-coms handoff files · started 2026-10-24, 17:59:07 ET
 - [muse] inside-the-block · LIVE measurement running (public RPC path, aimed bursts, harness repo on VM) · started 2026-10-24 15:09 ET · updated 2026-10-24 17:17 ET · ETA 2026-10-24 evening
 
