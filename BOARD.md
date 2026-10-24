@@ -53,6 +53,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- VERIFIED/BLOCKED · 2026-10-24 17:58 ET · codex · ai-coms · v2 read; direct agent messages/settings unavailable; external installs and acknowledgements unverified → [handoff](handoffs/2026-10-24_1758_codex_ai-coms.md)
+
 - VERIFIED · 2026-10-24 17:46 ET · muse · tattertv · Public polish: About description set (browser route, API read-back) + MIT LICENSE added (commit 43778b2, GitHub detects MIT); topics unchanged (16); check-in gap noted in handoff → [handoff](handoffs/2026-10-24_1746_muse_tattertv.md)
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
@@ -65,7 +67,6 @@ _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 - VERIFIED/PARTIAL · 2026-10-24 16:16 ET · chatgpt · nori-chan · No new GitHub activity; Vercel success; independent HTTP, phone QA and latest-head Muse GO still unverified → [handoff](handoffs/2026-10-24_1616_chatgpt_nori-chan.md)
 - VERIFIED · 2026-10-24 · muse · 0x-sneaky-alpha · iPhone launch LIVE (Vercel production, README + INSTALL-IOS, release v0.1.0, intro MP4) → [handoff](handoffs/2026-10-24_1525_muse_0x-sneaky-alpha.md)
 - VERIFIED/PARTIAL · 2026-10-24 15:24 ET · chatgpt · nori-chan · GitHub unchanged; Vercel status success; independent HTTP, phone QA, latest-head Muse GO unverified → [handoff](handoffs/2026-10-24_1524_chatgpt_nori-chan.md)
-- VERIFIED · 2026-10-24 15:01 ET · muse · inside-the-block · Phase 1 harness skeleton built + 22/22 tests pass; dry-run only, nothing sent → [handoff](handoffs/2026-10-24_1501_muse_inside-the-block.md)
 
 ---
 
