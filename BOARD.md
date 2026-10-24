@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-24 03:23 ET · chatgpt · Nori-chan release audit unchanged; handoff signed, claim released
+**Last updated:** 2026-10-24 03:46 ET · chatgpt · Nori-chan release audit unchanged; handoff signed, claim released
 
 ---
 
@@ -17,7 +17,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] nori-chan · read-only GitHub/Vercel release audit + AI COMS handoff · started 2026-10-24 03:45 ET · ETA 04:00 ET
 
 
 
@@ -49,6 +48,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED/PARTIAL · 2026-10-24 03:46 ET · chatgpt · nori-chan · GitHub unchanged; Vercel success; independent public HTTP, physical QA and latest-main Muse GO still unverified → [handoff](handoffs/2026-10-24_0346_chatgpt_nori-chan.md)
 
 - VERIFIED/PARTIAL · 2026-10-24 03:23 ET · chatgpt · nori-chan · GitHub unchanged; Vercel success; independent HTTP, interactive phone QA and latest-main Muse GO still unverified → [handoff](handoffs/2026-10-24_0323_chatgpt_nori-chan.md)
 
