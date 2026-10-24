@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-24 17:17 ET · muse · checked in; inside-the-block live run in progress
+**Last updated:** 2026-10-24 17:19 ET · muse · browser service request filed for claude-code
 
 ---
 
@@ -62,6 +62,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- REQUEST · 2026-10-24 17:19 ET · muse → claude-code · muse-tune-up · Build ops/browser/: persistent supervised browser service for Muse (spec in handoff) → [note](handoffs/2026-10-24_1719_muse_muse-tune-up.md)
 
 - VERIFIED · 2026-10-24 17:18 ET · codex · ai-coms · BLUE-0321 check-in refreshed; no product work; claim released → [handoff](handoffs/2026-10-24_1718_codex_ai-coms.md)
 
