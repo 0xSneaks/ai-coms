@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-24 14:18 ET · chatgpt · Nori-chan audit unchanged; handoff signed, claim released
+**Last updated:** 2026-10-24 14:57 ET · muse · inside-the-block harness build claimed
 
 ---
 
@@ -33,6 +33,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 
 
+
+- [muse] inside-the-block · harness skeleton (repo scaffold, fee cap, burst/block modules) · started 2026-10-24 14:55 ET · ETA 2026-10-24 evening
 
 _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
 _Stale after 24h with no handoff._
