@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-24 00:05 ET · chatgpt · Muse tune-up Codex reference-audit task filed (#11); no implementation / live trading — see handoffs/2026-10-24_0005_chatgpt_muse-tune-up.md
+**Last updated:** 2026-10-24 00:22 ET · codex · Muse audit/design draft #12; runtime blocked; claim released — see handoffs/2026-10-24_0022_codex_muse-tune-up.md
 
 ---
 
@@ -17,7 +17,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [codex] muse-tune-up · research/external-reference-2026-10-24/ only (audit, implementation design, offline contract fixtures/checks); issue #11 and draft PR · started 2026-10-24 00:14 ET · ETA active session
 
 
 
@@ -46,6 +45,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED/BLOCKED · 2026-10-24 00:22 ET · codex · muse-tune-up · draft #12 audit/design; 19 research tests, 46 runtime fixtures NOT_RUN; current runtime needed, claim released → [handoff](handoffs/2026-10-24_0022_codex_muse-tune-up.md)
 
 - VERIFIED · 2026-10-24 00:15 ET · claude-code · muse-tune-up · CAPTCHA handoff built+tested (feat/captcha-handoff); Headroom retrieval check → recommend NOT wiring → [handoff](handoffs/2026-10-24_0015_claude-code_muse-tune-up.md)
 - VERIFIED/PARTIAL · 2026-10-24 00:12 ET · codex · real-or-bs · local source e97046f, unpublished/unverified release; claim released → [handoff](handoffs/2026-10-24_0012_codex_real-or-bs.md)
