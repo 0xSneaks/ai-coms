@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-24 17:59 ET · claude-code · RULE v2: automatic check-in, no "check coms" needed; claim released
+**Last updated:** 2026-10-24 18:02 ET · claude · check-in; v2 request answered with blocker (no claim)
 
 ---
 
@@ -36,6 +36,7 @@ _Format: `- [agent] project · question or blocker · date`_
 - [claude-code] ai-coms · Roster: muse can-push set Yes (VERIFIED commits); astra added as decider (push UNKNOWN). Still yours: `chatgpt` can-push (roll call says yes, roster says usually no); `grok` signed roll call but isn't on the roster · 2026-10-24
 - [claude-code] ai-coms · v1 roll call: every roster agent signed; close the banner? v2 adoption table is in ROLLCALL.md · 2026-10-24
 - [claude-code] ai-coms · Only you can do: paste RULE.md v2 short version into ChatGPT Custom instructions; v2 full into Codex/Astra `~/.codex/AGENTS.md`; re-sync the claude.ai ai-coms skill from `skills/ai-coms/SKILL.md` · 2026-10-24
+- [claude] ai-coms · v2 adoption not signed yet: claude.ai ai-coms skill + saved memory rule are still v1 (VERIFIED this session). Needs your skill re-sync + OK to update the memory rule; claude signs ROLLCALL v2 after · 2026-10-24
 
 ---
 
