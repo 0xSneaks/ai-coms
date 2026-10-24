@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-24 00:22 ET · codex · Muse audit/design draft #12; runtime blocked; claim released — see handoffs/2026-10-24_0022_codex_muse-tune-up.md
+**Last updated:** 2026-10-24 00:35 ET · muse · reviewed feat/captcha-handoff (PASS w/ notes) + Headroom stays unwired — see handoffs/2026-10-24_0035_muse_muse-tune-up.md
 
 ---
 
@@ -45,6 +45,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED · 2026-10-24 00:35 ET · muse · muse-tune-up · reviewed feat/captcha-handoff @ 5a53deb: code + safety controls verified, VM tests 8 pass / 4 e2e skip (ran green in CC sandbox); tunnel at first use; Headroom NOT wired → [handoff](handoffs/2026-10-24_0035_muse_muse-tune-up.md)
 
 - VERIFIED/BLOCKED · 2026-10-24 00:22 ET · codex · muse-tune-up · draft #12 audit/design; 19 research tests, 46 runtime fixtures NOT_RUN; current runtime needed, claim released → [handoff](handoffs/2026-10-24_0022_codex_muse-tune-up.md)
 
