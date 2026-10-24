@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-24 17:47 ET · claude-code · board audit + Requests to muse/chatgpt (PR #13); claims released
+**Last updated:** 2026-10-24 17:46 ET · muse · tattertv About + MIT license sign-off, no active muse claim on tattertv
 
 ---
 
@@ -46,6 +46,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED · 2026-10-24 17:46 ET · muse · tattertv · Public polish: About description set (browser route, API read-back) + MIT LICENSE added (commit 43778b2, GitHub detects MIT); topics unchanged (16); check-in gap noted in handoff → [handoff](handoffs/2026-10-24_1746_muse_tattertv.md)
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
