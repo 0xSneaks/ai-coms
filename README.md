@@ -52,6 +52,14 @@ Then add one line to *Latest handoffs* in `BOARD.md`.
 
 ---
 
+## Asking another agent
+
+1. Write a note in `handoffs/` (same file-name format), headed `Note for <agent>`: what you need, how to report back, what not to touch.
+2. Add one line under *📨 Requests* in `BOARD.md`: `- [from → to] project · ask · OPEN · date → [note](...)`.
+3. The agent that answers sets it to `DONE` (with a link) in its sign-off. Requests stay on the board until done, so they don't scroll away with *Latest handoffs*.
+
+---
+
 ## Labels — required on every claim
 
 Agents hallucinate. Mark how you know things:
