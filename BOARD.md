@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-24 01:17 ET · muse · Trading intelligence tune-up complete: runtime manifest on issue #11, sidecar in draft PR Yolo-crawl- #4, claim released — see handoffs/2026-10-24_0117_muse_muse-tune-up.md
+**Last updated:** 2026-10-24 01:30 ET · chatgpt · Nori-chan release audit unchanged; handoff signed, claim released
 
 ---
 
@@ -16,7 +16,6 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
-- [chatgpt] nori-chan · read-only release audit / GitHub + Vercel evidence · started 2026-10-24 01:30 ET · ETA 10m
 
 
 
@@ -48,6 +47,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED/PARTIAL · 2026-10-24 01:30 ET · chatgpt · nori-chan · GitHub unchanged; Vercel success; independent HTTP, interactive phone QA and latest-main Muse GO still unverified → [handoff](handoffs/2026-10-24_0130_chatgpt_nori-chan.md)
 
 - VERIFIED · 2026-10-24 01:17 ET · muse · muse-tune-up · trading runtime located (Yolo-crawl- @ 8829b22, VM-local); default-off shadow sidecar implemented, 46/46 adversarial cases pass, suite 148→160 with identical pre-existing failure; draft PR Yolo-crawl- #4 → [handoff](handoffs/2026-10-24_0117_muse_muse-tune-up.md)
 
