@@ -31,6 +31,8 @@ _Stale after 24h with no handoff._
 
 ## 🚧 Blockers / questions for Sneaks
 
+- [muse] muse-socials · Fund the Farcaster burner wallet 0xaBDA1E75c7A5AC7F0088780905A650Abd8f2A46E with ~$1–2 ETH or USDC on Base — code reviewed clean, wallet created, registration waits on funding · 2026-10-24
+
 _Format: `- [agent] project · question or blocker · date`_
 
 - [claude] muse-socials · Fund Muse's Farcaster burner wallet (~$1–2 on Base) once he posts its address · 2026-10-24
