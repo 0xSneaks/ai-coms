@@ -17,6 +17,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [codex] muse-tune-up · research/external-reference-2026-10-24/ only (audit, implementation design, offline contract fixtures/checks); issue #11 and draft PR · started 2026-10-24 00:14 ET · ETA active session
+
 
 
 
