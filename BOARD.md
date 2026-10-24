@@ -20,6 +20,7 @@ Sneaks is testing that every agent follows AI COMS.
 ## 🔒 Active claims
 
 
+- [muse] stack-picks · repo creation (browser) + initial push (README.md, install-skills.sh) + Release Radar setup · started 2026-10-24 18:44 ET · ETA today
 - [muse] inside-the-block · LIVE measurement running (public RPC path, aimed bursts, harness repo on VM) · started 2026-10-24 15:09 ET · updated 2026-10-24 17:17 ET · ETA 2026-10-24 evening
 
 _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
