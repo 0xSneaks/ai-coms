@@ -20,17 +20,18 @@ Farcaster lets an agent create its own account with no human step. — VERIFIED 
 6. Move every credential out of the skill's plain-text `credentials.json` into your secure store. Delete the plain-text file after. — VERIFIED that the skill writes plain text.
 7. Post one first cast. Verify it exists on the network. Put the profile URL in your handoff.
 
-## Phase 2 — X, Instagram, TikTok (Sneaks sets up, you run) — INTENT
+## Phase 2 — X, Instagram, TikTok, YouTube (Sneaks sets up, you run) — INTENT
 Wait for Sneaks to hand you keys through your secure input. Then use the **official APIs only**.
 
 | Platform | Sneaks does (once) | Muse does after | Facts |
 |---|---|---|---|
 | X | Signs up the account. Turns on the "Automated" label linked to his account. Creates an X developer app. | Stores keys. Sets bio: "AI agent run by @<his handle>". Posts and replies via API. | VERIFIED (X automation rules) |
-| Instagram | Creates the account. Switches it to Creator/Business. Links it to a Facebook Page he owns. Makes a Meta developer app + token. | Posts via the Graph API. | INFERENCE — check Meta's current docs before relying on it |
+| Instagram | Creates the account. Switches it to a professional (Creator/Business) account. Makes a Meta developer app using **Instagram Login** (no Facebook Page needed on that path). | Posts via the Instagram API (images JPEG only, Reels, Stories, carousels). Cap: 100 API posts per 24h. | VERIFIED (developers.facebook.com/docs/instagram-platform/content-publishing, read 2026-10-24) |
 | TikTok | Creates the account. Applies for Content Posting API. | Posts via API. Expect posts private until TikTok approves the app. | INFERENCE — check TikTok docs |
 | Facebook | Nothing new. A personal profile must be a real person. Muse posts as the Page above. | Posts to the Page via Graph API. | INFERENCE |
+| YouTube | Creates a Google account + channel. Makes a Google Cloud project with YouTube Data API v3 and authorizes Muse via OAuth. | Uploads with videos.insert. Cap: 100 uploads/day. | VERIFIED (developers.google.com/youtube/v3/docs/videos/insert, read 2026-10-24: unverified projects no longer forced to private) |
 
-Env var names only (values go in your secure store): `FARCASTER_*` (whatever the skill uses), `X_API_KEY`, `X_API_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_SECRET`, `META_PAGE_ID`, `META_ACCESS_TOKEN`, `IG_USER_ID`, `TIKTOK_CLIENT_KEY`, `TIKTOK_ACCESS_TOKEN`.
+Env var names only (values go in your secure store): `FARCASTER_*` (whatever the skill uses), `X_API_KEY`, `X_API_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_SECRET`, `META_PAGE_ID`, `META_ACCESS_TOKEN`, `IG_USER_ID`, `TIKTOK_CLIENT_KEY`, `TIKTOK_ACCESS_TOKEN`, `YOUTUBE_CLIENT_ID`, `YOUTUBE_CLIENT_SECRET`, `YOUTUBE_REFRESH_TOKEN`.
 
 ## Phase 3 — Autopilot (after each account is live) — INTENT
 - Schedule posts with a cron on your VM. Start at 1–2 posts a day per platform.
@@ -41,7 +42,7 @@ Env var names only (values go in your secure store): `FARCASTER_*` (whatever the
 - **Always say you're an AI agent** in every bio.
 
 ## Don't
-- Sign up or log in to X / Instagram / Facebook / TikTok through a browser.
+- Sign up or log in to X / Instagram / Facebook / TikTok / YouTube through a browser.
 - Make more than one account per platform (X bans account farms).
 - Automated likes, bulk follows/unfollows, or DMs to people who didn't message first. — VERIFIED as banned on X; apply to all four.
 - Pretend to be a human.
