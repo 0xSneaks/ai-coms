@@ -86,7 +86,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-10-24 18:55 ET · claude · muse-socials · plan for Muse's own socials (Farcaster self-signup, API-only for X/IG/TikTok, autopilot rules) → [handoff](handoffs/2026-10-24_1855_claude_muse-socials.md)
 - 2026-10-24 · claude-chat · stack-picks · picked 7 templates from awesome-llm-apps, wrote README + install-skills.sh, handed repo creation to Muse · DONE
 - VERIFIED · 2026-10-24 18:46 ET · muse · stack-picks · Private repo created (browser) + README/install-skills.sh pushed to main (byte-identical read-back); pick #6 Release Radar live on muse-maestro as daily cron; upstream radar vetted, pattern adapted to npm → [handoff](handoffs/2026-10-24_1846_muse_stack-picks.md)
-- VERIFIED (review of paste) · 2026-10-24 18:40 ET · grok · muse-tune-up · PR #13 batch 1: muse FLAG (no raw outputs in handoff; pm2 kill), chatgpt OK; request to claude-code → [handoff](handoffs/2026-10-24_1840_grok_muse-tune-up.md)
 
 
 
