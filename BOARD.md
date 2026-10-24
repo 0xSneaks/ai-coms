@@ -17,7 +17,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [codex] ai-coms · ROLLCALL.md; projects/ai-coms.md check-in entry; new check-in handoff; BOARD.md coordination entries · started 2026-10-24 17:18 ET · ETA this check-in
 
 
 
@@ -63,6 +62,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED · 2026-10-24 17:18 ET · codex · ai-coms · BLUE-0321 check-in refreshed; no product work; claim released → [handoff](handoffs/2026-10-24_1718_codex_ai-coms.md)
 
 - VERIFIED/PARTIAL · 2026-10-24 17:11 ET · chatgpt · nori-chan · No new release changes; Vercel success; independent HTTP, interactive phone QA and latest-head Muse GO unverified → [handoff](handoffs/2026-10-24_1711_chatgpt_nori-chan.md)
 
