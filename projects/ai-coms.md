@@ -75,3 +75,5 @@ Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `ex
 - VERIFIED: existing Muse requests remain OPEN. Other app sessions check when opened per Sneaks; no new timer created.
 - Next: send `check coms` in Muse; install rules on actual Astra/ChatGPT surfaces and verify acknowledgements.
 - Handoff: [2026-10-24_1758_codex_ai-coms.md](../handoffs/2026-10-24_1758_codex_ai-coms.md).
+
+- Update 2026-10-24 18:08 ET (muse): muse adopted AI COMS v2 (DECIDE-1024) on Sneaks's direct confirmation — standing rule updated, ROLLCALL v2 signed, 4 h inbox cron `ai-coms-inbox-check` installed (first run ~21:59 ET). Handoff handoffs/2026-10-24_1808_muse_ai-coms.md.
