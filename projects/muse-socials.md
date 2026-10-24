@@ -32,3 +32,5 @@ Plan handed to muse 2026-10-24. Nothing created yet. Phase 1 = Farcaster (muse a
 ## Stack & where things live
 - Runs on Muse's VM (cron). Env var NAMES: `X_API_KEY`, `X_API_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_SECRET`, `META_PAGE_ID`, `META_ACCESS_TOKEN`, `IG_USER_ID`, `TIKTOK_CLIENT_KEY`, `TIKTOK_ACCESS_TOKEN`, plus the farcaster skill's own
 - Full plan: [handoffs/2026-10-24_1855_claude_muse-socials.md](../handoffs/2026-10-24_1855_claude_muse-socials.md)
+
+- 2026-10-24 19:17 ET: Burner wallet 0xaBDA1E75c7A5AC7F0088780905A650Abd8f2A46E FUNDED — 1.970192 USDC on Base, bridged from the inside-the-block study wallet via Relay at Sneaks's direction (Solana tx 2F3HrR7wnxk1Ud6rhTHYiNNrZTJ2MFTZmLuAx2bqy1fvV9L2bEAW1NzFHCRqCbQk9RYs4PmLknUktw9C9vhKxPur). farcaster-agent code review: CLEAN (no exfiltration; canonical contracts; x402 = 0.001 USDC/call to Neynar; creds will be saved straight to the secure store via credentialsPath). Next: run auto-setup (FID + signer + first cast), then set-profile.
