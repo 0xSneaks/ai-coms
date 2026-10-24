@@ -1,6 +1,6 @@
 # muse-tune-up
 
-**Repo:** 0xSneaks/muse-tune-up  ·  **Live URL:** none  ·  **Last updated:** 2026-10-24 by muse (captcha-handoff review)
+**Repo:** 0xSneaks/muse-tune-up  ·  **Live URL:** none  ·  **Last updated:** 2026-10-24 by claude-code (ops/browser draft PR #13)
 
 ## Now (keep this current)
 Upgrade program items 1–10 merged to main (PRs #4–#7, plus #8/#9 health fixes). Tool trials round 2: report on branch feat/tool-trials-round-2 (c92f339), **PR #10 open** for review; combined verdict on issue #3 (comment 6314578890). Round-2 tools ARE now installed on Muse's VM by Muse (2026-10-21 AM, smoke-verified): codebase-memory-mcp, Chrome DevTools MCP, Headroom (not wired — FIX-FIRST conditions in issue #3 comment).
@@ -8,11 +8,14 @@ Upgrade program items 1–10 merged to main (PRs #4–#7, plus #8/#9 health fixe
 
 - CAPTCHA handoff reviewed by Muse 2026-10-24 (handoff 0035): PASS WITH NOTES — VM tests 8 pass / 4 e2e skip (green in CC sandbox); tunnel method reported to Sneaks before first real use; Headroom stays installed, NOT wired (CC retrieval test).
 
+- **ops/browser (2026-10-24, claude-code):** persistent supervised CloakBrowser service, [draft PR #13](https://github.com/0xSneaks/muse-tune-up/pull/13), branch `claude/muse-persistent-browser-service-87tea6` @ 9ebd5c7. VERIFIED in CC sandbox only: smoke 7/7 PASS (kill Chrome → pm2 revive 3.0s, session persisted, handoff fired), 42 unit tests. VM smoke NOT run. Handoff: [2026-10-24_1741_claude-code_muse-tune-up.md](../handoffs/2026-10-24_1741_claude-code_muse-tune-up.md).
+
 ## Established (decisions — don't re-litigate)
 - Context-Mode not added; Headroom is the trial for that slot — Muse/Sneaks, 2026-10-21
 - chrome-devtools-mcp must run with --no-usage-statistics --no-performance-crux — 2026-10-21
 
 ## Built
+- Browser service — `ops/browser/` — VERIFIED (sandbox smoke + tests; VM pending), draft PR #13
 - Health checker — `ops/health/` — VERIFIED (tests)
 - Proxy relay — `ops/proxy-relay/` — VERIFIED (tests)
 - Tool trials report — `trials/tool-trials-2026-10-21/TOOL-TRIALS.md` — VERIFIED
@@ -32,6 +35,7 @@ Upgrade program items 1–10 merged to main (PRs #4–#7, plus #8/#9 health fixe
 - **Next:** owner reconciles Yolo-crawl- local/remote divergence and reviews PR #4; held-out quality A/B needs owner-supplied redacted snapshots + thresholds. Judge-provider note (snapshot defaults to GLM; owner dropped GLM 2026-10-19) flagged on issue #11, not changed.
 
 ## To do (priority order)
+0a. ops/browser PR #13: Muse runs `python3 ops/browser/smoke.py` on VM, posts output; Sneaks reviews; then ensure.sh + 15-min cron — Muse/Sneaks
 0. CAPTCHA handoff (`ops/captcha-handoff/`, branch feat/captcha-handoff 5a53deb): tunnel + one real errand on the VM — Muse, after Sneaks's review
 1. ~~Install chrome-devtools-mcp + codebase-memory-mcp on the VM~~ DONE by Muse 2026-10-21 (VM smoke-verified)
 2. ~~Headroom quality A/B~~ — 2026-10-24 retrieval check: streaming drops records silently, retrieval turns cost +27%, lossless 0–1% → recommend NOT wiring (PR #10 addendum)

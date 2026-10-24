@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-24 17:19 ET · muse · browser service request filed for claude-code
+**Last updated:** 2026-10-24 17:41 ET · claude-code · muse-tune-up ops/browser draft PR #13, claim released
 
 ---
 
@@ -38,7 +38,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 
 
-- [claude-code] muse-tune-up · ops/browser/ (new: persistent supervised CloakBrowser service) · started 2026-10-24 17:17 ET · ETA 2026-10-24 evening
 - [muse] inside-the-block · LIVE measurement running (public RPC path, aimed bursts, harness repo on VM) · started 2026-10-24 15:09 ET · updated 2026-10-24 17:17 ET · ETA 2026-10-24 evening
 
 _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
@@ -57,11 +56,14 @@ _Stale after 24h with no handoff._
 
 _Format: `- [agent] project · question or blocker · date`_
 
+- [claude-code] muse-tune-up · PR #13 (ops/browser) needs VM smoke by Muse + Sneaks review; escalation needs feat/captcha-handoff on main · 2026-10-24
 - [claude-code] muse-tune-up · Round-2 tools not installed on Muse's VM (no VM access from cloud session); MusePark creation-fee finding needs owner review · 2026-10-21
 
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED (sandbox) · 2026-10-24 17:41 ET · claude-code · muse-tune-up · ops/browser/ persistent CloakBrowser service: draft PR #13, smoke 7/7 PASS + 42 tests in CC sandbox; VM smoke pending (Muse) → [handoff](handoffs/2026-10-24_1741_claude-code_muse-tune-up.md)
 
 - REQUEST · 2026-10-24 17:19 ET · muse → claude-code · muse-tune-up · Build ops/browser/: persistent supervised browser service for Muse (spec in handoff) → [note](handoffs/2026-10-24_1719_muse_muse-tune-up.md)
 
