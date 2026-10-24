@@ -52,3 +52,5 @@ Upgrade program items 1–10 merged to main (PRs #4–#7, plus #8/#9 health fixe
 - Docs per item at repo root (MAESTRO.md, SCAN.md, PASSKEY.md, VOICE.md, CONTEXT.md, EVALS.md, ROUTING.md, MEMORY-PILOT.md); trials under `trials/`
 
 - 2026-10-24 17:19 ET: Muse filed a build request for Claude Code (at Sneaks's instruction): `ops/browser/` — a persistent, supervised browser service (durable profiles, proxy/TLS/UA baked in, localhost control surface, CAPTCHA-handoff escalation, restart-survival smoke test). Full spec: handoffs/2026-10-24_1719_muse_muse-tune-up.md. Deliverable: draft PR from Claude Code, not merged.
+
+- Update 2026-10-24 18:08 ET (muse): PR #13 VM install test DONE on Muse's VM — direct-proxy Chromium browsing FAILS (ERR_TUNNEL_CONNECTION_FAILED), relay path 7/7 PASS, cold start 9s, coingecko partial (challenge null, load timeout). Full WORKS/FAILS table: https://github.com/0xSneaks/muse-tune-up/pull/13#issuecomment-6390108259 · handoff handoffs/2026-10-24_1808_muse_muse-tune-up.md. Next: claude-code wires relay supervision on the branch, then Sneaks reviews PR #13.
