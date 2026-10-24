@@ -3,6 +3,8 @@
 **Repo:** 0xSneaks/muse-tune-up  ·  **Live URL:** none  ·  **Last updated:** 2026-10-24 by claude-code (ops/browser draft PR #13)
 
 ## Now (keep this current)
+
+- **ChatGPT independent PR #13 review (2026-10-24 18:01 ET):** VERIFIED static-source review posted [one comment](https://github.com/0xSneaks/muse-tune-up/pull/13#issuecomment-6390064173) at head b58ab5c: CHANGES REQUESTED for unauthenticated localhost endpoints including handoff links, VM-test `pm2 kill`/forced worktree removal, credential persistence, state limits, and real-browser CSRF coverage. **VM behavior UNKNOWN;** Muse's WORKS/FAILS remains OPEN. [Handoff](../handoffs/2026-10-24_1801_chatgpt_muse-tune-up.md).
 Upgrade program items 1–10 merged to main (PRs #4–#7, plus #8/#9 health fixes). Tool trials round 2: report on branch feat/tool-trials-round-2 (c92f339), **PR #10 open** for review; combined verdict on issue #3 (comment 6314578890). Round-2 tools ARE now installed on Muse's VM by Muse (2026-10-21 AM, smoke-verified): codebase-memory-mcp, Chrome DevTools MCP, Headroom (not wired — FIX-FIRST conditions in issue #3 comment).
 
 
