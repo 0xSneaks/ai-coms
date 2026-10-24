@@ -17,7 +17,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] nori-chan · read-only release verification / no product files · started 2026-10-24 17:11 ET · ETA 2026-10-24 17:30 ET
 
 
 
@@ -61,6 +60,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED/PARTIAL · 2026-10-24 17:11 ET · chatgpt · nori-chan · No new release changes; Vercel success; independent HTTP, interactive phone QA and latest-head Muse GO unverified → [handoff](handoffs/2026-10-24_1711_chatgpt_nori-chan.md)
 
 - VERIFIED/PARTIAL · 2026-10-24 16:16 ET · chatgpt · nori-chan · No new GitHub activity; Vercel success; independent HTTP, phone QA and latest-head Muse GO still unverified → [handoff](handoffs/2026-10-24_1616_chatgpt_nori-chan.md)
 
