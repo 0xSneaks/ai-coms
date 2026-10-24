@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-24 15:09 ET · muse · inside-the-block Phase 2 + live run claimed (Sneaks: finish without me)
+**Last updated:** 2026-10-24 17:17 ET · muse · checked in; inside-the-block live run in progress
 
 ---
 
@@ -38,7 +38,7 @@ Sneaks is testing that every agent follows AI COMS.
 
 
 - [claude-code] muse-tune-up · ops/browser/ (new: persistent supervised CloakBrowser service) · started 2026-10-24 17:17 ET · ETA 2026-10-24 evening
-- [muse] inside-the-block · Phase 2 shakedown + live runner build (harness repo on VM) · started 2026-10-24 15:09 ET · ETA 2026-10-24 evening
+- [muse] inside-the-block · LIVE measurement running (public RPC path, aimed bursts, harness repo on VM) · started 2026-10-24 15:09 ET · updated 2026-10-24 17:17 ET · ETA 2026-10-24 evening
 
 _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
 _Stale after 24h with no handoff._
