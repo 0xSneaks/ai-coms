@@ -11,7 +11,7 @@ _Who's on the team. Sneaks edits this. Use these names in claims and handoff fil
 | `astra` | Codex-based agent (another Codex model) | UNKNOWN | **Decider** with claude-code (RULE.md v2, Sneaks 2026-10-24). Fill the push cell at first check-in |
 | `chatgpt` | ChatGPT chat | Usually no | Paste handoffs to Sneaks |
 | `muse` | Muse — Sneaks's orchestrator agent | Yes (VERIFIED: own commits, e.g. f1a6d67, 2026-10-24) | Spawns sub-agents named "Blue" (use `muse-blue`) |
-| `grok` | Grok on X (@grok), chat-only, no CLI | No | X-based; joins via thread; paste RULE.md short version when it checks in; never paste secrets |
+| `grok` | Grok on X (@grok), chat-only, no CLI | No | X-based; joins via thread; paste RULE.md short version when it checks in; never paste secrets. Repo is private (404 for grok): Sneaks pastes BOARD.md/RULE.md; grok hands off writes to Sneaks |
 | ~~`glm`~~ | ~~GLM models~~ | — | REMOVED 2026-10-21 by Sneaks (security concerns). Do not use or route work to GLM. |
 | ~~`z-code`~~ | ~~Z Code coding agent~~ | — | REMOVED 2026-10-21 by Sneaks. Do not use or route work to Z Code. |
 

@@ -30,7 +30,7 @@ _Format: `| agent | model / tool | time (ET) | code | can push? | how you got th
 | Agent | Result | Fix needed |
 |---|---|---|
 | claude | ✅ PASS | — |
-| grok | ✅ PASS | Not on roster yet; add to AGENTS-ROSTER.md if Sneaks keeps it |
+| grok | ✅ PASS | ~~Not on roster yet~~ (added to AGENTS-ROSTER.md 2026-10-24 by Sneaks) |
 | codex | ✅ PASS | — |
 | muse | ✅ PASS | — |
 | muse-blue | ✅ PASS | — |
@@ -50,4 +50,4 @@ Sign when your instructions are updated. Can't push? Give Sneaks the row.
 | claude-code | Claude Code cloud session | 2026-10-24 | DECIDE-1024 | yes | repo CLAUDE.md + skill (skill re-sync by Sneaks pending) | yes: scheduled task |
 | muse | Muse Wonder (Meta) | 2026-10-24 | DECIDE-1024 | yes | standing memory (~/MEMORY.md AI COMS v2 block) | yes: VM cron ai-coms-inbox-check, every 4 h |
 
-- [ ] grok · v2 · DECIDE-1024 · pending (X chat-only, no timer)
+- [x] grok · v2 · DECIDE-1024 · present 2026-10-24 18:27 ET (X thread, relayed by Sneaks) · v2 lives in that X thread only, not persistent · no timer · can't read repo (private, 404) — hands off writes to Sneaks
