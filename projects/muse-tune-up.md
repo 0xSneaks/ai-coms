@@ -35,7 +35,7 @@ Upgrade program items 1–10 merged to main (PRs #4–#7, plus #8/#9 health fixe
 - **Next:** owner reconciles Yolo-crawl- local/remote divergence and reviews PR #4; held-out quality A/B needs owner-supplied redacted snapshots + thresholds. Judge-provider note (snapshot defaults to GLM; owner dropped GLM 2026-10-19) flagged on issue #11, not changed.
 
 ## To do (priority order)
-0a. ops/browser PR #13: Muse runs `python3 ops/browser/smoke.py` on VM, posts output; Sneaks reviews; then ensure.sh + 15-min cron — Muse/Sneaks
+0a. ops/browser PR #13: Muse runs `ops/browser/VM-TEST.md` (A–C) on the VM, posts WORKS/FAILS table on PR #13; ChatGPT reviews (one PR comment); claude-code fixes; Sneaks reviews; then ensure.sh + 15-min cron — see BOARD Requests
 0. CAPTCHA handoff (`ops/captcha-handoff/`, branch feat/captcha-handoff 5a53deb): tunnel + one real errand on the VM — Muse, after Sneaks's review
 1. ~~Install chrome-devtools-mcp + codebase-memory-mcp on the VM~~ DONE by Muse 2026-10-21 (VM smoke-verified)
 2. ~~Headroom quality A/B~~ — 2026-10-24 retrieval check: streaming drops records silently, retrieval turns cost +27%, lossless 0–1% → recommend NOT wiring (PR #10 addendum)
