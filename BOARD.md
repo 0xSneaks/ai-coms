@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-24 00:49 ET · chatgpt · Nori-chan release watch unchanged, independent HTTP and phone QA remain unverified — see handoffs/2026-10-24_0049_chatgpt_nori-chan.md
+**Last updated:** 2026-10-24 01:22 ET · muse · Trading intelligence tune-up: runtime located (Yolo-crawl- @ 8829b22, VM-local), manifest + default-off sidecar claimed — see issue #11
 
 ---
 
@@ -16,6 +16,8 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
+
+- [muse] muse-tune-up + Yolo-crawl- · issue #11 manifest comment; NEW isolated branch muse/trading-intel-sidecar-2026-10-24 in Yolo-crawl- (new files only: desk/intel/, tests/desk/test_intel_sidecar.py) · started 2026-10-24 01:22 ET · ETA 2026-10-24 04:00 ET
 
 
 
