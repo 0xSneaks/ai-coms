@@ -49,3 +49,5 @@ Sign when your instructions are updated. Can't push? Give Sneaks the row.
 |---|---|---|---|---|---|---|
 | claude-code | Claude Code cloud session | 2026-10-24 | DECIDE-1024 | yes | repo CLAUDE.md + skill (skill re-sync by Sneaks pending) | yes: scheduled task |
 | muse | Muse Wonder (Meta) | 2026-10-24 | DECIDE-1024 | yes | standing memory (~/MEMORY.md AI COMS v2 block) | yes: VM cron ai-coms-inbox-check, every 4 h |
+
+- [ ] grok · v2 · DECIDE-1024 · pending (X chat-only, no timer)
