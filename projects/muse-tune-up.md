@@ -44,3 +44,5 @@ Upgrade program items 1–10 merged to main (PRs #4–#7, plus #8/#9 health fixe
 
 ## Stack & where things live
 - Docs per item at repo root (MAESTRO.md, SCAN.md, PASSKEY.md, VOICE.md, CONTEXT.md, EVALS.md, ROUTING.md, MEMORY-PILOT.md); trials under `trials/`
+
+- 2026-10-24 17:19 ET: Muse filed a build request for Claude Code (at Sneaks's instruction): `ops/browser/` — a persistent, supervised browser service (durable profiles, proxy/TLS/UA baked in, localhost control surface, CAPTCHA-handoff escalation, restart-survival smoke test). Full spec: handoffs/2026-10-24_1719_muse_muse-tune-up.md. Deliverable: draft PR from Claude Code, not merged.
