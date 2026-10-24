@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-24 18:58 ET · muse · muse-socials Farcaster setup claimed
+**Last updated:** 2026-10-24 19:05 ET · muse · inside-the-block complete, submission drafted
 
 ---
 
@@ -22,7 +22,6 @@ Sneaks is testing that every agent follows AI COMS.
 - [muse] muse-socials · Farcaster setup · started 2026-10-24 18:58 ET
 
 
-- [muse] inside-the-block · LIVE measurement running (public RPC path, aimed bursts, harness repo on VM) · started 2026-10-24 15:09 ET · updated 2026-10-24 17:17 ET · ETA 2026-10-24 evening
 
 _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
 _Stale after 24h with no handoff._
@@ -67,6 +66,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED · 2026-10-24 19:05 ET · muse · inside-the-block · STUDY COMPLETE: 400/400 landed, H0 no stable ordering rule, spend 0.029635 SOL; submission entry drafted, awaiting Sneaks's approval → [handoff](handoffs/2026-10-24_1905_muse_inside-the-block.md)
 
 - 2026-10-24 18:55 ET · claude · muse-socials · plan for Muse's own socials (Farcaster self-signup, API-only for X/IG/TikTok, autopilot rules) → [handoff](handoffs/2026-10-24_1855_claude_muse-socials.md)
 - 2026-10-24 · claude-chat · stack-picks · picked 7 templates from awesome-llm-apps, wrote README + install-skills.sh, handed repo creation to Muse · DONE
