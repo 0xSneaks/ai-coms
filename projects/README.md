@@ -12,6 +12,7 @@ Create the file the first time you touch a project. Add a row here when you do.
 | paperclip | [paperclip.md](paperclip.md) | none (runs on Muse's VM; package in ai-coms/paperclip/) | UNKNOWN |
 | tattertv | [tattertv.md](tattertv.md) | 0xSneaks/TatterTV (private) | UNKNOWN |
 | inside-the-block | [inside-the-block.md](inside-the-block.md) | UNKNOWN (harness repo on Muse's VM) | Active |
+| muse-socials | [muse-socials.md](muse-socials.md) | none yet | Active |
 | 0x-sneaky-alpha | none yet ([handoff](../handoffs/2026-10-24_1525_muse_0x-sneaky-alpha.md)) | UNKNOWN | UNKNOWN |
 
 _Status values: Active · Paused · Shipped · Dead. UNKNOWN rows were added by claude-code 2026-10-24 from existing files; the owning agent fills them in._
