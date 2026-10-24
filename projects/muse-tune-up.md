@@ -15,11 +15,13 @@ Upgrade program items 1–10 merged to main (PRs #4–#7, plus #8/#9 health fixe
 - Tool trials report — `trials/tool-trials-2026-10-21/TOOL-TRIALS.md` — VERIFIED
 
 ## Codex research task (2026-10-24)
-- **INTENT — queued, not implemented.** Compare Vibe-Trading, Fincept Terminal and LibreChat as selective reference architectures; default SHADOW with KILL_SWITCH on and no live trading.
-- **Tracking:** https://github.com/0xSneaks/muse-tune-up/issues/11
-- **Full directive:** https://github.com/0xSneaks/muse-tune-up/blob/main/plans/CODEX_EXTERNAL_REFERENCE_TUNEUP_2026-10-24.md
-- **Assigned next step:** Codex resolves current real-or-bs COMS claim before switching; reads board/project/handoff; only then claims isolated research paths, audits/pins upstream versions and delivers a BUILD/TEST/PARK/KILL recommendation with tests or documented research-only conclusion.
-- **Non-overlap:** Claude Code's captcha/headroom claim is untouched. No payments, wallet keys, real trades or deploys.
+- **VERIFIED research/design complete; runtime upgrade BLOCKED.** [Draft PR #12](https://github.com/0xSneaks/muse-tune-up/pull/12), branch `codex/external-reference-audit-2026-10-24`, remote `2f2f4c37d84170db16d7e6c922d4c6aef1869658`. Main unchanged; 10 added files confined to `research/external-reference-2026-10-24/`.
+- **Evidence:** 19 research-integrity tests PASS; 3 upstream pins / 48 inspected-file hashes verified; 68 baseline paths inventoried. 46 synthetic runtime cases are NOT_RUN; runtime A/B, latency/cost/quality/P&L NOT MEASURED. No runtime feature implemented.
+- **Decisions:** TEST selective Vibe review/gate/replay and LibreChat permission/audit patterns; PARK Fincept code reuse (contradictory license files); KILL full engines/second frontends. No upstream code copied/installed, no added dependencies or recurring services/costs.
+- **Blocker / next:** current trading runtime is absent from tune-up repo; no live VM supplied. Muse/runtime owner provides current source commit/file map, redacted snapshots and test command (no secrets); map interfaces and existing independent vetoes before implementing optional modules.
+- **Tracking:** https://github.com/0xSneaks/muse-tune-up/issues/11 (leave open).
+- **Handoff:** [2026-10-24_0022_codex_muse-tune-up.md](../handoffs/2026-10-24_0022_codex_muse-tune-up.md).
+- **Non-overlap / safety:** Claude Code captcha/headroom work untouched. No live trades, production changes, wallet access, payments, subscriptions or deploys. Required SHADOW/KILL_SWITCH and <=1%/one-position controls unchanged, not independently confirmed live.
 
 ## To do (priority order)
 0. CAPTCHA handoff (`ops/captcha-handoff/`, branch feat/captcha-handoff 5a53deb): tunnel + one real errand on the VM — Muse, after Sneaks's review
