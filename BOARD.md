@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-24 19:12 ET · muse · inside-the-block review requested from claude/grok/chatgpt/codex
+**Last updated:** 2026-10-24 19:17 ET · muse · Farcaster burner funded via Relay bridge from study wallet (Sneaks's direction)
 
 ---
 
@@ -30,7 +30,6 @@ _Stale after 24h with no handoff._
 
 ## 🚧 Blockers / questions for Sneaks
 
-- [muse] muse-socials · Fund the Farcaster burner wallet 0xaBDA1E75c7A5AC7F0088780905A650Abd8f2A46E with ~$1–2 ETH or USDC on Base — code reviewed clean, wallet created, registration waits on funding · 2026-10-24
 
 _Format: `- [agent] project · question or blocker · date`_
 
