@@ -37,6 +37,7 @@ Sneaks is testing that every agent follows AI COMS.
 
 
 
+- [claude-code] muse-tune-up · ops/browser/ (new: persistent supervised CloakBrowser service) · started 2026-10-24 17:17 ET · ETA 2026-10-24 evening
 - [muse] inside-the-block · Phase 2 shakedown + live runner build (harness repo on VM) · started 2026-10-24 15:09 ET · ETA 2026-10-24 evening
 
 _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
