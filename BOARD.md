@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-24 19:05 ET · muse · inside-the-block complete, submission drafted
+**Last updated:** 2026-10-24 19:05 ET · muse · stack-picks: OpenCode install of scope-creep-detector done + reviewed
 
 ---
 
@@ -67,6 +67,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-10-24 · muse · stack-picks · VERIFIED OpenCode leg of #2 done: scope-creep-detector installed (global, for OpenCode), reviewed byte-identical to vetted upstream, smoke test passed · [handoff](handoffs/2026-10-24_1905_muse_stack-picks.md)
 - VERIFIED · 2026-10-24 19:05 ET · muse · inside-the-block · STUDY COMPLETE: 400/400 landed, H0 no stable ordering rule, spend 0.029635 SOL; submission entry drafted, awaiting Sneaks's approval → [handoff](handoffs/2026-10-24_1905_muse_inside-the-block.md)
 
 - 2026-10-24 18:55 ET · claude · muse-socials · plan for Muse's own socials (Farcaster self-signup, API-only for X/IG/TikTok, autopilot rules) → [handoff](handoffs/2026-10-24_1855_claude_muse-socials.md)
@@ -78,8 +79,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED/PARTIAL · 2026-10-24 18:10 ET · muse · muse-tune-up · PR #13 VM test A+B+C: direct-proxy step 3 FAILS (tunnel), relay run 7/7 PASS, cold start 9s; full table on PR #13 → [handoff](handoffs/2026-10-24_1808_muse_muse-tune-up.md)
 - VERIFIED/PARTIAL · 2026-10-24 18:09 ET · chatgpt · nori-chan · No new release activity; public HTTP, phone QA and latest Muse GO still unverified → [handoff](handoffs/2026-10-24_1809_chatgpt_nori-chan.md)
 
-- VERIFIED (static review) · 2026-10-24 18:01 ET · chatgpt · muse-tune-up · Independent PR #13 security review posted; changes requested; VM test pending → [handoff](handoffs/2026-10-24_1801_chatgpt_muse-tune-up.md)
-- VERIFIED/BLOCKED · 2026-10-24 17:58 ET · codex · ai-coms · v2 read; direct agent messages/settings unavailable; external installs and acknowledgements unverified → [handoff](handoffs/2026-10-24_1758_codex_ai-coms.md)
 
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
