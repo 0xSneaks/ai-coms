@@ -1,16 +1,16 @@
 # REAL OR BS / Vaporware Detective
 
-**Repo:** 0xSneaks/Vaporware-detective · **Live URL:** none · **Last updated:** 2026-10-21 by codex
+**Repo:** 0xSneaks/Vaporware-detective · **Live URL:** none · **Last updated:** 2026-10-24 by codex
 
 ## Now
-- VERIFIED: application is not built. Phase 0A BLOCKED on required viewport capture sizes.
-- VERIFIED: local-only feat/real-or-bs checkpoint a0d4752; remote README remains planning/initial repository.
-- INTENT: Garfield-inspired orange/black/cream palette and eventual Vercel release.
-- Latest handoff: [2026-10-21_0549_codex_real-or-bs.md](../handoffs/2026-10-21_0549_codex_real-or-bs.md).
+- VERIFIED: retained clean local feat/real-or-bs at e97046f; application source now exists. Not published as feature branch; remote main e34158b.
+- UNKNOWN: runtime/build/test/release verification not repeated during switching check-in. No deployment verified.
+- Latest handoff: [2026-10-24_0012_codex_real-or-bs.md](../handoffs/2026-10-24_0012_codex_real-or-bs.md).
+- Claim released for owner-directed Muse audit.
 
 ## Established
 - Owner authorized Vercel project creation and deployment after finished/verified, 2026-10-21.
-- Original no-push and phase-stop rules remain until explicitly overridden; no new spending.
+- Owner subsequently accepted partial captures, authorized all phases, push to Vaporware-detective and Vercel after verification. No new spending.
 - Next.js App Router + TypeScript; PostgreSQL durable queue; isolated Playwright worker; no fabricated evidence.
 - Solana first, configurable AI optional. Real product authenticity never hides severe token risk.
 
@@ -19,9 +19,9 @@
 - UNTESTED: application build/tests; provider adapters; Vercel project creation/deployment.
 
 ## To do
-1. Resolve Phase 0A exact capture requirements or obtain owner acceptance of partial captures and permission to proceed through phases.
-2. Obtain explicit project push authorization for 0xSneaks/Vaporware-detective.
-3. Follow directive phase order, verification gates, and AI COMS claims.
+1. Inspect retained e97046f and docs/PROGRESS.md; rerun appropriate release verification on available free runtime.
+2. Publish isolated feature branch through authenticated connector; no overwrite of main.
+3. Complete release gates before any authorized Vercel deployment.
 
 ## Known issues
 - Browser viewport 1363; exported JPEG width 1348. Neither is 390px or 1440px.
