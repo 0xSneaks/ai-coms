@@ -10,7 +10,7 @@ Data and design are sound. **The entry is not submittable as drafted:** the head
 
 - **Proof:** INFERENCE-grade only. I did not see the dataset, repo, or harness output — everything below is computed from the §7 rho table as posted (26 qualifying groups, 376 tx). Script: re-runnable from the table; numbers are Monte Carlo (40k draws), assuming fragments are random subsets of the 16 send slots.
 - **Contradictions:** 2 (headline vs pooled data; "noise" sentence vs expected false-positive rate). Details in §B.
-- **Risks:** headline gets torn up under Analysis-25; H1 not actually tested (Design-35); custom ed25519 + untested Compose (Engineering-15); payout to an agent-VM hot wallet.
+- **Risks:** headline gets torn up under Analysis-25; H1 not actually tested and Jito bundle lane unmeasured (Design-35); custom ed25519 + untested Compose (Engineering-15); payout to an agent-VM hot wallet.
 
 ## A. Scorecard vs weights (INFERENCE — my read as a judge)
 
@@ -43,6 +43,7 @@ This keeps the pre-registered H0 verdict intact and labeled, adds a finding judg
 5. **Fragment floor (soft spot 2).** Post-hoc, but conservative: per the rates above, small fragments cross the threshold by chance far more often, so the floor reduces false "ordered" verdicts rather than biasing toward no-pattern. Show it: verdict table at floor 5 / 8 / 12 / 16.
 6. **Client families (soft spot 3).** Mislabels barely move the headline (every family is mostly no-pattern) but they kill any H3 claim. Agave = 1 validator; say H3 is effectively untested. Name Jito BAM / FireBAM nodes explicitly — a different block-assembly path a reviewer will ask about (INFERENCE that it matters).
 7. **Fee ties.** rho_fee has 4-way ties (4 tiers × 4). State tie handling; the 0.7 bar is not the same test for rho_fee and rho_send.
+8. **Jito bundle lane not measured** (added 19:31 at Sneaks's direction). 14 of 22 validators are jito-solana, but every probe was a plain priority-fee transaction — no bundles, no tips. Jito's auction gives bundles guaranteed internal order and a shot at the top of the block, so on those validators the study measured only the regular path, not Jito's ordering mechanism. A judge will ask "why not bundles vs plain fees?" Fix (text, required): state plainly that the study covers the non-bundle path only and that bundle ordering is out of scope. Optional stronger fix: a small bundle-vs-plain comparison on a few jito-solana leaders (e.g. tipped bundle + same-fee plain txs in one window) — needs tip spend on top of fees ⚠️ Sneaks's call; the 0.05 SOL cap has ~0.02 SOL headroom (INFERENCE from posted spend), size the tip budget before any send.
 
 ## D. Must-fix text in SUBMISSION.md / REPORT.md
 
@@ -60,6 +61,7 @@ This keeps the pre-registered H0 verdict intact and labeled, adds a finding judg
 - Verdict SOUND-WITH-FIXES; recommended reframe in §B — not approved by Sneaks.
 
 ## Next (start here)
+0. muse: add the §C8 non-bundle-path scope line to REPORT.md + SUBMISSION.md (text only).
 1. muse: add the pooled exploratory analysis (§B) + floor sensitivity (§C5) + within-slot sensitivity (§C3) to `harness analyze`; regenerate.
 2. muse: apply §C1/§C2 text and §D fixes to REPORT.md + SUBMISSION.md.
 3. Wait for grok/chatgpt/codex passes, then Sneaks approves.
@@ -67,7 +69,7 @@ This keeps the pre-registered H0 verdict intact and labeled, adds a finding judg
 ## Don't
 - Don't submit the current SUBMISSION.md headline.
 - Don't present the pooled test as pre-registered.
-- Don't send new transactions to "fix" C1 without Sneaks's OK (spend).
+- Don't send new transactions to "fix" C1, and don't run the §C8 bundle test, without Sneaks's OK (spend + tips).
 
 ## ⚠️ High-risk
 - Payout address = the measurement wallet, whose key lives on Muse's VM. Payout lands in an agent-held hot wallet. Sneaks: confirm that, or swap in a wallet you hold.
