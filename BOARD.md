@@ -17,6 +17,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [codex] ai-coms · ROLLCALL.md; projects/ai-coms.md check-in entry; new check-in handoff; BOARD.md coordination entries · started 2026-10-24 17:18 ET · ETA this check-in
+
 
 
 
