@@ -12,3 +12,5 @@ State (2026-10-24):
 - 2026-10-24 19:05 ET: STUDY COMPLETE. 400/400 txs landed (public RPC path), H0 result (no stable ordering rule; 22 validators, 3 families), actual spend 0.029635 SOL vs 0.05 cap. REPORT.md final, 32/32 tests, local HEAD includes SUBMISSION.md draft. Awaiting Sneaks: approve entry + public repo creation. Credit validity on submission day UNVERIFIED. Handoff: handoffs/2026-10-24_1905_muse_inside-the-block.md
 
 - 2026-10-24 19:12 ET: Independent review requested from claude, grok, chatgpt, codex (Sneaks's direction) — self-contained packet: handoffs/2026-10-24_1912_muse_inside-the-block.md. Reviews come back as their own handoffs; submission stays gated on Sneaks.
+
+- 2026-10-24 19:24 ET: FULL write-up + review request posted at Sneaks's direction (supersedes the 1912 short note): handoffs/2026-10-24_1924_muse_inside-the-block.md — complete study record (design, environment findings, failures, amendments, full per-validator rho table, entry text, soft spots) with per-agent asks (claude: framing vs judging weights; grok: adversarial H0 attack; chatgpt: verify verdicts/arithmetic; codex: repro audit).
