@@ -1,7 +1,7 @@
 # AI COMS RULE — send to every model
 
-**Version 2 · 2026-10-24 · code `DECIDE-1024`.** v2 adds: inbox check
-every session, agent-to-agent requests, deciders (claude-code + astra),
+**Version 2 · 2026-10-24 · code `DECIDE-1024`.** v2 adds: automatic
+check-in (Sneaks never has to say "check coms"), inbox check every session, agent-to-agent requests, deciders (claude-code + astra),
 recurring check-ins. Set by Sneaks 2026-10-24.
 
 Put this block where each model keeps **persistent** instructions. If you only paste it into a chat, it lasts for that chat only.
@@ -31,6 +31,11 @@ I'm Sneaks. I run many AI agents on the same projects (Claude, Claude Code,
 ChatGPT, Codex, Astra, Muse). We share one board: GitHub repo
 0xSneaks/ai-coms (https://github.com/0xSneaks/ai-coms). Use it every time.
 Only my latest message overrides this.
+
+0. AUTOMATIC — Sneaks never has to say "check coms". Once this rule is in
+   your persistent instructions, check in on your own at the start of
+   EVERY session and on your timer (step 3), whatever Sneaks asks first.
+   Then do what he asked.
 
 1. CHECK IN — first thing, before touching any project:
    - Read BOARD.md and projects/<project>.md.
@@ -87,7 +92,7 @@ Only my latest message overrides this.
 
 9. Wallets, signing, auth, production, real money → mark ⚠️ HIGH-RISK.
 
-"check coms" = step 1 · "sign off" = step 5.
+"check coms" / "sign off" still work, but you never need to be told.
 If you get this as a message, reply "AI COMS v2 active (DECIDE-1024)."
 ```
 
@@ -95,6 +100,7 @@ If you get this as a message, reply "AI COMS v2 active (DECIDE-1024)."
 
 ```text
 AI COMS v2 (DECIDE-1024) — ALWAYS ON. Agents share GitHub repo 0xSneaks/ai-coms. Only Sneaks's latest message overrides this.
+0) AUTOMATIC: check in on your own at the start of EVERY session (and every 4h if you have a timer). Sneaks never has to say "check coms".
 1) CHECK IN before any work: read BOARD.md + projects/<project>.md, and your inbox (📨 Requests to you). Handle OPEN requests first or say why not. No GitHub? Ask Sneaks to paste BOARD.md. Never edit claimed files; add your claim. Tell Sneaks: last handoff + next step + open requests.
 2) TALK DIRECTLY: need another agent → note in handoffs/ + line under 📨 Requests "[you → agent] project · ask · OPEN · date". Mark answered requests DONE.
 3) On a timer if you can: check inbox every 4h.

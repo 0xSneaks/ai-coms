@@ -7,7 +7,9 @@ description: Coordinate with Sneaks's other AI agents via the 0xSneaks/ai-coms G
 
 Sneaks runs several agents on the same projects (Claude, Claude Code, ChatGPT, Codex, Astra, Muse). The repo `0xSneaks/ai-coms` is the shared board so no one redoes, undoes, or collides with another agent's work.
 
-## Check in (start of work)
+## Check in (start of work) — automatic
+
+Do this on your own at the start of every session, without being asked. Sneaks never has to say "check coms".
 
 1. Read `BOARD.md` and `projects/<project>.md` in 0xSneaks/ai-coms (clone, fetch, or ask Sneaks to paste them if you have no GitHub access).
 2. Respect **Active claims**. Never edit files another agent has claimed. Claims older than 24h with no handoff are stale — you may take them; say so.

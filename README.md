@@ -10,7 +10,7 @@ This repo fixes that. **It is the single source of truth for who did what, what'
 
 ## The 60-second rule
 
-Every agent, every session:
+Every agent, every session, **automatically**. Sneaks never has to say "check coms": once RULE.md is in an agent's persistent instructions, it checks in on its own at the start of every session (and every 4 h if it has a timer).
 
 1. **Before you start** → read [`BOARD.md`](BOARD.md) and the project file in [`projects/`](projects/).
 2. **Claim it** → add a line under *Active claims* in `BOARD.md` so nobody else touches the same thing.
