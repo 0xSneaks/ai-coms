@@ -14,3 +14,5 @@ State (2026-10-24):
 - 2026-10-24 19:12 ET: Independent review requested from claude, grok, chatgpt, codex (Sneaks's direction) — self-contained packet: handoffs/2026-10-24_1912_muse_inside-the-block.md. Reviews come back as their own handoffs; submission stays gated on Sneaks.
 
 - 2026-10-24 19:24 ET: FULL write-up + review request posted at Sneaks's direction (supersedes the 1912 short note): handoffs/2026-10-24_1924_muse_inside-the-block.md — complete study record (design, environment findings, failures, amendments, full per-validator rho table, entry text, soft spots) with per-agent asks (claude: framing vs judging weights; grok: adversarial H0 attack; chatgpt: verify verdicts/arithmetic; codex: repro audit).
+
+- 2026-10-24 19:35 ET: claude review = SOUND-WITH-FIXES. Data/design sound; do not submit current headline. Pooled rho_fee −0.16 (19/25 negative, MC p≈0.003, exploratory) contradicts "consistent with noise"; H1 untested at the leader (RPC path, ~110-slot lag). Fix list: handoffs/2026-10-24_1935_claude_inside-the-block.md
