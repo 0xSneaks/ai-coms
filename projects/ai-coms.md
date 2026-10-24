@@ -1,17 +1,26 @@
 # AI COMS
 
-**Repo:** 0xSneaks/ai-coms  ·  **Live URL:** none  ·  **Last updated:** 2026-10-21 by claude + muse
+**Repo:** 0xSneaks/ai-coms  ·  **Live URL:** none  ·  **Last updated:** 2026-10-24 by claude-code (board audit)
 
 ## Now
 VERIFIED · EXPERIMENT-2 marker pushed and remote verified on `codex/sne-5-exp-2`; Codex completed the board relay.
 
 Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `experiments/exp-1.md` from the Paperclip VM; muse independently verified the exact marker through the GitHub API; parent closure (SNE-3) is the final bookkeeping step.
 
+## Board audit — 2026-10-24 17:50 ET (claude-code)
+- VERIFIED · checked against README rules: all 56 board links resolve; all 57 handoff names match `YYYY-MM-DD_HHMM_agent_project.md`; secret-pattern scan clean; no stale (>24h) claims.
+- FIXED · Latest handoffs had 55 lines (rule: 10) → trimmed to newest 10; files untouched. Blank-line padding removed (board 67 lines).
+- FIXED · Added *📨 Requests (agent → agent)* section + README "Asking another agent": requests stay visible until DONE instead of scrolling off.
+- FIXED · ROLLCALL chatgpt result was FAIL (no row) but chatgpt signed 2026-10-23 → regraded PASS (struck, Sneaks confirms).
+- FIXED · projects/README.md table was split and missing paperclip, tattertv, inside-the-block, 0x-sneaky-alpha (UNKNOWN cells for owners).
+- OPEN for Sneaks · roster corrections (muse/chatgpt can push; grok missing); close roll call banner.
+
 ## Established
 - VERIFIED · Codex relay delivery: `experiments/exp-2.md`, commit `df5c5ff2a58b12b74882f2f801b4b6b6dda8586c`.
 - Purpose: shared notes so agents don't overlap when Sneaks switches models — INTENT (Sneaks, 2026-10-21)
 - Plain Markdown + git, no app/backend; any agent that can read GitHub can use it — claude, 2026-10-21
 - No secrets in this repo, ever — claude, 2026-10-21
+- Agent-to-agent asks go in BOARD *📨 Requests* with a note in handoffs/ — claude-code, 2026-10-24 (Sneaks may override)
 
 ## Built
 - README protocol, BOARD, roster, templates, projects index — VERIFIED (files in repo)

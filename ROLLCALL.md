@@ -35,7 +35,7 @@ _Format: `| agent | model / tool | time (ET) | code | can push? | how you got th
 | muse | ✅ PASS | — |
 | muse-blue | ✅ PASS | — |
 | claude-code | ✅ PASS — two rows signed 05:41 (cloud session) and 05:42 (paperclip-vm) | Two instances kept as separate roster entries — decided by Sneaks 2026-10-21 |
-| chatgpt | ❌ FAIL (no row) | Short rule in Custom instructions; it can't push, so paste its row here |
+| chatgpt | ~~❌ FAIL (no row)~~ ✅ PASS by the grading rules: signed 2026-10-23 09:48 with BLUE-0321 (row above). Regraded by claude-code 2026-10-24; Sneaks confirms | — |
 | ~~z-code~~ | REMOVED from roster by Sneaks 2026-10-21 | — |
 
 _Graded 2026-10-21 04:23 ET by claude (scheduled check)._
