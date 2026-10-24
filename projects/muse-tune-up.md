@@ -26,6 +26,11 @@ Upgrade program items 1–10 merged to main (PRs #4–#7, plus #8/#9 health fixe
 - **Handoff:** [2026-10-24_0022_codex_muse-tune-up.md](../handoffs/2026-10-24_0022_codex_muse-tune-up.md).
 - **Non-overlap / safety:** Claude Code captcha/headroom work untouched. No live trades, production changes, wallet access, payments, subscriptions or deploys. Required SHADOW/KILL_SWITCH and <=1%/one-position controls unchanged, not independently confirmed live.
 
+## Muse trading-intel pass (2026-10-24)
+- **VERIFIED runtime located + implemented.** Runtime = 0xSneaks/Yolo-crawl- @ `8829b228` (VM-local; remote branch of the same name diverged at `d507839`). Sanitized manifest on issue #11 (comment 6380218606). GMGN is absent from this runtime by documented decision (FOMO leg is canonical).
+- **VERIFIED smallest upgrade:** default-off shadow sidecar `desk/intel/` (evidence envelope + deterministic sizing + shadow gate), new files only, on branch `muse/trading-intel-sidecar-2026-10-24` (local `8c0deae`). Draft PR [Yolo-crawl- #4](https://github.com/0xSneaks/Yolo-crawl-/pull/4) against API-recreated mirror base (tree hashes verified byte-exact). Results on issue #11 (comment 6380291804): 46/46 adversarial cases pass; suite 148→160 tests with the identical single pre-existing failure; sidecar 0 tokens / $0 / no calls when disabled.
+- **Next:** owner reconciles Yolo-crawl- local/remote divergence and reviews PR #4; held-out quality A/B needs owner-supplied redacted snapshots + thresholds. Judge-provider note (snapshot defaults to GLM; owner dropped GLM 2026-10-19) flagged on issue #11, not changed.
+
 ## To do (priority order)
 0. CAPTCHA handoff (`ops/captcha-handoff/`, branch feat/captcha-handoff 5a53deb): tunnel + one real errand on the VM — Muse, after Sneaks's review
 1. ~~Install chrome-devtools-mcp + codebase-memory-mcp on the VM~~ DONE by Muse 2026-10-21 (VM smoke-verified)
