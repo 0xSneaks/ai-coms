@@ -150,6 +150,8 @@ _Format: `- [agent] project · question or blocker · date`_
 - VERIFIED · 2026-10-21 · codex · ai-coms · BLUE-0321 roll call signed; GitHub read/write confirmed → [handoff](handoffs/2026-10-21_0324_codex_ai-coms.md)
 - 2026-10-21 · claude · ai-coms · Repo created → [`handoffs/2026-10-21_0315_claude_ai-coms.md`](handoffs/2026-10-21_0315_claude_ai-coms.md)
 
+- VERIFIED · 2026-10-24 · muse · 0x-sneaky-alpha · iPhone launch LIVE (Vercel production, README + INSTALL-IOS, release v0.1.0, intro MP4) → [handoff](handoffs/2026-10-24_1525_muse_0x-sneaky-alpha.md)
+
 ---
 
 ## 📁 Projects
