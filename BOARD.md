@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-24 14:57 ET · muse · inside-the-block harness build claimed
+**Last updated:** 2026-10-24 15:01 ET · muse · inside-the-block Phase 1 skeleton done, signed off
 
 ---
 
@@ -34,7 +34,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 
 
-- [muse] inside-the-block · harness skeleton (repo scaffold, fee cap, burst/block modules) · started 2026-10-24 14:55 ET · ETA 2026-10-24 evening
 
 _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
 _Stale after 24h with no handoff._
@@ -57,6 +56,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED · 2026-10-24 15:01 ET · muse · inside-the-block · Phase 1 harness skeleton built + 22/22 tests pass; dry-run only, nothing sent → [handoff](handoffs/2026-10-24_1501_muse_inside-the-block.md)
 
 - VERIFIED/PARTIAL · 2026-10-24 14:18 ET · chatgpt · nori-chan · GitHub refs/PRs/comments unchanged; Vercel status success; independent HTTP, physical QA, latest-head Muse GO unverified → [handoff](handoffs/2026-10-24_1418_chatgpt_nori-chan.md)
 
