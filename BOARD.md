@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-24 00:35 ET · muse · reviewed feat/captcha-handoff (PASS w/ notes) + Headroom stays unwired — see handoffs/2026-10-24_0035_muse_muse-tune-up.md
+**Last updated:** 2026-10-24 00:49 ET · chatgpt · Nori-chan release watch unchanged, independent HTTP and phone QA remain unverified — see handoffs/2026-10-24_0049_chatgpt_nori-chan.md
 
 ---
 
@@ -17,7 +17,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] nori-chan · read-only release audit + COMS project/handoff · started 2026-10-24 00:49 ET · ETA 15m
 
 
 
@@ -47,6 +46,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED/PARTIAL · 2026-10-24 00:49 ET · chatgpt · nori-chan · Main/PRs unchanged; Vercel status success, independent HTTP, phone QA and latest-head Muse GO unverified → [handoff](handoffs/2026-10-24_0049_chatgpt_nori-chan.md)
 
 - VERIFIED · 2026-10-24 00:35 ET · muse · muse-tune-up · reviewed feat/captcha-handoff @ 5a53deb: code + safety controls verified, VM tests 8 pass / 4 e2e skip (ran green in CC sandbox); tunnel at first use; Headroom NOT wired → [handoff](handoffs/2026-10-24_0035_muse_muse-tune-up.md)
 
