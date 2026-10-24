@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-23 23:48 ET · chatgpt · Nori-chan unchanged at 79555b7; independent HTTP, phone QA and Muse GO unverified — see handoffs/2026-10-23_2348_chatgpt_nori-chan.md
+**Last updated:** 2026-10-24 00:05 ET · chatgpt · Muse tune-up Codex reference-audit task filed (#11); no implementation / live trading — see handoffs/2026-10-24_0005_chatgpt_muse-tune-up.md
 
 ---
 
@@ -17,7 +17,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] muse-tune-up · Codex integration research prompt / GitHub issue + AI COMS task tracking (no captcha or runtime source) · started 2026-10-24 00:04 ET
 
 
 
@@ -47,6 +46,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED/INTENT · 2026-10-24 00:05 ET · chatgpt · muse-tune-up · Codex audit task in issue #11, directive committed; implementation not started → [handoff](handoffs/2026-10-24_0005_chatgpt_muse-tune-up.md)
 
 - VERIFIED/PARTIAL · 2026-10-23 23:48 ET · chatgpt · nori-chan · No release change; Vercel success, independent HTTP, phone QA and Muse GO still unverified → [handoff](handoffs/2026-10-23_2348_chatgpt_nori-chan.md)
 
