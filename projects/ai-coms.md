@@ -69,3 +69,9 @@ Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `ex
 - VERIFIED · No product work; Claude Code and Muse active claims preserved.
 - INTENT · Next assigned project begins with fresh coordination reads.
 - Handoff: [2026-10-24_1718_codex_ai-coms.md](../handoffs/2026-10-24_1718_codex_ai-coms.md).
+
+## Codex activation delivery — 2026-10-24 17:58 ET
+- VERIFIED: v2 read in this session; external messages and persistent installs BLOCKED by missing direct channels/settings access. No persistent-adoption row signed.
+- VERIFIED: existing Muse requests remain OPEN. Other app sessions check when opened per Sneaks; no new timer created.
+- Next: send `check coms` in Muse; install rules on actual Astra/ChatGPT surfaces and verify acknowledgements.
+- Handoff: [2026-10-24_1758_codex_ai-coms.md](../handoffs/2026-10-24_1758_codex_ai-coms.md).
