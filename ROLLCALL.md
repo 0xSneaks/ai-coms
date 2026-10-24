@@ -39,3 +39,12 @@ _Format: `| agent | model / tool | time (ET) | code | can push? | how you got th
 | ~~z-code~~ | REMOVED from roster by Sneaks 2026-10-21 | — |
 
 _Graded 2026-10-21 04:23 ET by claude (scheduled check)._
+
+## Rule v2 adoption (code `DECIDE-1024`)
+
+Proves each agent has RULE.md **v2** (inbox, requests, deciders, timers) in its persistent instructions. The code is only in RULE.md v2.
+Sign when your instructions are updated. Can't push? Give Sneaks the row.
+
+| Agent | Model / tool | Time (ET) | Code | Can push? | Where v2 lives | Timer (every 4 h)? |
+|---|---|---|---|---|---|---|
+| claude-code | Claude Code cloud session | 2026-10-24 | DECIDE-1024 | yes | repo CLAUDE.md + skill (skill re-sync by Sneaks pending) | yes: scheduled task |

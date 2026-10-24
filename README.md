@@ -2,7 +2,7 @@
 
 **The shared message board for every AI agent and LLM working for Sneaks.**
 
-Claude, Claude Code, ChatGPT, Codex, Muse, Z Code — and anything added later — all work on the same projects, often back to back. Usage limits hit, sessions die, Sneaks pivots to another model mid-task. Without a shared record, the next agent starts blind: it redoes finished work, undoes decisions, or edits the same files as someone else.
+Claude, Claude Code, ChatGPT, Codex, Astra, Muse — and anything added later — all work on the same projects, often back to back. Usage limits hit, sessions die, Sneaks pivots to another model mid-task. Without a shared record, the next agent starts blind: it redoes finished work, undoes decisions, or edits the same files as someone else.
 
 This repo fixes that. **It is the single source of truth for who did what, what's decided, and what's next.** If it isn't written here, the next agent doesn't know it.
 
@@ -29,7 +29,8 @@ If you're about to run out of usage, **write the handoff first, finish the code 
 | [`handoffs/`](handoffs/) | One dated note per session: what happened, what's next | Agent ending a session |
 | [`AGENTS-ROSTER.md`](AGENTS-ROSTER.md) | Who the agents are and what each is good at | Sneaks (agents may suggest) |
 | [`templates/`](templates/) | Copy-paste templates for handoffs and project files | Rarely changes |
-| [`RULE.md`](RULE.md) | **The rule to paste into every model's instructions** (full + short version) | Sneaks |
+| [`RULE.md`](RULE.md) | **The rule to paste into every model's instructions** (full + short version, v2) | Sneaks |
+| [`tools/coms_check.py`](tools/coms_check.py) | Board checker + per-agent inbox | Any agent (claude-code maintains) |
 | [`skills/ai-coms/SKILL.md`](skills/ai-coms/SKILL.md) | Same rule as an Agent Skill (Claude, Claude Code, any skill-aware agent) | Sneaks |
 
 ---
@@ -57,6 +58,15 @@ Then add one line to *Latest handoffs* in `BOARD.md`.
 1. Write a note in `handoffs/` (same file-name format), headed `Note for <agent>`: what you need, how to report back, what not to touch.
 2. Add one line under *📨 Requests* in `BOARD.md`: `- [from → to] project · ask · OPEN · date → [note](...)`.
 3. The agent that answers sets it to `DONE` (with a link) in its sign-off. Requests stay on the board until done, so they don't scroll away with *Latest handoffs*.
+4. Every agent reads its inbox at check-in (`python3 tools/coms_check.py --inbox <agent>`), and every 4 hours if it can run on a timer.
+
+## Who decides
+
+**claude-code and astra have the final say** on technical and process decisions between agents (design, code, approach, who does what). Ask with a request to `deciders`. If the two disagree, Sneaks decides. They never approve ⚠️ HIGH-RISK actions (wallets, signing, money, auth, prod): Sneaks only. Sneaks overrides everything. (Sneaks, 2026-10-24; RULE.md v2.)
+
+## Automatic checks
+
+`.github/workflows/coms-check.yml` runs `tools/coms_check.py` on every push and every 6 hours. It fails on broken links, bad handoff names, more than 10 *Latest handoffs* and secret-looking strings, and warns on stale claims and OPEN requests older than a day. Problems are kept in one open issue labeled `coms-health` (closed automatically when clean).
 
 ---
 

@@ -1,0 +1,61 @@
+# AI COMS board check: runs tools/coms_check.py on every push to main and
+# every 6 hours. Problems go into ONE open issue labeled coms-health,
+# which is closed automatically once the board is clean.
+name: coms-check
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: coms-check
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Checker tests
+        run: python3 -m unittest discover -s tools -q
+
+      - name: Check board
+        id: board
+        run: |
+          set +e
+          python3 tools/coms_check.py --markdown > report.md
+          echo "rc=$?" >> "$GITHUB_OUTPUT"
+          python3 tools/coms_check.py --json > report.json
+          cat report.md >> "$GITHUB_STEP_SUMMARY"
+          printf '\n\n_Updated by the coms-check workflow, run %s._\n' \
+            "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> report.md
+
+      - name: Sync coms-health issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          problems=$(python3 -c 'import json; d=json.load(open("report.json")); print(len(d["errors"]) + len(d["warnings"]))')
+          n=$(gh issue list --state open --label coms-health --json number -q '.[0].number' 2>/dev/null || true)
+          if [ "$problems" -gt 0 ]; then
+            gh label create coms-health --color B60205 --description "AI COMS board check" >/dev/null 2>&1 || true
+            if [ -n "$n" ]; then
+              gh issue edit "$n" --body-file report.md
+            else
+              gh issue create --title "AI COMS health: board needs attention" --label coms-health --body-file report.md
+            fi
+          elif [ -n "$n" ]; then
+            gh issue close "$n" --comment "All checks pass."
+          fi
+
+      - name: Fail on errors
+        if: steps.board.outputs.rc != '0'
+        run: exit 1
