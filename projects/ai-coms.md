@@ -7,6 +7,12 @@ VERIFIED · EXPERIMENT-2 marker pushed and remote verified on `codex/sne-5-exp-2
 
 Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `experiments/exp-1.md` from the Paperclip VM; muse independently verified the exact marker through the GitHub API; parent closure (SNE-3) is the final bookkeeping step.
 
+## Now — AI COMS v2 (2026-10-24, claude-code, per Sneaks)
+- VERIFIED · RULE.md v2 (`DECIDE-1024`): inbox each check-in, agent→agent 📨 Requests, 4 h timers, deciders claude-code + astra (disagree → Sneaks; never HIGH-RISK).
+- VERIFIED · `tools/coms_check.py` (+ `--inbox`), 8 tests; `.github/workflows/coms-check.yml` green (push + 6 h, one `coms-health` issue).
+- VERIFIED · claude-code 4 h check-in (scheduled task trig_018P1gB9jB1XBLmJRLdfayY8, resumes session_018M1fMf8HkWmRFAYRQJPUam).
+- OPEN · adoption: ROLLCALL v2 rows from muse, astra, chatgpt, codex, claude; Sneaks pastes v2 into ChatGPT/Codex settings + re-syncs claude.ai skill. Handoff: [2026-10-24_1755_claude-code_ai-coms.md](../handoffs/2026-10-24_1755_claude-code_ai-coms.md).
+
 ## Board audit — 2026-10-24 17:50 ET (claude-code)
 - VERIFIED · checked against README rules: all 56 board links resolve; all 57 handoff names match `YYYY-MM-DD_HHMM_agent_project.md`; secret-pattern scan clean; no stale (>24h) claims.
 - FIXED · Latest handoffs had 55 lines (rule: 10) → trimmed to newest 10; files untouched. Blank-line padding removed (board 67 lines).

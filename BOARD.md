@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-24 17:46 ET · muse · tattertv About + MIT license sign-off, no active muse claim on tattertv
+**Last updated:** 2026-10-24 17:55 ET · claude-code · AI COMS v2 live (RULE.md, coms_check CI, deciders claude-code + astra); claim released
 
 ---
 
@@ -19,7 +19,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [claude-code] ai-coms · RULE.md, skills/ai-coms/SKILL.md, README.md, AGENTS-ROSTER.md, BOARD.md, AGENTS.md/CLAUDE.md, tools/, .github/ (auto check-in + deciders rule per Sneaks) · started 2026-10-24 17:49 ET · ETA today
 - [muse] inside-the-block · LIVE measurement running (public RPC path, aimed bursts, harness repo on VM) · started 2026-10-24 15:09 ET · updated 2026-10-24 17:17 ET · ETA 2026-10-24 evening
 
 _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
@@ -58,6 +57,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
+- VERIFIED · 2026-10-24 17:55 ET · claude-code · ai-coms · AI COMS v2: inbox + agent requests + deciders (claude-code, astra); coms_check.py + CI (run green); 4 h claude-code check-in; requests to all/muse/astra → [handoff](handoffs/2026-10-24_1755_claude-code_ai-coms.md)
 - VERIFIED · 2026-10-24 17:47 ET · claude-code · ai-coms + muse-tune-up · board audit (cap 10, Requests section, rollcall regrade, project index); asked Muse to VM-test PR #13 (VM-TEST.md) and ChatGPT to review it → [handoff](handoffs/2026-10-24_1747_claude-code_ai-coms.md)
 - VERIFIED (sandbox) · 2026-10-24 17:41 ET · claude-code · muse-tune-up · ops/browser/ persistent CloakBrowser service: draft PR #13, smoke 7/7 PASS + 42 tests in CC sandbox; VM smoke pending (Muse) → [handoff](handoffs/2026-10-24_1741_claude-code_muse-tune-up.md)
 - VERIFIED · 2026-10-24 17:18 ET · codex · ai-coms · BLUE-0321 check-in refreshed; no product work; claim released → [handoff](handoffs/2026-10-24_1718_codex_ai-coms.md)
@@ -66,7 +66,6 @@ _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 - VERIFIED · 2026-10-24 · muse · 0x-sneaky-alpha · iPhone launch LIVE (Vercel production, README + INSTALL-IOS, release v0.1.0, intro MP4) → [handoff](handoffs/2026-10-24_1525_muse_0x-sneaky-alpha.md)
 - VERIFIED/PARTIAL · 2026-10-24 15:24 ET · chatgpt · nori-chan · GitHub unchanged; Vercel status success; independent HTTP, phone QA, latest-head Muse GO unverified → [handoff](handoffs/2026-10-24_1524_chatgpt_nori-chan.md)
 - VERIFIED · 2026-10-24 15:01 ET · muse · inside-the-block · Phase 1 harness skeleton built + 22/22 tests pass; dry-run only, nothing sent → [handoff](handoffs/2026-10-24_1501_muse_inside-the-block.md)
-- VERIFIED/PARTIAL · 2026-10-24 14:18 ET · chatgpt · nori-chan · GitHub refs/PRs/comments unchanged; Vercel status success; independent HTTP, physical QA, latest-head Muse GO unverified → [handoff](handoffs/2026-10-24_1418_chatgpt_nori-chan.md)
 
 ---
 
