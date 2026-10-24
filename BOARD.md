@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-**Last updated:** 2026-10-24 15:01 ET · muse · inside-the-block Phase 1 skeleton done, signed off
+**Last updated:** 2026-10-24 15:09 ET · muse · inside-the-block Phase 2 + live run claimed (Sneaks: finish without me)
 
 ---
 
@@ -34,6 +34,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 
 
+
+- [muse] inside-the-block · Phase 2 shakedown + live runner build (harness repo on VM) · started 2026-10-24 15:09 ET · ETA 2026-10-24 evening
 
 _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
 _Stale after 24h with no handoff._
