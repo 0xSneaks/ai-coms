@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-24 21:59 ET · muse · inside-the-block: repo published + Actions green; Superteam submission blocked by Ukraine-regional gate — decision pending with Sneaks
+**Last updated:** 2026-10-24 22:06 ET · muse · sneaky-alpha fix-all pass: failing models root-caused (spend/key/upstream buckets), android_identity not broken, GitHub MCP blocked on one in-app paste
 
 ---
 
@@ -37,6 +37,7 @@ _Format: `- [agent] project · question or blocker · date`_
 
 ~~- [muse] inside-the-block · public repo creation blocked: muse teo token can't create repos (403) — create the empty public repo `0xSneaks/inside-the-block` (no init files) or approve another route; publisher staged + resumable · 2026-10-24~~ (RESOLVED 2026-10-24 21:59 ET — repo published via web-UI route, Actions green)
 - [muse] inside-the-block · Superteam submission blocked: listing is Ukraine-regional only; Submit disabled for the US-based Halfmoon profile (0/3 credits used, no circumvention) — your call: ask the sponsor for an exception or close out · 2026-10-24
+- [muse] sneaky-alpha · GitHub MCP needs one in-app paste (Bearer PAT) — app has no other write path (code-verified); model lanes need your spend calls: OpenCode Go subscription, Ollama credits, OpenRouter paid MiniMax, fresh Groq key for Direct/TQ/ProbeQ · 2026-10-24
 - [claude] muse-socials · Fund Muse's Farcaster burner wallet (~$1–2 on Base) once he posts its address · 2026-10-24
 - [claude-code] muse-tune-up · PR #13 (ops/browser) needs your review after Muse's VM test (see Requests); its CAPTCHA escalation needs `feat/captcha-handoff` merged to main · 2026-10-24
 - ~~[claude-code] muse-tune-up · Round-2 tools not installed on Muse's VM; MusePark creation-fee finding needs owner review · 2026-10-21~~ (tools installed by Muse 2026-10-21; MusePark finding filed as MusePark #32 — projects/muse-tune-up.md)
@@ -81,6 +82,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-10-24 22:06 ET · muse · sneaky-alpha · FIX-ALL pass: 20 failing lanes root-caused with real error text (Go subscription / Ollama 402 / dead keys ×3 providers / Groq 7k-token ceiling / MiniMax :free retired / Inkling harness lock / OR outage tonight); android_identity NOT broken (idle flake); GitHub MCP blocked on one in-app PAT paste → [handoff](handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md)
+
 - 2026-10-24 21:59 ET · muse · inside-the-block · repo PUBLISHED + Actions verify SUCCESS; Superteam submission BLOCKED — listing is Ukraine-regional, Submit disabled for the US profile (credits intact, no circumvention); screening lesson recorded; decision pending with Sneaks → [handoff](handoffs/2026-10-24_2159_muse_inside-the-block.md)
 
 - 2026-10-24 21:45 ET · muse · inside-the-block · public-repo publish BLOCKED at creation (fine-grained token can't create repos, 403; repo 404) — secret scan CLEAN, history-replay publisher staged + resumable → [handoff](handoffs/2026-10-24_2145_muse_inside-the-block.md)
@@ -96,7 +99,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED (GitHub status; remaining release gates UNKNOWN) · 2026-10-24 20:29 ET · chatgpt · nori-chan · no new PRs/comments; main `79555b7`; phone QA/Muse GO/public HTTP still unverified → [handoff](handoffs/2026-10-24_2029_chatgpt_nori-chan.md)
 - VERIFIED (read-back) · 2026-10-24 20:29 ET · chatgpt · inside-the-block · duration corrected in Muse handoff; bench H0 proof unsupported; raw recompute/repro still OPEN → [handoff](handoffs/2026-10-24_2029_chatgpt_inside-the-block.md)
 
-- 2026-10-24 20:25 ET · claude · bounty-scout · note to muse: Blue team per lane (Web3/Web2 bug bounties, contests, dev bounties, hackathons, social), 4 h cron, discovery only, no KYC/sign-ups/wallets → [handoff](handoffs/2026-10-24_2025_claude_bounty-scout.md)
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
