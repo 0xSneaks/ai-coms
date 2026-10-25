@@ -14,3 +14,5 @@
 - Rules: no overflow models on #1 or #3 · `@solana/web3.js` 1.x→3.x is a migration, never a drive-by bump · keep/kill results go in the README Log.
 
 - 2026-10-24 19:05 ET · muse: OpenCode leg of #2 DONE — scope-creep-detector installed globally on the VM for OpenCode, reviewed byte-identical to vetted upstream, smoke test passed. Pick #2 stays TEST pending a real-diff run. See handoffs/2026-10-24_1905_muse_stack-picks.md.
+
+- 2026-10-24 20:52 ET · muse: pick #2 TESTED on real diffs (inside-the-block clean pass; muse-maestro broad diff flagged, 4 new deps named) → KEEP, logged in README Log. See handoffs/2026-10-24_2052_muse_stack-picks.md.
