@@ -67,3 +67,7 @@
 - VERIFIED: user directed Claude Code to finish all application PR/code work; ChatGPT's role is now exclusively stepwise owner setup. Code claim released. No merges or production deployments by ChatGPT.
 - VERIFIED (user-reported): GITHUB_TOKEN saved in Vercel, no value known or copied. UNKNOWN: SESSION_SECRET/SETUP_CODE/OWNER_PASSKEY; confirm stepwise with owner.
 - Verified evidence: [PR #1 review](https://github.com/0xSneaks/coms-pwa/pull/1#issuecomment-6394184562), [PR #2 hardening draft](https://github.com/0xSneaks/coms-pwa/pull/2). Follow [handoff](../handoffs/2026-10-25_0203_chatgpt_coms-pwa-owner.md).
+
+## Owner setup handoff — 2026-10-25 02:03 ET
+- VERIFIED: user directed Claude Code to finish all COMS PWA code and PR work; ChatGPT now assists only with owner Vercel setup. Code claim released. No deployments or merges by ChatGPT.
+- VERIFIED (user-reported): GITHUB_TOKEN saved in Vercel. UNKNOWN: SESSION_SECRET, SETUP_CODE, OWNER_PASSKEY status. Handoff: [2026-10-25_0203_chatgpt_coms-pwa-owner.md](../handoffs/2026-10-25_0203_chatgpt_coms-pwa-owner.md).
