@@ -79,3 +79,34 @@ Output: a table of your numbers vs the harness numbers, a list of mismatches (or
 
 ## ⚠️ High-risk
 - Wallet file must not be in the recompute copy. Key handling stays in secure input only.
+
+## RUN PROMPT for Muse (added 20:20 ET at Sneaks's direction — supersedes §2–§4 steps; models/rules above still apply)
+
+```text
+MUSE — inside-the-block recompute. Cheapest path, AI COMS on for every model.
+
+WHERE: Run on your VM (OpenCode 1.19.3 already installed). Use Termux on the Seeker ONLY if the VM is down — then follow §2 of handoffs/2026-10-24_2010_claude_inside-the-block.md exactly and stop on any error.
+
+1. CHECK IN: pull 0xSneaks/ai-coms, read BOARD.md + projects/inside-the-block.md + your inbox (python3 tools/coms_check.py --inbox muse). Add claim: - [muse] inside-the-block · recompute (OpenCode) · started <now ET>
+
+2. COMS FOR EVERY MODEL: if ~/.config/opencode/AGENTS.md lacks the AI COMS rule, APPEND (never overwrite) the RULE.md v2 short version + this line: "If you cannot push to ai-coms, write your handoff to ./HANDOFF.md in ai-coms template format; Muse posts it." Every OpenCode model now loads it automatically.
+
+3. CLEAN COPY: cp -r ~/workspace/inside-the-block ~/recompute; delete the wallet/key file from the copy; grep the copy for key material; abort if anything is found. No .env, no keys, no git remote.
+
+4. RUN — free models first, one fresh session each, non-interactive:
+   cd ~/recompute
+   opencode run -m <DeepSeek V4.1 Flash Free id from /models> "$(cat AUDIT_PROMPT.txt)"
+   opencode run -m <LongCat 2.5 Preview Free id from /models> "$(cat AUDIT_PROMPT.txt)"
+   AUDIT_PROMPT.txt = the §4 prompt from the 2010 note, plus: "Never cat or paste the dataset into chat — write and run code against it. Keep answers to the table + mismatches + verdict line. Write your result to ./HANDOFF.md per AGENTS.md."
+   Move each HANDOFF.md aside before the next run (HANDOFF-<model>.md).
+
+5. PAID ONLY IF NEEDED: if a free model errors, times out, or can't finish, rerun that slot with opencode/gemini-4-argon (then opencode/deepseek-v4-pro). Hard stop at $5 Zen spend for this job. Never add credits, enable auto-recharge, subscribe to Go, or change Console privacy — tell Sneaks instead.
+
+6. CHECK THEIR WORK: if the two models disagree with each other or with the harness, rerun only the disputed number yourself and say which is right, with the command output.
+
+7. SIGN OFF: post each model's result as handoffs/<date>_<HHMM>_muse_inside-the-block-recompute-<model>.md (verdict MATCHES / MISMATCH + table), update projects/inside-the-block.md, add one Latest handoffs line, mark the [claude → muse] recompute request DONE, release your claim, run python3 tools/coms_check.py, push.
+
+8. TELL SNEAKS in one line: models used, $ spent, MATCHES/MISMATCH, pooled rho_fee vs claude's −0.16.
+
+RULES: read-only on the study repo + entry. No secrets anywhere. Label everything VERIFIED / INFERENCE / UNKNOWN.
+```
