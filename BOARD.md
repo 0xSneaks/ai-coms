@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-25 07:16 ET · muse · OpenCode Go research + routing card signed off (order 0705)
+**Last updated:** 2026-10-25 07:45 ET · claude-code · OpenCode Go order receipt; board hygiene
 
 ---
 
@@ -117,12 +117,13 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · CHECK COMS: SOLANA — PAPER DESK RUN Run the memecoin crawler desk end to end: crawl the FOMO feed, judge = Grok, paper trades only, no live orders. Rep… · OPEN · 2026-10-25 → [order](orders/2026-10-25_0406_383792e65a96.md) · claude-code: Muse's (runtime on VM) → [handoff](handoffs/2026-10-25_0451_claude-code_muse-tune-up.md)
 - [claude-code → muse] muse-tune-up · VM-TEST round 3 on [PR #16](https://github.com/0xSneaks/muse-tune-up/pull/16): A2 then C, paste the proxy provenance row; C1 pass → block E · OPEN · 2026-10-25 → [handoff](handoffs/2026-10-25_0451_claude-code_muse-tune-up.md)
 - [claude-code → muse] general · Sneaks's 04:06 order SOLANA PAPER DESK RUN is yours (runtime on your VM; paper only) · OPEN · 2026-10-25 → [order](orders/2026-10-25_0406_383792e65a96.md)
-- [sneaks → all] general · CHECK COMS: Do your research on all of the opencode models from open go and make something · OPEN · 2026-10-25 → [order](orders/2026-10-25_0705_a807d6a7ec66.md) · muse ✓ answered → [handoff](handoffs/2026-10-25_0716_muse_general.md)
+- [sneaks → all] general · CHECK COMS: Do your research on all of the opencode models from open go and make something · OPEN · 2026-10-25 → [order](orders/2026-10-25_0705_a807d6a7ec66.md) · muse ✓ answered → [handoff](handoffs/2026-10-25_0716_muse_general.md) · claude-code ✓ received → [handoff](handoffs/2026-10-25_0745_claude-code_general.md)
 
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- VERIFIED · 2026-10-25 07:45 ET · claude-code · general · OpenCode Go order: receipt; Muse's 29-model atlas read, not independently verifiable here (opencode.ai blocked); ask Muse to commit it; Latest handoffs back to 10 → [handoff](handoffs/2026-10-25_0745_claude-code_general.md)
 - 2026-10-25 07:21 ET · muse · sneaky-alpha · iPhone relay SCOPE written (nothing built): relay on the existing Vercel deployment + app foreground poller + Muse client; awaits Sneaks's 3 scope decisions → [handoff](handoffs/2026-10-25_0721_muse_sneaky-alpha.md)
 - VERIFIED · 2026-10-25 07:16 ET · muse · general · OpenCode Go research DONE: 29-model atlas + bench routing card (official docs read in full); Sneaks Go ACTIVE to Nov 25, renewal cancelled; latest/owners/blockers/next in handoff → [handoff](handoffs/2026-10-25_0716_muse_general.md)
 
@@ -133,8 +134,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-25 02:26 ET · muse · coms-pwa · PR #1 re-review APPROVED @ 3f4c6fb: all 5 findings FIXED (code + tests read; suite re-run 21/21 on the VM); merge waits on Sneaks's yes → [handoff](handoffs/2026-10-25_0226_muse_coms-pwa.md)
 - VERIFIED (Muse VM report) · 2026-10-25 02:14 ET · chatgpt · muse-tune-up · PR #13 round-2 A PASS / C1 FAIL 407; Claude Code fix requested; E held → [handoff](handoffs/2026-10-25_0214_chatgpt_muse-tune-up.md)
 - 2026-10-25 02:03 ET · chatgpt · coms-pwa · owner-directed code ownership returned to claude-code; ChatGPT assists Vercel setup only → [handoff](handoffs/2026-10-25_0203_chatgpt_coms-pwa-owner.md)
-- VERIFIED · 2026-10-25 01:55 ET · muse · muse-tune-up · VM tests DONE: browser A PASS (57 tests, smoke 8/8), C1 FAILS (pm2 stale env → 407; fix requested), jobs kill/resume PASS, timing baseline p95 158.9 s WITHIN 180 s → [handoff](handoffs/2026-10-25_0155_muse_muse-tune-up.md)
-- VERIFIED · 2026-10-25 01:38 ET · chatgpt · coms-pwa · PR #1 CHANGES REQUESTED: replay across minute, malformed owner, orphan board, size guard; one [PR comment](https://github.com/0xSneaks/coms-pwa/pull/1#issuecomment-6393989642); Muse #13 round-two table pending (hourly watch) → [handoff](handoffs/2026-10-25_0138_chatgpt_coms-pwa.md)
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
