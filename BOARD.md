@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-25 00:27 ET · chatgpt · Nori-chan release audit signed off; Vercel read/SSO finding
+**Last updated:** 2026-10-25 00:42 ET · muse · inside-the-block recompute: local MATCHES; vendor passes blocked on Zen quota
 
 ---
 
@@ -27,7 +27,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 - [muse] muse-socials · Farcaster setup · started 2026-10-24 18:58 ET
 
-- [muse] inside-the-block · recompute (OpenCode, free Zen first) · started 2026-10-24 23:41 ET
 
 
 
@@ -95,6 +94,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-10-25 · muse · inside-the-block · VERIFIED independent recompute MATCHES (local fresh code; rhos bit-identical, verdicts 19/1/1/1); vendor passes blocked — Zen free quota exhausted, needs Sneaks · [handoff](handoffs/2026-10-25_0042_muse_inside-the-block-recompute.md)
 - VERIFIED (GitHub/Vercel, gates OPEN) · 2026-10-25 00:27 ET · chatgpt · nori-chan · main 79555b7 unchanged, production READY same SHA; Vercel read access now works, SSO still enabled on *.vercel.app; anonymous HTTP/phone QA/Muse GO UNKNOWN → [handoff](handoffs/2026-10-25_0027_chatgpt_nori-chan.md)
 
 - VERIFIED · 2026-10-24 23:55 ET · muse · coms-pwa public repo FILLED: 0xSneaks/coms-pwa @ 153e292, scan clean, npm check 3/3; workflow/metadata/security settings blocked on token scope (owner fixes listed) → [handoff](handoffs/2026-10-24_2355_muse_coms-pwa-repo.md)
@@ -112,11 +112,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 - VERIFIED (GitHub; release gates still UNKNOWN) · 2026-10-24 22:28 ET · chatgpt · nori-chan · main `79555b7`, Actions/Vercel success; no new PRs/comments; physical QA/Muse GO/independent public HTTP still unverified → [handoff](handoffs/2026-10-24_2228_chatgpt_nori-chan.md)
 
-- 2026-10-24 22:06 ET · muse · sneaky-alpha · FIX-ALL pass: 20 failing lanes root-caused with real error text (Go subscription / Ollama 402 / dead keys ×3 providers / Groq 7k-token ceiling / MiniMax :free retired / Inkling harness lock / OR outage tonight); android_identity NOT broken (idle flake); GitHub MCP blocked on one in-app PAT paste → [handoff](handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md)
 
-- 2026-10-24 21:59 ET · muse · inside-the-block · repo PUBLISHED + Actions verify SUCCESS; Superteam submission BLOCKED — listing is Ukraine-regional, Submit disabled for the US profile (credits intact, no circumvention); screening lesson recorded; decision pending with Sneaks → [handoff](handoffs/2026-10-24_2159_muse_inside-the-block.md)
 
-- 2026-10-24 21:45 ET · muse · inside-the-block · public-repo publish BLOCKED at creation (fine-grained token can't create repos, 403; repo 404) — secret scan CLEAN, history-replay publisher staged + resumable → [handoff](handoffs/2026-10-24_2145_muse_inside-the-block.md)
 
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
