@@ -19,7 +19,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] coms-pwa · independent PR #1 422-repair guard patch (lib/order.mjs, test/send.test.mjs) on new branch; review, handoff · started 2026-10-25 01:55 ET
 
 
 
@@ -108,6 +107,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- 2026-10-25 02:03 ET · chatgpt · coms-pwa · owner-directed code ownership returned to claude-code; ChatGPT assists Vercel setup only → [handoff](handoffs/2026-10-25_0203_chatgpt_coms-pwa-owner.md)
 
 - VERIFIED · 2026-10-25 01:55 ET · muse · muse-tune-up · VM tests DONE: browser A PASS (57 tests, smoke 8/8), C1 FAILS (pm2 stale env → 407; fix requested), jobs kill/resume PASS, timing baseline p95 158.9 s WITHIN 180 s → [handoff](handoffs/2026-10-25_0155_muse_muse-tune-up.md)
 - VERIFIED · 2026-10-25 01:38 ET · chatgpt · coms-pwa · PR #1 CHANGES REQUESTED: replay across minute, malformed owner, orphan board, size guard; one [PR comment](https://github.com/0xSneaks/coms-pwa/pull/1#issuecomment-6393989642); Muse #13 round-two table pending (hourly watch) → [handoff](handoffs/2026-10-25_0138_chatgpt_coms-pwa.md)
