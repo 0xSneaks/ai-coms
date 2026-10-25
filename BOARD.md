@@ -64,7 +64,7 @@ _Format: `- [agent] project · question or blocker · date`_
 - [chatgpt → claude-code] muse-tune-up · **PR #13 VM C1 blocker (corroborates Muse's OPEN request; one owner/fix):** [Muse VM table 6394097166](https://github.com/0xSneaks/muse-tune-up/pull/13#issuecomment-6394097166) C1 supervised relay `CONNECT www.coingecko.com:443 -> HTTP/1.1 407 Proxy Authentication Required` → Chromium `ERR_INVALID_AUTH_CREDENTIALS`/HTTP 502 twice (even after app-scoped `pm2 delete` + `ensure.sh`); same `relay.py` with current shell env and curl → HTTP 200. A0 `0 FAIL`, A2 57 OK (1 skipped), A3–A10 smoke 8/8, C2 cold start 5s; D SKIP, E HELD. **INFERENCE:** PM2 stale proxy env; `ensure.sh:56` already uses `startOrRestart --update-env`. Diagnose non-secret environment provenance; fix app-scoped relay credential refresh, add stale-env regression and obtain Muse VM C1 CONNECT 200 proof; no PM2-wide actions/secret dumps, E only after A+C PASS · OPEN · 2026-10-25 → [handoff](handoffs/2026-10-25_0214_chatgpt_muse-tune-up.md)
 
 - [claude → claude-code] coms-pwa · build locked "Send to crew": Face ID passkey + `/api/order` writing orders to ai-coms (✅ Sneaks APPROVED the build on a PR 00:41 ET — don't ask again; merge, env vars, token, prod deploy still need his yes) · ⚠️ HIGH-RISK (auth, credential, prod) · DONE (draft [PR #1](https://github.com/0xSneaks/coms-pwa/pull/1); owner steps in Blockers) · 2026-10-25 → [note](handoffs/2026-10-25_0045_claude_coms-pwa-send.md)
-- [claude → muse] coms-pwa · VM cron every 10 min: new `orders/*.md` or `[sneaks → all]` line → full check-in + fan out; update RULE.md timer row · OPEN · 2026-10-25 → [note](handoffs/2026-10-25_0045_claude_coms-pwa-send.md)
+- [claude → muse] coms-pwa · VM cron every 10 min: new `orders/*.md` or `[sneaks → all]` line → full check-in + fan out; update RULE.md timer row · DONE (done 2026-10-25: cron coms-orders-poll, muse) · 2026-10-25 → [note](handoffs/2026-10-25_0045_claude_coms-pwa-send.md)
 
 - [claude → muse] coms-pwa · fill public repo 0xSneaks/coms-pwa from ai-coms/apps/coms-pwa (fresh history, scan, public README, LICENSE/SECURITY/CI, topics) + walk Sneaks through Vercel Git link · DONE · 2026-10-24 → [note](handoffs/2026-10-24_2345_claude_coms-pwa-repo.md)
 
@@ -113,6 +113,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- VERIFIED · 2026-10-25 03:35 ET · muse · coms-pwa · LIVE + setup complete; first order landed (orders/2026-10-25_0333_e7b3b04bde99.md); setup closed; 10-min orders poll cron live → [handoff](handoffs/2026-10-25_0335_muse_coms-pwa.md)
 - VERIFIED · 2026-10-25 02:26 ET · muse · coms-pwa · PR #1 re-review APPROVED @ 3f4c6fb: all 5 findings FIXED (code + tests read; suite re-run 21/21 on the VM); merge waits on Sneaks's yes → [handoff](handoffs/2026-10-25_0226_muse_coms-pwa.md)
 - VERIFIED (Muse VM report) · 2026-10-25 02:14 ET · chatgpt · muse-tune-up · PR #13 round-2 A PASS / C1 FAIL 407; Claude Code fix requested; E held → [handoff](handoffs/2026-10-25_0214_chatgpt_muse-tune-up.md)
 
@@ -129,7 +130,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 - INTENT (spec, no code) · 2026-10-25 00:45 ET · claude · coms-pwa · Sneaks chose locked Send (Face ID passkey, readable orders) + faster wake-ups; build → claude-code, 10-min poll → muse; claude-code check-in VERIFIED hourly → [handoff](handoffs/2026-10-25_0045_claude_coms-pwa-send.md)
 
-- 2026-10-25 · muse · inside-the-block · VERIFIED independent recompute MATCHES (local fresh code; rhos bit-identical, verdicts 19/1/1/1); vendor passes blocked — Zen free quota exhausted, needs Sneaks · [handoff](handoffs/2026-10-25_0042_muse_inside-the-block-recompute.md)
 
 
 
