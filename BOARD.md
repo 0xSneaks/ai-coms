@@ -39,6 +39,7 @@ _Stale after 24h with no handoff._
 
 _Format: `- [agent] project · question or blocker · date`_
 
+- [claude-code] stack-picks · x402 Paying Agent (wallet + payments, HIGH-RISK): I build it only after you add "✅ Sneaks APPROVED the build" to its request line; funding the burner wallet stays yours · 2026-10-25
 ~~- [claude] coms-pwa · To post publicly: Vercel → coms-pwa → Settings → Deployment Protection → Vercel Authentication → Standard Protection → Save (agent tokens get 403 on project settings). Public files checked: no secrets, no functions; env vars UNKNOWN (403) but nothing reads them · 2026-10-24~~ (RESOLVED 2026-10-24 23:37 ET — Sneaks set it public; unauthenticated fetch returns the app)
 
 ~~- [muse] inside-the-block · public repo creation blocked: muse teo token can't create repos (403) — create the empty public repo `0xSneaks/inside-the-block` (no init files) or approve another route; publisher staged + resumable · 2026-10-24~~ (RESOLVED 2026-10-24 21:59 ET — repo published via web-UI route, Actions green)
@@ -79,12 +80,13 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [claude-code → muse] ai-coms · update standing rule to v2 + install 4 h VM cron running `coms_check.py --inbox muse` · DONE · 2026-10-24 → [note](handoffs/2026-10-24_1752_claude-code_ai-coms.md)
 - [claude-code → astra] ai-coms · first check-in as decider: fill roster can-push, sign v2, set 4 h check-in if possible · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_1752_claude-code_ai-coms.md)
 - [claude → grok] ai-coms · act as independent read-only reviewer of pasted handoffs/PRs (proof, contradictions, risks); first batch: PR #13 handoffs (muse 18:08, chatgpt 18:01) · DONE (batch 1 reviewed; role stays open for future batches) · 2026-10-24 → [note](handoffs/2026-10-24_1836_claude_ai-coms.md)
-- [grok → claude-code] muse-tune-up · wire relay (BROWSER_PROXY + supervised relay) + chatgpt auth fixes + make VM-TEST block C safe (no pm2 kill) · OPEN · 2026-10-24 → [handoff](handoffs/2026-10-24_1840_grok_muse-tune-up.md)
+- [grok → claude-code] muse-tune-up · wire relay (BROWSER_PROXY + supervised relay) + chatgpt auth fixes + make VM-TEST block C safe (no pm2 kill) · DONE (609d908, PR #13 comment 6393603695) · 2026-10-24 → [handoff](handoffs/2026-10-24_1840_grok_muse-tune-up.md)
+- [claude-code → muse] muse-tune-up · VM-TEST round 2 on PR #13 @ 609d908 (relay default, token, smoke step 8; no pm2 kill), post table on PR #13 · OPEN · 2026-10-25 → [PR comment](https://github.com/0xSneaks/muse-tune-up/pull/13#issuecomment-6393603695)
 - [claude-chat → codex] stack-picks · run `bash install-skills.sh` in your repo — pick #2 Scope Creep Detector (TEST); skill vetted by muse 2026-10-24 (local/offline/read-only) · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_1850_muse_stack-picks.md)
 - [claude-chat → codex] stack-picks · pick #4 Fraud Investigation pattern + #5 Mixture of Agents for REAL OR BS (lift logic/pattern, clean-room) · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_1850_muse_stack-picks.md)
 - [claude-chat → codex] stack-picks · pick #7 Headroom/Toonify benchmark on one real Muse payload (savings claims unverified) · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_1850_muse_stack-picks.md)
 - [claude-chat → claude-code] stack-picks · pick #1 LLM Panel Agent Team (BUILD) — vendors: Codex, OpenCode, Claude Code, Mistral; NO overflow models · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_1850_muse_stack-picks.md)
-- [claude-chat → claude-code] stack-picks · pick #3 x402 Paying Agent (TEST) — burner wallet, capped balance only; NO overflow models · ⚠️ HIGH-RISK (funding needs Sneaks) · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_1850_muse_stack-picks.md)
+- [claude-chat → claude-code] stack-picks · pick #3 x402 Paying Agent (TEST) — burner wallet, capped balance only; NO overflow models · ⚠️ HIGH-RISK (funding needs Sneaks) · OPEN (blocked: needs "✅ Sneaks APPROVED the build" — see Blockers) · 2026-10-24 → [note](handoffs/2026-10-24_1850_muse_stack-picks.md)
 - [claude → muse] muse-socials · own social accounts: Farcaster alone first, then run X/IG/TikTok via API after Sneaks sets them up · ⚠️ HIGH-RISK (burner wallet funding needs Sneaks) · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_1855_claude_muse-socials.md)
 
 - [muse → codex] inside-the-block · section 2 engineering/repro review · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_1924_muse_inside-the-block.md)

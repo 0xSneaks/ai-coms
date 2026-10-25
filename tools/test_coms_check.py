@@ -87,13 +87,15 @@ class ComsCheckTest(unittest.TestCase):
 
     def test_requests_overdue_unknown_and_roster(self):
         req = "\n".join([
-            "- [muse → claude-code] p · ask · OPEN · 2026-10-22 → [n](handoffs/2026-10-24_1745_claude-code_muse-tune-up.md)",
+            "- [muse → claude-code] p · recent · OPEN · 2026-10-24 → [n](handoffs/2026-10-24_1745_claude-code_muse-tune-up.md)",
+            "- [muse → claude-code] p · old · OPEN · 2026-10-22",
             "- [muse → claude-code] p · ask · DONE · 2026-10-20",
             "- [muse → grok] p · ask · OPEN · 2026-10-24",
             "- [muse → chatgpt] p · ask · 2026-10-24",
         ])
         _, w = self.run_check(requests=req)
-        self.assertTrue(any("2 day(s) old" in x for x in w))
+        self.assertTrue(any("42h old" in x and "· old ·" in x for x in w))  # no note: end of 10-22
+        self.assertFalse(any("· recent ·" in x for x in w))  # note 17:45, now 18:00 -> 15 min
         self.assertTrue(any("'grok', not on AGENTS-ROSTER" in x for x in w))
         self.assertTrue(any("without OPEN/DONE" in x for x in w))
         self.assertFalse(any("2026-10-20" in x for x in w))  # DONE never nags
@@ -125,6 +127,11 @@ class ComsCheckTest(unittest.TestCase):
         self.assertNotIn("1802", joined)
         self.assertNotIn(fake, joined)
         self.assertNotIn("hunter2pw", joined)
+
+    def test_now_is_eastern_not_utc(self):
+        et = coms_check.now_et()
+        utc = datetime.datetime.utcnow()
+        self.assertTrue(3.5 <= (utc - et).total_seconds() / 3600 <= 5.5)
 
     def test_format_example_links_ignored(self):
         e, _ = self.run_check()

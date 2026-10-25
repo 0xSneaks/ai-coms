@@ -42,6 +42,15 @@ SECRET_PATTERNS = [
 ARROW = re.compile(r"^- \[([^\]→]+?)\s*(?:→|->)\s*([^\]]+)\]\s*(.*)$")
 
 
+def now_et():
+    """Board times are US Eastern (README). Compare in ET, naive."""
+    try:
+        from zoneinfo import ZoneInfo
+        return datetime.datetime.now(ZoneInfo("America/New_York")).replace(tzinfo=None)
+    except Exception:  # no tz database: EDT approximation
+        return datetime.datetime.utcnow() - datetime.timedelta(hours=4)
+
+
 def read(path):
     with open(path, encoding="utf-8") as f:
         return f.read()
@@ -105,7 +114,7 @@ def tracked_files(root):
 
 
 def check(root, now=None):
-    now = now or datetime.datetime.now()
+    now = now or now_et()
     errors, warnings = [], []
     board = read(os.path.join(root, "BOARD.md"))
 
@@ -141,9 +150,16 @@ def check(root, now=None):
             if names and t.lower() not in names and t.lower() not in ("deciders", "all", "sneaks"):
                 warnings.append("request to %r, not on AGENTS-ROSTER.md: %s" % (t, r["line"]))
         if r["status"] == "OPEN" and r["date"]:
-            age_days = (now.date() - datetime.date.fromisoformat(r["date"])).days
-            if age_days >= 1:
-                warnings.append("OPEN request %d day(s) old: %s" % (age_days, r["line"]))
+            # Precise time from the linked note's file name when there is one
+            # (YYYY-MM-DD_HHMM, ET); else end of the request's date.
+            m = re.search(r"handoffs/(\d{4}-\d{2}-\d{2})_(\d{2})(\d{2})_", r["line"])
+            if m:
+                opened = datetime.datetime.strptime("%s %s:%s" % m.groups(), "%Y-%m-%d %H:%M")
+            else:
+                opened = datetime.datetime.fromisoformat(r["date"]) + datetime.timedelta(days=1)
+            age_h = (now - opened).total_seconds() / 3600
+            if age_h > STALE_HOURS:
+                warnings.append("OPEN request %dh old: %s" % (age_h, r["line"]))
         if r["status"] == "UNKNOWN":
             warnings.append("request without OPEN/DONE: %s" % r["line"])
 
