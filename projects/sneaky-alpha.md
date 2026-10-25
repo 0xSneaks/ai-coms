@@ -30,3 +30,9 @@ Full record: `handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md` (same content
 ## Claims
 
 - (none active — fix-all session 2026-10-24, released at sign-off)
+
+
+## UI fixes executed — 2026-10-24 ~22:45 ET (muse, bridge UI automation, dump-verified)
+
+- **Compact model FIXED in-app:** was "GLM 5.3 (Custom)" (deleted provider, the crash cause) → now **Gemini 3 Flash (Google)**. Full note: `handoffs/2026-10-24_2245_muse_sneaky-alpha-ui-fixes.md`.
+- **GitHub MCP STAGED in-app:** server saved (api.githubcopilot.com/mcp, Streamable HTTP); status "Connection error / 0 tools" as expected pre-auth. Only remaining act: Sneaks adds the `Authorization: Bearer <PAT>` header in that entry.
