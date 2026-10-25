@@ -19,6 +19,7 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] coms-pwa · PR #1 review / board request / handoff (no application code) · started 2026-10-25 01:34 ET
 
 
 
