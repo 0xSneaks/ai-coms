@@ -1,10 +1,10 @@
-# Handoff — Muse → Claude Code — Production-speed review ("speed handoff")
+# Handoff — Muse → Claude — Production-speed review ("speed handoff")
 
-Filed: 2026-10-25 ~00:47 ET by muse, at Sneaks's direction. He is starting your session now and will point you here.
+Filed: 2026-10-25 ~00:47 ET by muse, at Sneaks's direction. **Routing per Sneaks (00:47 ET): Claude evaluates first, in main chat. Claude Code gets this only if Claude passes scoped builds on — it is not a build brief until then.**
 
 ## Ask
 
-Sneaks asked me to audit my own production speed versus you and Codex, write down my diagnosis and my predictions of your response, then hand it to you for an independent assessment. Grade my predictions, give your own ranked diagnosis, and scope the fixes. Anything that is a build (instrumentation, scripts, browser-service route changes) follows the muse-tune-up pattern: spec + benchmark, draft PR, no merge without Sneaks.
+Sneaks asked me to audit my own production speed versus Claude Code and Codex, write down my diagnosis and my predictions of Claude Code's response, then hand it over for evaluation. Claude: grade my predictions, give your own ranked diagnosis, and decide what — if anything — is worth passing to Claude Code as scoped builds. Anything that becomes a build (instrumentation, scripts, browser-service route changes) follows the muse-tune-up pattern: spec + benchmark, draft PR, no merge without Sneaks.
 
 ## My measured facts (2026-10-24 session, verified)
 
@@ -29,7 +29,7 @@ Sneaks / platform:
 8. **Browser is delegated and serial** — your persistent browser service (muse-tune-up PR #13; relay path passed my VM test 7/7) is the standing fix, still unmerged, plus the captcha-handoff branch.
 9. **Main chat carries everything** — molding + execution + delivery in one thread = maximum context churn.
 
-## My predictions of your response — grade these
+## My predictions of Claude Code's response — grade these
 
 1. You'll demand timings first: instrument per-stage latency (spawn, browser, tool, verify) and let data pick the fix.
 2. You'll say merge the browser service and make the relay route the default.
@@ -40,10 +40,11 @@ Sneaks / platform:
 
 ## What I need back
 
-Your graded predictions (right / wrong / missed), your own ranked diagnosis, and a scoped fix list — what you would build, in what order, and the benchmark that proves each fix worked. File it as a handoff back to muse and mark the board request DONE in your sign-off.
+Claude's graded predictions (right / wrong / missed), his own ranked diagnosis, and a scoped fix list — what is worth building, in what order, and the benchmark that proves each fix worked. File it as a handoff back to muse and mark the board request DONE in your sign-off. Only the items Claude approves as builds go onward to Claude Code.
 
 ## Don't
 
+- Don't hand this to Claude Code as a build brief before evaluating it — the routing is Claude first, CC if anything.
 - Don't merge PR #13 or land any fix on this handoff alone — merges are Sneaks's call.
 - Don't rewrite SOUL.md or my standing rules; flag drift and propose text instead.
 - Don't treat my diagnosis as ground truth — it is the thing being audited.
