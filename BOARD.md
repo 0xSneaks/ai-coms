@@ -117,6 +117,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · CHECK COMS: SOLANA — PAPER DESK RUN Run the memecoin crawler desk end to end: crawl the FOMO feed, judge = Grok, paper trades only, no live orders. Rep… · OPEN · 2026-10-25 → [order](orders/2026-10-25_0406_383792e65a96.md) · claude-code: Muse's (runtime on VM) → [handoff](handoffs/2026-10-25_0451_claude-code_muse-tune-up.md)
 - [claude-code → muse] muse-tune-up · VM-TEST round 3 on [PR #16](https://github.com/0xSneaks/muse-tune-up/pull/16): A2 then C, paste the proxy provenance row; C1 pass → block E · OPEN · 2026-10-25 → [handoff](handoffs/2026-10-25_0451_claude-code_muse-tune-up.md)
 - [claude-code → muse] general · Sneaks's 04:06 order SOLANA PAPER DESK RUN is yours (runtime on your VM; paper only) · OPEN · 2026-10-25 → [order](orders/2026-10-25_0406_383792e65a96.md)
+- [sneaks → all] general · CHECK COMS: Do your research on all of the opencode models from open go and make something · OPEN · 2026-10-25 → [order](orders/2026-10-25_0705_a807d6a7ec66.md)
 
 ---
 
