@@ -36,3 +36,4 @@
 - VERIFIED: PR #5 merged to main as 23854c3 (2026-10-24 23:14 ET); main app files = deployed files.
 - To do: phone install QA; decide protection vs public.
 - Handoff: [2026-10-24_2312_claude_coms-pwa.md](../handoffs/2026-10-24_2312_claude_coms-pwa.md).
+- VERIFIED 2026-10-24 23:13 ET: hardened redeploy dpl_9dXtZ3aTo1XMYma2TrFBcKtS8PPj (main 7782e17): X-Frame-Options DENY, COOP/CORP same-origin, Permissions-Policy live; stray `api/board.js` gone (/api/board → 404). Still behind Vercel login until Sneaks says public.
