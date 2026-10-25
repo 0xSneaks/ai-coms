@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-25 04:51 ET · claude-code · PR #16 (C1 fix) up; orders answered
+**Last updated:** 2026-10-25 05:51 ET · chatgpt · nori-chan watch signed off (no release-gate change)
 
 ---
 
@@ -19,7 +19,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] nori-chan · read-only release verification (GitHub/Vercel) · started 2026-10-25 05:50 ET · ETA 06:10 ET
 
 
 
@@ -122,29 +121,25 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
-- VERIFIED · 2026-10-25 05:05 ET · chatgpt · nori-chan · unchanged main 79555b7, Vercel production READY but SSO enabled, anonymous HTTP/phone/Muse GO still unverified → [handoff](handoffs/2026-10-25_0505_chatgpt_nori-chan.md)
+- VERIFIED · 2026-10-25 05:51 ET · chatgpt · nori-chan · unchanged main 79555b7, Vercel READY + SSO still configured; anonymous HTTP/phone/Muse GO unverified → [handoff](handoffs/2026-10-25_0551_chatgpt_nori-chan.md)
 
 - VERIFIED (CC sandbox; VM round 3 pending) · 2026-10-25 04:51 ET · claude-code · muse-tune-up · C1 relay 407 root cause = relay read HTTPS_PROXY before https_proxy; fix in draft PR #16 (relay 8 + browser 60 tests, real-pm2 repro 407→200); orders acknowledged → [handoff](handoffs/2026-10-25_0451_claude-code_muse-tune-up.md)
+
 - VERIFIED · 2026-10-25 03:47 ET · muse · bounty-scout · cycle 2 + weekly roll-up: 59 tracked (12 new, 5 changed); fit-4 Meta AI Hackathon app deadline TODAY 23:59 ET; Open Innovation closed; Firedancer fit 4→3 → [handoff](handoffs/2026-10-25_0347_muse_bounty-scout.md)
+
 - VERIFIED · 2026-10-25 03:35 ET · muse · coms-pwa · LIVE + setup complete; first order landed (orders/2026-10-25_0333_e7b3b04bde99.md); setup closed; 10-min orders poll cron live → [handoff](handoffs/2026-10-25_0335_muse_coms-pwa.md)
+
 - VERIFIED · 2026-10-25 02:26 ET · muse · coms-pwa · PR #1 re-review APPROVED @ 3f4c6fb: all 5 findings FIXED (code + tests read; suite re-run 21/21 on the VM); merge waits on Sneaks's yes → [handoff](handoffs/2026-10-25_0226_muse_coms-pwa.md)
+
 - VERIFIED (Muse VM report) · 2026-10-25 02:14 ET · chatgpt · muse-tune-up · PR #13 round-2 A PASS / C1 FAIL 407; Claude Code fix requested; E held → [handoff](handoffs/2026-10-25_0214_chatgpt_muse-tune-up.md)
 
 - 2026-10-25 02:03 ET · chatgpt · coms-pwa · owner-directed code ownership returned to claude-code; ChatGPT assists Vercel setup only → [handoff](handoffs/2026-10-25_0203_chatgpt_coms-pwa-owner.md)
 
 - VERIFIED · 2026-10-25 01:55 ET · muse · muse-tune-up · VM tests DONE: browser A PASS (57 tests, smoke 8/8), C1 FAILS (pm2 stale env → 407; fix requested), jobs kill/resume PASS, timing baseline p95 158.9 s WITHIN 180 s → [handoff](handoffs/2026-10-25_0155_muse_muse-tune-up.md)
+
 - VERIFIED · 2026-10-25 01:38 ET · chatgpt · coms-pwa · PR #1 CHANGES REQUESTED: replay across minute, malformed owner, orphan board, size guard; one [PR comment](https://github.com/0xSneaks/coms-pwa/pull/1#issuecomment-6393989642); Muse #13 round-two table pending (hourly watch) → [handoff](handoffs/2026-10-25_0138_chatgpt_coms-pwa.md)
 
 - VERIFIED · 2026-10-25 01:27 ET · claude-code · muse-tune-up · PRs #13 #14 #15 MERGED to main (b6865c8) at Sneaks's instruction, each pinned to its tested head; main: 5 suites OK + smoke 8/8; nothing installed on the VM → [handoff](handoffs/2026-10-25_0127_claude-code_muse-tune-up.md)
-
-
-
-
-
-
-
-
-
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
