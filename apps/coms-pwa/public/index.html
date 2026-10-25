@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#b9ebe6">
+  <meta name="description" content="Your whole AI crew, one little room. A Home Screen command console for Sneaks.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="AI COMS">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="icon" href="./icons/icon-192.png">
+  <link rel="stylesheet" href="./shell.css">
+  <link rel="stylesheet" href="./room.css">
+  <title>AI COMS · Sneaks's crew</title>
+</head>
+<body>
+  <main class="cockpit">
+    <header class="topbar">
+      <div class="wordmark"><span class="brand-mark" aria-hidden="true">✳</span><div><h1>AI COMS</h1><p>One room. Your whole crew.</p></div></div>
+      <button class="quiet-button" id="install-help" aria-label="Install on your Home Screen">Add to Home Screen <span aria-hidden="true">↗</span></button>
+    </header>
+    <section class="observation-window" aria-labelledby="room-title">
+      <div class="bay-header"><span class="bay-label" id="room-title">THE CREW ROOM</span><span id="crew-count">Reading roster…</span></div>
+      <div class="room" id="world">
+        <div class="ceiling" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="wall-sign" aria-hidden="true">GOOD IDEAS HAPPEN HERE <span>☺</span></div>
+        <div class="crew-grid" id="crew" aria-live="polite"></div>
+        <div class="room-floor" aria-hidden="true"></div>
+      </div>
+      <div class="glass" aria-hidden="true"><span class="reflection reflection-one"></span><span class="reflection reflection-two"></span></div>
+      <div class="window-rail"><span>ALL SEATS STAY VISIBLE</span><button class="motion-button" id="motion-toggle" aria-pressed="false">Pause motion</button></div>
+    </section>
+    <section class="console" aria-labelledby="console-title">
+      <div class="console-topline"><h2 id="console-title">Your seat, Sneaks.</h2><span class="connection-state" id="connection-state">Local command console</span></div>
+      <label for="command-input">What are we working on?</label>
+      <textarea id="command-input" rows="2" maxlength="12000" placeholder="Drop an idea, a link, or something you want broken down…" spellcheck="true"></textarea>
+      <div class="command-buttons">
+        <button class="command check" data-command="check"><span aria-hidden="true">↻</span><span>CHECK COMS</span></button>
+        <button class="command react" data-command="react"><span aria-hidden="true">✦</span><span>REACT</span></button>
+        <button class="command review" data-command="review"><span aria-hidden="true">⌕</span><span>REVIEW AND<br>BREAK DOWN</span></button>
+      </div>
+      <p class="console-note">Copy a command to your agent to run it. <span id="offline-note"></span></p>
+      <div class="chair-arm left" aria-hidden="true"></div><div class="chair-arm right" aria-hidden="true"></div>
+    </section>
+    <footer class="footnote"><span id="roster-date">Roster snapshot</span><span>Animated crew ≠ live activity</span></footer>
+  </main>
+  <dialog id="command-dialog" aria-labelledby="command-title">
+    <div class="dialog-heading"><h2 id="command-title">Your command</h2><button class="close-dialog" aria-label="Close command">×</button></div>
+    <p id="command-description">Ready to copy. Nothing has been sent.</p>
+    <label for="command-output" class="sr-only">Command to copy</label>
+    <textarea id="command-output" readonly rows="9"></textarea>
+    <div class="dialog-actions"><button id="copy-command" class="primary-button">Copy command</button><a class="board-link" href="https://github.com/0xSneaks/ai-coms/blob/main/BOARD.md" target="_blank" rel="noopener noreferrer">Open AI COMS ↗</a></div>
+    <p id="copy-status" role="status"></p>
+  </dialog>
+  <dialog id="install-dialog" aria-labelledby="install-title">
+    <div class="dialog-heading"><h2 id="install-title">Keep your crew close.</h2><button class="close-dialog" aria-label="Close installation help">×</button></div>
+    <p>On iPhone: open this page in <strong>Safari</strong>, tap <strong>Share</strong>, then <strong>Add to Home Screen</strong>.</p>
+    <p>On Android: open the browser menu and choose <strong>Install app</strong> or <strong>Add to Home screen</strong>.</p>
+    <button id="native-install" class="primary-button" hidden>Install AI COMS</button>
+    <p id="install-state" role="status">The room saves for offline use when supported. Opening GitHub needs a connection.</p>
+  </dialog>
+  <dialog id="crew-dialog" aria-labelledby="crew-title">
+    <div class="dialog-heading"><h2 id="crew-title">Crew member</h2><button class="close-dialog" aria-label="Close crew details">×</button></div>
+    <p id="crew-role"></p><p id="crew-status"></p><p id="crew-source"></p>
+  </dialog>
+  <div id="app-message" role="status" class="app-message"></div>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
