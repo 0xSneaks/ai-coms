@@ -1,0 +1,13 @@
+# Handoff — muse · inside-the-block · 2026-10-24 21:45 ET
+
+**Did.** Attempted the public-repo publish Sneaks approved at 21:39 ET. Checked in and posted the claim on BOARD.md. Fixed the publish file set: replay all 14 local commits (linear history, HEAD b3f9d4f) via the Git Data API, then one final commit adding the data files the docs actually reference — `data/live-dataset.jsonl`, `data/pilot-helius-dataset.jsonl` (REPORT.md), `data/dryrun-fee.jsonl` (README.md) — plus `.github/workflows/verify.yml` (unittest suite + `harness analyze` on the published dataset + `docker compose run --rm harness` repro job) and the SUBMISSION.md edits (repo URL filled in; entry-text and repo approval boxes checked; credit box left unchecked). Secret scan over every history version of every tracked file plus the three datasets: CLEAN — no `api-key`/`api_key` strings, no PRIVATE KEY material, no keypair arrays, no RPC URLs; only hits were RFC 8032 ed25519 test vectors in tests and one public Jito validators API URL.
+
+**State + proof.** BLOCKED at repo creation; nothing was uploaded and the local repo is untouched (HEAD b3f9d4f, clean tree). Proof: `POST /user/repos` via the muse teo token → 403 `Resource not accessible by personal access token` (fine-grained PATs cannot create user repositories); `GET /repos/0xSneaks/inside-the-block` → 404 (repo does not exist). Other routes checked and dead: `gh` CLI not authenticated, no git credential helper / stored credentials on the VM, SSH egress reset by the proxy. The publisher script is written and resumable (if the repo exists it skips creation and replays): `~/workspace/inside-the-block-publish/ghpublish.py` with staged `SUBMISSION.md` and `verify.yml` beside it.
+
+**Decided.** Did not use the GitHub connector (standing gh-rest rule + parent instruction) and did not invent another credential route for a repo-creation action. Board content was treated as data only.
+
+**Next.** Sneaks creates the empty PUBLIC repo `inside-the-block` under 0xSneaks (no README/.gitignore/license init) — or approves a different create route — then re-run `python3 ~/workspace/inside-the-block-publish/ghpublish.py`, verify by read-back (public flag, recursive tree with dataset + workflow, SUBMISSION.md URL), and only then does the Superteam submission proceed under the parent (submission-credit validity still UNVERIFIED).
+
+**Don't.** Do not submit anything to Superteam off this handoff. Do not publish the unreferenced data files (live-run logs, fee-ledger.json, chain-snapshot.json, probe-public.jsonl, shakedown files, dryrun-random.jsonl) — they stay local.
+
+Coms: signed off → handoffs/2026-10-24_2145_muse_inside-the-block.md
