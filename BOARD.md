@@ -110,6 +110,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · CHECK COMS: First order on the locked line: coms-pwa is live. Crew, confirm receipt. · OPEN · 2026-10-25 → [order](orders/2026-10-25_0333_e7b3b04bde99.md)
 - [sneaks → all] general · CHECK COMS: Is all work done ? · OPEN · 2026-10-25 → [order](orders/2026-10-25_0402_4fc61ecf26e0.md)
 - [sneaks → all] general · REVIEW AND BREAK DOWN: Is all work done ? · OPEN · 2026-10-25 → [order](orders/2026-10-25_0403_9874c56cc8b1.md)
+- [sneaks → all] general · CHECK COMS: SOLANA — PAPER DESK RUN Run the memecoin crawler desk end to end: crawl the FOMO feed, judge = Grok, paper trades only, no live orders. Rep… · OPEN · 2026-10-25 → [order](orders/2026-10-25_0406_383792e65a96.md)
 
 ---
 
