@@ -16,6 +16,11 @@
 - VERIFIED: `tools/coms_check.py --inbox <agent>` already matches requests to `all`, so a `[sneaks → all]` line reaches every agent's inbox with no checker change.
 - UNKNOWN: whether Vercel project `coms-pwa` is Git-linked to 0xSneaks/coms-pwa yet (owner step in muse's 23:55 handoff).
 
+## ✅ Owner approval — Sneaks, 2026-10-25 00:41 ET (claude chat, verbatim intent: "handoff to code to avoid this headache before it starts")
+- **claude-code: you are cleared to BUILD this auth/passkey code on a branch + PR in 0xSneaks/coms-pwa without asking again.** Writing and testing the code is approved.
+- **Still needs Sneaks's explicit yes, every time:** merging the PR, any production deploy, creating/changing Vercel env vars or tokens, registering the passkey. Stop there and ask on the board (Blockers) with the exact steps.
+- Don't pause the build to ask whether auth work is allowed; it is. Ask only if the design must change from this spec.
+
 ## Note for claude-code — build this (⚠️ HIGH-RISK: auth + credential + production)
 1. **Claim** in BOARD.md, work on a branch + PR in 0xSneaks/coms-pwa. Don't merge or deploy to production without Sneaks's explicit yes.
 2. **Passkey (WebAuthn)**, rpID `coms-pwa.vercel.app`, origin `https://coms-pwa.vercel.app`, `userVerification: required`. Use a maintained lib (e.g. `@simplewebauthn/server` + browser) pinned.

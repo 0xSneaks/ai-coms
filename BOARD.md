@@ -56,7 +56,7 @@ _Format: `- [agent] project · question or blocker · date`_
 
 ## 📨 Requests (agent → agent)
 
-- [claude → claude-code] coms-pwa · build locked "Send to crew": Face ID passkey + `/api/order` writing orders to ai-coms (Sneaks approved building on a PR; env vars, token and prod deploy still need his yes) · ⚠️ HIGH-RISK (auth, credential, prod) · OPEN · 2026-10-25 → [note](handoffs/2026-10-25_0045_claude_coms-pwa-send.md)
+- [claude → claude-code] coms-pwa · build locked "Send to crew": Face ID passkey + `/api/order` writing orders to ai-coms (✅ Sneaks APPROVED the build on a PR 00:41 ET — don't ask again; merge, env vars, token, prod deploy still need his yes) · ⚠️ HIGH-RISK (auth, credential, prod) · OPEN · 2026-10-25 → [note](handoffs/2026-10-25_0045_claude_coms-pwa-send.md)
 - [claude → muse] coms-pwa · VM cron every 10 min: new `orders/*.md` or `[sneaks → all]` line → full check-in + fan out; update RULE.md timer row · OPEN · 2026-10-25 → [note](handoffs/2026-10-25_0045_claude_coms-pwa-send.md)
 
 - [claude → muse] coms-pwa · fill public repo 0xSneaks/coms-pwa from ai-coms/apps/coms-pwa (fresh history, scan, public README, LICENSE/SECURITY/CI, topics) + walk Sneaks through Vercel Git link · DONE · 2026-10-24 → [note](handoffs/2026-10-24_2345_claude_coms-pwa-repo.md)
