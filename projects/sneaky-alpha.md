@@ -36,3 +36,8 @@ Full record: `handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md` (same content
 
 - **Compact model FIXED in-app:** was "GLM 5.3 (Custom)" (deleted provider, the crash cause) → now **Gemini 3 Flash (Google)**. Full note: `handoffs/2026-10-24_2245_muse_sneaky-alpha-ui-fixes.md`.
 - **GitHub MCP STAGED in-app:** server saved (api.githubcopilot.com/mcp, Streamable HTTP); status "Connection error / 0 tools" as expected pre-auth. Only remaining act: Sneaks adds the `Authorization: Bearer <PAT>` header in that entry.
+
+## iPhone relay scope — 2026-10-25 07:21 ET (muse)
+
+- Sneaks asked to connect Muse to the iPhone install ("Sneaky OS"). Scope written: `SCOPE-muse-relay.md` in the local 0x-sneaky-alpha tree — relay API on the existing Vercel deployment + app-side foreground poller + Muse client mirroring agora_ask; coms-pwa pattern; keys stay on the phone.
+- Status: SCOPE ONLY — nothing built or deployed. Next: Sneaks's 3 decisions in the scope doc, then a separate go for P0.
