@@ -1,0 +1,70 @@
+# Handoff — bounty-scout — claude — 2026-10-24 20:25 ET
+
+**Note for muse.** New project. You own it. Read all of it before you start.
+
+**Session goal:** Sneaks wants you to spawn a team of sub-agents ("Blues") that search for bounties, bug bounty programs, and similar paid work on a 4–5 h cycle, so nothing gets missed. — INTENT (Sneaks, 2026-10-24 20:20 ET)
+**Status:** HANDING OFF (plan only; nothing built yet)
+**Repo / branch:** none yet · **Last commit:** none
+
+## What to find — INTENT
+- Bug bounty programs (Web3 and Web2): new programs, scope expansions, payout raises.
+- Audit contests (time-boxed).
+- Dev / build bounties (paid tasks, GitHub issue bounties).
+- Hackathons and grants with prize money.
+Fit for Sneaks: Solana / crypto, AI agents, TypeScript / React / Next, bots, automation, docs. Remote. He stays anonymous, so **flag KYC** on every item.
+
+## Team — one Blue per lane (sources are INFERENCE: from model knowledge, not checked today)
+| Blue | Lane | Start with |
+|---|---|---|
+| Blue-1 | Web3 bug bounties | Immunefi, Cantina, HackenProof, Hats Finance |
+| Blue-2 | Web3 audit contests | Code4rena, Sherlock, CodeHawks (Cyfrin), Cantina contests |
+| Blue-3 | Web2 bug bounties | HackerOne, Bugcrowd, Intigriti, YesWeHack (public program lists) |
+| Blue-4 | Dev / build bounties | Superteam Earn (Solana), Gitcoin, Algora, Bountycaster (Farcaster), GitHub issues labeled `bounty` |
+| Blue-5 | Hackathons + grants | Colosseum, DoraHacks, Devfolio, ETHGlobal, Solana Foundation + Superteam grants |
+| Blue-6 | Social sweep | X + Farcaster search for "bug bounty" / "bounty" launch posts from protocols; read-only |
+| You | Merge + gatekeeper | Dedupe, score, write digest, ping Sneaks |
+
+Add or drop sources as you learn. Keep lanes from overlapping.
+
+## Cycle — every 4 h (VM cron) — INTENT 4–5 h; 4 h chosen to match your coms cron
+1. Each Blue scans its lane. Prefer official API / RSS / public list pages. Return JSON rows only.
+2. You merge. Dedupe by canonical URL against `seen.json`.
+3. Re-check known items for changes: payout up, scope added, deadline moved, program paused.
+4. Score fit 1–5. Write the digest. Ping Sneaks only if worth it (below).
+5. If a lane fails, log it and keep the rest. Never block the cycle on one source.
+
+Row fields: `title, platform, url, type (bug-bounty|contest|dev-bounty|hackathon|grant), payout (max + currency), deadline, stack/scope, kyc (yes|no|unknown), fit (1–5), first_seen, last_changed, change_note`.
+
+## Where output goes — INFERENCE (your call; reversible)
+- Make private repo `0xSneaks/bounty-scout`. Keep `seen.json` and `digests/YYYY-MM-DD_HHMM.md` there.
+- **Not** on this board per cycle. Board gets one weekly roll-up handoff + blockers only.
+- Ping Sneaks in your chat when: fit ≥ 4, or deadline < 72 h, or a payout ≥ his threshold. Ask him for the threshold on first ping; until then use fit ≥ 4 only.
+- Format for the ping: short list, one line per item: `fit · payout · deadline · KYC · title · url`.
+
+## Rules for every Blue
+- Pass the AI COMS rule to every sub-agent you spawn (Sneaks's standing rule).
+- Cheapest working model first (your free Zen models). Cap time per lane per cycle. Log model + cost per cycle.
+- Public pages, official APIs, RSS only. Respect robots.txt and ToS. Back off on rate limits.
+
+## Don't
+- **Discovery only.** No testing, scanning, fuzzing, or probing any target. No PoCs on live systems. Actual bug hunting is a separate decision Sneaks makes per program, in scope only.
+- No sign-ups, KYC, applications, or submissions in Sneaks's name. No accounts he didn't hand you.
+- No logins behind walls, no CAPTCHA solving, no PR #13 browser escalation to get past a wall (same rule as muse-socials).
+- No wallets, no payments, no claiming rewards.
+- No secrets, keys, or private repo details in digests or pings.
+- Don't trust "bounty" posts blindly: flag ones that ask for a deposit, wallet connect, or a download. Those are scams; log, don't open.
+
+## Stop and ping Sneaks (board blocker line) when
+- A source needs an account, API key, or payment.
+- Cost per cycle jumps or a lane keeps failing 3 cycles in a row.
+- Anything asks for KYC, a wallet, or a submission.
+
+## Next (start here)
+1. Check in. Claim: `- [muse] bounty-scout · Blue team + 4 h cron · started <time>`.
+2. Cycle 0 = source audit: each Blue confirms its sources are reachable and how (API / RSS / page). Write the result to `projects/bounty-scout.md` → "Stack & where things live". Fix the source list there.
+3. Install the 4 h cron. Run cycle 1. Send Sneaks the first digest.
+4. Sign off with a handoff (VERIFIED: cron line, first digest path, rows found per lane).
+
+## ⚠️ High-risk (needs Sneaks's explicit yes; deciders can't approve)
+- Any move from finding to hunting (touching a target system).
+- Any KYC, payout setup, or wallet tied to a bounty.
