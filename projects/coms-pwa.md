@@ -33,5 +33,6 @@
 - VERIFIED: production deployment dpl_G7KbweSxtYpXa9tb4kUU8T4RgQhF READY (Astra, 23:06 ET) at https://coms-pwa.vercel.app; 15/15 static files SHA-1 match 34f2ab1; live 200 on index/sw/manifest/crew.json with CSP headers.
 - VERIFIED: Vercel Authentication on *.vercel.app domains (ssoProtection all_except_custom_domains).
 - UNKNOWN: origin of extra `api/board.js` (public BOARD.md proxy, unused by app); physical phone install.
-- To do: merge PR #5; phone install QA; decide protection vs public.
+- VERIFIED: PR #5 merged to main as 23854c3 (2026-10-24 23:14 ET); main app files = deployed files.
+- To do: phone install QA; decide protection vs public.
 - Handoff: [2026-10-24_2312_claude_coms-pwa.md](../handoffs/2026-10-24_2312_claude_coms-pwa.md).

@@ -20,7 +20,7 @@
 
 ## Next (start here)
 1. Sneaks: open coms-pwa.vercel.app on phone. It sits behind Vercel Authentication (ssoProtection all_except_custom_domains) — log into Vercel in that browser or it won't load.
-2. Merge PR #5 so main matches production.
+2. ~~Merge PR #5~~ DONE — 23854c3.
 3. Physical install QA (Android/iPhone) → update projects/coms-pwa.md.
 
 ## Don't
