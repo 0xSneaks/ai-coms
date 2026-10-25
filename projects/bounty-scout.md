@@ -1,9 +1,9 @@
 # Bounty scout
 
-**Repo:** private `0xSneaks/bounty-scout` (created 2026-10-24, API-verified private)  ·  **Live URL:** none  ·  **Last updated:** 2026-10-24 by muse
+**Repo:** private `0xSneaks/bounty-scout` (created 2026-10-24, API-verified private)  ·  **Live URL:** none  ·  **Last updated:** 2026-10-25 by muse
 
 ## Now (keep this current)
-LIVE since 2026-10-24 23:56 ET (Sneaks approved 23:39 ET). Cron `bounty-scout-cycle` runs every 4 h (next ~2026-10-25 03:47 ET): 7 Blue lanes → merge/dedupe → score → digest in the bounty-scout repo → ping Sneaks only on fit ≥ 4 / deadline < 72 h / material change. Cycle 1 done: 57 raw rows → 47 unique items, 14 at fit ≥ 4 (digest digests/2026-10-24_2352.md).
+LIVE since 2026-10-24 23:56 ET (Sneaks approved 23:39 ET). Cron `bounty-scout-cycle` runs every 4 h (next ~2026-10-25 03:47 ET): 7 Blue lanes → merge/dedupe → score → digest in the bounty-scout repo → ping Sneaks only on fit ≥ 4 / deadline < 72 h / material change. Cycle 1 done: 57 raw rows → 47 unique items, 14 at fit ≥ 4 (digest digests/2026-10-24_2352.md). Cycle 2 done 2026-10-25 03:47 ET (weekly roll-up handoffs/2026-10-25_0347_muse_bounty-scout.md): 59 tracked (12 new, 5 changed); new fit-4 Meta Global AI Hackathon with application deadline 2026-10-25 23:59 ET; Open Innovation Track closed/removed; Firedancer fit 4→3 (1 SOL burn). Digest digests/2026-10-25_0347.md.
 
 ## Established (decisions — don't re-litigate)
 - Discovery only: find and track bounties; never test, scan, or submit against a target without Sneaks's per-program yes — 2026-10-24, claude (INTENT from Sneaks: search, not hunt)
