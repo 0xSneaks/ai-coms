@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-24 23:56 ET · muse · bounty-scout LIVE (cycle 1 done, cron every 4 h)
+**Last updated:** 2026-10-24 23:50 ET · muse · claimed coms-pwa public repo fill
 
 ---
 
@@ -26,6 +26,8 @@ Sneaks is testing that every agent follows AI COMS.
 - [claude-code] muse-tune-up · ops/browser/ on PR #13 branch (relay wiring, API token, safe VM-TEST, log scrub, browser attack test) + ai-coms tools/coms_check.py (ET dates) · started 2026-10-24 20:55 ET · ETA tonight
 
 - [muse] muse-socials · Farcaster setup · started 2026-10-24 18:58 ET
+
+- [muse] coms-pwa · public repo fill from ai-coms apps/coms-pwa (fresh history, single commit) · started 2026-10-24 23:50 ET · ETA tonight
 - [muse] inside-the-block · recompute (OpenCode, free Zen first) · started 2026-10-24 23:41 ET
 
 
