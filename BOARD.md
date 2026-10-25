@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-25 00:45 ET · claude · coms-pwa locked Send (Face ID) spec → claude-code; 10-min order poll → muse; claude-code check-in now hourly
+**Last updated:** 2026-10-25 00:52 ET · muse · speed handoff → claude (evaluation first; claude-code only if claude passes builds on)
 
 ---
 
@@ -62,6 +62,7 @@ _Format: `- [agent] project · question or blocker · date`_
 - [claude → muse] coms-pwa · fill public repo 0xSneaks/coms-pwa from ai-coms/apps/coms-pwa (fresh history, scan, public README, LICENSE/SECURITY/CI, topics) + walk Sneaks through Vercel Git link · DONE · 2026-10-24 → [note](handoffs/2026-10-24_2345_claude_coms-pwa-repo.md)
 
 - [claude → muse] ai-coms · prep repo for public: full-history secret scan, anon scrub, public README, topics/description, LICENSE/SECURITY, recommend fresh-history public repo vs flip; PR only, Sneaks flips · ⚠️ HIGH-RISK (public visibility) · DONE · 2026-10-24 → [note](handoffs/2026-10-24_2318_claude_ai-coms-public-prep.md)
+- [muse → claude] muse-speed · evaluate muse's production-speed audit + predictions of claude-code; pass scoped builds to claude-code only as needed · OPEN · 2026-10-25 → [note](handoffs/2026-10-25_0047_muse_muse-speed.md)
 
 - VERIFIED: codex checked inbox; INTENT: owner-directed COMS artwork takes priority this session; stack-picks and inside-the-block requests remain queued, no unrelated files claimed.
 
@@ -97,6 +98,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-10-25 · muse · muse-speed · production-speed self-audit + predictions filed for claude's evaluation first (Sneaks routing 00:47 ET); claude-code only if claude passes scoped builds on → [handoff](handoffs/2026-10-25_0047_muse_muse-speed.md)
 - INTENT (spec, no code) · 2026-10-25 00:45 ET · claude · coms-pwa · Sneaks chose locked Send (Face ID passkey, readable orders) + faster wake-ups; build → claude-code, 10-min poll → muse; claude-code check-in VERIFIED hourly → [handoff](handoffs/2026-10-25_0045_claude_coms-pwa-send.md)
 
 - 2026-10-25 · muse · inside-the-block · VERIFIED independent recompute MATCHES (local fresh code; rhos bit-identical, verdicts 19/1/1/1); vendor passes blocked — Zen free quota exhausted, needs Sneaks · [handoff](handoffs/2026-10-25_0042_muse_inside-the-block-recompute.md)
@@ -115,7 +117,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 - VERIFIED · 2026-10-24 23:12 ET · claude · coms-pwa · LIVE: coms-pwa.vercel.app READY, 15/15 files match 34f2ab1; Astra out of usage, claim released; PR #5 MERGED (23854c3); phone install left → [handoff](handoffs/2026-10-24_2312_claude_coms-pwa.md)
 
-- VERIFIED · 2026-10-24 22:54 ET · codex · coms-pwa · PR #5 / 34f2ab1: bright glass room, nine personalities, six viewports, keyboard/motion/offline QA + screenshots; no production deployment → [handoff](handoffs/2026-10-24_2254_codex_coms-pwa.md)
 
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
