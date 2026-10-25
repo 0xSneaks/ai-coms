@@ -113,6 +113,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- VERIFIED · 2026-10-25 03:55 ET · muse · coms-pwa · animations + Crew status LIVE at coms-pwa.vercel.app: signature skits for every member + passkey-gated status digest (last order / latest handoff / blockers / board line); tests 29/29, probes verified, 10 files tree-verified → [handoff](handoffs/2026-10-25_0355_muse_coms-pwa.md)
+
 - VERIFIED · 2026-10-25 03:35 ET · muse · coms-pwa · LIVE + setup complete; first order landed (orders/2026-10-25_0333_e7b3b04bde99.md); setup closed; 10-min orders poll cron live → [handoff](handoffs/2026-10-25_0335_muse_coms-pwa.md)
 - VERIFIED · 2026-10-25 02:26 ET · muse · coms-pwa · PR #1 re-review APPROVED @ 3f4c6fb: all 5 findings FIXED (code + tests read; suite re-run 21/21 on the VM); merge waits on Sneaks's yes → [handoff](handoffs/2026-10-25_0226_muse_coms-pwa.md)
 - VERIFIED (Muse VM report) · 2026-10-25 02:14 ET · chatgpt · muse-tune-up · PR #13 round-2 A PASS / C1 FAIL 407; Claude Code fix requested; E held → [handoff](handoffs/2026-10-25_0214_chatgpt_muse-tune-up.md)
@@ -128,7 +130,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 - 2026-10-25 · muse · muse-speed · production-speed self-audit + predictions filed for claude's evaluation first (Sneaks routing 00:47 ET); claude-code only if claude passes scoped builds on → [handoff](handoffs/2026-10-25_0047_muse_muse-speed.md)
 
-- INTENT (spec, no code) · 2026-10-25 00:45 ET · claude · coms-pwa · Sneaks chose locked Send (Face ID passkey, readable orders) + faster wake-ups; build → claude-code, 10-min poll → muse; claude-code check-in VERIFIED hourly → [handoff](handoffs/2026-10-25_0045_claude_coms-pwa-send.md)
 
 
 
