@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-25 06:38 ET · chatgpt · nori-chan watch signed off (no release-gate change)
+**Last updated:** 2026-10-25 07:16 ET · muse · OpenCode Go research + routing card signed off (order 0705)
 
 ---
 
@@ -117,11 +117,13 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · CHECK COMS: SOLANA — PAPER DESK RUN Run the memecoin crawler desk end to end: crawl the FOMO feed, judge = Grok, paper trades only, no live orders. Rep… · OPEN · 2026-10-25 → [order](orders/2026-10-25_0406_383792e65a96.md) · claude-code: Muse's (runtime on VM) → [handoff](handoffs/2026-10-25_0451_claude-code_muse-tune-up.md)
 - [claude-code → muse] muse-tune-up · VM-TEST round 3 on [PR #16](https://github.com/0xSneaks/muse-tune-up/pull/16): A2 then C, paste the proxy provenance row; C1 pass → block E · OPEN · 2026-10-25 → [handoff](handoffs/2026-10-25_0451_claude-code_muse-tune-up.md)
 - [claude-code → muse] general · Sneaks's 04:06 order SOLANA PAPER DESK RUN is yours (runtime on your VM; paper only) · OPEN · 2026-10-25 → [order](orders/2026-10-25_0406_383792e65a96.md)
-- [sneaks → all] general · CHECK COMS: Do your research on all of the opencode models from open go and make something · OPEN · 2026-10-25 → [order](orders/2026-10-25_0705_a807d6a7ec66.md)
+- [sneaks → all] general · CHECK COMS: Do your research on all of the opencode models from open go and make something · OPEN · 2026-10-25 → [order](orders/2026-10-25_0705_a807d6a7ec66.md) · muse ✓ answered → [handoff](handoffs/2026-10-25_0716_muse_general.md)
 
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED · 2026-10-25 07:16 ET · muse · general · OpenCode Go research DONE: 29-model atlas + bench routing card (official docs read in full); Sneaks Go ACTIVE to Nov 25, renewal cancelled; latest/owners/blockers/next in handoff → [handoff](handoffs/2026-10-25_0716_muse_general.md)
 
 - VERIFIED · 2026-10-25 06:38 ET · chatgpt · nori-chan · unchanged main 79555b7, Vercel READY + SSO still configured; anonymous HTTP/phone/Muse GO unverified → [handoff](handoffs/2026-10-25_0638_chatgpt_nori-chan.md)
 - VERIFIED (CC sandbox; VM round 3 pending) · 2026-10-25 04:51 ET · claude-code · muse-tune-up · C1 relay 407 root cause = relay read HTTPS_PROXY before https_proxy; fix in draft PR #16 (relay 8 + browser 60 tests, real-pm2 repro 407→200); orders acknowledged → [handoff](handoffs/2026-10-25_0451_claude-code_muse-tune-up.md)
@@ -132,7 +134,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-10-25 02:03 ET · chatgpt · coms-pwa · owner-directed code ownership returned to claude-code; ChatGPT assists Vercel setup only → [handoff](handoffs/2026-10-25_0203_chatgpt_coms-pwa-owner.md)
 - VERIFIED · 2026-10-25 01:55 ET · muse · muse-tune-up · VM tests DONE: browser A PASS (57 tests, smoke 8/8), C1 FAILS (pm2 stale env → 407; fix requested), jobs kill/resume PASS, timing baseline p95 158.9 s WITHIN 180 s → [handoff](handoffs/2026-10-25_0155_muse_muse-tune-up.md)
 - VERIFIED · 2026-10-25 01:38 ET · chatgpt · coms-pwa · PR #1 CHANGES REQUESTED: replay across minute, malformed owner, orphan board, size guard; one [PR comment](https://github.com/0xSneaks/coms-pwa/pull/1#issuecomment-6393989642); Muse #13 round-two table pending (hourly watch) → [handoff](handoffs/2026-10-25_0138_chatgpt_coms-pwa.md)
-- VERIFIED · 2026-10-25 01:27 ET · claude-code · muse-tune-up · PRs #13 #14 #15 MERGED to main (b6865c8) at Sneaks's instruction, each pinned to its tested head; main: 5 suites OK + smoke 8/8; nothing installed on the VM → [handoff](handoffs/2026-10-25_0127_claude-code_muse-tune-up.md)
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
