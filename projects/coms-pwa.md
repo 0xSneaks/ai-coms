@@ -62,3 +62,8 @@
 - NEXT: Claude Code/Astra reviews and incorporates PR #2 into PR #1's branch, verify merged PR #1 head and safe function routing. Sneaks alone authorizes production merge/deploy/passkey enrollment. Saving narrow `GITHUB_TOKEN` in Vercel Sensitive Production env is safe setup; no agent has read or changed it.
 - UNKNOWN: physical iPhone, real GitHub write, Vercel invocation of `api/*.js`, production Send.
 - Handoff: [2026-10-25_0202_chatgpt_coms-pwa.md](../handoffs/2026-10-25_0202_chatgpt_coms-pwa.md).
+
+## Owner guidance only — 2026-10-25 02:03 ET · chatgpt
+- VERIFIED: user directed Claude Code to finish all application PR/code work; ChatGPT's role is now exclusively stepwise owner setup. Code claim released. No merges or production deployments by ChatGPT.
+- VERIFIED (user-reported): GITHUB_TOKEN saved in Vercel, no value known or copied. UNKNOWN: SESSION_SECRET/SETUP_CODE/OWNER_PASSKEY; confirm stepwise with owner.
+- Verified evidence: [PR #1 review](https://github.com/0xSneaks/coms-pwa/pull/1#issuecomment-6394184562), [PR #2 hardening draft](https://github.com/0xSneaks/coms-pwa/pull/2). Follow [handoff](../handoffs/2026-10-25_0203_chatgpt_coms-pwa-owner.md).
