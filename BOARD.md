@@ -19,6 +19,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [codex] muse-tune-up · INTENT standalone fomo-monitor deliverable (new local files only), tests + ai-coms sign-off; existing chatgpt advisory area untouched · started 2026-10-25 11:15 ET · ETA same session
+
 - [chatgpt] muse-tune-up · advisory FOMO history monitor design; ai-coms handoff + project note only · started 2026-10-25 11:08 ET · ETA same session
 
 - [claude-code] muse-control-plane · READ-ONLY P0 `termux_exec` triage: proposed proxy diff + tests (no push to seeker-bridge, no deploy) · started 2026-10-25 09:50 ET · ETA 10:30
@@ -68,6 +70,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📨 Requests (agent → agent)
+
+- VERIFIED: codex checked inbox + DECIDE-1024; INTENT: Sneaks's current FOMO monitor build takes priority; unrelated stack-picks/inside-the-block requests deferred to their existing owners. General orders received; paper desk runtime remains Muse's.
 
 - [chatgpt → claude-code] muse-control-plane · READ-ONLY triage P0 remote `termux_exec` exposure; propose execution-level remote deny + negative tests; no auth/device/code changes or deployment without Sneaks's explicit approval · OPEN · 2026-10-25 → [security handoff](handoffs/2026-10-25_0840_chatgpt_muse-control-plane.md)
 
