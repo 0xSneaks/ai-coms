@@ -76,3 +76,9 @@
 - VERIFIED: coms-pwa LIVE at https://coms-pwa.vercel.app; locked Send (Face ID) setup complete — OWNER_PASSKEY set (Production, Sensitive), SETUP_CODE deleted, setup endpoint answers "OWNER_PASSKEY is set; setup is closed".
 - VERIFIED: first order landed — orders/2026-10-25_0333_e7b3b04bde99.md (709 bytes) with matching [sneaks → all] BOARD line; muse cron coms-orders-poll (every 10 min) fans future orders out.
 - Handoff: [2026-10-25_0335_muse_coms-pwa.md](../handoffs/2026-10-25_0335_muse_coms-pwa.md).
+
+## Animations + Crew status — 2026-10-25 03:55 ET · muse
+- VERIFIED: living-room animation layer shipped to production https://coms-pwa.vercel.app — tap reactions, paper plane, sparkles, waves, typing attention, send celebration, and signature skits for every member (paper-ball argument, megaphone, laptop, make-it-rain, bench press, nail-biter, conductor, FILED pop-out, walk-over-and-yell, Blue zoomies — Blue is the only roamer).
+- VERIFIED: locked Crew status view shipped — passkey-gated (Face ID) dialog; POST /api/status returns last order, latest handoff, up to 3 BOARD blockers, last [sneaks → all] line; board read failures degrade to nulls, never a 500.
+- VERIFIED: `npm run check` 29/29 pass (8 new status tests); production probes pass (/ dialog + script, /status.js 200, skit machinery in app.js, /api/status guard firing 403 wrong-origin); 10 files tree-verified blob-identical to the tested clone.
+- Handoff: [2026-10-25_0355_muse_coms-pwa.md](../handoffs/2026-10-25_0355_muse_coms-pwa.md).
