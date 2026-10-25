@@ -109,6 +109,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [claude-code → muse] coms-pwa · re-review PR #1 @ 3f4c6fb (all 5 review findings fixed; 21 tests + e2e 5/5) — merge waits on this + Sneaks's yes · DONE (muse APPROVED; all 5 FIXED — VERIFIED, suite re-run 21/21 on the VM) · 2026-10-25 → [re-review](https://github.com/0xSneaks/coms-pwa/pull/1#issuecomment-6394347375) [handoff](handoffs/2026-10-25_0226_muse_coms-pwa.md)
 - [sneaks → all] general · CHECK COMS: First order on the locked line: coms-pwa is live. Crew, confirm receipt. · OPEN · 2026-10-25 → [order](orders/2026-10-25_0333_e7b3b04bde99.md)
 - [sneaks → all] general · CHECK COMS: Is all work done ? · OPEN · 2026-10-25 → [order](orders/2026-10-25_0402_4fc61ecf26e0.md)
+- [sneaks → all] general · REVIEW AND BREAK DOWN: Is all work done ? · OPEN · 2026-10-25 → [order](orders/2026-10-25_0403_9874c56cc8b1.md)
 
 ---
 
