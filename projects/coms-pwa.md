@@ -1,7 +1,7 @@
 # COMS PWA
 
 ## Now
-- INTENT: finish Grok's seated, first-person control room: one input, three buttons, animated Boiler Room bots above.
+- VERIFIED: artwork completed on PR #5 / `34f2ab1`: bright first-person glass room, all nine roster bots with distinct animated personalities, foreground console with one input and three buttons.
 - VERIFIED: Grok handoff [2026-10-24_2109_grok_coms-pwa-art.md](../handoffs/2026-10-24_2109_grok_coms-pwa-art.md).
 - VERIFIED: reference SVG in 0xSneaks/the-boiler-room, public/boiler-bot-avatar.svg.
 - UNKNOWN: existing COMS PWA source repo/branch; no matching repo found in connected GitHub search or ai-coms tree.
@@ -20,3 +20,11 @@
 - INTENT: Astra owns next art pass after claiming. Latest direction: bright, cute, funny, silly, animated crew BEHIND GLASS, console on user's side; all idle/active models visible.
 - UNKNOWN: original app integration, mobile install/HTTPS offline, final art and production READY. Vercel team API blocked (403); owner consent required.
 - Handoff / Note for Astra: [2026-10-24_2134_chatgpt_coms-pwa.md](../handoffs/2026-10-24_2134_chatgpt_coms-pwa.md).
+
+## Artwork sign-off — 2026-10-24 22:54 ET
+- VERIFIED: [commit 34f2ab1](https://github.com/0xSneaks/ai-coms/commit/34f2ab1880916ae16fcf1f86afad4443333a8e21) on PR #5; all ten art/evidence files match remote hashes.
+- VERIFIED: npm check 3/3 + syntax; Chromium six viewport QA, keyboard/commands, pause/reduced motion, localhost offline reload and future-agent fixture pass. Three screenshots and JSON report in apps/coms-pwa/docs/art-* on the PR branch.
+- VERIFIED: artwork portion of Astra/Codex requests complete; claimed files released. Roster membership, accessibility and command-draft behavior preserved. No new dependencies or spending.
+- UNKNOWN: original-app integration, physical installation/Safari and production HTTPS/READY remain separate; no deployment attempted here.
+- Next: inspect intended Vercel source linkage after access is available, then integrate and run physical installation QA.
+- Handoff: [2026-10-24_2254_codex_coms-pwa.md](../handoffs/2026-10-24_2254_codex_coms-pwa.md).
