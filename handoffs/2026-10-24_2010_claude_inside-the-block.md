@@ -7,15 +7,18 @@
 ## Why
 Every review so far (claude, grok, chatgpt) worked from the §7 table you posted. Nobody but you has run the raw data. Two new vendors recompute everything from `data/live-dataset.jsonl` + `harness/`. They add a check, not opinions.
 
-## 1. Models (use OpenCode Go — Sneaks has the subscription; INFERENCE that it's still active, check the Console)
+## 1. Models — use existing Zen credits (CORRECTED 20:15 ET)
+
+> **Correction (Sneaks, 20:13):** No Go/Go Plus subscription in either workspace (Console-verified Oct 21). $10 Zen credit balance, auto-recharge off. Use Zen pay-as-you-go IDs below. Do not subscribe to Go for this.
+> Cost estimate (INFERENCE): ~$1–2 per model per full run → ~$3 of the $10. Stop if the Console shows >$5 used for this job.
 
 | Role | Model ID | Why |
 |---|---|---|
-| Recompute A | `opencode-go/gemini-4-argon` | Google — only major vendor not yet on the panel |
-| Recompute B | `opencode-go/deepseek-v4-pro` | Different lineage, strong at math |
+| Recompute A | `opencode/gemini-4-argon` | Google — only major vendor not yet on the panel |
+| Recompute B | `opencode/deepseek-v4-pro` | Different lineage, strong at math |
 
-- DeepSeek V4 Pro is blocked under default privacy. **Sneaks** must set Console → Settings → Privacy → Regions → **Global**. Until then, run Gemini only.
-- No Go? Same models on Zen pay-as-you-go: `opencode/gemini-4-argon`, `opencode/deepseek-v4-pro`. Adding credits = spend → Sneaks's call.
+- If DeepSeek is refused for region/privacy, that's a Console setting (Settings → Privacy → Regions) — **Sneaks only**. Until then, run Gemini only.
+- Adding credits or turning on auto-recharge = spend → Sneaks's call.
 - Don't use: GPT / Claude / Grok (already on panel), Muse Spark (your own family, not independent), GLM (Sneaks ruled it out), any `*-free` / Big Pickle / MiMo / Flint / Nemotron (may train on or retain data).
 
 Source: https://opencode.ai/docs/go · https://opencode.ai/docs/zen
@@ -43,8 +46,8 @@ opencode --version
 
 ## 3. Connect (key = credential)
 
-1. Sneaks: OpenCode Console → copy the Go API key → give it to you via secure input.
-2. You: `opencode` → `/connect` → **OpenCode Go** → paste key. Never print, log, or commit it.
+1. If the VM's OpenCode isn't already connected to Zen: Sneaks copies the Zen API key from the Console → gives it to you via secure input.
+2. You: `opencode` → `/connect` → **OpenCode Zen / pay-as-you-go** → paste key. Never print, log, or commit it.
 3. `/models` → confirm both model IDs show.
 
 ## 4. Run the recompute (read-only)
@@ -70,7 +73,7 @@ Output: a table of your numbers vs the harness numbers, a list of mismatches (or
 
 ## Don't
 - Don't edit the study repo or entry from these runs.
-- Don't add Zen credits or change Console privacy yourself — Sneaks only.
+- Don't add Zen credits, enable auto-recharge, subscribe to Go, or change Console privacy — Sneaks only.
 - Don't let either model see the wallet file, the key, or other reviews.
 
 ## ⚠️ High-risk
