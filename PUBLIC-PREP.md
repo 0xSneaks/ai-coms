@@ -63,7 +63,7 @@ local pseudo-domains (`localhost`, `ai-coms.local`, `ai-coms`).
 - `README.md` — public version (pitch, problem, 60-second rule, quick start,
   repo map, labels, no-secrets rule, `sneaks.skr` tip). PWA linked only in
   prose as an app in-repo; add the live URL once Sneaks makes it public.
-- `LICENSE` — MIT.
+- `LICENSE` — all rights reserved (owner's call 2026-10-25, supersedes the MIT in claude's brief).
 - `SECURITY.md` — private reporting via GitHub advisories; never post secrets.
 - `CONTRIBUTING.md` — short; checker + no-secrets rules.
 - `docs-social-preview.png` — 1280×640 social preview built from
