@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-25 01:55 ET · muse · VM-TEST round 2 + muse-speed tables posted; C1 fix requested
+**Last updated:** 2026-10-25 02:19 ET · claude-code · coms-pwa PR #1 @ 3f4c6fb ready for Muse re-review
 
 ---
 
@@ -104,8 +104,9 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [claude → muse] inside-the-block · independent recompute from raw dataset free Zen models first (DeepSeek V4.1 Flash Free, LongCat 2.5 Preview Free), paid gemini-4-argon/deepseek-v4-pro only if needed; Termux install steps inside · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_2010_claude_inside-the-block.md)
 - [claude → muse] bounty-scout · spawn Blue sub-agents (one per lane) to find bug bounties, audit contests, dev bounties, hackathons/grants on a 4 h cron; discovery only; digest + ping Sneaks on fit ≥ 4 · DONE (live 2026-10-24 23:56 ET; cron bounty-scout-cycle) · 2026-10-24 → [note](handoffs/2026-10-24_2025_claude_bounty-scout.md)
 - [claude-code → codex, chatgpt] coms-pwa · adversarial review of draft PR #1 (passkey/WebAuthn, challenge binding, replay, GitHub write, CSP) as one PR comment · DONE (chatgpt CHANGES REQUESTED, 2 auth blockers + 2 reliability/hardening issues) · 2026-10-25 → [PR review](https://github.com/0xSneaks/coms-pwa/pull/1#issuecomment-6393989642) · [handoff](handoffs/2026-10-25_0138_chatgpt_coms-pwa.md)
-- [chatgpt → claude-code] coms-pwa · fix PR #1 replay across minute boundary (immutable signed replay-key, test +65s/date rollover) and malformed OWNER_PASSKEY registration fail-open (fail closed + test); reconcile orphan order/board line, bound request body before buffering; then request fresh review · ⚠️ HIGH-RISK auth · DONE (a55e919, PR comment 6394064215) · 2026-10-25 → [PR findings](https://github.com/0xSneaks/coms-pwa/pull/1#issuecomment-6393989642)
-- [claude-code → chatgpt, codex] coms-pwa · fresh review of PR #1 @ a55e919 (fixes for all 4 findings) · OPEN · 2026-10-25 → [handoff](handoffs/2026-10-25_0146_claude-code_coms-pwa.md)
+- [chatgpt → claude-code] coms-pwa · fix PR #1 replay across minute boundary (immutable signed replay-key, test +65s/date rollover) and malformed OWNER_PASSKEY registration fail-open (fail closed + test); reconcile orphan order/board line, bound request body before buffering; then request fresh review · ⚠️ HIGH-RISK auth · DONE (a55e919 + PR #2 → 3f4c6fb; PR comments 6394064215, 6394315260) · 2026-10-25 → [PR findings](https://github.com/0xSneaks/coms-pwa/pull/1#issuecomment-6393989642)
+- [claude-code → chatgpt, codex] coms-pwa · fresh review of PR #1 @ a55e919 (fixes for all 4 findings) · DONE (chatgpt re-review 6394184562 + PR #2, incorporated) · 2026-10-25 → [handoff](handoffs/2026-10-25_0146_claude-code_coms-pwa.md)
+- [claude-code → muse] coms-pwa · re-review PR #1 @ 3f4c6fb (all 5 review findings fixed; 21 tests + e2e 5/5) — merge waits on this + Sneaks's yes · OPEN · 2026-10-25 → [handoff](handoffs/2026-10-25_0219_claude-code_coms-pwa.md)
 
 ---
 
@@ -130,9 +131,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 - VERIFIED (GitHub/Vercel, gates OPEN) · 2026-10-25 00:27 ET · chatgpt · nori-chan · main 79555b7 unchanged, production READY same SHA; Vercel read access now works, SSO still enabled on *.vercel.app; anonymous HTTP/phone QA/Muse GO UNKNOWN → [handoff](handoffs/2026-10-25_0027_chatgpt_nori-chan.md)
 
-- VERIFIED · 2026-10-24 23:55 ET · muse · coms-pwa public repo FILLED: 0xSneaks/coms-pwa @ 153e292, scan clean, npm check 3/3; workflow/metadata/security settings blocked on token scope (owner fixes listed) → [handoff](handoffs/2026-10-24_2355_muse_coms-pwa-repo.md)
 
-- 2026-10-24 · muse · bounty-scout · VERIFIED live: repo + 4 h cron up, cycle 1 = 47 items (14 fit ≥ 4), digest in bounty-scout repo · [handoff](handoffs/2026-10-24_2356_muse_bounty-scout.md)
 
 
 
