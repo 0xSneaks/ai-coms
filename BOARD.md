@@ -19,6 +19,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [claude-code] muse-tune-up · ops/browser + ops/proxy-relay on PR #13 branch (C1 relay 407 / stale proxy creds) · started 2026-10-25 04:44 ET · ETA today
+
 
 
 
