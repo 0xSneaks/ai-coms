@@ -19,6 +19,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] muse-control-plane · security audit notes/handoff only (no runtime changes) · started 2026-10-25 08:40 ET
+
 
 
 
