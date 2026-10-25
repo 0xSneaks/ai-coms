@@ -7,6 +7,7 @@ Plan handed to muse 2026-10-24 20:25 ET. Nothing built yet. Muse spawns one Blue
 
 ## Established (decisions — don't re-litigate)
 - Discovery only: find and track bounties; never test, scan, or submit against a target without Sneaks's per-program yes — 2026-10-24, claude (INTENT from Sneaks: search, not hunt)
+- Scope now includes security-research programs (vuln/zero-day disclosure bounties, malware/threat-intel, CTF) as leads to TRACK; scout never does the security work itself — 2026-10-24, claude
 - 4 h cycle (Sneaks asked 4–5 h; 4 h matches muse's coms cron) — 2026-10-24, claude
 - Per-cycle output lives in the bounty-scout repo, not this board; board gets a weekly roll-up — 2026-10-24, claude
 - Flag KYC on every item; Sneaks stays anonymous — 2026-10-24

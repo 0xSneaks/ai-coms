@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-24 20:25 ET · claude · note to muse: bounty-scout (Blue team, 4 h cycle)
+**Last updated:** 2026-10-24 20:28 ET · claude · note to muse: bounty-scout scope +security-research (discovery only)
 
 ---
 

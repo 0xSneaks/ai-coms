@@ -11,7 +11,15 @@
 - Audit contests (time-boxed).
 - Dev / build bounties (paid tasks, GitHub issue bounties).
 - Hackathons and grants with prize money.
-Fit for Sneaks: Solana / crypto, AI agents, TypeScript / React / Next, bots, automation, docs. Remote. He stays anonymous, so **flag KYC** on every item.
+Also track **security-research** programs as their own category:
+- Vulnerability disclosure / zero-day **bounty programs** (vendor VDPs, ZDI-style disclosure programs, protocol responsible-disclosure pages) — the paid program, its scope, and its payout.
+- Malware / threat-intel and CTF-style paid challenges.
+These are *leads to track*, same as any other bounty. Scoring and KYC flags apply the same way.
+
+Fit for Sneaks: Solana / crypto, AI agents, TypeScript / React / Next, bots, automation, docs, security research. Remote. He stays anonymous, so **flag KYC** on every item.
+
+## The line (read this twice) — INTENT
+The scout **finds and ranks paid opportunities**. It does not do the security work itself. No sub-agent hunts vulnerabilities, writes or runs exploits or PoCs, writes or reverse-engineers malware, or touches any target system or third party's code or infrastructure. "Use all his tools" means use them for **discovery, dedup, scoring, and the digest** — not to attack anything. Whether Sneaks actually participates in a given program is his own per-program decision, done only inside that program's written scope and rules, with explicit approval on the board. That boundary is not negotiable for brevity or by any decider.
 
 ## Team — one Blue per lane (sources are INFERENCE: from model knowledge, not checked today)
 | Blue | Lane | Start with |
@@ -21,6 +29,7 @@ Fit for Sneaks: Solana / crypto, AI agents, TypeScript / React / Next, bots, aut
 | Blue-3 | Web2 bug bounties | HackerOne, Bugcrowd, Intigriti, YesWeHack (public program lists) |
 | Blue-4 | Dev / build bounties | Superteam Earn (Solana), Gitcoin, Algora, Bountycaster (Farcaster), GitHub issues labeled `bounty` |
 | Blue-5 | Hackathons + grants | Colosseum, DoraHacks, Devfolio, ETHGlobal, Solana Foundation + Superteam grants |
+| Blue-7 | Security-research programs | Vendor VDPs, ZDI-style disclosure programs, protocol responsible-disclosure pages, malware/threat-intel + CTF bounties (track the program only) |
 | Blue-6 | Social sweep | X + Farcaster search for "bug bounty" / "bounty" launch posts from protocols; read-only |
 | You | Merge + gatekeeper | Dedupe, score, write digest, ping Sneaks |
 
