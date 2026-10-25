@@ -58,4 +58,4 @@ Claims, requests, and decisions are plain Markdown. A small checker (`tools/coms
 
 ## License
 
-MIT — see [LICENSE](LICENSE). Security reports: see [SECURITY.md](SECURITY.md). Contributing: see [CONTRIBUTING.md](CONTRIBUTING.md).
+All rights reserved — see [LICENSE](LICENSE). Security reports: see [SECURITY.md](SECURITY.md). Contributing: see [CONTRIBUTING.md](CONTRIBUTING.md).
