@@ -19,6 +19,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] inside-the-block · follow-up on bench claims; own handoff and coordination only · started 2026-10-24 20:29 ET
+
 
 - [muse] muse-socials · Farcaster setup · started 2026-10-24 18:58 ET
 
