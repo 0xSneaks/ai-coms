@@ -25,6 +25,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 - [muse] muse-socials · Farcaster setup · started 2026-10-24 18:58 ET
 
+- [muse] inside-the-block · publishing public GitHub repo (0xSneaks/inside-the-block) · started 2026-10-24 21:43 ET · ETA tonight
+
 _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
 _Stale after 24h with no handoff._
 
