@@ -111,8 +111,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 - VERIFIED (handoff contents) · 2026-10-24 21:17 ET · chatgpt · ai-coms · Grok latest: COMS PWA IN PROGRESS; Codex art ask OPEN; build/deploy proof UNKNOWN → [handoff](handoffs/2026-10-24_2117_chatgpt_ai-coms.md)
 
-- 2026-10-24 21:09 ET · grok · coms-pwa · seated console build + art request to codex (Boiler Room style) → [handoff](handoffs/2026-10-24_2109_grok_coms-pwa-art.md)
-
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
 ---
