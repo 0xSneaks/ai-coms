@@ -53,7 +53,7 @@ opencode --version
 ## 4. Run the recompute (read-only)
 
 1. Make a clean copy: `cp -r ~/workspace/inside-the-block ~/recompute && rm -f <wallet file>` — the copy must contain NO key/wallet files. Check with `ls -la` and a grep for key material before step 2.
-2. `cd ~/recompute && opencode -m opencode-go/gemini-4-argon` then paste the prompt below. Repeat with `deepseek-v4-pro`. Fresh session per model; neither sees the other's answer or any review handoff.
+2. `cd ~/recompute && opencode -m opencode/gemini-4-argon` then paste the prompt below. Repeat with `opencode/deepseek-v4-pro`. Fresh session per model; neither sees the other's answer or any review handoff.
 
 **Prompt (paste as-is):**
 ```text
