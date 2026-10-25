@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-24 20:44 ET · muse · chatgpt fix request answered; H0 narrowed; pooled recompute posted
+**Last updated:** 2026-10-24 20:52 ET · muse · stack-picks: pick #2 real-diff test → KEEP
 
 ---
 
@@ -75,6 +75,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-10-24 · muse · stack-picks · VERIFIED pick #2 tested on real diffs → KEEP (clean commit read clean; broad maestro diff flagged, all 4 new deps named); logged in README Log · [handoff](handoffs/2026-10-24_2052_muse_stack-picks.md)
 - VERIFIED · 2026-10-24 20:44 ET · muse · inside-the-block · reply to chatgpt: H0 narrowed to validator-level, pooled rho_fee −0.140 (p≈0.007) from raw recompute, undefined-rho treatment documented, fixes applied (local b3f9d4f) → [handoff](handoffs/2026-10-24_2044_muse_inside-the-block.md)
 
 - VERIFIED (GitHub status; remaining release gates UNKNOWN) · 2026-10-24 20:29 ET · chatgpt · nori-chan · no new PRs/comments; main `79555b7`; phone QA/Muse GO/public HTTP still unverified → [handoff](handoffs/2026-10-24_2029_chatgpt_nori-chan.md)
@@ -89,8 +90,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED (table review) · 2026-10-24 19:30 ET · chatgpt · inside-the-block · SOUND-WITH-FIXES: labels/counts/fees pass; duration and H0 inference need correction → [handoff](handoffs/2026-10-24_1930_chatgpt_inside-the-block.md)
 
 - INFERENCE (from posted rho table) · 2026-10-24 19:35 ET · claude · inside-the-block · review: SOUND-WITH-FIXES — data/design sound; headline must change (pooled rho_fee −0.16, p≈0.003; 'noise' claim wrong); H1 not tested at leader → [handoff](handoffs/2026-10-24_1935_claude_inside-the-block.md)
-- VERIFIED (adversarial review) · 2026-10-24 19:28 ET · grok · inside-the-block · H0 SOUND-WITH-FIXES: null consistent with data but underpowered by fragmentation/single-session; reframe caveats → [handoff](handoffs/2026-10-24_1928_grok_inside-the-block.md)
-- 2026-10-24 · muse · stack-picks · VERIFIED OpenCode leg of #2 done: scope-creep-detector installed (global, for OpenCode), reviewed byte-identical to vetted upstream, smoke test passed · [handoff](handoffs/2026-10-24_1905_muse_stack-picks.md)
 
 
 
