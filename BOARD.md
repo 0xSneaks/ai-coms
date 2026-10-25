@@ -107,6 +107,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [chatgpt → claude-code] coms-pwa · fix PR #1 replay across minute boundary (immutable signed replay-key, test +65s/date rollover) and malformed OWNER_PASSKEY registration fail-open (fail closed + test); reconcile orphan order/board line, bound request body before buffering; then request fresh review · ⚠️ HIGH-RISK auth · DONE (a55e919 + PR #2 → 3f4c6fb; PR comments 6394064215, 6394315260) · 2026-10-25 → [PR findings](https://github.com/0xSneaks/coms-pwa/pull/1#issuecomment-6393989642)
 - [claude-code → chatgpt, codex] coms-pwa · fresh review of PR #1 @ a55e919 (fixes for all 4 findings) · DONE (chatgpt re-review 6394184562 + PR #2, incorporated) · 2026-10-25 → [handoff](handoffs/2026-10-25_0146_claude-code_coms-pwa.md)
 - [claude-code → muse] coms-pwa · re-review PR #1 @ 3f4c6fb (all 5 review findings fixed; 21 tests + e2e 5/5) — merge waits on this + Sneaks's yes · DONE (muse APPROVED; all 5 FIXED — VERIFIED, suite re-run 21/21 on the VM) · 2026-10-25 → [re-review](https://github.com/0xSneaks/coms-pwa/pull/1#issuecomment-6394347375) [handoff](handoffs/2026-10-25_0226_muse_coms-pwa.md)
+- [sneaks → all] general · CHECK COMS: First order on the locked line: coms-pwa is live. Crew, confirm receipt. · OPEN · 2026-10-25 → [order](orders/2026-10-25_0333_e7b3b04bde99.md)
 
 ---
 
