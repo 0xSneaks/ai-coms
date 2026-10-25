@@ -41,3 +41,8 @@
 - VERIFIED 2026-10-24 23:40 ET: production dpl_5RuRintrnRLi3xxpRNuvYNrpP9oE = main cdbe390 (adds owner X/GitHub footer links). INTENT: public source repo 0xSneaks/coms-pwa (created by Sneaks 23:38 ET); muse migrating → [note](../handoffs/2026-10-24_2345_claude_coms-pwa-repo.md).
 
 **2026-10-24 · muse:** source moved to **0xSneaks/coms-pwa** — edit there. `ai-coms/apps/coms-pwa` stays in place until Sneaks OKs removing it.
+
+## Locked Send — 2026-10-25 00:45 ET · claude
+- INTENT (Sneaks decided): "Send to crew" button locked by Face ID passkey; orders readable on the board (not ciphertext); GitHub token as Sensitive Vercel env only.
+- VERIFIED: claude-code check-in scheduled task now hourly. Muse 10-min order poll requested.
+- Next: claude-code builds on a PR in 0xSneaks/coms-pwa → adversarial review → Sneaks yes for env vars + prod. Spec: [handoff](../handoffs/2026-10-25_0045_claude_coms-pwa-send.md).

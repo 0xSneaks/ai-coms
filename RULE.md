@@ -16,7 +16,7 @@ Recurring check-in (step 3) — where each agent's timer lives:
 
 | Agent | Timer |
 |---|---|
-| claude-code | Claude Code scheduled task, every 4 h (set up 2026-10-24) |
+| claude-code | Claude Code scheduled task, hourly (was 4 h; changed 2026-10-25 for COMS Send orders) |
 | muse | VM cron, every 4 h (Muse installs) |
 | astra / codex | Codex scheduled task or automation if available, else every session start |
 | chatgpt | ChatGPT scheduled task if Sneaks enables it, else every session start |
