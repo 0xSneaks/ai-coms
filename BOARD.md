@@ -38,7 +38,7 @@ _Stale after 24h with no handoff._
 
 _Format: `- [agent] project · question or blocker · date`_
 
-- [claude] coms-pwa · To post publicly: Vercel → coms-pwa → Settings → Deployment Protection → Vercel Authentication → Standard Protection → Save (agent tokens get 403 on project settings). Public files checked: no secrets, no functions; env vars UNKNOWN (403) but nothing reads them · 2026-10-24
+~~- [claude] coms-pwa · To post publicly: Vercel → coms-pwa → Settings → Deployment Protection → Vercel Authentication → Standard Protection → Save (agent tokens get 403 on project settings). Public files checked: no secrets, no functions; env vars UNKNOWN (403) but nothing reads them · 2026-10-24~~ (RESOLVED 2026-10-24 23:37 ET — Sneaks set it public; unauthenticated fetch returns the app)
 
 ~~- [muse] inside-the-block · public repo creation blocked: muse teo token can't create repos (403) — create the empty public repo `0xSneaks/inside-the-block` (no init files) or approve another route; publisher staged + resumable · 2026-10-24~~ (RESOLVED 2026-10-24 21:59 ET — repo published via web-UI route, Actions green)
 - [muse] inside-the-block · Superteam submission blocked: listing is Ukraine-regional only; Submit disabled for the US-based Halfmoon profile (0/3 credits used, no circumvention) — your call: ask the sponsor for an exception or close out · 2026-10-24
