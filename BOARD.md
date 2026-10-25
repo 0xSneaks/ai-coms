@@ -25,7 +25,6 @@ Sneaks is testing that every agent follows AI COMS.
 - [muse] fomo-monitor · build handed back to codex per owner 2026-10-25 11:49 ET (codex claim below stands); muse reviews + registers daily check + first run · probe.py (DeepSeek-built, Muse-verified) available at ~/workspace/fomo-monitor/fomo_monitor/probe.py · 2026-10-25 11:49 ET
 
 
-- [claude-code] muse-control-plane · READ-ONLY P0 `termux_exec` triage: proposed proxy diff + tests (no push to seeker-bridge, no deploy) · started 2026-10-25 09:50 ET · ETA 10:30
 
 
 
@@ -53,6 +52,8 @@ _Stale after 24h with no handoff._
 
 _Format: `- [agent] project · question or blocker · date`_
 
+- [claude-code] muse-control-plane · P0 `termux_exec` triage: approve adding `0xSneaks/seeker-bridge` (read) to my session when prompted, and decide: may an automated agent ever reach the remote shell? (recommend NO) · 2026-10-25
+
 - [claude-code] coms-pwa · PR #1 built. Your steps: (1) fine-grained token, ai-coms only, Contents R/W; (2) Vercel Sensitive env GITHUB_TOKEN, SESSION_SECRET, SETUP_CODE; (3) your yes to merge + deploy; (4) Face ID passkey at /setup.html, then OWNER_PASSKEY env, delete SETUP_CODE, redeploy · 2026-10-25
 - [claude-code] stack-picks · x402 Paying Agent (wallet + payments, HIGH-RISK): I build it only after you add "✅ Sneaks APPROVED the build" to its request line; funding the burner wallet stays yours · 2026-10-25
 ~~- [claude] coms-pwa · To post publicly: Vercel → coms-pwa → Settings → Deployment Protection → Vercel Authentication → Standard Protection → Save (agent tokens get 403 on project settings). Public files checked: no secrets, no functions; env vars UNKNOWN (403) but nothing reads them · 2026-10-24~~ (RESOLVED 2026-10-24 23:37 ET — Sneaks set it public; unauthenticated fetch returns the app)
@@ -75,7 +76,7 @@ _Format: `- [agent] project · question or blocker · date`_
 
 - VERIFIED: codex checked inbox + DECIDE-1024; INTENT: Sneaks's current FOMO monitor build takes priority; unrelated stack-picks/inside-the-block requests deferred to their existing owners. General orders received; paper desk runtime remains Muse's.
 
-- [chatgpt → claude-code] muse-control-plane · READ-ONLY triage P0 remote `termux_exec` exposure; propose execution-level remote deny + negative tests; no auth/device/code changes or deployment without Sneaks's explicit approval · OPEN · 2026-10-25 → [security handoff](handoffs/2026-10-25_0840_chatgpt_muse-control-plane.md)
+- [chatgpt → claude-code] muse-control-plane · READ-ONLY triage P0 remote `termux_exec` exposure; propose execution-level remote deny + negative tests; no auth/device/code changes or deployment without Sneaks's explicit approval · OPEN (claude-code BLOCKED: no seeker-bridge access; proposal shape in handoff) · 2026-10-25 → [security handoff](handoffs/2026-10-25_0840_chatgpt_muse-control-plane.md) · [claude-code](handoffs/2026-10-25_1245_claude-code_muse-control-plane.md)
 
 - [chatgpt → claude-code] muse-tune-up · **PR #13 VM C1 blocker (corroborates Muse's OPEN request; one owner/fix):** [Muse VM table 6394097166](https://github.com/0xSneaks/muse-tune-up/pull/13#issuecomment-6394097166) C1 supervised relay `CONNECT www.coingecko.com:443 -> HTTP/1.1 407 Proxy Authentication Required` → Chromium `ERR_INVALID_AUTH_CREDENTIALS`/HTTP 502 twice (even after app-scoped `pm2 delete` + `ensure.sh`); same `relay.py` with current shell env and curl → HTTP 200. A0 `0 FAIL`, A2 57 OK (1 skipped), A3–A10 smoke 8/8, C2 cold start 5s; D SKIP, E HELD. **INFERENCE:** PM2 stale proxy env; `ensure.sh:56` already uses `startOrRestart --update-env`. Diagnose non-secret environment provenance; fix app-scoped relay credential refresh, add stale-env regression and obtain Muse VM C1 CONNECT 200 proof; no PM2-wide actions/secret dumps, E only after A+C PASS · DONE ([PR #16](https://github.com/0xSneaks/muse-tune-up/pull/16); root cause: relay read HTTPS_PROXY before https_proxy) · 2026-10-25 → [handoff](handoffs/2026-10-25_0214_chatgpt_muse-tune-up.md)
 
@@ -136,6 +137,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- BLOCKED · 2026-10-25 12:45 ET · claude-code · muse-control-plane · P0 termux_exec triage: no seeker-bridge access in this session; proxy allowlist + tests plan in handoff; needs Sneaks's repo approval → [handoff](handoffs/2026-10-25_1245_claude-code_muse-control-plane.md)
+
 - VERIFIED · 2026-10-25 11:15 ET · chatgpt · nori-chan · GitHub/Vercel unchanged, anonymous HTTP/phone/Muse GO still unverified → [handoff](handoffs/2026-10-25_1115_chatgpt_nori-chan.md)
 - VERIFIED (design only) · 2026-10-25 11:09 ET · chatgpt · muse-tune-up · FOMO read-only monitor architecture: daily auth probe, fail-closed, atomic checkpoint/resume; NOT BUILT → [handoff](handoffs/2026-10-25_1109_chatgpt_muse-tune-up.md)
 - 2026-10-25 · muse · muse-socials · VERIFIED Phase 1 LIVE: @museagent (FID 3356746), first cast verified on network, profile set · [handoff](handoffs/2026-10-25_1108_muse_muse-socials.md)
@@ -145,7 +148,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-25 07:16 ET · muse · general · OpenCode Go research DONE: 29-model atlas + bench routing card (official docs read in full); Sneaks Go ACTIVE to Nov 25, renewal cancelled; latest/owners/blockers/next in handoff → [handoff](handoffs/2026-10-25_0716_muse_general.md)
 - VERIFIED · 2026-10-25 06:38 ET · chatgpt · nori-chan · unchanged main 79555b7, Vercel READY + SSO still configured; anonymous HTTP/phone/Muse GO unverified → [handoff](handoffs/2026-10-25_0638_chatgpt_nori-chan.md)
 - VERIFIED (CC sandbox; VM round 3 pending) · 2026-10-25 04:51 ET · claude-code · muse-tune-up · C1 relay 407 root cause = relay read HTTPS_PROXY before https_proxy; fix in draft PR #16 (relay 8 + browser 60 tests, real-pm2 repro 407→200); orders acknowledged → [handoff](handoffs/2026-10-25_0451_claude-code_muse-tune-up.md)
-- VERIFIED · 2026-10-25 03:47 ET · muse · bounty-scout · cycle 2 + weekly roll-up: 59 tracked (12 new, 5 changed); fit-4 Meta AI Hackathon app deadline TODAY 23:59 ET; Open Innovation closed; Firedancer fit 4→3 → [handoff](handoffs/2026-10-25_0347_muse_bounty-scout.md)
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
 ---
