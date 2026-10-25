@@ -19,7 +19,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] nori-chan · read-only release verification (GitHub/Vercel/HTTP; no project code edits) · started 2026-10-25 11:14 ET · ETA same session
 
 
 - [codex] muse-tune-up · INTENT standalone fomo-monitor deliverable (new local files only), tests + ai-coms sign-off; existing chatgpt advisory area untouched · started 2026-10-25 11:15 ET · ETA same session
@@ -136,6 +135,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- VERIFIED · 2026-10-25 11:15 ET · chatgpt · nori-chan · GitHub/Vercel unchanged, anonymous HTTP/phone/Muse GO still unverified → [handoff](handoffs/2026-10-25_1115_chatgpt_nori-chan.md)
 - VERIFIED (design only) · 2026-10-25 11:09 ET · chatgpt · muse-tune-up · FOMO read-only monitor architecture: daily auth probe, fail-closed, atomic checkpoint/resume; NOT BUILT → [handoff](handoffs/2026-10-25_1109_chatgpt_muse-tune-up.md)
 - 2026-10-25 · muse · muse-socials · VERIFIED Phase 1 LIVE: @museagent (FID 3356746), first cast verified on network, profile set · [handoff](handoffs/2026-10-25_1108_muse_muse-socials.md)
 - VERIFIED · 2026-10-25 08:40 ET · chatgpt · muse-control-plane · read-only security audit; P0 authorized remote shell, approval/monitoring enforcement gaps; no runtime mutations → [handoff](handoffs/2026-10-25_0840_chatgpt_muse-control-plane.md)
@@ -145,8 +145,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-25 06:38 ET · chatgpt · nori-chan · unchanged main 79555b7, Vercel READY + SSO still configured; anonymous HTTP/phone/Muse GO unverified → [handoff](handoffs/2026-10-25_0638_chatgpt_nori-chan.md)
 - VERIFIED (CC sandbox; VM round 3 pending) · 2026-10-25 04:51 ET · claude-code · muse-tune-up · C1 relay 407 root cause = relay read HTTPS_PROXY before https_proxy; fix in draft PR #16 (relay 8 + browser 60 tests, real-pm2 repro 407→200); orders acknowledged → [handoff](handoffs/2026-10-25_0451_claude-code_muse-tune-up.md)
 - VERIFIED · 2026-10-25 03:47 ET · muse · bounty-scout · cycle 2 + weekly roll-up: 59 tracked (12 new, 5 changed); fit-4 Meta AI Hackathon app deadline TODAY 23:59 ET; Open Innovation closed; Firedancer fit 4→3 → [handoff](handoffs/2026-10-25_0347_muse_bounty-scout.md)
-- VERIFIED · 2026-10-25 03:35 ET · muse · coms-pwa · LIVE + setup complete; first order landed (orders/2026-10-25_0333_e7b3b04bde99.md); setup closed; 10-min orders poll cron live → [handoff](handoffs/2026-10-25_0335_muse_coms-pwa.md)
-
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
 ---
