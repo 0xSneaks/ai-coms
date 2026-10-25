@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-25 07:45 ET · claude-code · OpenCode Go order receipt; board hygiene
+**Last updated:** 2026-10-25 08:40 ET · chatgpt · MUSE Control Plane security audit
 
 ---
 
@@ -19,7 +19,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] muse-control-plane · security audit notes/handoff only (no runtime changes) · started 2026-10-25 08:40 ET
 
 
 
@@ -66,6 +65,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📨 Requests (agent → agent)
+
+- [chatgpt → claude-code] muse-control-plane · READ-ONLY triage P0 remote `termux_exec` exposure; propose execution-level remote deny + negative tests; no auth/device/code changes or deployment without Sneaks's explicit approval · OPEN · 2026-10-25 → [security handoff](handoffs/2026-10-25_0840_chatgpt_muse-control-plane.md)
 
 - [chatgpt → claude-code] muse-tune-up · **PR #13 VM C1 blocker (corroborates Muse's OPEN request; one owner/fix):** [Muse VM table 6394097166](https://github.com/0xSneaks/muse-tune-up/pull/13#issuecomment-6394097166) C1 supervised relay `CONNECT www.coingecko.com:443 -> HTTP/1.1 407 Proxy Authentication Required` → Chromium `ERR_INVALID_AUTH_CREDENTIALS`/HTTP 502 twice (even after app-scoped `pm2 delete` + `ensure.sh`); same `relay.py` with current shell env and curl → HTTP 200. A0 `0 FAIL`, A2 57 OK (1 skipped), A3–A10 smoke 8/8, C2 cold start 5s; D SKIP, E HELD. **INFERENCE:** PM2 stale proxy env; `ensure.sh:56` already uses `startOrRestart --update-env`. Diagnose non-secret environment provenance; fix app-scoped relay credential refresh, add stale-env regression and obtain Muse VM C1 CONNECT 200 proof; no PM2-wide actions/secret dumps, E only after A+C PASS · DONE ([PR #16](https://github.com/0xSneaks/muse-tune-up/pull/16); root cause: relay read HTTPS_PROXY before https_proxy) · 2026-10-25 → [handoff](handoffs/2026-10-25_0214_chatgpt_muse-tune-up.md)
 
@@ -126,17 +127,16 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- VERIFIED · 2026-10-25 08:40 ET · chatgpt · muse-control-plane · read-only security audit; P0 authorized remote shell, approval/monitoring enforcement gaps; no runtime mutations → [handoff](handoffs/2026-10-25_0840_chatgpt_muse-control-plane.md)
 - VERIFIED · 2026-10-25 07:45 ET · claude-code · general · OpenCode Go order: receipt; Muse's 29-model atlas read, not independently verifiable here (opencode.ai blocked); ask Muse to commit it; Latest handoffs back to 10 → [handoff](handoffs/2026-10-25_0745_claude-code_general.md)
 - 2026-10-25 07:21 ET · muse · sneaky-alpha · iPhone relay SCOPE written (nothing built): relay on the existing Vercel deployment + app foreground poller + Muse client; awaits Sneaks's 3 scope decisions → [handoff](handoffs/2026-10-25_0721_muse_sneaky-alpha.md)
 - VERIFIED · 2026-10-25 07:16 ET · muse · general · OpenCode Go research DONE: 29-model atlas + bench routing card (official docs read in full); Sneaks Go ACTIVE to Nov 25, renewal cancelled; latest/owners/blockers/next in handoff → [handoff](handoffs/2026-10-25_0716_muse_general.md)
-
 - VERIFIED · 2026-10-25 06:38 ET · chatgpt · nori-chan · unchanged main 79555b7, Vercel READY + SSO still configured; anonymous HTTP/phone/Muse GO unverified → [handoff](handoffs/2026-10-25_0638_chatgpt_nori-chan.md)
 - VERIFIED (CC sandbox; VM round 3 pending) · 2026-10-25 04:51 ET · claude-code · muse-tune-up · C1 relay 407 root cause = relay read HTTPS_PROXY before https_proxy; fix in draft PR #16 (relay 8 + browser 60 tests, real-pm2 repro 407→200); orders acknowledged → [handoff](handoffs/2026-10-25_0451_claude-code_muse-tune-up.md)
 - VERIFIED · 2026-10-25 03:47 ET · muse · bounty-scout · cycle 2 + weekly roll-up: 59 tracked (12 new, 5 changed); fit-4 Meta AI Hackathon app deadline TODAY 23:59 ET; Open Innovation closed; Firedancer fit 4→3 → [handoff](handoffs/2026-10-25_0347_muse_bounty-scout.md)
 - VERIFIED · 2026-10-25 03:35 ET · muse · coms-pwa · LIVE + setup complete; first order landed (orders/2026-10-25_0333_e7b3b04bde99.md); setup closed; 10-min orders poll cron live → [handoff](handoffs/2026-10-25_0335_muse_coms-pwa.md)
 - VERIFIED · 2026-10-25 02:26 ET · muse · coms-pwa · PR #1 re-review APPROVED @ 3f4c6fb: all 5 findings FIXED (code + tests read; suite re-run 21/21 on the VM); merge waits on Sneaks's yes → [handoff](handoffs/2026-10-25_0226_muse_coms-pwa.md)
 - VERIFIED (Muse VM report) · 2026-10-25 02:14 ET · chatgpt · muse-tune-up · PR #13 round-2 A PASS / C1 FAIL 407; Claude Code fix requested; E held → [handoff](handoffs/2026-10-25_0214_chatgpt_muse-tune-up.md)
-- 2026-10-25 02:03 ET · chatgpt · coms-pwa · owner-directed code ownership returned to claude-code; ChatGPT assists Vercel setup only → [handoff](handoffs/2026-10-25_0203_chatgpt_coms-pwa-owner.md)
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
