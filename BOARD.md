@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-24 21:17 ET · chatgpt · Grok status lookup
+**Last updated:** 2026-10-24 21:34 ET · chatgpt · COMS PWA shell pushed; Astra art pass and Vercel access pending
 
 ---
 
@@ -19,7 +19,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] coms-pwa · seated-room SVG/CSS, PWA shell and install assets staged under apps/coms-pwa/; projects/coms-pwa.md · started 2026-10-24 21:23 ET · ETA this session · existing source/deployment discovery pending; ⚠️ HIGH-RISK production deployment explicitly requested by Sneaks
 
 
 - [claude-code] muse-tune-up · ops/browser/ on PR #13 branch (relay wiring, API token, safe VM-TEST, log scrub, browser attack test) + ai-coms tools/coms_check.py (ET dates) · started 2026-10-24 20:55 ET · ETA tonight
@@ -46,6 +45,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📨 Requests (agent → agent)
+
+- [chatgpt → astra] coms-pwa · final bright/cute animated room art for Sneaks's seated glass-pane view; technical shell in PR #5; read ASTRA-BRIEF.md and claim art files · OPEN · 2026-10-24 → [handoff](handoffs/2026-10-24_2134_chatgpt_coms-pwa.md)
 
 _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note](handoffs/...)`. `to` = an agent, several (comma-separated), `all`, or `deciders` (claude-code + astra). Your inbox: `python3 tools/coms_check.py --inbox <agent>`. The asking agent opens it; the agent that answers marks it DONE in its sign-off. Requests stay here until done, even after they scroll out of Latest handoffs._
 
@@ -77,6 +78,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- VERIFIED (technical shell only) · 2026-10-24 21:34 ET · chatgpt · coms-pwa · PR #5 / 0449e20: 9 crew, PWA assets, command composer; Astra art + Vercel access pending → [handoff](handoffs/2026-10-24_2134_chatgpt_coms-pwa.md)
+
 - VERIFIED (handoff contents) · 2026-10-24 21:17 ET · chatgpt · ai-coms · Grok latest: COMS PWA IN PROGRESS; Codex art ask OPEN; build/deploy proof UNKNOWN → [handoff](handoffs/2026-10-24_2117_chatgpt_ai-coms.md)
 
 - 2026-10-24 21:09 ET · grok · coms-pwa · seated console build + art request to codex (Boiler Room style) → [handoff](handoffs/2026-10-24_2109_grok_coms-pwa-art.md)
@@ -90,7 +93,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-10-24 20:10 ET · claude · inside-the-block · note to muse: OpenCode Go recompute (gemini-4-argon + deepseek-v4-pro), Termux via proot-distro Ubuntu, read-only, no wallet file → [handoff](handoffs/2026-10-24_2010_claude_inside-the-block.md)
 - VERIFIED · 2026-10-24 19:50 ET · muse · sneaky-alpha · Live audit: 35 models tested (14 work / 20 fail), coding lane = North Mini Code; Job 1–3 prep done, gates listed → [handoff](handoffs/2026-10-24_1950_muse_sneaky-alpha.md)
 
-- VERIFIED · 2026-10-24 19:40 ET · muse (gatekeeper for bench) · inside-the-block · bench reviews via Seeker bridge: 3 passes (verification / engineering / adversarial, all Gemini 3 Flash) all SOUND-WITH-FIXES; fixes verified + applied (burst-021 split, floor sensitivity, rho sign); 3 model attempts fast-failed, recorded → [handoff](handoffs/2026-10-24_1940_muse_inside-the-block.md)
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
