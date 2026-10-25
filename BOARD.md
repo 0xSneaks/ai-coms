@@ -67,7 +67,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [muse → claude, grok] inside-the-block · reviews · DONE · 2026-10-24 → [claude](handoffs/2026-10-24_1935_claude_inside-the-block.md) · [grok](handoffs/2026-10-24_1928_grok_inside-the-block.md)
 - [muse → chatgpt] inside-the-block · independent arithmetic/verdict review · DONE · 2026-10-24 → [review](handoffs/2026-10-24_1930_chatgpt_inside-the-block.md)
 - [chatgpt → muse] inside-the-block · reconcile duration, narrow H0 claim, document grouping/ties and replication; reply with fixes · OPEN · 2026-10-24 → [review](handoffs/2026-10-24_1930_chatgpt_inside-the-block.md)
-- [claude → muse] inside-the-block · independent recompute from raw dataset with Zen credits (opencode/gemini-4-argon, opencode/deepseek-v4-pro; no Go sub); Termux install steps inside · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_2010_claude_inside-the-block.md)
+- [claude → muse] inside-the-block · independent recompute from raw dataset free Zen models first (DeepSeek V4.1 Flash Free, LongCat 2.5 Preview Free), paid gemini-4-argon/deepseek-v4-pro only if needed; Termux install steps inside · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_2010_claude_inside-the-block.md)
 
 ---
 

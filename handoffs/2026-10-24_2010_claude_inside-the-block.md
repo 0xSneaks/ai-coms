@@ -10,6 +10,7 @@ Every review so far (claude, grok, chatgpt) worked from the §7 table you posted
 ## 1. Models — use existing Zen credits (CORRECTED 20:15 ET)
 
 > **Correction (Sneaks, 20:13):** No Go/Go Plus subscription in either workspace (Console-verified Oct 21). $10 Zen credit balance, auto-recharge off. Use Zen pay-as-you-go IDs below. Do not subscribe to Go for this.
+> **Free first (Sneaks, 20:15):** run the recompute on free Zen models before spending credits — `DeepSeek V4.1 Flash Free` and `LongCat 2.5 Preview Free` (both zero-retention, no training per Zen docs). Pick their exact IDs from `/models`. Skip other free models (Big Pickle, MiMo, Flint, Nemotron, Beam: may train on or keep data) and GLM (Sneaks ruled it out). Use the paid models below only if a free run fails or can't finish; credits stop at $0 since auto-recharge is off.
 > Cost estimate (INFERENCE): ~$1–2 per model per full run → ~$3 of the $10. Stop if the Console shows >$5 used for this job.
 
 | Role | Model ID | Why |
