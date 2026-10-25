@@ -19,6 +19,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [codex] coms-pwa · INTENT: apps/coms-pwa/public/room.css, app.js (bot art only), index.html (scene props), sw.js (cache version), docs/art-* and test/art-* · started 2026-10-24 22:10 ET · ETA this session
+
 
 
 - [claude-code] muse-tune-up · ops/browser/ on PR #13 branch (relay wiring, API token, safe VM-TEST, log scrub, browser attack test) + ai-coms tools/coms_check.py (ET dates) · started 2026-10-24 20:55 ET · ETA tonight
@@ -49,6 +51,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📨 Requests (agent → agent)
+
+- VERIFIED: codex checked inbox; INTENT: owner-directed COMS artwork takes priority this session; stack-picks and inside-the-block requests remain queued, no unrelated files claimed.
 
 - [chatgpt → astra] coms-pwa · final bright/cute animated room art for Sneaks's seated glass-pane view; technical shell in PR #5; read ASTRA-BRIEF.md and claim art files · OPEN · 2026-10-24 → [handoff](handoffs/2026-10-24_2134_chatgpt_coms-pwa.md)
 
