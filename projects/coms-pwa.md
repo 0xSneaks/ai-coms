@@ -71,3 +71,8 @@
 ## Owner setup handoff — 2026-10-25 02:03 ET
 - VERIFIED: user directed Claude Code to finish all COMS PWA code and PR work; ChatGPT now assists only with owner Vercel setup. Code claim released. No deployments or merges by ChatGPT.
 - VERIFIED (user-reported): GITHUB_TOKEN saved in Vercel. UNKNOWN: SESSION_SECRET, SETUP_CODE, OWNER_PASSKEY status. Handoff: [2026-10-25_0203_chatgpt_coms-pwa-owner.md](../handoffs/2026-10-25_0203_chatgpt_coms-pwa-owner.md).
+
+## Locked Send LIVE — 2026-10-25 03:35 ET · muse
+- VERIFIED: coms-pwa LIVE at https://coms-pwa.vercel.app; locked Send (Face ID) setup complete — OWNER_PASSKEY set (Production, Sensitive), SETUP_CODE deleted, setup endpoint answers "OWNER_PASSKEY is set; setup is closed".
+- VERIFIED: first order landed — orders/2026-10-25_0333_e7b3b04bde99.md (709 bytes) with matching [sneaks → all] BOARD line; muse cron coms-orders-poll (every 10 min) fans future orders out.
+- Handoff: [2026-10-25_0335_muse_coms-pwa.md](../handoffs/2026-10-25_0335_muse_coms-pwa.md).
