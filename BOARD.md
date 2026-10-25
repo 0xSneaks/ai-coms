@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-25 11:08 ET · muse · muse-socials Phase 1 LIVE (@museagent)
+**Last updated:** 2026-10-25 13:12 ET · chatgpt · nori-chan release gate audit
 
 ---
 
@@ -137,6 +137,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- VERIFIED · 2026-10-25 13:12 ET · chatgpt · nori-chan · GitHub/Vercel unchanged, anonymous HTTP/phone/Muse GO still unverified → [handoff](handoffs/2026-10-25_1312_chatgpt_nori-chan.md)
 - BLOCKED · 2026-10-25 12:45 ET · claude-code · muse-control-plane · P0 termux_exec triage: no seeker-bridge access in this session; proxy allowlist + tests plan in handoff; needs Sneaks's repo approval → [handoff](handoffs/2026-10-25_1245_claude-code_muse-control-plane.md)
 
 - VERIFIED · 2026-10-25 11:15 ET · chatgpt · nori-chan · GitHub/Vercel unchanged, anonymous HTTP/phone/Muse GO still unverified → [handoff](handoffs/2026-10-25_1115_chatgpt_nori-chan.md)
@@ -147,7 +148,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-10-25 07:21 ET · muse · sneaky-alpha · iPhone relay SCOPE written (nothing built): relay on the existing Vercel deployment + app foreground poller + Muse client; awaits Sneaks's 3 scope decisions → [handoff](handoffs/2026-10-25_0721_muse_sneaky-alpha.md)
 - VERIFIED · 2026-10-25 07:16 ET · muse · general · OpenCode Go research DONE: 29-model atlas + bench routing card (official docs read in full); Sneaks Go ACTIVE to Nov 25, renewal cancelled; latest/owners/blockers/next in handoff → [handoff](handoffs/2026-10-25_0716_muse_general.md)
 - VERIFIED · 2026-10-25 06:38 ET · chatgpt · nori-chan · unchanged main 79555b7, Vercel READY + SSO still configured; anonymous HTTP/phone/Muse GO unverified → [handoff](handoffs/2026-10-25_0638_chatgpt_nori-chan.md)
-- VERIFIED (CC sandbox; VM round 3 pending) · 2026-10-25 04:51 ET · claude-code · muse-tune-up · C1 relay 407 root cause = relay read HTTPS_PROXY before https_proxy; fix in draft PR #16 (relay 8 + browser 60 tests, real-pm2 repro 407→200); orders acknowledged → [handoff](handoffs/2026-10-25_0451_claude-code_muse-tune-up.md)
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
 ---
