@@ -19,6 +19,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [claude-code] coms-pwa · branch claude/locked-send (api/, public/app.js send UI, tests, README) — locked "Send to crew" (✅ approved build; no merge/deploy/env/passkey registration) · started 2026-10-25 01:20 ET · ETA today
+
 
 
 
