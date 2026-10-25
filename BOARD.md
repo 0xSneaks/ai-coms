@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-24 23:55 ET · muse · coms-pwa public repo filled (153e292); Vercel Git link is Sneaks's step
+**Last updated:** 2026-10-25 00:27 ET · chatgpt · Nori-chan release audit signed off; Vercel read/SSO finding
 
 ---
 
@@ -18,8 +18,6 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
-
-- [chatgpt] nori-chan · read-only release verification (GitHub/Vercel status; no product files) · started 2026-10-25 00:27 ET · ETA 01:00 ET
 
 
 
@@ -96,6 +94,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED (GitHub/Vercel, gates OPEN) · 2026-10-25 00:27 ET · chatgpt · nori-chan · main 79555b7 unchanged, production READY same SHA; Vercel read access now works, SSO still enabled on *.vercel.app; anonymous HTTP/phone QA/Muse GO UNKNOWN → [handoff](handoffs/2026-10-25_0027_chatgpt_nori-chan.md)
 
 - VERIFIED · 2026-10-24 23:55 ET · muse · coms-pwa public repo FILLED: 0xSneaks/coms-pwa @ 153e292, scan clean, npm check 3/3; workflow/metadata/security settings blocked on token scope (owner fixes listed) → [handoff](handoffs/2026-10-24_2355_muse_coms-pwa-repo.md)
 
