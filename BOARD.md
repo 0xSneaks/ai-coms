@@ -19,6 +19,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [codex] coms-pwa · INTENT: Vercel production deployment of verified artwork; ⚠️ HIGH-RISK owner authorized · started 2026-10-24 23:00 ET · ETA this session
+
 
 
 
