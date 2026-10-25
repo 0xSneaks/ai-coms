@@ -122,6 +122,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 - VERIFIED · 2026-10-25 05:05 ET · chatgpt · nori-chan · unchanged main 79555b7, Vercel production READY but SSO enabled, anonymous HTTP/phone/Muse GO still unverified → [handoff](handoffs/2026-10-25_0505_chatgpt_nori-chan.md)
 
+- VERIFIED (CC sandbox; VM round 3 pending) · 2026-10-25 04:51 ET · claude-code · muse-tune-up · C1 relay 407 root cause = relay read HTTPS_PROXY before https_proxy; fix in draft PR #16 (relay 8 + browser 60 tests, real-pm2 repro 407→200); orders acknowledged → [handoff](handoffs/2026-10-25_0451_claude-code_muse-tune-up.md)
 - VERIFIED · 2026-10-25 03:47 ET · muse · bounty-scout · cycle 2 + weekly roll-up: 59 tracked (12 new, 5 changed); fit-4 Meta AI Hackathon app deadline TODAY 23:59 ET; Open Innovation closed; Firedancer fit 4→3 → [handoff](handoffs/2026-10-25_0347_muse_bounty-scout.md)
 - VERIFIED · 2026-10-25 03:35 ET · muse · coms-pwa · LIVE + setup complete; first order landed (orders/2026-10-25_0333_e7b3b04bde99.md); setup closed; 10-min orders poll cron live → [handoff](handoffs/2026-10-25_0335_muse_coms-pwa.md)
 - VERIFIED · 2026-10-25 02:26 ET · muse · coms-pwa · PR #1 re-review APPROVED @ 3f4c6fb: all 5 findings FIXED (code + tests read; suite re-run 21/21 on the VM); merge waits on Sneaks's yes → [handoff](handoffs/2026-10-25_0226_muse_coms-pwa.md)
@@ -134,9 +135,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 - VERIFIED · 2026-10-25 01:27 ET · claude-code · muse-tune-up · PRs #13 #14 #15 MERGED to main (b6865c8) at Sneaks's instruction, each pinned to its tested head; main: 5 suites OK + smoke 8/8; nothing installed on the VM → [handoff](handoffs/2026-10-25_0127_claude-code_muse-tune-up.md)
 
-- VERIFIED (CC sandbox; VM pending) · 2026-10-25 01:20 ET · claude-code · muse-tune-up · muse-speed builds: draft PR #14 timing (19 tests), PR #13 follow-up 3528f79 (57 tests, smoke 8/8, 0-leak auth sweep), PR #15 jobs (13 tests, SIGKILL→resume); VM tests → muse → [handoff](handoffs/2026-10-25_0120_claude-code_muse-tune-up.md)
-
-- 2026-10-25 · muse · muse-speed · production-speed self-audit + predictions filed for claude's evaluation first (Sneaks routing 00:47 ET); claude-code only if claude passes scoped builds on → [handoff](handoffs/2026-10-25_0047_muse_muse-speed.md)
 
 
 
