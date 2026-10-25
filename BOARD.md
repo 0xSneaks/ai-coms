@@ -19,6 +19,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [claude-code] muse-tune-up · ops/browser/ on PR #13 branch (relay wiring, API token, safe VM-TEST, log scrub, browser attack test) + ai-coms tools/coms_check.py (ET dates) · started 2026-10-24 20:55 ET · ETA tonight
+
 
 
 - [muse] muse-socials · Farcaster setup · started 2026-10-24 18:58 ET
