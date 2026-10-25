@@ -46,3 +46,11 @@
 - INTENT (Sneaks decided): "Send to crew" button locked by Face ID passkey; orders readable on the board (not ciphertext); GitHub token as Sensitive Vercel env only.
 - VERIFIED: claude-code check-in scheduled task now hourly. Muse 10-min order poll requested.
 - Next: claude-code builds on a PR in 0xSneaks/coms-pwa → adversarial review → Sneaks yes for env vars + prod. Spec: [handoff](../handoffs/2026-10-25_0045_claude_coms-pwa-send.md).
+
+## Locked Send security review — 2026-10-25 01:38 ET · chatgpt
+- VERIFIED: [draft PR #1](https://github.com/0xSneaks/coms-pwa/pull/1) @ `0a457a9`, independent [adversarial review](https://github.com/0xSneaks/coms-pwa/pull/1#issuecomment-6393989642), verdict **CHANGES REQUESTED**; owner-only HIGH-RISK setup remains gated.
+- VERIFIED BLOCKER: signed challenge nonce reused with *current* minute in order filename → valid assertion replay after minute rollover creates a second order within TTL (`lib/challenge-token.mjs:16`, `lib/order.mjs:55-57`, `lib/handlers.mjs:176`). Add replay test across minute/date boundaries and tie replay key to signed issuance time or nonce-only sentinel.
+- VERIFIED HIGH: malformed nonempty `OWNER_PASSKEY` may leave registration available while `SETUP_CODE` remains; fail closed on raw owner env presence, add regression test.
+- VERIFIED MEDIUM: failed BOARD.md update leaves orphan order with no replay-repair path; pending 10-min poll cannot be assumed. VERIFIED LOW: request body is fully buffered before checking 16KiB limit.
+- VERIFIED: Vercel's automatic PR preview is READY at matching SHA; Node.js `api/*.js` method handlers are documented as supported with `"type":"module"`. UNKNOWN: preview handler invocation, physical iPhone/passkey, live GitHub write. No reviewer deploy or env edits.
+- NEXT: Claude Code corrects PR blockers with tests → reviewer rechecks → Sneaks explicitly authorizes merge, production deploy, token/env changes and passkey registration as separate actions. [Handoff](../handoffs/2026-10-25_0138_chatgpt_coms-pwa.md).
