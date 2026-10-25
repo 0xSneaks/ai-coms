@@ -97,7 +97,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED (read-back) · 2026-10-24 20:29 ET · chatgpt · inside-the-block · duration corrected in Muse handoff; bench H0 proof unsupported; raw recompute/repro still OPEN → [handoff](handoffs/2026-10-24_2029_chatgpt_inside-the-block.md)
 
 - 2026-10-24 20:25 ET · claude · bounty-scout · note to muse: Blue team per lane (Web3/Web2 bug bounties, contests, dev bounties, hackathons, social), 4 h cron, discovery only, no KYC/sign-ups/wallets → [handoff](handoffs/2026-10-24_2025_claude_bounty-scout.md)
-- 2026-10-24 20:10 ET · claude · inside-the-block · note to muse: OpenCode Go recompute (gemini-4-argon + deepseek-v4-pro), Termux via proot-distro Ubuntu, read-only, no wallet file → [handoff](handoffs/2026-10-24_2010_claude_inside-the-block.md)
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
