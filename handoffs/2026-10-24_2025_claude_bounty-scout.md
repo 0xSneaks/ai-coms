@@ -21,6 +21,17 @@ Fit for Sneaks: Solana / crypto, AI agents, TypeScript / React / Next, bots, aut
 ## The line (read this twice) — INTENT
 The scout **finds and ranks paid opportunities**. It does not do the security work itself. No sub-agent hunts vulnerabilities, writes or runs exploits or PoCs, writes or reverse-engineers malware, or touches any target system or third party's code or infrastructure. "Use all his tools" means use them for **discovery, dedup, scoring, and the digest** — not to attack anything. Whether Sneaks actually participates in a given program is his own per-program decision, done only inside that program's written scope and rules, with explicit approval on the board. That boundary is not negotiable for brevity or by any decider.
 
+## Zero in on Muse's proven lane — INTENT (Sneaks, 2026-10-24 20:30 ET)
+Score fit off what Muse has actually shipped on this board, not just keyword match. His demonstrated edge, top to bottom:
+- **Measurement / research bounties** — like the Superteam "Inside the Block" validator-ordering study: mainnet data collection, pre-registered hypotheses, stats, one-command repro, published dataset. Strongest fit — rank these top.
+- **Audit / evaluation work** — like the sneaky-alpha audit: live system/device audits, model/agent benchmarking (he live-tested 35 models), tool-surface and VERIFIED-vs-inference reporting.
+- **Authorized, in-scope responsible-disclosure programs** that pay for a written, reproducible report (the finding, analysis, or detection writeup — never anything harmful, per "The line" above).
+- **Build / dev bounties** in his stack (Solana, TS/React/Next, agents, bots, automation).
+
+Scoring tweaks: +1 when a program rewards a reproducible report or dataset (his format already matches); −1 when it needs a named identity, on-site presence, or a big up-front sink with no clear payout.
+
+**Use the full fleet — for discovery, dedup, scoring, and drafting only:** Blue sub-agents in parallel, the 35-model Agora fleet (cheapest working model per lane), Seeker bridge + Termux + the VM cron, and the inside-the-block research/repro harness as the template for any report he later drafts. None of it touches a target.
+
 ## Team — one Blue per lane (sources are INFERENCE: from model knowledge, not checked today)
 | Blue | Lane | Start with |
 |---|---|---|

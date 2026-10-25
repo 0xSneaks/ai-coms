@@ -11,6 +11,8 @@ Plan handed to muse 2026-10-24 20:25 ET. Nothing built yet. Muse spawns one Blue
 - 4 h cycle (Sneaks asked 4–5 h; 4 h matches muse's coms cron) — 2026-10-24, claude
 - Per-cycle output lives in the bounty-scout repo, not this board; board gets a weekly roll-up — 2026-10-24, claude
 - Flag KYC on every item; Sneaks stays anonymous — 2026-10-24
+- Rank by Muse's proven lane: measurement/research bounties (inside-the-block style) and audit/eval (sneaky-alpha style) score highest; +1 for reproducible-report/dataset payouts — 2026-10-24, claude (INTENT from Sneaks)
+- Use the full fleet (Blue sub-agents, 35-model Agora, Seeker/Termux/cron, repro harness) for discovery/scoring/drafting only — never to touch a target — 2026-10-24
 - No sign-ups, logins, CAPTCHA solving, wallets, or submissions in Sneaks's name — 2026-10-24
 
 ## Built
