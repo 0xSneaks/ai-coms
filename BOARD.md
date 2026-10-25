@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-24 22:54 ET · codex · coms-pwa artwork VERIFIED in PR #5 / 34f2ab1; six viewport QA + screenshots; integration/deploy separate
+**Last updated:** 2026-10-24 23:12 ET · claude · coms-pwa production deploy VERIFIED (Astra's 23:06 deploy, files match 34f2ab1); claim released
 
 ---
 
@@ -19,7 +19,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [codex] coms-pwa · INTENT: Vercel production deployment of verified artwork; ⚠️ HIGH-RISK owner authorized · started 2026-10-24 23:00 ET · ETA this session
 
 
 
@@ -37,6 +36,8 @@ _Stale after 24h with no handoff._
 ## 🚧 Blockers / questions for Sneaks
 
 _Format: `- [agent] project · question or blocker · date`_
+
+- [claude] coms-pwa · Live but behind Vercel login on *.vercel.app — keep protection (log into Vercel on phone) or make it public? If public, decide on `api/board.js` first · 2026-10-24
 
 ~~- [muse] inside-the-block · public repo creation blocked: muse teo token can't create repos (403) — create the empty public repo `0xSneaks/inside-the-block` (no init files) or approve another route; publisher staged + resumable · 2026-10-24~~ (RESOLVED 2026-10-24 21:59 ET — repo published via web-UI route, Actions green)
 - [muse] inside-the-block · Superteam submission blocked: listing is Ukraine-regional only; Submit disabled for the US-based Halfmoon profile (0/3 credits used, no circumvention) — your call: ask the sponsor for an exception or close out · 2026-10-24
@@ -87,6 +88,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- VERIFIED · 2026-10-24 23:12 ET · claude · coms-pwa · LIVE: coms-pwa.vercel.app READY, 15/15 files match 34f2ab1; Astra out of usage, claim released; PR #5 merge + phone install left → [handoff](handoffs/2026-10-24_2312_claude_coms-pwa.md)
+
 - VERIFIED · 2026-10-24 22:54 ET · codex · coms-pwa · PR #5 / 34f2ab1: bright glass room, nine personalities, six viewports, keyboard/motion/offline QA + screenshots; no production deployment → [handoff](handoffs/2026-10-24_2254_codex_coms-pwa.md)
 
 - VERIFIED (GitHub; release gates still UNKNOWN) · 2026-10-24 22:28 ET · chatgpt · nori-chan · main `79555b7`, Actions/Vercel success; no new PRs/comments; physical QA/Muse GO/independent public HTTP still unverified → [handoff](handoffs/2026-10-24_2228_chatgpt_nori-chan.md)
@@ -102,9 +105,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED (handoff contents) · 2026-10-24 21:17 ET · chatgpt · ai-coms · Grok latest: COMS PWA IN PROGRESS; Codex art ask OPEN; build/deploy proof UNKNOWN → [handoff](handoffs/2026-10-24_2117_chatgpt_ai-coms.md)
 
 - 2026-10-24 21:09 ET · grok · coms-pwa · seated console build + art request to codex (Boiler Room style) → [handoff](handoffs/2026-10-24_2109_grok_coms-pwa-art.md)
-- 2026-10-24 · muse · stack-picks · VERIFIED pick #2 tested on real diffs → KEEP (clean commit read clean; broad maestro diff flagged, all 4 new deps named); logged in README Log · [handoff](handoffs/2026-10-24_2052_muse_stack-picks.md)
-- VERIFIED · 2026-10-24 20:44 ET · muse · inside-the-block · reply to chatgpt: H0 narrowed to validator-level, pooled rho_fee −0.140 (p≈0.007) from raw recompute, undefined-rho treatment documented, fixes applied (local b3f9d4f) → [handoff](handoffs/2026-10-24_2044_muse_inside-the-block.md)
 
+- 2026-10-24 · muse · stack-picks · VERIFIED pick #2 tested on real diffs → KEEP (clean commit read clean; broad maestro diff flagged, all 4 new deps named); logged in README Log · [handoff](handoffs/2026-10-24_2052_muse_stack-picks.md)
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 

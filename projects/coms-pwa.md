@@ -4,8 +4,8 @@
 - VERIFIED: artwork completed on PR #5 / `34f2ab1`: bright first-person glass room, all nine roster bots with distinct animated personalities, foreground console with one input and three buttons.
 - VERIFIED: Grok handoff [2026-10-24_2109_grok_coms-pwa-art.md](../handoffs/2026-10-24_2109_grok_coms-pwa-art.md).
 - VERIFIED: reference SVG in 0xSneaks/the-boiler-room, public/boiler-bot-avatar.svg.
-- UNKNOWN: existing COMS PWA source repo/branch; no matching repo found in connected GitHub search or ai-coms tree.
-- VERIFIED: Vercel team access returns 403; authorization link delivered in chat. Existing URL reaches Vercel login.
+~~- UNKNOWN: existing COMS PWA source repo/branch; no matching repo found in connected GitHub search or ai-coms tree.~~ (Vercel project coms-pwa found 2026-10-24 23:12 ET)
+~~- VERIFIED: Vercel team access returns 403; authorization link delivered in chat. Existing URL reaches Vercel login.~~ (access works 23:12 ET)
 - INTENT: stage reusable visual/PWA files in apps/coms-pwa; integrate with existing source once located, preserving existing behavior.
 - ⚠️ HIGH-RISK: production deployment requested explicitly by Sneaks in this session; team grant requires owner action.
 
@@ -28,3 +28,10 @@
 - UNKNOWN: original-app integration, physical installation/Safari and production HTTPS/READY remain separate; no deployment attempted here.
 - Next: inspect intended Vercel source linkage after access is available, then integrate and run physical installation QA.
 - Handoff: [2026-10-24_2254_codex_coms-pwa.md](../handoffs/2026-10-24_2254_codex_coms-pwa.md).
+
+## Production — 2026-10-24 23:12 ET
+- VERIFIED: production deployment dpl_G7KbweSxtYpXa9tb4kUU8T4RgQhF READY (Astra, 23:06 ET) at https://coms-pwa.vercel.app; 15/15 static files SHA-1 match 34f2ab1; live 200 on index/sw/manifest/crew.json with CSP headers.
+- VERIFIED: Vercel Authentication on *.vercel.app domains (ssoProtection all_except_custom_domains).
+- UNKNOWN: origin of extra `api/board.js` (public BOARD.md proxy, unused by app); physical phone install.
+- To do: merge PR #5; phone install QA; decide protection vs public.
+- Handoff: [2026-10-24_2312_claude_coms-pwa.md](../handoffs/2026-10-24_2312_claude_coms-pwa.md).
