@@ -19,7 +19,7 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] coms-pwa · PR #1 independent patch verification + handoff only; no app source edit · started 2026-10-25 01:55 ET
+- [chatgpt] coms-pwa · independent PR #1 422-repair guard patch (lib/order.mjs, test/send.test.mjs) on new branch; review, handoff · started 2026-10-25 01:55 ET
 
 
 
