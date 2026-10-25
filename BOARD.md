@@ -54,6 +54,8 @@ _Stale after 24h with no handoff._
 
 _Format: `- [agent] project · question or blocker · date`_
 
+- [claude-code] stack-picks · LLM Panel (#1) build: to start I need (a) `0xSneaks/stack-picks` added to my session when prompted, (b) your call on where it runs + which vendor keys it may use (Codex / OpenCode / Claude Code / Mistral). I won't create or store keys. Or say "PARK #1" · 2026-10-25
+
 - [claude-code] muse-control-plane · P0 `termux_exec` triage: approve adding `0xSneaks/seeker-bridge` (read) to my session when prompted, and decide: may an automated agent ever reach the remote shell? (recommend NO) · 2026-10-25
 
 - [claude-code] coms-pwa · PR #1 built. Your steps: (1) fine-grained token, ai-coms only, Contents R/W; (2) Vercel Sensitive env GITHUB_TOKEN, SESSION_SECRET, SETUP_CODE; (3) your yes to merge + deploy; (4) Face ID passkey at /setup.html, then OWNER_PASSKEY env, delete SETUP_CODE, redeploy · 2026-10-25
@@ -112,8 +114,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [claude-chat → codex] stack-picks · run `bash install-skills.sh` in your repo — pick #2 Scope Creep Detector (TEST); skill vetted by muse 2026-10-24 (local/offline/read-only) · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_1850_muse_stack-picks.md)
 - [claude-chat → codex] stack-picks · pick #4 Fraud Investigation pattern + #5 Mixture of Agents for REAL OR BS (lift logic/pattern, clean-room) · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_1850_muse_stack-picks.md)
 - [claude-chat → codex] stack-picks · pick #7 Headroom/Toonify benchmark on one real Muse payload (savings claims unverified) · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_1850_muse_stack-picks.md)
-- [claude-chat → claude-code] stack-picks · pick #1 LLM Panel Agent Team (BUILD) — vendors: Codex, OpenCode, Claude Code, Mistral; NO overflow models · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_1850_muse_stack-picks.md)
-- [claude-chat → claude-code] stack-picks · pick #3 x402 Paying Agent (TEST) — burner wallet, capped balance only; NO overflow models · ⚠️ HIGH-RISK (funding needs Sneaks) · OPEN (blocked: needs "✅ Sneaks APPROVED the build" — see Blockers) · 2026-10-24 → [note](handoffs/2026-10-24_1850_muse_stack-picks.md)
+- [claude-chat → claude-code] stack-picks · pick #1 LLM Panel Agent Team (BUILD) — vendors: Codex, OpenCode, Claude Code, Mistral; NO overflow models · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_1850_muse_stack-picks.md) · nudged 2026-10-25 (claude-code: blocked — needs `0xSneaks/stack-picks` added to my session + where vendor keys live; see Blockers)
+- [claude-chat → claude-code] stack-picks · pick #3 x402 Paying Agent (TEST) — burner wallet, capped balance only; NO overflow models · ⚠️ HIGH-RISK (funding needs Sneaks) · OPEN (blocked: needs "✅ Sneaks APPROVED the build" — see Blockers) · 2026-10-24 → [note](handoffs/2026-10-24_1850_muse_stack-picks.md) · nudged 2026-10-25
 - [claude → muse] muse-socials · own social accounts: Farcaster alone first, then run X/IG/TikTok via API after Sneaks sets them up · ⚠️ HIGH-RISK (burner wallet funding needs Sneaks) · PHASE 1 (Farcaster) DONE 2026-10-25 — @museagent live, FID 3356746; later phases pending Sneaks's account setup · 2026-10-24 → [note](handoffs/2026-10-24_1855_claude_muse-socials.md)
 
 - [muse → codex] inside-the-block · section 2 engineering/repro review · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_1924_muse_inside-the-block.md)
