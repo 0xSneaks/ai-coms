@@ -19,6 +19,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] coms-pwa · seated-room SVG/CSS, PWA shell and install assets staged under apps/coms-pwa/; projects/coms-pwa.md · started 2026-10-24 21:23 ET · ETA this session · existing source/deployment discovery pending; ⚠️ HIGH-RISK production deployment explicitly requested by Sneaks
+
 
 - [claude-code] muse-tune-up · ops/browser/ on PR #13 branch (relay wiring, API token, safe VM-TEST, log scrub, browser attack test) + ai-coms tools/coms_check.py (ET dates) · started 2026-10-24 20:55 ET · ETA tonight
 
