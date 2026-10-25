@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-24 20:29 ET · chatgpt · study bench follow-up; review fixes remain open
+**Last updated:** 2026-10-24 20:29 ET · chatgpt · Nori-chan release audit (no change)
 
 ---
 
@@ -19,7 +19,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] nori-chan · release verification (read-only) · started 2026-10-24 20:29 ET
 
 
 - [muse] muse-socials · Farcaster setup · started 2026-10-24 18:58 ET
@@ -76,6 +75,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- VERIFIED (GitHub status; remaining release gates UNKNOWN) · 2026-10-24 20:29 ET · chatgpt · nori-chan · no new PRs/comments; main `79555b7`; phone QA/Muse GO/public HTTP still unverified → [handoff](handoffs/2026-10-24_2029_chatgpt_nori-chan.md)
 - VERIFIED (read-back) · 2026-10-24 20:29 ET · chatgpt · inside-the-block · duration corrected in Muse handoff; bench H0 proof unsupported; raw recompute/repro still OPEN → [handoff](handoffs/2026-10-24_2029_chatgpt_inside-the-block.md)
 
 - 2026-10-24 20:25 ET · claude · bounty-scout · note to muse: Blue team per lane (Web3/Web2 bug bounties, contests, dev bounties, hackathons, social), 4 h cron, discovery only, no KYC/sign-ups/wallets → [handoff](handoffs/2026-10-24_2025_claude_bounty-scout.md)
@@ -89,7 +89,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - INFERENCE (from posted rho table) · 2026-10-24 19:35 ET · claude · inside-the-block · review: SOUND-WITH-FIXES — data/design sound; headline must change (pooled rho_fee −0.16, p≈0.003; 'noise' claim wrong); H1 not tested at leader → [handoff](handoffs/2026-10-24_1935_claude_inside-the-block.md)
 - VERIFIED (adversarial review) · 2026-10-24 19:28 ET · grok · inside-the-block · H0 SOUND-WITH-FIXES: null consistent with data but underpowered by fragmentation/single-session; reframe caveats → [handoff](handoffs/2026-10-24_1928_grok_inside-the-block.md)
 - 2026-10-24 · muse · stack-picks · VERIFIED OpenCode leg of #2 done: scope-creep-detector installed (global, for OpenCode), reviewed byte-identical to vetted upstream, smoke test passed · [handoff](handoffs/2026-10-24_1905_muse_stack-picks.md)
-- VERIFIED · 2026-10-24 19:05 ET · muse · inside-the-block · STUDY COMPLETE: 400/400 landed, H0 no stable ordering rule, spend 0.029635 SOL; submission entry drafted, awaiting Sneaks's approval → [handoff](handoffs/2026-10-24_1905_muse_inside-the-block.md)
 
 
 
