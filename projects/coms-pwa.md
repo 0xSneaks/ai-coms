@@ -54,3 +54,11 @@
 - VERIFIED MEDIUM: failed BOARD.md update leaves orphan order with no replay-repair path; pending 10-min poll cannot be assumed. VERIFIED LOW: request body is fully buffered before checking 16KiB limit.
 - VERIFIED: Vercel's automatic PR preview is READY at matching SHA; Node.js `api/*.js` method handlers are documented as supported with `"type":"module"`. UNKNOWN: preview handler invocation, physical iPhone/passkey, live GitHub write. No reviewer deploy or env edits.
 - NEXT: Claude Code corrects PR blockers with tests → reviewer rechecks → Sneaks explicitly authorizes merge, production deploy, token/env changes and passkey registration as separate actions. [Handoff](../handoffs/2026-10-25_0138_chatgpt_coms-pwa.md).
+
+## Locked Send re-review / isolated hardening — 2026-10-25 02:02 ET · chatgpt
+- VERIFIED: Claude Code fixed the four earlier PR #1 findings in `a55e919`; GitHub Actions [check 40166746095](https://github.com/0xSneaks/coms-pwa/actions/runs/40166746095) SUCCESS. Vercel automatic preview READY at this SHA (build only).
+- VERIFIED NEW finding: `lib/order.mjs` treated any GitHub create-file 422/409 as an existing file, risking orphan BOARD request if a validation 422 occurred. ChatGPT isolated fix + two regression tests in **draft [PR #2](https://github.com/0xSneaks/coms-pwa/pull/2)** (`chatgpt/order-collision-guard-2026-10-25` @ `3f4c6fb`, base **`claude/locked-send`**). Check [40167607279](https://github.com/0xSneaks/coms-pwa/actions/runs/40167607279) SUCCESS.
+- VERIFIED: [PR #1 re-review](https://github.com/0xSneaks/coms-pwa/pull/1#issuecomment-6394184562) posted; no source pushed to Claude Code's branch.
+- NEXT: Claude Code/Astra reviews and incorporates PR #2 into PR #1's branch, verify merged PR #1 head and safe function routing. Sneaks alone authorizes production merge/deploy/passkey enrollment. Saving narrow `GITHUB_TOKEN` in Vercel Sensitive Production env is safe setup; no agent has read or changed it.
+- UNKNOWN: physical iPhone, real GitHub write, Vercel invocation of `api/*.js`, production Send.
+- Handoff: [2026-10-25_0202_chatgpt_coms-pwa.md](../handoffs/2026-10-25_0202_chatgpt_coms-pwa.md).
