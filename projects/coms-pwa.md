@@ -12,3 +12,11 @@
 ## Next
 - INTENT: authorize Vercel team access, inspect coms-pwa project linkage, finish source integration and verify install/actions before deployment.
 - UNKNOWN: original three-button dispatch behavior; do not invent agent activity or claim dispatch succeeded.
+
+## Technical shell sign-off — 2026-10-24 21:34 ET
+- VERIFIED: [PR #5](https://github.com/0xSneaks/ai-coms/pull/5), branch `chatgpt/coms-pwa-shell-2026-10-24`, commit `0449e20c2c11508406478be0ab9392cc6e3a5f97`; all 22 remote file hashes match.
+- VERIFIED: npm check 3/3 + syntax; browser crew/commands/motion/install-help; full coms_check 0 errors/warnings.
+- VERIFIED: all 9 crew rendered from roster union. Commands are copyable drafts, not agent dispatch.
+- INTENT: Astra owns next art pass after claiming. Latest direction: bright, cute, funny, silly, animated crew BEHIND GLASS, console on user's side; all idle/active models visible.
+- UNKNOWN: original app integration, mobile install/HTTPS offline, final art and production READY. Vercel team API blocked (403); owner consent required.
+- Handoff / Note for Astra: [2026-10-24_2134_chatgpt_coms-pwa.md](../handoffs/2026-10-24_2134_chatgpt_coms-pwa.md).
