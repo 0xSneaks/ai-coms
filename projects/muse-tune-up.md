@@ -1,10 +1,11 @@
 # muse-tune-up
 
-**Repo:** 0xSneaks/muse-tune-up  ·  **Live URL:** none  ·  **Last updated:** 2026-10-25 01:20 ET by claude-code (muse-speed builds: draft PRs #14, #13 follow-up, #15)
+**Repo:** 0xSneaks/muse-tune-up  ·  **Live URL:** none  ·  **Last updated:** 2026-10-25 01:27 ET by claude-code (PRs #13, #14, #15 MERGED to main b6865c8)
 
 ## Now (keep this current)
 
-- **Muse-speed builds (2026-10-25 01:20 ET, claude-code):** 3 draft PRs from Claude's approved list for Muse's speed audit. VERIFIED in a CC sandbox only; VM tests → Muse. [Handoff](../handoffs/2026-10-25_0120_claude-code_muse-tune-up.md).
+- **MERGED 2026-10-25 01:25 ET (Sneaks's instruction):** #13 → 18e00da, #14 → fb27610, #15 → b6865c8, each pinned to its tested head. VERIFIED on merged main (CC sandbox): ops/browser, timing, jobs, health, proxy-relay suites OK; smoke 8/8. **Nothing installed on Muse's VM yet.** [Handoff](../handoffs/2026-10-25_0127_claude-code_muse-tune-up.md).
+- **Muse-speed builds (2026-10-25 01:20 ET, claude-code):** 3 PRs from Claude's approved list for Muse's speed audit. VERIFIED in a CC sandbox only; VM tests → Muse. [Handoff](../handoffs/2026-10-25_0120_claude-code_muse-tune-up.md).
   - [PR #14](https://github.com/0xSneaks/muse-tune-up/pull/14) `ops/timing/`: seconds per stage (spawn/browser/tool/verify), p50/p95 summary, `--budget-s 180`. 19 tests; synthetic 5-task sample report.
   - [PR #13](https://github.com/0xSneaks/muse-tune-up/pull/13) @ 3528f79: a test for each ChatGPT finding (fixes were in 609d908). 57 tests; smoke 8/8 with real CloakBrowser + pm2; 1,323-request unauthenticated sweep with 0 leaks. Map: [comment 6393723293](https://github.com/0xSneaks/muse-tune-up/pull/13#issuecomment-6393723293).
   - [PR #15](https://github.com/0xSneaks/muse-tune-up/pull/15) `ops/jobs/`: checkpointed job runner, per-item fsynced output, resume after SIGKILL, detached `start.sh` (systemd-run/setsid) + cron backstop. 13 tests.
@@ -22,9 +23,9 @@ Upgrade program items 1–10 merged to main (PRs #4–#7, plus #8/#9 health fixe
 - chrome-devtools-mcp must run with --no-usage-statistics --no-performance-crux — 2026-10-21
 
 ## Built
-- Browser service — `ops/browser/` — VERIFIED (sandbox smoke 8/8 + 57 tests; VM round 2 pending), draft PR #13
-- Stage-timing logger — `ops/timing/` — VERIFIED (19 tests, sandbox; VM baseline pending), draft PR #14
-- Checkpointed job runner — `ops/jobs/` — VERIFIED (13 tests, sandbox; systemd mode + VM UNCONFIRMED), draft PR #15
+- Browser service — `ops/browser/` — on main (PR #13) — VERIFIED sandbox (smoke 8/8, 57 tests); VM round 2 pending; captcha escalation needs feat/captcha-handoff on main
+- Stage-timing logger — `ops/timing/` — on main (PR #14) — VERIFIED sandbox (19 tests); VM baseline pending
+- Checkpointed job runner — `ops/jobs/` — on main (PR #15) — VERIFIED sandbox (13 tests); systemd mode + VM UNCONFIRMED
 - Health checker — `ops/health/` — VERIFIED (tests)
 - Proxy relay — `ops/proxy-relay/` — VERIFIED (tests)
 - Tool trials report — `trials/tool-trials-2026-10-21/TOOL-TRIALS.md` — VERIFIED
@@ -44,7 +45,7 @@ Upgrade program items 1–10 merged to main (PRs #4–#7, plus #8/#9 health fixe
 - **Next:** owner reconciles Yolo-crawl- local/remote divergence and reviews PR #4; held-out quality A/B needs owner-supplied redacted snapshots + thresholds. Judge-provider note (snapshot defaults to GLM; owner dropped GLM 2026-10-19) flagged on issue #11, not changed.
 
 ## To do (priority order)
-00. Muse-speed VM tests (Muse): `ops/timing/VM-TEST.md` on ≥ 5 job-posting checks, target p95 < 180 s (PR #14); `ops/jobs/VM-TEST.md` A–B (PR #15); PR #13 round 2. Post tables on each PR. Then Sneaks reviews #13/#14/#15
+00. Muse-speed VM tests (Muse): `ops/timing/VM-TEST.md` on ≥ 5 job-posting checks, target p95 < 180 s (PR #14); `ops/jobs/VM-TEST.md` A–B (PR #15); PR #13 round 2 — all from main now (merged). Post tables on each PR. Then browser block E (ensure.sh + pm2 startup + cron) only if round 2 passes
 0a. ops/browser PR #13: Muse runs `ops/browser/VM-TEST.md` (A–C) on the VM, posts WORKS/FAILS table on PR #13; ChatGPT reviews (one PR comment); claude-code fixes; Sneaks reviews; then ensure.sh + 15-min cron — see BOARD Requests
 0. CAPTCHA handoff (`ops/captcha-handoff/`, branch feat/captcha-handoff 5a53deb): tunnel + one real errand on the VM — Muse, after Sneaks's review
 1. ~~Install chrome-devtools-mcp + codebase-memory-mcp on the VM~~ DONE by Muse 2026-10-21 (VM smoke-verified)
