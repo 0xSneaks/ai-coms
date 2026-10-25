@@ -19,6 +19,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] muse-tune-up · PR #13 VM round-2 evidence review; BOARD request + project + handoff only · started 2026-10-25 02:14 ET
+
 
 
 
