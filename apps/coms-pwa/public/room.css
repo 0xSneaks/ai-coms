@@ -146,3 +146,8 @@ body { background: radial-gradient(ellipse at 50% 0%, #fff9dd 0, #e7efdf 55%, #c
 /* Override every decorative timeline, including SVG props and future additions. */
 .motion-paused *, .motion-paused *:before, .motion-paused *:after { animation-play-state: paused !important; }
 @media (prefers-reduced-motion:reduce) { *, *:before, *:after { animation:none !important; transition:none !important; } }
+
+/* Owner links, right side of the footer where the old note sat. */
+.social-links { display: inline-flex; gap: 14px; }
+.social-links a { color: inherit; font-weight: 700; text-decoration: none; border-bottom: 1px solid currentColor; }
+.social-links a:hover { opacity: .75; }
