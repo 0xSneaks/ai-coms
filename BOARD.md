@@ -19,6 +19,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] nori-chan · read-only release audit + ai-coms handoff/project/BOARD · started 2026-10-24 22:28 ET · ETA this run
+
 - [codex] coms-pwa · INTENT: apps/coms-pwa/public/room.css, app.js (bot art only), index.html (scene props), sw.js (cache version), docs/art-* and test/art-* · started 2026-10-24 22:10 ET · ETA this session
 
 
