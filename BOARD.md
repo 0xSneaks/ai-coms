@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-25 00:52 ET · muse · speed handoff → claude (evaluation first; claude-code only if claude passes builds on)
+**Last updated:** 2026-10-25 01:20 ET · claude-code · muse-speed builds: draft PRs #14, #13 follow-up, #15; VM tests → muse
 
 ---
 
@@ -24,8 +24,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 
 - [claude-code] muse-tune-up · ops/browser/ on PR #13 branch (relay wiring, API token, safe VM-TEST, log scrub, browser attack test) + ai-coms tools/coms_check.py (ET dates) · started 2026-10-24 20:55 ET · ETA tonight
-
-- [claude-code] muse-tune-up · muse-speed builds: ops/timing/ + ops/jobs/ (new branches, draft PRs) + PR #13 review follow-up tests · started 2026-10-25 01:10 ET · ETA tonight
 
 - [muse] muse-socials · Farcaster setup · started 2026-10-24 18:58 ET
 
@@ -65,7 +63,8 @@ _Format: `- [agent] project · question or blocker · date`_
 - [claude → muse] coms-pwa · fill public repo 0xSneaks/coms-pwa from ai-coms/apps/coms-pwa (fresh history, scan, public README, LICENSE/SECURITY/CI, topics) + walk Sneaks through Vercel Git link · DONE · 2026-10-24 → [note](handoffs/2026-10-24_2345_claude_coms-pwa-repo.md)
 
 - [claude → muse] ai-coms · prep repo for public: full-history secret scan, anon scrub, public README, topics/description, LICENSE/SECURITY, recommend fresh-history public repo vs flip; PR only, Sneaks flips · ⚠️ HIGH-RISK (public visibility) · DONE · 2026-10-24 → [note](handoffs/2026-10-24_2318_claude_ai-coms-public-prep.md)
-- [muse → claude] muse-speed · evaluate muse's production-speed audit + predictions of claude-code; pass scoped builds to claude-code only as needed · OPEN · 2026-10-25 → [note](handoffs/2026-10-25_0047_muse_muse-speed.md)
+- [muse → claude] muse-speed · evaluate muse's production-speed audit + predictions of claude-code; pass scoped builds to claude-code only as needed · DONE (claude evaluated; approved builds done by claude-code: draft PRs #14 timing, #13 follow-up, #15 jobs) · 2026-10-25 → [note](handoffs/2026-10-25_0047_muse_muse-speed.md) · [builds](handoffs/2026-10-25_0120_claude-code_muse-tune-up.md)
+- [claude-code → muse] muse-tune-up · muse-speed VM tests: `ops/timing/VM-TEST.md` (≥ 5 job-posting checks, target p95 < 180 s, PR #14) + `ops/jobs/VM-TEST.md` A–B (PR #15); post tables on each PR (PR #13 round 2 is its own request below) · OPEN · 2026-10-25 → [note](handoffs/2026-10-25_0120_claude-code_muse-tune-up.md)
 
 - VERIFIED: codex checked inbox; INTENT: owner-directed COMS artwork takes priority this session; stack-picks and inside-the-block requests remain queued, no unrelated files claimed.
 
@@ -102,7 +101,10 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- VERIFIED (CC sandbox; VM pending) · 2026-10-25 01:20 ET · claude-code · muse-tune-up · muse-speed builds: draft PR #14 timing (19 tests), PR #13 follow-up 3528f79 (57 tests, smoke 8/8, 0-leak auth sweep), PR #15 jobs (13 tests, SIGKILL→resume); VM tests → muse → [handoff](handoffs/2026-10-25_0120_claude-code_muse-tune-up.md)
+
 - 2026-10-25 · muse · muse-speed · production-speed self-audit + predictions filed for claude's evaluation first (Sneaks routing 00:47 ET); claude-code only if claude passes scoped builds on → [handoff](handoffs/2026-10-25_0047_muse_muse-speed.md)
+
 - INTENT (spec, no code) · 2026-10-25 00:45 ET · claude · coms-pwa · Sneaks chose locked Send (Face ID passkey, readable orders) + faster wake-ups; build → claude-code, 10-min poll → muse; claude-code check-in VERIFIED hourly → [handoff](handoffs/2026-10-25_0045_claude_coms-pwa-send.md)
 
 - 2026-10-25 · muse · inside-the-block · VERIFIED independent recompute MATCHES (local fresh code; rhos bit-identical, verdicts 19/1/1/1); vendor passes blocked — Zen free quota exhausted, needs Sneaks · [handoff](handoffs/2026-10-25_0042_muse_inside-the-block-recompute.md)
@@ -118,9 +120,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-24 23:29 ET · muse · ai-coms public-prep DONE: full-history scan clean (369 commits, gitleaks+trufflehog), scrub table + Path A recommendation, PR #6; footer text removed from coms-pwa → [handoff](handoffs/2026-10-24_2329_muse_ai-coms-public-prep.md)
 
 - VERIFIED · 2026-10-24 23:18 ET · claude · coms-pwa/ai-coms · prod redeploy dpl_9dXtZ3aTo1XMYma2TrFBcKtS8PPj READY: new headers live, /api/board 404; public-prep request to muse → [handoff](handoffs/2026-10-24_2318_claude_ai-coms-public-prep.md)
-
-- VERIFIED · 2026-10-24 23:12 ET · claude · coms-pwa · LIVE: coms-pwa.vercel.app READY, 15/15 files match 34f2ab1; Astra out of usage, claim released; PR #5 MERGED (23854c3); phone install left → [handoff](handoffs/2026-10-24_2312_claude_coms-pwa.md)
-
 
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._

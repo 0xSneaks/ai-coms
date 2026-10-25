@@ -1,8 +1,13 @@
 # muse-tune-up
 
-**Repo:** 0xSneaks/muse-tune-up  ·  **Live URL:** none  ·  **Last updated:** 2026-10-24 by claude-code (ops/browser draft PR #13)
+**Repo:** 0xSneaks/muse-tune-up  ·  **Live URL:** none  ·  **Last updated:** 2026-10-25 01:20 ET by claude-code (muse-speed builds: draft PRs #14, #13 follow-up, #15)
 
 ## Now (keep this current)
+
+- **Muse-speed builds (2026-10-25 01:20 ET, claude-code):** 3 draft PRs from Claude's approved list for Muse's speed audit. VERIFIED in a CC sandbox only; VM tests → Muse. [Handoff](../handoffs/2026-10-25_0120_claude-code_muse-tune-up.md).
+  - [PR #14](https://github.com/0xSneaks/muse-tune-up/pull/14) `ops/timing/`: seconds per stage (spawn/browser/tool/verify), p50/p95 summary, `--budget-s 180`. 19 tests; synthetic 5-task sample report.
+  - [PR #13](https://github.com/0xSneaks/muse-tune-up/pull/13) @ 3528f79: a test for each ChatGPT finding (fixes were in 609d908). 57 tests; smoke 8/8 with real CloakBrowser + pm2; 1,323-request unauthenticated sweep with 0 leaks. Map: [comment 6393723293](https://github.com/0xSneaks/muse-tune-up/pull/13#issuecomment-6393723293).
+  - [PR #15](https://github.com/0xSneaks/muse-tune-up/pull/15) `ops/jobs/`: checkpointed job runner, per-item fsynced output, resume after SIGKILL, detached `start.sh` (systemd-run/setsid) + cron backstop. 13 tests.
 
 - **ChatGPT independent PR #13 review (2026-10-24 18:01 ET):** VERIFIED static-source review posted [one comment](https://github.com/0xSneaks/muse-tune-up/pull/13#issuecomment-6390064173) at head b58ab5c: CHANGES REQUESTED for unauthenticated localhost endpoints including handoff links, VM-test `pm2 kill`/forced worktree removal, credential persistence, state limits, and real-browser CSRF coverage. **VM behavior UNKNOWN;** Muse's WORKS/FAILS remains OPEN. [Handoff](../handoffs/2026-10-24_1801_chatgpt_muse-tune-up.md).
 Upgrade program items 1–10 merged to main (PRs #4–#7, plus #8/#9 health fixes). Tool trials round 2: report on branch feat/tool-trials-round-2 (c92f339), **PR #10 open** for review; combined verdict on issue #3 (comment 6314578890). Round-2 tools ARE now installed on Muse's VM by Muse (2026-10-21 AM, smoke-verified): codebase-memory-mcp, Chrome DevTools MCP, Headroom (not wired — FIX-FIRST conditions in issue #3 comment).
@@ -17,7 +22,9 @@ Upgrade program items 1–10 merged to main (PRs #4–#7, plus #8/#9 health fixe
 - chrome-devtools-mcp must run with --no-usage-statistics --no-performance-crux — 2026-10-21
 
 ## Built
-- Browser service — `ops/browser/` — VERIFIED (sandbox smoke + tests; VM pending), draft PR #13
+- Browser service — `ops/browser/` — VERIFIED (sandbox smoke 8/8 + 57 tests; VM round 2 pending), draft PR #13
+- Stage-timing logger — `ops/timing/` — VERIFIED (19 tests, sandbox; VM baseline pending), draft PR #14
+- Checkpointed job runner — `ops/jobs/` — VERIFIED (13 tests, sandbox; systemd mode + VM UNCONFIRMED), draft PR #15
 - Health checker — `ops/health/` — VERIFIED (tests)
 - Proxy relay — `ops/proxy-relay/` — VERIFIED (tests)
 - Tool trials report — `trials/tool-trials-2026-10-21/TOOL-TRIALS.md` — VERIFIED
@@ -37,6 +44,7 @@ Upgrade program items 1–10 merged to main (PRs #4–#7, plus #8/#9 health fixe
 - **Next:** owner reconciles Yolo-crawl- local/remote divergence and reviews PR #4; held-out quality A/B needs owner-supplied redacted snapshots + thresholds. Judge-provider note (snapshot defaults to GLM; owner dropped GLM 2026-10-19) flagged on issue #11, not changed.
 
 ## To do (priority order)
+00. Muse-speed VM tests (Muse): `ops/timing/VM-TEST.md` on ≥ 5 job-posting checks, target p95 < 180 s (PR #14); `ops/jobs/VM-TEST.md` A–B (PR #15); PR #13 round 2. Post tables on each PR. Then Sneaks reviews #13/#14/#15
 0a. ops/browser PR #13: Muse runs `ops/browser/VM-TEST.md` (A–C) on the VM, posts WORKS/FAILS table on PR #13; ChatGPT reviews (one PR comment); claude-code fixes; Sneaks reviews; then ensure.sh + 15-min cron — see BOARD Requests
 0. CAPTCHA handoff (`ops/captcha-handoff/`, branch feat/captcha-handoff 5a53deb): tunnel + one real errand on the VM — Muse, after Sneaks's review
 1. ~~Install chrome-devtools-mcp + codebase-memory-mcp on the VM~~ DONE by Muse 2026-10-21 (VM smoke-verified)
