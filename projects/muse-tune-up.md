@@ -4,6 +4,9 @@
 
 ## Now (keep this current)
 
+- **VERIFIED (Muse VM report, 2026-10-25 01:50 ET):** [PR #13 round-2 WORKS/FAILS table](https://github.com/0xSneaks/muse-tune-up/pull/13#issuecomment-6394097166) @ merged head `3528f79`: A0 `vm_check: 0 FAIL` (584 MiB memory WARN); A2 57 tests OK (1 skipped); A3–A10 smoke 8/8 PASS (CAPTCHA escalation + hostile-page rejection); C2 app-scoped cold start 5 s, health ready. **C1 FAILS**: supervised relay upstream CONNECT `407 Proxy Authentication Required` and Chromium `ERR_INVALID_AUTH_CREDENTIALS`/HTTP 502, twice including after PM2 app deletion and fresh ensure; same relay standalone in current shell env and curl through egress proxy get 200. **INFERENCE:** PM2 proxy credentials/environment stale. `ensure.sh:56` already uses `startOrRestart --update-env`, so that flag alone is not a verified fix. D SKIP; E HELD/not installed until A+C pass. Initial incomplete API pull/PATH errors resolved before clean A. Existing Muse C1 request remains OPEN; ChatGPT corroborating request points to same fix, not parallel work. [ChatGPT handoff](../handoffs/2026-10-25_0214_chatgpt_muse-tune-up.md).
+- **VERIFIED (Claude Code sandbox only):** [PR #13 baseline comment 6393723293](https://github.com/0xSneaks/muse-tune-up/pull/13#issuecomment-6393723293) claims 57 tests OK, smoke 8/8 and 1,323 unauthenticated requests with zero leaks; do not confuse these with Muse's VM evidence or a working C1 proxy.
+
 - **MERGED 2026-10-25 01:25 ET (Sneaks's instruction):** #13 → 18e00da, #14 → fb27610, #15 → b6865c8, each pinned to its tested head. VERIFIED on merged main (CC sandbox): ops/browser, timing, jobs, health, proxy-relay suites OK; smoke 8/8. **Nothing installed on Muse's VM yet.** [Handoff](../handoffs/2026-10-25_0127_claude-code_muse-tune-up.md).
 - **Muse-speed builds (2026-10-25 01:20 ET, claude-code):** 3 PRs from Claude's approved list for Muse's speed audit. VERIFIED in a CC sandbox only; VM tests → Muse. [Handoff](../handoffs/2026-10-25_0120_claude-code_muse-tune-up.md).
   - [PR #14](https://github.com/0xSneaks/muse-tune-up/pull/14) `ops/timing/`: seconds per stage (spawn/browser/tool/verify), p50/p95 summary, `--budget-s 180`. 19 tests; synthetic 5-task sample report.
@@ -45,8 +48,8 @@ Upgrade program items 1–10 merged to main (PRs #4–#7, plus #8/#9 health fixe
 - **Next:** owner reconciles Yolo-crawl- local/remote divergence and reviews PR #4; held-out quality A/B needs owner-supplied redacted snapshots + thresholds. Judge-provider note (snapshot defaults to GLM; owner dropped GLM 2026-10-19) flagged on issue #11, not changed.
 
 ## To do (priority order)
-00. Muse-speed VM tests (Muse): `ops/timing/VM-TEST.md` on ≥ 5 job-posting checks, target p95 < 180 s (PR #14); `ops/jobs/VM-TEST.md` A–B (PR #15); PR #13 round 2 — all from main now (merged). Post tables on each PR. Then browser block E (ensure.sh + pm2 startup + cron) only if round 2 passes
-0a. ops/browser PR #13: Muse runs `ops/browser/VM-TEST.md` (A–C) on the VM, posts WORKS/FAILS table on PR #13; ChatGPT reviews (one PR comment); claude-code fixes; Sneaks reviews; then ensure.sh + 15-min cron — see BOARD Requests
+00. Muse-speed VM tests: timing PR #14 and jobs PR #15 reported DONE by Muse (tables on PRs); browser PR #13 round 2 A PASS/C2 PASS but **C1 FAIL** (supervised relay 407), so browser block E remains HELD. Claude Code fixes PM2 relay environment provenance; Muse reruns C1 and posts proof before any install.
+0a. ops/browser PR #13: VM round-2 table posted (6394097166); ChatGPT reviewed and handed C1 to Claude Code. Next: fix 407 stale-env cause without leaking credentials or touching unrelated PM2 apps; Muse re-tests C1; block E (ensure.sh/PM2 startup/15-min cron) stays held until A+C pass.
 0. CAPTCHA handoff (`ops/captcha-handoff/`, branch feat/captcha-handoff 5a53deb): tunnel + one real errand on the VM — Muse, after Sneaks's review
 1. ~~Install chrome-devtools-mcp + codebase-memory-mcp on the VM~~ DONE by Muse 2026-10-21 (VM smoke-verified)
 2. ~~Headroom quality A/B~~ — 2026-10-24 retrieval check: streaming drops records silently, retrieval turns cost +27%, lossless 0–1% → recommend NOT wiring (PR #10 addendum)
