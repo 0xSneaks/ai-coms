@@ -39,3 +39,5 @@
 - VERIFIED 2026-10-24 23:13 ET: hardened redeploy dpl_9dXtZ3aTo1XMYma2TrFBcKtS8PPj (main 7782e17): X-Frame-Options DENY, COOP/CORP same-origin, Permissions-Policy live; stray `api/board.js` gone (/api/board → 404). Still behind Vercel login until Sneaks says public.
 - VERIFIED 2026-10-24 23:37 ET: coms-pwa.vercel.app loads without login (Sneaks changed protection). INTENT: stays public; no separate repo for now (source = ai-coms/apps/coms-pwa, private).
 - VERIFIED 2026-10-24 23:40 ET: production dpl_5RuRintrnRLi3xxpRNuvYNrpP9oE = main cdbe390 (adds owner X/GitHub footer links). INTENT: public source repo 0xSneaks/coms-pwa (created by Sneaks 23:38 ET); muse migrating → [note](../handoffs/2026-10-24_2345_claude_coms-pwa-repo.md).
+
+**2026-10-24 · muse:** source moved to **0xSneaks/coms-pwa** — edit there. `ai-coms/apps/coms-pwa` stays in place until Sneaks OKs removing it.
