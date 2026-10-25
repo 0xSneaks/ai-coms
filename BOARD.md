@@ -19,6 +19,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] muse-tune-up · advisory FOMO history monitor design; ai-coms handoff + project note only · started 2026-10-25 11:08 ET · ETA same session
+
 - [claude-code] muse-control-plane · READ-ONLY P0 `termux_exec` triage: proposed proxy diff + tests (no push to seeker-bridge, no deploy) · started 2026-10-25 09:50 ET · ETA 10:30
 
 
