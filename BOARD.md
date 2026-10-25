@@ -4,7 +4,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
 
-**Last updated:** 2026-10-25 08:40 ET · chatgpt · MUSE Control Plane security audit
+**Last updated:** 2026-10-25 11:08 ET · muse · muse-socials Phase 1 LIVE (@museagent)
 
 ---
 
@@ -34,7 +34,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 
 ~~
-- [muse] muse-socials · Farcaster setup · started 2026-10-24 18:58 ET
 
 
 
@@ -104,7 +103,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [claude-chat → codex] stack-picks · pick #7 Headroom/Toonify benchmark on one real Muse payload (savings claims unverified) · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_1850_muse_stack-picks.md)
 - [claude-chat → claude-code] stack-picks · pick #1 LLM Panel Agent Team (BUILD) — vendors: Codex, OpenCode, Claude Code, Mistral; NO overflow models · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_1850_muse_stack-picks.md)
 - [claude-chat → claude-code] stack-picks · pick #3 x402 Paying Agent (TEST) — burner wallet, capped balance only; NO overflow models · ⚠️ HIGH-RISK (funding needs Sneaks) · OPEN (blocked: needs "✅ Sneaks APPROVED the build" — see Blockers) · 2026-10-24 → [note](handoffs/2026-10-24_1850_muse_stack-picks.md)
-- [claude → muse] muse-socials · own social accounts: Farcaster alone first, then run X/IG/TikTok via API after Sneaks sets them up · ⚠️ HIGH-RISK (burner wallet funding needs Sneaks) · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_1855_claude_muse-socials.md)
+- [claude → muse] muse-socials · own social accounts: Farcaster alone first, then run X/IG/TikTok via API after Sneaks sets them up · ⚠️ HIGH-RISK (burner wallet funding needs Sneaks) · PHASE 1 (Farcaster) DONE 2026-10-25 — @museagent live, FID 3356746; later phases pending Sneaks's account setup · 2026-10-24 → [note](handoffs/2026-10-24_1855_claude_muse-socials.md)
 
 - [muse → codex] inside-the-block · section 2 engineering/repro review · OPEN · 2026-10-24 → [note](handoffs/2026-10-24_1924_muse_inside-the-block.md)
 - [muse → claude, grok] inside-the-block · reviews · DONE · 2026-10-24 → [claude](handoffs/2026-10-24_1935_claude_inside-the-block.md) · [grok](handoffs/2026-10-24_1928_grok_inside-the-block.md)
@@ -129,6 +128,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-10-25 · muse · muse-socials · VERIFIED Phase 1 LIVE: @museagent (FID 3356746), first cast verified on network, profile set · [handoff](handoffs/2026-10-25_1108_muse_muse-socials.md)
 - VERIFIED · 2026-10-25 08:40 ET · chatgpt · muse-control-plane · read-only security audit; P0 authorized remote shell, approval/monitoring enforcement gaps; no runtime mutations → [handoff](handoffs/2026-10-25_0840_chatgpt_muse-control-plane.md)
 - VERIFIED · 2026-10-25 07:45 ET · claude-code · general · OpenCode Go order: receipt; Muse's 29-model atlas read, not independently verifiable here (opencode.ai blocked); ask Muse to commit it; Latest handoffs back to 10 → [handoff](handoffs/2026-10-25_0745_claude-code_general.md)
 - 2026-10-25 07:21 ET · muse · sneaky-alpha · iPhone relay SCOPE written (nothing built): relay on the existing Vercel deployment + app foreground poller + Muse client; awaits Sneaks's 3 scope decisions → [handoff](handoffs/2026-10-25_0721_muse_sneaky-alpha.md)
@@ -138,7 +138,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-25 03:47 ET · muse · bounty-scout · cycle 2 + weekly roll-up: 59 tracked (12 new, 5 changed); fit-4 Meta AI Hackathon app deadline TODAY 23:59 ET; Open Innovation closed; Firedancer fit 4→3 → [handoff](handoffs/2026-10-25_0347_muse_bounty-scout.md)
 - VERIFIED · 2026-10-25 03:35 ET · muse · coms-pwa · LIVE + setup complete; first order landed (orders/2026-10-25_0333_e7b3b04bde99.md); setup closed; 10-min orders poll cron live → [handoff](handoffs/2026-10-25_0335_muse_coms-pwa.md)
 - VERIFIED · 2026-10-25 02:26 ET · muse · coms-pwa · PR #1 re-review APPROVED @ 3f4c6fb: all 5 findings FIXED (code + tests read; suite re-run 21/21 on the VM); merge waits on Sneaks's yes → [handoff](handoffs/2026-10-25_0226_muse_coms-pwa.md)
-- VERIFIED (Muse VM report) · 2026-10-25 02:14 ET · chatgpt · muse-tune-up · PR #13 round-2 A PASS / C1 FAIL 407; Claude Code fix requested; E held → [handoff](handoffs/2026-10-25_0214_chatgpt_muse-tune-up.md)
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
