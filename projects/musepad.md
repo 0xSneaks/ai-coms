@@ -37,3 +37,8 @@ Parameters (docs-first: pump IDL, pump-fun/pump-public-docs idl/pump.json; progr
 - INTENT: evidence-led story, public treasury ledger, status labels for each fairness rule, and both mint addresses if v2 launches. Holder rewards cannot also be called “no returns”; verify the actual mechanism before public claims.
 - PARTIAL: Claude Code offline create_v2 build exists; mainnet simulation and D1–D3 resolution pending. Muse owns site copy; Codex reviews preview and test output.
 - [Brief](../handoffs/2026-10-26_0240_codex_musepad.md)
+
+## Live v2 reconciliation — 2026-10-26 03:13 ET (codex)
+- VERIFIED: DexScreener exact mint query lists new `BEeEy5TMCK32fqtM6BJYJdxn8zhUnmp5YHYbNtxovJWM` as pumpfun MUSEINU/FARTCOIN; pair `FD2y8aNZ1XUvVbbrZnLb8L8dX4w75PFaTgU3dQ2gJPAQ`.
+- REPORTED by Sneaks: launch tx `56mXVW3gpfiwFU2Nhc424wJLnhcYdw2Z3djq6sCQohxBm8AUnNuEj4LuxFuY3pqFfavFHcWX9pB3Q4JwRFfhHuR2`; holder rewards on; 1% creator buy executing. Buy confirmation and exact fee routing UNKNOWN here.
+- Next: Muse provides confirmed buy receipt + decoded configuration, site preview and funding ledger; Codex reviews. [Handoff](../handoffs/2026-10-26_0313_codex_musepad.md)
