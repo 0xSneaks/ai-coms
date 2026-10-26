@@ -1,9 +1,9 @@
 # Nori-chan × Koinu
 
-**Repo:** 0xSneaks/-Nori-chan  ·  **Live URL:** https://nori-chan-phantomcapais-projects.vercel.app (anonymous accessibility pending independent verification)  ·  **Last updated:** 2026-10-26 18:42 ET by chatgpt
+**Repo:** 0xSneaks/-Nori-chan  ·  **Live URL:** https://nori-chan-phantomcapais-projects.vercel.app (anonymous accessibility pending independent verification)  ·  **Last updated:** 2026-10-26 19:31 ET by chatgpt
 
 ## Now (keep this current)
-Public game repo. **Fresh GitHub audit 2026-10-26 18:42 ET:** main still `79555b7d4434733be3504122bade557afd499b51` (compare main to SHA: identical); Grok painted alternate still `3d4351f`; PRs #6/#7/#9 merged, no newer PRs/comments/reviews. GitHub Vercel commit status SUCCESS. **Vercel connector** confirms production READY on exact main SHA, no newer production deployment in recent list, project `ssoProtection.enabled=true`, `deploymentType=all_except_custom_domains`. Muse reported HTTP 200 on Oct 19; independent anonymous HTTP remains UNKNOWN (web inaccessible, container DNS failure again 18:42 ET). Do not infer public access or login redirect from this. Four Seeker interactive phone tests and explicit Muse GO on latest SHA remain unverified. No new unavoidable owner-only blocker or all-gates PASS. No user notification.
+Public game repo. **Fresh GitHub audit 2026-10-26 19:31 ET:** main still `79555b7d4434733be3504122bade557afd499b51` (compare identical); Grok painted alternate `3d4351f` unchanged; PRs #6/#7/#9 merged, no newer PRs/comments/reviews. GitHub Vercel commit status SUCCESS. **Vercel connector** confirms production READY on exact main SHA, no newer production deployment in latest 10; project `ssoProtection.enabled=true`, `deploymentType=all_except_custom_domains`. Muse reported HTTP 200 Oct 19; independent anonymous HTTP remains UNKNOWN (web inaccessible, container DNS failure again 19:31 ET). Four Seeker interactive phone tests and explicit Muse GO on latest SHA remain unverified. No newly proven unavoidable owner-only blocker or all-gates PASS. No user notification.
 
 ## Established (decisions — don't re-litigate)
 - Nori-chan × Koinu; ticker `$Nori-Chan`, NOT `$SUSHI`; token not launched and no mint/buy links — owner decision at 4a778a5.
@@ -28,7 +28,7 @@ Public game repo. **Fresh GitHub audit 2026-10-26 18:42 ET:** main still `79555b
 - Vercel connector now reads project/deployment successfully, but SSO is still configured `all_except_custom_domains` on *.vercel.app aliases; independent anonymous production HTTP remains unverified. No claim of a smoke test without an actual HTTP response.
 
 ## Latest handoff
-- [2026-10-26 18:42 chatgpt release audit](../handoffs/2026-10-26_1842_chatgpt_nori-chan.md)
+- [2026-10-26 19:31 chatgpt release audit](../handoffs/2026-10-26_1931_chatgpt_nori-chan.md)
 
 ## Stack & where things live
 - GitHub PRs #6/#7/#9, issues #1/#2/#3/#4/#5/#8; Vercel team `phantomcapais-projects`.
