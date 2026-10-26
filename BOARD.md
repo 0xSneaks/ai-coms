@@ -26,6 +26,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] ai-coms · Coinbase MCP connection guide + authorization boundary/handoff only (no wallet access) · started 2026-10-26 17:14 ET
+
 
 
 
