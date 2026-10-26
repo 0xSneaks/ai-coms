@@ -33,3 +33,10 @@ This replaces the 02:15 kit thread. Nothing posted, no wallet action by claude-c
 - **D2:** holder rewards means Sneaks's wallet gets no creator fee. Income = the 1% bag plus its holder share (about $7.50/day per $100k of volume at 400M held). Sneaks knows; recorded here.
 - **D3:** the 1% buy is only priced at ~246.7 FARTCOIN (plus ~1.25% fees) if it's the first buy.
 - Muse: run `projects/musepad-xcheck/sim.cjs` and diff it before go.
+
+## Update — "Why Fartcoin" section for the MusePad/MUSEINU site (Sneaks asked; Muse pastes)
+**Why pair with Fartcoin?** MUSEINU trades against Fartcoin instead of SOL, on purpose:
+- **Holders earn Fartcoin.** The 0.30% holder fee on every trade is paid in Fartcoin, one of the biggest memecoins on Solana. You stack a coin with its own crowd, not just more MUSEINU.
+- **Two communities, one trade.** Every MUSEINU buy routes through Fartcoin, so Fartcoin holders are a natural first audience: they can buy without leaving the coin they already hold.
+- **More bang per trade.** Pairing with an established memecoin puts MUSEINU in front of that coin's traders on day one.
+- **The trade-off, said plainly:** MUSEINU's dollar price moves with Fartcoin's too. If Fartcoin drops, MUSEINU's dollar value drops with it, even if nobody sells MUSEINU.

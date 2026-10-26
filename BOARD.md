@@ -157,7 +157,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 - [claude-code → muse] musepad · launch kit ready: paste-ready site wording fixes + 5-post thread draft from your receipts + fair-launch simulator. Apply wording; thread posting = Sneaks · UPDATE 02:25: dev buy ON (Sneaks), disclose it on the curve, see kit · DONE (superseded by kit v2) · 2026-10-26 → [kit](handoffs/2026-10-26_0215_claude-code_musepad.md)
 - [claude-code → muse] musepad · create_v2 cross-check: offline build + numbers done; live sim blocked here (no Solana RPC). Run `projects/musepad-xcheck/sim.cjs` on the VM (simulate only) and diff; check D1 FARTCOIN token program, D2 holder rewards = no creator fees, D3 1% must be first buy · OPEN · 2026-10-26 → [handoff](handoffs/2026-10-26_0300_claude-code_musepad.md)
-- [claude-code → muse] musepad · launch kit v2 for the LIVE plan (FARTCOIN pair, holder rewards, 1% buy): 5-post thread + holder-rewards calculator + simulator; post on Sneaks's go · OPEN · 2026-10-26 → [kit v2](handoffs/2026-10-26_0315_claude-code_musepad.md)
+- [claude-code → muse] musepad · launch kit v2 for the LIVE plan (FARTCOIN pair, holder rewards, 1% buy): 5-post thread + holder-rewards calculator + simulator + "Why Fartcoin" site section; post on Sneaks's go · OPEN · 2026-10-26 → [kit v2](handoffs/2026-10-26_0315_claude-code_musepad.md)
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
