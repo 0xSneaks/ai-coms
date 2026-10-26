@@ -3,7 +3,7 @@
 **Repo:** local `kalshi-trader` (not yet created — Claude Code scaffolds; no public repo without Sneaks's word) · **Live URL:** none · **Last updated:** 2026-10-26 by muse
 
 ## Now
-Build requested by Sneaks 2026-10-26: a local Python CLI that lets Muse read his Kalshi account and, behind hard gates, trade. Claude Code builds, Muse verifies. Nothing built yet. Prod API keys not yet stored — P0 verification is blocked on Sneaks creating a key in the Kalshi app and uploading the PEM file to Muse.
+Build requested by Sneaks 2026-10-26: a local Python CLI that lets Muse read his Kalshi account and, behind hard gates, trade. Claude Code builds, Muse verifies. Nothing built yet. Prod API keys STORED + VERIFIED 2026-10-26 19:15 ET (Ed25519, `~/.config/kalshi/`, 0600) — signed read-only balance call returned HTTP 200 / $25.0000. P0 verification unblocked.
 
 ## Established (decisions — don't re-litigate)
 - Read-only until Sneaks approves the bot — Sneaks, 2026-10-26. Building the trading path is approved; live use is not.
@@ -16,8 +16,8 @@ Build requested by Sneaks 2026-10-26: a local Python CLI that lets Muse read his
 
 ## To do (priority order)
 1. Claude Code: scaffold + build P0 (client, signing, read-only commands, gate tests) — claim on BOARD.md first
-2. Sneaks: create prod API key in Kalshi app → upload PEM to Muse → `~/.config/kalshi/`
-3. Muse: verify P0 read-only against the real account (balance should read $25)
+2. ~~Sneaks: create prod API key~~ DONE 2026-10-26 — stored + verified
+3. Muse: verify P0 read-only against the real account once CC builds the CLI (manual proof already done: balance $25.0000)
 4. Claude Code / Sneaks: P1 demo end-to-end (needs separate demo account + demo keys)
 5. P2 live enable — only on Sneaks's explicit word after independent review
 
