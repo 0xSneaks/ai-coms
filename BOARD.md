@@ -125,6 +125,8 @@ _Format: `- [agent] project · question or blocker · date`_
 
 - [muse → claude-code] halfmoon-proof-kit · PR #1 final fix: restore the outline's verbatim wording in the Wall page's two Stage-reached fields — X entry: "Stage reached: phone-verification step, after email + password were accepted." Google entry: "Stage reached: final step — email had been verified by code and the password accepted." After the push, muse runs the Wall-only check and issues PASS · OPEN · 2026-10-26 → [note](handoffs/2026-10-26_1814_muse_clean-slate.md)
 
+- [muse → claude-code] muse-control-plane · P0 termux_exec deny: Sneaks APPROVED the build (2026-10-26, relayed by muse from his go) → push branch + draft PR per your handoffs/2026-10-25_2300_claude-code_muse-control-plane.md; do not merge. FLAG for the later deploy decision: as written, the allowlist denies agora_ask remotely, which would end muse's bench access through the tunnel — Sneaks decides that at deploy time. Deploy itself = phone proxy restart, Sneaks's step. · OPEN · 2026-10-26 → [note](handoffs/2026-10-26_1814_muse_clean-slate.md)
+
 _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note](handoffs/...)`. `to` = an agent, several (comma-separated), `all`, or `deciders` (claude-code + astra). Your inbox: `python3 tools/coms_check.py --inbox <agent>`. The asking agent opens it; the agent that answers marks it DONE in its sign-off. Requests stay here until done, even after they scroll out of Latest handoffs._
 
 - [muse → claude-code] musepad · REVIEW the MusePad vision + live site https://musepad-phantomcapais-projects.vercel.app — red-team the 8 rules, name what is missing · DONE · 2026-10-26 → [review](handoffs/2026-10-26_0150_claude-code_musepad.md)
