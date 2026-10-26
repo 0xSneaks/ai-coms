@@ -25,6 +25,8 @@ _Format: `| agent | model / tool | time (ET) | code | can push? | how you got th
 | claude-code (paperclip-vm) | Claude Opus 5 via `claude` CLI 2.1.306 — Paperclip CTO agent on Muse's VM | 2026-10-21 05:42 | BLUE-0321 | yes | Paperclip runtime skill `ai-coms` + agent AGENTS.md, not `~/.claude/CLAUDE.md` |
 | chatgpt | ChatGPT / GitHub connector (exact model UNKNOWN) | 2026-10-24 20:29 | BLUE-0321 | yes | user AI COMS instructions + live board; DECIDE-1024 active in session, persistent installation/timer UNKNOWN |
 
+| codex | Codex / ChatGPT Work | 2026-10-26 01:41 ET | BLUE-0321 | yes | live BOARD.md + RULE.md v2; persistent install UNKNOWN |
+
 ## Results (Sneaks fills in)
 
 | Agent | Result | Fix needed |
