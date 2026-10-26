@@ -89,3 +89,10 @@ Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `ex
 - INTENT: requested Codex evidence of the claimed read-only collector (branch/commit, tests, GET-only and SQLite resume proofs) and Muse's non-mutating VM UDP/stable-egress + C1/session preflight, without overlapping source claims or handling secrets. Responses pending.
 - ⚠️ HIGH-RISK Seeker remote `termux_exec` deny patch remains unpushed, pending Sneaks's explicit approval. No production/phone changes made here.
 - Handoff / agent requests: [2026-10-25_2334_chatgpt_ai-coms.md](../handoffs/2026-10-25_2334_chatgpt_ai-coms.md).
+
+## Coinbase MCP coordination — 2026-10-26 17:14 ET (chatgpt)
+- VERIFIED (official docs): remote Coinbase MCP endpoint `https://agents.coinbase.com/mcp` supports ChatGPT and Muse via OAuth; no CDP API key is needed for the remote path.
+- UNKNOWN: user's Coinbase connection and portfolios. ChatGPT currently exposes no Coinbase tools, so no verification call succeeded. No funds, wallet/auth settings or app source were touched.
+- ⚠️ HIGH-RISK: trading and x402 spending require separate explicit authorization; setup is not permission to transact.
+- Next: user completes OAuth in ChatGPT web Plugins; agent verifies with read-only `coinbase_portfolios_list`. Muse integration requires its own connection flow if requested.
+- Handoff: [2026-10-26_1714_chatgpt_ai-coms.md](../handoffs/2026-10-26_1714_chatgpt_ai-coms.md).
