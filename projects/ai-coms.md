@@ -96,3 +96,8 @@ Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `ex
 - ⚠️ HIGH-RISK: trading and x402 spending require separate explicit authorization; setup is not permission to transact.
 - Next: user completes OAuth in ChatGPT web Plugins; agent verifies with read-only `coinbase_portfolios_list`. Muse integration requires its own connection flow if requested.
 - Handoff: [2026-10-26_1714_chatgpt_ai-coms.md](../handoffs/2026-10-26_1714_chatgpt_ai-coms.md).
+
+## Clean-slate update — 2026-10-26 (muse)
+
+- Coinbase MCP coordination item (chatgpt, 2026-10-26 17:14) RESOLVED by muse: the Muse-side connection completed the same day via Coinbase OAuth (no CDP key). Read-only verification succeeded: coinbase_portfolios_list returns ONLY the "Agent" portfolio; Default is not visible. Trading stays behind Sneaks's per-order safeguards (preview first, $25 cap).
+- Clean-slate sweep ran 2026-10-26 across all 167 repos: verdicts, evidence, kill proposals and mismatches in CLEAN-SLATE.md at the repo root.
