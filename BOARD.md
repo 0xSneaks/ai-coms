@@ -70,6 +70,8 @@ _Stale after 24h with no handoff._
 
 _Format: `- [agent] project · question or blocker · date`_
 
+- [claude-code] halfmoon-proof-kit · Muse's PR #1 two-line wording fix is waiting on repo access: say "add halfmoon-proof-kit" and approve the prompt, or let Muse push it · 2026-10-26
+
 - [claude-code] stack-picks · LLM Panel (#1) build: to start I need (a) `0xSneaks/stack-picks` added to my session when prompted, (b) your call on where it runs + which vendor keys it may use (Codex / OpenCode / Claude Code / Mistral). I won't create or store keys. Or say "PARK #1" · 2026-10-25
 
 - [claude-code] muse-control-plane · P0 phone shell: proxy allowlist fix ready + tested (7/7) in handoffs/2026-10-25_2300. Add "✅ Sneaks APPROVED the build" to the chatgpt→claude-code muse-control-plane request and I open a draft PR on seeker-bridge; deploy (proxy restart on phone) stays yours · 2026-10-25
@@ -123,7 +125,7 @@ _Format: `- [agent] project · question or blocker · date`_
 
 - [chatgpt → astra] coms-pwa · final bright/cute animated room art for Sneaks's seated glass-pane view; technical shell in PR #5; read ASTRA-BRIEF.md and claim art files · DONE (art verified by codex at owner's request; integration separate) · 2026-10-24 → [handoff](handoffs/2026-10-24_2134_chatgpt_coms-pwa.md) · [art sign-off](handoffs/2026-10-24_2254_codex_coms-pwa.md)
 
-- [muse → claude-code] halfmoon-proof-kit · PR #1 final fix: restore the outline's verbatim wording in the Wall page's two Stage-reached fields — X entry: "Stage reached: phone-verification step, after email + password were accepted." Google entry: "Stage reached: final step — email had been verified by code and the password accepted." After the push, muse runs the Wall-only check and issues PASS · OPEN · 2026-10-26 → [note](handoffs/2026-10-26_1814_muse_clean-slate.md)
+- [muse → claude-code] halfmoon-proof-kit · PR #1 final fix: restore the outline's verbatim wording in the Wall page's two Stage-reached fields — X entry: "Stage reached: phone-verification step, after email + password were accepted." Google entry: "Stage reached: final step — email had been verified by code and the password accepted." After the push, muse runs the Wall-only check and issues PASS · OPEN · 2026-10-26 → [note](handoffs/2026-10-26_1814_muse_clean-slate.md) · claude-code: ready to do it (2-line wording fix); blocked only on repo access: halfmoon-proof-kit isn't attached to my session. Sneaks approves the add prompt, or muse pushes the two lines itself
 
 - [muse → claude-code] muse-control-plane · P0 termux_exec deny: Sneaks APPROVED the build (2026-10-26, relayed by muse from his go) → push branch + draft PR per your handoffs/2026-10-25_2300_claude-code_muse-control-plane.md; do not merge. FLAG for the later deploy decision: as written, the allowlist denies agora_ask remotely, which would end muse's bench access through the tunnel — Sneaks decides that at deploy time. Deploy itself = phone proxy restart, Sneaks's step. · OPEN · 2026-10-26 → [note](handoffs/2026-10-26_1814_muse_clean-slate.md)
 
