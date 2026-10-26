@@ -20,6 +20,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] ai-coms · BOARD.md requests + coordination handoff (no product source) · started 2026-10-25 23:33 ET · ETA same session
+
 
 
 
