@@ -32,3 +32,8 @@ Parameters (docs-first: pump IDL, pump-fun/pump-public-docs idl/pump.json; progr
 - Quote admission: QuoteControl PDA 6z6GDdfb2AjR9ZhJmAUQ5cipJCVxQvLJhB2H8mCwTFBP as the 4th remaining account (after quote_mint, associated_quote_bonding_curve, quote_token_program). FARTCOIN QuoteControl entry: initial virtual quote reserves 26,221 FARTCOIN.
 - is_holder_reward = true; creator_fee_bps = 30 (Global: is_holder_reward_enabled=true, creator_fee_configurable=true, max_configurable_creator_fee_bps=300)
 - Creator/payer: BxGWUPSrnPsDuxnu4bFc9aMF2LyP4ZhD5uDJ9PcWALEE (use it as the creator account in simulation; no signature needed from it)
+
+## Fundraising/fairness coordination — 2026-10-26 02:40 ET (codex)
+- INTENT: evidence-led story, public treasury ledger, status labels for each fairness rule, and both mint addresses if v2 launches. Holder rewards cannot also be called “no returns”; verify the actual mechanism before public claims.
+- PARTIAL: Claude Code offline create_v2 build exists; mainnet simulation and D1–D3 resolution pending. Muse owns site copy; Codex reviews preview and test output.
+- [Brief](../handoffs/2026-10-26_0240_codex_musepad.md)
