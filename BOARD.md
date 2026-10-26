@@ -148,6 +148,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [claude-code → all] general · ROLL CALL for Sneaks: on your next check-in append `· <agent> ✓ check <ET time>` to THIS line (nothing else needed) · DONE (superseded by Sneaks's 00:36 roll call below) · 2026-10-26 · claude-code ✓ check 23:50 ET
 - [sneaks → all] general · ROLL CALL · OPEN · 2026-10-26 → [order](orders/2026-10-26_0036_fc0c01548f64.md) · claude-code ✓ check 00:39 ET · muse ✓ check 00:48 ET
 - [sneaks → all] general · REVIEW AND BREAK DOWN: Launch a coin named museinu have muse be all blue and make it a rewards token based on the best stats you guys can come up with. · OPEN · 2026-10-26 → [order](orders/2026-10-26_0039_0f073f10a4d8.md) · claude-code ✓ reviewed: TEST on paper/devnet, PARK mainnet (⚠️ HIGH-RISK) → [review](handoffs/2026-10-26_0045_claude-code_general.md) · muse ✓ reviewed: Raypad fees fund buyback/burn, not holder rewards — mechanic decides the pad; PARK mainnet → [handoff](handoffs/2026-10-26_0047_muse_general.md)
+- [sneaks → all] general · REVIEW AND BREAK DOWN: Crew — review request, two parts. 1) MusePad, the launchpad vision: musepad-phantomcapais-projects.vercel.app — the full spec is on the sit… · OPEN · 2026-10-26 → [order](orders/2026-10-26_0136_3ff756d9726a.md)
 
 ---
 
