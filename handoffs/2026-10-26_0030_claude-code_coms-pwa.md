@@ -1,7 +1,7 @@
 # Handoff — coms-pwa — claude-code — 2026-10-26 00:30 ET
 
 **Session goal:** Sneaks: add roll call ("make everybody say check") to the coms app.
-**Status:** DONE on branch, not merged/deployed · **Repo / branch:** 0xSneaks/coms-pwa @ `claude/roll-call` (from main dc6ba74)
+**Status:** MERGED (PR #3, f4389c4, Sneaks said "Go"); Vercel production deploy started · **Repo / branch:** 0xSneaks/coms-pwa @ `claude/roll-call` (from main dc6ba74)
 
 ## Did
 - New **ROLL CALL** button (console is now a 2x2 grid). It sends a passkey-locked order like the others. The order tells each agent to append `· <agent> ✓ check <HH:MM> ET` to that order's board line.

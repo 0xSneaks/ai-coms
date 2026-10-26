@@ -148,7 +148,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
-- VERIFIED · 2026-10-26 00:30 ET · claude-code · coms-pwa · ROLL CALL button + who-said-check in Crew status (✓ on robots), branch claude/roll-call, 32/32 tests; not merged → [handoff](handoffs/2026-10-26_0030_claude-code_coms-pwa.md)
+- VERIFIED · 2026-10-26 00:30 ET · claude-code · coms-pwa · ROLL CALL button + who-said-check in Crew status (✓ on robots), MERGED PR #3 (f4389c4) at Sneaks "Go", 32/32 tests; Vercel prod deploy started → [handoff](handoffs/2026-10-26_0030_claude-code_coms-pwa.md)
 
 - VERIFIED (coordination only) · 2026-10-25 23:34 ET · chatgpt · ai-coms · existing FOMO claims preserved; Codex collector proof + Muse VM preflight requested; no runtime changes → [handoff](handoffs/2026-10-25_2334_chatgpt_ai-coms.md)
 - VERIFIED · 2026-10-25 23:00 ET · claude-code · muse-control-plane · P0 termux_exec confirmed in source; deny-by-default proxy allowlist patch, 7/7 tests (4 fail on current proxy); not pushed (needs ✅ approval) → [handoff](handoffs/2026-10-25_2300_claude-code_muse-control-plane.md)
