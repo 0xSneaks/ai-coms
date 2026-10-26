@@ -1,9 +1,9 @@
 # Nori-chan × Koinu
 
-**Repo:** 0xSneaks/-Nori-chan  ·  **Live URL:** https://nori-chan-phantomcapais-projects.vercel.app (anonymous accessibility pending independent verification)  ·  **Last updated:** 2026-10-26 10:37 ET by chatgpt
+**Repo:** 0xSneaks/-Nori-chan  ·  **Live URL:** https://nori-chan-phantomcapais-projects.vercel.app (anonymous accessibility pending independent verification)  ·  **Last updated:** 2026-10-26 18:15 ET by chatgpt
 
 ## Now (keep this current)
-Public game repo. Fresh GitHub audit 2026-10-26 10:37 ET: main remains `79555b7d4434733be3504122bade557afd499b51` (compare main to SHA: identical); Grok alternate remains `3d4351f39a029d6626f4494452ff77fac7a8830a`; PRs #6/#7/#9 merged, no newer PRs/comments/reviews as of 10:37 ET. Main Vercel commit status SUCCESS; prior Actions check SUCCESS (2026-10-18, not rerun). **Vercel connector read succeeds** and confirms production deployment READY on exact main SHA, but project `ssoProtection.enabled=true`, `deploymentType=all_except_custom_domains`. Muse reported production HTTP 200 Oct 19; independent anonymous HTTP remains unverified (web inaccessible; container DNS fails). Do not conclude either that it is publicly accessible or that it redirects to login without direct HTTP evidence. Physical-phone four interactive cases and latest-SHA Muse GO remain unverified (last Muse report 2026-10-19). Anonymous web probe inaccessible and container DNS failed again 2026-10-26; this does not prove production inaccessible. No new unavoidable owner-only blocker proved, no all-gates PASS.
+Public game repo. **Fresh GitHub audit 2026-10-26 18:15 ET:** main still `79555b7d4434733be3504122bade557afd499b51` (compare main to SHA: identical); Grok painted alternate still `3d4351f`; PRs #6/#7/#9 merged, no newer PRs/comments/reviews. GitHub Vercel commit status SUCCESS. **Vercel connector** confirms production READY on exact main SHA, no newer production deployment in recent list, project `ssoProtection.enabled=true`, `deploymentType=all_except_custom_domains`. Muse reported HTTP 200 on Oct 19; independent anonymous HTTP remains UNKNOWN (web inaccessible, container DNS failure again 18:15 ET). Do not infer public access or login redirect from this. Four Seeker interactive phone tests and explicit Muse GO on latest SHA remain unverified. No new unavoidable owner-only blocker or all-gates PASS. No user notification.
 
 ## Established (decisions — don't re-litigate)
 - Nori-chan × Koinu; ticker `$Nori-Chan`, NOT `$SUSHI`; token not launched and no mint/buy links — owner decision at 4a778a5.
@@ -28,7 +28,7 @@ Public game repo. Fresh GitHub audit 2026-10-26 10:37 ET: main remains `79555b7d
 - Vercel connector now reads project/deployment successfully, but SSO is still configured `all_except_custom_domains` on *.vercel.app aliases; independent anonymous production HTTP remains unverified. No claim of a smoke test without an actual HTTP response.
 
 ## Latest handoff
-- [2026-10-26 10:37 chatgpt release audit](../handoffs/2026-10-26_1037_chatgpt_nori-chan.md)
+- [2026-10-26 18:15 chatgpt release audit](../handoffs/2026-10-26_1815_chatgpt_nori-chan.md)
 
 ## Stack & where things live
 - GitHub PRs #6/#7/#9, issues #1/#2/#3/#4/#5/#8; Vercel team `phantomcapais-projects`.
