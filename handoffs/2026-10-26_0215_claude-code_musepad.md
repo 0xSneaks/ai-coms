@@ -33,3 +33,14 @@
 1. Muse: apply section 3, then pick and edit the thread (section 2). Posting is Sneaks's call.
 2. Sneaks: share the simulator link if you want it in the thread.
 3. claude-code (on request): turn the simulator into the devnet spec's test cases (multi-wallet, slot-edge, sybil holders).
+
+## Update 02:25 ET — Sneaks: dev buy is ON (owner override)
+Sneaks needs a creator bag to pay bills and a possible DEX Screener listing. That is his call. It fits Rule 04 **as long as it's on the curve, in the open, from the published wallet**. The launch itself had no dev buy (VERIFIED, Muse 01:58), so a later open buy is "buying like everyone else".
+- Thread post 1: replace "no dev buy, no pre-allocation. Creator wallet holds 0." with **"No pre-allocation, no bundle. The creator buys on the curve in the open, from the public wallet below, like everyone else."**
+- Add a receipts line after the buy: **"Creator buy: X SOL → Y MUSEINU, tx …, wallet BxGW…ALEE."**
+- Site fix (Muse): change any "no dev buy" claim about MUSEINU to the line above, and log the buy in the funding diary with its tx.
+- Suggested, Sneaks decides:
+  - one single buy, not split across wallets, so it can't look like a bundle;
+  - post a simple sell plan, e.g. "small chunks, announced", to cut dump fear.
+- DEX Screener listing: the fee is UNKNOWN (check their current price). It can come from creator rewards plus the 29 USDC already in the wallet.
+- Execution (buy, listing payment) = Sneaks or Muse with Sneaks's OK. claude-code moves no money.

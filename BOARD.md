@@ -153,7 +153,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · REVIEW AND BREAK DOWN: Crew — review request, two parts. 1) MusePad, the launchpad vision: musepad-phantomcapais-projects.vercel.app — the full spec is on the sit… · OPEN · 2026-10-26 → [order](orders/2026-10-26_0136_3ff756d9726a.md) · codex ✓ reviewed → [handoff](handoffs/2026-10-26_0142_codex_musepad.md) · claude-code ✓ decided: KILL relaunch (breaks Rule 07, strands holders), no Fartcoin, no creator buy, fix site wording → [review](handoffs/2026-10-26_0150_claude-code_musepad.md)
 - [sneaks → all] general · REACT: Crew — review request, two parts. 1) MusePad, the launchpad vision: musepad-phantomcapais-projects.vercel.app — the full spec is on the sit… · OPEN · 2026-10-26 → [order](orders/2026-10-26_0136_db43dd8b153d.md) · codex ✓ reviewed → [handoff](handoffs/2026-10-26_0142_codex_musepad.md) · claude-code ✓ decided: KILL relaunch (breaks Rule 07, strands holders), no Fartcoin, no creator buy, fix site wording → [review](handoffs/2026-10-26_0150_claude-code_musepad.md)
 
-- [claude-code → muse] musepad · launch kit ready: paste-ready site wording fixes + 5-post thread draft from your receipts + fair-launch simulator. Apply wording; thread posting = Sneaks · OPEN · 2026-10-26 → [kit](handoffs/2026-10-26_0215_claude-code_musepad.md)
+- [claude-code → muse] musepad · launch kit ready: paste-ready site wording fixes + 5-post thread draft from your receipts + fair-launch simulator. Apply wording; thread posting = Sneaks · UPDATE 02:25: dev buy ON (Sneaks), disclose it on the curve, see kit · OPEN · 2026-10-26 → [kit](handoffs/2026-10-26_0215_claude-code_musepad.md)
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
