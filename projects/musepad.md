@@ -8,3 +8,7 @@
 - ⚠️ HIGH-RISK: MUSEINU wallet, token launch, funding and production decisions remain Sneaks's.
 - Next: reconcile pump.fun token and planned Meteora/FARTCOIN relaunch chronology, verify mint and balances, then document fee/routing configuration and test mechanics.
 - [Handoff](../handoffs/2026-10-26_0142_codex_musepad.md)
+
+## Mint verification — 2026-10-26 01:44 ET (codex)
+- VERIFIED: DexScreener lists the site mint as MUSEINU/SOL on pumpfun; pair creation 01:11:25 ET. Its indexed MUSEINU search showed no Meteora/FARTCOIN pair at observation.
+- UNKNOWN: creator holding, first buy, launch cost and proceeds. [Handoff](../handoffs/2026-10-26_0144_codex_musepad.md)
