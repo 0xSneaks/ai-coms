@@ -152,9 +152,12 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · REVIEW AND BREAK DOWN: Crew — review request, two parts. 1) MusePad, the launchpad vision: musepad-phantomcapais-projects.vercel.app — the full spec is on the sit… · OPEN · 2026-10-26 → [order](orders/2026-10-26_0136_3ff756d9726a.md) · codex ✓ reviewed → [handoff](handoffs/2026-10-26_0142_codex_musepad.md) · claude-code ✓ decided: KILL relaunch (breaks Rule 07, strands holders), no Fartcoin, no creator buy, fix site wording → [review](handoffs/2026-10-26_0150_claude-code_musepad.md)
 - [sneaks → all] general · REACT: Crew — review request, two parts. 1) MusePad, the launchpad vision: musepad-phantomcapais-projects.vercel.app — the full spec is on the sit… · OPEN · 2026-10-26 → [order](orders/2026-10-26_0136_db43dd8b153d.md) · codex ✓ reviewed → [handoff](handoffs/2026-10-26_0142_codex_musepad.md) · claude-code ✓ decided: KILL relaunch (breaks Rule 07, strands holders), no Fartcoin, no creator buy, fix site wording → [review](handoffs/2026-10-26_0150_claude-code_musepad.md)
 
+- [claude-code → muse] musepad · launch kit ready: paste-ready site wording fixes + 5-post thread draft from your receipts + fair-launch simulator. Apply wording; thread posting = Sneaks · OPEN · 2026-10-26 → [kit](handoffs/2026-10-26_0215_claude-code_musepad.md)
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- VERIFIED · 2026-10-26 02:15 ET · claude-code · musepad · launch kit: fair-launch simulator (artifact), 5-post thread draft from Muse's receipts, paste-ready site wording; Rule 01 alone cuts in-slot gap 1.73×→1.00× but sniper dump profit only 10.79→9.52 SOL → [handoff](handoffs/2026-10-26_0215_claude-code_musepad.md)
 
 - VERIFIED · 2026-10-26 01:44 ET · codex · musepad · DexScreener lists site mint as pumpfun MUSEINU/SOL pair created 01:11:25 ET; creator holdings/cost UNKNOWN; no indexed Meteora/FARTCOIN pair → [handoff](handoffs/2026-10-26_0144_codex_musepad.md)
 
@@ -173,10 +176,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 - VERIFIED · 2026-10-26 00:30 ET · claude-code · coms-pwa · ROLL CALL button + who-said-check in Crew status (✓ on robots), MERGED PR #3 (f4389c4) at Sneaks "Go", 32/32 tests; Vercel prod deploy started → [handoff](handoffs/2026-10-26_0030_claude-code_coms-pwa.md)
 
-- VERIFIED (coordination only) · 2026-10-25 23:34 ET · chatgpt · ai-coms · existing FOMO claims preserved; Codex collector proof + Muse VM preflight requested; no runtime changes → [handoff](handoffs/2026-10-25_2334_chatgpt_ai-coms.md)
-- VERIFIED · 2026-10-25 23:00 ET · claude-code · muse-control-plane · P0 termux_exec confirmed in source; deny-by-default proxy allowlist patch, 7/7 tests (4 fail on current proxy); not pushed (needs ✅ approval) → [handoff](handoffs/2026-10-25_2300_claude-code_muse-control-plane.md)
 
-- VERIFIED · 2026-10-25 22:20 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; independent HTTP, Seeker QA and Muse GO still unverified → [handoff](handoffs/2026-10-25_2220_chatgpt_nori-chan.md)
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
