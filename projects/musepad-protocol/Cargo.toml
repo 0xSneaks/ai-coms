@@ -1,0 +1,23 @@
+[package]
+name = "musepad"
+version = "0.1.0"
+edition = "2021"
+description = "MusePad v0: fair-launch bonding curve with one price per batch window. No admin key."
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[features]
+no-entrypoint = []
+
+[dependencies]
+solana-program = "2.2"
+spl-token = { version = "7", features = ["no-entrypoint"] }
+borsh = { version = "1", features = ["derive"] }
+thiserror = "1"
+
+[dev-dependencies]
+solana-program-test = "2.2"
+solana-sdk = "2.2"
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
