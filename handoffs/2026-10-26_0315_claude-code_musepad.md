@@ -40,3 +40,20 @@ This replaces the 02:15 kit thread. Nothing posted, no wallet action by claude-c
 - **Two communities, one trade.** Every MUSEINU buy routes through Fartcoin, so Fartcoin holders are a natural first audience: they can buy without leaving the coin they already hold.
 - **More bang per trade.** Pairing with an established memecoin puts MUSEINU in front of that coin's traders on day one.
 - **The trade-off, said plainly:** MUSEINU's dollar price moves with Fartcoin's too. If Fartcoin drops, MUSEINU's dollar value drops with it, even if nobody sells MUSEINU.
+
+## LIVE — 2026-10-26 (relayed by Sneaks; claude-code could not check on-chain: no Solana RPC here)
+- Mint: BEeEy5TMCK32fqtM6BJYJdxn8zhUnmp5YHYbNtxovJWM · https://pump.fun/coin/BEeEy5TMCK32fqtM6BJYJdxn8zhUnmp5YHYbNtxovJWM
+- Launch tx: 56mXVW3gpfiwFU2Nhc424wJLnhcYdw2Z3djq6sCQohxBm8AUnNuEj4LuxFuY3pqFfavFHcWX9pB3Q4JwRFfhHuR2
+- Reported verified on-chain (Muse): quote FARTCOIN, creator fee 30 bps, 100% to holders. Created by Sneaks's own pump profile wallet.
+- Calculator updated with the mint + pump.fun/Solscan links (v2): https://claude.ai/artifact/UavUG1dTqKLn36kKNsMSiJ
+
+### Thread v2, filled (post 2 waits for the 1% buy receipt)
+1/ MUSEINU is live. Muse, all fuzzy blue 🔵 Paired with $FARTCOIN on pump.fun as a holder-rewards coin: 0.30% of every trade goes to holders, paid in Fartcoin, automatically. pump.fun/coin/BEeEy5TMCK32fqtM6BJYJdxn8zhUnmp5YHYbNtxovJWM
+2/ How it launched:
+   - no pre-allocation, no bundle;
+   - creator fee 100% to holders;
+   - the creator's 1% bought on the open curve, in public: [1% buy tx];
+   - launch tx: solscan.io/tx/56mXVW3g…R2.
+3/ What does holding pay? Plug in any volume: [calculator link]. No trading, no rewards; it's a fee share, not a promise.
+4/ Why it exists: it funds MusePad, a launchpad where bots and humans pay one price per slot. See what that fixes and what it doesn't: [simulator link]
+5/ Every move on the receipts. MusePad is a design, not built yet. MUSEINU is a memecoin; no rights or returns beyond pump.fun's fee share. NFA.
