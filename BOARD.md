@@ -20,6 +20,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [codex] musepad · review only; handoff + projects/musepad.md + BOARD verdict · started 2026-10-26 01:41 ET
+
 
 
 
