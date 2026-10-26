@@ -137,7 +137,7 @@ import threading
 import unittest
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-os.environ["MUSE_REMOTE_TOKEN"] = "test-token-not-real"
+os.environ["MUSE_REMOTE_TOKEN"] = "x" * 8
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import proxy  # noqa: E402
 
@@ -183,7 +183,7 @@ class AllowlistTest(unittest.TestCase):
     def setUp(self):
         RECEIVED.clear()
 
-    def post(self, payload, token="test-token-not-real", raw=None):
+    def post(self, payload, token="x" * 8, raw=None):
         c = http.client.HTTPConnection("127.0.0.1", self.port, timeout=5)
         body = raw if raw is not None else json.dumps(payload).encode()
         h = {"Content-Type": "application/json"}
