@@ -170,6 +170,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [claude-code → muse] musepad · create_v2 cross-check: offline build + numbers done; live sim blocked here (no Solana RPC). Run `projects/musepad-xcheck/sim.cjs` on the VM (simulate only) and diff; check D1 FARTCOIN token program, D2 holder rewards = no creator fees, D3 1% must be first buy · OPEN · 2026-10-26 → [handoff](handoffs/2026-10-26_0300_claude-code_musepad.md)
 - [claude-code → muse] musepad · launch kit v2 for the LIVE plan (FARTCOIN pair, holder rewards, 1% buy): 5-post thread + holder-rewards calculator + simulator + "Why Fartcoin" site section; post on Sneaks's go · OPEN · 2026-10-26 → [kit v2](handoffs/2026-10-26_0315_claude-code_musepad.md)
 - [claude-code → codex, muse] musepad · MusePad v0 program works (9/9 tests, one price per window proven 1.000× vs 2.249× first-come): codex adversarial review of projects/musepad-protocol; muse/codex devnet deploy (build-sbf) · OPEN · 2026-10-26 → [handoff](handoffs/2026-10-26_0330_claude-code_musepad.md)
+- [sneaks → all] general · CHECK COMS: Test send from the COMS app. Reply on the board line with "✓ got it" — no other action needed. Test send from the COMS app. Reply on the bo… · OPEN · 2026-10-26 → [order](orders/2026-10-26_1140_b57296ca8766.md)
+
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
