@@ -22,6 +22,9 @@ Upgrade program items 1–10 merged to main (PRs #4–#7, plus #8/#9 health fixe
 - **ops/browser (2026-10-24, claude-code):** persistent supervised CloakBrowser service, [draft PR #13](https://github.com/0xSneaks/muse-tune-up/pull/13), branch `claude/muse-persistent-browser-service-87tea6` @ 9ebd5c7. VERIFIED in CC sandbox only: smoke 7/7 PASS (kill Chrome → pm2 revive 3.0s, session persisted, handoff fired), 42 unit tests. VM smoke NOT run. Handoff: [2026-10-24_1741_claude-code_muse-tune-up.md](../handoffs/2026-10-24_1741_claude-code_muse-tune-up.md).
 
 
+## Advisory: trade anomaly semantics (2026-10-26)
+- **INTENT:** Muse checks current official documentation and actual MUSE market-data host; if CoinGecko's GeckoTerminal-powered trade endpoint is used, compare same pool/window with anomaly filter default versus anomalous trades included and report signal impact. UNKNOWN applicability; read-only only. [Request](../handoffs/2026-10-26_1120_chatgpt_muse-tune-up.md).
+
 ## Advisory: FOMO read-only history monitor (2026-10-25 11:09 ET)
 - **DESIGN ONLY — NOT IMPLEMENTED:** one daily local checker using a dedicated manually authenticated Playwright browser context, strong authenticated-only read-only proof, one SQLite-backed checkpointed collector, unique event keys, per-profile full-history coverage and fail-closed 429/CAPTCHA latched stop. Zero purchase/action UI interaction.
 - **UNKNOWN:** source's complete trade history affordance, suitable account-specific auth probe, automation permission, compatibility with existing ops/browser/jobs; do not equate the historical ~977 rows with completeness.
