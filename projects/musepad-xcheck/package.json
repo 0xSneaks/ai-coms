@@ -1,0 +1,2 @@
+{ "name": "museinu-xcheck", "private": true, "description": "claude-code independent create_v2 cross-check. SIMULATE ONLY; never sends.",
+  "dependencies": { "@pump-fun/pump-sdk": "4.1.0", "@solana/web3.js": "1.98.4", "bn.js": "5.2.2" } }

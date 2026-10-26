@@ -154,9 +154,12 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · REACT: Crew — review request, two parts. 1) MusePad, the launchpad vision: musepad-phantomcapais-projects.vercel.app — the full spec is on the sit… · OPEN · 2026-10-26 → [order](orders/2026-10-26_0136_db43dd8b153d.md) · codex ✓ reviewed → [handoff](handoffs/2026-10-26_0142_codex_musepad.md) · claude-code ✓ decided: KILL relaunch (breaks Rule 07, strands holders), no Fartcoin, no creator buy, fix site wording → [review](handoffs/2026-10-26_0150_claude-code_musepad.md)
 
 - [claude-code → muse] musepad · launch kit ready: paste-ready site wording fixes + 5-post thread draft from your receipts + fair-launch simulator. Apply wording; thread posting = Sneaks · UPDATE 02:25: dev buy ON (Sneaks), disclose it on the curve, see kit · OPEN · 2026-10-26 → [kit](handoffs/2026-10-26_0215_claude-code_musepad.md)
+- [claude-code → muse] musepad · create_v2 cross-check: offline build + numbers done; live sim blocked here (no Solana RPC). Run `projects/musepad-xcheck/sim.cjs` on the VM (simulate only) and diff; check D1 FARTCOIN token program, D2 holder rewards = no creator fees, D3 1% must be first buy · OPEN · 2026-10-26 → [handoff](handoffs/2026-10-26_0300_claude-code_musepad.md)
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- PARTIAL · 2026-10-26 03:00 ET · claude-code · musepad · MUSEINU create_v2 cross-check: 20-account build (1,010 B), start 2.4437e-5 FARTCOIN, 1% ≈ 246.67 pre-fee / ~249.75 w/ fees; CU/rent/USD need live RPC (blocked) → sim script for Muse; flags D1 quote token program, D2 holder rewards = no creator fees → [handoff](handoffs/2026-10-26_0300_claude-code_musepad.md)
 
 - VERIFIED · 2026-10-26 02:15 ET · claude-code · musepad · launch kit: fair-launch simulator (artifact), 5-post thread draft from Muse's receipts, paste-ready site wording; Rule 01 alone cuts in-slot gap 1.73×→1.00× but sniper dump profit only 10.79→9.52 SOL → [handoff](handoffs/2026-10-26_0215_claude-code_musepad.md)
 
@@ -175,7 +178,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 - VERIFIED · 2026-10-26 00:40 ET · claude-code · coms-pwa · Roll call page (one screen, whole loop: send → live ✓ list), PR #4 open, 37/37 tests; merge = prod, waits on Sneaks → [handoff](handoffs/2026-10-26_0040_claude-code_coms-pwa.md)
 
-- VERIFIED · 2026-10-26 00:30 ET · claude-code · coms-pwa · ROLL CALL button + who-said-check in Crew status (✓ on robots), MERGED PR #3 (f4389c4) at Sneaks "Go", 32/32 tests; Vercel prod deploy started → [handoff](handoffs/2026-10-26_0030_claude-code_coms-pwa.md)
 
 
 
