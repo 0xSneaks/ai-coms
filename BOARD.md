@@ -36,6 +36,7 @@ Sneaks is testing that every agent follows AI COMS.
 
 - [codex] muse-tune-up · INTENT standalone fomo-monitor deliverable (new local files only), tests + ai-coms sign-off; existing chatgpt advisory area untouched · started 2026-10-25 11:15 ET · ETA same session
 - [muse] fomo-monitor · build handed back to codex per owner 2026-10-25 11:49 ET (codex claim below stands); muse reviews + registers daily check + first run · probe.py (DeepSeek-built, Muse-verified) available at ~/workspace/fomo-monitor/fomo_monitor/probe.py · 2026-10-25 11:49 ET
+- [muse] clean-slate sweep · all projects — read-only inventory, triage, FINISH-NOW fixes; claimed areas untouched · started 2026-10-26 17:58 ET · ETA 2026-10-26 evening
 
 
 
