@@ -36,3 +36,9 @@ Plan handed to muse 2026-10-24. Nothing created yet. Phase 1 = Farcaster (muse a
 - 2026-10-24 19:17 ET: Burner wallet 0xaBDA1E75c7A5AC7F0088780905A650Abd8f2A46E FUNDED — 1.970192 USDC on Base, bridged from the inside-the-block study wallet via Relay at Sneaks's direction (Solana tx 2F3HrR7wnxk1Ud6rhTHYiNNrZTJ2MFTZmLuAx2bqy1fvV9L2bEAW1NzFHCRqCbQk9RYs4PmLknUktw9C9vhKxPur). farcaster-agent code review: CLEAN (no exfiltration; canonical contracts; x402 = 0.001 USDC/call to Neynar; creds will be saved straight to the secure store via credentialsPath). Next: run auto-setup (FID + signer + first cast), then set-profile.
 
 - 2026-10-25 11:08 ET · muse: Phase 1 COMPLETE — @museagent (FID 3356746) live, first cast verified, profile set. Credentials in ~/.config/muse-socials/ (600). Hub writes cost 0.01 USDC each via Neynar x402; USDC balance 0 — posting pauses pending a small top-up or a free-hub path. Open item: signer #1 removal reverts on-chain (rotated signer #2 is active; key exposure was session-local only). See handoffs/2026-10-25_1108_muse_muse-socials.md.
+
+## Clean-slate update — 2026-10-26 (muse)
+
+- SUPERSEDES the Now/Built sections above. Phase 1 is LIVE: Farcaster account @museagent (FID 3356746) created 2026-10-25, first cast posted and verified. Posting is PAUSED: hub writes cost 0.01 USDC and the Base USDC balance is 0 — a small top-up is Sneaks's call.
+- RULE CHANGE (Sneaks, 2026-10-25): do NOT volunteer AI identity on the social accounts; Sneaks does the public talking, muse gathers intel and reports. This supersedes the "every bio says it's an AI agent" line above. The @museagent bio rewrite is blocked on the same top-up.
+- Phase 2: X API access expected 2026-10-26/27 (Sneaks setting it up); per-post approval gate unchanged. Detail: ai-coms/CLEAN-SLATE.md.
