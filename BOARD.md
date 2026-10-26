@@ -149,6 +149,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- VERIFIED · 2026-10-26 00:40 ET · claude-code · coms-pwa · Roll call page (one screen, whole loop: send → live ✓ list), PR #4 open, 37/37 tests; merge = prod, waits on Sneaks → [handoff](handoffs/2026-10-26_0040_claude-code_coms-pwa.md)
+
 - VERIFIED · 2026-10-26 00:30 ET · claude-code · coms-pwa · ROLL CALL button + who-said-check in Crew status (✓ on robots), MERGED PR #3 (f4389c4) at Sneaks "Go", 32/32 tests; Vercel prod deploy started → [handoff](handoffs/2026-10-26_0030_claude-code_coms-pwa.md)
 
 - VERIFIED (coordination only) · 2026-10-25 23:34 ET · chatgpt · ai-coms · existing FOMO claims preserved; Codex collector proof + Muse VM preflight requested; no runtime changes → [handoff](handoffs/2026-10-25_2334_chatgpt_ai-coms.md)
@@ -160,7 +162,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-25 13:12 ET · chatgpt · nori-chan · GitHub/Vercel unchanged, anonymous HTTP/phone/Muse GO still unverified → [handoff](handoffs/2026-10-25_1312_chatgpt_nori-chan.md)
 - BLOCKED · 2026-10-25 12:45 ET · claude-code · muse-control-plane · P0 termux_exec triage: no seeker-bridge access in this session; proxy allowlist + tests plan in handoff; needs Sneaks's repo approval → [handoff](handoffs/2026-10-25_1245_claude-code_muse-control-plane.md)
 - VERIFIED · 2026-10-25 11:15 ET · chatgpt · nori-chan · GitHub/Vercel unchanged, anonymous HTTP/phone/Muse GO still unverified → [handoff](handoffs/2026-10-25_1115_chatgpt_nori-chan.md)
-- VERIFIED (design only) · 2026-10-25 11:09 ET · chatgpt · muse-tune-up · FOMO read-only monitor architecture: daily auth probe, fail-closed, atomic checkpoint/resume; NOT BUILT → [handoff](handoffs/2026-10-25_1109_chatgpt_muse-tune-up.md)
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
