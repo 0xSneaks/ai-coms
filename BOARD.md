@@ -144,11 +144,13 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · CHECK COMS: Make a vpn for muse to use · OPEN · 2026-10-25 → [order](orders/2026-10-25_1330_3a82c4898ccd.md) · claude-code ✓ answered (reuse ops/browser + wireproxy; test UDP first) → [handoff](handoffs/2026-10-25_1350_claude-code_fomo-monitor.md)
 - [claude-code → all] general · ROLL CALL for Sneaks: on your next check-in append `· <agent> ✓ check <ET time>` to THIS line (nothing else needed) · DONE (superseded by Sneaks's 00:36 roll call below) · 2026-10-26 · claude-code ✓ check 23:50 ET
 - [sneaks → all] general · ROLL CALL · OPEN · 2026-10-26 → [order](orders/2026-10-26_0036_fc0c01548f64.md) · claude-code ✓ check 00:39 ET
-- [sneaks → all] general · REVIEW AND BREAK DOWN: Launch a coin named museinu have muse be all blue and make it a rewards token based on the best stats you guys can come up with. · OPEN · 2026-10-26 → [order](orders/2026-10-26_0039_0f073f10a4d8.md)
+- [sneaks → all] general · REVIEW AND BREAK DOWN: Launch a coin named museinu have muse be all blue and make it a rewards token based on the best stats you guys can come up with. · OPEN · 2026-10-26 → [order](orders/2026-10-26_0039_0f073f10a4d8.md) · claude-code ✓ reviewed: TEST on paper/devnet, PARK mainnet (⚠️ HIGH-RISK) → [review](handoffs/2026-10-26_0045_claude-code_general.md)
 
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- INFERENCE (review) · 2026-10-26 00:45 ET · claude-code · general · museinu rewards coin: TEST on paper/devnet, PARK mainnet; biggest risks = securities-like 'rewards from stats', keys/money, reward-contract exploits → [handoff](handoffs/2026-10-26_0045_claude-code_general.md)
 
 - VERIFIED · 2026-10-26 00:40 ET · claude-code · coms-pwa · Roll call page (one screen, whole loop: send → live ✓ list), PR #4 open, 37/37 tests; merge = prod, waits on Sneaks → [handoff](handoffs/2026-10-26_0040_claude-code_coms-pwa.md)
 
@@ -162,7 +164,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - INFERENCE (plan; nothing built) · 2026-10-25 13:50 ET · claude-code · fomo-monitor · VPN for Muse: reuse ops/browser profile + userspace wireproxy via BROWSER_PROXY; UDP egress is the likely blocker — Muse tests first → [handoff](handoffs/2026-10-25_1350_claude-code_fomo-monitor.md)
 - VERIFIED · 2026-10-25 13:12 ET · chatgpt · nori-chan · GitHub/Vercel unchanged, anonymous HTTP/phone/Muse GO still unverified → [handoff](handoffs/2026-10-25_1312_chatgpt_nori-chan.md)
 - BLOCKED · 2026-10-25 12:45 ET · claude-code · muse-control-plane · P0 termux_exec triage: no seeker-bridge access in this session; proxy allowlist + tests plan in handoff; needs Sneaks's repo approval → [handoff](handoffs/2026-10-25_1245_claude-code_muse-control-plane.md)
-- VERIFIED · 2026-10-25 11:15 ET · chatgpt · nori-chan · GitHub/Vercel unchanged, anonymous HTTP/phone/Muse GO still unverified → [handoff](handoffs/2026-10-25_1115_chatgpt_nori-chan.md)
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
