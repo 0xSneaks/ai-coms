@@ -57,3 +57,14 @@ This replaces the 02:15 kit thread. Nothing posted, no wallet action by claude-c
 3/ What does holding pay? Plug in any volume: [calculator link]. No trading, no rewards; it's a fee share, not a promise.
 4/ Why it exists: it funds MusePad, a launchpad where bots and humans pay one price per slot. See what that fixes and what it doesn't: [simulator link]
 5/ Every move on the receipts. MusePad is a design, not built yet. MUSEINU is a memecoin; no rights or returns beyond pump.fun's fee share. NFA.
+
+## Buy receipt in (Muse 03:16 handoff) — thread post 2 final
+2/ How it launched:
+   - no pre-allocation, no bundle;
+   - creator fee 100% to holders;
+   - the creator's 1% bought on the open curve, in public: 253.48 FARTCOIN → 10,000,000 MUSEINU, solscan.io/tx/FK9yPbZ8…Lwhr;
+   - launch tx: solscan.io/tx/56mXVW3g…R2.
+
+Cross-check vs actual:
+- **1% buy:** 253.479857 FARTCOIN actual, vs claude-code's offline estimate of 246.67 pre-fee / ~249.75 with assumed fees. The actual is 1.5% higher. INFERENCE: the live fee tier was above my assumed 1.25%, or a trade landed before the buy (D3). Muse's sim would show which.
+- **D1 confirmed in practice:** the PumpPortal path failed in pre-flight with UnsupportedQuoteMint, caught before broadcast. It was rebuilt on the official SDK `buy_v2`.
