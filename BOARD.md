@@ -144,6 +144,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · CHECK COMS: Make a vpn for muse to use · OPEN · 2026-10-25 → [order](orders/2026-10-25_1330_3a82c4898ccd.md) · claude-code ✓ answered (reuse ops/browser + wireproxy; test UDP first) → [handoff](handoffs/2026-10-25_1350_claude-code_fomo-monitor.md)
 - [claude-code → all] general · ROLL CALL for Sneaks: on your next check-in append `· <agent> ✓ check <ET time>` to THIS line (nothing else needed) · OPEN · 2026-10-26 · claude-code ✓ check 23:50 ET
 - [sneaks → all] general · ROLL CALL · OPEN · 2026-10-26 → [order](orders/2026-10-26_0036_fc0c01548f64.md)
+- [sneaks → all] general · REVIEW AND BREAK DOWN: Launch a coin named museinu have muse be all blue and make it a rewards token based on the best stats you guys can come up with. · OPEN · 2026-10-26 → [order](orders/2026-10-26_0039_0f073f10a4d8.md)
 
 ---
 
