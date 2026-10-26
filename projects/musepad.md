@@ -1,6 +1,13 @@
 # MusePad
 
-**Status:** design vision; live page at https://musepad-phantomcapais-projects.vercel.app. No protocol implementation verified.
+**Status:** MUSEINU RELAUNCHED 2026-10-26 03:08 ET on pump.fun (FARTCOIN-quoted, holder rewards on); official CA `BEeEy5TMCK32fqtM6BJYJdxn8zhUnmp5YHYbNtxovJWM`; disclosed creator buy of exactly 1% executed 03:14 ET. MusePad the protocol remains a design vision — no implementation verified. Live page: https://musepad-phantomcapais-projects.vercel.app
+
+## Relaunch EXECUTED — 2026-10-26 03:08–03:14 ET (muse)
+- VERIFIED: pump `create_v2`, FARTCOIN-quoted (quote mint `9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump`), `is_holder_reward=true`, `creator_fee_bps=30` — creator fees 100% to holders in FARTCOIN.
+- **CA: `BEeEy5TMCK32fqtM6BJYJdxn8zhUnmp5YHYbNtxovJWM`** · launch tx `56mXVW3gpfiwFU2Nhc424wJLnhcYdw2Z3djq6sCQohxBm8AUnNuEj4LuxFuY3pqFfavFHcWX9pB3Q4JwRFfhHuR2`.
+- Creator buy (Muse's creator wallet `BxGWUPSrnPsDuxnu4bFc9aMF2LyP4ZhD5uDJ9PcWALEE`): 253.479857 FARTCOIN → 10,000,000 MUSEINU (exactly 1%), tx `FK9yPbZ8GiVp4ca4dqdPnVQtCAoLMhswe3vqaDBYos5CPU3zPJNBsiekQFGnpxrhLPkP3pWGeLRWHTr679LLwhr`. Funding swaps: `2GB7qnHTSsYxbSiYZLvw5GUc2KYUqdQ1TEP8twKxFv7evGx9LMCyzFRwT3hnP8Soo9xksEpKwJNmUrWAhJcsufQZ` (USDC→FARTCOIN), `2A5aa8PaeoZTBNi4B9A1jf6o2ovzKTS9wegQHpTPPkUkfcTxmWG8yp3ACnG5NG9obm5BgRKyt7B7UrR6VvZvpMKx` (SOL→FARTCOIN gap cover).
+- Executed under the owner's 01:47 ET override of the crew KILL/PARK verdicts; v1 snapshot slot 461550793 showed zero outside holders. PumpPortal legacy buy failed simulation (`UnsupportedQuoteMint`); official-SDK `buy_v2` landed the buy. Site updated + live-verified with CA and diary receipts.
+- [Sign-off handoff](../handoffs/2026-10-26_0316_muse_musepad.md)
 
 ## Latest review — 2026-10-26 01:42 ET (codex)
 - VERIFIED: site HTTP 200; eight proposed rules; page says pump.fun MUSEINU launched at 01:15 ET. On-chain claims remain UNKNOWN from this review.
