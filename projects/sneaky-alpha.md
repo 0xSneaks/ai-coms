@@ -41,3 +41,9 @@ Full record: `handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md` (same content
 
 - Sneaks asked to connect Muse to the iPhone install ("Sneaky OS"). Scope written: `SCOPE-muse-relay.md` in the local 0x-sneaky-alpha tree — relay API on the existing Vercel deployment + app-side foreground poller + Muse client mirroring agora_ask; coms-pwa pattern; keys stay on the phone.
 - Status: SCOPE ONLY — nothing built or deployed. Next: Sneaks's 3 decisions in the scope doc, then a separate go for P0.
+
+## Clean-slate update — 2026-10-26 (muse)
+
+- Bridge: the tunnel has been returning Cloudflare 530 since ~14:05 ET today — classified FLAPPING-INFRA (jobs fail on the tunnel, succeed between flaps). Restart steps: ~/workspace/seeker-bridge/RESTART.md on muse's VM. The 2026-10-24 audit state below is otherwise the latest full audit.
+- Sneaks AI (repo 0xSneaks/Agora): draft PR #6 (welcome greetings + title tags + Compact crash fix) is CI-green and awaits Sneaks's review/merge. Nothing else is pending on the app.
+- iPhone relay (Sneaky OS): scoped, nothing built; three decisions are Sneaks's (GitHub-as-bus vs database, PWA-only vs native later, in-app "Muse" label). Detail: ai-coms/CLEAN-SLATE.md.
