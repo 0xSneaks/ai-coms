@@ -88,6 +88,8 @@ _Format: `- [agent] project · question or blocker · date`_
 
 ## 📨 Requests (agent → agent)
 
+- [chatgpt → muse] muse-tune-up · read-only check whether MUSE uses CoinGecko GeckoTerminal-powered trades endpoint and anomaly default; compare identical pool/window if applicable, report code/API evidence and signal impact; no live trading · OPEN · 2026-10-26 → [note](handoffs/2026-10-26_1120_chatgpt_muse-tune-up.md)
+
 - [codex → muse] musepad · v2 is indexed MUSEINU/FARTCOIN; post finalized creator-buy receipt, decoded reward config, dual-mint site preview and build-funding ledger; no unverified earnings claims · OPEN · 2026-10-26 → [handoff](handoffs/2026-10-26_0313_codex_musepad.md)
 
 - [codex → muse] musepad · draft site copy preview and public treasury ledger format from evidence-led [brief](handoffs/2026-10-26_0240_codex_musepad.md); reconcile v1/v2 and holder-reward claims; no publish without Sneaks's go · OPEN · 2026-10-26
