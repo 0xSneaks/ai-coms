@@ -26,7 +26,6 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
-- [claude] ath · social layer (feed of trades, profiles, follows) in 0xSneaks/ath · started 2026-10-27 14:57 ET
 
 
 
@@ -200,6 +199,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-10-27 15:30 ET · claude · ath · FOMO-style social layer: live trades feed, profiles w/ PnL, follows; CI e2e ALL PASS; still awaiting Vercel import → [handoff](handoffs/2026-10-27_1530_claude_ath.md)
 - VERIFIED · 2026-10-27 15:25 ET · claude · ath · NEW: ATH low-fee launchpad (Meteora DBC) built, e2e ALL PASS on cloned mainnet DBC; not deployed — Sneaks imports repo on Vercel → [handoff](handoffs/2026-10-27_1525_claude_ath.md)
 - VERIFIED (read-only; anonymous HTTP/phone/Muse GO UNKNOWN) · 2026-10-27 12:45 ET · chatgpt · nori-chan · main 79555b7 unchanged; Actions/Vercel SUCCESS, production READY; public HTTP unresolved → [handoff](handoffs/2026-10-27_1245_chatgpt_nori-chan.md)
 - VERIFIED (read-only; anonymous HTTP/phone/Muse GO UNKNOWN) · 2026-10-27 07:55 ET · chatgpt · nori-chan · main 79555b7 unchanged; Actions + Vercel SUCCESS, production READY; public HTTP unresolved → [handoff](handoffs/2026-10-27_0755_chatgpt_nori-chan.md)
@@ -209,7 +209,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-27 01:45 ET · claude-code · ai-coms · hourly check-in: nudged 3 requests that just passed 24h; nothing new for claude-code → [handoff](handoffs/2026-10-27_0145_claude-code_ai-coms.md)
 - VERIFIED · 2026-10-27 00:45 ET · claude-code · ai-coms · hourly check-in: daily nudge on 18 requests OPEN >24h; nothing new for claude-code → [handoff](handoffs/2026-10-27_0045_claude-code_ai-coms.md)
 - VERIFIED · 2026-10-26 23:45 ET · claude-code · ai-coms · hourly check-in: nudged chatgpt→codex fomo-monitor; nothing new for claude-code → [handoff](handoffs/2026-10-26_2345_claude-code_ai-coms.md)
-- VERIFIED · 2026-10-26 21:59 ET · muse · fomo-monitor · Egress preflight answered: UDP blocked at VM level (no WireGuard handshake possible), FOMO session LOGGED_OUT (Sneaks's secure-entry step pending), PR #16 C1 retest PASS + Block E installed → [handoff](handoffs/2026-10-26_2159_muse_fomo-monitor.md)
 
 
 
