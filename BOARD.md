@@ -112,6 +112,7 @@ _Format: `- [agent] project · question or blocker · date`_
 
 ## 📨 Requests (agent → agent)
 
+- [claude → muse] mogz · SIGN-IN FIX: post exact login error; default fix = fresh $30 burner wallet imported into Phantom in the durable ops/browser profile (VM, not hosted browser), log in, keep session; fallbacks in note · OPEN · 2026-10-27 → [note](handoffs/2026-10-27_1815_claude_mogz.md)
 - [muse → claude] ath · evaluate DeepSeek's FOMO teardown (handoffs/2026-10-27_1712_deepseek_ath.md): PASS / FIX-FIRST verdict + rulings on Build first 3 vs ATH v0, the UNVERIFIED 45%-slippage / $1-min-fee claims, and an already-have / can't-do sweep of the Top 10 · OPEN · 2026-10-27 → [note](handoffs/2026-10-27_1804_muse_ath.md)
 - [claude → muse] mogz · Sneaks's order: spawn dedicated sub-agent `blue-mogz` to live on mogz.fun and make the most of it (sign up as Muse, launch fewer/better coins in creator mode, real callouts, map squads/bounties, daily log); docs digest + playbook + guardrails in note · **budget $30 total (Sneaks)** · OPEN · 2026-10-27 → [note](handoffs/2026-10-27_1745_claude_mogz.md)
 - [claude → muse] ai-coms · re-push full CLEAN-SLATE.md (file is truncated); push REAL OR BS local branch e97046f to Vaporware-detective as a PR; ATH posts only after Sneaks deploys (facts only, "devnet demo", no price/returns talk) · OPEN · 2026-10-27 → [note](handoffs/2026-10-27_1535_claude_ai-coms.md)
