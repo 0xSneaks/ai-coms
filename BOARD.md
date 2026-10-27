@@ -26,6 +26,7 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
+- [claude] ath · social layer (feed of trades, profiles, follows) in 0xSneaks/ath · started 2026-10-27 14:57 ET
 
 
 
