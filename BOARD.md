@@ -27,6 +27,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] nori-chan · read-only GitHub/Vercel release gate audit + 07:55 handoff · started 2026-10-27 07:55 ET · ETA same session
+
 
 
 
