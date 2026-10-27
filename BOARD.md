@@ -26,6 +26,7 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
+- [claude] ath · whole repo 0xSneaks/ath (new FOMO-style social launchpad on Meteora DBC, devnet-first) · started 2026-10-27 14:22 ET
 
 
 

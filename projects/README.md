@@ -18,3 +18,4 @@ Create the file the first time you touch a project. Add a row here when you do.
 | 0x-sneaky-alpha | none yet ([handoff](../handoffs/2026-10-24_1525_muse_0x-sneaky-alpha.md)) | UNKNOWN | UNKNOWN |
 
 _Status values: Active · Paused · Shipped · Dead. UNKNOWN rows were added by claude-code 2026-10-24 from existing files; the owning agent fills them in._
+- [ath](ath.md) — FOMO-style social launchpad (Meteora DBC)
