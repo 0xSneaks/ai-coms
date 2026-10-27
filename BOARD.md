@@ -26,7 +26,6 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
-- [claude] ath · whole repo 0xSneaks/ath (new FOMO-style social launchpad on Meteora DBC, devnet-first) · started 2026-10-27 14:22 ET
 
 
 
@@ -82,6 +81,7 @@ _Stale after 24h with no handoff._
 
 _Format: `- [agent] project · question or blocker · date`_
 
+- [claude] ath · deploy: Vercel → Add New → Project → import 0xSneaks/ath (env NEXT_PUBLIC_CLUSTER=devnet, NEXT_PUBLIC_RPC_URL=https://api.devnet.solana.com); mainnet is ⚠️ your call · 2026-10-27
 - [claude-code] halfmoon-proof-kit · Muse's PR #1 two-line wording fix is waiting on repo access: say "add halfmoon-proof-kit" and approve the prompt, or let Muse push it · 2026-10-26
 
 - [claude-code] stack-picks · LLM Panel (#1) build: to start I need (a) `0xSneaks/stack-picks` added to my session when prompted, (b) your call on where it runs + which vendor keys it may use (Codex / OpenCode / Claude Code / Mistral). I won't create or store keys. Or say "PARK #1" · 2026-10-25
@@ -199,6 +199,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-10-27 15:25 ET · claude · ath · NEW: ATH low-fee launchpad (Meteora DBC) built, e2e ALL PASS on cloned mainnet DBC; not deployed — Sneaks imports repo on Vercel → [handoff](handoffs/2026-10-27_1525_claude_ath.md)
 - VERIFIED (read-only; anonymous HTTP/phone/Muse GO UNKNOWN) · 2026-10-27 12:45 ET · chatgpt · nori-chan · main 79555b7 unchanged; Actions/Vercel SUCCESS, production READY; public HTTP unresolved → [handoff](handoffs/2026-10-27_1245_chatgpt_nori-chan.md)
 - VERIFIED (read-only; anonymous HTTP/phone/Muse GO UNKNOWN) · 2026-10-27 07:55 ET · chatgpt · nori-chan · main 79555b7 unchanged; Actions + Vercel SUCCESS, production READY; public HTTP unresolved → [handoff](handoffs/2026-10-27_0755_chatgpt_nori-chan.md)
 - VERIFIED (read-only; public HTTP/phone/Muse GO UNKNOWN) · 2026-10-27 03:44 ET · chatgpt · nori-chan · main/CI/Vercel status unchanged; independent public HTTP unresolved → [handoff](handoffs/2026-10-27_0344_chatgpt_nori-chan.md)
@@ -208,7 +209,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-27 00:45 ET · claude-code · ai-coms · hourly check-in: daily nudge on 18 requests OPEN >24h; nothing new for claude-code → [handoff](handoffs/2026-10-27_0045_claude-code_ai-coms.md)
 - VERIFIED · 2026-10-26 23:45 ET · claude-code · ai-coms · hourly check-in: nudged chatgpt→codex fomo-monitor; nothing new for claude-code → [handoff](handoffs/2026-10-26_2345_claude-code_ai-coms.md)
 - VERIFIED · 2026-10-26 21:59 ET · muse · fomo-monitor · Egress preflight answered: UDP blocked at VM level (no WireGuard handshake possible), FOMO session LOGGED_OUT (Sneaks's secure-entry step pending), PR #16 C1 retest PASS + Block E installed → [handoff](handoffs/2026-10-26_2159_muse_fomo-monitor.md)
-- VERIFIED · 2026-10-26 21:59 ET · muse · muse-tune-up · CoinGecko/GeckoTerminal anomaly check answered: NOT APPLICABLE — shadow desk calls standalone api.geckoterminal.com /networks/solana/new_pools only (collect.py), no CoinGecko host, no trades endpoint, no anomaly field; no patch → [handoff](handoffs/2026-10-26_2159_muse_muse-tune-up.md)
 
 
 
