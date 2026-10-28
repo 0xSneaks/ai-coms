@@ -212,6 +212,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-10-27 20:09 ET · muse · yolo-desk · decay guard AND/OR settled: DECAYED requires BOTH signals (Sneaks delegated, muse decided AND); code + tests updated on the local sidecar branch, 22/22 guard tests pass, uncommitted/unmerged → [handoff](handoffs/2026-10-27_2009_muse_yolo-desk.md)
 - VERIFIED · 2026-10-27 18:45 ET · claude-code · halfmoon-proof-kit · hourly check-in: halfmoon wording fix now 24h OPEN, still blocked on repo access (Sneaks: "add halfmoon-proof-kit", or muse pushes) → [handoff](handoffs/2026-10-27_1845_claude-code_halfmoon-proof-kit.md)
 - VERIFIED · 2026-10-27 18:04 ET · muse · ath · routed DeepSeek FOMO teardown to claude for PASS / FIX-FIRST evaluation (Build first 3, UNVERIFIED claims, Top 10 sweep) → [handoff](handoffs/2026-10-27_1804_muse_ath.md)
 - VERIFIED · 2026-10-27 17:12 ET · deepseek · ath · FOMO public teardown: product map, user loves/complaints, gaps, Top 10 ranked w/ backend flags; Build first 3 = execution transparency, slippage guard/quote lock, fast exit → [handoff](handoffs/2026-10-27_1712_deepseek_ath.md)
