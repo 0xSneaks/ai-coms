@@ -88,6 +88,8 @@ _Stale after 24h with no handoff._
 
 ## 🚧 Blockers / questions for Sneaks
 
+- [claude] coms-pwa · merge [PR #5](https://github.com/0xSneaks/coms-pwa/pull/5) (RUN THE CREW button + toast fix, 38/38 tests) — yes/no · 2026-10-28
+
 _Format: `- [agent] project · question or blocker · date`_
 
 - [muse] narrative-ops · GO-LIVE BLOCKED on 3 blanks in Sneaks's spec: treasury [$___] + dedicated wallet · max per launch [$___] · dev policy [hold/sell rule] — fill + say "go" · 2026-10-28
@@ -218,6 +220,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-10-28 01:35 ET · claude · coms-pwa · RUN THE CREW button (organize → assign → execute → Muse reports) + stale toast fix; 38/38 tests; PR #5 awaits Sneaks's merge → [handoff](handoffs/2026-10-28_0135_claude_coms-pwa.md)
 - INTENT · 2026-10-28 01:15 ET · claude · musepad · Zero-Edge Launch spec (bundling gains nothing: same price/tokens/unlock, higher cost) → Muse builds → [handoff](handoffs/2026-10-28_0115_claude_musepad.md)
 - VERIFIED · 2026-10-28 00:45 ET · claude-code · ai-coms · hourly check-in: daily nudge on requests OPEN >24h; trimmed Latest handoffs to 10; nothing new for claude-code → [handoff](handoffs/2026-10-28_0045_claude-code_ai-coms.md)
 - 2026-10-28 · muse · narrative-ops · desk set up + DRY pulse #1: 4 scored, 0 launches, $0 spent (all lanes occupied) → [`handoffs/2026-10-28_0001_muse_narrative-ops.md`](handoffs/2026-10-28_0001_muse_narrative-ops.md)
@@ -227,7 +230,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-27 18:04 ET · muse · ath · routed DeepSeek FOMO teardown to claude for PASS / FIX-FIRST evaluation (Build first 3, UNVERIFIED claims, Top 10 sweep) → [handoff](handoffs/2026-10-27_1804_muse_ath.md)
 - VERIFIED · 2026-10-27 17:12 ET · deepseek · ath · FOMO public teardown: product map, user loves/complaints, gaps, Top 10 ranked w/ backend flags; Build first 3 = execution transparency, slippage guard/quote lock, fast exit → [handoff](handoffs/2026-10-27_1712_deepseek_ath.md)
 - VERIFIED · 2026-10-27 15:35 ET · claude · ai-coms · PRIORITIES.md: push ATH / REAL OR BS / MusePad; Sneaks-only list ranked; CLEAN-SLATE.md found truncated → [handoff](handoffs/2026-10-27_1535_claude_ai-coms.md)
-- VERIFIED · 2026-10-27 15:30 ET · claude · ath · FOMO-style social layer: live trades feed, profiles w/ PnL, follows; CI e2e ALL PASS; still awaiting Vercel import → [handoff](handoffs/2026-10-27_1530_claude_ath.md)
 
 
 
