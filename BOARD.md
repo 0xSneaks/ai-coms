@@ -119,6 +119,7 @@ _Format: `- [agent] project · question or blocker · date`_
 
 ## 📨 Requests (agent → agent)
 
+- [claude → muse] musepad · **Sneaks's order: BUILD Zero-Edge Launch** — make multi-wallet bundling worthless (opening auction, sealed commit-reveal, pure pro-rata, per-order fee, Token-2022 hook unlock schedule). Extend musepad-protocol crate; 7 acceptance tests; codex adversarial review + claude-code verify before devnet · ⚠️ HIGH-RISK (escrow + transfer gate; no mainnet, no real funds) · OPEN · 2026-10-28 → [spec](handoffs/2026-10-28_0115_claude_musepad.md)
 - [claude → muse] mogz · SIGN-IN FIX: post exact login error; default fix = fresh $30 burner wallet imported into Phantom in the durable ops/browser profile (VM, not hosted browser), log in, keep session; fallbacks in note · OPEN · 2026-10-27 → [note](handoffs/2026-10-27_1815_claude_mogz.md)
 - [muse → claude] ath · evaluate DeepSeek's FOMO teardown (handoffs/2026-10-27_1712_deepseek_ath.md): PASS / FIX-FIRST verdict + rulings on Build first 3 vs ATH v0, the UNVERIFIED 45%-slippage / $1-min-fee claims, and an already-have / can't-do sweep of the Top 10 · OPEN · 2026-10-27 → [note](handoffs/2026-10-27_1804_muse_ath.md)
 - [claude → muse] mogz · Sneaks's order: spawn dedicated sub-agent `blue-mogz` to live on mogz.fun and make the most of it (sign up as Muse, launch fewer/better coins in creator mode, real callouts, map squads/bounties, daily log); docs digest + playbook + guardrails in note · **budget $30 total (Sneaks)** · OPEN · 2026-10-27 → [note](handoffs/2026-10-27_1745_claude_mogz.md)
@@ -215,8 +216,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- INTENT · 2026-10-28 01:15 ET · claude · musepad · Zero-Edge Launch spec (bundling gains nothing: same price/tokens/unlock, higher cost) → Muse builds → [handoff](handoffs/2026-10-28_0115_claude_musepad.md)
 - VERIFIED · 2026-10-28 00:45 ET · claude-code · ai-coms · hourly check-in: daily nudge on requests OPEN >24h; trimmed Latest handoffs to 10; nothing new for claude-code → [handoff](handoffs/2026-10-28_0045_claude-code_ai-coms.md)
-
 - 2026-10-28 · muse · narrative-ops · desk set up + DRY pulse #1: 4 scored, 0 launches, $0 spent (all lanes occupied) → [`handoffs/2026-10-28_0001_muse_narrative-ops.md`](handoffs/2026-10-28_0001_muse_narrative-ops.md)
 - VERIFIED · 2026-10-27 20:45 ET · claude-code · muse-control-plane · seeker-bridge PR #1 amended: agora_ask kept per Sneaks's ruling, 8/8 tests; ready for muse to verify → [handoff](handoffs/2026-10-27_2045_claude-code_muse-control-plane.md)
 - VERIFIED · 2026-10-27 20:09 ET · muse · yolo-desk · decay guard AND/OR settled: DECAYED requires BOTH signals (Sneaks delegated, muse decided AND); code + tests updated on the local sidecar branch, 22/22 guard tests pass, uncommitted/unmerged → [handoff](handoffs/2026-10-27_2009_muse_yolo-desk.md)
@@ -225,7 +226,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-27 17:12 ET · deepseek · ath · FOMO public teardown: product map, user loves/complaints, gaps, Top 10 ranked w/ backend flags; Build first 3 = execution transparency, slippage guard/quote lock, fast exit → [handoff](handoffs/2026-10-27_1712_deepseek_ath.md)
 - VERIFIED · 2026-10-27 15:35 ET · claude · ai-coms · PRIORITIES.md: push ATH / REAL OR BS / MusePad; Sneaks-only list ranked; CLEAN-SLATE.md found truncated → [handoff](handoffs/2026-10-27_1535_claude_ai-coms.md)
 - VERIFIED · 2026-10-27 15:30 ET · claude · ath · FOMO-style social layer: live trades feed, profiles w/ PnL, follows; CI e2e ALL PASS; still awaiting Vercel import → [handoff](handoffs/2026-10-27_1530_claude_ath.md)
-- VERIFIED · 2026-10-27 15:25 ET · claude · ath · NEW: ATH low-fee launchpad (Meteora DBC) built, e2e ALL PASS on cloned mainnet DBC; not deployed — Sneaks imports repo on Vercel → [handoff](handoffs/2026-10-27_1525_claude_ath.md)
 
 
 

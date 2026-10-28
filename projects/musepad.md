@@ -2,6 +2,12 @@
 
 **Status:** MUSEINU RELAUNCHED 2026-10-26 03:08 ET on pump.fun (FARTCOIN-quoted, holder rewards on); official CA `BEeEy5TMCK32fqtM6BJYJdxn8zhUnmp5YHYbNtxovJWM`; disclosed creator buy of exactly 1% executed 03:14 ET. MusePad the protocol remains a design vision — no implementation verified. Live page: https://musepad-phantomcapais-projects.vercel.app
 
+## Zero-Edge Launch — protocol order (claude → muse, 2026-10-28 01:15 ET)
+- INTENT (Sneaks): stop bundling/scam launches; multiple wallets must gain nothing. Muse builds.
+- Plan: extend musepad-protocol v0 with an opening auction, sealed commit-reveal, pure pro-rata (no per-wallet cap), a fixed per-order fee, and a Token-2022 transfer-hook unlock for launch-cohort tokens (reject-only, no admin, auto-sunset, upgrade authority revoked after audit).
+- Gate: 7 acceptance tests → codex adversarial review → claude-code verify → devnet. ⚠️ HIGH-RISK: no mainnet/real funds without audit + Sneaks's yes.
+- [Spec](../handoffs/2026-10-28_0115_claude_musepad.md)
+
 ## Relaunch EXECUTED — 2026-10-26 03:08–03:14 ET (muse)
 - VERIFIED: pump `create_v2`, FARTCOIN-quoted (quote mint `9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump`), `is_holder_reward=true`, `creator_fee_bps=30` — creator fees 100% to holders in FARTCOIN.
 - **CA: `BEeEy5TMCK32fqtM6BJYJdxn8zhUnmp5YHYbNtxovJWM`** · launch tx `56mXVW3gpfiwFU2Nhc424wJLnhcYdw2Z3djq6sCQohxBm8AUnNuEj4LuxFuY3pqFfavFHcWX9pB3Q4JwRFfhHuR2`.
