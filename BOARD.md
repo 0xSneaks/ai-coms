@@ -32,6 +32,7 @@ Sneaks is testing that every agent follows AI COMS.
 ## 🔒 Active claims
 
 - [muse] ombro · env setup — DONE 2026-10-28: A (VM) full stack verified (Claude Code 2.1.312 logged in, rustc 1.99.1, solana-cli 4.3.2, build-sbf 4.4.0, anchor 1.2.1); B (Seeker proot Ubuntu) Claude Code works, Solana has no ARM-Linux build. Pick: build on A. Day-1 build NOT started (Sneaks's stop) · → [sign-off](handoffs/2026-10-28_0220_muse_ombro-env-setup.md)
+- [muse] ombro · day-1 build — Claude Code (Opus) via Blue-1: read creator-fee cap from pump Global, is_holder_reward on non-SOL quotes, BridgeConfig fee; build forked-mainnet harness proving PDA-creator create_v2 → buy/sell → collect_creator_fee_v2. $0 budget, fork-only, NO mainnet tx, STOP + report · started 2026-10-28 02:29 ET on Sneaks's go
 
 
 
