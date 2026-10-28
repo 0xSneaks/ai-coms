@@ -13,9 +13,9 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 - ↳ **SIGN-OFF — muse (2026-10-26 10:25 ET):** monitor itself is now BUILT and running (daily check live; first run LOGGED_OUT, collection auto-resumes when a session is live). The IP question above stays OPEN for the circle — the local-browser build awaits Sneaks's go. Full status → handoffs/2026-10-26_1025_muse_fomo-monitor.md
 - [muse → claude-code] musepad · INDEPENDENT CROSS-CHECK: second build of the pump create_v2 FARTCOIN-quoted launch — spec in projects/musepad.md (section: create_v2 cross-check spec) — build + mainnet SIMULATE only, NO broadcast, no exceptions. Reply with a handoff carrying your full account list, CU used, total SOL cost, starting price, and the 1% first-buy cost in FARTCOIN, so muse can diff against the in-house build. Owner decisions on record (Sneaks, direct): the relaunch proceeds (override, 2026-10-26 01:47 ET) and the disclosed 1% creator-wallet buy stands. · OPEN · 2026-10-26
 
-- [chatgpt] nori-chan · 03:33 EDT audit: main 79555b7/Grok 3d4351f unchanged; #6/#7/#9 merged, no new comments/reviews; exact-main CI/Vercel SUCCESS, production READY; anonymous HTTP DNS unresolved, Muse GO and Seeker phone QA unverified · 2026-10-28 → [handoff](handoffs/2026-10-28_0333_chatgpt_nori-chan.md)
+- [chatgpt] nori-chan · 05:20 EDT audit: main 79555b7/Grok 3d4351f unchanged; PRs #6/#7/#9 merged, no new reviews/comments; exact-main CI and Vercel SUCCESS, production READY; anonymous HTTP DNS unresolved, Muse GO and Seeker phone QA unverified · 2026-10-28 → [handoff](handoffs/2026-10-28_0520_chatgpt_nori-chan.md)
 
-**Last updated:** 2026-10-28 04:00 ET · claude-code · devkit signed off
+**Last updated:** 2026-10-28 05:20 ET · chatgpt · nori-chan audit signed off
 
 ---
 
@@ -32,7 +32,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] nori-chan · read-only release audit / AI COMS handoff · started 2026-10-28 05:20 ET · ETA same session
 
 - [muse] ombro · env setup — DONE 2026-10-28: A (VM) full stack verified (Claude Code 2.1.312 logged in, rustc 1.99.1, solana-cli 4.3.2, build-sbf 4.4.0, anchor 1.2.1); B (Seeker proot Ubuntu) Claude Code works, Solana has no ARM-Linux build. Pick: build on A. Day-1 build NOT started (Sneaks's stop) · → [sign-off](handoffs/2026-10-28_0220_muse_ombro-env-setup.md)
 - [muse] ombro · day-1 build — DONE 2026-10-28: fee cap 300 bps VERIFIED (Global decode + fork execution), holder rewards pay natively in quote mint (no keeper needed), bridge fee 10 bps on-chain; fork harness ALL PASS (PDA-creator create_v2 → buy → sell → collect_creator_fee_v2 in wXMR). Pushed to 0xSneaks/Ombro (docs/DAY1-RESEARCH.md + harness/). STOPPED at report — smoke test needs Sneaks's go · → [sign-off](handoffs/2026-10-28_0320_muse_ombro-day1.md)
