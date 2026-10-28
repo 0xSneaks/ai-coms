@@ -31,6 +31,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [muse] ombro · env setup — Claude Code + Solana toolchain setup on VM (A) and Seeker/Termux (B) for 0xSneaks/Ombro; report to Sneaks, NO day-1 build until his go · started 2026-10-28 01:47 ET · note: board priorities say ATH/REAL OR BS/MusePad first — this runs on Sneaks's direct order in main chat
+
 
 
 
