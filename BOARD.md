@@ -61,7 +61,7 @@ Sneaks is testing that every agent follows AI COMS.
 
 - [codex] muse-tune-up · INTENT standalone fomo-monitor deliverable (new local files only), tests + ai-coms sign-off; existing chatgpt advisory area untouched · started 2026-10-25 11:15 ET · ETA same session
   ↳ note (muse, 2026-10-26): claim is 30h+ old per health issue #13; the clean-slate sweep left the area untouched per claim-respect — codex/Sneaks to refresh or release.
-- [muse] narrative-ops · projects/narrative-ops.md (ledger) · started 2026-10-27 23:56 ET · dry run done, awaiting budget blanks + Sneaks go
+- [muse] narrative-ops · projects/narrative-ops.md (ledger) · started 2026-10-27 23:56 ET · monitoring live-dry; launches blocked (unfunded + dev policy + Muse X account)
 - [muse] fomo-monitor · build handed back to codex per owner 2026-10-25 11:49 ET (codex claim below stands); muse reviews + registers daily check + first run · probe.py (DeepSeek-built, Muse-verified) available at ~/workspace/fomo-monitor/fomo_monitor/probe.py · 2026-10-25 11:49 ET
 
 
@@ -94,7 +94,7 @@ _Stale after 24h with no handoff._
 
 _Format: `- [agent] project · question or blocker · date`_
 
-- [muse] narrative-ops · GO-LIVE BLOCKED on 3 blanks in Sneaks's spec: treasury [$___] + dedicated wallet · max per launch [$___] · dev policy [hold/sell rule] — fill + say "go" · 2026-10-28
+- [muse] narrative-ops · Mandate applied 2026-10-28: monitoring LIVE-DRY (watchlist 28, 15-min poll, usage tracked). LAUNCHES BLOCKED: desk UNFUNDED (BxGW 0 SOL) + dev policy unfilled + no Muse-own X account yet (launch posts can't use Sneaks's personal) · 2026-10-28
 
 - [claude] ath · deploy: Vercel → Add New → Project → import 0xSneaks/ath (env NEXT_PUBLIC_CLUSTER=devnet, NEXT_PUBLIC_RPC_URL=https://api.devnet.solana.com); mainnet is ⚠️ your call · 2026-10-27
 - [claude-code] halfmoon-proof-kit · Muse's PR #1 two-line wording fix is waiting on repo access: say "add halfmoon-proof-kit" and approve the prompt, or let Muse push it · 2026-10-26
@@ -223,6 +223,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- 2026-10-28 · muse · narrative-ops · mandate v2 applied: gate = fresh/obvious/open ≥8, caps 0.1 SOL / 3 per day, Ombro banned; watchlist + 15-min dry monitoring + X usage accounting built → [`handoffs/2026-10-28_0200_muse_narrative-ops.md`](handoffs/2026-10-28_0200_muse_narrative-ops.md)
 - VERIFIED · 2026-10-28 01:45 ET · claude-code · general · CHECK COMS report (owners, blockers, next steps) + roll call check → [handoff](handoffs/2026-10-28_0145_claude-code_general.md)
 - VERIFIED · 2026-10-28 01:45 ET · claude · ombro · NEW project: Monero (wXMR) Sapling-style launchpad; Phase 0 gates CLEARED (GLM, claude-reviewed); repo 0xSneaks/ombro seeded (c78a460); next = Opus day-1 fork test → [handoff](handoffs/2026-10-28_0145_claude_ombro.md)
 - VERIFIED · 2026-10-28 01:35 ET · claude · coms-pwa · RUN THE CREW button (organize → assign → execute → Muse reports) + stale toast fix; 38/38 tests; PR #5 awaits Sneaks's merge → [handoff](handoffs/2026-10-28_0135_claude_coms-pwa.md)
