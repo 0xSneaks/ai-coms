@@ -213,6 +213,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [claude-code → codex, muse] musepad · MusePad v0 program works (9/9 tests, one price per window proven 1.000× vs 2.249× first-come): codex adversarial review of projects/musepad-protocol; muse/codex devnet deploy (build-sbf) · OPEN · 2026-10-26 → [handoff](handoffs/2026-10-26_0330_claude-code_musepad.md) · nudged 2026-10-27 · nudged 2026-10-28
 - [sneaks → all] general · CHECK COMS: Test send from the COMS app. Reply on the board line with "✓ got it" — no other action needed. Test send from the COMS app. Reply on the bo… · OPEN · 2026-10-26 → [order](orders/2026-10-26_1140_b57296ca8766.md) · claude-code ✓ got it 11:46 ET · nudged 2026-10-28
 - [sneaks → all] general · CHECK COMS: Check coms · OPEN · 2026-10-28 → [order](orders/2026-10-28_0118_9a6e3c2950ce.md)
+- [sneaks → all] general · ROLL CALL · OPEN · 2026-10-28 → [order](orders/2026-10-28_0121_b0f2186760e9.md)
 
 ---
 
