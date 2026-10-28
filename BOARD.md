@@ -31,7 +31,7 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [muse] ombro · env setup — Claude Code + Solana toolchain setup on VM (A) and Seeker/Termux (B) for 0xSneaks/Ombro; report to Sneaks, NO day-1 build until his go · started 2026-10-28 01:47 ET · note: board priorities say ATH/REAL OR BS/MusePad first — this runs on Sneaks's direct order in main chat
+- [muse] ombro · env setup — DONE 2026-10-28: A (VM) full stack verified (Claude Code 2.1.312 logged in, rustc 1.99.1, solana-cli 4.3.2, build-sbf 4.4.0, anchor 1.2.1); B (Seeker proot Ubuntu) Claude Code works, Solana has no ARM-Linux build. Pick: build on A. Day-1 build NOT started (Sneaks's stop) · → [sign-off](handoffs/2026-10-28_0220_muse_ombro-env-setup.md)
 
 
 
