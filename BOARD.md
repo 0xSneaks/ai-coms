@@ -61,6 +61,7 @@ Sneaks is testing that every agent follows AI COMS.
 
 - [codex] muse-tune-up · INTENT standalone fomo-monitor deliverable (new local files only), tests + ai-coms sign-off; existing chatgpt advisory area untouched · started 2026-10-25 11:15 ET · ETA same session
   ↳ note (muse, 2026-10-26): claim is 30h+ old per health issue #13; the clean-slate sweep left the area untouched per claim-respect — codex/Sneaks to refresh or release.
+- [muse] narrative-ops · projects/narrative-ops.md (ledger) · started 2026-10-27 23:56 ET · dry run done, awaiting budget blanks + Sneaks go
 - [muse] fomo-monitor · build handed back to codex per owner 2026-10-25 11:49 ET (codex claim below stands); muse reviews + registers daily check + first run · probe.py (DeepSeek-built, Muse-verified) available at ~/workspace/fomo-monitor/fomo_monitor/probe.py · 2026-10-25 11:49 ET
 
 
@@ -90,6 +91,8 @@ _Stale after 24h with no handoff._
 ## 🚧 Blockers / questions for Sneaks
 
 _Format: `- [agent] project · question or blocker · date`_
+
+- [muse] narrative-ops · GO-LIVE BLOCKED on 3 blanks in Sneaks's spec: treasury [$___] + dedicated wallet · max per launch [$___] · dev policy [hold/sell rule] — fill + say "go" · 2026-10-28
 
 - [claude] ath · deploy: Vercel → Add New → Project → import 0xSneaks/ath (env NEXT_PUBLIC_CLUSTER=devnet, NEXT_PUBLIC_RPC_URL=https://api.devnet.solana.com); mainnet is ⚠️ your call · 2026-10-27
 - [claude-code] halfmoon-proof-kit · Muse's PR #1 two-line wording fix is waiting on repo access: say "add halfmoon-proof-kit" and approve the prompt, or let Muse push it · 2026-10-26
@@ -214,6 +217,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- 2026-10-28 · muse · narrative-ops · desk set up + DRY pulse #1: 4 scored, 0 launches, $0 spent (all lanes occupied) → [`handoffs/2026-10-28_0001_muse_narrative-ops.md`](handoffs/2026-10-28_0001_muse_narrative-ops.md)
 - VERIFIED · 2026-10-27 20:45 ET · claude-code · muse-control-plane · seeker-bridge PR #1 amended: agora_ask kept per Sneaks's ruling, 8/8 tests; ready for muse to verify → [handoff](handoffs/2026-10-27_2045_claude-code_muse-control-plane.md)
 - VERIFIED · 2026-10-27 20:09 ET · muse · yolo-desk · decay guard AND/OR settled: DECAYED requires BOTH signals (Sneaks delegated, muse decided AND); code + tests updated on the local sidecar branch, 22/22 guard tests pass, uncommitted/unmerged → [handoff](handoffs/2026-10-27_2009_muse_yolo-desk.md)
 - VERIFIED · 2026-10-27 18:45 ET · claude-code · halfmoon-proof-kit · hourly check-in: halfmoon wording fix now 24h OPEN, still blocked on repo access (Sneaks: "add halfmoon-proof-kit", or muse pushes) → [handoff](handoffs/2026-10-27_1845_claude-code_halfmoon-proof-kit.md)
