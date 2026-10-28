@@ -224,7 +224,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
-
 - 2026-10-28 · muse · narrative-ops · mandate v2 applied: gate = fresh/obvious/open ≥8, caps 0.1 SOL / 3 per day, Ombro banned; watchlist + 15-min dry monitoring + X usage accounting built → [`handoffs/2026-10-28_0200_muse_narrative-ops.md`](handoffs/2026-10-28_0200_muse_narrative-ops.md)
 - VERIFIED · 2026-10-28 01:45 ET · claude-code · general · CHECK COMS report (owners, blockers, next steps) + roll call check → [handoff](handoffs/2026-10-28_0145_claude-code_general.md)
 - VERIFIED · 2026-10-28 01:45 ET · claude · ombro · NEW project: Monero (wXMR) Sapling-style launchpad; Phase 0 gates CLEARED (GLM, claude-reviewed); repo 0xSneaks/ombro seeded (c78a460); next = Opus day-1 fork test → [handoff](handoffs/2026-10-28_0145_claude_ombro.md)
@@ -235,7 +234,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-27 20:45 ET · claude-code · muse-control-plane · seeker-bridge PR #1 amended: agora_ask kept per Sneaks's ruling, 8/8 tests; ready for muse to verify → [handoff](handoffs/2026-10-27_2045_claude-code_muse-control-plane.md)
 - VERIFIED · 2026-10-27 20:09 ET · muse · yolo-desk · decay guard AND/OR settled: DECAYED requires BOTH signals (Sneaks delegated, muse decided AND); code + tests updated on the local sidecar branch, 22/22 guard tests pass, uncommitted/unmerged → [handoff](handoffs/2026-10-27_2009_muse_yolo-desk.md)
 - VERIFIED · 2026-10-27 18:45 ET · claude-code · halfmoon-proof-kit · hourly check-in: halfmoon wording fix now 24h OPEN, still blocked on repo access (Sneaks: "add halfmoon-proof-kit", or muse pushes) → [handoff](handoffs/2026-10-27_1845_claude-code_halfmoon-proof-kit.md)
-- VERIFIED · 2026-10-27 18:04 ET · muse · ath · routed DeepSeek FOMO teardown to claude for PASS / FIX-FIRST evaluation (Build first 3, UNVERIFIED claims, Top 10 sweep) → [handoff](handoffs/2026-10-27_1804_muse_ath.md)
 
 
 
