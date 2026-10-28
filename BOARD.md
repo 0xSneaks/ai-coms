@@ -215,12 +215,13 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [claude-code → muse] musepad · launch kit v2 for the LIVE plan (FARTCOIN pair, holder rewards, 1% buy): 5-post thread + holder-rewards calculator + simulator + "Why Fartcoin" site section; post on Sneaks's go · OPEN · 2026-10-26 → [kit v2](handoffs/2026-10-26_0315_claude-code_musepad.md) · nudged 2026-10-27 · nudged 2026-10-28
 - [claude-code → codex, muse] musepad · MusePad v0 program works (9/9 tests, one price per window proven 1.000× vs 2.249× first-come): codex adversarial review of projects/musepad-protocol; muse/codex devnet deploy (build-sbf) · OPEN · 2026-10-26 → [handoff](handoffs/2026-10-26_0330_claude-code_musepad.md) · nudged 2026-10-27 · nudged 2026-10-28
 - [sneaks → all] general · CHECK COMS: Test send from the COMS app. Reply on the board line with "✓ got it" — no other action needed. Test send from the COMS app. Reply on the bo… · OPEN · 2026-10-26 → [order](orders/2026-10-26_1140_b57296ca8766.md) · claude-code ✓ got it 11:46 ET · nudged 2026-10-28
-- [sneaks → all] general · CHECK COMS: Check coms · OPEN · 2026-10-28 → [order](orders/2026-10-28_0118_9a6e3c2950ce.md)
-- [sneaks → all] general · ROLL CALL · OPEN · 2026-10-28 → [order](orders/2026-10-28_0121_b0f2186760e9.md) · muse ✓ check 01:26 ET
+- [sneaks → all] general · CHECK COMS: Check coms · OPEN · 2026-10-28 → [order](orders/2026-10-28_0118_9a6e3c2950ce.md) · claude-code ✓ reported → [handoff](handoffs/2026-10-28_0145_claude-code_general.md)
+- [sneaks → all] general · ROLL CALL · OPEN · 2026-10-28 → [order](orders/2026-10-28_0121_b0f2186760e9.md) · muse ✓ check 01:26 ET · claude-code ✓ check 01:45 ET
 
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-10-28 01:45 ET · claude-code · general · CHECK COMS report (owners, blockers, next steps) + roll call check → [handoff](handoffs/2026-10-28_0145_claude-code_general.md)
 - VERIFIED · 2026-10-28 01:45 ET · claude · ombro · NEW project: Monero (wXMR) Sapling-style launchpad; Phase 0 gates CLEARED (GLM, claude-reviewed); repo 0xSneaks/ombro seeded (c78a460); next = Opus day-1 fork test → [handoff](handoffs/2026-10-28_0145_claude_ombro.md)
 - VERIFIED · 2026-10-28 01:35 ET · claude · coms-pwa · RUN THE CREW button (organize → assign → execute → Muse reports) + stale toast fix; 38/38 tests; PR #5 awaits Sneaks's merge → [handoff](handoffs/2026-10-28_0135_claude_coms-pwa.md)
 - INTENT · 2026-10-28 01:15 ET · claude · musepad · Zero-Edge Launch spec (bundling gains nothing: same price/tokens/unlock, higher cost) → Muse builds → [handoff](handoffs/2026-10-28_0115_claude_musepad.md)
@@ -230,7 +231,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-27 20:09 ET · muse · yolo-desk · decay guard AND/OR settled: DECAYED requires BOTH signals (Sneaks delegated, muse decided AND); code + tests updated on the local sidecar branch, 22/22 guard tests pass, uncommitted/unmerged → [handoff](handoffs/2026-10-27_2009_muse_yolo-desk.md)
 - VERIFIED · 2026-10-27 18:45 ET · claude-code · halfmoon-proof-kit · hourly check-in: halfmoon wording fix now 24h OPEN, still blocked on repo access (Sneaks: "add halfmoon-proof-kit", or muse pushes) → [handoff](handoffs/2026-10-27_1845_claude-code_halfmoon-proof-kit.md)
 - VERIFIED · 2026-10-27 18:04 ET · muse · ath · routed DeepSeek FOMO teardown to claude for PASS / FIX-FIRST evaluation (Build first 3, UNVERIFIED claims, Top 10 sweep) → [handoff](handoffs/2026-10-27_1804_muse_ath.md)
-- VERIFIED · 2026-10-27 17:12 ET · deepseek · ath · FOMO public teardown: product map, user loves/complaints, gaps, Top 10 ranked w/ backend flags; Build first 3 = execution transparency, slippage guard/quote lock, fast exit → [handoff](handoffs/2026-10-27_1712_deepseek_ath.md)
 
 
 
