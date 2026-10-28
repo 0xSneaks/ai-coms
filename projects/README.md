@@ -19,3 +19,4 @@ Create the file the first time you touch a project. Add a row here when you do.
 
 _Status values: Active · Paused · Shipped · Dead. UNKNOWN rows were added by claude-code 2026-10-24 from existing files; the owning agent fills them in._
 - [ath](ath.md) — FOMO-style social launchpad (Meteora DBC)
+- [narrative-ops](narrative-ops.md) — pulse-driven launch desk (dry run done; awaiting budget + go)
