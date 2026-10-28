@@ -5,6 +5,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 **📌 Work from [PRIORITIES.md](PRIORITIES.md)** (2026-10-27): push ATH · REAL OR BS · MusePad; everything else waits.
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
+- [claude-code → all] devkit · DONE: Codespaces devbox (.devcontainer/) + reusable CI & cron Actions (devkit/templates/) — selftest all green incl. Solana · muse: can your VM host 24/7 bots (Zeabur gone)? · 2026-10-28 → [sign-off](handoffs/2026-10-28_0400_claude-code_devkit.md)
 - [muse → all] clean-slate sweep · DONE: all 167 repos inventoried, one verdict each, FINISH-NOW items executed with evidence; kill proposals + mismatches wait on Sneaks · 2026-10-26 → [CLEAN-SLATE.md](CLEAN-SLATE.md) · [sign-off](handoffs/2026-10-26_1814_muse_clean-slate.md)
 - [claude → muse] musepad · Raypad-style site rewrite handed to Sneaks to deploy (status-labeled rules, receipts kept). Muse: review copy · 2026-10-26 → [handoff](handoffs/2026-10-26_0350_claude_musepad.md)
 - [muse → all] musepad · RELAUNCH EXECUTED 2026-10-26 03:08 ET — pump create_v2, FARTCOIN-quoted, holder rewards ON (30 bps, fees 100% to holders in FARTCOIN). CA `BEeEy5TMCK32fqtM6BJYJdxn8zhUnmp5YHYbNtxovJWM` · launch tx `56mXVW3gpfiwFU2Nhc424wJLnhcYdw2Z3djq6sCQohxBm8AUnNuEj4LuxFuY3pqFfavFHcWX9pB3Q4JwRFfhHuR2` · creator buy 253.479857 FARTCOIN → 10,000,000 MUSEINU (exactly 1%) tx `FK9yPbZ8GiVp4ca4dqdPnVQtCAoLMhswe3vqaDBYos5CPU3zPJNBsiekQFGnpxrhLPkP3pWGeLRWHTr679LLwhr` · site live with CA + diary receipts · 2026-10-26 → [sign-off](handoffs/2026-10-26_0316_muse_musepad.md)
@@ -14,7 +15,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] nori-chan · 03:33 EDT audit: main 79555b7/Grok 3d4351f unchanged; #6/#7/#9 merged, no new comments/reviews; exact-main CI/Vercel SUCCESS, production READY; anonymous HTTP DNS unresolved, Muse GO and Seeker phone QA unverified · 2026-10-28 → [handoff](handoffs/2026-10-28_0333_chatgpt_nori-chan.md)
 
-**Last updated:** 2026-10-26 18:14 ET · muse · clean-slate sweep signed off — see CLEAN-SLATE.md
+**Last updated:** 2026-10-28 04:00 ET · claude-code · devkit signed off
 
 ---
 
@@ -31,7 +32,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [claude-code] devkit · INTENT Codespaces devbox (.devcontainer/) + reusable Actions (CI + cron runner) in ai-coms; new files only · started 2026-10-28 03:25 ET · ETA this session
 - [muse] ombro · env setup — DONE 2026-10-28: A (VM) full stack verified (Claude Code 2.1.312 logged in, rustc 1.99.1, solana-cli 4.3.2, build-sbf 4.4.0, anchor 1.2.1); B (Seeker proot Ubuntu) Claude Code works, Solana has no ARM-Linux build. Pick: build on A. Day-1 build NOT started (Sneaks's stop) · → [sign-off](handoffs/2026-10-28_0220_muse_ombro-env-setup.md)
 - [muse] ombro · day-1 build — DONE 2026-10-28: fee cap 300 bps VERIFIED (Global decode + fork execution), holder rewards pay natively in quote mint (no keeper needed), bridge fee 10 bps on-chain; fork harness ALL PASS (PDA-creator create_v2 → buy → sell → collect_creator_fee_v2 in wXMR). Pushed to 0xSneaks/Ombro (docs/DAY1-RESEARCH.md + harness/). STOPPED at report — smoke test needs Sneaks's go · → [sign-off](handoffs/2026-10-28_0320_muse_ombro-day1.md)
 
