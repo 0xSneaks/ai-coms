@@ -1,9 +1,9 @@
 # Nori-chan × Koinu
 
-**Repo:** 0xSneaks/-Nori-chan  ·  **Live URL:** https://nori-chan-phantomcapais-projects.vercel.app (anonymous accessibility pending independent verification)  ·  **Last updated:** 2026-10-28 12:23 EDT by chatgpt
+**Repo:** 0xSneaks/-Nori-chan  ·  **Live URL:** https://nori-chan-phantomcapais-projects.vercel.app (anonymous accessibility pending independent verification)  ·  **Last updated:** 2026-10-28 12:30 EDT by chatgpt
 
 ## Now (keep this current)
-Public game repo. **Fresh GitHub/Vercel audit 2026-10-28 12:23 EDT:** public repo main `79555b7d4434733be3504122bade557afd499b51` unchanged; Grok painted alternate `3d4351f39a029d6626f4494452ff77fac7a8830a` unchanged. Exactly PRs #6/#7/#9 all merged, no new issue/PR comments or reviews. Exact-main Actions run 39084816787 PASS, Vercel commit status SUCCESS; production deployment `dpl_AKVDeJ6KQjJYucdszx8yikpDMXbX` READY on exact main. Project SSO remains `all_except_custom_domains`, but Vercel alias metadata shows a wildcard `alias-protection-override` on the team production alias (created Oct 18 ~01:14Z), plausibly explaining Muse's Oct 19 HTTP 200. Independent anonymous HTTP remains UNKNOWN (web inaccessible; curl DNS HTTP 000, not 403). Four Seeker interactive QA checks and exact-main Muse GO remain BLOCKED/UNKNOWN. Token copy truthful ($Nori-Chan not launched; KOINU reference only), festival locked, checkout disabled. No all-gates PASS or new unavoidable owner-only blocker; no notification.
+Public game repo. **Fresh GitHub/Vercel audit 2026-10-28 12:30 EDT:** public repo main `79555b7d4434733be3504122bade557afd499b51` unchanged; Grok painted alternate `3d4351f39a029d6626f4494452ff77fac7a8830a` unchanged. Exactly PRs #6/#7/#9 all merged, no new issue/PR comments or reviews. Exact-main Actions run 39084816787 PASS, Vercel commit status SUCCESS; production deployment `dpl_AKVDeJ6KQjJYucdszx8yikpDMXbX` READY on exact main. Project SSO remains `all_except_custom_domains`, but Vercel alias metadata shows a wildcard `alias-protection-override` on the team production alias (created Oct 18 ~01:14Z), plausibly explaining Muse's Oct 19 HTTP 200. Independent anonymous HTTP remains UNKNOWN (web inaccessible; curl DNS HTTP 000, not 403). Four Seeker interactive QA checks and exact-main Muse GO remain BLOCKED/UNKNOWN. Token copy truthful ($Nori-Chan not launched; KOINU reference only), festival locked, checkout disabled. No change from 12:23 baseline, no all-gates PASS or new unavoidable owner-only blocker; no notification.
 
 ## Established (decisions — don't re-litigate)
 - Nori-chan × Koinu; ticker `$Nori-Chan`, NOT `$SUSHI`; token not launched and no mint/buy links — owner decision at 4a778a5.
@@ -28,7 +28,7 @@ Public game repo. **Fresh GitHub/Vercel audit 2026-10-28 12:23 EDT:** public rep
 - Vercel connector reads project/deployment and production aliases; project SSO remains `all_except_custom_domains`, but the team production alias has a wildcard protection override. Independent anonymous HTTP remains unverified. No claim of a smoke test without an actual HTTP response.
 
 ## Latest handoff
-- [2026-10-28 12:23 chatgpt release audit](../handoffs/2026-10-28_1223_chatgpt_nori-chan.md)
+- [2026-10-28 12:30 chatgpt release audit](../handoffs/2026-10-28_1230_chatgpt_nori-chan.md)
 
 ## Stack & where things live
 - GitHub PRs #6/#7/#9, issues #1/#2/#3/#4/#5/#8; Vercel team `phantomcapais-projects`.
