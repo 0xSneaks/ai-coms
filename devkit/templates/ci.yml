@@ -1,0 +1,12 @@
+# Copy to <your repo>/.github/workflows/ci.yml
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  ci:
+    uses: 0xSneaks/ai-coms/.github/workflows/ci.yml@main
+    # with:
+    #   working-directory: web
+    #   run: npm ci && npm test      # optional: replaces auto-detect

@@ -1,0 +1,21 @@
+# Copy to <your repo>/.github/workflows/<job>.yml and edit the 3 marked lines.
+# Secrets: repo Settings > Secrets and variables > Actions. They reach your
+# command as env vars with the same names.
+name: my-job                           # EDIT
+on:
+  schedule:
+    - cron: "23 */4 * * *"             # EDIT (UTC; every 4 h at :23)
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write                        # lets a failure open an issue
+concurrency:
+  group: my-job
+  cancel-in-progress: false
+jobs:
+  job:
+    uses: 0xSneaks/ai-coms/.github/workflows/cron-job.yml@main
+    secrets: inherit
+    with:
+      runtime: python                  # node | python | none
+      command: python scripts/job.py   # EDIT

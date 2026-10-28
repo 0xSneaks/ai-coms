@@ -1,0 +1,33 @@
+{
+  // Sneaks devbox: a cloud dev machine (GitHub Codespaces) you can open
+  // from a Chromebook or phone browser. Node, Python, Rust, gh, plus the
+  // Claude Code, Codex and OpenCode CLIs. Solana/Anchor: run devkit/solana.sh.
+  "name": "Sneaks devbox",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": { "version": "lts" },
+    "ghcr.io/devcontainers/features/python:1": { "version": "3.12" },
+    "ghcr.io/devcontainers/features/rust:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "customizations": {
+    "codespaces": {
+      // Lets `gh repo clone 0xSneaks/<repo>` and pushes work from inside
+      // this codespace. GitHub asks you to approve this once, at creation.
+      "repositories": {
+        "0xSneaks/*": {
+          "permissions": {
+            "contents": "write",
+            "pull_requests": "write",
+            "issues": "write"
+          }
+        }
+      }
+    },
+    "vscode": {
+      "extensions": ["rust-lang.rust-analyzer", "ms-python.python", "dbaeumer.vscode-eslint"]
+    }
+  },
+  "remoteUser": "vscode"
+}

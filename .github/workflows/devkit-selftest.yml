@@ -1,0 +1,61 @@
+# Proves the devkit works: runs the reusable CI on 3 fixtures, the cron
+# runner, and builds the Codespaces devcontainer. Solana install check is
+# manual only (Actions tab > devkit-selftest > Run workflow > solana: true).
+name: devkit-selftest
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".devcontainer/**"
+      - "devkit/**"
+      - ".github/workflows/ci.yml"
+      - ".github/workflows/cron-job.yml"
+      - ".github/workflows/devkit-selftest.yml"
+  workflow_dispatch:
+    inputs:
+      solana:
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  ci-node:
+    uses: ./.github/workflows/ci.yml
+    with: { working-directory: devkit/fixtures/node }
+  ci-python:
+    uses: ./.github/workflows/ci.yml
+    with: { working-directory: devkit/fixtures/python }
+  ci-rust:
+    uses: ./.github/workflows/ci.yml
+    with: { working-directory: devkit/fixtures/rust }
+  cron:
+    uses: ./.github/workflows/cron-job.yml
+    secrets: inherit
+    with:
+      command: 'echo "cron runner ok"; test -n "$GITHUB_RUN_ID"'
+      notify-issue: false
+
+  devcontainer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: devcontainers/ci@v0.3
+        with:
+          push: never
+          runCmd: |
+            set -e
+            node -v; python3 --version; cargo --version; gh --version | head -1
+            claude --version; codex --version; opencode --version
+
+  solana:
+    if: github.event_name == 'workflow_dispatch' && inputs.solana
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash devkit/solana.sh

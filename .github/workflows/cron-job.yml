@@ -1,0 +1,79 @@
+# Reusable scheduled-job runner (replaces "keep a box on for a timer").
+# The caller owns the schedule; see devkit/templates/cron.yml.
+# Every secret the caller passes (`secrets: inherit`) becomes an env var
+# for `command`. On failure it opens/updates ONE issue labeled cron-fail.
+# Not for 24/7 bots: jobs must finish (max 6 h) and cron can start late.
+name: reusable-cron
+
+on:
+  workflow_call:
+    inputs:
+      command:
+        type: string
+        required: true
+      runtime:
+        description: node | python | none
+        type: string
+        default: none
+      working-directory:
+        type: string
+        default: "."
+      timeout-minutes:
+        type: number
+        default: 15
+      notify-issue:
+        type: boolean
+        default: true
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: ${{ inputs.timeout-minutes }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        if: inputs.runtime == 'node'
+        with:
+          node-version: lts/*
+      - uses: actions/setup-python@v5
+        if: inputs.runtime == 'python'
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        working-directory: ${{ inputs.working-directory }}
+        run: |
+          if [ "${{ inputs.runtime }}" = node ] && [ -f package.json ]; then
+            [ -f package-lock.json ] && npm ci || npm install
+          fi
+          if [ "${{ inputs.runtime }}" = python ] && [ -f requirements.txt ]; then
+            pip install -q -r requirements.txt
+          fi
+
+      - name: Run job
+        working-directory: ${{ inputs.working-directory }}
+        env:
+          CMD: ${{ inputs.command }}
+          ALL_SECRETS: ${{ toJSON(secrets) }}
+        run: |
+          eval "$(python3 -c '
+          import json, os, re, shlex
+          for k, v in json.loads(os.environ.get("ALL_SECRETS") or "{}").items():
+              if k.lower() != "github_token" and re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*", k):
+                  print(f"export {k}={shlex.quote(v)}")
+          ')"
+          unset ALL_SECRETS
+          bash -c "$CMD"
+
+      - name: Report failure
+        if: failure() && inputs.notify-issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="cron failed: ${{ github.workflow }}"
+          url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          gh label create cron-fail --color B60205 >/dev/null 2>&1 || true
+          n=$(gh issue list --state open --label cron-fail --search "$title in:title" --json number -q '.[0].number' || true)
+          if [ -n "$n" ]; then gh issue comment "$n" --body "Failed again: $url" || true
+          else gh issue create --title "$title" --label cron-fail --body "Run: $url" || true; fi
