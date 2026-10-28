@@ -94,7 +94,7 @@ _Format: `- [agent] project · question or blocker · date`_
 
 - [claude-code] stack-picks · LLM Panel (#1) build: to start I need (a) `0xSneaks/stack-picks` added to my session when prompted, (b) your call on where it runs + which vendor keys it may use (Codex / OpenCode / Claude Code / Mistral). I won't create or store keys. Or say "PARK #1" · 2026-10-25
 
-- [claude-code] muse-control-plane · P0 phone shell: draft PR https://github.com/0xSneaks/seeker-bridge/pull/1 ready (7/7 tests). Sneaks: (1) keep agora_ask remote? as built it is DENIED; (2) merge; (3) deploy = proxy restart on phone. Agents never merge/deploy this · 2026-10-26
+- [claude-code] muse-control-plane · P0 phone shell: draft PR https://github.com/0xSneaks/seeker-bridge/pull/1 amended per Sneaks 2026-10-27 ruling (agora_ask stays allowed; termux_exec + write tools denied; 8/8 tests). Next: muse verifies the PR → Sneaks merges → Sneaks restarts the phone proxy. Agents never merge/deploy this · 2026-10-27
 
 - [claude-code] coms-pwa · PR #1 built. Your steps: (1) fine-grained token, ai-coms only, Contents R/W; (2) Vercel Sensitive env GITHUB_TOKEN, SESSION_SECRET, SETUP_CODE; (3) your yes to merge + deploy; (4) Face ID passkey at /setup.html, then OWNER_PASSKEY env, delete SETUP_CODE, redeploy · 2026-10-25
 - [claude-code] stack-picks · x402 Paying Agent (wallet + payments, HIGH-RISK): I build it only after you add "✅ Sneaks APPROVED the build" to its request line; funding the burner wallet stays yours · 2026-10-25
@@ -212,6 +212,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-10-27 20:45 ET · claude-code · muse-control-plane · seeker-bridge PR #1 amended: agora_ask kept per Sneaks's ruling, 8/8 tests; ready for muse to verify → [handoff](handoffs/2026-10-27_2045_claude-code_muse-control-plane.md)
 - VERIFIED · 2026-10-27 20:09 ET · muse · yolo-desk · decay guard AND/OR settled: DECAYED requires BOTH signals (Sneaks delegated, muse decided AND); code + tests updated on the local sidecar branch, 22/22 guard tests pass, uncommitted/unmerged → [handoff](handoffs/2026-10-27_2009_muse_yolo-desk.md)
 - VERIFIED · 2026-10-27 18:45 ET · claude-code · halfmoon-proof-kit · hourly check-in: halfmoon wording fix now 24h OPEN, still blocked on repo access (Sneaks: "add halfmoon-proof-kit", or muse pushes) → [handoff](handoffs/2026-10-27_1845_claude-code_halfmoon-proof-kit.md)
 - VERIFIED · 2026-10-27 18:04 ET · muse · ath · routed DeepSeek FOMO teardown to claude for PASS / FIX-FIRST evaluation (Build first 3, UNVERIFIED claims, Top 10 sweep) → [handoff](handoffs/2026-10-27_1804_muse_ath.md)
@@ -221,8 +222,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-27 15:25 ET · claude · ath · NEW: ATH low-fee launchpad (Meteora DBC) built, e2e ALL PASS on cloned mainnet DBC; not deployed — Sneaks imports repo on Vercel → [handoff](handoffs/2026-10-27_1525_claude_ath.md)
 - VERIFIED (read-only; anonymous HTTP/phone/Muse GO UNKNOWN) · 2026-10-27 12:45 ET · chatgpt · nori-chan · main 79555b7 unchanged; Actions/Vercel SUCCESS, production READY; public HTTP unresolved → [handoff](handoffs/2026-10-27_1245_chatgpt_nori-chan.md)
 - VERIFIED (read-only; anonymous HTTP/phone/Muse GO UNKNOWN) · 2026-10-27 07:55 ET · chatgpt · nori-chan · main 79555b7 unchanged; Actions + Vercel SUCCESS, production READY; public HTTP unresolved → [handoff](handoffs/2026-10-27_0755_chatgpt_nori-chan.md)
-- VERIFIED (read-only; public HTTP/phone/Muse GO UNKNOWN) · 2026-10-27 03:44 ET · chatgpt · nori-chan · main/CI/Vercel status unchanged; independent public HTTP unresolved → [handoff](handoffs/2026-10-27_0344_chatgpt_nori-chan.md)
-- VERIFIED · 2026-10-27 03:45 ET · claude-code · musepad · closed my create_v2 cross-check request (live receipt supersedes it); nudged 3 musepad requests at 24h → [handoff](handoffs/2026-10-27_0345_claude-code_musepad.md)
 
 
 
