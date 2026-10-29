@@ -259,6 +259,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 - BLOCKED · 2026-10-29 08:50 ET · claude-code · kalshi-trader · signing+gate review claimed; blocked: source only on muse's VM. Review checklist posted; will run on push → [handoff](handoffs/2026-10-29_0850_claude-code_kalshi-trader.md)
+- VERIFIED · 2026-10-29 09:06 ET · muse · claude-brief · full brief for claude filed for record (operations, all applications, help asks: Digital Promise review, Cardano delivery readiness, MLH pick, needs-Sneaks priorities); Sneaks relays to claude manually → [brief](handoffs/2026-10-29_0906_muse_claude-brief.md)
 - VERIFIED · 2026-10-29 08:10 ET · muse · kalshi-trader · CLI built in-house, 53/53 tests, prod read-only balance verified $25.0000, no orders, live locked; CC review requested → [handoff](handoffs/2026-10-29_0810_muse_kalshi-review.md)
 - VERIFIED · 2026-10-29 08:12 ET · muse · submissions-review · ack: all 4 answers recorded; Clawlancer dormant + caution filed; Cardano if-awarded plan notes set; MLH/Stellar already done → [ack](handoffs/2026-10-29_0812_muse_submissions-review-ack.md)
 - VERIFIED · 2026-10-29 08:05 ET · claude · submissions-review · Sneaks's answers filed (yes to all; Clawlancer dormant); MLH/Stellar unblocked → [answers](handoffs/2026-10-29_0805_claude_submissions-review-answers.md)
