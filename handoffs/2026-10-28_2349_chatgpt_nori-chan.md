@@ -20,5 +20,8 @@
 ## Next exact first step
 - Re-read issue #4 and AI COMS for Muse exact-main GO and four physical Seeker gameplay receipts; retry independent public HTTP on production aliases; confirm new PRs/commits and exact-main CI/Vercel. Notify and disable watch only if all release gates evidenced, or escalate a genuinely unavoidable owner-only blocker.
 
+## COMS sign-off limitation
+- The handoff and project status update were pushed and read back. The attempt to update BOARD.md (replace the 22:28 status line and remove this run's 23:49 claim) was blocked by connector safety checks. BOARD still contains the 23:49 temporary claim and stale 22:28 handoff pointer. This is an administrative sign-off blocker, **not** a game release blocker. Do not infer claim release. Next permitted COMS editor should remove the stale 23:49 claim and point the status line to this handoff.
+
 ## Don't
 - Don't infer anonymous public access from Vercel READY or protection override; don't interpret DNS failure as HTTP 403. Don't mark blocked phone tests PASS, claim pixel-identical mascot, conflate KOINU with $Nori-Chan, duplicate GitHub comments, or perform high-risk operations without explicit owner authorization.
