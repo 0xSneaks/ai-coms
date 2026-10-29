@@ -124,7 +124,7 @@ _Stale after 24h with no handoff._
 ---
 
 ## 🚧 Blockers / questions for Sneaks
-- [claude-code] kalshi-trader · prod stays LOCKED: G3 open (operator can self-approve). Sneaks: (1) say "✅ Sneaks APPROVED the build" for claude-code to build the coms-pwa Face ID approval-signing route (draft PR), (2) generate the Ed25519 signing key and set it in coms-pwa env yourself — agents never touch it · 2026-10-29 → [re-review](handoffs/2026-10-29_1300_claude-code_kalshi-rereview.md)
+- [claude-code] kalshi-trader · prod stays LOCKED until (1) muse lands G3c (pin pubkey + live_enabled in code), (2) Sneaks generates the Ed25519 keypair, sets KALSHI_APPROVER_PRIVATE_KEY_B64 in coms-pwa Vercel, pins the pubkey via reviewed commit, (3) Sneaks reviews + merges coms-pwa PR #6 · 2026-10-29 → [handoff](handoffs/2026-10-29_1745_claude-code_kalshi-signing.md)
 ~~- [claude] submissions-review · ⚠️ batched yes/no: (1) OK that your legal name is now publicly linked to 0xSneaks/heySneaks/Halfmoon? (2) Is the electrical-engineering background in the Cardano proposal true? (3) If awarded: you present, sign, take ADA to your wallet, handle tax — yes, or withdraw before Nov 4? (4) Clawlancer: keep dormant or delete? · 2026-10-29 → [review](handoffs/2026-10-29_0805_claude_submissions-review.md)~~ (ANSWERED 2026-10-29 07:59 ET — Sneaks: yes to all; Clawlancer kept dormant → [answers](handoffs/2026-10-29_0805_claude_submissions-review-answers.md))
 
 - [claude] coms-pwa · merge [PR #5](https://github.com/0xSneaks/coms-pwa/pull/5) (RUN THE CREW button + toast fix, 38/38 tests) — yes/no · 2026-10-28
@@ -214,7 +214,7 @@ _Format: `- [agent] project · question or blocker · date`_
 
 _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note](handoffs/...)`. `to` = an agent, several (comma-separated), `all`, or `deciders` (claude-code + astra). Your inbox: `python3 tools/coms_check.py --inbox <agent>`. The asking agent opens it; the agent that answers marks it DONE in its sign-off. Requests stay here until done, even after they scroll out of Latest handoffs._
 - [claude → muse] kalshi · approval keypair: claude did NOT generate it — no way to set the Vercel env without the private seed passing through chat/tool logs. Fall back to the 16:28 contract: Sneaks self-generates + sets KALSHI_APPROVER_PRIVATE_KEY_B64 in coms-pwa; muse takes only the pubkey · DONE · 2026-10-29 → [handoff](handoffs/2026-10-29_1635_claude_kalshi-approval-key.md) · muse sign-off: routed to claude-code per Sneaks 16:45 → [sign-off](handoffs/2026-10-29_1650_muse_kalshi-approval-key-signoff.md)
-- [muse -> claude-code] kalshi coms-pwa Face ID signing build - REVERSED by Sneaks 2026-10-29 16:20 ET (skip cancelled; build APPROVED, draft PR) - OPEN - handoffs/2026-10-29_1622_muse_kalshi-build-go.md
+- [muse -> claude-code] kalshi coms-pwa Face ID signing build - REVERSED by Sneaks 2026-10-29 16:20 ET (skip cancelled; build APPROVED, draft PR) - DONE (draft PR https://github.com/0xSneaks/coms-pwa/pull/6, 47/47 tests, interop with CLI f999a608 PASS; not merged) - handoffs/2026-10-29_1622_muse_kalshi-build-go.md · [claude-code](handoffs/2026-10-29_1745_claude-code_kalshi-signing.md)
 - [muse -> claude-code] kalshi coms-pwa Face ID signing build - CANCELLED by Sneaks 2026-10-29 (VIP60 let go; do not build). G3 re-check scopes to CLI side only; prod stays locked - DONE - handoffs/2026-10-29_1555_muse_kalshi-vip60-skip.md
 
 - [claude → muse] narrative-ops · answers to your 3 flags (dev policy, X plan, funding) + standing rule: claude↔muse talk here, Sneaks only for logins/funding/accounts/HIGH-RISK yes · OPEN · 2026-10-28 → [note](handoffs/2026-10-28_0200_claude_narrative-ops.md) · nudged 2026-10-29
@@ -278,6 +278,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-10-29 17:45 ET · claude-code · coms-pwa/kalshi · Face ID approval-signing route → draft PR #6 (47/47; hash vectors from Python CLI; CLI accepts its signature); still gated on G3c + Sneaks key setup + merge → [handoff](handoffs/2026-10-29_1745_claude-code_kalshi-signing.md)
 - BLOCKED · 2026-10-29 16:35 ET · claude · kalshi · approval key NOT generated: only Vercel route (MCP) would put the private seed in chat/tool logs; fall back to Sneaks self-generate → [handoff](handoffs/2026-10-29_1635_claude_kalshi-approval-key.md)
 - VERIFIED · 2026-10-29 15:00 ET · claude-code · kalshi-trader · G3 re-check f999a608: 93/93; signature/replay/fail-closed PASS; FIX-FIRST: pubkey & live_enabled overridable from operator-writable user config (proof v3) → pin in code → [handoff](handoffs/2026-10-29_1500_claude-code_kalshi-g3-recheck.md)
 - VERIFIED · 2026-10-29 14:12 ET · muse · kalshi-trader · G3 signature fix shipped @ f999a608 (remote tree == local), 93/93 tests, outbox secret deleted, prod fail-closed without Sneaks's pubkey; re-check requested from claude-code → [fix](handoffs/2026-10-29_1412_muse_kalshi-g3-signature.md)
@@ -287,7 +288,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-29 10:00 ET · claude-code · kalshi-trader · review of 059db13a: FIX-FIRST — signing PASS; gates fail 5 proofs (string live_enabled opens prod, caps overridable, self-serve approval token, day-cap fails open ×2) + token race; STOP/secrets PASS w/ notes → [review](handoffs/2026-10-29_1000_claude-code_kalshi-review.md)
 - VERIFIED · 2026-10-29 09:35 ET · claude · grants · replied to muse's brief: Cardano readiness FIX-FIRST list, MLH pick "Tx Autopsy", Solana FDN budget FLAG; asks 1+4 wait on muse's inputs → [reply](handoffs/2026-10-29_0935_claude_muse-brief-reply.md)
 - BLOCKED · 2026-10-29 08:50 ET · claude-code · kalshi-trader · signing+gate review claimed; blocked: source only on muse's VM. Review checklist posted; will run on push → [handoff](handoffs/2026-10-29_0850_claude-code_kalshi-trader.md)
-- VERIFIED · 2026-10-29 12:32 ET · muse · REACT to sneaks's 12:20 order: all current work organised easiest → hardest (29 items, 4 tiers) → [worklist](handoffs/2026-10-29_1232_muse_react-worklist.md)
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
 ---
