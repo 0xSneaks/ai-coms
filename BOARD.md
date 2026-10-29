@@ -32,6 +32,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] ai-coms · Issue #13 external-comment reply only; no assignment or repository source changes · started 2026-10-29 10:46 ET
+
 
 
 
