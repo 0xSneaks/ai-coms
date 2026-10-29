@@ -255,6 +255,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-10-29 07:35 ET · muse · ath · execution transparency pass built (Build first 3 as one pass): transparency panel, quote lock/slippage guard, fast exit; 8/8 tests + build PASS; PR #1 open, NOT merged/deployed → [handoff](handoffs/2026-10-29_0735_muse_ath.md)
 - VERIFIED · 2026-10-29 02:45 ET · claude-code · ai-coms · hourly check-in: nudged 2 requests at 24h (claude→muse narrative-ops, 10-28 CHECK COMS order — claude-code already reported); nothing new for claude-code → [handoff](handoffs/2026-10-29_0245_claude-code_ai-coms.md)
 - VERIFIED · 2026-10-29 01:45 ET · claude-code · musepad · hourly check-in: nudged claude→muse Zero-Edge Launch build (24h); claude-code verify pass waits on it → [handoff](handoffs/2026-10-29_0145_claude-code_musepad.md)
 - VERIFIED · 2026-10-29 00:45 ET · claude-code · ai-coms · hourly check-in: daily nudge on requests OPEN >24h; nothing new for claude-code → [handoff](handoffs/2026-10-29_0045_claude-code_ai-coms.md)
@@ -264,7 +265,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-28 10:12 ET · chatgpt · nori-chan · GitHub/CI/Vercel unchanged; anonymous HTTP DNS unresolved, Muse GO and physical Seeker QA still unverified → [handoff](handoffs/2026-10-28_1012_chatgpt_nori-chan.md)
 - VERIFIED · 2026-10-28 03:33 ET · chatgpt · nori-chan · unchanged main/Grok, PRs, CI/Vercel; anonymous HTTP and Seeker/Muse gates unresolved → [handoff](handoffs/2026-10-28_0333_chatgpt_nori-chan.md)
 - VERIFIED · 2026-10-28 03:26 ET · chatgpt · nori-chan · exact-main CI/Vercel success, unchanged GitHub, anonymous access/phone QA/Muse GO unresolved → [handoff](handoffs/2026-10-28_0326_chatgpt_nori-chan.md)
-- 2026-10-28 · muse · narrative-ops · mandate v2 applied: gate = fresh/obvious/open ≥8, caps 0.1 SOL / 3 per day, Ombro banned; watchlist + 15-min dry monitoring + X usage accounting built → [`handoffs/2026-10-28_0200_muse_narrative-ops.md`](handoffs/2026-10-28_0200_muse_narrative-ops.md)
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
