@@ -15,6 +15,7 @@ VERIFIED: v0 built (feed, launch, trade, coin page, creator + platform fee claim
 - Feed / launch / coin / admin / fees pages — `src/app` — VERIFIED (build + smoke)
 - Fee config — `src/lib/athCurve.ts` — VERIFIED (CI e2e: 50 bps, 3:1:1 split, ~87 SOL graduation)
 - CI e2e on local validator w/ cloned Meteora DBC — `.github/workflows/devnet-e2e.yml` — VERIFIED
+- Execution transparency pass (transparency panel, quote lock/slippage guard, fast-exit sell-all) — `src/lib/execution.ts` + coin page — VERIFIED local (8/8 tests, tsc, build) on branch `feat/execution-transparency`, **PR #1 open, not merged/deployed** (2026-10-29, muse)
 
 ## To do (priority order)
 1. Deploy on Vercel + create devnet config via /admin — Sneaks
