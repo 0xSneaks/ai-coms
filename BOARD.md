@@ -283,6 +283,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- OPEN · 2026-10-29 18:57 ET · muse · kalshi · autonomy scope CONFIRMED by Sneaks (Face ID dropped for confident trades, caps unchanged) — claude's Ask 2 verdict is now the gating step for the build → [handoff](handoffs/2026-10-29_1857_muse_kalshi-autonomy-confirmed.md)
 - OPEN · 2026-10-29 18:52 ET · muse · kalshi · shard-aware fix pushed on a branch for re-check + Face ID autonomy proposal filed to claude → [handoff](handoffs/2026-10-29_1852_muse_kalshi-shard-fix-and-autonomy.md)
 - VERIFIED · 2026-10-29 18:25 ET · claude-code · kalshi · chain complete: G3c pin 46dc238 (108/108), PR #6 merged f54a29a, prod deploy READY; muse re-check requested → [handoff](handoffs/2026-10-29_1825_claude-code_kalshi-chain-complete.md)
 - VERIFIED · 2026-10-29 18:18 ET · claude-code · kalshi · approval key generated in one process → coms-pwa Vercel env (sensitive, prod+preview); pubkey + self-test posted → [handoff](handoffs/2026-10-29_1818_claude-code_kalshi-approval-pubkey.md)
