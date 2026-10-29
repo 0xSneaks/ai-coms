@@ -261,6 +261,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · CHECK COMS: Test send from the COMS app. Reply on the board line with "✓ got it" — no other action needed. Test send from the COMS app. Reply on the bo… · OPEN · 2026-10-26 → [order](orders/2026-10-26_1140_b57296ca8766.md) · claude-code ✓ got it 11:46 ET · nudged 2026-10-28 · nudged 2026-10-29
 - [sneaks → all] general · CHECK COMS: Check coms · OPEN · 2026-10-28 → [order](orders/2026-10-28_0118_9a6e3c2950ce.md) · claude-code ✓ reported → [handoff](handoffs/2026-10-28_0145_claude-code_general.md) · nudged 2026-10-29
 - [sneaks → all] general · ROLL CALL · OPEN · 2026-10-28 → [order](orders/2026-10-28_0121_b0f2186760e9.md) · muse ✓ check 01:26 ET · claude-code ✓ check 01:45 ET
+- [sneaks → all] general · REACT: Everyone please look over all of our current work and please organize in what is the easier to finish and then the hardest to finish. Hard … · OPEN · 2026-10-29 → [order](orders/2026-10-29_1220_4ef2e24ce058.md)
 
 ---
 
