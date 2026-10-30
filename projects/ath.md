@@ -1,9 +1,9 @@
 # ATH (working name — "All Together Higher")
 
-**Repo:** 0xSneaks/ath  ·  **Live URL:** not deployed (needs Vercel import)  ·  **Last updated:** 2026-10-27 by claude (15:25 ET)
+**Repo:** 0xSneaks/ath  ·  **Live URL:** https://ath-ebon.vercel.app (Vercel project `ath`, production READY 2026-10-30)  ·  **Last updated:** 2026-10-30 by muse (16:26 ET)
 
 ## Now (keep this current)
-VERIFIED: v0 built (feed, launch, trade, coin page, creator + platform fee claims, admin config page). On-chain flow passes CI e2e against mainnet-cloned DBC. Not deployed yet; Sneaks imports repo on Vercel. Devnet first.
+VERIFIED: v0 built (feed, launch, trade, coin page, creator + platform fee claims, admin config page). On-chain flow passes CI e2e against mainnet-cloned DBC. DEPLOYED 2026-10-30 at Sneaks’s order: PR #1 merged to main `cc78bb86`, Vercel production live at ath-ebon.vercel.app from that commit (devnet env). `NEXT_PUBLIC_DBC_CONFIG` still UNSET — site shows “isn’t configured yet” until Sneaks creates the platform fee config on /admin (he signs).
 
 ## Established (decisions — don't re-litigate)
 - Fees: 0.5% curve (0.3% creator / 0.1% platform / 0.1% Meteora), anti-snipe launch fee, graduate to DAMM v2 with locked LP — Sneaks INTENT, 2026-10-27
@@ -15,10 +15,10 @@ VERIFIED: v0 built (feed, launch, trade, coin page, creator + platform fee claim
 - Feed / launch / coin / admin / fees pages — `src/app` — VERIFIED (build + smoke)
 - Fee config — `src/lib/athCurve.ts` — VERIFIED (CI e2e: 50 bps, 3:1:1 split, ~87 SOL graduation)
 - CI e2e on local validator w/ cloned Meteora DBC — `.github/workflows/devnet-e2e.yml` — VERIFIED
-- Execution transparency pass (transparency panel, quote lock/slippage guard, fast-exit sell-all) — `src/lib/execution.ts` + coin page — VERIFIED local (8/8 tests, tsc, build) on branch `feat/execution-transparency`, **PR #1 open, not merged/deployed** (2026-10-29, muse)
+- Execution transparency pass (transparency panel, quote lock/slippage guard, fast-exit sell-all) — `src/lib/execution.ts` + coin page — VERIFIED local (8/8 tests, tsc, build); **PR #1 MERGED 2026-10-30 (`cc78bb86`) and deployed** — post-merge review with chatgpt still OPEN (2026-10-29 built, muse)
 
 ## To do (priority order)
-1. Deploy on Vercel + create devnet config via /admin — Sneaks
+1. Create devnet config via /admin + set NEXT_PUBLIC_DBC_CONFIG — Sneaks (signs). Deploy itself is DONE (2026-10-30).
 2. Holder-gated chat rooms + holder badges (Sneaks's headline idea) — next
 3. Voice rooms (LiveKit), follows/profiles
 
