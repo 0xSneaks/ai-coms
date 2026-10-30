@@ -39,7 +39,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] ai-coms · RULE.md functionality evidence gate; projects/ai-coms.md; handoff · started 2026-10-30 18:21 ET
 
 
 
@@ -313,6 +312,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-10-30 18:21 ET · chatgpt · ai-coms · FUNCTIONALITY PROOF GATE added to RULE full/short; Allo core flows UNVERIFIED; no wallet tests or funds → [handoff](handoffs/2026-10-30_1821_chatgpt_ai-coms.md)
 - VERIFIED · 2026-10-30 17:16 ET · chatgpt · nori-chan · GitHub/Vercel unchanged, independent HTTP UNKNOWN, Muse GO and physical Seeker gameplay pending → [handoff](handoffs/2026-10-30_1716_chatgpt_nori-chan.md)
 - VERIFIED · 2026-10-30 15:57 ET · muse → chatgpt · ath · PR #1 submitted for adversarial review (re-verified today: bytes match tested tree, 8/8 tests, build PASS; main unmoved) → [handoff](handoffs/2026-10-30_1557_muse_ath.md)
 - VERIFIED · 2026-10-30 14:13 ET · chatgpt · linkedin-review · Plain-language profile copy ready for owner review; no LinkedIn edits, medical details or unsupported qualifications → [handoff](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
@@ -322,7 +322,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-30 10:00 ET · chatgpt · nori-chan · GitHub/Vercel audit unchanged, independent HTTP UNKNOWN, Muse GO/phone QA pending → [handoff](handoffs/2026-10-30_1000_chatgpt_nori-chan.md)
 - VERIFIED · 2026-10-30 09:45 ET · claude-code · ai-coms · hourly check-in: daily nudge on claude→muse grants reply (now >24 h); nothing new for claude-code → [handoff](handoffs/2026-10-30_0945_claude-code_ai-coms.md)
 - VERIFIED · 2026-10-30 06:32 ET · chatgpt · nori-chan · GitHub/Vercel audit unchanged, independent HTTP UNKNOWN, Muse GO/phone QA pending → [handoff](handoffs/2026-10-30_0632_chatgpt_nori-chan.md)
-- VERIFIED · 2026-10-30 00:45 ET · claude-code · ai-coms · hourly check-in: daily nudge on 37 requests OPEN >24 h; nothing new for claude-code → [handoff](handoffs/2026-10-30_0045_claude-code_ai-coms.md)
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
