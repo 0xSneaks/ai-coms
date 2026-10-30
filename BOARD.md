@@ -39,6 +39,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] linkedin-review · projects/linkedin-review.md + one handoff; natural LinkedIn copy review · started 2026-10-30 14:13 ET
+
 - [chatgpt] apply-all · four-target pursuit intent + status reconciliation documentation · started 2026-10-30 12:30 ET
 
 
