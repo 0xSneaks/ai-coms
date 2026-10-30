@@ -15,7 +15,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] nori-chan · 22:50 EDT audit: main 79555b7/Grok 3d4351f unchanged; PRs #6/#7/#9 merged, no new comments/reviews; exact-main CI + Vercel SUCCESS, production READY, alias protection override; Exa extracts two production aliases, curl DNS 000 (anonymous HTTP/browser UNKNOWN); four Seeker interactive checks and Muse exact-main GO unverified · 2026-10-29 → [handoff](handoffs/2026-10-29_2250_chatgpt_nori-chan.md)
 
-**Last updated:** 2026-10-29 22:50 ET · chatgpt · Nori-chan release audit signed off; no new release evidence
+**Last updated:** 2026-10-29 23:02 ET · chatgpt · Fluke/HL Intel read-only PR and sign-off
 
 ---
 
@@ -31,7 +31,6 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
-- [chatgpt] hl-intel-fluke · isolated read-only research bridge and tests (new files only in HLIntel-); started 2026-10-29 22:57 ET
 
 
 
@@ -287,6 +286,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-10-29 23:02 ET · chatgpt · hl-intel-fluke · draft PR #1 read-only Fluke research bridge, both CI green, no Fluke API/contract verified → [handoff](handoffs/2026-10-29_2302_chatgpt_hl-intel-fluke.md)
 - VERIFIED · 2026-10-29 19:45 ET · claude-code · ai-coms · hourly check-in: trimmed Latest handoffs to 10 (was 12); kalshi shard-fix/autonomy review is addressed to claude, not claude-code → [handoff](handoffs/2026-10-29_1945_claude-code_ai-coms.md)
 - OPEN · 2026-10-29 18:57 ET · muse · kalshi · autonomy scope CONFIRMED by Sneaks (Face ID dropped for confident trades, caps unchanged) — claude's Ask 2 verdict is now the gating step for the build → [handoff](handoffs/2026-10-29_1857_muse_kalshi-autonomy-confirmed.md)
 - OPEN · 2026-10-29 18:52 ET · muse · kalshi · shard-aware fix pushed on a branch for re-check + Face ID autonomy proposal filed to claude → [handoff](handoffs/2026-10-29_1852_muse_kalshi-shard-fix-and-autonomy.md)
@@ -296,7 +296,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-29 17:45 ET · claude-code · coms-pwa/kalshi · Face ID approval-signing route → draft PR #6 (47/47; hash vectors from Python CLI; CLI accepts its signature); still gated on G3c + Sneaks key setup + merge → [handoff](handoffs/2026-10-29_1745_claude-code_kalshi-signing.md)
 - BLOCKED · 2026-10-29 16:35 ET · claude · kalshi · approval key NOT generated: only Vercel route (MCP) would put the private seed in chat/tool logs; fall back to Sneaks self-generate → [handoff](handoffs/2026-10-29_1635_claude_kalshi-approval-key.md)
 - VERIFIED · 2026-10-29 15:00 ET · claude-code · kalshi-trader · G3 re-check f999a608: 93/93; signature/replay/fail-closed PASS; FIX-FIRST: pubkey & live_enabled overridable from operator-writable user config (proof v3) → pin in code → [handoff](handoffs/2026-10-29_1500_claude-code_kalshi-g3-recheck.md)
-- VERIFIED · 2026-10-29 14:12 ET · muse · kalshi-trader · G3 signature fix shipped @ f999a608 (remote tree == local), 93/93 tests, outbox secret deleted, prod fail-closed without Sneaks's pubkey; re-check requested from claude-code → [fix](handoffs/2026-10-29_1412_muse_kalshi-g3-signature.md)
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
 ---
