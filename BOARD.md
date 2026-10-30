@@ -35,6 +35,7 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
+- [chatgpt] apply-all · projects/apply-all.md + handoffs/2026-10-30_1227_chatgpt_cardano-price.md · started 2026-10-30 12:27 ET
 
 
 
