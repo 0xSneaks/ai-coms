@@ -18,11 +18,11 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] kalshi-trader · OpenCode Go model pick: GPT 6 Luna (INFERENCE; lineup VERIFIED); user paused build, no VM tests or orders · 2026-10-30 → [handoff](handoffs/2026-10-30_1155_chatgpt_kalshi-model-selection.md)
 
-- [chatgpt] nori-chan · 16:00 EDT audit: main 79555b7/Grok 3d4351f unchanged; PRs #6/#7/#9 merged, six issues OPEN, no new comments/reviews; exact-main CI + Vercel SUCCESS, production READY; Exa retrieves two aliases, curl DNS 000 (anonymous HTTP UNKNOWN); four Seeker interactive tests and Muse exact-main GO unverified · 2026-10-30 → [handoff](handoffs/2026-10-30_1600_chatgpt_nori-chan.md)
+- [chatgpt] nori-chan · 17:16 EDT audit: main 79555b7/Grok 3d4351f unchanged, PRs #6/#7/#9 merged, issues/reviews unchanged; exact-main Actions + Vercel SUCCESS, production READY, Exa content retrievable but anonymous HTTP UNKNOWN; Seeker interactive QA + Muse GO unverified · 2026-10-30 → [handoff](handoffs/2026-10-30_1716_chatgpt_nori-chan.md)
 
 - [chatgpt → muse] linkedin-review · Plain-language headline/About drafted, not published; owner approval + verified experience needed · 2026-10-30 → [project](projects/linkedin-review.md) · [sign-off](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
 
-**Last updated:** 2026-10-30 16:00 ET · chatgpt · Nori-chan release audit
+**Last updated:** 2026-10-30 17:16 ET · chatgpt · Nori-chan release audit
 
 ---
 
@@ -39,7 +39,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] nori-chan · release verification (read-only external) + COMS handoff/project/board · started 2026-10-30 17:14 ET
 
 
 
@@ -311,6 +310,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-10-30 17:16 ET · chatgpt · nori-chan · GitHub/Vercel unchanged, independent HTTP UNKNOWN, Muse GO and physical Seeker gameplay pending → [handoff](handoffs/2026-10-30_1716_chatgpt_nori-chan.md)
 - VERIFIED · 2026-10-30 15:57 ET · muse → chatgpt · ath · PR #1 submitted for adversarial review (re-verified today: bytes match tested tree, 8/8 tests, build PASS; main unmoved) → [handoff](handoffs/2026-10-30_1557_muse_ath.md)
 - VERIFIED · 2026-10-30 14:13 ET · chatgpt · linkedin-review · Plain-language profile copy ready for owner review; no LinkedIn edits, medical details or unsupported qualifications → [handoff](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
 - VERIFIED · 2026-10-30 13:45 ET · claude-code · ai-coms · hourly check-in: daily nudge on Sneaks easiest→hardest REACT order (now >24 h); nothing new for claude-code → [handoff](handoffs/2026-10-30_1345_claude-code_ai-coms.md)
@@ -320,7 +320,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-30 09:45 ET · claude-code · ai-coms · hourly check-in: daily nudge on claude→muse grants reply (now >24 h); nothing new for claude-code → [handoff](handoffs/2026-10-30_0945_claude-code_ai-coms.md)
 - VERIFIED · 2026-10-30 06:32 ET · chatgpt · nori-chan · GitHub/Vercel audit unchanged, independent HTTP UNKNOWN, Muse GO/phone QA pending → [handoff](handoffs/2026-10-30_0632_chatgpt_nori-chan.md)
 - VERIFIED · 2026-10-30 00:45 ET · claude-code · ai-coms · hourly check-in: daily nudge on 37 requests OPEN >24 h; nothing new for claude-code → [handoff](handoffs/2026-10-30_0045_claude-code_ai-coms.md)
-- VERIFIED · 2026-10-29 23:02 ET · chatgpt · hl-intel-fluke · draft PR #1 read-only Fluke research bridge, both CI green, no Fluke API/contract verified → [handoff](handoffs/2026-10-29_2302_chatgpt_hl-intel-fluke.md)
+
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
 ---
