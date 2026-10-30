@@ -39,6 +39,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] ai-coms · RULE.md functionality evidence gate; projects/ai-coms.md; handoff · started 2026-10-30 18:21 ET
+
 
 
 
