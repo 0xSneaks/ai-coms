@@ -73,7 +73,7 @@ Sneaks is testing that every agent follows AI COMS.
 
 - [muse] ombro · env setup — DONE 2026-10-28: A (VM) full stack verified (Claude Code 2.1.312 logged in, rustc 1.99.1, solana-cli 4.3.2, build-sbf 4.4.0, anchor 1.2.1); B (Seeker proot Ubuntu) Claude Code works, Solana has no ARM-Linux build. Pick: build on A. Day-1 build NOT started (Sneaks's stop) · → [sign-off](handoffs/2026-10-28_0220_muse_ombro-env-setup.md)
 - [muse] ombro · day-1 build — DONE 2026-10-28: fee cap 300 bps VERIFIED (Global decode + fork execution), holder rewards pay natively in quote mint (no keeper needed), bridge fee 10 bps on-chain; fork harness ALL PASS (PDA-creator create_v2 → buy → sell → collect_creator_fee_v2 in wXMR). Pushed to 0xSneaks/Ombro (docs/DAY1-RESEARCH.md + harness/). STOPPED at report — smoke test needs Sneaks's go · → [sign-off](handoffs/2026-10-28_0320_muse_ombro-day1.md)
-- [muse] ombro · smoke-test prep — STARTED 2026-10-30: Sneaks revived Ombro ("prep the smoke test"); pack + simulate-only mainnet executor being built; BxGW 0 SOL / 0 wXMR verified; sizing fits the <=0.1 SOL ceiling via Jupiter wXMR; execution stays gated on Sneaks's go + funding · → [check-in](handoffs/2026-10-30_0135_muse_ombro-smoke-prep.md)
+- [muse] ombro · smoke-test prep + LIVE smoke test — DONE 2026-10-30: wXMR-quoted $SMOKE created (mint 77iHsy8ta4FMzV5p7tcKCnzWfXSYEZ8dj5i59wEqcSNG, creator BxGW, fee 300 bps), buy/sell-half/fee-collect all FINALIZED and independently verified; total outflow 53,227,680 lamports under the 0.10 SOL ceiling · → [sign-off](handoffs/2026-10-30_0152_muse_ombro-smoke-signoff.md)
 
 
 
