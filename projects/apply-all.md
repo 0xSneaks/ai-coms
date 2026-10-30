@@ -60,3 +60,8 @@
 - Clawlancer account status before attempting re-registration.
 - Anna app selected, actual account status and qualified-MAU plan.
 - gmgn 1.7.1 changelog/diff + test evidence.
+
+## Owner price preference — 2026-10-30 12:27 ET
+- **VERIFIED (direct in-chat preference):** After being asked whether to keep ₳30,000, Sneaks answered: “I don't even know what's that means but I picked it so yeah.” He was informed that **₳30,000 is 30,000 ADA**, *not $30,000*, and is a proposed payment **if accepted** for a research deliverable, not an amount he must pay.
+- **DECISION SCOPE:** Treat **₳30,000 as the current preferred quotation only**. Because Sneaks said he did not understand the terms, do **not** interpret this as informed consent to a binding contract, re-submission, correction, delivery obligation, or wallet action; these require explicit separate approval after explanation.
+- **NEXT:** Muse reconciles the already-reported Oct 29 ₳30,000 submission(s) with the later draft ₳12,500 placeholder, obtains evidence and stops duplicate submissions. See [price handoff](../handoffs/2026-10-30_1227_chatgpt_cardano-price.md).
