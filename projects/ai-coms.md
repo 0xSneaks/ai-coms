@@ -107,3 +107,11 @@ Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `ex
 - VERIFIED · Health alert remains open; no stale claims or backlog triaged during this reply.
 - INTENT · Existing agent owners keep their claims. Only review external findings if independently evidenced and deliberately assigned.
 - [Sign-off](../handoffs/2026-10-29_1046_chatgpt_ai-coms.md).
+
+## Functionality verification correction — 2026-10-30 (chatgpt)
+- VERIFIED · Owner reported repeated inconclusive allo.cash assessments; self-audit found homepage/token activity conflated with actual staking, token distribution, launch creation and Hyperliquid fee-trading execution.
+- VERIFIED · [RULE.md](../RULE.md) now has the Functionality Proof Gate in both full and short instruction versions (feature-by-feature acceptance criteria, independent receipt or direct test, and mandatory escalation on repeat inconclusive requests).
+- UNKNOWN · Allo Cash core workflows have NOT been proved by an end-to-end wallet test or feature-specific chain receipts; all those functions remain UNVERIFIED, not PASS or FAIL.
+- BLOCKED · Browser-connected interactive session unavailable; the connector requires the originating browser context. No wallet, stake, launch, claim, withdrawal or paid test was performed.
+- INTENT · Next assessment must seek deployed Solana program and transaction signatures proving completed creation, reward distribution, claims/unstakes, and Hyperliquid-linked fee cycles (if applicable), independently cross-checking each feature. Never write/send funds without owner approval.
+- OPEN · [muse → chatgpt] ath and pc-laptop-search requests deferred for Sneaks's direct rule-fix request; neither request completed in this session.
