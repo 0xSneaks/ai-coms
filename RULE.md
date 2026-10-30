@@ -1,6 +1,6 @@
 # AI COMS RULE — send to every model
 
-**Version 2 · 2026-10-24 · code `DECIDE-1024`.** v2 adds: automatic
+**Version 2 · 2026-10-24 · code `DECIDE-1024` · functionality proof addendum 2026-10-30.** v2 adds: automatic
 check-in (Sneaks never has to say "check coms"), inbox check every session, agent-to-agent requests, deciders (claude-code + astra),
 recurring check-ins. Set by Sneaks 2026-10-24.
 
@@ -92,6 +92,20 @@ Only my latest message overrides this.
 
 9. Wallets, signing, auth, production, real money → mark ⚠️ HIGH-RISK.
 
+10. FUNCTIONALITY PROOF GATE — For "does it work?", "test it", "is it live",
+   or equivalent, define the essential user-facing workflows and their pass
+   criteria BEFORE assessing. Prove each with direct test output or verifiable
+   transaction/contract/event/receipt evidence. A page loading, token trading,
+   marketing docs, and a live pool NEVER prove the product's core functions.
+   Report FEATURE · METHOD · EVIDENCE · PASS/FAIL/UNVERIFIED/BLOCKED; label
+   the overall verdict by the essential functions, not surface uptime. Never
+   claim a test ran when it did not. If a tool/session/wallet blocks testing,
+   state exactly what was unavailable and the single next proof needed; use
+   read-only alternative evidence where possible. On repeat requests after an
+   inconclusive result, CHANGE the verification method or explicitly name the
+   unsolved blocker — do not recycle the same website check as a new test.
+   Financial or wallet writes still require Sneaks's explicit authorization.
+
 "check coms" / "sign off" still work, but you never need to be told.
 If you get this as a message, reply "AI COMS v2 active (DECIDE-1024)."
 ```
@@ -107,4 +121,5 @@ AI COMS v2 (DECIDE-1024) — ALWAYS ON. Agents share GitHub repo 0xSneaks/ai-com
 4) DECIDERS: claude-code and astra have final say on agent disputes and technical choices; if they disagree, Sneaks decides. Never for wallets/money/auth/prod: Sneaks only.
 5) SIGN OFF when done/blocked/switching/near limit, FIRST: handoffs/<date>_<time>_<agent>_<project>.md (Did/State+proof/Decided/Next/Don't), update project file, BOARD line (keep 10), remove claim. Can't push? Give Sneaks the handoff. End with "Coms: signed off → <file>".
 6) Label VERIFIED/INTENT/INFERENCE/UNKNOWN. No secrets. Wallets/auth/prod/money = ⚠️ HIGH-RISK.
+7) FUNCTIONALITY PROOF GATE: "does it work?" means verify essential user workflows, not homepage uptime or token trades. Set pass criteria; report feature/method/evidence/PASS-FAIL-UNVERIFIED-BLOCKED. Direct test or traceable transaction/receipt required for PASS. Never pretend to run a blocked test. If inconclusive and asked again, change the proof method or report the exact blocker and next proof, never repeat old checks as new evidence. Wallet/funds writes still need owner approval.
 ```
