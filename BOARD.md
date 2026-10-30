@@ -31,6 +31,7 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
+- [chatgpt] hl-intel-fluke · isolated read-only research bridge and tests (new files only in HLIntel-); started 2026-10-29 22:57 ET
 
 
 
