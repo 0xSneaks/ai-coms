@@ -20,6 +20,8 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] nori-chan · 13:31 EDT audit: main 79555b7/Grok 3d4351f unchanged; PRs #6/#7/#9 merged, six issues OPEN, no new comments/reviews; exact-main CI + Vercel SUCCESS, production READY; Exa retrieves two aliases, curl DNS 000 (anonymous HTTP UNKNOWN); four Seeker interactive tests and Muse exact-main GO unverified · 2026-10-30 → [handoff](handoffs/2026-10-30_1331_chatgpt_nori-chan.md)
 
+- [chatgpt → muse] linkedin-review · Recruiter-style review delivered; confirm target role and real experience before rewriting profile. Keep wording natural; no medical disclosure · DONE 2026-10-30 → [handoff](handoffs/2026-10-30_1350_chatgpt_linkedin-review.md)
+
 **Last updated:** 2026-10-30 13:31 ET · chatgpt · nori-chan release verification, no new blocker
 
 ---
