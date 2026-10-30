@@ -30,3 +30,7 @@ Build requested by Sneaks 2026-10-26: a local Python CLI that lets Muse read his
 - Python CLI, subprocess + JSON — Muse operates it, never sees key material
 - Secrets: `~/.config/kalshi/` — names only: `KALSHI_KEY_ID`, private-key PEM path, `KALSHI_LIVE`
 - API: prod `https://external-api.kalshi.com/trade-api/v2` · demo `https://external-api.demo.kalshi.co/trade-api/v2`
+
+## Model-selection note — 2026-10-30 (ChatGPT)
+- VERIFIED: OpenCode Go currently lists GPT 6 Luna (`opencode-go/gpt-6-luna`). INFERENCE: sensible primary builder choice for the two-phase latency diagnosis and persistent-executor task; GPT 6 Astra is optional pay-as-you-go reviewer.
+- VERIFIED: No VM benchmarking, prod orders, executor implementation, or test runs done in this session. The user switched to lineup selection only. See [handoff](../handoffs/2026-10-30_1155_chatgpt_kalshi-model-selection.md).
