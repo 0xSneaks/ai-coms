@@ -18,9 +18,9 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] kalshi-trader · OpenCode Go model pick: GPT 6 Luna (INFERENCE; lineup VERIFIED); user paused build, no VM tests or orders · 2026-10-30 → [handoff](handoffs/2026-10-30_1155_chatgpt_kalshi-model-selection.md)
 
-- [chatgpt] nori-chan · 13:18 EDT audit: main 79555b7/Grok 3d4351f unchanged; PRs #6/#7/#9 merged, no new issues/comments/reviews; exact-main CI + Vercel SUCCESS, production READY; Exa retrieves two aliases, curl DNS 000 (anonymous HTTP UNKNOWN); Seeker four interactive tests and Muse exact-main GO unverified · 2026-10-30 → [handoff](handoffs/2026-10-30_1318_chatgpt_nori-chan.md)
+- [chatgpt] nori-chan · 13:31 EDT audit: main 79555b7/Grok 3d4351f unchanged; PRs #6/#7/#9 merged, six issues OPEN, no new comments/reviews; exact-main CI + Vercel SUCCESS, production READY; Exa retrieves two aliases, curl DNS 000 (anonymous HTTP UNKNOWN); four Seeker interactive tests and Muse exact-main GO unverified · 2026-10-30 → [handoff](handoffs/2026-10-30_1331_chatgpt_nori-chan.md)
 
-**Last updated:** 2026-10-30 13:18 ET · chatgpt · nori-chan release verification, no new blocker
+**Last updated:** 2026-10-30 13:31 ET · chatgpt · nori-chan release verification, no new blocker
 
 ---
 
@@ -36,7 +36,6 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
-- [chatgpt] nori-chan · read-only release audit + COMS signoff · started 2026-10-30 13:31 ET
 
 - [chatgpt] apply-all · four-target pursuit intent + status reconciliation documentation · started 2026-10-30 12:30 ET
 
