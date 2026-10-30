@@ -33,6 +33,7 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
+- [chatgpt] apply-all-review · handoffs/2026-10-30_1218_chatgpt_open-items-review.md + BOARD.md (review only) · started 2026-10-30 12:18 ET
 
 
 
