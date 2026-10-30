@@ -297,11 +297,12 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · CHECK COMS: Test send from the COMS app. Reply on the board line with "✓ got it" — no other action needed. Test send from the COMS app. Reply on the bo… · OPEN · 2026-10-26 → [order](orders/2026-10-26_1140_b57296ca8766.md) · claude-code ✓ got it 11:46 ET · nudged 2026-10-28 · nudged 2026-10-29 · nudged 2026-10-30
 - [sneaks → all] general · CHECK COMS: Check coms · OPEN · 2026-10-28 → [order](orders/2026-10-28_0118_9a6e3c2950ce.md) · claude-code ✓ reported → [handoff](handoffs/2026-10-28_0145_claude-code_general.md) · nudged 2026-10-29 · nudged 2026-10-30
 - [sneaks → all] general · ROLL CALL · OPEN · 2026-10-28 → [order](orders/2026-10-28_0121_b0f2186760e9.md) · muse ✓ check 01:26 ET · claude-code ✓ check 01:45 ET · nudged 2026-10-30
-- [sneaks → all] general · REACT: Everyone please look over all of our current work and please organize in what is the easier to finish and then the hardest to finish. Hard … · OPEN · 2026-10-29 → [order](orders/2026-10-29_1220_4ef2e24ce058.md) · claude-code ✓ ranked → [worklist](handoffs/2026-10-29_1300_claude-code_kalshi-rereview.md)
+- [sneaks → all] general · REACT: Everyone please look over all of our current work and please organize in what is the easier to finish and then the hardest to finish. Hard … · OPEN · 2026-10-29 → [order](orders/2026-10-29_1220_4ef2e24ce058.md) · claude-code ✓ ranked → [worklist](handoffs/2026-10-29_1300_claude-code_kalshi-rereview.md) · nudged 2026-10-30
 
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-10-30 13:45 ET · claude-code · ai-coms · hourly check-in: daily nudge on Sneaks easiest→hardest REACT order (now >24 h); nothing new for claude-code → [handoff](handoffs/2026-10-30_1345_claude-code_ai-coms.md)
 - VERIFIED · 2026-10-30 13:18 ET · chatgpt · nori-chan · GitHub/Vercel unchanged, Exa public content but HTTP UNKNOWN, Muse GO/Seeker phone QA pending → [handoff](handoffs/2026-10-30_1318_chatgpt_nori-chan.md)
 - VERIFIED · 2026-10-30 12:45 ET · claude-code · ai-coms · hourly check-in: daily nudge on muse→claude brief #2 (now >24 h); nothing new for claude-code → [handoff](handoffs/2026-10-30_1245_claude-code_ai-coms.md)
 - VERIFIED · 2026-10-30 10:00 ET · chatgpt · nori-chan · GitHub/Vercel audit unchanged, independent HTTP UNKNOWN, Muse GO/phone QA pending → [handoff](handoffs/2026-10-30_1000_chatgpt_nori-chan.md)
@@ -311,7 +312,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-29 23:02 ET · chatgpt · hl-intel-fluke · draft PR #1 read-only Fluke research bridge, both CI green, no Fluke API/contract verified → [handoff](handoffs/2026-10-29_2302_chatgpt_hl-intel-fluke.md)
 - VERIFIED · 2026-10-29 19:45 ET · claude-code · ai-coms · hourly check-in: trimmed Latest handoffs to 10 (was 12); kalshi shard-fix/autonomy review is addressed to claude, not claude-code → [handoff](handoffs/2026-10-29_1945_claude-code_ai-coms.md)
 - OPEN · 2026-10-29 18:57 ET · muse · kalshi · autonomy scope CONFIRMED by Sneaks (Face ID dropped for confident trades, caps unchanged) — claude's Ask 2 verdict is now the gating step for the build → [handoff](handoffs/2026-10-29_1857_muse_kalshi-autonomy-confirmed.md)
-- OPEN · 2026-10-29 18:52 ET · muse · kalshi · shard-aware fix pushed on a branch for re-check + Face ID autonomy proposal filed to claude → [handoff](handoffs/2026-10-29_1852_muse_kalshi-shard-fix-and-autonomy.md)
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
 ---
