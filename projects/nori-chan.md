@@ -1,9 +1,9 @@
 # Nori-chan × Koinu
 
-**Repo:** 0xSneaks/-Nori-chan  ·  **Live URL:** https://nori-chan-phantomcapais-projects.vercel.app (anonymous HTTP/browser pending independent verification)  ·  **Last updated:** 2026-10-31 15:51 EDT by chatgpt
+**Repo:** 0xSneaks/-Nori-chan  ·  **Live URL:** https://nori-chan-phantomcapais-projects.vercel.app (anonymous HTTP/browser pending independent verification)  ·  **Last updated:** 2026-10-31 16:34 EDT by chatgpt
 
 ## Now (keep this current)
-**Fresh GitHub/Vercel audit 2026-10-31 15:51 EDT:** Public main `79555b7d4434733be3504122bade557afd499b51` unchanged; Grok `grok/graphics` `3d4351f39a029d6626f4494452ff77fac7a8830a` unchanged. Five branches; only PRs #6/#7/#9, all merged; six tracked issues OPEN; no new comments/reviews. **CORRECTION:** Grok branch is diverged vs main (10 ahead/4 behind), not identical; selected anime art is integrated in main, painted alternative remains on Grok. Main Actions run `39084816787` check SUCCESS (npm ci, check, premium-build, audit), Vercel commit status SUCCESS. Production deployment `dpl_AKVDeJ6KQjJYucdszx8yikpDMXbX` READY on exact main, no newer production deploy. Project SSO `all_except_custom_domains` enabled; team alias has wildcard protection override, generic alias none. Exa retrieved expected page text from both aliases; independent anonymous HTTP/browser still UNKNOWN (web inaccessible, curl DNS HTTP 000, connected browser unavailable). Muse Oct 19 HTTP 200 secondary evidence. Correct `$Nori-Chan` not launched, KOINU reference only, checkout disabled. Koinu image is AI-assisted recreation from owner's screenshot, not proven pixel-identical original; README provenance language is overstrong. Muse GO on exact main and four physical Seeker interactive tests remain BLOCKED/UNVERIFIED. No new owner-only blocker; no notification. See latest handoff.
+**Fresh GitHub/Vercel audit 2026-10-31 16:34 EDT:** Public main `79555b7d4434733be3504122bade557afd499b51` and Grok `3d4351f39a029d6626f4494452ff77fac7a8830a` unchanged; five branches, Grok diverged 10 ahead/4 behind (painted alternate unused; owner-selected anime integrated). Only PRs #6/#7/#9, all merged; six tracked issues OPEN; no newer issue/PR comments or reviews. Main Actions `39084816787` check SUCCESS (npm ci, check, premium-build, audit); Vercel commit status SUCCESS. Production deployment `dpl_AKVDeJ6KQjJYucdszx8yikpDMXbX` READY on exact main; newer Grok deployment preview only. Project SSO `all_except_custom_domains` enabled; team alias retains wildcard protection override. Exa retrieves expected page from both aliases; direct unauthenticated HTTP remains UNKNOWN (web inaccessible, curl DNS HTTP 000, connected browser unavailable). Muse Oct 19 HTTP 200 secondary evidence. Correct `$Nori-Chan` not launched, KOINU reference only, checkout disabled. Koinu mascot provenance remains AI-assisted recreation, not proven pixel-identical original. Muse GO on exact main and four physical Seeker tests remain BLOCKED/UNVERIFIED. No new owner-only blocker; no notification. See latest handoff.
 
 ## Established (decisions — don't re-litigate)
 - Nori-chan × Koinu; ticker `$Nori-Chan`, NOT `$SUSHI`; token not launched and no mint/buy links — owner decision at 4a778a5.
@@ -28,7 +28,7 @@
 - Vercel connector reads project/deployment and production aliases; project SSO remains `all_except_custom_domains`, but the team production alias has a wildcard protection override. Independent anonymous HTTP remains unverified. No claim of a smoke test without an actual HTTP response.
 
 ## Latest handoff
-- [2026-10-31 15:51 chatgpt release audit](../handoffs/2026-10-31_1551_chatgpt_nori-chan.md)
+- [2026-10-31 16:34 chatgpt release audit](../handoffs/2026-10-31_1634_chatgpt_nori-chan.md)
 
 ## Stack & where things live
 - GitHub PRs #6/#7/#9, issues #1/#2/#3/#4/#5/#8; Vercel team `phantomcapais-projects`.
