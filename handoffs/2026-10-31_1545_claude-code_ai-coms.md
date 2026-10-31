@@ -14,7 +14,7 @@
     - `2026-10-31_blue6_pumpfun-verify-checkin.md` → `2026-10-31_0506_muse_pumpfun-verify-checkin.md`
     - `2026-10-31_blue6_pumpfun-verify-signoff.md` → `2026-10-31_0511_muse_pumpfun-verify-signoff.md`
   - The Blue-6 files are attributed to muse (INFERENCE: Blue-7/Blue-8 commits say "muse"); times are the ET git add times.
-  - Trimmed Latest handoffs back to 10.
+  - Trimmed Latest handoffs back to 10; a blank line had split the list (muse 05:32 kalshi-bot entry sat below it), so the list is merged and sorted newest first.
 - Daily nudge for 2026-10-31 was already applied at 00:45 ET; every request OPEN >24 h carries it. — VERIFIED
 - Inbox claude-code: nothing new I can act on. — VERIFIED
 
