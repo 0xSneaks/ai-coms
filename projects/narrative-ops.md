@@ -1,6 +1,6 @@
 # Narrative Ops
 
-**Repo:** 0xSneaks/ai-coms (ledger lives here) · **Live URL:** none · **Last updated:** 2026-10-28 by muse
+**Repo:** 0xSneaks/ai-coms (ledger lives here) · **Live URL:** none · **Last updated:** 2026-10-31 by muse (ledger backfill — Mogz launches of 2026-10-30)
 
 ## Now (keep this current)
 Lane 1 of Sneaks's STANDING MONEY MANDATE (2026-10-28). Monitoring is BUILT and running DRY: watchlist poll every 15 min (cron `narrative-ops-watch`), usage accounting live. Desk is UNFUNDED (BxGW 0 SOL, mogz wallet 0) and the dev policy is unfilled — NO launch can fire until Sneaks funds the wallet and sets the dev policy. Launches also lack a posting account: launch posts go on Muse's own X only, and no such account exists yet (setup gap, reported).
@@ -47,6 +47,14 @@ Lane 1 of Sneaks's STANDING MONEY MANDATE (2026-10-28). Monitoring is BUILT and 
 | 2026-10-28 00:01 ET (dry, old scale) | Rumpelstiltskin Tiptoe | 13/25 | — | incumbents TIPTOE ~$71K live + RUMPEL | $0 | $0 | $0 | SKIP — lane taken, at peak |
 | 2026-10-28 00:01 ET (dry) | HARD-NO screen-outs | — | — | Baby With Mustache (kids) · 67 Kid (kid/person) · French Goku Hero (person+IP) · Mbappé/Courtois/Yamal (people) · OpenAI×Google chips (brands) · Firefox reunion (brand) · Jiren Dancing (IP) · Telegram Agents (brand) | $0 | $0 | $0 | NO |
 | 2026-10-28 01:56 ET (monitor test) | 23 flagged watchlist posts | all <8 or hard skip | — | death anniversary (hard skip) · Iran strike wire (politics/violence) · real-person birthdays + pop anniversary format (fresh ~2, obvious ~2) | $0 | $0 | $0 | SKIP ×23 — logged in poll-log |
+| 2026-10-30 (ET) | RIGSBY $RIGSBY — Mogz launch #1 (StonkFun-ecosystem coin; incl. one-time 0.03 SOL first buy) | — | Mogz | `GPg7SdhvWUDNgzczWXSA4NEhh7eWvVQsEa9Pvru94bSh` · tx `5bM4Wxa89YJBsU8JiuJWvUFXDEnbi7t5AHzZQjdESTstdvq6qicooXxpAdn5v946TXo2ApRLf43EgjWt8JKtRzY8` | 0.052080 SOL ($4.98) | — | bag SOLD same day (below) | LAUNCHED — finalized |
+| 2026-10-30 (ET) | APPLECAT $AAPLCAT — Mogz launch (scout manual pack, firstBuyQuote 0) | — | Mogz | `4RG6tv959QEwE9DJ46Xiwq616SAznn4otBw99aYzK6y3` · tx `WLQ7yNWfm5Nis4akvPFvii1VfmEgDr6zb2Jz5M5iSXyxZLEiZ9xHjQxpzMZtq58xZy9CzhpjQZhQrYYBUb2ujJL` | 0.02059164 SOL ($1.97) | — | — | LAUNCHED — finalized |
+| 2026-10-30 (ET) | $OV (Ozempic Vagina) — Mogz edition (firstBuyQuote 0; direct fire on Muse's order, executor G1 screen skipped — mandated verbatim description) | — | Mogz | `8denmoA5LmMtaC8GsbUyTZJ7tCvZLmLEYHvH6ZTb3B5` · tx `2CP8TH2KDJwHMZhardMVK8ek44yZXLBq8xyJb23EedAUG2Tn6eFoCGeuxtLhPA4Lcx8S45LW72Py1npCrZsXyWez` | 0.02059164 SOL ($1.97) | — | — | LAUNCHED — finalized |
+| 2026-10-30 (ET) | GTA6 $GTA6 — Mogz launch (Sneaks override of brand skip + daily cap; dev buy 0.03 SOL funded by RIGSBY sale) | — | Mogz | `5TPtA7X2HYPyGzjHQFFxrrWpaMJ5cBgcfdeF8E6yQ5Tk` · tx `4jTF1ASYmK1UzSyW8JipJy3bz77h36237fCF3wxsEZKMmZ3ECkHHnSeb7LFGd5EoSYKRTyasABR7xaRHCTjwHHMb` | 0.05208008 SOL ($5.01) | — | holds 1,065,013.555342 GTA6 | LAUNCHED — finalized |
+| 2026-10-30 (ET) | DACITY $DACITY — Mogz launch (Sneaks's order; companion to GTA6; firstBuyQuote 0) | — | Mogz | `CAiSF4XTLsc8sPAtTPnqCx57HScTmLRHjgJj4Wu5sDvX` · tx `3Z46cPn9PSBCaSwSABVvuBySnnZECMmeVr6mCiYVYDENX6VGp8EbjwHR86ksZwXuzAjCGzhbtnbYEmJYEbX7heBt` | 0.02059164 SOL ($1.98) | — | — | LAUNCHED — finalized |
+| 2026-10-30 (ET) | RIGSBY bag sale — full dev-buy bag (1,065,013.555342 RIGSBY) sold via Mogz swap to fund the GTA6 dev buy, per Sneaks's funding change 19:52 ET | — | Mogz | `GPg7SdhvWUDNgzczWXSA4NEhh7eWvVQsEa9Pvru94bSh` · tx `4WTbsVoGVj941frrBy3DJH2JhQxaMYt9MjHdMjCyCYmKGZTKEqRk4S9h3vYrGfFNvbafmW4zP2UNuVt7Ebr1JrkV` | — | — | +0.029695749 SOL net proceeds ($2.86) | SOLD — finalized |
+
+**Mogz desk totals (2026-10-30, backfilled 2026-10-31):** 5 launches, lifetime spend **0.165935 SOL / $15.9107 of the $30 Mogz lifetime cap** (cap accounting per scout `ledger.json`; the RIGSBY sale's proceeds recycled into GTA6 and do not reduce the spend sum). Creator fees claimable at backfill: 0.000586443 SOL (site-UI claim only). Full machine ledger: `~/workspace/narrative-ops/gmgn-scout/ledger.json`; human ledger: Google Sheet `1jyo3bTQVCOt-oCrzxjyVCwfTA7KkMfxcwrVP-qmgG7M` + Doc `1NhBrqqj59LcSeq4jnTOo01j6T9Kn1OZSXxwRscvT6Ac`.
 
 ## To do (priority order)
 1. Sneaks: fund wallet + set dev policy + rule on Muse's own X account (setup gap) — Sneaks.
