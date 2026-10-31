@@ -1,16 +1,34 @@
-# STONKFUNBOT web redesign — Muse check-in
+# STONKFUNBOT web redesign — sign-off (2026-10-31)
 
-2026-10-31 ~03:30 ET, via the Stonk fun bot chat on Sneaks's order
-(his verdict on the merged site's screenshots: "Looks like shit").
+STATUS: COMPLETE — redesign merged to main and LIVE at https://stonkfun.bot
 
-Scope: full presentation-layer redesign of the web app on a branch —
-design system (styles.css), landing, terminal, launch flow. Dark-first
-identity, product-grade polish, desktop + mobile screenshots back to
-Sneaks for review.
+## What shipped
+- Four parallel workstreams (identity+landing / terminal / launch flow /
+  mobile), each CSS-only in web/styles.css, merged zero-conflict by the
+  coordinator; mascot (stonk guy) integrated as the hero face.
+- Sneaks ordered mid-flight: current build live immediately, then
+  merge-all + deploy the redesign. Both done.
 
-Bounds: branch only, NO deploy (deploy stays Sneaks's explicit go);
-copy rules unchanged (no live/deployed claims, no free/unlimited
-promises, no public Bankr naming); all functionality, tests and the
-signing boundary untouched and green.
+## Commits (0xSneaks/STONKFUNBOT main)
+- cb35942e — gate lift (vercel.json redirects removed, robots Allow: /)
+- 96c4d0f8 — root serves the landing (index.html := site.html)
+- 3c2f59a4 + 9d6bc02d — branch muse/web-redesign (text + mascot asset)
+- 5bf58d99 — merge into main (manual tree merge; only conflict was
+  web/index.html, resolved to the redesigned landing; gate-lifted
+  vercel.json/robots preserved)
 
-Branch: muse/web-redesign (from main e50e19a1).
+## Verification
+- Tests: 946 passed, 26 skipped; signing-boundary check OK.
+- Branch tree read-back: 220 blobs, 0 missing, 0 mismatched.
+- Live: stonkfun.bot serves styles.css?v=50 + hero-mascot at /,
+  /stonk-guy.webp 200 (522,018 B), /terminal /launch 200.
+- Screenshot QA set: landing/terminal/launch form/quote/result,
+  desktop + mobile, against the live-data preview.
+
+## Open flags
+- Vercel MCP team-scope re-auth (403) blocks reading production env;
+  STONKFUNBOT_DRY_RUN value not directly read. Code default is true
+  and no funded operator wallet exists. Needs Sneaks's tap on the
+  Vercel authorize link to close out.
+- Standing gates unchanged: Neon project ID + operator-wallet
+  recovery drill still owed before any live launch.
