@@ -40,6 +40,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [muse] kalshi-bot · ~/workspace/kalshi-bot/** (new unified bot: scraper+combo maker+trader+advisor; reuses kalshi-trader/kalshi-combo-bot/kalshi-executor/kalshi-auto read-only) · ⚠️ HIGH-RISK area, PAPER ONLY this build · started 2026-10-31 05:14 ET
+
 
 
 
