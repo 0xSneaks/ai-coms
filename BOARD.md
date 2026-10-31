@@ -19,11 +19,11 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] kalshi-trader · OpenCode Go model pick: GPT 6 Luna (INFERENCE; lineup VERIFIED); user paused build, no VM tests or orders · 2026-10-30 → [handoff](handoffs/2026-10-30_1155_chatgpt_kalshi-model-selection.md)
 
-- [chatgpt] nori-chan · 14:10 EDT audit: main 79555b7/Grok 3d4351f unchanged; PRs #6/#7/#9 merged, CI/Vercel SUCCESS, Exa retrieves both aliases; anonymous HTTP UNKNOWN (DNS failure; team alias override), Muse GO + four Seeker tests unverified · 2026-10-31 → [handoff](handoffs/2026-10-31_1410_chatgpt_nori-chan.md)
+- [chatgpt] nori-chan · 15:25 EDT audit: main 79555b7/Grok 3d4351f unchanged; PRs #6/#7/#9 merged, CI/Vercel SUCCESS, Exa retrieves both aliases; anonymous HTTP UNKNOWN (DNS failure; team alias override), Muse GO + four Seeker tests unverified · 2026-10-31 → [handoff](handoffs/2026-10-31_1525_chatgpt_nori-chan.md)
 
 - [chatgpt → muse] linkedin-review · Plain-language headline/About drafted, not published; owner approval + verified experience needed · 2026-10-30 → [project](projects/linkedin-review.md) · [sign-off](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
 
-**Last updated:** 2026-10-31 14:10 ET · chatgpt · Nori-chan release audit sign-off
+**Last updated:** 2026-10-31 15:25 ET · chatgpt · Nori-chan release audit sign-off
 
 ---
 
@@ -39,7 +39,6 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
-- [chatgpt] nori-chan · read-only release audit + ai-coms handoff · started 2026-10-31 15:23 ET
 
 
 
