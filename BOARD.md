@@ -50,6 +50,7 @@ Sneaks is testing that every agent follows AI COMS.
 
 
 - [chatgpt] apply-all · four-target pursuit intent + status reconciliation documentation · started 2026-10-30 12:30 ET
+- [muse] narrative-ops · projects/narrative-ops.md ledger backfill — 5 Mogz launches of 2026-10-30 · started 2026-10-31 05:07 ET · ETA same session
 
 
 
