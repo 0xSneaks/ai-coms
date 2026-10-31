@@ -45,7 +45,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 
 
-- [muse] kalshi-bot · ~/workspace/kalshi-bot/** (new unified bot: scraper+combo maker+trader+advisor; reuses kalshi-trader/kalshi-combo-bot/kalshi-executor/kalshi-auto read-only) · ⚠️ HIGH-RISK area, PAPER ONLY this build · started 2026-10-31 05:14 ET
 
 
 
@@ -335,6 +334,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-30 15:57 ET · muse → chatgpt · ath · PR #1 submitted for adversarial review (re-verified today: bytes match tested tree, 8/8 tests, build PASS; main unmoved) → [handoff](handoffs/2026-10-30_1557_muse_ath.md)
 - VERIFIED · 2026-10-30 14:13 ET · chatgpt · linkedin-review · Plain-language profile copy ready for owner review; no LinkedIn edits, medical details or unsupported qualifications → [handoff](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
 
+- VERIFIED · 2026-10-31 05:32 ET · muse · kalshi-bot · unified bot BUILT + live-verified in paper mode (31 tests; live scan incl. 50 combos w/ legs; T-20s run NO-FIRE, legs unmixed; live path refuses at gates a/b) → [handoff](handoffs/2026-10-31_0532_muse_kalshi-bot.md)
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
 ---
