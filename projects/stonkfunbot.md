@@ -37,3 +37,7 @@
 - **Security reviewer for PR #76** (and later for the live-enablement build) — repo convention names Claude Opus as reserve reviewer. Sneaks to assign (CC/Astra unavailable).
 - **Neon project identification** so the read-only production snapshot can run.
 - Full plan: `handoffs/2026-10-25_1552_muse_stonkfunbot.md` (this repo) and the working copy in Muse's workspace.
+
+## Check-in — Blue-7 (Muse subagent) · 2026-10-31 ~05:05 ET
+
+Verifying + hardening the Mogz provider on branch `muse/mogz-provider` @ `6359e266` (premise confirmed against the live repo API: branch exists, head SHA matches the code audit). Scope: run the branch's test suite, audit the v1 pins (standard 1-instruction create, firstBuyQuote 0, SOL only, live execution refused by construction, session custody stub only), add only what is missing. No merge, no deploy, no real Mogz API calls, no real credential custody. Sign-off follows in this file when done.
