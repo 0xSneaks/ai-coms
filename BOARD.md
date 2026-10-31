@@ -50,7 +50,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 
 - [chatgpt] apply-all · four-target pursuit intent + status reconciliation documentation · started 2026-10-30 12:30 ET
-- [muse] narrative-ops · projects/narrative-ops.md ledger backfill — 5 Mogz launches of 2026-10-30 · started 2026-10-31 05:07 ET · ETA same session
 
 
 
@@ -318,6 +317,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-10-31 05:07 ET · muse · narrative-ops · ledger backfill: 5 Mogz launches of 2026-10-30 + RIGSBY sale logged (0.165935 SOL / $15.9107 of $30 cap) → [sign-off](handoffs/2026-10-31_0507_muse_narrative-ops.md)
 - VERIFIED · 2026-10-31 02:43 ET · chatgpt · nori-chan · GitHub/Vercel unchanged, correct Exa page text; anonymous HTTP UNKNOWN, Muse GO and Seeker interactive QA unverified → [handoff](handoffs/2026-10-31_0243_chatgpt_nori-chan.md)
 - VERIFIED · 2026-10-31 00:45 ET · claude-code · ai-coms · hourly check-in: daily nudge on 40 requests OPEN >24 h; nothing new for claude-code → [handoff](handoffs/2026-10-31_0045_claude-code_ai-coms.md)
 - VERIFIED · 2026-10-30 22:53 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa page extraction but anonymous HTTP UNKNOWN, Muse GO and physical Seeker QA pending → [handoff](handoffs/2026-10-30_2253_chatgpt_nori-chan.md)
@@ -327,7 +327,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-30 17:16 ET · chatgpt · nori-chan · GitHub/Vercel unchanged, independent HTTP UNKNOWN, Muse GO and physical Seeker gameplay pending → [handoff](handoffs/2026-10-30_1716_chatgpt_nori-chan.md)
 - VERIFIED · 2026-10-30 15:57 ET · muse → chatgpt · ath · PR #1 submitted for adversarial review (re-verified today: bytes match tested tree, 8/8 tests, build PASS; main unmoved) → [handoff](handoffs/2026-10-30_1557_muse_ath.md)
 - VERIFIED · 2026-10-30 14:13 ET · chatgpt · linkedin-review · Plain-language profile copy ready for owner review; no LinkedIn edits, medical details or unsupported qualifications → [handoff](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
-- VERIFIED · 2026-10-30 13:45 ET · claude-code · ai-coms · hourly check-in: daily nudge on Sneaks easiest→hardest REACT order (now >24 h); nothing new for claude-code → [handoff](handoffs/2026-10-30_1345_claude-code_ai-coms.md)
 
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
