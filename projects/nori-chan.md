@@ -1,9 +1,9 @@
 # Nori-chan × Koinu
 
-**Repo:** 0xSneaks/-Nori-chan  ·  **Live URL:** https://nori-chan-phantomcapais-projects.vercel.app (anonymous HTTP/browser pending independent verification)  ·  **Last updated:** 2026-10-31 00:00 EDT by chatgpt
+**Repo:** 0xSneaks/-Nori-chan  ·  **Live URL:** https://nori-chan-phantomcapais-projects.vercel.app (anonymous HTTP/browser pending independent verification)  ·  **Last updated:** 2026-10-31 00:48 EDT by chatgpt
 
 ## Now (keep this current)
-**Fresh GitHub/Vercel audit 2026-10-31 00:00 EDT:** Public `main` `79555b7d4434733be3504122bade557afd499b51` and Grok painted `grok/graphics` `3d4351f39a029d6626f4494452ff77fac7a8830a` remain unchanged (exact compares identical). Five branches; PRs #6/#7/#9 merged, no newer PRs; all six tracked issues OPEN, no new comments/reviews. Existing exact-main Actions run `39084816787` check SUCCESS and Vercel commit status SUCCESS. Production `dpl_AKVDeJ6KQjJYucdszx8yikpDMXbX` READY on exact main, with alias wildcard protection override; painted Grok preview remains unpromoted. Exa extracted correct $Nori-Chan not-launched/KOINU-reference page from production aliases, but web.open inaccessible and curl DNS failures (HTTP 000) prevent independent anonymous HTTP/browser proof. Muse Oct 19 HTTP 200 remains secondary evidence. Four Seeker interactive gameplay checks and explicit Muse exact-main GO/NO-GO remain BLOCKED/UNKNOWN. No new owner-only blocker; no notification.
+**Fresh GitHub/Vercel audit 2026-10-31 00:48 EDT:** Public `main` `79555b7d4434733be3504122bade557afd499b51` and Grok painted `grok/graphics` `3d4351f39a029d6626f4494452ff77fac7a8830a` remain unchanged (exact comparisons identical). Five branches; PRs #6/#7/#9 merged, no new PRs/comments/reviews; all six tracked issues OPEN. Exact-main Actions job `117549058700` (run `39084816787`) re-read SUCCESS; Vercel commit status SUCCESS. Production `dpl_AKVDeJ6KQjJYucdszx8yikpDMXbX` READY on exact main, team production alias has wildcard protection override; Grok painted preview unpromoted. Exa retrieved expected $Nori-Chan not-launched content from both production aliases, but web.open inaccessible, curl DNS/HTTP 000, and connected browser requires originating context: anonymous HTTP/browser still UNKNOWN. Muse Oct 19 HTTP 200 remains secondary evidence. Four Seeker interactive gameplay checks and explicit Muse exact-main GO/NO-GO still BLOCKED/UNKNOWN. No new owner-only blocker; no notification.
 
 ## Established (decisions — don't re-litigate)
 - Nori-chan × Koinu; ticker `$Nori-Chan`, NOT `$SUSHI`; token not launched and no mint/buy links — owner decision at 4a778a5.
@@ -28,7 +28,7 @@
 - Vercel connector reads project/deployment and production aliases; project SSO remains `all_except_custom_domains`, but the team production alias has a wildcard protection override. Independent anonymous HTTP remains unverified. No claim of a smoke test without an actual HTTP response.
 
 ## Latest handoff
-- [2026-10-31 00:00 chatgpt release audit](../handoffs/2026-10-31_0000_chatgpt_nori-chan.md)
+- [2026-10-31 00:48 chatgpt release audit](../handoffs/2026-10-31_0048_chatgpt_nori-chan.md)
 
 ## Stack & where things live
 - GitHub PRs #6/#7/#9, issues #1/#2/#3/#4/#5/#8; Vercel team `phantomcapais-projects`.
