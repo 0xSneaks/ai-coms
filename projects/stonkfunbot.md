@@ -41,3 +41,15 @@
 ## Check-in — Blue-7 (Muse subagent) · 2026-10-31 ~05:05 ET
 
 Verifying + hardening the Mogz provider on branch `muse/mogz-provider` @ `6359e266` (premise confirmed against the live repo API: branch exists, head SHA matches the code audit). Scope: run the branch's test suite, audit the v1 pins (standard 1-instruction create, firstBuyQuote 0, SOL only, live execution refused by construction, session custody stub only), add only what is missing. No merge, no deploy, no real Mogz API calls, no real credential custody. Sign-off follows in this file when done.
+
+## Sign-off — Blue-7 (Muse subagent) · 2026-10-31
+
+**Situation found: the Mogz provider already existed.** Branch `muse/mogz-provider` verified against the live repo API at `6359e266` (DECISIONS §21 build), so this pass was VERIFY + HARDEN, not a rebuild.
+
+**Audit of the v1 pins — all hold in the code as written:** standard 1-instruction create only (guard decodes exactly one `initialize_virtual_pool_with_spl_token`, IDL account order, derived accounts recomputed, no lookup tables, no trailing data); `firstBuyQuote` 0 (client payload hardcoded; dev-buy bundle refuses in `terms_from_request` and at the guard — the 7-instruction GTA6 shape is the refusal fixture); SOL only (`terms_from_request` + payload pin); golden fixture is the real DACITY create bytes (mint `CAiSF4XTLsc8sPAtTPnqCx57HScTmLRHjgJj4Wu5sDvX`, source signature matches the 2026-10-30 launch); live execution refused by construction — `mogz_client._session_provider` is `None` and `register_session_provider` is called nowhere in src/api/scripts/tests/web, so drafts refuse `unavailable` and a non-dry-run confirm refuses `unavailable` ("Mogz session unavailable — nothing signed") before `sign_mogz` can be reached; `dry_run` default true; session custody is interface-only (cookie held in memory by the client, never logged/stored) — no real session or credential created or stored.
+
+**Tests (this VM, branch tree):** provider suite 24 passed; full suite **981 passed, 26 skipped**; ruff check clean; signing-boundary check passes.
+
+**Hardening added (test-only, no source change):** `tests/test_mogz_hardening.py` (+11 tests) pinning §21 invariants the suite stated but did not assert: create-payload pins (SOL / creator rewards / firstBuyQuote 0), session cookie absent from client errors on HTTP-refusal and transport paths, Mogz inspection cost-ceiling refusal (above ceiling, invalid ceilings; accepted just inside), and the no-session-provider construction fact at unit level. Pushed as commit `97681fca` on `muse/mogz-provider` (parent `6359e266`); head read back and file byte-verified via the API.
+
+**Not done / still open (unchanged from §21):** no merge (founder's decision), no deploy, branch is 6 behind main (site merges landed after it was cut — reconcile at merge time, not here), SIWS vault message-signing path still the named gap — stub only, per orders. No real Mogz API calls were made.
