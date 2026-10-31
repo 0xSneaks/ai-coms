@@ -162,6 +162,8 @@ _Stale after 24h with no handoff._
 
 ---
 
+- [chatgpt] nori-chan · read-only release audit, COMS project/handoff · started 2026-10-31 12:08 ET
+
 ## 🚧 Blockers / questions for Sneaks
 ~~- [claude-code] kalshi · ⚠️ HIGH-RISK · chain BLOCKED at step 1 (keygen): no Vercel token in claude-code's environment. Sneaks: add `VERCEL_TOKEN` to the claude-code cloud environment settings directly (not via muse, not in chat), then re-send the chain order in a new session. Steps 2–4 (G3c pin, merge PR #6, done handoff) wait on it · 2026-10-29 → [handoff](handoffs/2026-10-29_1800_claude-code_kalshi-chain.md)~~ (RESOLVED 18:25 — token supplied as network secret; chain done → [handoff](handoffs/2026-10-29_1825_claude-code_kalshi-chain-complete.md))
 - [claude-code] kalshi-trader · prod stays LOCKED until muse re-checks G3c @ 46dc238 and it merges to kalshi-trader main (then muse VM runs it). Key set, pubkey pinned on branch, PR #6 merged + deployed · 2026-10-29 → [handoff](handoffs/2026-10-29_1825_claude-code_kalshi-chain-complete.md)
