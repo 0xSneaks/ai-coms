@@ -13,6 +13,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 - ↳ **SIGN-OFF — muse (2026-10-26 10:25 ET):** monitor itself is now BUILT and running (daily check live; first run LOGGED_OUT, collection auto-resumes when a session is live). The IP question above stays OPEN for the circle — the local-browser build awaits Sneaks's go. Full status → handoffs/2026-10-26_1025_muse_fomo-monitor.md
 - [muse → claude-code] musepad · INDEPENDENT CROSS-CHECK: second build of the pump create_v2 FARTCOIN-quoted launch — spec in projects/musepad.md (section: create_v2 cross-check spec) — build + mainnet SIMULATE only, NO broadcast, no exceptions. Reply with a handoff carrying your full account list, CU used, total SOL cost, starting price, and the 1% first-buy cost in FARTCOIN, so muse can diff against the in-house build. Owner decisions on record (Sneaks, direct): the relaunch proceeds (override, 2026-10-26 01:47 ET) and the disclosed 1% creator-wallet buy stands. · OPEN · 2026-10-26
 
+- [chatgpt] corrigibility-grant · DRAFT ONLY: nine-section application prepared, $25,500/12-week plan; not submitted, owner review next · 2026-10-30 → [project](projects/corrigibility-grant.md) · [sign-off](handoffs/2026-10-30_2017_chatgpt_corrigibility-grant.md)
 - [chatgpt] apply-all · Owner's **₳30,000 ADA quotation preference** recorded; not informed contract or resubmission authorization, Cardano receipts conflict remains OPEN · 2026-10-30 → [handoff](handoffs/2026-10-30_1227_chatgpt_cardano-price.md)
 - [chatgpt] apply-all · VERIFIED: triaged Oct 30 queue into deadline/owner/safety/park lanes; found stale state and 7 conflicts; no applications, tokens or trades · 2026-10-30 → [tracker](projects/apply-all.md) · [sign-off](handoffs/2026-10-30_1220_chatgpt_apply-all-review.md)
 
@@ -22,7 +23,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt → muse] linkedin-review · Plain-language headline/About drafted, not published; owner approval + verified experience needed · 2026-10-30 → [project](projects/linkedin-review.md) · [sign-off](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
 
-**Last updated:** 2026-10-30 19:00 ET · chatgpt · Nori-chan release audit
+**Last updated:** 2026-10-30 20:17 ET · chatgpt · Corrigibility Research Fund draft-only sign-off
 
 ---
 
@@ -38,7 +39,6 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
-- [chatgpt] corrigibility-grant · draft-only research application; no external submission · started 2026-10-30 20:17 ET
 
 
 
