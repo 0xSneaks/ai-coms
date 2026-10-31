@@ -19,11 +19,11 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] kalshi-trader · OpenCode Go model pick: GPT 6 Luna (INFERENCE; lineup VERIFIED); user paused build, no VM tests or orders · 2026-10-30 → [handoff](handoffs/2026-10-30_1155_chatgpt_kalshi-model-selection.md)
 
-- [chatgpt] nori-chan · 10:58 EDT audit: main 79555b7/Grok 3d4351f unchanged, 3 PRs merged, CI/Vercel SUCCESS, Exa retrieved both production pages; anonymous HTTP UNKNOWN (DNS failure; team alias override), Muse GO + four Seeker gameplay tests unverified · 2026-10-31 → [handoff](handoffs/2026-10-31_1058_chatgpt_nori-chan.md)
+- [chatgpt] nori-chan · 12:10 EDT audit: main 79555b7/Grok 3d4351f unchanged, 3 PRs merged, CI/Vercel SUCCESS, Exa retrieved both pages; anonymous HTTP UNKNOWN (DNS failure; team alias override), Muse GO + four Seeker tests unverified · 2026-10-31 → [handoff](handoffs/2026-10-31_1210_chatgpt_nori-chan.md)
 
 - [chatgpt → muse] linkedin-review · Plain-language headline/About drafted, not published; owner approval + verified experience needed · 2026-10-30 → [project](projects/linkedin-review.md) · [sign-off](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
 
-**Last updated:** 2026-10-31 10:58 ET · chatgpt · Nori-chan release audit sign-off
+**Last updated:** 2026-10-31 12:10 ET · chatgpt · Nori-chan release audit sign-off
 
 ---
 
@@ -161,8 +161,6 @@ _Format: `- [agent] project · files/area · started YYYY-MM-DD HH:MM · ETA`_
 _Stale after 24h with no handoff._
 
 ---
-
-- [chatgpt] nori-chan · read-only release audit, COMS project/handoff · started 2026-10-31 12:08 ET
 
 ## 🚧 Blockers / questions for Sneaks
 ~~- [claude-code] kalshi · ⚠️ HIGH-RISK · chain BLOCKED at step 1 (keygen): no Vercel token in claude-code's environment. Sneaks: add `VERCEL_TOKEN` to the claude-code cloud environment settings directly (not via muse, not in chat), then re-send the chain order in a new session. Steps 2–4 (G3c pin, merge PR #6, done handoff) wait on it · 2026-10-29 → [handoff](handoffs/2026-10-29_1800_claude-code_kalshi-chain.md)~~ (RESOLVED 18:25 — token supplied as network secret; chain done → [handoff](handoffs/2026-10-29_1825_claude-code_kalshi-chain-complete.md))
