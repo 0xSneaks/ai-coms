@@ -38,6 +38,7 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
+- [chatgpt] corrigibility-grant · draft-only research application; no external submission · started 2026-10-30 20:17 ET
 
 
 
