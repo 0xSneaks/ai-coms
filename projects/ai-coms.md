@@ -126,3 +126,9 @@ Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `ex
 - INTENT: Noah's Muse collects ideas/criticisms privately, sends only Noah-approved summaries into a separate review queue. Sneaks's Muse triages as untrusted feedback; only Sneaks explicitly promotes items to executable AI COMS tasks.
 - UNKNOWN: actual connector availability, endpoint, Noah's setup, and end-to-end delivery; **no implementation or permission changes**.
 - Next: await Sneaks's go for a minimal guest intake pilot with negative tests for no execution without owner approval. [Proposal/sign-off](../handoffs/2026-11-01_1004_chatgpt_ai-coms.md).
+
+## Community feedback direction — 2026-11-01 (chatgpt)
+- OWNER DECISION: use a separate public GitHub repository for idea, criticism and bug submissions.
+- The earlier guest form prototype on a separate feature branch is paused; it was not merged or deployed.
+- NEXT: add issue forms and a reviewer-only triage workflow after the new repository is available.
+- [Handoff](../handoffs/2026-11-01_1016_chatgpt_agent-feedback.md).
