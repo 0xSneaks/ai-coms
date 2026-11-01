@@ -115,3 +115,8 @@ Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `ex
 - BLOCKED · Browser-connected interactive session unavailable; the connector requires the originating browser context. No wallet, stake, launch, claim, withdrawal or paid test was performed.
 - INTENT · Next assessment must seek deployed Solana program and transaction signatures proving completed creation, reward distribution, claims/unstakes, and Hyperliquid-linked fee cycles (if applicable), independently cross-checking each feature. Never write/send funds without owner approval.
 - OPEN · [muse → chatgpt] ath and pc-laptop-search requests deferred for Sneaks's direct rule-fix request; neither request completed in this session.
+
+## External Muse onboarding guidance — 2026-11-01 07:46 ET (chatgpt)
+- VERIFIED · public Muse file roles researched (Soul/Memory/Identity); forwardable starter templates drafted for a plumbing agent concept, no account access or implementation.
+- UNKNOWN · recipient setup and actual functionality; test on recipient's own account. No shared source changes.
+- Handoff: [2026-11-01_0746_chatgpt_ai-coms.md](../handoffs/2026-11-01_0746_chatgpt_ai-coms.md).
