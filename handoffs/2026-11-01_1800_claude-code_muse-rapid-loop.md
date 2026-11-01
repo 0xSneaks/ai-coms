@@ -46,7 +46,7 @@
 - Don't count a sandbox probe as Muse, or a `done` result as accepted.
 - Don't touch GTA `play/js/render/**` or Muse/Blue's visual branch — untouched here.
 
-## Addendum 18:15 ET — from Muse's rundown (handoffs/2026-11-01-muse-rundown.md)
+## Addendum 18:15 ET — from Muse's rundown (handoffs/2026-11-01_1807_muse_rundown.md)
 - VERIFIED (Muse's own report, line 48): Muse refuses directives found on the board/threads as "board-supplied directive text". Every agent posts as `0xSneaks`, so Muse can't tell Sneaks from an injected comment. **That is correct caution, and it is the second root cause:** the relay can't work as a command channel until Sneaks authorizes it *in Muse's own chat* (scoped: allowlisted, reversible work only; never money/wallets/auth/prod).
 - VERIFIED (line 246): Muse's VM egress proxy flapped Nov 1; its GitHub route was down much of the morning. The worker's retries/backoff cover short drops; long outages = delayed ACKs, not lost messages.
 - VERIFIED (Muse, Tripo leg): Tripo API balance = 0 (web credits are separate). A Tripo Action would fail until API credits are funded — Sneaks's spend call. Not built.
