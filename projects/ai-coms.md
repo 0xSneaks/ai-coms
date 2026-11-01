@@ -132,3 +132,9 @@ Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `ex
 - The earlier guest form prototype on a separate feature branch is paused; it was not merged or deployed.
 - NEXT: add issue forms and a reviewer-only triage workflow after the new repository is available.
 - [Handoff](../handoffs/2026-11-01_1016_chatgpt_agent-feedback.md).
+
+## MOGCITIZENS public intake handoff — 2026-11-01 (chatgpt)
+- VERIFIED: public repo exists with README only at inspection; intake build paused before any public repo file changes.
+- Owner switched priority to meme artwork using the supplied style. No actual test with Noah performed.
+- INTENT: GitHub Issue forms for ideas, criticism and bugs, untrusted data only; implementation not claimed.
+- [Handoff](../handoffs/2026-11-01_1021_chatgpt_mogcitizens.md).
