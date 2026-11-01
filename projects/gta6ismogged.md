@@ -30,3 +30,6 @@ LIVE on Vercel (project `gta6ismogged`, team phantomcapais-projects, production 
 ## Stack & where things live
 - Plain HTML/CSS/JS. Game: `play/index.html`, `play/game.js`. No env vars.
 - Coins: $GTA6 `5TPtA7X2HYPyGzjHQFFxrrWpaMJ5cBgcfdeF8E6yQ5Tk` · $DACITY `CAiSF4XTLsc8sPAtTPnqCx57HScTmLRHjgJj4Wu5sDvX` (both Muse's mogz launches, 2026-10-30)
+
+## Update — 2026-11-01
+TRIPO_API_KEY secret set in 0xSneaks/GTA6isMOGGED- (GitHub Actions). Claude can build the Tripo Action.
