@@ -156,3 +156,12 @@ VERIFIED: ChatGPT GitHub connector reads completed in medians of 280–387 ms ac
 
 ## Trailer prompt correction (2026-11-01)
 - Owner screenshot is 20s, not 10s. Use three style-coherent references and blank calendar pages; add the title and verified project ticker in post-production. New rendering is still untested. Handoff: handoffs/2026-11-01_1619_chatgpt_gta6-kling-prompt-fix.md.
+
+
+## DIRECTOR P0 VISUAL RESCUE — 2026-11-01 17:23 ET
+- **VERIFIED source:** active actors render cars/character as box/sphere primitives; city render constructs procedural extruded building slabs although 226 Kenney CC0 GLBs exist in `play/assets/`. Main `actors.js` SHA 37ee1a8b..., `city.js` SHA 675e5ff5....
+- **VERIFIED screenshot review:** committed `docs/shots/l6-{390,1280}-{day,night}.png` show clipped mobile welcome text, crowded HUD, placeholder rectangular player, repetitive facades and oversized angular palms. **Visual review: FAIL** (checked-in shots, NOT fresh production capture).
+- **INTENT:** Muse pauses new features; coordinates L8/Claude render owner + L6 UI owner to fix phone-first composition, integrate actual CC0 vehicles and varied city meshes, replace placeholder player, and improve camera/street richness. Issue [#10](https://github.com/0xSneaks/GTA6isMOGGED-/issues/10) specifies work order + proof gates.
+- **VERIFIED dispatch:** [AI COMS #14 comment 6564806079](https://github.com/0xSneaks/ai-coms/issues/14#issuecomment-6564806079) sent to Muse. **UNKNOWN** acknowledgment; relay isn't proven installed.
+- **Next gate:** first real-running 390px before/after screenshot with SHA/branch/PR; final 390/1280 day/night + car chase + character, runtime model proof, smoke/JS checks, no errors and real-phone FPS. No code, merges or deployment authorized by this audit.
+- **Handoff:** [2026-11-01_1723_chatgpt_gta6-visual-rescue.md](../handoffs/2026-11-01_1723_chatgpt_gta6-visual-rescue.md).
