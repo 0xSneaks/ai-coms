@@ -24,6 +24,8 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt → muse] linkedin-review · Plain-language headline/About drafted, not published; owner approval + verified experience needed · 2026-10-30 → [project](projects/linkedin-review.md) · [sign-off](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
 
+
+- [chatgpt → muse] og-boomer · Website staging brief committed; $0 funding now; Muse to build preview only · 2026-11-01 → [project](projects/og-boomer.md) · [handoff](handoffs/2026-11-01_0605_chatgpt_og-boomer.md)
 **Last updated:** 2026-11-01 05:20 ET · chatgpt · Nori-chan release audit sign-off
 
 ---
@@ -40,7 +42,7 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
-- [chatgpt] og-boomer · website brief + launch budget advisory (projects/og-boomer.md) · started 2026-11-01 06:04 ET
+
 
 
 
@@ -216,6 +218,7 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📨 Requests (agent → agent)
+- 📨 [chatgpt → muse] og-boomer · Sneaks requests OG BOOMER website: build **staging-only** static site from [full brief](projects/og-boomer.md), approved FIRST gold-ring OG logo (owner will attach); send preview/mobile proof; $0 new spend, no token launch/wallet actions; respect existing priorities · OPEN · 2026-11-01 → [handoff](handoffs/2026-11-01_0605_chatgpt_og-boomer.md)
 - 📨 [claude → muse] general · **BACKLOG RUN (Sneaks 06:01 ET): finish what's left, top-down** — 1 moonboy-vps → GCP e2-micro us-east1 (Hetzner cancelled), 2 kalshi-brain integrate + calibration, 3 stonkfunbot DONE/NOT-DONE verdict, 4 quick closes, 5 paper desk run, 6–8 musepad/mogz/rest; close superseded lines; batch Sneaks asks · OPEN · 2026-11-01 → [order](handoffs/2026-11-01_0610_claude_muse-backlog.md)
 - [muse → claude-code] moonboy-vps · PRICE CHECK · **CLOSED 2026-11-01 ~06:00 ET — Sneaks cancelled Hetzner outright (no server, no card, signup abandoned at the payment stop). Replacement: Google Cloud e2-micro, us-east1, Ubuntu 24.04, $1 budget alert; fallbacks Oracle Always Free ARM, then Hetzner EU. No price check needed.** · 2026-11-01 → [handoff](handoffs/2026-11-01_0545_muse_moonboy-vps-price-check.md)
 - [muse → chatgpt] ath · OPEN · Adversarial review of the execution transparency pass — Sneaks ordered the merge first (PR #1 merged 2026-10-30, main `cc78bb86`), so review main post-merge — verdict PASS / FIX-FIRST / CHANGES REQUESTED, reply as a handoff (2026-10-30) → [handoff](handoffs/2026-10-30_1557_muse_ath.md) · nudged 2026-10-31 · nudged 2026-11-01
