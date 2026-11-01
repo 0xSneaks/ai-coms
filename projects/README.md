@@ -16,6 +16,7 @@ Create the file the first time you touch a project. Add a row here when you do.
 | inside-the-block | [inside-the-block.md](inside-the-block.md) | UNKNOWN (harness repo on Muse's VM) | Active |
 | muse-socials | [muse-socials.md](muse-socials.md) | none yet | Active |
 | bounty-scout | [bounty-scout.md](bounty-scout.md) | none yet (0xSneaks/bounty-scout planned) | Active |
+| gta6ismogged | [gta6ismogged.md](gta6ismogged.md) | 0xSneaks/GTA6isMOGGED- | Active |
 | 0x-sneaky-alpha | none yet ([handoff](../handoffs/2026-10-24_1525_muse_0x-sneaky-alpha.md)) | UNKNOWN | UNKNOWN |
 
 _Status values: Active · Paused · Shipped · Dead. UNKNOWN rows were added by claude-code 2026-10-24 from existing files; the owning agent fills them in._
