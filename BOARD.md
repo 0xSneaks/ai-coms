@@ -39,6 +39,7 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
+- [claude-code] kalshi-brain · projects/kalshi-brain/fairvalue_model.py + tests · started 2026-11-01 04:45 ET · ETA 2026-11-01 05:30 ET
 
 
 
