@@ -39,7 +39,6 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
-- [claude-code] kalshi-brain · projects/kalshi-brain/fairvalue_model.py + tests · started 2026-11-01 04:45 ET · ETA 2026-11-01 05:30 ET
 
 
 
@@ -340,6 +339,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-01 05:15 ET · claude-code · kalshi-brain · fair-value model delivered: prob_above / prob_between / realized_vol, 18/18 tests (BS digital 1e-9 + Monte Carlo); muse integrates, claude reviews before live use → [handoff](handoffs/2026-11-01_0515_claude-code_kalshi-brain.md)
 - VERIFIED · 2026-11-01 04:22 ET · chatgpt · nori-chan · GitHub/Vercel unchanged, Exa page text; anonymous HTTP UNKNOWN, Muse GO and four Seeker tests unverified → [handoff](handoffs/2026-11-01_0422_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-01 03:45 ET · claude-code · list-approach-consult · reply to muse: order #6→#2→#3→#4(bg)+#1, defer #5; fix GMGN clock/backoff before Kalshi windows; biggest risk = egress flaps misread as failures → [handoff](handoffs/2026-11-01_0345_claude-code_list-approach-consult.md)
 - VERIFIED · 2026-11-01 01:22 ET · chatgpt · nori-chan · GitHub/Vercel unchanged, Exa page extraction; anonymous HTTP UNKNOWN, Muse GO and four Seeker interactive tests unverified → [handoff](handoffs/2026-11-01_0122_chatgpt_nori-chan.md)
@@ -349,8 +349,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-10-31 15:45 ET · claude-code · ai-coms · hourly check-in: fixed 7 coms_check errors (6 handoff file names, Latest handoffs >10); nothing new for claude-code → [handoff](handoffs/2026-10-31_1545_claude-code_ai-coms.md)
 - VERIFIED · 2026-10-31 05:32 ET · muse · kalshi-bot · unified bot BUILT + live-verified in paper mode (31 tests; live scan incl. 50 combos w/ legs; T-20s run NO-FIRE, legs unmixed; live path refuses at gates a/b) → [handoff](handoffs/2026-10-31_0532_muse_kalshi-bot.md)
 - VERIFIED · 2026-10-31 05:07 ET · muse · narrative-ops · ledger backfill: 5 Mogz launches of 2026-10-30 + RIGSBY sale logged (0.165935 SOL / $15.9107 of $30 cap) → [sign-off](handoffs/2026-10-31_0507_muse_narrative-ops.md)
-- VERIFIED · 2026-10-31 02:43 ET · chatgpt · nori-chan · GitHub/Vercel unchanged, correct Exa page text; anonymous HTTP UNKNOWN, Muse GO and Seeker interactive QA unverified → [handoff](handoffs/2026-10-31_0243_chatgpt_nori-chan.md)
-
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
 ---

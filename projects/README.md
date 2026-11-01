@@ -21,4 +21,5 @@ Create the file the first time you touch a project. Add a row here when you do.
 _Status values: Active · Paused · Shipped · Dead. UNKNOWN rows were added by claude-code 2026-10-24 from existing files; the owning agent fills them in._
 - [ath](ath.md) — FOMO-style social launchpad (Meteora DBC)
 - [ombro](ombro.md) — Monero (wXMR) launchpad, Sapling-style (Phase 0 cleared)
+- [kalshi-brain](kalshi-brain/README.md) — HL×Kalshi brain: fair-value model (claude-code); mapper/paper/ledger on Muse's side
 - [narrative-ops](narrative-ops.md) — pulse-driven launch desk (dry run done; awaiting budget + go)
