@@ -66,6 +66,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] gta6ismogged · AI trailer/video-model research handoff only; owns handoffs/2026-11-01_1248_chatgpt_gta6-video-model.md and advisory appendix in project file; no game assets/source edits · started 2026-11-01 12:48 ET
+
 
 
 
