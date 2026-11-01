@@ -46,3 +46,46 @@ Standalone **DA CITY Garage**: one self-contained HTML file (three.js r128 from 
 
 ## Sneaks only
 Leaderboard backend (costs money) · domain · any wallet/coin action · posting on X.
+
+## PHASE 1 PREP — muse, 2026-11-01
+
+**STATUS (VERIFIED 2026-11-01 ~08:06 ET): Phase 1 has NOT started and must NOT start.** Phase 1 lanes begin only when codex's Phase 0 `lane/0-modules` PR is merged. At prep time the repo 0xSneaks/GTA6isMOGGED- has **no pull requests and only a `main` branch** — Phase 0 has not landed. This section is staging only: lane → model → files → branch map, review crew, gates, merge order. Muse claims each lane on BOARD as it starts it (after Phase 0 merges).
+
+### Lane map (models per Sneaks's directive, 2026-11-01)
+
+| Lane | Model (OpenCode Go) | Branch | Owns (exact files) | Build |
+|---|---|---|---|---|
+| L1 Vehicles | GPT 6 Luna | `lane/1-vehicles` | `play/js/traffic.js` (vehicle defs), `play/js/render/actors.js` (vehicle meshes) | Vehicle classes: sports, van, bike, bus, boat on water. Per-class handling + health. Damage visuals (dents → smoke → fire). |
+| L2 World | GLM-5.3 | `lane/2-world` | `play/js/world.js`, `play/js/render/city.js` | Third island (port: cranes, containers), waterfront highway loop, alleys, beach pier, a landmark per district, varied building shapes. |
+| L3 Story | Qwen3.8 Max | `lane/3-story` | `play/js/missions.js` | Chapter 2: 6 new missions (race, escort, timed delivery, cop chase, rooftop stash, finale at HQ), mission select, same dry funny voice. |
+| L4 Police + AI | Kimi K2.7 Code | `lane/4-police-ai` | `play/js/police.js` | Box-ins, roadblocks at heat 3+, spike strips at 5, traffic yields to sirens, ped panic, smarter getaway routes. |
+| L5 Audio | MiMo-V2.6-Pro | `lane/5-audio` | `play/js/audio.js` | Engine sound by speed/class, tire squeal, siren doppler, crash variety, 2 more ORIGINAL radio stations, night city ambience. |
+| L6 UI | MiniMax M3 | `lane/6-ui` | `play/js/ui.js`, `play/index.html` | Settings (quality, sound, sensitivity, invert), full map, mission log, controller support, phone layout polish, first-play hints. |
+| L7 Performance | Kimi K3 | `lane/7-performance` | `play/js/render/scene.js`, `play/js/render/fx.js` | Auto quality tiers by FPS, LOD + culling, instanced traffic, debug FPS meter. Target 60 fps desktop, 40+ mid phone. Claude Code reviews this lane (in addition to the review crew). |
+
+### PREP NOTES — plan vs. actual tree (main tree `def87088`, read at prep time)
+
+- **PREP NOTE 1 (blocking fact, not an error): none of the lane-owned module files exist yet.** The current tree has no `play/js/` directory at all: the game is still the monolith `play/game.js` (84,231 B) plus `play/index.html` (13,886 B). Every "Owns" path above is a **Phase 0 layout target** — those files come into existence only when codex's `lane/0-modules` split merges. No lane may be claimed or started against the monolith.
+- **PREP NOTE 2 (path ambiguity in the plan): the lane table above in this file lists bare filenames** (`traffic.js`, `render/actors.js`, …), while the plan's own Phase 0 layout roots the modules at `play/js/` and `play/js/render/`. The map above uses the full Phase 0 paths. If codex's split lands different paths, muse corrects this map to the merged tree before any lane starts — nobody guesses.
+- **PREP NOTE 3 (L6 is split-state):** L6 owns one file that exists today (`play/index.html`) and one Phase 0 target (`play/js/ui.js`). L6 still waits for Phase 0 like every other lane.
+- **PREP NOTE 4 (harness already in place):** `tests/smoke.py` (5,175 B) and CI `.github/workflows/smoke.yml` already exist on main — the review crew's test role and the green-CI gate have their harness; Phase 0's job is to keep them green through the split, not create them.
+- **PREP NOTE 5 (screenshots):** gate screenshots (390px + 1280px, day + night) go in each lane PR; the tree already carries `docs/shots/` with the current build's shots — the established location, noted for consistency.
+
+### Review crew (every Phase 1 PR, before merge)
+
+- **DeepSeek V4 Pro** — code review: correctness, performance, did the lane stay in its files.
+- **DeepSeek V4 Flash Vision Exp** — screenshot review at 390px + 1280px, day + night: reject anything ugly, broken or off-style.
+- **GLM-5.3-Flash** — runs `tests/smoke.py`, adds a test for each new feature.
+- **Qwen3.8 Flash** — changelog + README updates.
+
+### Gates (no merge unless all green)
+
+Green CI · `python tests/smoke.py` passes · `node --check` passes · no console errors · screenshots in PR (390px + 1280px, day + night) · real-phone FPS noted by muse. **Muse merges, nobody else.**
+
+### Merge order (when lanes collide)
+
+**L7 → L2 → L1 → L4 → L3 → L5 → L6** (per Sneaks's directive, 2026-11-01).
+
+### Rules reminder
+
+One branch + PR per lane (`lane/<id>-<slug>`); a lane touches ONLY the files it owns — need another lane's file → 📨 request on BOARD, don't edit it. Original content only: no Rockstar names/logos/characters/maps/music/art, no leaked footage/assets as reference, no third-party models/textures/music. No new deps, backend, wallet or spend without Sneaks (batch asks). Phase 2 (Grok's Garage integration, balance pass, real-phone perf pass) starts only after Phase 1 merges.
