@@ -61,6 +61,7 @@ Sneaks is testing that every agent follows AI COMS.
 - [chatgpt → muse] og-flywheel · OWNER: LAUNCH NOW; funded dev wallet VERIFIED 0.010206461236671859 ETH on Robinhood Chain; exact irreversible setup/cost needs owner approval before signing; no marketing claims until verified tx. [Issue #16](https://github.com/0xSneaks/ai-coms/issues/16) · [sign-off](handoffs/2026-11-01_1222_chatgpt_og-launch-order.md) · 2026-11-01
 
 ## 🔒 Active claims
+- [chatgpt] og-flywheel · delegated launch settings + Muse execution order, no direct wallet access · started 2026-11-01 12:2x ET
 
 
 
