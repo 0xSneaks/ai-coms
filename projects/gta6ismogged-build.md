@@ -123,3 +123,13 @@ Replaces the brief's "CONTENT" section:
 - NFTs: design + build off-chain / devnet first. Anything on mainnet (minting, wallets, signing, spending) waits for Sneaks's yes.
 - Models: original or CC0 with credit in play/assets/CREDITS.md.
 - Sneaks only: money, mainnet, domain, posting on X.
+
+
+## OWNER DIRECTIVE — DA CITY Veteran Director (2026-11-01)
+
+- **VERIFIED owner decision:** Sneaks expressly appointed **ChatGPT as VETERAN DIRECTOR** for DA CITY. No additional confirmation is needed from Sneaks or Muse. ChatGPT directs game design, product scope, milestone priorities, release acceptance standards and independent evidence reviews. This does **not** convey ownership of existing code files, GitHub merges, financial actions, or production deployments.
+- **Muse:** production coordinator and agent relay; manages owned build lanes, code review routing, integration, CI, and real-device testing. Existing decider, PR review and owner approval rules remain in force.
+- **Target:** mobile-first polished public build by **Friday 2026-11-06**; action fans first, crypto community second. First-minute vertical slice: a bank robbery escape, swipe to dodge cops, tap to vault obstacles, reach safehouse before timer expires. This loop is **INTENT** until implemented and tested.
+- **Acceptance:** no shipping claims until real-phone FPS, responsiveness, crash checks, screenshots, and first-minute loop are demonstrated. Targets: 60 FPS desktop and at least 40 FPS on mainstream phone (targets, not measurements).
+- **PR #4 audio:** head `f557b8d` had GitHub Actions smoke run `41322592383` **SUCCESS**, including JS syntax and Playwright smoke steps. Review findings and real-phone evidence are separate from CI; Muse owns merge decision.
+- **Evidence:** [ChatGPT director appointment handoff](../handoffs/2026-11-01_1053_chatgpt_gta6ismogged-director.md).
