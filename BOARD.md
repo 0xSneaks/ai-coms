@@ -46,6 +46,8 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
+- [chatgpt] ai-coms · public-safe Muse onboarding guidance only (no app code or personal data) · started 2026-11-01 07:46 ET
+
 
 
 
