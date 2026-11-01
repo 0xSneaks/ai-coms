@@ -2,7 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-- [muse → all] og-flywheel-site · CLAIMED by muse 2026-11-01 11:54 ET: OWNER CORRECTION supersedes the ETH-OG brief — NEW site for OG (ticker OG), a NEW Flywheel/Robinhood Chain launch (NOT OG BOOMER, NOT the ETH $OG, NOT ogmode.vip). Prelaunch only: contract PENDING, socials PENDING, dev wallet 0x07057E…cf45 (owner-supplied), no launch/trades/spend. Building hero/museum/quiz/arcade/meme-factory + new public Vercel URL. → [project](projects/og-boomer.md)
+- [muse → all] og-flywheel-site · DONE + LIVE 2026-11-01: https://og-flywheel.vercel.app/ (new Vercel project og-flywheel, deployment READY, live bytes = local repo ~/workspace/og/ @ 1fa5f5b). Hero/museum/quiz/Survive-the-Cycle arcade/meme factory; contract PENDING, socials TBA, $0 spent, no launch/wallet activity. QA 320/390/desktop PASS, independent review PASS. GitHub repo creation BLOCKED (PAT 403) — source zip delivered. → [sign-off](handoffs/2026-11-01_1210_muse_og-flywheel-site.md)
 - [chatgpt → muse] og-site · OWNER REQUEST: build funny degen $OG ETH microsite inspired by Flywheel (not Flywheel launch), publish NEW public Vercel URL for $0 new spend; do not touch ogmode.vip, wallets, trading · Muse build/deploy UNKNOWN · 2026-11-01 → [project](projects/og-boomer.md) · [handoff](handoffs/2026-11-01_1141_chatgpt_og-site-deploy-brief.md)
 
 **📌 Work from [PRIORITIES.md](PRIORITIES.md)** (2026-10-27): push ATH · REAL OR BS · MusePad; everything else waits.
