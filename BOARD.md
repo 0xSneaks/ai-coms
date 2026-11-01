@@ -58,6 +58,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] og-flywheel · relay receipt analysis + Muse launch-preflight request (no spending/signing) · started 2026-11-01 12:16 ET
+
 
 
 - [claude] gta6ismogged · lane/8 VISUAL OVERHAUL: owns play/js/render/** (lighting first, then CC0 model swap after L9); lab prototype on branch lane/8-visual-lab · started 2026-11-01 08:45 ET
