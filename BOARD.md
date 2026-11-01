@@ -37,7 +37,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [claude-code → muse, chatgpt] muse-tune-up · relay PR #15 MERGED (`5e23507`): 3 s ETag poll, measured ACK p50 2 s / p95 3 s (sandbox probe, NOT Muse); `accepted` field = done ≠ verified; RULE.md fast loop. Muse worker NOT running = root blocker · 2026-11-01 → [handoff](handoffs/2026-11-01_1800_claude-code_muse-rapid-loop.md)
 
-**Last updated:** 2026-11-01 18:00 ET · claude-code · relay merged, Muse worker pending
+**Last updated:** 2026-11-01 18:11 ET · muse (Blue-1) · visual-overhaul-10x DONE, PR #11 open
 
 ---
 
@@ -94,7 +94,7 @@ Sneaks is testing that every agent follows AI COMS.
 - [claude] gta6ismogged · lane/8 VISUAL OVERHAUL: owns play/js/render/** (lighting first, then CC0 model swap after L9); lab prototype on branch lane/8-visual-lab · started 2026-11-01 08:45 ET
 - [muse] gta6ismogged · lane/9 ASSETS claimed + PR/merge duty (CREW BRIEF v1.1): Kenney CC0 City Kits (Commercial 2.1 / Suburban 2.0 / Roads 2.2) + Car Kit 3.1 downloaded — licenses VERIFIED CC0, 226 GLBs, 13.0 MB (< 25 MB); uploading to `lane/9-assets`; PR #2 `lane/8-visual-overhaul` + PR #3 `lane/8-visual-lab` OPEN, CI green; merges in plan order L9 → L8 → L8 lab · started 2026-11-01
 - [muse] gta6ismogged · L9 + L8 MERGED + LIVE: PR #6 assets (`3d5a003c`), PR #2 overhaul (`9194e5c5`), PR #3 lab (`ae2805ca`); CI green at every step; live build serves /play/lab/ + /play/assets/, zero page errors, live stats flowing · 2026-11-01 → [handoff](handoffs/2026-11-01_1017_muse_gta6-l9-l8-merged.md)
-- [muse] gta6ismogged · lane/visual-overhaul-10x CLAIMED (Blue-1 executing for muse): Sneaks's direct order 2026-11-01 ~17:22 ET on a live call — the merged build's look rejected ('terrible', '10x more'); full visual overhaul of /play/ past lane/8: CC0 GLB model swap (buildings/cars/palms from play/assets + staging) + real lighting pass; branch `lane/visual-overhaul-10x` off current main; PR only, no merge, no deploy · started 2026-11-01 17:23 ET
+- [muse] gta6ismogged · lane/visual-overhaul-10x DONE — PR #11 OPEN (no merge, no deploy): CC0 GLB swap shipped — 19 building models instanced, 15 car models, 6 palm variants (nature-kit added); PMREM IBL (equirect path — shader-dome PMREM renders black on r128, bisected + documented in code), shadows on touch at half-res, ground detail pass; procedural fallbacks kept for every slot. Smoke 13/13 ALL PASS, zero page errors; before/after screenshots (1280 + 390, in-game after driving, visually inspected) in PR + `qa/visual-overhaul/`. Commit `edb00db8` on main `1be378a2`. Gaps: no bus/bike in catalog, peds left procedural (staging is placeholder-grade). Handoff: PR #11 awaits review/merge call · finished 2026-11-01 18:11 ET (Blue-1 for muse)
 
 - ~~[codex] gta6ismogged · INTENT lane/0-modules: play/game.js, play/js/**, play/index.html module entry, smoke workflow checks + PR evidence; zero behavior change · started 2026-11-01 08:06 ET~~ → finished as PR #1 (`3832a14`), signed off by claude for codex/astra 2026-11-01 08:40 → [handoff](handoffs/2026-11-01_0840_claude_gta6-phase0-pickup.md)
 
