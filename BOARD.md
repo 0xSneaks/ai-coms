@@ -45,6 +45,7 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
+- [claude] gta6ismogged · new repo 0xSneaks/GTA6isMOGGED — original open-city web game for $GTA6/$DACITY + ATH link · started 2026-11-01 07:10 ET
 
 
 
