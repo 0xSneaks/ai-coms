@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # 3.9 is gone from ubuntu-latest (26.04)
     timeout-minutes: 5
     strategy:
       matrix:

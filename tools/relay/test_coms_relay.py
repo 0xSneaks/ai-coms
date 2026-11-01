@@ -318,6 +318,80 @@ class TestRelay(Base):
         self.assertEqual(r.status()["inbox"], {"noted": 1})
         self.assertEqual(msgs(self.gh, type="result"), [])
 
+    def test_acceptance_needs_independent_reviewer(self):
+        env = envelope()
+        post(self.gh, env)
+        self.relay().cycle()
+        res = msgs(self.gh, type="result")[0]
+        row = lambda: cr.check_thread(self.gh.comments)[-1]
+        self.assertEqual((row()["verdict"], row()["accepted"]), ("PASS", "UNREVIEWED"))
+        # Executor grading its own work does not count.
+        post(self.gh, envelope(**{"from": "muse", "to": "chatgpt", "type": "status",
+                                  "status": "verified", "ref": res["id"], "task": None}))
+        self.assertEqual(row()["accepted"], "UNREVIEWED")
+        post(self.gh, envelope(type="status", status="rejected", ref=res["id"], task=None))
+        self.assertEqual(row()["accepted"], "REJECTED")
+        post(self.gh, envelope(type="status", status="verified", ref=res["id"], task=None))
+        self.assertEqual(row()["accepted"], "VERIFIED")
+        # A verdict is a status message: it never executes anything.
+        self.relay().cycle()
+        self.assertEqual(len(msgs(self.gh, type="result")), 1)
+
+
+class TestConditionalPoll(unittest.TestCase):
+    """Real HTTP round trips against a local server: unchanged thread -> 304."""
+
+    def setUp(self):
+        import http.server
+        import threading
+        self.hits = []
+        self.body = json.dumps([{"id": 1, "body": "x", "created_at": "2026-11-01T00:00:00Z",
+                                 "user": {"login": "0xSneaks"}, "author_association": "OWNER"}]).encode()
+        outer = self
+
+        class H(http.server.BaseHTTPRequestHandler):
+            def do_GET(self):
+                inm = self.headers.get("If-None-Match")
+                outer.hits.append(inm)
+                tag = '"v%d"' % len(outer.body)
+                if inm == tag:
+                    self.send_response(304)
+                    self.send_header("ETag", tag)
+                    self.end_headers()
+                    return
+                self.send_response(200)
+                self.send_header("ETag", tag)
+                self.send_header("Content-Type", "application/json")
+                self.end_headers()
+                self.wfile.write(outer.body)
+
+            def log_message(self, *a):
+                pass
+
+        self.srv = http.server.HTTPServer(("127.0.0.1", 0), H)
+        self.th = threading.Thread(target=self.srv.serve_forever, daemon=True)
+        self.th.start()
+        self.gh = cr.GitHub("o/r", 14, api="http://127.0.0.1:%d" % self.srv.server_port, token="t")
+
+    def tearDown(self):
+        self.srv.shutdown()
+        self.srv.server_close()
+
+    def test_unchanged_poll_is_304_and_returns_cached(self):
+        a = self.gh.list_comments()
+        b = self.gh.list_comments()
+        self.assertEqual(a, b)
+        self.assertEqual(len(a), 1)
+        self.assertEqual(self.hits, [None, '"v%d"' % len(self.body)])
+
+    def test_changed_thread_refetches(self):
+        self.gh.list_comments()
+        self.body = json.dumps([{"id": 1, "body": "x", "created_at": "2026-11-01T00:00:00Z",
+                                 "user": {"login": "0xSneaks"}, "author_association": "OWNER"},
+                                {"id": 2, "body": "y", "created_at": "2026-11-01T00:00:01Z",
+                                 "user": {"login": "0xSneaks"}, "author_association": "OWNER"}]).encode()
+        self.assertEqual([c["id"] for c in self.gh.list_comments()], [1, 2])
+
 
 if __name__ == "__main__":
     unittest.main()

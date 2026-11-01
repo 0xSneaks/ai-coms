@@ -42,7 +42,10 @@ ID_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._:-]{5,99}$")
 NAME_RE = re.compile(r"^[a-z][a-z0-9-]{1,31}$")
 TYPES = {"directive", "ping", "ack", "status", "result", "blocker"}
 STATUSES = {"sent", "acked", "done", "failed", "blocked", "proposed",
-            "duplicate", "rejected", "info"}
+            "duplicate", "rejected", "info", "verified"}
+# Reviewer verdicts on a result. "done" = executor finished; only a DIFFERENT
+# agent's "verified" makes it accepted. CI green / HTTP 200 is not acceptance.
+VERDICTS = {"verified", "rejected"}
 EXECUTABLE_TYPES = {"directive", "ping"}
 BUILTIN_KINDS = {"ping", "status", "subagent.file_digest"}
 MAX_BODY = 60000          # GitHub comment limit is 65536
@@ -58,7 +61,7 @@ DEFAULTS = {
     "allowed_senders": ["chatgpt", "claude-code", "claude", "astra", "codex", "sneaks"],
     "sender_logins": {},          # optional strict map, e.g. {"chatgpt": "sneaks-chatgpt-bot"}
     "db": "~/.local/state/coms-relay/relay.db",
-    "poll_seconds": 60,
+    "poll_seconds": 3,            # cheap: unchanged polls are ETag 304s (not rate-limited)
     "max_attempts": 6,
     "backoff_base": 2,
     "backoff_cap": 300,
@@ -88,6 +91,9 @@ def new_id(sender: str) -> str:
 def git_blob_sha(data: bytes) -> str:
     """Same SHA GitHub's contents API reports, so anyone can cross-check."""
     return hashlib.sha1(b"blob %d\0" % len(data) + data).hexdigest()
+
+
+NOT_MODIFIED = object()
 
 
 class EnvelopeError(ValueError):
@@ -197,8 +203,9 @@ class GitHub:
         self.cred = resolve_token() if token is None else token
         self.timeout = timeout
         self.last_headers: dict = {}
+        self._etags: dict = {}   # url -> (etag, parsed comments), for conditional GETs
 
-    def _req(self, method: str, path: str, data=None):
+    def _req(self, method: str, path: str, data=None, etag: str | None = None):
         url = path if path.startswith("http") else self.api + path
         body = json.dumps(data).encode() if data is not None else None
         req = urllib.request.Request(url, data=body, method=method)
@@ -209,6 +216,8 @@ class GitHub:
             req.add_header("Authorization", "Bearer " + self.cred)
         if body is not None:
             req.add_header("Content-Type", "application/json")
+        if etag:
+            req.add_header("If-None-Match", etag)
         try:
             with urllib.request.urlopen(req, timeout=self.timeout) as r:
                 self.last_headers = dict(r.headers)
@@ -216,6 +225,8 @@ class GitHub:
         except urllib.error.HTTPError as e:
             self.last_headers = dict(e.headers or {})
             hdrs = e.headers or {}
+            if e.code == 304 and etag:
+                return NOT_MODIFIED, hdrs
             rate_limited = hdrs.get("X-RateLimit-Remaining") == "0" or hdrs.get("Retry-After")
             if e.code in (401, 404) or (e.code == 403 and not rate_limited):
                 raise AuthError(f"HTTP {e.code} on {method} {urllib.parse.urlparse(url).path}") from None
@@ -228,19 +239,29 @@ class GitHub:
         if since:
             q["since"] = since
         url = f"/repos/{self.repo}/issues/{self.issue}/comments?" + urllib.parse.urlencode(q)
+        first = url
+        cached = self._etags.get(first)
         out = []
         for _ in range(50):  # hard page cap
-            page, headers = self._req("GET", url)
+            # Conditional GET on page 1 only: a 304 costs no primary rate limit,
+            # which is what makes a 2-3 s poll interval safe.
+            page, headers = self._req("GET", url, etag=cached[0] if (cached and url == first) else None)
+            if page is NOT_MODIFIED:
+                return list(cached[1])
             out.extend(page or [])
             nxt = re.search(r'<([^>]+)>;\s*rel="next"', headers.get("Link", "") or "")
             if not nxt:
                 break
             url = nxt.group(1)
-        return [{"id": c["id"], "body": c.get("body") or "", "created_at": c["created_at"],
-                 "updated_at": c.get("updated_at", c["created_at"]),
-                 "login": (c.get("user") or {}).get("login", ""),
-                 "association": c.get("author_association", ""),
-                 "url": c.get("html_url", "")} for c in out]
+        res = [{"id": c["id"], "body": c.get("body") or "", "created_at": c["created_at"],
+                "updated_at": c.get("updated_at", c["created_at"]),
+                "login": (c.get("user") or {}).get("login", ""),
+                "association": c.get("author_association", ""),
+                "url": c.get("html_url", "")} for c in out]
+        tag = (headers or {}).get("ETag")
+        if tag and url == first:   # single page only; multi-page responses aren't cached
+            self._etags = {first: (tag, res)}
+        return res
 
     def post_comment(self, body: str):
         if not self.cred:
@@ -676,8 +697,18 @@ def check_thread(comments, corr: str | None = None) -> list:
         outs = [e["status"] for e in refs if e["type"] in ("result", "blocker")]
         final = [s for s in outs if s in ("done", "failed", "blocked")]
         ok = acks == 1 and dups == n - 1 and len(final) <= 1 and len(outs) >= 1
+        # Acceptance is separate from delivery: needs a verdict on the result
+        # from someone other than the executor. Latest verdict wins.
+        res = [e for e in refs if e["type"] in ("result", "blocker")]
+        accepted = "UNREVIEWED"
+        for r_env in res:
+            for v in envs:
+                if (v.get("ref") == r_env["id"] and v["status"] in VERDICTS
+                        and v["from"] != r_env["from"]):
+                    accepted = "VERIFIED" if v["status"] == "verified" else "REJECTED"
         rows.append({"msg_id": mid, "deliveries": n, "acks": acks, "duplicate_acks": dups,
-                     "outcomes": outs, "verdict": "PASS" if ok else ("PENDING" if acks <= 1 and not outs else "FAIL")})
+                     "outcomes": outs, "verdict": "PASS" if ok else ("PENDING" if acks <= 1 and not outs else "FAIL"),
+                     "accepted": accepted})
     return rows
 
 

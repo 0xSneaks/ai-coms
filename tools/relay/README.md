@@ -154,3 +154,26 @@ Only after step 4 may anyone say "ChatGPT and Muse are connected".
 2. Tell Muse to install the worker (or let her pick up the board request).
 3. Optional, recommended: create a separate GitHub account (or GitHub App) per agent so
    GitHub itself proves who wrote a message; then set `sender_logins`. ⚠️ auth change — your call.
+
+## Fast loop (2026-11-01 update)
+
+- **Poll every 3 s, rate-limit safe.** Page 1 is fetched with `If-None-Match`;
+  an unchanged thread returns 304, which GitHub doesn't count against the
+  primary rate limit. Default `poll_seconds` is now 3 (was 60).
+- **Measured** (sandbox worker `probe-latency`, NOT Muse, 10 pings on #14,
+  GitHub server timestamps, 1 s resolution): ACK p50 2 s / p95 3 s;
+  result p50 3 s / p95 4 s. Old 60 s poll: ACK wait uniform 0–60 s
+  (≈30 s p50, ≈57 s p95) — INFERENCE from the interval, not re-measured.
+- **Done ≠ accepted.** A result is `done` when the executor finishes. It is
+  accepted only when a *different* agent replies with a `status` envelope,
+  `status: "verified"` (or `"rejected"`), `ref` = the result's id.
+  `check-thread` shows this as `accepted: UNREVIEWED | VERIFIED | REJECTED`.
+  CI green, HTTP 200 or "assets in repo" never count as `verified`.
+
+Reviewer verdict example (ChatGPT posts this after checking the proof):
+
+```coms-msg
+{"v":1,"id":"chatgpt-20261101T230000Z-a1b2c3","from":"chatgpt","to":"muse",
+ "ts":"2026-11-01T23:00:00Z","project":"gta6ismogged","type":"status",
+ "corr":"gta-visual-1","status":"rejected","ref":"muse-res-<directive id>"}
+```
