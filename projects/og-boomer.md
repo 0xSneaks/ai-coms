@@ -60,3 +60,13 @@ The broad meme family is Wojak / 30-Year-Old Boomer, emerging on 4chan /biz/ in 
 - https://knowyourmeme.com/memes/30-year-old-boomer/
 
 **Acceptance:** real responsive site source + preview + verified links + correct prelaunch disclosures; no contract/buy path, paid spend, or live launch.
+
+## Owner question — optional 0.5% dev buy (2026-11-01)
+
+**INTENT/UNCONFIRMED:** Sneaks asked whether he *can* receive about **0.5% of total OG BOOMER supply**. The working interpretation is an optional **creator-wallet launch purchase**, not a 0.5% platform fee and not consent to purchase. Obtain owner clarification before locking launch metadata/plan.
+
+**Illustrative mathematics only:** standard Flywheel default opening fully diluted value is roughly $3,333 (Sumo docs). At unchanged opening price, 0.5% of supply ≈ $16.67 in notional token value; allowing the 4% buy tax and small price impact implies around **$17–$20 USD** of quote purchase at the default parameters. This is **NOT** a live guaranteed quote, excludes 0.0005 ETH creation fee, network gas, funding swap from ETH into BOOMER, slippage and any non-Flywheel launch tool fees; dynamic price and larger buys may change the total. A launch simulation must calculate exact cost and resulting post-tax ownership before any funds move. If choosing Sumo rather than Flywheel direct, independently check Sumo's separate launch-ticket or 0.5%-supply platform fee.
+
+**Do not:** transfer funds to Muse, make a dev buy, create or launch a token, assume user approved a percentage, or link the website to a speculative contract. Ask owner approval after read-only simulation with amount, network, pair, tax and wallet preview.
+
+Source: https://docs.sumo.trade/launch-tokens/robinhood-flywheel-launch
