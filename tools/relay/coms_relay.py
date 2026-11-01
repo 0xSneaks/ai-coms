@@ -194,7 +194,7 @@ class GitHub:
     def __init__(self, repo: str, issue: int, api: str = "https://api.github.com",
                  token: str | None = None, timeout: float = 20):
         self.repo, self.issue, self.api = repo, int(issue), api.rstrip("/")
-        self.token = resolve_token() if token is None else token
+        self.cred = resolve_token() if token is None else token
         self.timeout = timeout
         self.last_headers: dict = {}
 
@@ -205,8 +205,8 @@ class GitHub:
         req.add_header("Accept", "application/vnd.github+json")
         req.add_header("X-GitHub-Api-Version", "2022-11-28")
         req.add_header("User-Agent", "ai-coms-relay")
-        if self.token:
-            req.add_header("Authorization", "Bearer " + self.token)
+        if self.cred:
+            req.add_header("Authorization", "Bearer " + self.cred)
         if body is not None:
             req.add_header("Content-Type", "application/json")
         try:
@@ -243,7 +243,7 @@ class GitHub:
                  "url": c.get("html_url", "")} for c in out]
 
     def post_comment(self, body: str):
-        if not self.token:
+        if not self.cred:
             raise AuthError("no token for write")
         c, _ = self._req("POST", f"/repos/{self.repo}/issues/{self.issue}/comments",
                          {"body": body})
@@ -609,11 +609,11 @@ def doctor(cfg: dict, write_test: bool = False) -> int:
         ok = ok and passed
         print(f"{'PASS' if passed else 'FAIL'}  {name}  {detail}".rstrip())
 
-    token = resolve_token()
+    cred = resolve_token()
     src = next((v for v in ("COMS_RELAY_TOKEN", "GH_TOKEN", "GITHUB_TOKEN") if os.environ.get(v)),
-               "gh auth token" if token else "none")
-    line("token present", bool(token), f"source={src}")
-    gh = GitHub(cfg["repo"], cfg["issue"], cfg["api"], token=token)
+               "gh auth token" if cred else "none")
+    line("token present", bool(cred), f"source={src}")
+    gh = GitHub(cfg["repo"], cfg["issue"], cfg["api"], token=cred)
     t0 = time.time()
     try:
         me, h = gh._req("GET", "/user")
