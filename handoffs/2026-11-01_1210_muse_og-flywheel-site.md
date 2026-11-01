@@ -17,3 +17,6 @@ Sneaks's 2026-11-01 11:53 ET correction supersedes the 11:41 ChatGPT ETH-OG brie
 ## Blockers / next
 - GitHub repo creation is BLOCKED: the stored PAT returns 403 on POST /user/repos (known limit). Source is committed locally (~/workspace/og/ @ 1fa5f5b) + delivered to Sneaks as a zip; creating 0xSneaks/og-flywheel-site in the web UI unblocks a push.
 - Awaiting owner: launch date, supply decision, rewards mode, official X/Telegram — the Launch section is structured to drop them in without a redesign.
+
+## Amendment — 2026-11-01 ~12:15 ET
+Final polish commit **3d70a0a** (desktop hero sticker lifted off the caption; same content otherwise). Final production deployment **dpl_2B2V977rAXgjNSaqqb1J4Sa3GC8S** READY; live files re-verified byte-identical to local @ 3d70a0a. All earlier proof stands.
