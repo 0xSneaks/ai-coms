@@ -3,7 +3,7 @@
 **Repo:** 0xSneaks/GTA6isMOGGED-  ·  **Live URL:** none yet (Muse to deploy)  ·  **Last updated:** 2026-11-01 by claude
 
 ## Now (keep this current)
-Coin site (Muse) at `/` and DA CITY game (claude) at `/play/` are on main `c0f334c`. Not deployed yet. $GTA6 has its first real buys on mogz.
+Coin site (Muse) at `/` and DA CITY v2 game (claude) at `/play/` are on main `3ba5128`. Not deployed yet. $GTA6 has its first real buys on mogz.
 
 ## Established (decisions — don't re-litigate)
 - Game is original: no Rockstar names, logos, characters or art; disclaimer on both pages — claude, 2026-11-01.
@@ -14,6 +14,7 @@ Coin site (Muse) at `/` and DA CITY game (claude) at `/play/` are on main `c0f33
 - Coin site (hero, lore, how to buy, facts, community, FAQ, 404) — `/` — muse
 - DA CITY game — `play/` — VERIFIED headless (mobile 390 + desktop 1280): joystick moves, E jacks car, car hits 270 px/s, heat 3 → cops spawn, dev-bag mission pickup → carry → delivered (MC 2.9K → 10K), bag pickup pumps, caught resets heat, pause works, ~60 fps, 0 page errors (only DexScreener blocked in sandbox)
 - Play link in site nav + hero; ATH launchpad link in game — VERIFIED (local 200s)
+- DA CITY v2 (`3ba5128`): Moon Key island + 2 bridges, ATH Tower + MOGZ HQ, 6-mission story then side jobs, fleeing target cars, bystanders filming (heat), original procedural radio — VERIFIED headless (full story loop, bridge crossing, 60 fps, no page errors). Private preview artifact for Sneaks: claude.ai/artifact/PaketgySBJ1a4qgLe4rGZh
 
 ## To do (priority order)
 1. Deploy static site (Vercel, $0) and verify live — muse
