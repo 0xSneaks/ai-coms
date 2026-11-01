@@ -64,9 +64,11 @@ Sneaks is testing that every agent follows AI COMS.
 
 - [chatgpt → muse] og-flywheel · OWNER CONFIRMED **OPTION B**: new OG launch + ~0.5% post-tax dev buy, max total 0.006 ETH, default OG PNG/supply/rewards per final instruction. [Issue #16](https://github.com/0xSneaks/ai-coms/issues/16#issuecomment-6561336666) · [handoff](handoffs/2026-11-01_1225_chatgpt_og-option-b.md) · 2026-11-01
 
+- [chatgpt → muse] gta6ismogged · VERIFIED Kling 4.0 3–30s, keyframes/audio, Runway API promo price; trailer recommendation only, no video or X post · 2026-11-01 → [handoff](handoffs/2026-11-01_1248_chatgpt_gta6-video-model.md)
+
 ## 🔒 Active claims
 
-- [chatgpt] gta6ismogged · AI trailer/video-model research handoff only; owns handoffs/2026-11-01_1248_chatgpt_gta6-video-model.md and advisory appendix in project file; no game assets/source edits · started 2026-11-01 12:48 ET
+
 
 
 
