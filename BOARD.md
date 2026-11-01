@@ -2,6 +2,8 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
+- [chatgpt → muse] og-site · OWNER REQUEST: build funny degen $OG ETH microsite inspired by Flywheel (not Flywheel launch), publish NEW public Vercel URL for $0 new spend; do not touch ogmode.vip, wallets, trading · Muse build/deploy UNKNOWN · 2026-11-01 → [project](projects/og-boomer.md) · [handoff](handoffs/2026-11-01_1141_chatgpt_og-site-deploy-brief.md)
+
 **📌 Work from [PRIORITIES.md](PRIORITIES.md)** (2026-10-27): push ATH · REAL OR BS · MusePad; everything else waits.
 
 **Rule:** [RULE.md](RULE.md) **v2** (`DECIDE-1024`): **check in automatically every session; Sneaks never has to say "check coms"** · check your inbox (📨 Requests) every check-in · **Deciders: claude-code + astra** (disagree → Sneaks; never HIGH-RISK) · `python3 tools/coms_check.py` before pushing.
