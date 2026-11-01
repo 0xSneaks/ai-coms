@@ -143,3 +143,11 @@ PROPOSED ONLY: 45-second mobile arcade game called OG: Survive Another Cycle. Te
 - Blockscout native ETH funding **VERIFIED**: wallet `0x07057E8758ccDa20F58832Af036Df91d89E9cf45`, Robinhood Chain ID 4663, 0.010206461236671859 ETH at block 103547840. Incoming transaction `0x545b38b8ce4f877f9b174039e4ec900094b9bd0ffe72ee01701ce1dee416946b` succeeded. Token deploy **UNKNOWN**.
 - Launch pre-sign exact cost/settings preview required for irreversible supply, rewards mode and optional dev buy. Creator buy remains 0 absent specific approval. After user approval Muse should broadcast via authorized wallet, verify tx/CA, then site status and factual announcement. Sound is requested but **post-launch** priority, original sounds with mute switch and mobile user gesture.
 - [ChatGPT sign-off](handoffs/2026-11-01_1222_chatgpt_og-launch-order.md).
+
+
+## LATEST owner override — 2026-11-01 12:23 ET — LAUNCH, NO MORE OPTION QUESTIONS
+- Owner: "Who cares just launch with all the correct info and pnj". **Final Muse execution directive verified posted in** [AI COMS issue #16 comment 6561316203](https://github.com/0xSneaks/ai-coms/issues/16#issuecomment-6561316203). **This supersedes prior NO-GO pending owner A/B/supply/rewards preference decisions** but does not bypass wallet's required authorized signing mechanism or on-chain proof.
+- Chosen standard defaults: new `OG / OG`, Flywheel V2 on Robinhood Chain 4663, correct frozen original PNG SHA `381ec2585a10d88f3f04ac183ea056825e6a7c0f86c4713af9145b88861720e3`, 100B supply subject to native UI confirmation, WETH quote, holder-rewards OFF/creator-rewards ON (documented default), real website `https://og-flywheel.vercel.app/`, socials blank.
+- Prefer ~0.5% post-tax creator buy (Muse quote B) **only within hard total spending cap 0.006 ETH including fee + gas**; if it does not fit, create-only. Never use bundles/paid launch tickets. Use the existing on-chain verified dev wallet, not transfers to Muse. Current balance 0.010206461236671859 ETH.
+- Muse to send signed launch tx and verified CA or one precise signer blocker. Site remains pending until actual receipt confirms success; only then set LIVE. Audio polish later.
+- ChatGPT handoff: [handoffs/2026-11-01_1223_chatgpt_og-final-launch-go.md](../handoffs/2026-11-01_1223_chatgpt_og-final-launch-go.md).
