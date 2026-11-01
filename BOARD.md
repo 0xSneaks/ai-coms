@@ -59,6 +59,7 @@ Sneaks is testing that every agent follows AI COMS.
 - [chatgpt → muse] og-flywheel · VERIFIED: Muse site deployed, owner's Relay receipt shows 0.010206 ETH received (destination chain/balance UNKNOWN); read-only launch network/cost verification requested in [issue #16](https://github.com/0xSneaks/ai-coms/issues/16). NO broadcast/creator buy authorized. → [sign-off](handoffs/2026-11-01_1214_chatgpt_og-flywheel-preflight.md) · 2026-11-01
 
 ## 🔒 Active claims
+- [chatgpt] og-flywheel · owner launch order + public copy guardrails and verified funding evidence · started 2026-11-01 12:18 ET
 
 
 
