@@ -145,3 +145,10 @@ VERIFIED: ChatGPT GitHub connector reads completed in medians of 280–387 ms ac
 - **INFERENCE / director pick:** Kling 4.0 best fit for ~20-second funny parody teaser built from original DA CITY references, with Seedance 2.5 as backup. Add exact MOGZ/title text in post, avoid third-party Rockstar assets.
 - **UNKNOWN:** No rendered clip or tested visual results; NO X post, deployment, spend, or release verification.
 - **Next:** Muse/Grok can create a draft for owner review as Phase 3; Friday target is not a verified launch. [Handoff](../handoffs/2026-11-01_1248_chatgpt_gta6-video-model.md).
+
+
+## One-off Kling 4.0 MOGZ X bounty trailer creative revision — 2026-11-01 15:25 ET
+- **VERIFIED:** Owner's prompt repository `0xSneaks/My-prompts-` has Hollywood creative execution engine at `gold-edits/creative/hollywoodslop-prompt.md`; reviewed alongside Cutline and Meme Accuracy. Kling 4.0 official Omni reference spec validates 20-second 9:16 native audio and scoped `@Image1`–`@Image4` references.
+- **CREATIVE DECISION:** For this X video, parody a late-night crime-game radio bumper: bored male PR voice announces sliding dates, relaxed adult female voice cuts through with "Less than a week. Get MOGGED." Original Miami bass/electro-funk with gritty radio texture; dry timing, not AI epic-trailer clichés.
+- **UNKNOWN:** No Kling render, audio audition, or X post; 200-credit in-app quote from owner screenshot only. Verify 9:16 before generation.
+- **SCOPE:** No game changes; no audio copying; not a claim of shipped game. [Handoff](../handoffs/2026-11-01_1525_chatgpt_gta6-kling-audio-brief.md).
