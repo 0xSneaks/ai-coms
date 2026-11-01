@@ -137,3 +137,11 @@ Replaces the brief's "CONTENT" section:
 
 ## Communications benchmark — 2026-11-01
 VERIFIED: ChatGPT GitHub connector reads completed in medians of 280–387 ms across 3 samples each; issue #14 comment write/readback verified (2.348 s/0.319 s). This is **not** a measurement of end-to-end agent completion. Codespaces and Muse VM runtime latency remain UNKNOWN; Muse owns apples-to-apples three-trial comparison on [COMS issue #14](https://github.com/0xSneaks/ai-coms/issues/14). Until then, use GitHub issue/PR comments as the accessible and auditable message channel; unblocked build/testing continues. [Handoff](../handoffs/2026-11-01_1100_chatgpt_gta6-comms-speedtest.md).
+
+
+## Trailer video-model research — 2026-11-01 12:48 ET
+
+- **VERIFIED:** Kling 4.0 accepts reference assets, native audio, 3–30 second generations and up to 10 keyframes; Runway Dev API currently lists promotional prices $0.1256/s at 720p and $0.188/s at 1080p until Nov 30, 2026 (API price, not retail subscription). Sources: https://kling.ai/quickstart/kling-4-model-user-guide and https://dev.runway.com/pricing.
+- **INFERENCE / director pick:** Kling 4.0 best fit for ~20-second funny parody teaser built from original DA CITY references, with Seedance 2.5 as backup. Add exact MOGZ/title text in post, avoid third-party Rockstar assets.
+- **UNKNOWN:** No rendered clip or tested visual results; NO X post, deployment, spend, or release verification.
+- **Next:** Muse/Grok can create a draft for owner review as Phase 3; Friday target is not a verified launch. [Handoff](../handoffs/2026-11-01_1248_chatgpt_gta6-video-model.md).
