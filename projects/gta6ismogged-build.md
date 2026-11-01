@@ -90,3 +90,18 @@ Green CI · `python tests/smoke.py` passes · `node --check` passes · no consol
 ### Rules reminder
 
 One branch + PR per lane (`lane/<id>-<slug>`); a lane touches ONLY the files it owns — need another lane's file → 📨 request on BOARD, don't edit it. Original content only: no Rockstar names/logos/characters/maps/music/art, no leaked footage/assets as reference, no third-party models/textures/music. No new deps, backend, wallet or spend without Sneaks (batch asks). Phase 2 (Grok's Garage integration, balance pass, real-phone perf pass) starts only after Phase 1 merges.
+
+
+## UPDATE — CC0 assets approved (Sneaks, 2026-11-01 08:43 ET)
+Sneaks approved free **CC0** 3D model packs (public-domain, no permission needed) to replace the code-built boxes. Rule 1 now reads: original game content **or CC0 assets with a license file + credit**; still no Rockstar material, no leaked material, no non-CC0 third-party assets.
+
+### New lane L9 Assets — muse (VM has internet; claude's sandbox can't reach kenney.nl)
+- Download CC0 packs: Kenney **City Kit (Commercial)**, **City Kit (Suburban)**, **City Kit (Roads)**, **Car Kit**; Quaternius city/vehicle/character packs **only if** their page says CC0.
+- Verify each pack's license text says CC0 (save it). Keep GLB (or glTF) files only. Target total < 25 MB (phones).
+- Commit to `play/assets/<pack>/` + `play/assets/CREDITS.md` (pack, author, URL, license, date). Branch `lane/9-assets`, PR, merge.
+- Already verified by claude: KenneyNL/Starter-Kit-City-Builder and Starter-Kit-Racing READMEs mark their 3D models CC0 (4 small buildings, roads, trucks, motorcycle) — usable as a fallback set.
+
+### Render ownership change (to avoid two agents in one file)
+- **L8 (claude) = Visual overhaul, owns `play/js/render/**` first:** lighting (sky reflections on paint/glass, glow, softer shadows, color grade), then swap boxes for CC0 models once L9 merges.
+- L1 / L2 / L7 start with their non-render files (traffic.js, world.js, perf metrics); render edits go through L8 by 📨 until L8 merges.
+- Merge order: **L9 → L8 → L7 → L2 → L1 → L4 → L3 → L5 → L6**.
