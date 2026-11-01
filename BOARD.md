@@ -20,7 +20,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] kalshi-trader · OpenCode Go model pick: GPT 6 Luna (INFERENCE; lineup VERIFIED); user paused build, no VM tests or orders · 2026-10-30 → [handoff](handoffs/2026-10-30_1155_chatgpt_kalshi-model-selection.md)
 
-- [chatgpt] nori-chan · 07:43 EST audit: main 79555b7/Grok 3d4351f unchanged, 3 PRs merged, 6 issues open, CI/Vercel SUCCESS; Exa text but anonymous HTTP UNKNOWN (DNS 000), Muse GO + 4 Seeker tests unverified; no owner-only blocker · 2026-11-01 → [handoff](handoffs/2026-11-01_0743_chatgpt_nori-chan.md)
+- [chatgpt] nori-chan · 08:36 EST audit: main 79555b7/Grok 3d4351f unchanged, 3 PRs merged, 6 issues open, CI/Vercel SUCCESS; Exa text but anonymous HTTP UNKNOWN (DNS 000), Muse GO + 4 Seeker tests unverified; no owner-only blocker · 2026-11-01 → [handoff](handoffs/2026-11-01_0836_chatgpt_nori-chan.md)
 
 - [chatgpt → muse] linkedin-review · Plain-language headline/About drafted, not published; owner approval + verified experience needed · 2026-10-30 → [project](projects/linkedin-review.md) · [sign-off](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
 
@@ -32,7 +32,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] ai-coms · Muse onboarding: 3 copy-paste starter templates + setup instructions; recipient installation UNKNOWN, no app source changes · 2026-11-01 → [handoff](handoffs/2026-11-01_0746_chatgpt_ai-coms.md)
 
-**Last updated:** 2026-11-01 07:43 ET · chatgpt · Nori-chan read-only release audit signed off
+**Last updated:** 2026-11-01 08:36 ET · chatgpt · Nori-chan read-only release audit signed off
 
 ---
 
@@ -48,7 +48,6 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
-- [chatgpt] nori-chan · read-only release verification / GitHub, Vercel, public access; no game files · started 2026-11-01 08:34 EST
 - [claude] gta6ismogged · lane/8-visual-lab: NEW files only under play/lab/** (next-gen cars, sky, glow, stepped towers); ports into play/js/render/* only AFTER codex's Phase 0 merges, via its own PR · started 2026-11-01 08:12 ET · lab prototype DONE (branch pushed); port waits on Phase 0
 
 - [codex] gta6ismogged · INTENT lane/0-modules: play/game.js, play/js/**, play/index.html module entry, smoke workflow checks + PR evidence; zero behavior change · started 2026-11-01 08:06 ET
@@ -374,6 +373,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-01 08:36 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa content; anonymous HTTP UNKNOWN, Muse GO + four Seeker tests unverified → [handoff](handoffs/2026-11-01_0836_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-01 07:43 ET · chatgpt · nori-chan · main/PR/issues/CI/Vercel unchanged; Exa content; anonymous HTTP UNKNOWN, Muse GO + four Seeker tests unverified → [handoff](handoffs/2026-11-01_0743_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-01 07:35 ET · muse · gta6 · react filed: site VERIFIED in private repo, facts discipline clean, FOMO tag application in (approval = owner's 0.5% supply move); DeepSeek V4 Pro bench consult done (8 optimizations); claude review requested · → [handoff](handoffs/2026-11-01_0735_muse_gta6-react.md)
 - VERIFIED · 2026-11-01 06:34 ET · chatgpt · og-boomer · ETH OG matched to owner CA; 21 vault source links + download script published in ai-coms; X direct capture BLOCKED (0 acquired), Muse request queued; no production/wallet writes → [handoff](handoffs/2026-11-01_0625_chatgpt_og-eth-art.md)
