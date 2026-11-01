@@ -20,7 +20,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] kalshi-trader · OpenCode Go model pick: GPT 6 Luna (INFERENCE; lineup VERIFIED); user paused build, no VM tests or orders · 2026-10-30 → [handoff](handoffs/2026-10-30_1155_chatgpt_kalshi-model-selection.md)
 
-- [chatgpt] nori-chan · 09:53 EST audit: no change; main 79555b7/Grok 3d4351f, 3 merged PRs, 6 open issues, CI/Vercel SUCCESS; anonymous HTTP UNKNOWN (DNS 000, Exa text only); Muse exact-main GO + 4 Seeker tests unverified; no proven owner-only blocker · 2026-11-01 → [handoff](handoffs/2026-11-01_0953_chatgpt_nori-chan.md)
+- [chatgpt] nori-chan · 11:12 EST audit: main 79555b7/Grok 3d4351f unchanged, 3 merged PRs, 6 open issues, CI/Vercel SUCCESS; anonymous HTTP UNKNOWN (DNS 000, Exa text only); Muse exact-main GO + 4 Seeker tests unverified; no proven owner-only blocker · 2026-11-01 → [handoff](handoffs/2026-11-01_1112_chatgpt_nori-chan.md)
 
 - [chatgpt → muse] linkedin-review · Plain-language headline/About drafted, not published; owner approval + verified experience needed · 2026-10-30 → [project](projects/linkedin-review.md) · [sign-off](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
 
@@ -32,7 +32,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] ai-coms · Muse onboarding: 3 copy-paste starter templates + setup instructions; recipient installation UNKNOWN, no app source changes · 2026-11-01 → [handoff](handoffs/2026-11-01_0746_chatgpt_ai-coms.md)
 
-**Last updated:** 2026-11-01 09:53 ET · chatgpt · Nori-chan read-only release audit signed off
+**Last updated:** 2026-11-01 11:12 ET · chatgpt · Nori-chan read-only release audit signed off
 
 ---
 
@@ -55,7 +55,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] nori-chan · read-only release audit (GitHub/Vercel/access/QA); no game-repo files · started 2026-11-01 11:06 EST
 
 
 - [claude] gta6ismogged · lane/8 VISUAL OVERHAUL: owns play/js/render/** (lighting first, then CC0 model swap after L9); lab prototype on branch lane/8-visual-lab · started 2026-11-01 08:45 ET
@@ -391,6 +390,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-01 11:12 ET · chatgpt · nori-chan · main/PR/issues/CI/Vercel unchanged; Exa content, anonymous HTTP UNKNOWN; Muse GO + four Seeker tests unverified → [handoff](handoffs/2026-11-01_1112_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-01 09:45 ET · claude-code · general · status check for Sneaks: who/what/ETA table, 4 risks (nori-chan audit loop, kalshi prod lock, GTA6 CDN, stale request lines), 6 owner decisions → [handoff](handoffs/2026-11-01_0945_claude-code_status-check.md)
 - VERIFIED · 2026-11-01 09:20 ET · claude-code · gta6ismogged · react: build healthy (landing 0.6 s, 0 errors; game loop 60 fps; CAs match ledger); top fixes = self-host three.js, try/catch WebGL init, shrink 453 KB og.png → [handoff](handoffs/2026-11-01_0920_claude-code_gta6ismogged.md)
 - VERIFIED · 2026-11-01 08:36 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa content; anonymous HTTP UNKNOWN, Muse GO + four Seeker tests unverified → [handoff](handoffs/2026-11-01_0836_chatgpt_nori-chan.md)
@@ -400,7 +400,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-11-01 06:18 ET · chatgpt · og-boomer · Owner ticker **$OG** confirmed; Robinhood OG ticker collisions verified; exact intended Dex pair UNKNOWN, Muse staging correction queued, no contract copied or spends → [handoff](handoffs/2026-11-01_0618_chatgpt_og-ticker.md)
 - VERIFIED · 2026-11-01 06:10 ET · claude · muse-backlog · order to muse: work the board top-down (VPS on GCP free tier, kalshi-brain integration, stonkfunbot verdict, quick closes), close superseded lines, batch Sneaks asks → [handoff](handoffs/2026-11-01_0610_claude_muse-backlog.md)
 - VERIFIED · 2026-11-01 05:15 ET · claude-code · kalshi-brain · fair-value model delivered: prob_above / prob_between / realized_vol, 18/18 tests (BS digital 1e-9 + Monte Carlo); muse integrates, claude reviews before live use → [handoff](handoffs/2026-11-01_0515_claude-code_kalshi-brain.md)
-- VERIFIED · 2026-11-01 04:22 ET · chatgpt · nori-chan · GitHub/Vercel unchanged, Exa page text; anonymous HTTP UNKNOWN, Muse GO and four Seeker tests unverified → [handoff](handoffs/2026-11-01_0422_chatgpt_nori-chan.md)
 _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 
 ---
