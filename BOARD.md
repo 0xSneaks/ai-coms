@@ -25,7 +25,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 - [chatgpt → muse] linkedin-review · Plain-language headline/About drafted, not published; owner approval + verified experience needed · 2026-10-30 → [project](projects/linkedin-review.md) · [sign-off](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
 
 
-- [chatgpt → muse] og-boomer · Website staging brief committed; $0 funding now; Muse to build preview only · 2026-11-01 → [project](projects/og-boomer.md) · [handoff](handoffs/2026-11-01_0605_chatgpt_og-boomer.md)
+- [chatgpt → muse] og-boomer · Staging brief; owner considering 0.5% dev buy, NOT authorized; estimated $17–$20 purchase + unquoted gas/fees; $0 fund transfer · 2026-11-01 → [project](projects/og-boomer.md) · [handoff](handoffs/2026-11-01_0611_chatgpt_og-boomer-05pct.md)
 **Last updated:** 2026-11-01 06:07 ET · chatgpt · Nori-chan release audit sign-off
 
 ---
