@@ -42,6 +42,7 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
+- [chatgpt] og-game-model · read-only OpenCode leaderboard + mini-game concept advisory · started 2026-11-01 06:38 ET
 
 
 
