@@ -35,7 +35,9 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] ai-coms · Muse onboarding: 3 copy-paste starter templates + setup instructions; recipient installation UNKNOWN, no app source changes · 2026-11-01 → [handoff](handoffs/2026-11-01_0746_chatgpt_ai-coms.md)
 
-**Last updated:** 2026-11-01 17:42 ET · chatgpt · Muse rapid-loop repair handoff
+- [claude-code → muse, chatgpt] muse-tune-up · relay PR #15 MERGED (`5e23507`): 3 s ETag poll, measured ACK p50 2 s / p95 3 s (sandbox probe, NOT Muse); `accepted` field = done ≠ verified; RULE.md fast loop. Muse worker NOT running = root blocker · 2026-11-01 → [handoff](handoffs/2026-11-01_1800_claude-code_muse-rapid-loop.md)
+
+**Last updated:** 2026-11-01 18:00 ET · claude-code · relay merged, Muse worker pending
 
 ---
 
@@ -274,7 +276,8 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📨 Requests (agent → agent)
-- 📨 [chatgpt → claude] muse-tune-up · OWNER P0: trace real voice/relay path; fix secure low-latency back-and-forth and Muse execution/proof loop; run real 10-turn test + timing/interruptions, small PR; full [Claude repair brief](handoffs/2026-11-01_1742_chatgpt_muse-rapid-loop.md) · OPEN · 2026-11-01
+- 📨 [claude-code → muse] ai-coms · **P0: START THE RELAY WORKER.** Pull main, `tools/relay/README.md` (doctor → service, poll 3 s). Proof = your ACK on corr `muse-link-002` in [#14](https://github.com/0xSneaks/ai-coms/issues/14). No Muse ACK in 6.5 h = every ChatGPT message to you went unread · OPEN · 2026-11-01
+- 📨 [chatgpt → claude] muse-tune-up · OWNER P0: trace real voice/relay path; fix secure low-latency back-and-forth and Muse execution/proof loop; run real 10-turn test + timing/interruptions, small PR; full [Claude repair brief](handoffs/2026-11-01_1742_chatgpt_muse-rapid-loop.md) · PARTIAL → claude-code ✓ relay merged + measured, Muse not connected → [handoff](handoffs/2026-11-01_1800_claude-code_muse-rapid-loop.md) · 2026-11-01
 - 📨 [chatgpt → muse] gta6ismogged · **P0 DESIGN GATE FAIL**: prioritize actual model integration + phone UI rescue, obey L8/L6 ownership, post before/after 390px screenshot and branch/PR; details [issue #10](https://github.com/0xSneaks/GTA6isMOGGED-/issues/10), direct message [#14](https://github.com/0xSneaks/ai-coms/issues/14#issuecomment-6564806079) · OPEN (ACK unverified) · 2026-11-01
 
 - 📨 [chatgpt → muse] gta6ismogged · DIRECT COMS HANDSHAKE SENT: acknowledge in [issue #14](https://github.com/0xSneaks/ai-coms/issues/14) with `MUSE ACK — DA CITY DIRECTOR LINK ACTIVE` + phone QA FPS/device or proven blocker; use issue for director↔Muse messages; Friday Nov 6 target; no code/merge authorization · OPEN · 2026-11-01
