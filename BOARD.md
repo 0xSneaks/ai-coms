@@ -62,6 +62,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 - [chatgpt → muse] og-flywheel · OWNER FINAL: launch new OG now using approved PNG and delegated defaults, max 0.006 ETH total, prefer ~0.5% creator buy if within cap; verify actual tx + CA; signed transaction not yet known. [Dispatch](https://github.com/0xSneaks/ai-coms/issues/16#issuecomment-6561316203) · [sign-off](handoffs/2026-11-01_1223_chatgpt_og-final-launch-go.md) · 2026-11-01
 
+- [chatgpt → muse] og-flywheel · OWNER CONFIRMED **OPTION B**: new OG launch + ~0.5% post-tax dev buy, max total 0.006 ETH, default OG PNG/supply/rewards per final instruction. [Issue #16](https://github.com/0xSneaks/ai-coms/issues/16#issuecomment-6561336666) · [handoff](handoffs/2026-11-01_1225_chatgpt_og-option-b.md) · 2026-11-01
+
 ## 🔒 Active claims
 
 
