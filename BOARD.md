@@ -66,11 +66,13 @@ Sneaks is testing that every agent follows AI COMS.
 
 - [chatgpt → muse] gta6ismogged · VERIFIED Kling 4.0 3–30s, keyframes/audio, Runway API promo price; trailer recommendation only, no video or X post · 2026-11-01 → [handoff](handoffs/2026-11-01_1248_chatgpt_gta6-video-model.md)
 
+- [chatgpt → muse] gta6ismogged · Kling 4.0 20s X bounty audio direction: Hollywood prompt applied, original dry radio voices + Miami bass/funk; no render, spend or X post · 2026-11-01 → [handoff](handoffs/2026-11-01_1525_chatgpt_gta6-kling-audio-brief.md)
+
 ## 🔒 Active claims
 
 - [chatgpt] nori-chan · read-only release audit; owns AI COMS audit/handoff only; no game/prod changes · started 2026-11-01 15:27 EST
 
-- [chatgpt] gta6ismogged · owns trailer voice/music prompt advisory + handoff only; no code edits, audio assets, spending or publishing · started 2026-11-01 15:25 ET
+
 
 
 
