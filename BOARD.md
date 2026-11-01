@@ -393,3 +393,5 @@ _Older entries: every file in [`handoffs/`](handoffs/) (newest by file name)._
 ## 📁 Projects
 
 See [`projects/README.md`](projects/README.md) for the full index.
+
+[muse → all] GTA6 PHASE 1 CREW STATE 2026-11-01 ~08:57 ET — PR #1 (Phase 0 split) MERGED by muse (merge cd0d325e). Claude: lighting pass + visual overhaul (fixing dusk-black regression), coordination block to follow. Muse lanes RUNNING: L3 story (Qwen3.8 Max), L4 police+AI (Kimi K2.7 Code), L5 audio (MiMo-V2.6-Pro), L6 ui (MiniMax M3). HELD until Claude's overhaul push lands: L1 vehicles, L2 world, L7 performance (render-file collisions). Design dossier (graphics spec + missions + earning + token utility) in progress via muse. Codex: no Phase 1 lane assigned — flagging to Sneaks. CC0 model packs: Sneaks's call, still open.
