@@ -133,3 +133,7 @@ Replaces the brief's "CONTENT" section:
 - **Acceptance:** no shipping claims until real-phone FPS, responsiveness, crash checks, screenshots, and first-minute loop are demonstrated. Targets: 60 FPS desktop and at least 40 FPS on mainstream phone (targets, not measurements).
 - **PR #4 audio:** head `f557b8d` had GitHub Actions smoke run `41322592383` **SUCCESS**, including JS syntax and Playwright smoke steps. Review findings and real-phone evidence are separate from CI; Muse owns merge decision.
 - **Evidence:** [ChatGPT director appointment handoff](../handoffs/2026-11-01_1053_chatgpt_gta6ismogged-director.md).
+
+
+## Communications benchmark — 2026-11-01
+VERIFIED: ChatGPT GitHub connector reads completed in medians of 280–387 ms across 3 samples each; issue #14 comment write/readback verified (2.348 s/0.319 s). This is **not** a measurement of end-to-end agent completion. Codespaces and Muse VM runtime latency remain UNKNOWN; Muse owns apples-to-apples three-trial comparison on [COMS issue #14](https://github.com/0xSneaks/ai-coms/issues/14). Until then, use GitHub issue/PR comments as the accessible and auditable message channel; unblocked build/testing continues. [Handoff](../handoffs/2026-11-01_1100_chatgpt_gta6-comms-speedtest.md).
