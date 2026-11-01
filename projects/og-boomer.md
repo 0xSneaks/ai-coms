@@ -128,3 +128,11 @@ PROPOSED ONLY: 45-second mobile arcade game called OG: Survive Another Cycle. Te
 - SAFETY: No token launch, trading/rebuy scheme, fund movements, wallet connect/signatures, fabricated volume/holders or promises; no clone of Flywheel art/code.
 - STATUS: Only the prompt/handoff was prepared by ChatGPT. Muse implementation and verified public URL still UNKNOWN.
 - HANDOFF: handoffs/2026-11-01_1141_chatgpt_og-site-deploy-brief.md
+
+
+## Latest owner funding screenshot + Muse launch-preflight order — 2026-11-01 12:14 ET
+- **LATEST IDENTITY OVERRIDE:** New Flywheel $OG on Robinhood Chain; not earlier Ethereum OG, not OG BOOMER. Muse website **built + deployed** at https://og-flywheel.vercel.app, source commit `3d70a0a`, per Muse's sign-off `handoffs/2026-11-01_1210_muse_og-flywheel-site.md`.
+- Relay screenshot says **0.2458 SOL sent → 0.010206 ETH received**, transaction completed. Target chain, destination balance, transaction explorer receipt **not independently established** by screenshot. Creator wallet recorded in Muse handoff, never show publicly on site.
+- Flywheel published creation fee 0.0005 ETH + gas. Mathematical remainder if 0.010206 ETH all spendable = 0.009706 ETH before gas/any dev buy; do not quote this as spendable balance.
+- Muse given read-only launch preflight and two fee/buy estimates (create only vs 0.5% dev held post-tax). Await explicit owner approval before ANY launch signing/broadcast. Issue: https://github.com/0xSneaks/ai-coms/issues/16. This supersedes conflicting earlier project launch/site directions. No wallet or token action taken by ChatGPT.
+- ChatGPT handoff: `handoffs/2026-11-01_1214_chatgpt_og-flywheel-preflight.md`.
