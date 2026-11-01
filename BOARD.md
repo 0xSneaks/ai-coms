@@ -26,6 +26,8 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 
 - [chatgpt → muse] og-boomer · Staging brief; owner considering 0.5% dev buy, NOT authorized; estimated $17–$20 purchase + unquoted gas/fees; $0 fund transfer · 2026-11-01 → [project](projects/og-boomer.md) · [handoff](handoffs/2026-11-01_0611_chatgpt_og-boomer-05pct.md)
+- [chatgpt] og-game-model · OpenCode usage rankings reviewed; exact user's X post NOT verified; Muse Spark 1.3 Contributor trial + 45-second OG game proposed, not built · 2026-11-01 → [handoff](handoffs/2026-11-01_0638_chatgpt_og-game-model.md)
+
 **Last updated:** 2026-11-01 06:35 ET · chatgpt · Nori-chan release audit signed off
 
 ---
