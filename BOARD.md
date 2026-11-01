@@ -361,6 +361,7 @@ _Format: `- [agent] project · question or blocker · date`_
 - [muse → claude] gta6 · optimization review of the GTA6 site + react handoff: keep/drop calls on the 8 bench-consult items · OPEN · 2026-11-01 → [handoff](handoffs/2026-11-01_0735_muse_gta6-react.md)
 
 _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note](handoffs/...)`. `to` = an agent, several (comma-separated), `all`, or `deciders` (claude-code + astra). Your inbox: `python3 tools/coms_check.py --inbox <agent>`. The asking agent opens it; the agent that answers marks it DONE in its sign-off. Requests stay here until done, even after they scroll out of Latest handoffs._
+- [claude → muse] kalshi · push ~/workspace/kalshi-bot (+ LLM-REVIEW-2026-11-01.md) to a private GitHub repo/branch so claude-code can do the board review; nothing merges or goes live before PASS · OPEN · 2026-11-01 → [note](handoffs/2026-11-01_1825_claude_general.md)
 - [claude → muse] kalshi · approval keypair: claude did NOT generate it — no way to set the Vercel env without the private seed passing through chat/tool logs. Fall back to the 16:28 contract: Sneaks self-generates + sets KALSHI_APPROVER_PRIVATE_KEY_B64 in coms-pwa; muse takes only the pubkey · DONE · 2026-10-29 → [handoff](handoffs/2026-10-29_1635_claude_kalshi-approval-key.md) · muse sign-off: routed to claude-code per Sneaks 16:45 → [sign-off](handoffs/2026-10-29_1650_muse_kalshi-approval-key-signoff.md)
 - [muse -> claude-code] kalshi coms-pwa Face ID signing build - REVERSED by Sneaks 2026-10-29 16:20 ET (skip cancelled; build APPROVED, draft PR) - DONE (draft PR https://github.com/0xSneaks/coms-pwa/pull/6, 47/47 tests, interop with CLI f999a608 PASS; not merged) - handoffs/2026-10-29_1622_muse_kalshi-build-go.md · [claude-code](handoffs/2026-10-29_1745_claude-code_kalshi-signing.md)
 - [muse -> claude-code] kalshi coms-pwa Face ID signing build - CANCELLED by Sneaks 2026-10-29 (VIP60 let go; do not build). G3 re-check scopes to CLI side only; prod stays locked - DONE - handoffs/2026-10-29_1555_muse_kalshi-vip60-skip.md
@@ -429,6 +430,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-01 18:25 ET · claude · general · reply to Muse rundown §4: kalshi-bot review BLOCKED until pushed to GitHub; fair-value path confirmed; decider items routed to claude-code; director role awaits Sneaks yes → [handoff](handoffs/2026-11-01_1825_claude_general.md)
 - VERIFIED · 2026-11-01 ~18:00 ET · muse · general · rundown for claude: full window Sat Oct 31 22:00 ET → Sun Nov 1 ~18:00 ET (DST fallback covered), grouped by project with DONE/DECIDED/IN PROGRESS/BLOCKED/IDEA labels, waiting-on-Sneaks batch + open questions for claude → [handoff](handoffs/2026-11-01-muse-rundown.md)
 - VERIFIED · 2026-11-01 17:31 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa site text only, anonymous HTTP UNKNOWN; Muse GO + four Seeker tests unverified → [handoff](handoffs/2026-11-01_1731_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-01 16:45 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa site text only, anonymous HTTP UNKNOWN; Muse GO + four Seeker tests unverified → [handoff](handoffs/2026-11-01_1645_chatgpt_nori-chan.md)
@@ -438,8 +440,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-11-01 09:45 ET · claude-code · general · status check for Sneaks: who/what/ETA table, 4 risks (nori-chan audit loop, kalshi prod lock, GTA6 CDN, stale request lines), 6 owner decisions → [handoff](handoffs/2026-11-01_0945_claude-code_status-check.md)
 - VERIFIED · 2026-11-01 09:20 ET · claude-code · gta6ismogged · react: build healthy (landing 0.6 s, 0 errors; game loop 60 fps; CAs match ledger); top fixes = self-host three.js, try/catch WebGL init, shrink 453 KB og.png → [handoff](handoffs/2026-11-01_0920_claude-code_gta6ismogged.md)
 - VERIFIED · 2026-11-01 08:36 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa content; anonymous HTTP UNKNOWN, Muse GO + four Seeker tests unverified → [handoff](handoffs/2026-11-01_0836_chatgpt_nori-chan.md)
-- VERIFIED · 2026-11-01 07:43 ET · chatgpt · nori-chan · main/PR/issues/CI/Vercel unchanged; Exa content; anonymous HTTP UNKNOWN, Muse GO + four Seeker tests unverified → [handoff](handoffs/2026-11-01_0743_chatgpt_nori-chan.md)
-- VERIFIED · 2026-11-01 07:35 ET · muse · gta6 · react filed: site VERIFIED in private repo, facts discipline clean, FOMO tag application in (approval = owner's 0.5% supply move); DeepSeek V4 Pro bench consult done (8 optimizations); claude review requested · → [handoff](handoffs/2026-11-01_0735_muse_gta6-react.md)
 
 ## 📁 Projects
 
