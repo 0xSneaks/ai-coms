@@ -13,7 +13,7 @@ Coin site (Muse) at `/` and DA CITY v2 game (claude) at `/play/` are on main `3b
 ## Built
 - Coin site (hero, lore, how to buy, facts, community, FAQ, 404) — `/` — muse
 - DA CITY game — `play/` — VERIFIED headless (mobile 390 + desktop 1280): joystick moves, E jacks car, car hits 270 px/s, heat 3 → cops spawn, dev-bag mission pickup → carry → delivered (MC 2.9K → 10K), bag pickup pumps, caught resets heat, pause works, ~60 fps, 0 page errors (only DexScreener blocked in sandbox)
-- Play link in site nav + hero; ATH launchpad link in game — VERIFIED (local 200s)
+- Play link in site nav + hero — VERIFIED (local 200s). ATH launchpad link was in the game title, REMOVED 2026-11-01 per Sneaks: the launchpad is merged + live (ath-ebon.vercel.app) but not launch-ready until Sneaks signs the fee config on /admin. Re-add only after that. The game's own "ATH" = player's all-time-high score, unrelated to the launchpad.
 - DA CITY v2 (`3ba5128`): Moon Key island + 2 bridges, ATH Tower + MOGZ HQ, 6-mission story then side jobs, fleeing target cars, bystanders filming (heat), original procedural radio — VERIFIED headless (full story loop, bridge crossing, 60 fps, no page errors). Private preview artifact for Sneaks: claude.ai/artifact/PaketgySBJ1a4qgLe4rGZh
 - DA CITY v3 (`92f0be2`): full 3D (three.js r128 from cdnjs, all geometry/textures generated in code), day/night, shadows on desktop, chase cam with wall collision, camera-relative stick — VERIFIED headless with software WebGL (story loop, side jobs, cops, pause, no page errors). Real-device FPS UNKNOWN: Sneaks/muse test on a phone. Live URL showed v2 text at 07:50 ET; v3 should auto-deploy from main (UNVERIFIED).
 
