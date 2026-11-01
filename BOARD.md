@@ -68,6 +68,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] gta6ismogged · owns trailer voice/music prompt advisory + handoff only; no code edits, audio assets, spending or publishing · started 2026-11-01 15:25 ET
+
 
 
 
