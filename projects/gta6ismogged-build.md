@@ -152,3 +152,7 @@ VERIFIED: ChatGPT GitHub connector reads completed in medians of 280–387 ms ac
 - **CREATIVE DECISION:** For this X video, parody a late-night crime-game radio bumper: bored male PR voice announces sliding dates, relaxed adult female voice cuts through with "Less than a week. Get MOGGED." Original Miami bass/electro-funk with gritty radio texture; dry timing, not AI epic-trailer clichés.
 - **UNKNOWN:** No Kling render, audio audition, or X post; 200-credit in-app quote from owner screenshot only. Verify 9:16 before generation.
 - **SCOPE:** No game changes; no audio copying; not a claim of shipped game. [Handoff](../handoffs/2026-11-01_1525_chatgpt_gta6-kling-audio-brief.md).
+
+
+## Trailer prompt correction (2026-11-01)
+- Owner screenshot is 20s, not 10s. Use three style-coherent references and blank calendar pages; add the title and verified project ticker in post-production. New rendering is still untested. Handoff: handoffs/2026-11-01_1619_chatgpt_gta6-kling-prompt-fix.md.
