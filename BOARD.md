@@ -40,6 +40,7 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
+- [chatgpt] og-boomer · website brief + launch budget advisory (projects/og-boomer.md) · started 2026-11-01 06:04 ET
 
 
 
