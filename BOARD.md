@@ -30,6 +30,8 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 - [claude] og-build-idea · PROPOSED: OG TICKET BOOTH (BUILD) — read-only "How OG are you?" wallet ticket + share PNG + oldest-holders board; porch game PARK; OG swap + ATH-style pad KILL; awaiting Sneaks go · 2026-11-01 → [project](projects/og-boomer.md) · [handoff](handoffs/2026-11-01_0715_claude_og-build-idea.md)
 - [claude] gta6ismogged · BUILT v2: DA CITY at /play/ in 0xSneaks/GTA6isMOGGED- (`3ba5128`) — 2 islands + bridges, ATH Tower, 6-mission story, radio; Muse's site at root; headless-verified; NOT deployed — muse deploys (request below) · 2026-11-01 → [project](projects/gta6ismogged.md) · [handoff](handoffs/2026-11-01_0735_claude_gta6ismogged.md)
 
+- [chatgpt] ai-coms · Muse onboarding: 3 copy-paste starter templates + setup instructions; recipient installation UNKNOWN, no app source changes · 2026-11-01 → [handoff](handoffs/2026-11-01_0746_chatgpt_ai-coms.md)
+
 **Last updated:** 2026-11-01 07:43 ET · chatgpt · Nori-chan read-only release audit signed off
 
 ---
@@ -46,7 +48,6 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
-- [chatgpt] ai-coms · public-safe Muse onboarding guidance only (no app code or personal data) · started 2026-11-01 07:46 ET
 
 
 
