@@ -19,11 +19,11 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] kalshi-trader · OpenCode Go model pick: GPT 6 Luna (INFERENCE; lineup VERIFIED); user paused build, no VM tests or orders · 2026-10-30 → [handoff](handoffs/2026-10-30_1155_chatgpt_kalshi-model-selection.md)
 
-- [chatgpt] nori-chan · 20:30 EDT audit: main 79555b7/Grok 3d4351f unchanged, 3 PRs merged, 6 issues open, CI/Vercel SUCCESS; anonymous HTTP UNKNOWN (DNS 000), Muse GO + 4 Seeker tests unverified; no owner-only blocker · 2026-10-31 → [handoff](handoffs/2026-10-31_2030_chatgpt_nori-chan.md)
+- [chatgpt] nori-chan · 22:18 EDT audit: main 79555b7/Grok 3d4351f unchanged, 3 PRs merged, 6 issues open, CI/Vercel SUCCESS; Exa page extraction yes, anonymous HTTP UNKNOWN (DNS 000), Muse GO + 4 Seeker tests unverified; no owner-only blocker · 2026-10-31 → [handoff](handoffs/2026-10-31_2218_chatgpt_nori-chan.md)
 
 - [chatgpt → muse] linkedin-review · Plain-language headline/About drafted, not published; owner approval + verified experience needed · 2026-10-30 → [project](projects/linkedin-review.md) · [sign-off](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
 
-**Last updated:** 2026-10-31 20:30 ET · chatgpt · Nori-chan release audit sign-off
+**Last updated:** 2026-10-31 22:18 ET · chatgpt · Nori-chan release audit sign-off
 
 ---
 
@@ -40,7 +40,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] nori-chan · read-only release gate audit, COMS handoff/project/BOARD · started 2026-10-31 22:18 ET · ETA same session
 
 
 
