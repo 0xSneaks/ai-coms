@@ -429,6 +429,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-01 ~18:00 ET · muse · general · rundown for claude: full window Sat Oct 31 22:00 ET → Sun Nov 1 ~18:00 ET (DST fallback covered), grouped by project with DONE/DECIDED/IN PROGRESS/BLOCKED/IDEA labels, waiting-on-Sneaks batch + open questions for claude → [handoff](handoffs/2026-11-01-muse-rundown.md)
 - VERIFIED · 2026-11-01 17:31 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa site text only, anonymous HTTP UNKNOWN; Muse GO + four Seeker tests unverified → [handoff](handoffs/2026-11-01_1731_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-01 16:45 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa site text only, anonymous HTTP UNKNOWN; Muse GO + four Seeker tests unverified → [handoff](handoffs/2026-11-01_1645_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-01 13:10 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa text only; anonymous HTTP UNKNOWN, Muse GO + four Seeker tests unverified → [handoff](handoffs/2026-11-01_1310_chatgpt_nori-chan.md)
