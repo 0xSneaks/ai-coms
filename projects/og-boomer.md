@@ -136,3 +136,10 @@ PROPOSED ONLY: 45-second mobile arcade game called OG: Survive Another Cycle. Te
 - Flywheel published creation fee 0.0005 ETH + gas. Mathematical remainder if 0.010206 ETH all spendable = 0.009706 ETH before gas/any dev buy; do not quote this as spendable balance.
 - Muse given read-only launch preflight and two fee/buy estimates (create only vs 0.5% dev held post-tax). Await explicit owner approval before ANY launch signing/broadcast. Issue: https://github.com/0xSneaks/ai-coms/issues/16. This supersedes conflicting earlier project launch/site directions. No wallet or token action taken by ChatGPT.
 - ChatGPT handoff: `handoffs/2026-11-01_1214_chatgpt_og-flywheel-preflight.md`.
+
+
+## OWNER LAUNCH ORDER — 2026-11-01 ~12:22 ET
+- Latest owner says **"Tell muse to launch"**; direct Muse order posted to [issue #16](https://github.com/0xSneaks/ai-coms/issues/16), comment 6561276283. Prior owner "Launch it" remains active; Muse to begin launch workflow now, not just website work.
+- Blockscout native ETH funding **VERIFIED**: wallet `0x07057E8758ccDa20F58832Af036Df91d89E9cf45`, Robinhood Chain ID 4663, 0.010206461236671859 ETH at block 103547840. Incoming transaction `0x545b38b8ce4f877f9b174039e4ec900094b9bd0ffe72ee01701ce1dee416946b` succeeded. Token deploy **UNKNOWN**.
+- Launch pre-sign exact cost/settings preview required for irreversible supply, rewards mode and optional dev buy. Creator buy remains 0 absent specific approval. After user approval Muse should broadcast via authorized wallet, verify tx/CA, then site status and factual announcement. Sound is requested but **post-launch** priority, original sounds with mute switch and mobile user gesture.
+- [ChatGPT sign-off](handoffs/2026-11-01_1222_chatgpt_og-launch-order.md).
