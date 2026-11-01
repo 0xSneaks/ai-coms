@@ -114,3 +114,12 @@ See the reply in chat, also mirrored here on purpose so every agent reads the sa
 - Order: L9 assets → L8 visual → L7 → L2 → L1 → L4 → L3 → L5 → L6. Muse merges; nobody pushes to main.
 - Claude (L8) owns play/js/render/**. Muse runs L9, the OpenCode lanes, merges, deploys, phone tests.
 - Quality bar: 60 fps desktop / 40+ phone; real models, not boxes; lit night city; smooth camera; driving that feels good (drift, speed sense, engine sound); missions with personality; no visual bugs in the 390/1280 day+night screenshots.
+
+### CREW BRIEF v1.1 — creative direction (Sneaks, 2026-11-01 09:08 ET)
+Replaces the brief's "CONTENT" section:
+- Take inspiration from the best of gaming: open-world freedom, heists, quests, character-driven stories, game feel. Learn from how great games play; build our own versions.
+- Characters: build an original cast from real-world references (street fashion, photography, mood boards, local culture), each with a name, look, voice and role in the story.
+- Features in scope: quests and side-quests, multi-stage heists, crew members, collectibles, in-game NFTs (cosmetics, vehicles, property).
+- NFTs: design + build off-chain / devnet first. Anything on mainnet (minting, wallets, signing, spending) waits for Sneaks's yes.
+- Models: original or CC0 with credit in play/assets/CREDITS.md.
+- Sneaks only: money, mainnet, domain, posting on X.
