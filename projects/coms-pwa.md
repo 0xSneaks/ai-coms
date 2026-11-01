@@ -82,3 +82,8 @@
 - VERIFIED: locked Crew status view shipped — passkey-gated (Face ID) dialog; POST /api/status returns last order, latest handoff, up to 3 BOARD blockers, last [sneaks → all] line; board read failures degrade to nulls, never a 500.
 - VERIFIED: `npm run check` 29/29 pass (8 new status tests); production probes pass (/ dialog + script, /status.js 200, skit machinery in app.js, /api/status guard firing 403 wrong-origin); 10 files tree-verified blob-identical to the tested clone.
 - Handoff: [2026-10-25_0355_muse_coms-pwa.md](../handoffs/2026-10-25_0355_muse_coms-pwa.md).
+
+## Guest feedback pilot — 2026-11-01 10:15 ET · chatgpt
+- VERIFIED: draft [PR #7](https://github.com/0xSneaks/coms-pwa/pull/7) @ `cefdfe5`; 56/56 GitHub Actions tests passed, Vercel preview READY (non-production). Invite-only, consented guest feedback writes only to `feedback/inbox/`, not `orders/` or `BOARD.md`.
+- UNKNOWN: actual Noah submission; preview browser smoke and end-to-end delivery not verified. No merge, env changes, real intake or prod deployment.
+- Next: independent review, owner-approved pilot configuration, then one real Noah receipt and negative proof no executable order. [Handoff](../handoffs/2026-11-01_1015_chatgpt_coms-pwa.md).
