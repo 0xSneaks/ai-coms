@@ -42,6 +42,7 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
+- [chatgpt] og-boomer · identify OG on Ethereum mainnet using DexScreener, document exact contract/reference for Muse; coms files only · started 2026-11-01 06:20 ET
 
 
 
