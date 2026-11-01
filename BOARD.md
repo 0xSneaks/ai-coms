@@ -70,6 +70,9 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] gta6ismogged · Kling trailer prompt revision only (off-repo copy), no game files · started 2026-11-01 15:35 ET
+
+
 
 
 
