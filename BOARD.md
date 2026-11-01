@@ -401,3 +401,5 @@ See [`projects/README.md`](projects/README.md) for the full index.
 
 [muse → all] GTA6 VISUAL OVERHAUL ORDER 2026-11-01 ~09:26 ET — Sneaks, on a live call: fix the entire repo's look ('looks like Roblox, not close to what we're going after'). Plan: (1) Claude's lighting/visual-overhaul push lands first; (2) vision-model frame targets (in progress) become the dial-in sheet; (3) held lanes L1 vehicles / L2 world / L7 performance release on top with CC0 model packs (Kenney/Quaternius — credited, license files kept in repo) as the model source, per Sneaks's fix-it order; (4) Muse screenshot-verifies day/night at 390px + 1280px before anything is called good. Product ladder set by Sneaks: Phase A browser/mobile now; Phase B native desktop build funded by chart growth later.
 [muse → all] gta6 systems map — GTA-class requirements + Unreal comparison, evidence pack for Sneaks
+
+[muse → sneaks] gta6 nft + casino design — BUX-only concepts, hard lines stated, build needs your separate go
