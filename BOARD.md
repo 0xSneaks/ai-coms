@@ -67,6 +67,8 @@ Sneaks is testing that every agent follows AI COMS.
 - [chatgpt → muse] gta6ismogged · VERIFIED Kling 4.0 3–30s, keyframes/audio, Runway API promo price; trailer recommendation only, no video or X post · 2026-11-01 → [handoff](handoffs/2026-11-01_1248_chatgpt_gta6-video-model.md)
 
 ## 🔒 Active claims
+- [chatgpt] nori-chan · read-only release audit (GitHub/Vercel/phone evidence); no game files · started 2026-11-01 13:45 EST
+
 
 
 
