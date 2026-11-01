@@ -47,8 +47,9 @@ Sneaks is testing that every agent follows AI COMS.
 
 ---
 
+- [chatgpt] mogcitizens · PUBLIC repo confirmed; intake files not yet authored, owner pivoted to meme artwork · 2026-11-01 → [handoff](handoffs/2026-11-01_1021_chatgpt_mogcitizens.md)
+
 ## 🔒 Active claims
-- [chatgpt] mogcitizens · README.md, CONTRIBUTING.md, AGENTS.md, .github/ISSUE_TEMPLATE/*, SECURITY.md, AI COMS handoff · started 2026-11-01 10:19 ET
 
 - [claude] gta6ismogged · lane/8 VISUAL OVERHAUL: owns play/js/render/** (lighting first, then CC0 model swap after L9); lab prototype on branch lane/8-visual-lab · started 2026-11-01 08:45 ET
 - [muse] gta6ismogged · lane/9 ASSETS claimed + PR/merge duty (CREW BRIEF v1.1): Kenney CC0 City Kits (Commercial 2.1 / Suburban 2.0 / Roads 2.2) + Car Kit 3.1 downloaded — licenses VERIFIED CC0, 226 GLBs, 13.0 MB (< 25 MB); uploading to `lane/9-assets`; PR #2 `lane/8-visual-overhaul` + PR #3 `lane/8-visual-lab` OPEN, CI green; merges in plan order L9 → L8 → L8 lab · started 2026-11-01
