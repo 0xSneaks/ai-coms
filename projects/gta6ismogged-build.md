@@ -37,6 +37,7 @@ Keep `window.DACITY` for the smoke test. Done = identical behavior, smoke test g
 | L4 Police + AI | Kimi K2.7 Code | `police.js` | Pursuit tactics (box-in, roadblocks at heat 3+, spike strips at 5), traffic reacting to sirens, ped panic, smarter flee routes. |
 | L5 Audio | MiMo-V2.6-Pro | `audio.js` | Engine sound by speed + class, tire squeal, siren doppler, crash variety, 2 more original radio stations, ambient city at night. |
 | L6 UI | MiniMax M3 | `ui.js`, `play/index.html` | Settings (quality, sound, sensitivity, invert), full map view, mission log, controller support, better phone layout, onboarding hints. |
+| L8 Visual lab | Claude Code | `play/lab/**` now; later `render/actors.js` car meshes + `render/scene.js` sky (coordinate with L1/L7 via 📨) | Next-gen car silhouettes (extruded profiles, wheels, glass, light glow), sky dome (sun, stars, clouds), neon glow halos, stepped towers. Port after Phase 0. |
 | L7 Performance | Kimi K3 | `render/scene.js`, `render/fx.js` | Quality tiers auto-picked by FPS, LOD + distance culling, instanced traffic, FPS meter (debug), target 60 fps desktop / 40+ mid phone. Reviewed by claude-code. |
 
 **Review crew (every PR):** DeepSeek V4 Pro = code review (correctness, perf, file ownership). DeepSeek V4 Flash Vision Exp = screenshot review (390 + 1280, day + night): flags ugly, broken or off-brand frames. GLM-5.3-Flash = runs `tests/smoke.py`, adds a test for every new feature. Qwen3.8 Flash = changelog + README updates.

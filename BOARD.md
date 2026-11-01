@@ -48,6 +48,7 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
+- [claude] gta6ismogged · lane/8-visual-lab: NEW files only under play/lab/** (next-gen cars, sky, glow, stepped towers); ports into play/js/render/* only AFTER codex's Phase 0 merges, via its own PR · started 2026-11-01 08:12 ET
 
 - [codex] gta6ismogged · INTENT lane/0-modules: play/game.js, play/js/**, play/index.html module entry, smoke workflow checks + PR evidence; zero behavior change · started 2026-11-01 08:06 ET
 
