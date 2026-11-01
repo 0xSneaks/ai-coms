@@ -2,7 +2,7 @@
 
 **Session goal:** Sneaks (priority task, ChatGPT directing): a reliable, persistent ChatGPT ↔ Muse channel without Sneaks relaying.
 **Status:** PARTIAL — relay built + tested live with a sandbox test worker; **ChatGPT ↔ Muse handshake NOT verified** (Muse has not installed the worker).
-**Repo / branch:** 0xSneaks/ai-coms @ `claude/ai-coms-muse-link` (PR, not main)
+**Repo / branch:** 0xSneaks/ai-coms @ `claude/ai-coms-muse-link` · [PR #15](https://github.com/0xSneaks/ai-coms/pull/15) (not main) · plan/results: [#14 comment 6560615300](https://github.com/0xSneaks/ai-coms/issues/14#issuecomment-6560615300)
 
 ## Did
 - `tools/relay/coms_relay.py` — GitHub-issue mailbox worker, stdlib Python: structured `coms-msg` envelope (id, from, to, ts, project, type, corr, status, ref), SQLite state, ACK separate from outcome, at-most-once execution, bounded retry (2^n s ≤ 300 s, 6 tries → `dead`), lost-response reconciliation, single-instance lock, `doctor` (access diagnosis, never prints tokens), `check-thread` audit, allowlisted read-only task kinds + sub-agent dispatch by fixed argv (args on stdin, no shell). VERIFIED (tests).
