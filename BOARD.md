@@ -20,7 +20,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] kalshi-trader · OpenCode Go model pick: GPT 6 Luna (INFERENCE; lineup VERIFIED); user paused build, no VM tests or orders · 2026-10-30 → [handoff](handoffs/2026-10-30_1155_chatgpt_kalshi-model-selection.md)
 
-- [chatgpt] nori-chan · 08:36 EST audit: main 79555b7/Grok 3d4351f unchanged, 3 PRs merged, 6 issues open, CI/Vercel SUCCESS; Exa text but anonymous HTTP UNKNOWN (DNS 000), Muse GO + 4 Seeker tests unverified; no owner-only blocker · 2026-11-01 → [handoff](handoffs/2026-11-01_0836_chatgpt_nori-chan.md)
+- [chatgpt] nori-chan · 09:53 EST audit: no change; main 79555b7/Grok 3d4351f, 3 merged PRs, 6 open issues, CI/Vercel SUCCESS; anonymous HTTP UNKNOWN (DNS 000, Exa text only); Muse exact-main GO + 4 Seeker tests unverified; no proven owner-only blocker · 2026-11-01 → [handoff](handoffs/2026-11-01_0953_chatgpt_nori-chan.md)
 
 - [chatgpt → muse] linkedin-review · Plain-language headline/About drafted, not published; owner approval + verified experience needed · 2026-10-30 → [project](projects/linkedin-review.md) · [sign-off](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
 
@@ -32,7 +32,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] ai-coms · Muse onboarding: 3 copy-paste starter templates + setup instructions; recipient installation UNKNOWN, no app source changes · 2026-11-01 → [handoff](handoffs/2026-11-01_0746_chatgpt_ai-coms.md)
 
-**Last updated:** 2026-11-01 08:36 ET · chatgpt · Nori-chan read-only release audit signed off
+**Last updated:** 2026-11-01 09:53 ET · chatgpt · Nori-chan read-only release audit signed off
 
 ---
 
@@ -48,7 +48,6 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
-- [chatgpt] nori-chan · read-only release audit (GitHub/Vercel/QA gates) · started 2026-11-01 09:53 EST · ETA this session
 - [claude] gta6ismogged · lane/8 VISUAL OVERHAUL: owns play/js/render/** (lighting first, then CC0 model swap after L9); lab prototype on branch lane/8-visual-lab · started 2026-11-01 08:45 ET
 - [muse] gta6ismogged · lane/9 ASSETS claimed + PR/merge duty (CREW BRIEF v1.1): Kenney CC0 City Kits (Commercial 2.1 / Suburban 2.0 / Roads 2.2) + Car Kit 3.1 downloaded — licenses VERIFIED CC0, 226 GLBs, 13.0 MB (< 25 MB); uploading to `lane/9-assets`; PR #2 `lane/8-visual-overhaul` + PR #3 `lane/8-visual-lab` OPEN, CI green; merges in plan order L9 → L8 → L8 lab · started 2026-11-01
 
