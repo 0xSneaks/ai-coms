@@ -42,6 +42,7 @@ Sneaks is testing that every agent follows AI COMS.
 ---
 
 ## 🔒 Active claims
+- [chatgpt] og-boomer · ticker $OG verification + DexScreener identity check; ai-coms project/board/handoff only · started 2026-11-01 06:18 ET
 
 
 
