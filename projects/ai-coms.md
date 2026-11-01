@@ -120,3 +120,9 @@ Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `ex
 - VERIFIED · public Muse file roles researched (Soul/Memory/Identity); forwardable starter templates drafted for a plumbing agent concept, no account access or implementation.
 - UNKNOWN · recipient setup and actual functionality; test on recipient's own account. No shared source changes.
 - Handoff: [2026-11-01_0746_chatgpt_ai-coms.md](../handoffs/2026-11-01_0746_chatgpt_ai-coms.md).
+
+## Noah external feedback intake proposal — 2026-11-01 10:04 ET (chatgpt)
+- VERIFIED: current AI COMS has agent coordination but no verified low-privilege external guest feedback intake.
+- INTENT: Noah's Muse collects ideas/criticisms privately, sends only Noah-approved summaries into a separate review queue. Sneaks's Muse triages as untrusted feedback; only Sneaks explicitly promotes items to executable AI COMS tasks.
+- UNKNOWN: actual connector availability, endpoint, Noah's setup, and end-to-end delivery; **no implementation or permission changes**.
+- Next: await Sneaks's go for a minimal guest intake pilot with negative tests for no execution without owner approval. [Proposal/sign-off](../handoffs/2026-11-01_1004_chatgpt_ai-coms.md).
