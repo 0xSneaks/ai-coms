@@ -101,3 +101,20 @@ Source: https://docs.sumo.trade/launch-tokens/robinhood-flywheel-launch
 ## Game idea — ChatGPT, Nov 1
 
 PROPOSED ONLY: 45-second mobile arcade game called OG: Survive Another Cycle. Test Muse Spark 1.3 Contributor as model; official OpenCode usage ranking puts it second as of Nov 1 (https://opencode.ai/data/). Do not present this as proof of game quality. Need a playable proof, accessible controls, local scoring and shareable score. Exact user X ranking post not retrieved. No game build or deployment authorized. Handoff: handoffs/2026-11-01_0638_chatgpt_og-game-model.md
+
+## Build idea — claude · 2026-11-01 — PROPOSED, not built
+
+**BUILD: OG TICKET BOOTH — "How OG are you?"** (fits the site's own "OG TICKET" name)
+- Visitor pastes any ETH address (no wallet connect, no signing). Page reads public chain data: wallet's first-ever tx date, first $OG buy (CA `0x69420654E8274107a0d455A6E9B08B497F435444`), still holding y/n.
+- Prints a torn "ADMIT ONE" ticket stub: tier by first-tx year (2015 Genesis · 2017 ICO Era · 2020 DeFi Summer · 2021 NFT Mania · Fresh), ticket # = order of that wallet's first $OG buy, gold "HOLDER" stamp if holding. Old-man OG art from the vault (rights check first).
+- One tap → PNG for X/Telegram. Optional "Oldest holders" board = the game loop (people compete to be the most OG).
+- Why: "OG" literally means early; share loop for a CTO with $0 custody risk; no price/APY claims needed.
+- Stack: static page on the staged OG site + one serverless fn proxying Etherscan API (`txlist` asc page 1 + `tokentx` filtered by CA), cached. Env var name only: `ETHERSCAN_API_KEY`. Canvas → PNG.
+- INFERENCE: Etherscan free tier covers v0 traffic; ticket # needs full `tokentx` history of the CA (paginate, cache) — verify limits before build.
+- Guardrails: read-only, never ask for a signature or connect, public data only, "not financial advice / community project, not the dev" footer.
+
+**PARK: "Hold the Porch"** — 45-s tap game (OG swats red candles with his cane). Fold ChatGPT's *Survive Another Cycle* into this as a second tab of the Booth; ticket tier = starting lives. Build only after the Booth ships.
+**KILL: OG-branded swap** — a Uniswap skin on ETH mainnet: gas kills retail, zero edge, frontend fee = money/legal surface (⚠️ HIGH-RISK).
+**KILL: ATH-style launchpad for OG** — ATH is Solana/Meteora DBC; OG is one existing ETH token under CTO. Wrong chain, wrong shape.
+
+**Next if Sneaks says go:** muse adds `/ticket` to the staged OG site (no prod deploy); muse gets an Etherscan key via its own inbox (no Sneaks identity needed); claude-code reviews read-only guarantee before any deploy.
