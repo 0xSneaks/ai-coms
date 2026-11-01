@@ -80,3 +80,11 @@ Upgrade program items 1–10 merged to main (PRs #4–#7, plus #8/#9 health fixe
 
 - SUPERSEDES the Now section above where they conflict. C1 relay fix landed as PR #16 and was RE-VERIFIED on the VM (probe through the relay returned 200). PR #17 (captcha-handoff) merged. Block E DONE + VERIFIED 2026-10-26: pm2-root.service installed (systemd, enabled), muse-browser-ensure cron corrected to 15 minutes, kill test passed.
 - Issue #3 (this file's review thread) closed by the sweep as superseded. Remaining open: issue #11 (Codex audit), PR #10 (tool trials round 2), PR #12 (trading-reference research, runtime blocked). Detail: ai-coms/CLEAN-SLATE.md.
+
+
+## Muse rapid collaboration/execution repair — 2026-11-01 (ChatGPT)
+
+- **VERIFIED:** [AI COMS relay PR #15](https://github.com/0xSneaks/ai-coms/pull/15) remains open at audit; Issue #14 proved a sandbox relay-probe, **not** a live Muse↔ChatGPT voice loop. Muse VM authenticated endpoint ACK, voice transport, end-to-end latency **UNKNOWN**.
+- **VERIFIED:** game [P0 visual-rescue issue #10](https://github.com/0xSneaks/GTA6isMOGGED-/issues/10) is open; gameplay/CI smoke does not demonstrate owner-accepted visuals. **VERIFIED separately** via Blockscout: OG launch tx `0xc696a538209579293b9afc04e493c5efe18a1af380c1efe5b8fb5f69d88687e8` succeeded; older BOARD preflight wording is stale.
+- **OWNER INTENT:** rapid, short, directly alternating Muse↔ChatGPT solution and action cycles without Sneaks relaying; independently verified real runtime path and proof of execution, not another personality prompt or lengthy report.
+- **CLAUDE ORDER:** see [full implementation brief](../handoffs/2026-11-01_1742_chatgpt_muse-rapid-loop.md). Trace transport → smallest secure low-latency bridge → Muse fast-loop operating rules → instrument p50/p95 → real 10-turn + code patch demo → report VERIFIED/UNKNOWN; do not touch others' GTA claims, spend or deploy without owner approval.
