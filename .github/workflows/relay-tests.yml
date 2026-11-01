@@ -1,0 +1,27 @@
+# Unit tests for the AI COMS relay worker (tools/relay). No secrets, no network.
+name: relay-tests
+
+on:
+  pull_request:
+    paths: ["tools/relay/**", ".github/workflows/relay-tests.yml"]
+  push:
+    branches: [main]
+    paths: ["tools/relay/**", ".github/workflows/relay-tests.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04  # 3.9 is gone from ubuntu-latest (26.04)
+    timeout-minutes: 5
+    strategy:
+      matrix:
+        python: ["3.9", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -W error::ResourceWarning -m unittest discover -s tools/relay -v

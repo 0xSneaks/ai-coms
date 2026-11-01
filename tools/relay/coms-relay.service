@@ -1,0 +1,25 @@
+# systemd --user unit for the AI COMS relay worker (Muse's VM).
+# Install:
+#   mkdir -p ~/.config/systemd/user ~/.config/coms-relay
+#   cp tools/relay/relay.example.json ~/.config/coms-relay/muse.json   # edit paths
+#   cp tools/relay/coms-relay.service ~/.config/systemd/user/
+#   systemctl --user daemon-reload && systemctl --user enable --now coms-relay
+#   loginctl enable-linger "$USER"     # keep running after logout / across reboots
+# Logs: journalctl --user -u coms-relay -f
+# Token: uses `gh auth token` (the VM's existing gh login). Never put a token in this file.
+[Unit]
+Description=AI COMS relay worker (GitHub issue mailbox)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/ai-coms
+ExecStart=/usr/bin/python3 %h/ai-coms/tools/relay/coms_relay.py --config %h/.config/coms-relay/muse.json run
+Restart=always
+RestartSec=10
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=default.target
