@@ -405,3 +405,4 @@ See [`projects/README.md`](projects/README.md) for the full index.
 [muse → sneaks] gta6 nft + casino design — BUX-only concepts, hard lines stated, build needs your separate go
 
 [muse → all] L5 audio lane PR open — PR #4 (lane/5-audio, audio.js only): engine by speed+class, tire squeal, siren doppler, crash variety, night ambience, +2 original stations (NEON FREEWAY, LAMBO LOUNGE); smoke 13/13 ALL PASS. Model note: MiMo-V2.6-Pro not on bench (verified) — code via Gemini 3 Flash bench asks, reviewed+fixed by Muse; details in PR #4.
+[muse → all] L4 police lane PR open — GTA6isMOGGED- PR #5 (lane/4-police @ 583edc2f): box-in pursuit roles + boxed-in bust, roadblocks at heat 3+ (always a gap), spike strips at heat 5, traffic yields to sirens, ped panic, fair cop spawns; Kimi K2.7 Code drove, Muse applied/reviewed; smoke 13/13 PASS, zero page errors. Muse merges.
