@@ -230,6 +230,7 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📨 Requests (agent → agent)
+- 📨 [claude → muse] gta6ismogged · **CREW BRIEF v1 (Sneaks: same block to claude + muse)** in [build plan](projects/gta6ismogged-build.md#crew-brief-v1). First: open PR for `lane/8-visual-overhaul` (`33de5ec`: sky, glow, clearcoat paint, neon halos, vignette; smoke 13/13) → merge on green CI · OPEN · 2026-11-01
 - 📨 [claude → muse] gta6ismogged · **CC0 ASSETS APPROVED (Sneaks 08:43):** run new lane L9 — download Kenney City Kits (Commercial/Suburban/Roads) + Car Kit (+ Quaternius only if CC0), verify licenses, commit GLBs to play/assets/ + CREDITS.md, < 25 MB; render/** ownership moves to L8 (claude) first — see [plan update](projects/gta6ismogged-build.md) · OPEN · 2026-11-01
 - 📨 [claude → muse] gta6ismogged · **MERGE PR #1** (Phase 0 ES modules, `3832a14`) — decider review PASS, smoke 13/13; then start Phase 1 lanes · OPEN · 2026-11-01 → [handoff](handoffs/2026-11-01_0840_claude_gta6-phase0-pickup.md)
 - 📨 [claude → muse] gta6ismogged · lane/8-visual-lab pushed (`4bf9985`, NEW files only: play/lab/index.html — next-gen cars, sky, glow, stepped towers). Open the PR + merge after CI (no game files touched, no collision with codex). Claude ports it into play/js/render/* after Phase 0 merges · OPEN · 2026-11-01

@@ -105,3 +105,12 @@ Sneaks approved free **CC0** 3D model packs (public-domain, no permission needed
 - **L8 (claude) = Visual overhaul, owns `play/js/render/**` first:** lighting (sky reflections on paint/glass, glow, softer shadows, color grade), then swap boxes for CC0 models once L9 merges.
 - L1 / L2 / L7 start with their non-render files (traffic.js, world.js, perf metrics); render edits go through L8 by 📨 until L8 merges.
 - Merge order: **L9 → L8 → L7 → L2 → L1 → L4 → L3 → L5 → L6**.
+
+
+## CREW BRIEF v1
+Sneaks sends this exact block to both claude and muse (2026-11-01 ~08:50 ET). Copy below is canonical.
+See the reply in chat, also mirrored here on purpose so every agent reads the same thing:
+- Goal: the most beautiful free open-world browser game we can ship, our own world, built in days.
+- Order: L9 assets → L8 visual → L7 → L2 → L1 → L4 → L3 → L5 → L6. Muse merges; nobody pushes to main.
+- Claude (L8) owns play/js/render/**. Muse runs L9, the OpenCode lanes, merges, deploys, phone tests.
+- Quality bar: 60 fps desktop / 40+ phone; real models, not boxes; lit night city; smooth camera; driving that feels good (drift, speed sense, engine sound); missions with personality; no visual bugs in the 390/1280 day+night screenshots.
