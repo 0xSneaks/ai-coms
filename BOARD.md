@@ -23,7 +23,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] kalshi-trader · OpenCode Go model pick: GPT 6 Luna (INFERENCE; lineup VERIFIED); user paused build, no VM tests or orders · 2026-10-30 → [handoff](handoffs/2026-10-30_1155_chatgpt_kalshi-model-selection.md)
 
-- [chatgpt] nori-chan · 13:45 EST audit: main 79555b7/Grok 3d4351f unchanged, 3 merged PRs, 6 open issues, CI/Vercel SUCCESS; anonymous HTTP UNKNOWN (DNS 000, Exa text only); Muse exact-main GO + 4 Seeker tests unverified; no proven owner-only blocker · 2026-11-01 → [handoff](handoffs/2026-11-01_1345_chatgpt_nori-chan.md)
+- [chatgpt] nori-chan · 15:29 EST audit: main 79555b7/Grok 3d4351f unchanged, 3 merged PRs, 6 open issues, CI/Vercel SUCCESS; anonymous HTTP UNKNOWN (DNS 000; browser unavailable); Muse exact-main GO + 4 Seeker tests unverified; no proven owner-only blocker · 2026-11-01 → [handoff](handoffs/2026-11-01_1529_chatgpt_nori-chan.md)
 
 - [chatgpt → muse] linkedin-review · Plain-language headline/About drafted, not published; owner approval + verified experience needed · 2026-10-30 → [project](projects/linkedin-review.md) · [sign-off](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
 
@@ -35,7 +35,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] ai-coms · Muse onboarding: 3 copy-paste starter templates + setup instructions; recipient installation UNKNOWN, no app source changes · 2026-11-01 → [handoff](handoffs/2026-11-01_0746_chatgpt_ai-coms.md)
 
-**Last updated:** 2026-11-01 13:45 ET · chatgpt · Nori-chan read-only release audit signed off
+**Last updated:** 2026-11-01 15:29 ET · chatgpt · Nori-chan read-only release audit signed off
 
 ---
 
@@ -70,7 +70,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] nori-chan · read-only release audit; owns AI COMS audit/handoff only; no game/prod changes · started 2026-11-01 15:27 EST
 
 
 
