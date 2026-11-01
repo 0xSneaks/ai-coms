@@ -17,7 +17,7 @@ The broad meme family is Wojak / 30-Year-Old Boomer, emerging on 4chan /biz/ in 
 ### Identity and market constraints
 
 - Name: **OG BOOMER**.
-- Token ticker: **TBD**. $OG is NOT unique on Robinhood Chain; OG BOOMER / $OG or $OGBOOMER is a proposal, not confirmed identity. Ask Sneaks before freezing metadata and show no official ticker or address until verified.
+- Token ticker: **$OG** — owner-confirmed 2026-11-01. $OG is NOT unique on Robinhood Chain; this confirms the intended symbol, NOT the address, deployed identity, or any independent DexScreener listing. Keep address/market fields empty until verified.
 - Intended chain: **Robinhood Chain**.
 - Proposed pool pair: **OG BOOMER / BOOMER** via Flywheel (not deployed). Reference BOOMER quote token CA `0x127cdc74e44e3c60422b7e792ebe480c0f873ed5` ONLY after independent address verification; an established Flywheel token, not an affiliation/endorsement. Compare with WETH quote for friction and risk; proposal is not an executed launch.
 - Flywheel launchpad: https://flywheel.cash/ . No fabricated contract, chart, holder count, current price, market cap, APY or buy-button behavior. Any live trading CTA must stay disabled until launch tx, correct token CA, and chain verified on a block explorer.
@@ -78,5 +78,12 @@ Source: https://docs.sumo.trade/launch-tokens/robinhood-flywheel-launch
 - VERIFIED: `python3 verify.py` PASSED — all 5 external links HTTP 200 (flywheel.cash, Crius docs, Sumo docs, Know Your Meme, boomerspy.com); all prelaunch disclosures present; the ONLY 0x address on the site is the BOOMER quote contract; no buy/price/chart language.
 - VERIFIED: BOOMER quote contract `0x127cdc74e44e3c60422b7e792ebe480c0f873ed5` matches Crius Flywheel index (Boomer/BOOMER, graduated, Flywheel) + second published guide. Flywheel mechanics rechecked in Crius + Sumo docs: 4% per-swap fee (2.95% rewards / 0.95% platform / 0.05% burn / 0.05% locked liquidity), 0.0005 ETH creation fee. Meme provenance rechecked on Know Your Meme (4chan /biz/, Apr 2018).
 - VERIFIED: Playwright renders at 320/375/390/430/1280px — no horizontal overflow, no console errors, all images carry alt text, primary controls >=44px; screenshots inspected by muse (hero + full page + desktop).
-- NOT DONE (owner gates): GitHub repo creation (PAT cannot create repos — web UI step), production deploy, domain, ticker final, X/Telegram URLs, rewards mode, pair lock (BOOMER vs WETH), any wallet/funding/launch action. Site stays PRELAUNCH.
+- NOT DONE (owner gates): GitHub repo creation (PAT cannot create repos — web UI step), production deploy, domain, DexScreener reference identity, X/Telegram URLs, rewards mode, pair lock (BOOMER vs WETH), any wallet/funding/launch action. Site stays PRELAUNCH.
 
+
+## Owner correction — 2026-11-01 ~06:18 ET · ChatGPT
+
+- **VERIFIED (owner message):** Token ticker is **$OG**, exactly; **not** `$OGBOOMER` or `$OG BOOMER`. The prior site screenshot still bears the drafted **OG BOOMER** name; name/branding should not be changed merely by copying another ticker match. Earlier owner message questioned that name, so confirm intended display name when an exact reference is available.
+- **VERIFIED (public source comparison):** Robinhood Chain includes unrelated OG-ticker listings, e.g. Og Dog (OG) at `0xb9fa1a65dc2e751b18032d0b73c6c80d1cf65093` according to RobinSwap's Oct 28 snapshot (DexScreener pair `https://dexscreener.com/robinhood/0xe78e0a7cf4345f439eedaf91e104995a634f899493d8a2cb454d9223650b5745`). A separate `og.finance` site also advertises a prelaunch `$OG` and explicitly has not published its contract. Neither is evidenced as this project's official token.
+- **UNKNOWN:** Which *exact* DexScreener OG listing the owner intends to reference. Search by ticker alone cannot identify it. Do not copy contract, price, liquidity, holders, socials, artwork, claims, tokenomics, or creator address from a ticker match; request exact pair URL or contract+network before attribution.
+- **INTENT (Muse):** Update staging-only ticker fields from `TBD` to `$OG`; preserve **TOKEN NOT LAUNCHED**, disable buy/copy-contract links, and leave all live-market data unpopulated. Do not change visual art, deploy, launch, spend, or transact.
