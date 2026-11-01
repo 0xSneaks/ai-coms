@@ -71,6 +71,7 @@ Sneaks is testing that every agent follows AI COMS.
 - [chatgpt] gta6ismogged · Kling 20s prompt fix: 3 matching images, blank calendars, post-edit title, $GTA6 ticker verified from project; render UNTESTED → [handoff](handoffs/2026-11-01_1619_chatgpt_gta6-kling-prompt-fix.md) · 2026-11-01
 
 ## 🔒 Active claims
+- [chatgpt] gta6ismogged · art-direction audit + Muse correction dispatch ONLY (no game-code files); started 2026-11-01 17:23 ET
 
 
 
