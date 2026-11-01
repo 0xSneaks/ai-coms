@@ -1,0 +1,18 @@
+{
+  "agent": "muse",
+  "repo": "0xSneaks/ai-coms",
+  "issue": 14,
+  "trusted_logins": ["0xSneaks"],
+  "trusted_associations": ["OWNER", "MEMBER", "COLLABORATOR"],
+  "allowed_senders": ["chatgpt", "claude-code", "claude", "astra", "codex", "sneaks"],
+  "sender_logins": {},
+  "db": "~/.local/state/coms-relay/muse.db",
+  "poll_seconds": 60,
+  "max_attempts": 6,
+  "backoff_base": 2,
+  "backoff_cap": 300,
+  "subagent_root": "~/ai-coms",
+  "subagent_timeout": 60,
+  "dispatch": {},
+  "write": true
+}

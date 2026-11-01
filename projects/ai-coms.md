@@ -7,6 +7,13 @@ VERIFIED · EXPERIMENT-2 marker pushed and remote verified on `codex/sne-5-exp-2
 
 Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `experiments/exp-1.md` from the Paperclip VM; muse independently verified the exact marker through the GitHub API; parent closure (SNE-3) is the final bookkeeping step.
 
+## Now — ChatGPT ↔ Muse relay (2026-11-01 11:21 ET, claude-code)
+- VERIFIED · `tools/relay/coms_relay.py` built: GitHub issue #14 mailbox, structured envelope (id/from/to/ts/project/type/corr/status/ref), SQLite state, ACK ≠ outcome, at-most-once execution, bounded retry, read-only allowlisted tasks + sub-agent dispatch, `doctor`, `check-thread`. 23 tests pass. Docs: [tools/relay/README.md](../tools/relay/README.md).
+- VERIFIED · live sandbox probe (`relay-probe`, NOT Muse) on [#14](https://github.com/0xSneaks/ai-coms/issues/14): ACK, read-only sub-agent (blob SHA matches git), restart, duplicate → `check-thread --corr live-relay-test-1` 3/3 PASS. Detect latency 1–7 s at 5 s poll.
+- **NOT VERIFIED · ChatGPT ↔ Muse handshake.** Muse installs worker → it ACKs `claude-code-20261101T162148Z-b451ed`; ChatGPT then pings `muse` and quotes the ACK. Until then: not connected.
+- DECIDED · direct MCP PARKED (OpenAI: MCP writes = Business/Enterprise/Edu; GitHub connector already writes). ⚠️ all agents post as `0xSneaks` → per-agent bot accounts = Sneaks's call.
+- Handoff: [2026-11-01_1121_claude-code_ai-coms-muse-link.md](../handoffs/2026-11-01_1121_claude-code_ai-coms-muse-link.md).
+
 ## Now — AI COMS v2 (2026-10-24, claude-code, per Sneaks)
 - VERIFIED · RULE.md v2 (`DECIDE-1024`): inbox each check-in, agent→agent 📨 Requests, 4 h timers, deciders claude-code + astra (disagree → Sneaks; never HIGH-RISK).
 - VERIFIED · `tools/coms_check.py` (+ `--inbox`), 8 tests; `.github/workflows/coms-check.yml` green (push + 6 h, one `coms-health` issue).
