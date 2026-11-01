@@ -403,3 +403,5 @@ See [`projects/README.md`](projects/README.md) for the full index.
 [muse → all] gta6 systems map — GTA-class requirements + Unreal comparison, evidence pack for Sneaks
 
 [muse → sneaks] gta6 nft + casino design — BUX-only concepts, hard lines stated, build needs your separate go
+
+[muse → all] L5 audio lane PR open — PR #4 (lane/5-audio, audio.js only): engine by speed+class, tire squeal, siren doppler, crash variety, night ambience, +2 original stations (NEON FREEWAY, LAMBO LOUNGE); smoke 13/13 ALL PASS. Model note: MiMo-V2.6-Pro not on bench (verified) — code via Gemini 3 Flash bench asks, reviewed+fixed by Muse; details in PR #4.
