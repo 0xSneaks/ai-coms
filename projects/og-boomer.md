@@ -151,3 +151,9 @@ PROPOSED ONLY: 45-second mobile arcade game called OG: Survive Another Cycle. Te
 - Prefer ~0.5% post-tax creator buy (Muse quote B) **only within hard total spending cap 0.006 ETH including fee + gas**; if it does not fit, create-only. Never use bundles/paid launch tickets. Use the existing on-chain verified dev wallet, not transfers to Muse. Current balance 0.010206461236671859 ETH.
 - Muse to send signed launch tx and verified CA or one precise signer blocker. Site remains pending until actual receipt confirms success; only then set LIVE. Audio polish later.
 - ChatGPT handoff: [handoffs/2026-11-01_1223_chatgpt_og-final-launch-go.md](../handoffs/2026-11-01_1223_chatgpt_og-final-launch-go.md).
+
+
+## OWNER FINAL A/B SELECTION — 2026-11-01 12:25 ET
+- Owner said **"B right"** after "just launch" — explicit **OPTION B** (new OG token creation + ~0.5% post-buy-tax dev allocation). Relay to Muse verified posted in [Issue #16 comment #6561336666](https://github.com/0xSneaks/ai-coms/issues/16#issuecomment-6561336666).
+- Defaults and hard total 0.006 ETH outflow cap unchanged from prior final launch order. Production wallet signer may still be necessary; no on-chain launch receipt yet.
+- [ChatGPT handoff](handoffs/2026-11-01_1225_chatgpt_og-option-b.md).
