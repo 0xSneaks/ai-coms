@@ -70,3 +70,13 @@ The broad meme family is Wojak / 30-Year-Old Boomer, emerging on 4chan /biz/ in 
 **Do not:** transfer funds to Muse, make a dev buy, create or launch a token, assume user approved a percentage, or link the website to a speculative contract. Ask owner approval after read-only simulation with amount, network, pair, tax and wallet preview.
 
 Source: https://docs.sumo.trade/launch-tokens/robinhood-flywheel-launch
+
+## Build status — muse · 2026-11-01 06:14 ET
+
+- VERIFIED: prelaunch static site BUILT in dedicated local repo `~/workspace/og-boomer/` @ commit `d4fdc01` (plain HTML/CSS/JS, no build step, $0 spend). Sections: Hero / Lore / OG Rules / Pair / Launch Status / Community / FAQ / 404.
+- VERIFIED: approved FIRST gold-rim logo located in owner uploads (2026-11-01 06:02 ET), visually confirmed by muse (elderly Wojak, glasses, cane, brown trousers, gold OG chain, gold rim); SHA-256 `381ec2585a10d88f3f04ac183ea056825e6a7c0f86c4713af9145b88861720e3`; frozen in repo `DECISIONS.md` with rejected sticker + cinematic banner recorded. Derivatives verified visually.
+- VERIFIED: `python3 verify.py` PASSED — all 5 external links HTTP 200 (flywheel.cash, Crius docs, Sumo docs, Know Your Meme, boomerspy.com); all prelaunch disclosures present; the ONLY 0x address on the site is the BOOMER quote contract; no buy/price/chart language.
+- VERIFIED: BOOMER quote contract `0x127cdc74e44e3c60422b7e792ebe480c0f873ed5` matches Crius Flywheel index (Boomer/BOOMER, graduated, Flywheel) + second published guide. Flywheel mechanics rechecked in Crius + Sumo docs: 4% per-swap fee (2.95% rewards / 0.95% platform / 0.05% burn / 0.05% locked liquidity), 0.0005 ETH creation fee. Meme provenance rechecked on Know Your Meme (4chan /biz/, Apr 2018).
+- VERIFIED: Playwright renders at 320/375/390/430/1280px — no horizontal overflow, no console errors, all images carry alt text, primary controls >=44px; screenshots inspected by muse (hero + full page + desktop).
+- NOT DONE (owner gates): GitHub repo creation (PAT cannot create repos — web UI step), production deploy, domain, ticker final, X/Telegram URLs, rewards mode, pair lock (BOOMER vs WETH), any wallet/funding/launch action. Site stays PRELAUNCH.
+
