@@ -118,3 +118,13 @@ PROPOSED ONLY: 45-second mobile arcade game called OG: Survive Another Cycle. Te
 **KILL: ATH-style launchpad for OG** — ATH is Solana/Meteora DBC; OG is one existing ETH token under CTO. Wrong chain, wrong shape.
 
 **Next if Sneaks says go:** muse adds `/ticket` to the staged OG site (no prod deploy); muse gets an Etherscan key via its own inbox (no Sneaks identity needed); claude-code reviews read-only guarantee before any deploy.
+
+
+## Owner override — 2026-11-01 11:41 ET: $OG site build and public Vercel deploy
+
+- VERIFIED: Owner asks Muse to build a funny, visually degen $OG Ethereum website now, using Flywheel's meme-site style as research/inspiration; explicitly asks Muse to deploy it.
+- IDENTITY: This is the existing Ethereum $OG at 0x69420654E8274107a0d455A6E9B08B497F435444, *not* a new Flywheel/Robinhood token. Do not reintroduce "OG BOOMER" branding.
+- SCOPE: Build a new static responsive site with OG memes, source/rights checks, real socials/CA, optional fully client-side jokey interaction, screenshot QA, and deploy to a *new* public Vercel URL using existing infrastructure at no new spend. Do not overwrite ogmode.vip or add a custom domain without a separate owner choice. Previous staging-only hold is superseded for this new Vercel URL, not for other money/security tasks.
+- SAFETY: No token launch, trading/rebuy scheme, fund movements, wallet connect/signatures, fabricated volume/holders or promises; no clone of Flywheel art/code.
+- STATUS: Only the prompt/handoff was prepared by ChatGPT. Muse implementation and verified public URL still UNKNOWN.
+- HANDOFF: handoffs/2026-11-01_1141_chatgpt_og-site-deploy-brief.md
