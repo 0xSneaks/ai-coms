@@ -68,9 +68,10 @@ Sneaks is testing that every agent follows AI COMS.
 
 - [chatgpt → muse] gta6ismogged · Kling 4.0 20s X bounty audio direction: Hollywood prompt applied, original dry radio voices + Miami bass/funk; no render, spend or X post · 2026-11-01 → [handoff](handoffs/2026-11-01_1525_chatgpt_gta6-kling-audio-brief.md)
 
+- [chatgpt] gta6ismogged · Kling 20s prompt fix: 3 matching images, blank calendars, post-edit title, $GTA6 ticker verified from project; render UNTESTED → [handoff](handoffs/2026-11-01_1619_chatgpt_gta6-kling-prompt-fix.md) · 2026-11-01
+
 ## 🔒 Active claims
 
-- [chatgpt] gta6ismogged · Kling trailer prompt revision only (off-repo copy), no game files · started 2026-11-01 15:35 ET
 
 
 
