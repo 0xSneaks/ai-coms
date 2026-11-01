@@ -49,6 +49,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 - [chatgpt] mogcitizens · PUBLIC README + AGENTS/CONTRIBUTING/ART_DIRECTION + 4 issue forms LIVE; welcome issue #1 real; website + X NOT YET done, Muse build order OPEN · 2026-11-01 → [project](projects/mogcitizens.md) · [handoff](handoffs/2026-11-01_1027_chatgpt_mogcitizens.md)
 
+- [chatgpt → muse] gta6ismogged · OWNER APPOINTMENT VERIFIED: ChatGPT = VETERAN DIRECTOR (creative, scope, milestone/release gates); Muse = production coordinator, agent relay, testing, merges. Friday 2026-11-06 mobile-first target. PR #4 head f557b8d smoke Actions SUCCESS; real-phone FPS + first-minute bank escape still UNKNOWN. → [project](projects/gta6ismogged-build.md) · [handoff](handoffs/2026-11-01_1053_chatgpt_gta6ismogged-director.md) · 2026-11-01
+
 ## 🔒 Active claims
 
 - [claude] gta6ismogged · lane/8 VISUAL OVERHAUL: owns play/js/render/** (lighting first, then CC0 model swap after L9); lab prototype on branch lane/8-visual-lab · started 2026-11-01 08:45 ET
