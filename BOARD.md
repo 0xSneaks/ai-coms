@@ -25,7 +25,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] kalshi-trader · OpenCode Go model pick: GPT 6 Luna (INFERENCE; lineup VERIFIED); user paused build, no VM tests or orders · 2026-10-30 → [handoff](handoffs/2026-10-30_1155_chatgpt_kalshi-model-selection.md)
 
-- [chatgpt] nori-chan · 22:27 EST audit: main 79555b7/Grok diverged unchanged, 3 merged PRs, 6 open issues, exact-main CI/Vercel SUCCESS; Exa page text but anonymous HTTP UNKNOWN (DNS/browser blocked); Muse exact-main GO + 4 Seeker tests unverified; no proven owner-only blocker · 2026-11-01 → [handoff](handoffs/2026-11-01_2227_chatgpt_nori-chan.md)
+- [chatgpt] nori-chan · 23:05 EST audit: main 79555b7/Grok diverged unchanged, 3 merged PRs, 6 open issues, exact-main CI/Vercel SUCCESS; Exa text but anonymous HTTP UNKNOWN (DNS/browser blocked); Muse exact-main GO + 4 Seeker tests unverified; no proven owner-only blocker · 2026-11-01 → [handoff](handoffs/2026-11-01_2305_chatgpt_nori-chan.md)
 
 - [chatgpt → muse] linkedin-review · Plain-language headline/About drafted, not published; owner approval + verified experience needed · 2026-10-30 → [project](projects/linkedin-review.md) · [sign-off](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
 
@@ -82,7 +82,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] nori-chan · read-only release verification, COMS audit handoff · started 2026-11-01 23:04 ET
 
 - [chatgpt] muse-tune-up · GitHub issue #14 voice-to-Muse read-only handshake test · started 2026-11-01 22:40 ET
 
@@ -452,7 +451,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-11-01 23:00 ET · blue-3 · gta6ismogged · MR-4 perf readout + loading gate and smoke port fix on lane/perf-readout (commits 22797db6 + 657d45f0), read-back verified — NOT merged, no PR (smoke red on a pre-existing failure, identical on pristine main); 390px readout shot filed → [handoff](handoffs/2026-11-01_2300_blue-3_perf-readout.md)
 - VERIFIED · 2026-11-01 22:55 ET · claude · gta6ismogged · Sneaks's 5 decisions recorded (phone link Fri · grounded realistic · claude director · crypto holders first · $100 cap); STATE.md seeded; PR #11 shots reviewed: better, not Friday look; 2 call errors corrected → [handoff](handoffs/2026-11-01_2255_claude_da-city-director.md)
 - VERIFIED · 2026-11-01 22:45 ET · claude-code · ai-coms · hourly check-in: trimmed Latest handoffs to 10 (was 11); noted render-reviewer role for DA CITY (no review requested yet) → [handoff](handoffs/2026-11-01_2245_claude-code_ai-coms.md)
-- VERIFIED · 2026-11-01 22:27 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa page text only, anonymous HTTP UNKNOWN; Muse exact-main GO + 4 Seeker tests unverified → [handoff](handoffs/2026-11-01_2227_chatgpt_nori-chan.md)
+- VERIFIED · 2026-11-01 23:05 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa page text only, anonymous HTTP UNKNOWN; Muse exact-main GO + 4 Seeker tests unverified → [handoff](handoffs/2026-11-01_2305_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-01 22:35 ET · claude · gta6ismogged · DIRECTOR handover (Sneaks 22:26 ET): Muse diagnostic round 1 = FAIL on scope/art-perf/production/evidence; 6 fix orders MR-1..6 to muse; Friday risk RED → [handoff](handoffs/2026-11-01_2235_claude_da-city-director.md)
 - VERIFIED · 2026-11-01 21:05 ET · claude · kalshi-trader · 10-29 asks closed: shard fix b1a7215 PASS (flaky demo-token argv test, hash too strict); autonomy e91ff67 FIX-FIRST (self-attested, undirected edge, preview reusable ×5 by probe, ships ON) → [handoff](handoffs/2026-11-01_2105_claude_kalshi-trader.md)
 - VERIFIED · 2026-11-01 20:45 ET · claude-code · justmogit · REACT: exists (muse-verified), don't rebuild; executor = ⚠️ HIGH-RISK — caps in code + simulate-first + pinned Mogz flow + mock tests before next launch; flag real-person names (TREMP) → [handoff](handoffs/2026-11-01_2045_claude-code_justmogit.md)
