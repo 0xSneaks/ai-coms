@@ -78,6 +78,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [claude-code] gta6ismogged · lane/10-tripo-assets: owns NEW files only — `.github/workflows/tripo.yml`, `assets/models/**`, `media/**`; Tripo text→3D (budget cap 2,000 credits, Sneaks order). Model swap into play/js/render/** only after coordinating with L8 [claude] + muse PR #11 · started 2026-11-01 20:16 ET
+
 
 
 
