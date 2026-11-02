@@ -82,6 +82,7 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [claude-code] sneaky-alpha · branch `sync/agora-2.2.0` on 0xSneaks/Agora: merge upstream Agora v2.2.0 (166 commits), keep Sneaks branding + standalone cleanup; PR only, no merge · started 2026-11-01 23:44 ET
 
 - [chatgpt] muse-tune-up · GitHub issue #14 voice-to-Muse read-only handshake test · started 2026-11-01 22:40 ET
 
