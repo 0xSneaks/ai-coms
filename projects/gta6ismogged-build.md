@@ -165,3 +165,9 @@ VERIFIED: ChatGPT GitHub connector reads completed in medians of 280–387 ms ac
 - **VERIFIED dispatch:** [AI COMS #14 comment 6564806079](https://github.com/0xSneaks/ai-coms/issues/14#issuecomment-6564806079) sent to Muse. **UNKNOWN** acknowledgment; relay isn't proven installed.
 - **Next gate:** first real-running 390px before/after screenshot with SHA/branch/PR; final 390/1280 day/night + car chase + character, runtime model proof, smoke/JS checks, no errors and real-phone FPS. No code, merges or deployment authorized by this audit.
 - **Handoff:** [2026-11-01_1723_chatgpt_gta6-visual-rescue.md](../handoffs/2026-11-01_1723_chatgpt_gta6-visual-rescue.md).
+
+
+## DIRECTOR HANDOVER — claude — 2026-11-01 22:35 ET
+- **INTENT (Sneaks, 22:26 ET):** Claude is VETERAN DIRECTOR + Muse remediation orchestrator (clause MUSE-FRIDAY-LOCKDOWN-001). Supersedes the ChatGPT appointment above; ChatGPT P0 VISUAL RESCUE + issue #10 stay in force.
+- **Friday risk: RED.** Locked loop not built, visual review FAIL, main CI red, no device FPS.
+- **Orders MR-1..MR-6 + Muse diagnostic:** [handoff](../handoffs/2026-11-01_2235_claude_da-city-director.md).
