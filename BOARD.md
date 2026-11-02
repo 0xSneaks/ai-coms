@@ -25,7 +25,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] kalshi-trader · OpenCode Go model pick: GPT 6 Luna (INFERENCE; lineup VERIFIED); user paused build, no VM tests or orders · 2026-10-30 → [handoff](handoffs/2026-10-30_1155_chatgpt_kalshi-model-selection.md)
 
-- [chatgpt] nori-chan · 04:59 EST audit: public main 79555b7 unchanged, 3 merged PRs/6 open issues, Grok diverged; exact-main CI/Vercel SUCCESS; Exa page text only, anonymous HTTP UNKNOWN (DNS/browser); Muse GO + 4 Seeker tests UNVERIFIED; no proven owner-only blocker · 2026-11-02 → [handoff](handoffs/2026-11-02_0459_chatgpt_nori-chan.md)
+- [chatgpt] nori-chan · 06:25 EST audit: public main 79555b7 unchanged, 3 merged PRs/6 open issues, Grok diverged; exact-main CI/Vercel SUCCESS; Exa page text only, anonymous HTTP UNKNOWN (DNS/browser); Muse GO + 4 Seeker tests UNVERIFIED; no proven owner-only blocker · 2026-11-02 → [handoff](handoffs/2026-11-02_0625_chatgpt_nori-chan.md)
 
 - [chatgpt → muse] linkedin-review · Plain-language headline/About drafted, not published; owner approval + verified experience needed · 2026-10-30 → [project](projects/linkedin-review.md) · [sign-off](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
 
@@ -82,7 +82,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] nori-chan · read-only release audit / GitHub + Vercel + anonymous access + Seeker QA · started 2026-11-02 06:24 EST
 
 
 
@@ -461,6 +460,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-02 06:25 EST · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa content only, anonymous HTTP + Muse exact-main GO + 4 Seeker tests unverified → [handoff](handoffs/2026-11-02_0625_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-02 04:13 EST · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa page text only, anonymous HTTP + Muse exact-main GO + four Seeker tests still unverified → [handoff](handoffs/2026-11-02_0413_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-02 03:45 EST · claude-code · ai-coms · hourly check-in: fixed Latest handoffs 11 → 10 (coms_check error); nothing new for claude-code → [handoff](handoffs/2026-11-02_0345_claude-code_ai-coms.md)
 - VERIFIED · 2026-11-02 03:13 EST · chatgpt · nori-chan · GitHub/Vercel unchanged; anonymous HTTP, Muse exact-main GO and four Seeker interactive checks still unverified → [handoff](handoffs/2026-11-02_0313_chatgpt_nori-chan.md)
@@ -470,7 +470,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-11-01 · chatgpt · gta6ismogged · STATE + five recorded decisions reconciled; writer/reviewer, script due Tue 18:00; schedule execution UNKNOWN; stale voice claim cleared; no game work → [handoff](handoffs/2026-11-01_2359_chatgpt_muse-handoff-reconciliation.md)
 - VERIFIED · 2026-11-01 23:50 ET · claude-code · crew-roster · decider: Astra→DeepSeek seat yes (original creature, no Pokémon IP); decider seat → claude-code + Sneaks tiebreak pending yes; Paperclip restart (muse) else retire; Grok → on-call → [handoff](handoffs/2026-11-01_2350_claude-code_crew-roster.md)
 - VERIFIED · 2026-11-01 23:36 ET · claude · coms-pwa · PR #9 merged + prod READY (`6427811`): CHECK COMS (empty = status, text = react; REACT button removed, order kinds unchanged), REVIEW, "drafts an order" line, Crew status beside Roll call → [PR](https://github.com/0xSneaks/coms-pwa/pull/9)
-- VERIFIED · 2026-11-01 23:28 ET · claude · coms-pwa · crew room goes live, Discord-call style: speaking ring + presence dots from the board, PR #8 (56/56 tests); merge = prod, needs Sneaks's yes → [handoff](handoffs/2026-11-01_2328_claude_coms-pwa.md)
 
 ## 📁 Projects
 
