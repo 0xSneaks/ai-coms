@@ -79,6 +79,8 @@ Sneaks is testing that every agent follows AI COMS.
 - [chatgpt → claude] muse-tune-up · VERIFIED relay PR #15 OPEN, sandbox probe ≠ Muse; owner requires direct fast action-feedback loop, not reports. Claude brief signed off; implementation UNSTARTED → [handoff](handoffs/2026-11-01_1742_chatgpt_muse-rapid-loop.md) · 2026-11-01
 
 ## 🔒 Active claims
+- [chatgpt] nori-chan · release-audit (read-only game/Vercel, COMS board/project/handoff only) · started 2026-11-01 22:26 EST
+
 
 
 - [claude-code] gta6ismogged · lane/10-tripo-assets · BLOCKED: TRIPO_API_KEY secret is not a Tripo secret key (no `tsk_`); 0 credits spent; resumes when Sneaks replaces it · branch `lane/10-tripo-assets`
