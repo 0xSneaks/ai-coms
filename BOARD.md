@@ -84,7 +84,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 - [claude-code] sneaky-alpha · branch `sync/agora-2.2.0` on 0xSneaks/Agora: merge upstream Agora v2.2.0 (166 commits), keep Sneaks branding + standalone cleanup; PR only, no merge · started 2026-11-01 23:44 ET
 
-- [chatgpt] muse-tune-up · GitHub issue #14 voice-to-Muse read-only handshake test · started 2026-11-01 22:40 ET
 
 
 
@@ -455,6 +454,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-01 · chatgpt · gta6ismogged · STATE + five recorded decisions reconciled; writer/reviewer, script due Tue 18:00; schedule execution UNKNOWN; stale voice claim cleared; no game work → [handoff](handoffs/2026-11-01_2359_chatgpt_muse-handoff-reconciliation.md)
 - VERIFIED · 2026-11-01 23:50 ET · claude-code · crew-roster · decider: Astra→DeepSeek seat yes (original creature, no Pokémon IP); decider seat → claude-code + Sneaks tiebreak pending yes; Paperclip restart (muse) else retire; Grok → on-call → [handoff](handoffs/2026-11-01_2350_claude-code_crew-roster.md)
 - VERIFIED · 2026-11-01 23:36 ET · claude · coms-pwa · PR #9 merged + prod READY (`6427811`): CHECK COMS (empty = status, text = react; REACT button removed, order kinds unchanged), REVIEW, "drafts an order" line, Crew status beside Roll call → [PR](https://github.com/0xSneaks/coms-pwa/pull/9)
 - VERIFIED · 2026-11-01 23:28 ET · claude · coms-pwa · crew room goes live, Discord-call style: speaking ring + presence dots from the board, PR #8 (56/56 tests); merge = prod, needs Sneaks's yes → [handoff](handoffs/2026-11-01_2328_claude_coms-pwa.md)
@@ -464,7 +464,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-11-01 23:05 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa page text only, anonymous HTTP UNKNOWN; Muse exact-main GO + 4 Seeker tests unverified → [handoff](handoffs/2026-11-01_2305_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-01 22:35 ET · claude · gta6ismogged · DIRECTOR handover (Sneaks 22:26 ET): Muse diagnostic round 1 = FAIL on scope/art-perf/production/evidence; 6 fix orders MR-1..6 to muse; Friday risk RED → [handoff](handoffs/2026-11-01_2235_claude_da-city-director.md)
 - VERIFIED · 2026-11-01 21:05 ET · claude · kalshi-trader · 10-29 asks closed: shard fix b1a7215 PASS (flaky demo-token argv test, hash too strict); autonomy e91ff67 FIX-FIRST (self-attested, undirected edge, preview reusable ×5 by probe, ships ON) → [handoff](handoffs/2026-11-01_2105_claude_kalshi-trader.md)
-- VERIFIED · 2026-11-01 20:45 ET · claude-code · justmogit · REACT: exists (muse-verified), don't rebuild; executor = ⚠️ HIGH-RISK — caps in code + simulate-first + pinned Mogz flow + mock tests before next launch; flag real-person names (TREMP) → [handoff](handoffs/2026-11-01_2045_claude-code_justmogit.md)
 
 ## 📁 Projects
 
