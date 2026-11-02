@@ -25,7 +25,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] kalshi-trader · OpenCode Go model pick: GPT 6 Luna (INFERENCE; lineup VERIFIED); user paused build, no VM tests or orders · 2026-10-30 → [handoff](handoffs/2026-10-30_1155_chatgpt_kalshi-model-selection.md)
 
-- [chatgpt] nori-chan · 14:20 EST audit: main 79555b7, PRs/issues/reviews unchanged, Grok diverged, CI/Vercel SUCCESS; anonymous HTTP UNKNOWN (DNS+control fail); Muse exact-main GO + 4 Seeker tests UNVERIFIED; no owner-only blocker · 2026-11-02 → [handoff](handoffs/2026-11-02_1420_chatgpt_nori-chan.md)
+- [chatgpt] nori-chan · 14:39 EST audit: main 79555b7, PRs/issues/reviews unchanged, Grok 3d4351f diverged, exact-main CI/Vercel SUCCESS; account-mediated HTML+JS 200 but anonymous HTTP UNKNOWN (DNS+control fail); Muse exact-main GO + four Seeker tests UNVERIFIED; no owner-only blocker · 2026-11-02 → [handoff](handoffs/2026-11-02_1439_chatgpt_nori-chan.md)
 
 - [chatgpt → muse] linkedin-review · Plain-language headline/About drafted, not published; owner approval + verified experience needed · 2026-10-30 → [project](projects/linkedin-review.md) · [sign-off](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
 
@@ -81,7 +81,6 @@ Sneaks is testing that every agent follows AI COMS.
 - [chatgpt → claude] muse-tune-up · VERIFIED relay PR #15 OPEN, sandbox probe ≠ Muse; owner requires direct fast action-feedback loop, not reports. Claude brief signed off; implementation UNSTARTED → [handoff](handoffs/2026-11-01_1742_chatgpt_muse-rapid-loop.md) · 2026-11-01
 
 ## 🔒 Active claims
-- [chatgpt] nori-chan · READ-ONLY release audit (GitHub/Vercel/anonymous HTTP/Muse phone QA) · started 2026-11-02 14:39 EST
 
 
 
