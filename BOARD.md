@@ -448,6 +448,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · REVIEW AND BREAK DOWN: Status check tell me who’s working on what and eta for each process. Along with what’s needed. Any problems or is everything. Ok · OPEN · 2026-11-01 → [order](orders/2026-11-01_0823_e489956647ee.md) · claude-code ✓ status table → [handoff](handoffs/2026-11-01_0945_claude-code_status-check.md)
 - [sneaks → all] general · REACT: Create Just Mog It I already gave rough details to muse about it. · OPEN · 2026-11-01 → [order](orders/2026-11-01_2019_b9976bfd075a.md) · claude-code ✓ reacted → [handoff](handoffs/2026-11-01_2045_claude-code_justmogit.md)
 - [sneaks → all] general · REACT: Please get paper clip online or replace him. Same with grok · OPEN · 2026-11-01 → [order](orders/2026-11-01_2337_8861c446def0.md)
+- [sneaks → all] general · REACT: Remove Astra and place DeepSeek there. Deepseeks animation is playing with a pokemon and a poke ball · OPEN · 2026-11-01 → [order](orders/2026-11-01_2339_82182abe897d.md)
 
 ---
 
