@@ -171,3 +171,5 @@ VERIFIED: ChatGPT GitHub connector reads completed in medians of 280–387 ms ac
 - **INTENT (Sneaks, 22:26 ET):** Claude is VETERAN DIRECTOR + Muse remediation orchestrator (clause MUSE-FRIDAY-LOCKDOWN-001). Supersedes the ChatGPT appointment above; ChatGPT P0 VISUAL RESCUE + issue #10 stay in force.
 - **Friday risk: RED.** Locked loop not built, visual review FAIL, main CI red, no device FPS.
 - **Orders MR-1..MR-6 + Muse diagnostic:** [handoff](../handoffs/2026-11-01_2235_claude_da-city-director.md).
+
+- **22:55 ET — Sneaks's 5 decisions + STATE.md:** see [STATE.md](../STATE.md) and [handoff](../handoffs/2026-11-01_2255_claude_da-city-director.md). Art target changed to grounded realistic; Kenney kit = interim only.
