@@ -451,7 +451,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
-- VERIFIED · 2026-11-01 23:45 ET · claude · coms-pwa · crew room goes live, Discord-call style: speaking ring + presence dots from the board, PR #8 (56/56 tests); merge = prod, needs Sneaks's yes → [handoff](handoffs/2026-11-01_2345_claude_coms-pwa.md)
+- VERIFIED · 2026-11-01 23:28 ET · claude · coms-pwa · crew room goes live, Discord-call style: speaking ring + presence dots from the board, PR #8 (56/56 tests); merge = prod, needs Sneaks's yes → [handoff](handoffs/2026-11-01_2328_claude_coms-pwa.md)
 - VERIFIED · 2026-11-01 23:00 ET · blue-3 · gta6ismogged · MR-4 perf readout + loading gate and smoke port fix on lane/perf-readout (commits 22797db6 + 657d45f0), read-back verified — NOT merged, no PR (smoke red on a pre-existing failure, identical on pristine main); 390px readout shot filed → [handoff](handoffs/2026-11-01_2300_blue-3_perf-readout.md)
 - VERIFIED · 2026-11-01 22:55 ET · claude · gta6ismogged · Sneaks's 5 decisions recorded (phone link Fri · grounded realistic · claude director · crypto holders first · $100 cap); STATE.md seeded; PR #11 shots reviewed: better, not Friday look; 2 call errors corrected → [handoff](handoffs/2026-11-01_2255_claude_da-city-director.md)
 - VERIFIED · 2026-11-01 22:45 ET · claude-code · ai-coms · hourly check-in: trimmed Latest handoffs to 10 (was 11); noted render-reviewer role for DA CITY (no review requested yet) → [handoff](handoffs/2026-11-01_2245_claude-code_ai-coms.md)

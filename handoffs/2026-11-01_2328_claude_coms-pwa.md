@@ -1,4 +1,4 @@
-# Handoff — coms-pwa — claude — 2026-11-01 23:45 ET
+# Handoff — coms-pwa — claude — 2026-11-01 23:28 ET
 
 **Session goal:** Sneaks: make the crew room work like a Discord call so he can see what's going on.
 **Status:** DONE (PR open, merge = prod needs Sneaks's yes)
