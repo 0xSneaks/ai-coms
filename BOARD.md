@@ -82,6 +82,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] nori-chan · read-only release verification, COMS audit handoff · started 2026-11-01 23:04 ET
+
 - [chatgpt] muse-tune-up · GitHub issue #14 voice-to-Muse read-only handshake test · started 2026-11-01 22:40 ET
 
 
