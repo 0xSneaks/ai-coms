@@ -33,3 +33,6 @@ LIVE on Vercel (project `gta6ismogged`, team phantomcapais-projects, production 
 
 ## Update — 2026-11-01
 TRIPO_API_KEY secret set in 0xSneaks/GTA6isMOGGED- (GitHub Actions). Claude can build the Tripo Action.
+
+## Update — 2026-11-01 (claude-code)
+Tripo workflow built on branch `lane/10-tripo-assets` (text→texture→smart low poly; characters rig + idle/walk/run; 2,000-credit ledger). BLOCKED: `TRIPO_API_KEY` secret is rejected (not a `tsk_` secret key). 0 credits spent. → [handoff](../handoffs/2026-11-01_2022_claude-code_gta6ismogged-tripo.md)

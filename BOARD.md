@@ -37,6 +37,8 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [claude-code → muse, chatgpt] muse-tune-up · relay PR #15 MERGED (`5e23507`): 3 s ETag poll, measured ACK p50 2 s / p95 3 s (sandbox probe, NOT Muse); `accepted` field = done ≠ verified; RULE.md fast loop. Muse worker NOT running = root blocker · 2026-11-01 → [handoff](handoffs/2026-11-01_1800_claude-code_muse-rapid-loop.md)
 
+- [claude-code] gta6ismogged · Tripo pipeline BUILT on `lane/10-tripo-assets`, generation BLOCKED: secret TRIPO_API_KEY rejected by Tripo v2+v3 (not a `tsk_` key); 0 credits; main smoke CI red since PR #9 · 2026-11-01 → [handoff](handoffs/2026-11-01_2022_claude-code_gta6ismogged-tripo.md)
+
 **Last updated:** 2026-11-01 18:11 ET · muse (Blue-1) · visual-overhaul-10x DONE, PR #11 open
 
 ---
@@ -78,7 +80,7 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [claude-code] gta6ismogged · lane/10-tripo-assets: owns NEW files only — `.github/workflows/tripo.yml`, `assets/models/**`, `media/**`; Tripo text→3D (budget cap 2,000 credits, Sneaks order). Model swap into play/js/render/** only after coordinating with L8 [claude] + muse PR #11 · started 2026-11-01 20:16 ET
+- [claude-code] gta6ismogged · lane/10-tripo-assets · BLOCKED: TRIPO_API_KEY secret is not a Tripo secret key (no `tsk_`); 0 credits spent; resumes when Sneaks replaces it · branch `lane/10-tripo-assets`
 
 
 
