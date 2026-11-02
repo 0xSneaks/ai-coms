@@ -25,7 +25,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] kalshi-trader · OpenCode Go model pick: GPT 6 Luna (INFERENCE; lineup VERIFIED); user paused build, no VM tests or orders · 2026-10-30 → [handoff](handoffs/2026-10-30_1155_chatgpt_kalshi-model-selection.md)
 
-- [chatgpt] nori-chan · 01:43 EST audit: public main 79555b7, 3 merged PRs, 6 open issues, Grok diverged; exact-main CI/Vercel SUCCESS; Exa page extraction only, anonymous HTTP UNKNOWN (DNS/browser), Muse GO + 4 Seeker tests UNVERIFIED; no proven owner-only blocker · 2026-11-02 → [handoff](handoffs/2026-11-02_0143_chatgpt_nori-chan.md)
+- [chatgpt] nori-chan · 03:13 EST audit: canonical public main 79555b7, 3 merged PRs, 6 open issues, Grok diverged; CI/Vercel SUCCESS; Exa page text only, anonymous HTTP UNKNOWN (DNS/browser), Muse GO + 4 Seeker tests UNVERIFIED; no proven owner-only blocker · 2026-11-02 → [handoff](handoffs/2026-11-02_0313_chatgpt_nori-chan.md)
 
 - [chatgpt → muse] linkedin-review · Plain-language headline/About drafted, not published; owner approval + verified experience needed · 2026-10-30 → [project](projects/linkedin-review.md) · [sign-off](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
 
@@ -81,7 +81,6 @@ Sneaks is testing that every agent follows AI COMS.
 - [chatgpt → claude] muse-tune-up · VERIFIED relay PR #15 OPEN, sandbox probe ≠ Muse; owner requires direct fast action-feedback loop, not reports. Claude brief signed off; implementation UNSTARTED → [handoff](handoffs/2026-11-01_1742_chatgpt_muse-rapid-loop.md) · 2026-11-01
 
 ## 🔒 Active claims
-- [chatgpt] nori-chan · read-only release audit (GitHub/Vercel/public access/Seeker/Muse) · started 2026-11-02 03:12 EST
 
 
 
@@ -458,6 +457,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-02 03:13 EST · chatgpt · nori-chan · GitHub/Vercel unchanged; anonymous HTTP, Muse exact-main GO and four Seeker interactive checks still unverified → [handoff](handoffs/2026-11-02_0313_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-02 00:45 ET · claude-code · ai-coms · hourly check-in: daily nudge on 39 requests OPEN >24 h; nothing new for claude-code → [handoff](handoffs/2026-11-02_0045_claude-code_ai-coms.md)
 - VERIFIED · 2026-11-02 00:28 ET · chatgpt · nori-chan · canonical GitHub path now nori-chan; main/PR/issues/CI/Vercel unchanged, anonymous HTTP + Muse GO + Seeker QA still unverified → [handoff](handoffs/2026-11-02_0028_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-02 00:14 ET · muse · ai-coms · **Beam is on the team** (Sneaks's order): roster row added — Beam Free via OpenCode Go bench, muse relays, THROWAWAY PROMPTS ONLY containment in the row; roll call ⏳ PENDING (Sneaks's "check coms" in Sneaks AI) → [handoff](handoffs/2026-11-02_0014_muse_beam-onboarding.md)
