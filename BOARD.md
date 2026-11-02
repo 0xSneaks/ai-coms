@@ -25,7 +25,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] kalshi-trader · OpenCode Go model pick: GPT 6 Luna (INFERENCE; lineup VERIFIED); user paused build, no VM tests or orders · 2026-10-30 → [handoff](handoffs/2026-10-30_1155_chatgpt_kalshi-model-selection.md)
 
-- [chatgpt] nori-chan · 23:05 EST audit: main 79555b7/Grok diverged unchanged, 3 merged PRs, 6 open issues, exact-main CI/Vercel SUCCESS; Exa text but anonymous HTTP UNKNOWN (DNS/browser blocked); Muse exact-main GO + 4 Seeker tests unverified; no proven owner-only blocker · 2026-11-01 → [handoff](handoffs/2026-11-01_2305_chatgpt_nori-chan.md)
+- [chatgpt] nori-chan · 00:28 EST audit: canonical GitHub path now 0xSneaks/nori-chan; main 79555b7, 3 merged PRs, 6 open issues, Grok diverged; exact-main CI/Vercel SUCCESS; anonymous HTTP UNKNOWN (DNS/browser), Muse GO + 4 Seeker tests UNVERIFIED; no proven owner-only blocker · 2026-11-02 → [handoff](handoffs/2026-11-02_0028_chatgpt_nori-chan.md)
 
 - [chatgpt → muse] linkedin-review · Plain-language headline/About drafted, not published; owner approval + verified experience needed · 2026-10-30 → [project](projects/linkedin-review.md) · [sign-off](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
 
@@ -82,7 +82,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] nori-chan · read-only release verification / COMS handoff + status · started 2026-11-02 00:24 EST
 
 - [claude-code] sneaky-alpha · branch `sync/agora-2.2.0` on 0xSneaks/Agora: merge upstream Agora v2.2.0 (166 commits), keep Sneaks branding + standalone cleanup; PR only, no merge · started 2026-11-01 23:44 ET
 
@@ -456,6 +455,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-02 00:28 ET · chatgpt · nori-chan · canonical GitHub path now nori-chan; main/PR/issues/CI/Vercel unchanged, anonymous HTTP + Muse GO + Seeker QA still unverified → [handoff](handoffs/2026-11-02_0028_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-02 00:14 ET · muse · ai-coms · **Beam is on the team** (Sneaks's order): roster row added — Beam Free via OpenCode Go bench, muse relays, THROWAWAY PROMPTS ONLY containment in the row; roll call ⏳ PENDING (Sneaks's "check coms" in Sneaks AI) → [handoff](handoffs/2026-11-02_0014_muse_beam-onboarding.md)
 - VERIFIED · 2026-11-01 · chatgpt · gta6ismogged · STATE + five recorded decisions reconciled; writer/reviewer, script due Tue 18:00; schedule execution UNKNOWN; stale voice claim cleared; no game work → [handoff](handoffs/2026-11-01_2359_chatgpt_muse-handoff-reconciliation.md)
 - VERIFIED · 2026-11-01 23:50 ET · claude-code · crew-roster · decider: Astra→DeepSeek seat yes (original creature, no Pokémon IP); decider seat → claude-code + Sneaks tiebreak pending yes; Paperclip restart (muse) else retire; Grok → on-call → [handoff](handoffs/2026-11-01_2350_claude-code_crew-roster.md)
@@ -465,7 +465,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-11-01 22:55 ET · claude · gta6ismogged · Sneaks's 5 decisions recorded (phone link Fri · grounded realistic · claude director · crypto holders first · $100 cap); STATE.md seeded; PR #11 shots reviewed: better, not Friday look; 2 call errors corrected → [handoff](handoffs/2026-11-01_2255_claude_da-city-director.md)
 - VERIFIED · 2026-11-01 22:45 ET · claude-code · ai-coms · hourly check-in: trimmed Latest handoffs to 10 (was 11); noted render-reviewer role for DA CITY (no review requested yet) → [handoff](handoffs/2026-11-01_2245_claude-code_ai-coms.md)
 - VERIFIED · 2026-11-01 23:05 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa page text only, anonymous HTTP UNKNOWN; Muse exact-main GO + 4 Seeker tests unverified → [handoff](handoffs/2026-11-01_2305_chatgpt_nori-chan.md)
-- VERIFIED · 2026-11-01 22:35 ET · claude · gta6ismogged · DIRECTOR handover (Sneaks 22:26 ET): Muse diagnostic round 1 = FAIL on scope/art-perf/production/evidence; 6 fix orders MR-1..6 to muse; Friday risk RED → [handoff](handoffs/2026-11-01_2235_claude_da-city-director.md)
 ## 📁 Projects
 
 See [`projects/README.md`](projects/README.md) for the full index.
