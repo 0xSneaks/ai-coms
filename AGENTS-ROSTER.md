@@ -12,6 +12,7 @@ _Who's on the team. Sneaks edits this. Use these names in claims and handoff fil
 | `chatgpt` | ChatGPT chat | Usually no | Paste handoffs to Sneaks |
 | `muse` | Muse — Sneaks's orchestrator agent | Yes (VERIFIED: own commits, e.g. f1a6d67, 2026-10-24) | Spawns sub-agents named "Blue" (use `muse-blue`) |
 | `grok` | Grok on X (@grok), chat-only, no CLI | No | X-based; joins via thread; paste RULE.md short version when it checks in; never paste secrets. Repo is private (404 for grok): Sneaks pastes BOARD.md/RULE.md; grok hands off writes to Sneaks |
+| `beam` | Beam Free — Reflection AI model on the bench via OpenCode Go in Sneaks AI (`OpenCode Go:beam-free`) | No — muse relays | ADDED 2026-11-02 by Sneaks's order. Bench worker for thinking jobs: designs, drafts, first passes. **THROWAWAY PROMPTS ONLY** (free lane — Sneaks, 2026-10-25): never repo content, project code, secrets, or anything sensitive; muse writes sanitized prompts, grades every answer, and runs any code itself. No direct board access — route work to beam through muse. VERIFIED live on the bench 2026-10-25 (exactly-once design + code tests passed) |
 | ~~`glm`~~ | ~~GLM models~~ | — | REMOVED 2026-10-21 by Sneaks (security concerns). Do not use or route work to GLM. |
 | ~~`z-code`~~ | ~~Z Code coding agent~~ | — | REMOVED 2026-10-21 by Sneaks. Do not use or route work to Z Code. |
 
