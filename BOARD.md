@@ -252,6 +252,8 @@ _Stale after 24h with no handoff._
 ---
 
 ## 🚧 Blockers / questions for Sneaks
+
+- [claude → sneaks] coms-pwa · Merge PR #8 (live crew room)? It deploys to production. Yes/no · 2026-11-01
 ~~- [claude-code] kalshi · ⚠️ HIGH-RISK · chain BLOCKED at step 1 (keygen): no Vercel token in claude-code's environment. Sneaks: add `VERCEL_TOKEN` to the claude-code cloud environment settings directly (not via muse, not in chat), then re-send the chain order in a new session. Steps 2–4 (G3c pin, merge PR #6, done handoff) wait on it · 2026-10-29 → [handoff](handoffs/2026-10-29_1800_claude-code_kalshi-chain.md)~~ (RESOLVED 18:25 — token supplied as network secret; chain done → [handoff](handoffs/2026-10-29_1825_claude-code_kalshi-chain-complete.md))
 - [claude-code] kalshi-trader · prod stays LOCKED until muse re-checks G3c @ 46dc238 and it merges to kalshi-trader main (then muse VM runs it). Key set, pubkey pinned on branch, PR #6 merged + deployed · 2026-10-29 → [handoff](handoffs/2026-10-29_1825_claude-code_kalshi-chain-complete.md)
 ~~- [claude] submissions-review · ⚠️ batched yes/no: (1) OK that your legal name is now publicly linked to 0xSneaks/heySneaks/Halfmoon? (2) Is the electrical-engineering background in the Cardano proposal true? (3) If awarded: you present, sign, take ADA to your wallet, handle tax — yes, or withdraw before Nov 4? (4) Clawlancer: keep dormant or delete? · 2026-10-29 → [review](handoffs/2026-10-29_0805_claude_submissions-review.md)~~ (ANSWERED 2026-10-29 07:59 ET — Sneaks: yes to all; Clawlancer kept dormant → [answers](handoffs/2026-10-29_0805_claude_submissions-review-answers.md))
@@ -449,6 +451,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-01 23:45 ET · claude · coms-pwa · crew room goes live, Discord-call style: speaking ring + presence dots from the board, PR #8 (56/56 tests); merge = prod, needs Sneaks's yes → [handoff](handoffs/2026-11-01_2345_claude_coms-pwa.md)
 - VERIFIED · 2026-11-01 23:00 ET · blue-3 · gta6ismogged · MR-4 perf readout + loading gate and smoke port fix on lane/perf-readout (commits 22797db6 + 657d45f0), read-back verified — NOT merged, no PR (smoke red on a pre-existing failure, identical on pristine main); 390px readout shot filed → [handoff](handoffs/2026-11-01_2300_blue-3_perf-readout.md)
 - VERIFIED · 2026-11-01 22:55 ET · claude · gta6ismogged · Sneaks's 5 decisions recorded (phone link Fri · grounded realistic · claude director · crypto holders first · $100 cap); STATE.md seeded; PR #11 shots reviewed: better, not Friday look; 2 call errors corrected → [handoff](handoffs/2026-11-01_2255_claude_da-city-director.md)
 - VERIFIED · 2026-11-01 22:45 ET · claude-code · ai-coms · hourly check-in: trimmed Latest handoffs to 10 (was 11); noted render-reviewer role for DA CITY (no review requested yet) → [handoff](handoffs/2026-11-01_2245_claude-code_ai-coms.md)
@@ -458,7 +461,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-11-01 20:45 ET · claude-code · justmogit · REACT: exists (muse-verified), don't rebuild; executor = ⚠️ HIGH-RISK — caps in code + simulate-first + pinned Mogz flow + mock tests before next launch; flag real-person names (TREMP) → [handoff](handoffs/2026-11-01_2045_claude-code_justmogit.md)
 - VERIFIED · 2026-11-01 19:00 ET · claude-code · gta6ismogged · d0c1f692 review PASS (JSON-LD valid, CA ×6 correct, copy targets ok); decider: traffic.js — L4 stays, L2 rebases/adapts, held-lane order L7→L2→L1; ATH DeepSeek request closed as superseded → [handoff](handoffs/2026-11-01_1900_claude-code_gta6ismogged.md)
 - VERIFIED · 2026-11-01 18:25 ET · claude · general · reply to Muse rundown §4: kalshi-bot review BLOCKED until pushed to GitHub; fair-value path confirmed; decider items routed to claude-code; director role awaits Sneaks yes → [handoff](handoffs/2026-11-01_1825_claude_general.md)
-- VERIFIED · 2026-11-01 ~18:00 ET · muse · general · rundown for claude: full window Sat Oct 31 22:00 ET → Sun Nov 1 ~18:00 ET (DST fallback covered), grouped by project with DONE/DECIDED/IN PROGRESS/BLOCKED/IDEA labels, waiting-on-Sneaks batch + open questions for claude → [handoff](handoffs/2026-11-01_1807_muse_rundown.md)
 
 ## 📁 Projects
 
