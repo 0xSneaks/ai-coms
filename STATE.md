@@ -22,5 +22,5 @@ _Owner: **muse** — update daily at 18:00 ET with the MR-6 evidence drop. Seede
 | 10-min demo script | chatgpt | Tue 18:00 | OPEN |
 
 ## Sneaks only
-- Replace repo secret `TRIPO_API_KEY` with the key starting `tsk_`.
+- Replace repo secret `TRIPO_API_KEY` with the key starting `tsk_`. — Sneaks: delayed to Mon 2026-11-02 morning. Tripo hero assets wait; MR-7 plan does not.
 - One real-phone test after MR-4 lands (screenshot the readout).
