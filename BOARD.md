@@ -454,7 +454,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · REACT: Everyone please look over all of our current work and please organize in what is the easier to finish and then the hardest to finish. Hard … · OPEN · 2026-10-29 → [order](orders/2026-10-29_1220_4ef2e24ce058.md) · claude-code ✓ ranked → [worklist](handoffs/2026-10-29_1300_claude-code_kalshi-rereview.md) · nudged 2026-10-30 · nudged 2026-10-31 · nudged 2026-11-01 · nudged 2026-11-02
 - [sneaks → all] general · REACT: I need all of you to check in on the repo GTA six mogged. And work with Claude and muse plus use all appropriate LOM‘s and agents to optimi… · OPEN · 2026-11-01 → [order](orders/2026-11-01_0733_2612f43854c0.md) · claude-code ✓ reacted → [handoff](handoffs/2026-11-01_0920_claude-code_gta6ismogged.md) · nudged 2026-11-02
 - [sneaks → all] general · ROLL CALL · OPEN · 2026-11-01 → [order](orders/2026-11-01_0739_e46c896f6ead.md) · muse ✓ check 07:52 ET · claude-code ✓ check 09:20 ET
-- [sneaks → all] general · REVIEW AND BREAK DOWN: Status check tell me who’s working on what and eta for each process. Along with what’s needed. Any problems or is everything. Ok · OPEN · 2026-11-01 → [order](orders/2026-11-01_0823_e489956647ee.md) · claude-code ✓ status table → [handoff](handoffs/2026-11-01_0945_claude-code_status-check.md)
+- [sneaks → all] general · REVIEW AND BREAK DOWN: Status check tell me who’s working on what and eta for each process. Along with what’s needed. Any problems or is everything. Ok · OPEN · 2026-11-01 → [order](orders/2026-11-01_0823_e489956647ee.md) · claude-code ✓ status table → [handoff](handoffs/2026-11-01_0945_claude-code_status-check.md) · nudged 2026-11-02
 - [sneaks → all] general · REACT: Create Just Mog It I already gave rough details to muse about it. · OPEN · 2026-11-01 → [order](orders/2026-11-01_2019_b9976bfd075a.md) · claude-code ✓ reacted → [handoff](handoffs/2026-11-01_2045_claude-code_justmogit.md)
 - [sneaks → all] general · REACT: Please get paper clip online or replace him. Same with grok · OPEN · 2026-11-01 → [order](orders/2026-11-01_2337_8861c446def0.md) · claude-code ✓ decided → [handoff](handoffs/2026-11-01_2350_claude-code_crew-roster.md)
 - [sneaks → all] general · REACT: Remove Astra and place DeepSeek there. Deepseeks animation is playing with a pokemon and a poke ball · OPEN · 2026-11-01 → [order](orders/2026-11-01_2339_82182abe897d.md) · claude-code ✓ decided → [handoff](handoffs/2026-11-01_2350_claude-code_crew-roster.md)
@@ -462,6 +462,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-02 10:40 EST · claude-code · ai-coms · hourly check-in: nudged Sneaks's 11-01 08:23 status-check order (crossed 24 h); nothing new for claude-code → [handoff](handoffs/2026-11-02_1040_claude-code_ai-coms.md)
 - VERIFIED · 2026-11-02 09:30 EST · claude-code · ai-coms · hourly check-in: nudged Sneaks's GTA order (crossed 24 h); nothing new for claude-code → [handoff](handoffs/2026-11-02_0930_claude-code_ai-coms.md)
 - VERIFIED · 2026-11-02 08:30 EST · chatgpt · nori-chan · GitHub/Vercel unchanged; authenticated HTML+JS 200, Exa content only; anonymous HTTP + Muse exact-main GO + four Seeker tests unverified → [handoff](handoffs/2026-11-02_0830_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-02 06:25 EST · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa content only, anonymous HTTP + Muse exact-main GO + 4 Seeker tests unverified → [handoff](handoffs/2026-11-02_0625_chatgpt_nori-chan.md)
@@ -471,7 +472,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-11-02 00:45 ET · claude-code · ai-coms · hourly check-in: daily nudge on 39 requests OPEN >24 h; nothing new for claude-code → [handoff](handoffs/2026-11-02_0045_claude-code_ai-coms.md)
 - VERIFIED · 2026-11-02 00:28 ET · chatgpt · nori-chan · canonical GitHub path now nori-chan; main/PR/issues/CI/Vercel unchanged, anonymous HTTP + Muse GO + Seeker QA still unverified → [handoff](handoffs/2026-11-02_0028_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-02 00:14 ET · muse · ai-coms · **Beam is on the team** (Sneaks's order): roster row added — Beam Free via OpenCode Go bench, muse relays, THROWAWAY PROMPTS ONLY containment in the row; roll call ⏳ PENDING (Sneaks's "check coms" in Sneaks AI) → [handoff](handoffs/2026-11-02_0014_muse_beam-onboarding.md)
-- VERIFIED · 2026-11-01 · chatgpt · gta6ismogged · STATE + five recorded decisions reconciled; writer/reviewer, script due Tue 18:00; schedule execution UNKNOWN; stale voice claim cleared; no game work → [handoff](handoffs/2026-11-01_2359_chatgpt_muse-handoff-reconciliation.md)
 
 ## 📁 Projects
 
