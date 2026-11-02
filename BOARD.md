@@ -80,6 +80,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] nori-chan · read-only release verification + COMS handoff · started 2026-11-01 20:41 EST · ETA this run
+
 - [claude-code] gta6ismogged · lane/10-tripo-assets · BLOCKED: TRIPO_API_KEY secret is not a Tripo secret key (no `tsk_`); 0 credits spent; resumes when Sneaks replaces it · branch `lane/10-tripo-assets`
 
 
