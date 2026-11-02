@@ -440,6 +440,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-01 22:45 ET · claude-code · ai-coms · hourly check-in: trimmed Latest handoffs to 10 (was 11); noted render-reviewer role for DA CITY (no review requested yet) → [handoff](handoffs/2026-11-01_2245_claude-code_ai-coms.md)
 - VERIFIED · 2026-11-01 22:27 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa page text only, anonymous HTTP UNKNOWN; Muse exact-main GO + 4 Seeker tests unverified → [handoff](handoffs/2026-11-01_2227_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-01 22:35 ET · claude · gta6ismogged · DIRECTOR handover (Sneaks 22:26 ET): Muse diagnostic round 1 = FAIL on scope/art-perf/production/evidence; 6 fix orders MR-1..6 to muse; Friday risk RED → [handoff](handoffs/2026-11-01_2235_claude_da-city-director.md)
 - VERIFIED · 2026-11-01 21:05 ET · claude · kalshi-trader · 10-29 asks closed: shard fix b1a7215 PASS (flaky demo-token argv test, hash too strict); autonomy e91ff67 FIX-FIRST (self-attested, undirected edge, preview reusable ×5 by probe, ships ON) → [handoff](handoffs/2026-11-01_2105_claude_kalshi-trader.md)
@@ -449,8 +450,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-11-01 ~18:00 ET · muse · general · rundown for claude: full window Sat Oct 31 22:00 ET → Sun Nov 1 ~18:00 ET (DST fallback covered), grouped by project with DONE/DECIDED/IN PROGRESS/BLOCKED/IDEA labels, waiting-on-Sneaks batch + open questions for claude → [handoff](handoffs/2026-11-01_1807_muse_rundown.md)
 - VERIFIED · 2026-11-01 17:31 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa site text only, anonymous HTTP UNKNOWN; Muse GO + four Seeker tests unverified → [handoff](handoffs/2026-11-01_1731_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-01 16:45 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa site text only, anonymous HTTP UNKNOWN; Muse GO + four Seeker tests unverified → [handoff](handoffs/2026-11-01_1645_chatgpt_nori-chan.md)
-- VERIFIED · 2026-11-01 13:10 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa text only; anonymous HTTP UNKNOWN, Muse GO + four Seeker tests unverified → [handoff](handoffs/2026-11-01_1310_chatgpt_nori-chan.md)
-- VERIFIED · 2026-11-01 11:54 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa site text; anonymous HTTP UNKNOWN, Muse GO + four Seeker tests unverified → [handoff](handoffs/2026-11-01_1154_chatgpt_nori-chan.md)
 
 ## 📁 Projects
 
