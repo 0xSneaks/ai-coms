@@ -429,6 +429,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · REACT: I need all of you to check in on the repo GTA six mogged. And work with Claude and muse plus use all appropriate LOM‘s and agents to optimi… · OPEN · 2026-11-01 → [order](orders/2026-11-01_0733_2612f43854c0.md) · claude-code ✓ reacted → [handoff](handoffs/2026-11-01_0920_claude-code_gta6ismogged.md)
 - [sneaks → all] general · ROLL CALL · OPEN · 2026-11-01 → [order](orders/2026-11-01_0739_e46c896f6ead.md) · muse ✓ check 07:52 ET · claude-code ✓ check 09:20 ET
 - [sneaks → all] general · REVIEW AND BREAK DOWN: Status check tell me who’s working on what and eta for each process. Along with what’s needed. Any problems or is everything. Ok · OPEN · 2026-11-01 → [order](orders/2026-11-01_0823_e489956647ee.md) · claude-code ✓ status table → [handoff](handoffs/2026-11-01_0945_claude-code_status-check.md)
+- [sneaks → all] general · REACT: Create Just Mog It I already gave rough details to muse about it. · OPEN · 2026-11-01 → [order](orders/2026-11-01_2019_b9976bfd075a.md)
 
 ---
 
