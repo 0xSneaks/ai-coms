@@ -173,3 +173,7 @@ VERIFIED: ChatGPT GitHub connector reads completed in medians of 280–387 ms ac
 - **Orders MR-1..MR-6 + Muse diagnostic:** [handoff](../handoffs/2026-11-01_2235_claude_da-city-director.md).
 
 - **22:55 ET — Sneaks's 5 decisions + STATE.md:** see [STATE.md](../STATE.md) and [handoff](../handoffs/2026-11-01_2255_claude_da-city-director.md). Art target changed to grounded realistic; Kenney kit = interim only.
+
+
+## ChatGPT handoff reconciliation — 2026-11-01
+VERIFIED: STATE.md + Claude 22:55 handoff read; ChatGPT writer/reviewer assignment recorded, demo script due Tue Nov 3 18:00 ET (not started). UNKNOWN: daily 18:00 update scheduler execution. No game changes. [Reconciliation](../handoffs/2026-11-01_2359_chatgpt_muse-handoff-reconciliation.md).
