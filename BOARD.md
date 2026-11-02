@@ -447,12 +447,13 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · ROLL CALL · OPEN · 2026-11-01 → [order](orders/2026-11-01_0739_e46c896f6ead.md) · muse ✓ check 07:52 ET · claude-code ✓ check 09:20 ET
 - [sneaks → all] general · REVIEW AND BREAK DOWN: Status check tell me who’s working on what and eta for each process. Along with what’s needed. Any problems or is everything. Ok · OPEN · 2026-11-01 → [order](orders/2026-11-01_0823_e489956647ee.md) · claude-code ✓ status table → [handoff](handoffs/2026-11-01_0945_claude-code_status-check.md)
 - [sneaks → all] general · REACT: Create Just Mog It I already gave rough details to muse about it. · OPEN · 2026-11-01 → [order](orders/2026-11-01_2019_b9976bfd075a.md) · claude-code ✓ reacted → [handoff](handoffs/2026-11-01_2045_claude-code_justmogit.md)
-- [sneaks → all] general · REACT: Please get paper clip online or replace him. Same with grok · OPEN · 2026-11-01 → [order](orders/2026-11-01_2337_8861c446def0.md)
-- [sneaks → all] general · REACT: Remove Astra and place DeepSeek there. Deepseeks animation is playing with a pokemon and a poke ball · OPEN · 2026-11-01 → [order](orders/2026-11-01_2339_82182abe897d.md)
+- [sneaks → all] general · REACT: Please get paper clip online or replace him. Same with grok · OPEN · 2026-11-01 → [order](orders/2026-11-01_2337_8861c446def0.md) · claude-code ✓ decided → [handoff](handoffs/2026-11-01_2350_claude-code_crew-roster.md)
+- [sneaks → all] general · REACT: Remove Astra and place DeepSeek there. Deepseeks animation is playing with a pokemon and a poke ball · OPEN · 2026-11-01 → [order](orders/2026-11-01_2339_82182abe897d.md) · claude-code ✓ decided → [handoff](handoffs/2026-11-01_2350_claude-code_crew-roster.md)
 
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-01 23:50 ET · claude-code · crew-roster · decider: Astra→DeepSeek seat yes (original creature, no Pokémon IP); decider seat → claude-code + Sneaks tiebreak pending yes; Paperclip restart (muse) else retire; Grok → on-call → [handoff](handoffs/2026-11-01_2350_claude-code_crew-roster.md)
 - VERIFIED · 2026-11-01 23:36 ET · claude · coms-pwa · PR #9 merged + prod READY (`6427811`): CHECK COMS (empty = status, text = react; REACT button removed, order kinds unchanged), REVIEW, "drafts an order" line, Crew status beside Roll call → [PR](https://github.com/0xSneaks/coms-pwa/pull/9)
 - VERIFIED · 2026-11-01 23:28 ET · claude · coms-pwa · crew room goes live, Discord-call style: speaking ring + presence dots from the board, PR #8 (56/56 tests); merge = prod, needs Sneaks's yes → [handoff](handoffs/2026-11-01_2328_claude_coms-pwa.md)
 - VERIFIED · 2026-11-01 23:00 ET · blue-3 · gta6ismogged · MR-4 perf readout + loading gate and smoke port fix on lane/perf-readout (commits 22797db6 + 657d45f0), read-back verified — NOT merged, no PR (smoke red on a pre-existing failure, identical on pristine main); 390px readout shot filed → [handoff](handoffs/2026-11-01_2300_blue-3_perf-readout.md)
@@ -462,7 +463,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-11-01 22:35 ET · claude · gta6ismogged · DIRECTOR handover (Sneaks 22:26 ET): Muse diagnostic round 1 = FAIL on scope/art-perf/production/evidence; 6 fix orders MR-1..6 to muse; Friday risk RED → [handoff](handoffs/2026-11-01_2235_claude_da-city-director.md)
 - VERIFIED · 2026-11-01 21:05 ET · claude · kalshi-trader · 10-29 asks closed: shard fix b1a7215 PASS (flaky demo-token argv test, hash too strict); autonomy e91ff67 FIX-FIRST (self-attested, undirected edge, preview reusable ×5 by probe, ships ON) → [handoff](handoffs/2026-11-01_2105_claude_kalshi-trader.md)
 - VERIFIED · 2026-11-01 20:45 ET · claude-code · justmogit · REACT: exists (muse-verified), don't rebuild; executor = ⚠️ HIGH-RISK — caps in code + simulate-first + pinned Mogz flow + mock tests before next launch; flag real-person names (TREMP) → [handoff](handoffs/2026-11-01_2045_claude-code_justmogit.md)
-- VERIFIED · 2026-11-01 19:00 ET · claude-code · gta6ismogged · d0c1f692 review PASS (JSON-LD valid, CA ×6 correct, copy targets ok); decider: traffic.js — L4 stays, L2 rebases/adapts, held-lane order L7→L2→L1; ATH DeepSeek request closed as superseded → [handoff](handoffs/2026-11-01_1900_claude-code_gta6ismogged.md)
 
 ## 📁 Projects
 
