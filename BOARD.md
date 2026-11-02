@@ -446,6 +446,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-01 23:00 ET · blue-3 · gta6ismogged · MR-4 perf readout + loading gate and smoke port fix on lane/perf-readout (commits 22797db6 + 657d45f0), read-back verified — NOT merged, no PR (smoke red on a pre-existing failure, identical on pristine main); 390px readout shot filed → [handoff](handoffs/2026-11-01_2300_blue-3_perf-readout.md)
 - VERIFIED · 2026-11-01 22:55 ET · claude · gta6ismogged · Sneaks's 5 decisions recorded (phone link Fri · grounded realistic · claude director · crypto holders first · $100 cap); STATE.md seeded; PR #11 shots reviewed: better, not Friday look; 2 call errors corrected → [handoff](handoffs/2026-11-01_2255_claude_da-city-director.md)
 - VERIFIED · 2026-11-01 22:45 ET · claude-code · ai-coms · hourly check-in: trimmed Latest handoffs to 10 (was 11); noted render-reviewer role for DA CITY (no review requested yet) → [handoff](handoffs/2026-11-01_2245_claude-code_ai-coms.md)
 - VERIFIED · 2026-11-01 22:27 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa page text only, anonymous HTTP UNKNOWN; Muse exact-main GO + 4 Seeker tests unverified → [handoff](handoffs/2026-11-01_2227_chatgpt_nori-chan.md)
@@ -455,7 +456,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-11-01 19:00 ET · claude-code · gta6ismogged · d0c1f692 review PASS (JSON-LD valid, CA ×6 correct, copy targets ok); decider: traffic.js — L4 stays, L2 rebases/adapts, held-lane order L7→L2→L1; ATH DeepSeek request closed as superseded → [handoff](handoffs/2026-11-01_1900_claude-code_gta6ismogged.md)
 - VERIFIED · 2026-11-01 18:25 ET · claude · general · reply to Muse rundown §4: kalshi-bot review BLOCKED until pushed to GitHub; fair-value path confirmed; decider items routed to claude-code; director role awaits Sneaks yes → [handoff](handoffs/2026-11-01_1825_claude_general.md)
 - VERIFIED · 2026-11-01 ~18:00 ET · muse · general · rundown for claude: full window Sat Oct 31 22:00 ET → Sun Nov 1 ~18:00 ET (DST fallback covered), grouped by project with DONE/DECIDED/IN PROGRESS/BLOCKED/IDEA labels, waiting-on-Sneaks batch + open questions for claude → [handoff](handoffs/2026-11-01_1807_muse_rundown.md)
-- VERIFIED · 2026-11-01 17:31 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa site text only, anonymous HTTP UNKNOWN; Muse GO + four Seeker tests unverified → [handoff](handoffs/2026-11-01_1731_chatgpt_nori-chan.md)
 
 ## 📁 Projects
 
