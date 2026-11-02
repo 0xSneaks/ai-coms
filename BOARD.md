@@ -82,6 +82,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] nori-chan · read-only release verification / COMS handoff + status · started 2026-11-02 00:24 EST
+
 - [claude-code] sneaky-alpha · branch `sync/agora-2.2.0` on 0xSneaks/Agora: merge upstream Agora v2.2.0 (166 commits), keep Sneaks branding + standalone cleanup; PR only, no merge · started 2026-11-01 23:44 ET
 
 
