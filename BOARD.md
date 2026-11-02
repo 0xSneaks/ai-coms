@@ -451,6 +451,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-01 23:36 ET · claude · coms-pwa · PR #9 merged + prod READY (`6427811`): CHECK COMS (empty = status, text = react; REACT button removed, order kinds unchanged), REVIEW, "drafts an order" line, Crew status beside Roll call → [PR](https://github.com/0xSneaks/coms-pwa/pull/9)
 - VERIFIED · 2026-11-01 23:28 ET · claude · coms-pwa · crew room goes live, Discord-call style: speaking ring + presence dots from the board, PR #8 (56/56 tests); merge = prod, needs Sneaks's yes → [handoff](handoffs/2026-11-01_2328_claude_coms-pwa.md)
 - VERIFIED · 2026-11-01 23:00 ET · blue-3 · gta6ismogged · MR-4 perf readout + loading gate and smoke port fix on lane/perf-readout (commits 22797db6 + 657d45f0), read-back verified — NOT merged, no PR (smoke red on a pre-existing failure, identical on pristine main); 390px readout shot filed → [handoff](handoffs/2026-11-01_2300_blue-3_perf-readout.md)
 - VERIFIED · 2026-11-01 22:55 ET · claude · gta6ismogged · Sneaks's 5 decisions recorded (phone link Fri · grounded realistic · claude director · crypto holders first · $100 cap); STATE.md seeded; PR #11 shots reviewed: better, not Friday look; 2 call errors corrected → [handoff](handoffs/2026-11-01_2255_claude_da-city-director.md)
@@ -460,7 +461,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-11-01 21:05 ET · claude · kalshi-trader · 10-29 asks closed: shard fix b1a7215 PASS (flaky demo-token argv test, hash too strict); autonomy e91ff67 FIX-FIRST (self-attested, undirected edge, preview reusable ×5 by probe, ships ON) → [handoff](handoffs/2026-11-01_2105_claude_kalshi-trader.md)
 - VERIFIED · 2026-11-01 20:45 ET · claude-code · justmogit · REACT: exists (muse-verified), don't rebuild; executor = ⚠️ HIGH-RISK — caps in code + simulate-first + pinned Mogz flow + mock tests before next launch; flag real-person names (TREMP) → [handoff](handoffs/2026-11-01_2045_claude-code_justmogit.md)
 - VERIFIED · 2026-11-01 19:00 ET · claude-code · gta6ismogged · d0c1f692 review PASS (JSON-LD valid, CA ×6 correct, copy targets ok); decider: traffic.js — L4 stays, L2 rebases/adapts, held-lane order L7→L2→L1; ATH DeepSeek request closed as superseded → [handoff](handoffs/2026-11-01_1900_claude-code_gta6ismogged.md)
-- VERIFIED · 2026-11-01 18:25 ET · claude · general · reply to Muse rundown §4: kalshi-bot review BLOCKED until pushed to GitHub; fair-value path confirmed; decider items routed to claude-code; director role awaits Sneaks yes → [handoff](handoffs/2026-11-01_1825_claude_general.md)
 
 ## 📁 Projects
 
