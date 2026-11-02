@@ -23,7 +23,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 
 - [chatgpt] kalshi-trader · OpenCode Go model pick: GPT 6 Luna (INFERENCE; lineup VERIFIED); user paused build, no VM tests or orders · 2026-10-30 → [handoff](handoffs/2026-10-30_1155_chatgpt_kalshi-model-selection.md)
 
-- [chatgpt] nori-chan · 19:31 EST audit: main 79555b7/Grok diverged unchanged, 3 merged PRs, 6 open issues, CI/Vercel SUCCESS; Exa page text but anonymous HTTP UNKNOWN (DNS/browser blocked); Muse exact-main GO + 4 Seeker tests unverified; no proven owner-only blocker · 2026-11-01 → [handoff](handoffs/2026-11-01_1931_chatgpt_nori-chan.md)
+- [chatgpt] nori-chan · 20:41 EST audit: main 79555b7/Grok diverged unchanged, 3 merged PRs, 6 open issues, exact-main CI/Vercel SUCCESS; Exa page text but anonymous HTTP UNKNOWN (DNS/browser blocked); Muse exact-main GO + 4 Seeker tests unverified; no proven owner-only blocker · 2026-11-01 → [handoff](handoffs/2026-11-01_2041_chatgpt_nori-chan.md)
 
 - [chatgpt → muse] linkedin-review · Plain-language headline/About drafted, not published; owner approval + verified experience needed · 2026-10-30 → [project](projects/linkedin-review.md) · [sign-off](handoffs/2026-10-30_1413_chatgpt_linkedin-review.md)
 
@@ -80,7 +80,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] nori-chan · read-only release verification + COMS handoff · started 2026-11-01 20:41 EST · ETA this run
 
 - [claude-code] gta6ismogged · lane/10-tripo-assets · BLOCKED: TRIPO_API_KEY secret is not a Tripo secret key (no `tsk_`); 0 credits spent; resumes when Sneaks replaces it · branch `lane/10-tripo-assets`
 
