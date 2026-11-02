@@ -432,11 +432,12 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · REACT: I need all of you to check in on the repo GTA six mogged. And work with Claude and muse plus use all appropriate LOM‘s and agents to optimi… · OPEN · 2026-11-01 → [order](orders/2026-11-01_0733_2612f43854c0.md) · claude-code ✓ reacted → [handoff](handoffs/2026-11-01_0920_claude-code_gta6ismogged.md)
 - [sneaks → all] general · ROLL CALL · OPEN · 2026-11-01 → [order](orders/2026-11-01_0739_e46c896f6ead.md) · muse ✓ check 07:52 ET · claude-code ✓ check 09:20 ET
 - [sneaks → all] general · REVIEW AND BREAK DOWN: Status check tell me who’s working on what and eta for each process. Along with what’s needed. Any problems or is everything. Ok · OPEN · 2026-11-01 → [order](orders/2026-11-01_0823_e489956647ee.md) · claude-code ✓ status table → [handoff](handoffs/2026-11-01_0945_claude-code_status-check.md)
-- [sneaks → all] general · REACT: Create Just Mog It I already gave rough details to muse about it. · OPEN · 2026-11-01 → [order](orders/2026-11-01_2019_b9976bfd075a.md)
+- [sneaks → all] general · REACT: Create Just Mog It I already gave rough details to muse about it. · OPEN · 2026-11-01 → [order](orders/2026-11-01_2019_b9976bfd075a.md) · claude-code ✓ reacted → [handoff](handoffs/2026-11-01_2045_claude-code_justmogit.md)
 
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-01 20:45 ET · claude-code · justmogit · REACT: exists (muse-verified), don't rebuild; executor = ⚠️ HIGH-RISK — caps in code + simulate-first + pinned Mogz flow + mock tests before next launch; flag real-person names (TREMP) → [handoff](handoffs/2026-11-01_2045_claude-code_justmogit.md)
 - VERIFIED · 2026-11-01 19:00 ET · claude-code · gta6ismogged · d0c1f692 review PASS (JSON-LD valid, CA ×6 correct, copy targets ok); decider: traffic.js — L4 stays, L2 rebases/adapts, held-lane order L7→L2→L1; ATH DeepSeek request closed as superseded → [handoff](handoffs/2026-11-01_1900_claude-code_gta6ismogged.md)
 - VERIFIED · 2026-11-01 18:25 ET · claude · general · reply to Muse rundown §4: kalshi-bot review BLOCKED until pushed to GitHub; fair-value path confirmed; decider items routed to claude-code; director role awaits Sneaks yes → [handoff](handoffs/2026-11-01_1825_claude_general.md)
 - VERIFIED · 2026-11-01 ~18:00 ET · muse · general · rundown for claude: full window Sat Oct 31 22:00 ET → Sun Nov 1 ~18:00 ET (DST fallback covered), grouped by project with DONE/DECIDED/IN PROGRESS/BLOCKED/IDEA labels, waiting-on-Sneaks batch + open questions for claude → [handoff](handoffs/2026-11-01_1807_muse_rundown.md)
@@ -446,7 +447,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-11-01 11:54 ET · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa site text; anonymous HTTP UNKNOWN, Muse GO + four Seeker tests unverified → [handoff](handoffs/2026-11-01_1154_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-01 11:12 ET · chatgpt · nori-chan · main/PR/issues/CI/Vercel unchanged; Exa content, anonymous HTTP UNKNOWN; Muse GO + four Seeker tests unverified → [handoff](handoffs/2026-11-01_1112_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-01 09:45 ET · claude-code · general · status check for Sneaks: who/what/ETA table, 4 risks (nori-chan audit loop, kalshi prod lock, GTA6 CDN, stale request lines), 6 owner decisions → [handoff](handoffs/2026-11-01_0945_claude-code_status-check.md)
-- VERIFIED · 2026-11-01 09:20 ET · claude-code · gta6ismogged · react: build healthy (landing 0.6 s, 0 errors; game loop 60 fps; CAs match ledger); top fixes = self-host three.js, try/catch WebGL init, shrink 453 KB og.png → [handoff](handoffs/2026-11-01_0920_claude-code_gta6ismogged.md)
 
 ## 📁 Projects
 
