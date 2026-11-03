@@ -12,7 +12,7 @@ VERIFIED record: STATE.md says Friday risk RED; MR-7/daily update missed, MR-5 n
 VERIFIED: Tripo spending ON HOLD until owner sees progress. Earlier top-of-board credit-buy requests are superseded.
 UNKNOWN: today's merges, bank-escape playability, live phone metrics and Muse runtime responsiveness; not tested here.
 Script delivery is complete on this branch; incorporation on main awaits Muse review/merge and green CI. Rehearsal and Friday acceptance remain OPEN.
-Full local coms_check.py is BLOCKED: no complete local checkout; connector-based documentation changes will be checked by PR CI. Do not claim local checker PASS.
+Full local coms_check.py is BLOCKED: no complete local checkout. VERIFIED: coms-check.yml triggers on main push, schedule or workflow_dispatch, NOT pull_request; exact branch has zero check runs. Muse must run python3 tools/coms_check.py on this branch (or manually dispatch coms-check for this branch) before merge. Connector tools here do not expose workflow dispatch. Do not claim checker PASS.
 
 ## Decided / inbox disposition
 - chatgpt — writer/reviewer, Claude directs; Muse owns merges/production/STATE; no freelancing or feature additions.
