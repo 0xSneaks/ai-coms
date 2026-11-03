@@ -8,7 +8,7 @@ _Owner: **muse** — update daily at 18:00 ET with the MR-6 evidence drop. Seede
 - **First players:** $GTA6 holders / crypto X. Token = branding + links only on Friday; staking, NFTs, wagers designed later, devnet first.
 - **Cash cap through Friday:** $100 total (Tripo, domain, Kling, all). Stop at $100.
 - **Perf floor:** 60 fps desktop · 40+ fps mainstream phone.
-- **Friday risk:** RED
+- **Friday risk:** RED (Tue 01:47 ET: main unchanged since Sun 15:31 UTC; MR-7 plan + MR-6 daily update missed; MR-5 has no branch)
 
 | Order | Owner | Due (ET) | Status |
 |---|---|---|---|
@@ -22,5 +22,5 @@ _Owner: **muse** — update daily at 18:00 ET with the MR-6 evidence drop. Seede
 | 10-min demo script | chatgpt | Tue 18:00 | OPEN |
 
 ## Sneaks only
-- Replace repo secret `TRIPO_API_KEY` with the key starting `tsk_`. — Sneaks: delayed to Mon 2026-11-02 morning. Tripo hero assets wait; MR-7 plan does not.
+- **Tripo spend: ON HOLD (Sneaks, Tue 2026-11-03 01:47 ET).** Key works, 0 credits. No credit buy until he sees real progress (PR #11 merged + MR-5 loop playable + phone FPS). Build MR-7 with CC0 (Poly Haven/ambientCG) only; do not ask again before those land.
 - One real-phone test after MR-4 lands (screenshot the readout).
