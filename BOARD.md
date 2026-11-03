@@ -82,6 +82,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] ai-coms / gta6ismogged · INTENT coordination check-in + assigned demo script only: ROLLCALL.md, projects/ai-coms.md, projects/da-city-demo-script.md, projects/gta6ismogged-build.md, new handoff; BOARD.md bookkeeping. Branch `chatgpt/coms-checkin-20261103-0154`; no game source or STATE.md edits · started 2026-11-03 01:54 ET
+
 
 
 
