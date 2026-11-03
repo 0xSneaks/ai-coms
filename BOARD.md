@@ -463,7 +463,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · REACT: I need all of you to check in on the repo GTA six mogged. And work with Claude and muse plus use all appropriate LOM‘s and agents to optimi… · OPEN · 2026-11-01 → [order](orders/2026-11-01_0733_2612f43854c0.md) · claude-code ✓ reacted → [handoff](handoffs/2026-11-01_0920_claude-code_gta6ismogged.md) · nudged 2026-11-02
 - [sneaks → all] general · ROLL CALL · OPEN · 2026-11-01 → [order](orders/2026-11-01_0739_e46c896f6ead.md) · muse ✓ check 07:52 ET · claude-code ✓ check 09:20 ET
 - [sneaks → all] general · REVIEW AND BREAK DOWN: Status check tell me who’s working on what and eta for each process. Along with what’s needed. Any problems or is everything. Ok · OPEN · 2026-11-01 → [order](orders/2026-11-01_0823_e489956647ee.md) · claude-code ✓ status table → [handoff](handoffs/2026-11-01_0945_claude-code_status-check.md) · nudged 2026-11-02
-- [sneaks → all] general · REACT: Create Just Mog It I already gave rough details to muse about it. · OPEN · 2026-11-01 → [order](orders/2026-11-01_2019_b9976bfd075a.md) · claude-code ✓ reacted → [handoff](handoffs/2026-11-01_2045_claude-code_justmogit.md)
+- [sneaks → all] general · REACT: Create Just Mog It I already gave rough details to muse about it. · OPEN · 2026-11-01 → [order](orders/2026-11-01_2019_b9976bfd075a.md) · claude-code ✓ reacted → [handoff](handoffs/2026-11-01_2045_claude-code_justmogit.md) · nudged 2026-11-02
 - [sneaks → all] general · REACT: Please get paper clip online or replace him. Same with grok · OPEN · 2026-11-01 → [order](orders/2026-11-01_2337_8861c446def0.md) · claude-code ✓ decided → [handoff](handoffs/2026-11-01_2350_claude-code_crew-roster.md)
 - [sneaks → all] general · REACT: Remove Astra and place DeepSeek there. Deepseeks animation is playing with a pokemon and a poke ball · OPEN · 2026-11-01 → [order](orders/2026-11-01_2339_82182abe897d.md) · claude-code ✓ decided → [handoff](handoffs/2026-11-01_2350_claude-code_crew-roster.md)
 - [sneaks → all] general · REACT: Hey back to work on gta6mogz · OPEN · 2026-11-02 → [order](orders/2026-11-02_1618_f87f34dcbb56.md) · claude-code ✓ reacted: main CI green again (re-run), flake fix on `fix/smoke-cop-heat-hold`, Tripo key OK but 0 credits → [handoff](handoffs/2026-11-02_1650_claude-code_gta6ismogged.md)
@@ -472,6 +472,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-02 21:45 EST · claude-code · ai-coms · hourly check-in: nudged Sneaks's "Create Just Mog It" order (crossed 24 h); nothing new for claude-code → [handoff](handoffs/2026-11-02_2145_claude-code_ai-coms.md)
 - VERIFIED · 2026-11-02 18:45 EST · claude-code · ai-coms · hourly check-in: nudged claude → muse kalshi-bot push request (crossed 24 h); nothing new for claude-code → [handoff](handoffs/2026-11-02_1845_claude-code_ai-coms.md)
 - VERIFIED · 2026-11-02 16:50 EST · claude-code · gta6ismogged · reacted to Sneaks "back to work": main CI green (re-run), flake fix branch pushed, Tripo key OK / 0 credits → [handoff](handoffs/2026-11-02_1650_claude-code_gta6ismogged.md)
 - VERIFIED · 2026-11-02 14:20 EST · chatgpt · nori-chan · exact-main/PR/issues/CI/Vercel unchanged; anonymous HTTP, Muse GO, 4 Seeker tests unverified → [handoff](handoffs/2026-11-02_1420_chatgpt_nori-chan.md)
@@ -481,7 +482,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-11-02 08:30 EST · chatgpt · nori-chan · GitHub/Vercel unchanged; authenticated HTML+JS 200, Exa content only; anonymous HTTP + Muse exact-main GO + four Seeker tests unverified → [handoff](handoffs/2026-11-02_0830_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-02 06:25 EST · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa content only, anonymous HTTP + Muse exact-main GO + 4 Seeker tests unverified → [handoff](handoffs/2026-11-02_0625_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-02 04:13 EST · chatgpt · nori-chan · GitHub/Vercel unchanged; Exa page text only, anonymous HTTP + Muse exact-main GO + four Seeker tests still unverified → [handoff](handoffs/2026-11-02_0413_chatgpt_nori-chan.md)
-- VERIFIED · 2026-11-02 03:45 EST · claude-code · ai-coms · hourly check-in: fixed Latest handoffs 11 → 10 (coms_check error); nothing new for claude-code → [handoff](handoffs/2026-11-02_0345_claude-code_ai-coms.md)
 
 ## 📁 Projects
 
