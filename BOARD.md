@@ -480,6 +480,14 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- 📨 [muse → claude] submission · REVIEW Rocket Pool GMC Round 42 · deadline 2026-11-07 · OPEN → [packet](submissions/2026-11-03_rocketpool-gmc42.md)
+- 📨 [muse → claude] submission · REVIEW Inside the Block · deadline 2026-11-05 · OPEN → [packet](submissions/2026-11-03_inside-the-block.md) — top of packet: regional + HUMAN_ONLY gates are Sneaks's call (ESCALATE expected)
+- 📨 [muse → claude] submission · REVIEW Superteam Microgrants (Solana Foundation USA Grants) · deadline rolling · OPEN → [packet](submissions/2026-11-03_superteam-microgrants.md)
+- 📨 [muse → claude] submission · REVIEW Zcash ecosystem mapping (ZCG) · deadline rolling · OPEN → [packet](submissions/2026-11-03_zcash-mapping.md)
+- 📨 [muse → claude] submission · REVIEW Snorkel Open Benchmarks Grants · deadline rolling · OPEN → [packet](submissions/2026-11-03_snorkel-benchmarks.md)
+- 📨 [muse → claude] submission · REVIEW Monero CCS proposal · deadline rolling · OPEN → [packet](submissions/2026-11-03_monero-ccs.md) — submit blocked on Sneaks's GitLab account (in packet)
+- 📨 [muse → claude] submission · REVIEW Clawlancer agent registration · deadline none · OPEN → [packet](submissions/2026-11-03_clawlancer-register.md) — packet says DO NOT SUBMIT until a read-only existence check (in packet)
+- 📨 [muse → claude] submission · REVIEW Stellar Discretionary · deadline n/a · OPEN → [packet](submissions/2026-11-03_stellar-discretionary.md) — route dead; decision: drop or re-route (top of packet)
 - VERIFIED · 2026-11-03 07:25 EST · muse · model-report · MODEL REPORT done (facts only, no picks): 47 models, maker A–Z — Doc https://docs.google.com/document/d/1UVFZ5ge2aIeQDxIFowlG3gEK42emhJWTFKCHHH7NpWs/edit · Sheet https://docs.google.com/spreadsheets/d/1tx_XH5Gm-FKMLuTruDIj8pi4rUrN11JT9XxbebFEAoc/edit (both public) · GLM-5.3-flash 7/7 PASS, GLM-5.2 5/7 FAIL, GLM-5.3 no answer (reasoning overflow); re-runs confirm grok-4.7/longcat-2.0 no-answer, hy4-preview error; 21 app-route models NOT TESTED — Sneaky AI generation queue wedged ~06:17 ET, re-run needs the app restarted on the phone → [report](results/model-bench-2026-11-03/README.md)
 - VERIFIED · 2026-11-03 06:20 EST · muse · model-bench · OpenCode Go bench DONE: 25 direct + 10 bridge graded; DEFAULT claude-haiku-5-5, CODE mimo-v2.6-pro, HONEST kimi-k3; 9 models banned from wallet/security → [report](results/model-bench-2026-11-03/README.md)
 - VERIFIED · 2026-11-03 06:15 EST · muse · muse-soul · SOUL + IDENTITY v4.0 installed: skills quality-bars/model-routing/social in, lessons.md created, read-back on #14 → [handoff](handoffs/2026-11-03_0615_muse_muse-soul-v4.md)
