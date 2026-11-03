@@ -1,7 +1,7 @@
 # AnonPad — XMR launchpad on mogz.fun
 
 **Repo:** 0xSneaks/anonpad (rename of 0xSneaks/stealthpad if Muse already made it) · **Live URL:** none yet · **Last updated:** 2026-11-03 14:15 ET by claude
-**Full map (follow this):** [handoffs/2026-11-03_1425_claude_anonpad-map.md](../handoffs/2026-11-03_1425_claude_anonpad-map.md) · **Game plan:** [handoffs/2026-11-03_1415_claude_anonpad-plan.md](../handoffs/2026-11-03_1415_claude_anonpad-plan.md)
+**⚡ Speed order + deadlines:** [handoffs/2026-11-03_1452_claude_anonpad-speed-order.md](../handoffs/2026-11-03_1452_claude_anonpad-speed-order.md) · **DeepSeek brief:** [handoffs/2026-11-03_1450_claude_anonpad-deepseek-brief.md](../handoffs/2026-11-03_1450_claude_anonpad-deepseek-brief.md) · **Full map (follow this):** [handoffs/2026-11-03_1425_claude_anonpad-map.md](../handoffs/2026-11-03_1425_claude_anonpad-map.md) · **Game plan:** [handoffs/2026-11-03_1415_claude_anonpad-plan.md](../handoffs/2026-11-03_1415_claude_anonpad-plan.md)
 **Gate research:** [projects/ombro.md → "mogz gate"](ombro.md) (tech notes only; Ombro name is dead)
 
 ## Now (keep this current)
