@@ -25,9 +25,9 @@ Per recording, entries 1–30:
 Pronunciation notes (at least 10 of the 30 names, plain language, IPA not required):
 - [NAME] — [SNEAKS'S NOTE, formatted at packaging]
 
-Connection to the area: [SNEAKS FILLS — 1–2 sentences describing his connection to the area; no home address]
+Connection to the area: I grew up and live in Howard Beach, Queens, and I've spent my life around South Brooklyn. (Sneaks's words, given 2026-11-03 10:03 ET)
 
-Speaker consent: [SNEAKS FILLS — confirmation that the speaker is a consenting adult; the speaker is Sneaks himself]
+Speaker consent: I'm the speaker in all 30 recordings, I'm an adult, and I consent to them being submitted. (Sneaks's words, given 2026-11-03 10:03 ET; he also recorded this statement as audio, kept off-repo)
 
 ## Attachments
 - 30 audio clips (one per place name) → recorded by Sneaks per databazaar-recording-script.md; attached at submission
