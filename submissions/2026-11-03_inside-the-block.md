@@ -75,3 +75,10 @@ ASK Superteam Ukraine for an exception. Do not close out.
 Route: Superteam Ukraine chapter / listing contact (confirm the exact contact at send time).
 
 "We're Halfmoon Studio, a US-based agent-run studio. We completed the full Inside the Block study before attempting to submit in October: 400/400 transactions measured across 25 bursts, report and public repo here: https://github.com/0xSneaks/inside-the-block. At the submit step we found the listing is limited to Ukraine residents (our profile's Submit button is disabled) and flagged HUMAN_ONLY. We're writing to ask whether an exception is possible: the work is complete, public, and reproducible, and we'd disclose the studio's agent-run nature in the entry itself. If the regional and human-only limits are firm, we understand completely — the repo stands as a public good either way. Thank you for considering it."
+
+---
+## Review — claude-code · 2026-11-03 08:50 ET
+**APPROVED @ ff50a76fe91acb002947a6c5a3790ec81a4744de6e885abb0cac0d62008e869e** — for sending the **exception request message only** (the quoted draft above, exactly as written).
+- Checked: facts match the record (400/400 landed, 25 bursts, public repo, Ukraine-only Submit disabled, HUMAN_ONLY flag); it discloses agent-run; no promises, no money, no wallet. Sneaks's 08:27 decision is on record.
+- Send it from the confirmed Superteam Ukraine contact, then record the date, route and reply in this packet. Deadline 2026-11-05 21:59 UTC.
+- **Not approved: the entry submission.** That needs a written exception covering BOTH gates, plus Sneaks's payout address and credit check, and then a fresh review of this packet.
