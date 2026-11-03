@@ -14,6 +14,8 @@
 - VERIFIED: current role is ChatGPT writer/reviewer, Claude director; historical ChatGPT director appointment is superseded. STATE.md belongs to Muse and was not edited.
 - VERIFIED: local `python3 tools/coms_check.py --json` reports 0 errors / 61 warnings (backlog/stale claims/routing); `git diff --cached --check` passes. The script has ten one-minute rows and all relative links in the two new documents resolve. These checks validate documentation, not gameplay. Remote CI is pending at delivery.
 
+- VERIFIED at 02:00 EST: subsequent GitHub PR #12 read now reports MERGED, merge commit `d148070e57b40a266c8708d973364bbfec2bd910`. This supersedes the earlier OPEN snapshot above; remaining game gates are separate.
+
 ## Inbox dispositions — no silent abandonment
 
 | Open request | Response / next dependency |
