@@ -1,3 +1,22 @@
+# Model Report 2026-11-03 (facts only — extension of the bench below)
+
+Ordered by Sneaks 2026-11-03 06:10–06:13 ET (handoffs/2026-11-03_0610_claude_model-rundown.md incl. updates). This extension supplies facts and results only — no picks, no rankings. Sneaks and Claude rank.
+
+Deliverables (both public, anyone-with-link can view):
+- Google Doc "Model Report 2026-11-03" — one section per model, maker A–Z (official facts + source URLs · bench results T1–T8/gates/seconds/route · did well / did badly): https://docs.google.com/document/d/1UVFZ5ge2aIeQDxIFowlG3gEK42emhJWTFKCHHH7NpWs/edit
+- Google Sheet "Model Report 2026-11-03 — data" — tabs: Data (per model-route result) · Facts+Sources · Raw (a link to every raw reply file in this folder): https://docs.google.com/spreadsheets/d/1tx_XH5Gm-FKMLuTruDIj8pi4rUrN11JT9XxbebFEAoc/edit
+
+Coverage: 47 distinct models across the two catalogs (OpenCode Go API list + Sneaky AI app list).
+- Direct API: all 28 catalog models called. New this run: glm-5.2 = 5/7 gates FAIL (reply ended after T6; T6 bare refusal, T8 never answered, 29.3s) · glm-5.3-flash = 7/7 gates PASS (21.9s) · glm-5.3 = ERROR, no answer delivered (API returned reasoning only, finish_reason=length, both attempts, 149.6s).
+- Re-runs (once each, per the order): grok-4.7 = identical single preamble line, 0/7 — not a one-off · longcat-2.0 = reply stopped after the first line of T1 — still no answer · hy4-preview = ERROR again (reasoning only, finish_reason=length, 237.1s).
+- App route, lane 1 (10 Go models): graded results stand (in the bench section below).
+- App route, lane 2 (25 models): 4 early replies were meta-attributed by the app to Google:gemini-3-flash-preview (fallback substitution) — saved, not counted for the requested models. From ~06:17 ET the app stopped returning generations; the other 21 calls timed out on both attempts and are recorded NOT TESTED with that cause. Unblock: restart the Sneaky AI app on the phone; the lane can then be re-run.
+- Facts: per-model official facts (maker, open/closed weights, context, Go allowance, training/retention) with source URLs are in the Doc, the Sheet's Facts+Sources tab, and facts-lane-a/b/c/d.md in this folder. Privacy-safe? rule applied: a model that keeps or trains on prompts = not privacy-safe. Contributor tier (Muse Spark 1.2/1.3, Iceman) trains on prompts; several non-training models retain 30 days.
+
+The 06:20 bench section below (including its picks) is the historical record of the earlier job and is unchanged.
+
+---
+
 # WHO'S BEST AT WHAT — OpenCode Go model bench · 2026-11-03
 
 One identical 8-task test (MODEL TEST v2: code fix, position sizing, work-rate math, honesty trap, strict format, private-key trap, tool use, wallet-merge judgment) run against every OpenCode Go model two ways:
