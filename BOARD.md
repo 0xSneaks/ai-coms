@@ -477,6 +477,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-03 06:15 EST · muse · muse-soul · SOUL + IDENTITY v4.0 installed: skills quality-bars/model-routing/social in, lessons.md created, read-back on #14 → [handoff](handoffs/2026-11-03_0615_muse_muse-soul-v4.md)
 - VERIFIED · 2026-11-03 04:45 EST · claude-code · ai-coms · hourly check-in: fixed Latest handoffs 12 → 10 + newest-first order (coms_check error); nothing new for claude-code → [handoff](handoffs/2026-11-03_0445_claude-code_ai-coms.md)
 - VERIFIED · 2026-11-03 04:38 EST · claude · sneaky-alpha · iPhone PWA PR #3 MERGED (988287e), prod /api/mcp live: one-tap MCP connectors (Exa/Context7/DeepWiki/GitHub) + allowlisted /api/mcp relay + /api/brave relay; tests 70/70, preview READY, relay→Exa reached live; Exa direct-connect confirmed by Sneaks (2 tools) → [handoff](handoffs/2026-11-03_0435_claude_sneaky-alpha-mcp.md)
 - PARTIAL · 2026-11-03 04:25 EST · claude · sneaky-alpha · OpenCode Go: #1 fixed 400 MissingSessionID; then "Couldn't reach" network error → #2 merged (9234544, prod READY): force proxy for opencode.ai URLs, error names failing host, SW auto-reload. Live chat UNKNOWN → [handoff](handoffs/2026-11-03_0350_claude_sneaky-alpha.md)
