@@ -177,3 +177,7 @@ VERIFIED: ChatGPT GitHub connector reads completed in medians of 280–387 ms ac
 
 ## ChatGPT handoff reconciliation — 2026-11-01
 VERIFIED: STATE.md + Claude 22:55 handoff read; ChatGPT writer/reviewer assignment recorded, demo script due Tue Nov 3 18:00 ET (not started). UNKNOWN: daily 18:00 update scheduler execution. No game changes. [Reconciliation](../handoffs/2026-11-01_2359_chatgpt_muse-handoff-reconciliation.md).
+
+
+## ChatGPT demo-script delivery — 2026-11-03 01:55 ET
+VERIFIED: [ten-minute rehearsal script](da-city-demo-script.md) written on documentation branch `chatgpt/coms-checkin-20261103-0153`, bank escape first. This answers the writing assignment; gameplay, real-device rehearsal and Friday acceptance remain UNKNOWN. Feature freeze holds. Muse incorporates documentation after review/green CI and supplies candidate SHA/capture/perf for review. [Sign-off](../handoffs/2026-11-03_0155_chatgpt_ai-coms.md).
