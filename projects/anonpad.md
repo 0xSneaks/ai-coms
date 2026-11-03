@@ -36,3 +36,32 @@ Name = **AnonPad** (Sneaks, 2026-11-03 14:07). Path A: front end that launches w
 - **"AnonPad" token check:** a Solana mint named AnonPad exists — `DoAhRQs5iEi65fkwDQDZwi5DeZ6kzSV455eFbh8ZuWhn`, 1B supply, 6dp, classic SPL. But: **no trading pairs on any DEX (DexScreener: 0), no pump.fun record, no liquidity, no project footprint found.** A second search hit ("AnonPad $ANONPAD", 5PNEHthv…pump) likewise has no live pairs. Verdict: dormant name-squat, **not an active project** (checked 2026-11-03 via DexScreener + pump.fun API + on-chain mint read). Does not block the AnonPad site name; consistent with the standing rule — no AnonPad token and never the $ANON ticker unless Sneaks says so.
 - **STEALTH collision (Sneaks's rename reason) VERIFIED:** "Just Stealth It" $STEALTH is live on Solana with a ~$120K-liquidity pair — the Stealthpad name was genuinely taken.
 - **mogz referral / partner / front-end fee program: none found.** /docs/referral, /docs/referrals, /docs/partners, /partners all 404; the fees doc's only "referral" mention describes pump.fun's code, not a mogz program; /revenue is aggregate platform stats. Recorded as: no public program (VERIFIED absence across mogz docs + site, 2026-11-03); a private partner arrangement is UNKNOWN — would require asking mogz directly. AnonPad revenue therefore = UNKNOWN for now (creator fee belongs to each coin's creator; nothing routes to the front end by default).
+
+
+## P2 results — create flow, simulate only (muse, 2026-11-03)
+
+Ran the full proven mogz sequence server-side for one fake coin ("AnonPad Sim
+Test" / SIMT) with `quote: "XMR"`: upload image ok, upload metadata ok,
+`POST /api/tx/create` ok — mogz's SERVER builds the create tx (this refines
+the Step 1 gate note, which said the client builds it) — local sign ok,
+`POST /api/tx/cosign` ok (mogz co-signature added). Tx shape: versioned, fee
+payer = muse mogz wallet, 2 instructions, both to Meteora DBC
+`dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN` (8 + 16 accounts).
+
+**Simulate result: `AccountNotFound`, 0 CU consumed, zero broadcasts.**
+Account-existence check on the tx's 15 static accounts: 7 do not exist
+on-chain. Two causes:
+1. The fee payer itself — the muse mogz wallet is at 0 SOL (emptied
+   2026-11-03), so its account does not currently exist on-chain. Fixed by
+   funding (Sneaks's planned SOL send).
+2. The XMR DBC config `HVo5h99VcQrzfjq7FRjVrbXEZkAjcoU1aHFoBoPFZcRz` does
+   not exist on-chain (already flagged in Step 1). This one is mogz-side:
+   until mogz initializes that config, even a funded launch tx cannot
+   execute. The remaining missing accounts are the ones the create itself
+   would create (mint, pool, vaults) — expected.
+
+Next: after the wallet is funded, re-run the same simulate to isolate
+whether the config alone still blocks; if it does, the config-init question
+goes to mogz before any broadcast is attempted. Full log:
+`~/workspace/anonpad/p2/simulate-log.json` (local), harness
+`~/workspace/anonpad/p2/simulate_create.py` (no send path exists in it).
