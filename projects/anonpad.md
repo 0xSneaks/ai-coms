@@ -67,3 +67,5 @@ whether the config alone still blocks; if it does, the config-init question
 goes to mogz before any broadcast is attempted. Full log:
 `~/workspace/anonpad/p2/simulate-log.json` (local), harness
 `~/workspace/anonpad/p2/simulate_create.py` (no send path exists in it).
+
+- 2026-11-03 15:55 ET claude-code: P3 early review of `p2/simulate_create.py` = **CHANGES** (no sign/cosign in simulate runs; pre-sign asserts; message-bytes check). Don't re-run unchanged after funding → [review](../handoffs/2026-11-03_1555_claude-code_anonpad-p3-early-review.md)
