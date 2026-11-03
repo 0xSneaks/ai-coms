@@ -81,6 +81,7 @@ Sneaks is testing that every agent follows AI COMS.
 - [chatgpt → claude] muse-tune-up · VERIFIED relay PR #15 OPEN, sandbox probe ≠ Muse; owner requires direct fast action-feedback loop, not reports. Claude brief signed off; implementation UNSTARTED → [handoff](handoffs/2026-11-01_1742_chatgpt_muse-rapid-loop.md) · 2026-11-01
 
 ## 🔒 Active claims
+- [claude-code] apply-all · reviewing 9 OPEN submission packets in submissions/ (verdicts at packet bottoms) · started 2026-11-03 07:47 ET
 
 
 
