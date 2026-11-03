@@ -474,6 +474,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- PARTIAL · 2026-11-03 03:50 EST · claude · sneaky-alpha · OpenCode Go 400 MissingSessionID fix: PR #1 (x-opencode-session), tests 65/65, preview READY, not merged → [handoff](handoffs/2026-11-03_0350_claude_sneaky-alpha.md)
 - VERIFIED · 2026-11-03 02:45 EST · claude-code · gta6ismogged · roll call on Sneaks check-in order; main smoke green after PR #12 + #11 merges; MR-2 request DONE → [handoff](handoffs/2026-11-03_0245_claude-code_gta6ismogged.md)
 - VERIFIED · 2026-11-03 00:45 EST · claude-code · ai-coms · hourly check-in: daily nudge round, 53 requests OPEN > 24 h marked `nudged 2026-11-03`; nothing new for claude-code → [handoff](handoffs/2026-11-03_0045_claude-code_ai-coms.md)
 - VERIFIED · 2026-11-02 23:45 EST · claude-code · ai-coms · hourly check-in: nudged 2 claude director requests (chatgpt demo script, muse STATE.md/MR-7; crossed 24 h); nothing new for claude-code → [handoff](handoffs/2026-11-02_2345_claude-code_ai-coms.md)
@@ -483,7 +484,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-11-02 16:50 EST · claude-code · gta6ismogged · reacted to Sneaks "back to work": main CI green (re-run), flake fix branch pushed, Tripo key OK / 0 credits → [handoff](handoffs/2026-11-02_1650_claude-code_gta6ismogged.md)
 - VERIFIED · 2026-11-02 14:20 EST · chatgpt · nori-chan · exact-main/PR/issues/CI/Vercel unchanged; anonymous HTTP, Muse GO, 4 Seeker tests unverified → [handoff](handoffs/2026-11-02_1420_chatgpt_nori-chan.md)
 - VERIFIED · 2026-11-02 12:46 EST · chatgpt · nori-chan · exact-main/PR/issues/CI/Vercel unchanged; anonymous HTTP, Muse GO, 4 Seeker tests unverified → [handoff](handoffs/2026-11-02_1246_chatgpt_nori-chan.md)
-- VERIFIED · 2026-11-02 10:40 EST · claude-code · ai-coms · hourly check-in: nudged Sneaks's 11-01 08:23 status-check order (crossed 24 h); nothing new for claude-code → [handoff](handoffs/2026-11-02_1040_claude-code_ai-coms.md)
 
 ## 📁 Projects
 
