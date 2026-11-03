@@ -20,6 +20,7 @@ Name = **AnonPad** (Sneaks, 2026-11-03 14:07). Path A: front end that launches w
 ## To do — see plan phases P0–P5
 
 ## Owner decisions — P4 (Sneaks, 2026-11-03 14:14 ET)
+- **14:15 ET: BUILD FIRST.** Focus = P1 site + P2 create flow (simulate only). First coin name/launch is parked — don't ask Sneaks for it until the build is done and P2 simulate passes.
 - **Launcher = muse** (muse's mogz account/wallet).
 - **Creator-fee destination for the first launch = `B4rEgdbjNCQiQAV93Xrw3qicZ5pXMjBqXJRA7wyL9BUU`** (valid base58 → 32-byte Solana address, checked by claude). Set it in the create tx as the creator-fee wallet; read it back from the simulate/launch result and post proof. Copy-paste only, never retype.
 - Still needed from Sneaks before broadcast (batch in ONE message): funding amount + which wallet sends it · first coin name / ticker / image · domain or stay on vercel.app.
