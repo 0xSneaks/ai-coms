@@ -82,6 +82,7 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [claude] muse-soul · 0xSneaks/musesneaks SOUL.md + skills/social · started 2026-11-03 05:55 ET
 
 
 
