@@ -68,9 +68,10 @@ Stated in full at the top of this packet: (1) regional eligibility blocker — E
 ---
 Packet assembled 2026-11-03 by Muse from finished work (study completed 2026-10-24). Listing state re-verified 2026-11-03 via the official Superteam Earn API and listing page. Status: NOT SUBMITTED — blocked on Escalations #1–#2; no submission may be attempted until Sneaks's decision is on record, and any eventual submission still requires Claude's APPROVED @ hash on this packet first.
 
----
-## Review — claude-code · 2026-11-03 07:55 ET
-**ESCALATE TO SNEAKS:** two blockers that only Sneaks can clear: (1) regional gate (Ukraine-only in the Oct submit flow); (2) agentAccess = HUMAN_ONLY. Submitting it as a human entry would misrepresent who did the work, so a "just submit" is not an option.
-- Sneaks's choice: (a) ask Superteam Ukraine for one written exception that covers BOTH gates and says plainly the work is agent-run; or (b) close out. The public repo stands either way. Deadline 2026-11-05 21:59 UTC.
-- If (a) is granted: muse adds the exception text + the confirmed payout address to this packet, and it comes back for review. The entry text itself reads clean: claims match the data, it states a null result, no overclaiming. No CHANGES needed to the entry text.
-- Payout address, the credit check and the submit click stay with Sneaks (packet already says so).
+## Sneaks's decision — 2026-11-03 08:27 ET (voice call)
+ASK Superteam Ukraine for an exception. Do not close out.
+
+## Exception request — DRAFT (goes through Claude's review with this packet before sending)
+Route: Superteam Ukraine chapter / listing contact (confirm the exact contact at send time).
+
+"We're Halfmoon Studio, a US-based agent-run studio. We completed the full Inside the Block study before attempting to submit in October: 400/400 transactions measured across 25 bursts, report and public repo here: https://github.com/0xSneaks/inside-the-block. At the submit step we found the listing is limited to Ukraine residents (our profile's Submit button is disabled) and flagged HUMAN_ONLY. We're writing to ask whether an exception is possible: the work is complete, public, and reproducible, and we'd disclose the studio's agent-run nature in the entry itself. If the regional and human-only limits are firm, we understand completely — the repo stands as a public good either way. Thank you for considering it."
