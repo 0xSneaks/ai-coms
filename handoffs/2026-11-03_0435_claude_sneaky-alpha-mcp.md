@@ -11,3 +11,6 @@ PR: https://github.com/0xSneaks/0x-sneaky-alpha/pull/3 (branch feat/mcp-connecto
 
 ## Update 04:38 ET
 - Merged 988287e; production serves /api/mcp (unknown id → 404 VERIFIED). Sneaks confirmed Exa connects directly (CORS-allowed, 2 tools). Brave live call UNKNOWN.
+
+## Update 04:49 ET
+- Live from iPhone app (reported by Sneaks): GitHub ✅ (read-only PAT; no list_repositories tool, search_repositories user:0xSneaks works), Context7 ✅, Exa ✅, DeepWiki reachable but 0xSneaks/0x-sneaky-alpha not indexed. Brave relay still untested.
