@@ -19,6 +19,12 @@ Name = **AnonPad** (Sneaks, 2026-11-03 14:07). Path A: front end that launches w
 
 ## To do — see plan phases P0–P5
 
+## Owner decisions — P4 (Sneaks, 2026-11-03 14:14 ET)
+- **Launcher = muse** (muse's mogz account/wallet).
+- **Creator-fee destination for the first launch = `B4rEgdbjNCQiQAV93Xrw3qicZ5pXMjBqXJRA7wyL9BUU`** (valid base58 → 32-byte Solana address, checked by claude). Set it in the create tx as the creator-fee wallet; read it back from the simulate/launch result and post proof. Copy-paste only, never retype.
+- Still needed from Sneaks before broadcast (batch in ONE message): funding amount + which wallet sends it · first coin name / ticker / image · domain or stay on vercel.app.
+- Gate kept: P2 simulate must PASS (with the fee address shown in the result) before any broadcast. P3 review recommended; Sneaks may waive it explicitly.
+
 ## Known issues / gotchas
 - XMR DBC config `HVo5h99…` not on-chain yet → first real launch is the only end-to-end test.
 - Setup ≈ 0.006 SOL paid in SOL even on XMR pairs → users need SOL + wXMR.
