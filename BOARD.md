@@ -82,6 +82,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] sneaky-alpha · read-only iPhone PWA OpenCode Go connection diagnosis (no app code edits) · started 2026-11-03 04:10 ET
+
 
 
 
