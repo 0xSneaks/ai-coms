@@ -1,11 +1,12 @@
 # AnonPad — XMR launchpad on mogz.fun
 
-**Repo:** 0xSneaks/anonpad (rename of 0xSneaks/stealthpad if Muse already made it) · **Live URL:** none yet · **Last updated:** 2026-11-03 14:15 ET by claude
+**Repo:** 0xSneaks/anonpad · **Live URL:** https://stealthpad-three.vercel.app/ · **Last updated:** 2026-11-03 15:15 ET by muse
 **⚡ Speed order + deadlines:** [handoffs/2026-11-03_1452_claude_anonpad-speed-order.md](../handoffs/2026-11-03_1452_claude_anonpad-speed-order.md) · **DeepSeek brief:** [handoffs/2026-11-03_1450_claude_anonpad-deepseek-brief.md](../handoffs/2026-11-03_1450_claude_anonpad-deepseek-brief.md) · **Full map (follow this):** [handoffs/2026-11-03_1425_claude_anonpad-map.md](../handoffs/2026-11-03_1425_claude_anonpad-map.md) · **Game plan:** [handoffs/2026-11-03_1415_claude_anonpad-plan.md](../handoffs/2026-11-03_1415_claude_anonpad-plan.md)
 **Gate research:** [projects/ombro.md → "mogz gate"](ombro.md) (tech notes only; Ombro name is dead)
 
 ## Now (keep this current)
-Name = **AnonPad** (Sneaks, 2026-11-03 14:07). Path A: front end that launches wXMR-quoted coins through mogz's existing Meteora DBC flow. No custom on-chain program. Scaffold built by muse under the Stealthpad name → rename. Crew while claude is out: **muse** (lead, tx lane) + **deepseek** (UI lane).
+Name = **AnonPad** (Sneaks, 2026-11-03 14:07). Path A: front end that launches wXMR-quoted coins through mogz's existing Meteora DBC flow. No custom on-chain program. Crew: **muse** (lead, tx lane) + **deepseek** (UI lane).
+**⚡ SPEED ORDER state (muse, 2026-11-03 15:15 ET):** site LIVE on production (Next.js, commit 1b9f19e9) — /, /coins, /launch, /how verified 200 with banner + footer; types/data contract + WalletButton shipped; /coins shows the correct live empty state (0 wXMR coins). Vercel framework preset fixed Other → Next.js with Sneaks's approval. Wed: launch sim 12:00, trade sim 16:00, review + batched ask 18:00. Simulate-PASS blockers unchanged: mogz wallet 0 SOL (funding = Sneaks) + XMR DBC config uninitialized (mogz-side). Pump.fun SOL shortcut declined by Sneaks. → [tue sign-off](../handoffs/2026-11-03_1515_muse_anonpad-speed-order-tue.md)
 
 ## Established (decisions — don't re-litigate)
 - Name AnonPad. Not Ombro (rug name), not Stealthpad (existing STEALTH token) — Sneaks, 2026-11-03.
@@ -16,7 +17,7 @@ Name = **AnonPad** (Sneaks, 2026-11-03 14:07). Path A: front end that launches w
 
 ## Built
 - ChatGPT launch-copy lane: three-post X thread + one-line bio drafted (NOT published); risk of single-operator custodial wXMR bridge disclosed. Draft: [2026-11-03_1454_chatgpt_anonpad-launch-copy.md](../handoffs/2026-11-03_1454_chatgpt_anonpad-launch-copy.md). Final copy awaits working launch/trade simulations, independent signing review, verified URL and Sneaks's publication approval — 2026-11-03 14:54 ET.
-- Site scaffold (Launch / Coins / Coin / How it works, wallets, bridge warning) — muse, as "Stealthpad" — UNVERIFIED by claude
+- Next.js app LIVE on production (muse, 2026-11-03): repo 0xSneaks/anonpad @ 1b9f19e9, Vercel preset Next.js, https://stealthpad-three.vercel.app/ — routes /, /coins, /launch, /how + coin/[mint]; src/lib/types.ts + data.ts per the DeepSeek brief; WalletButton live; risk banner + footer on every page. Deployment record + independent curl read-back VERIFIED.
 
 ## To do — see plan phases P0–P5
 
