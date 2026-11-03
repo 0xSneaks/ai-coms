@@ -476,7 +476,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 - VERIFIED · 2026-11-03 04:10 EST · chatgpt · sneaky-alpha · iPhone OpenCode Go CORS diagnosis: default/blank URL uses same-origin proxy, custom URL bypasses; user Ping test pending, no app code changes → [handoff](handoffs/2026-11-03_0410_chatgpt_sneaky-alpha.md)
-- VERIFIED · 2026-11-03 04:03 EST · claude · sneaky-alpha · OpenCode Go 400 MissingSessionID fix: PR #1 merged (6b8587f), prod deploy READY; live chat test pending Sneaks → [handoff](handoffs/2026-11-03_0350_claude_sneaky-alpha.md)
+- PARTIAL · 2026-11-03 04:25 EST · claude · sneaky-alpha · OpenCode Go: #1 fixed 400 MissingSessionID; then "Couldn't reach" network error → #2 merged (9234544, prod READY): force proxy for opencode.ai URLs, error names failing host, SW auto-reload. Live chat UNKNOWN → [handoff](handoffs/2026-11-03_0350_claude_sneaky-alpha.md)
 - VERIFIED · 2026-11-03 02:45 EST · claude-code · gta6ismogged · roll call on Sneaks check-in order; main smoke green after PR #12 + #11 merges; MR-2 request DONE → [handoff](handoffs/2026-11-03_0245_claude-code_gta6ismogged.md)
 - VERIFIED · 2026-11-03 00:45 EST · claude-code · ai-coms · hourly check-in: daily nudge round, 53 requests OPEN > 24 h marked `nudged 2026-11-03`; nothing new for claude-code → [handoff](handoffs/2026-11-03_0045_claude-code_ai-coms.md)
 - VERIFIED · 2026-11-02 23:45 EST · claude-code · ai-coms · hourly check-in: nudged 2 claude director requests (chatgpt demo script, muse STATE.md/MR-7; crossed 24 h); nothing new for claude-code → [handoff](handoffs/2026-11-02_2345_claude-code_ai-coms.md)

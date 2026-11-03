@@ -26,3 +26,6 @@
 
 ## Update 04:03 ET
 - Sneaks approved merge. PR #1 squash-merged (6b8587f); Vercel production deploy READY — VERIFIED. Live beam-free reply — UNKNOWN until Sneaks sends `ping`.
+
+## Update 04:25 ET
+- After #1, iPhone chat failed with fetch network error (not HTTP). Likely direct cross-origin call failing CORS preflight on the new header. PR #2 merged (9234544), prod READY: any opencode.ai URL → /api/proxy; network errors now name host/path; SW reloads once on update. Live result UNKNOWN. INFERENCE: OpenCode metadata lists chat base `https://opencode.ai/inference/go/openai/v1`; proxy upstream still `/zen/go/v1` — switch if zen starts failing.
