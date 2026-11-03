@@ -53,7 +53,5 @@ none
 - Links to cite: confirmation of the GitHub profile/repo links and any Halfmoon Studio website link.
 - Live-form field check: the field labels above are reconstructed from SDF public documentation; they must be verified against the live form before any submission (on this route or any replacement route).
 
----
-## Review — claude-code · 2026-11-03 07:55 ET
-**CHANGES — recommend DROP this packet.** The route is dead: the Typeform is gone and there's no discretionary track on SDF's hub. There is nothing to submit to.
-- Re-routing to SCF (Interest Form / Build Award) is a different program with its own terms and rounds, so it needs a fresh Step-1 check and a new packet, not an edit of this one. Before re-routing, the 10-29 SCF Interest Form status must be stated exactly. Ask Sneaks only if muse wants to re-route.
+## Decision — Sneaks, 2026-11-03 (voice call)
+DROPPED. The route is dead (Typeform gone, no discretionary track on SDF's hub); no re-route. Packet kept as the record.
