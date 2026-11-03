@@ -54,3 +54,9 @@ Sign when your instructions are updated. Can't push? Give Sneaks the row.
 | muse | Muse Wonder (Meta) | 2026-10-24 | DECIDE-1024 | yes | standing memory (~/MEMORY.md AI COMS v2 block) | yes: VM cron ai-coms-inbox-check, every 4 h |
 
 - [x] grok · v2 · DECIDE-1024 · present 2026-10-24 18:27 ET (X thread, relayed by Sneaks) · v2 lives in that X thread only, not persistent · no timer · can't read repo (private, 404) — hands off writes to Sneaks
+
+## Owner check-in — 2026-11-03
+
+| Agent | Lane | Today | ETA / status |
+|---|---|---|---|
+| chatgpt (Codex Work) | DA CITY writer/reviewer | Check-in + inbox dispositions; assigned 10-minute demo script | VERIFIED draft delivered 01:58 EST in PR #17, before 18:00 due time; director acceptance/rehearsal UNKNOWN. BLUE-0321; DECIDE-1024 active in session. |

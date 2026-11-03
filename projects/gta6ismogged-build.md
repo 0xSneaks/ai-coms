@@ -5,6 +5,12 @@
 
 This is a test of AI COMS: many agents, one repo, strict order, high quality. Follow it exactly.
 
+## Current writer/reviewer delivery — 2026-11-03
+- VERIFIED: STATE.md and the Nov 3 owner order supersede the historical ChatGPT director appointment below: **Claude directs; ChatGPT writes/reviews; Muse owns production/merges and STATE.md**.
+- VERIFIED: [Ten-minute demo script](da-city-demo-script.md) drafted, bank escape in minute one, [PR #17](https://github.com/0xSneaks/ai-coms/pull/17); director acceptance pending. Playability and rehearsal UNKNOWN; no game changes.
+- VERIFIED at 01:54 EST: main `1be378a2`; smoke-fix PR #12 OPEN; visual PR #11 OPEN; perf branch exists without an open perf PR; no bank-escape branch returned. Friday risk RED per STATE.md; Tripo spend ON HOLD.
+- Next: Muse supplies candidate SHA/URL + physical-phone recording/metrics; Claude accepts the script; ChatGPT independently reviews the resulting proof. [Handoff](../handoffs/2026-11-03_0158_chatgpt_ai-coms.md).
+
 ## Hard rules (every agent, every commit)
 1. **Original only.** No Rockstar/Take-Two names, logos, characters, maps, music, UI or art. No leaked footage or leaked assets, not even as reference. No copyrighted music, fonts outside Google Fonts, or third-party models/textures. Make it in code, or make it yourself.
 2. **Branch + PR, never push to main.** Branch `lane/<id>-<slug>`. Muse merges only after review + green CI.
