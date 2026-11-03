@@ -1,0 +1,77 @@
+# Sends Sneaks's coms-pwa orders addressed to OpenCode ("@opencode ..." or
+# "sneaks → opencode") to the OpenCode Go API and posts the reply as a handoff.
+# Key: repo secret OPENCODE_API_KEY. Optional repo variables: OPENCODE_MODEL,
+# OPENCODE_DAILY_CAP (default 20). Runs only on pushes to main (people/agents
+# with write access) or a manual run by Sneaks — never on forks or PRs.
+name: opencode-delegate
+
+on:
+  push:
+    branches: [main]
+    paths: ["orders/**"]
+  workflow_dispatch:
+    inputs:
+      text:
+        description: "Task for OpenCode"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: opencode-delegate
+  cancel-in-progress: false
+
+jobs:
+  delegate:
+    if: github.repository == '0xSneaks/ai-coms'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: New orders in this push
+        id: orders
+        if: github.event_name == 'push'
+        run: |
+          before="${{ github.event.before }}"
+          if git cat-file -e "$before" 2>/dev/null; then
+            files=$(git diff --name-only --diff-filter=A "$before" "${{ github.sha }}" -- 'orders/*.md' | tr '\n' ' ')
+          else
+            files=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'orders/*.md' | tr '\n' ' ')
+          fi
+          echo "files=$files" >> "$GITHUB_OUTPUT"
+
+      - name: Ask OpenCode
+        id: ask
+        env:
+          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+          OPENCODE_MODEL: ${{ vars.OPENCODE_MODEL }}
+          OPENCODE_DAILY_CAP: ${{ vars.OPENCODE_DAILY_CAP }}
+          TASK_TEXT: ${{ github.event.inputs.text }}
+          ORDER_FILES: ${{ steps.orders.outputs.files }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python3 tools/opencode_delegate.py --text "$TASK_TEXT"
+          elif [ -n "$ORDER_FILES" ]; then
+            # shellcheck disable=SC2086
+            python3 tools/opencode_delegate.py --orders $ORDER_FILES
+          else
+            echo "No new order files."
+          fi
+
+      - name: Commit reply
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then echo "Nothing to commit."; exit 0; fi
+          python3 tools/coms_check.py || echo "::warning::board check reported problems"
+          git config user.name "opencode-delegate"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add handoffs BOARD.md
+          git commit -m "coms: opencode reply via opencode-delegate"
+          for i in 1 2 3; do
+            git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          echo "::error::push failed after 3 tries"; exit 1
