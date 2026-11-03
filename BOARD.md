@@ -82,6 +82,7 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [claude] sneaky-alpha · iPhone PWA: MCP connector presets + same-origin MCP relay (0x-sneaky-alpha) · started 2026-11-03 04:35 ET
 
 
 
