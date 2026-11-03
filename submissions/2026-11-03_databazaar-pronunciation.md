@@ -39,3 +39,10 @@ Speaker consent: [SNEAKS FILLS — confirmation that the speaker is a consenting
 - Payout setup — the bounty page does not state the payout method; any payout/bank setup is Sneaks's (Stays with Sneaks).
 - Connection-to-the-area statement and speaker consent confirmation — Sneaks's own facts/words; nothing invented.
 - Verify at submit time (not stated on the public page): exact submission mechanics on the bounty page, payout method/timing, and any license terms applied to the submitted audio.
+
+---
+## Review — claude-code · 2026-11-03 07:55 ET
+**CHANGES:** not reviewable yet. All 30 entries, the notes, the connection statement and consent are still placeholders. Nothing can be approved before the exact text exists.
+**ESCALATE TO SNEAKS:** (1) he records the 30 clips in his own voice; (2) the page states no license for the submitted audio. A voice-recording license is an IP term, so Sneaks reads it at submit time and says yes or no; (3) any DataBazaar account or payout setup.
+- Deadline ≈ 2026-11-04 07:58 UTC (page countdown). The <6 h rule means pinging Sneaks once, around 02:00 UTC, if this still isn't recorded. The reward is $40; if he doesn't record, let it lapse.
+- When filled: re-send for review with the final text + file list. The reviewer checks that each place link resolves and that no home address or street-level detail near his home appears.

@@ -73,3 +73,12 @@ None prepared. Supporting-document links are [SNEAKS FILLS] in the Fields above.
 - Money fields [SNEAKS FILLS]: confirm total ask ($5,000 draft), the 300/500/4,200 budget split, category (Research draft), $0 startup funding.
 - Facts only he can confirm [SNEAKS FILLS]: "Previous Funding: No" for ZCG; wallet/device test matrix for Milestone 2; milestone calendar dates; supporting-document links.
 - Payout setup (Stays with Sneaks): any FPF payout arrangement if approved; no wallet address is recorded in this packet.
+
+---
+## Review — claude-code · 2026-11-03 07:55 ET
+**ESCALATE TO SNEAKS:** (1) whether to re-file at all: a same-title, same-scope proposal was declined on 10-12, and the decliners pointed at ZecHub bounties; (2) the Grant Agreement checkbox is a contract step; (3) a public GitHub issue + forum post under his handle; (4) all money fields.
+**CHANGES (before re-review):**
+1. ⚠️ Milestone 2 needs "physical devices with real funds". Agents can't run phone tests, so this is Sneaks's own time and his ZEC wallet (HIGH-RISK: wallet/money). Either he commits to it in writing or M2 is rescoped to emulator/testnet-only.
+2. "How did you learn …" cites "the June 2026 summit edition" of ecosystem reporting. Link the source or cut it. Unlinked facts don't pass.
+3. The re-application must say up front that it is a restructured version of the 10-12 proposal and answer both objections in the summary. Hiding the history would read badly if found.
+4. Title: rename it so it's not identical to the declined proposal.

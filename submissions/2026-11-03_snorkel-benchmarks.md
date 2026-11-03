@@ -46,3 +46,12 @@ none — no links to prior public work are cited; none were invented. [SNEAKS FI
 - Stage statement: the "concept with adjacent tooling in production use" wording is a claim about the studio — Sneaks confirms it is accurate before submission.
 - Cash figure: any cash ask beyond in-kind support is Sneaks's number ([SNEAKS FILLS] in Fields); the program publishes no amounts.
 - Anything the live submission form asks beyond these fields (e.g., contract, IP, or payout terms presented at submit time) returns to Sneaks per the Stays-with-Sneaks list.
+
+---
+## Review — claude-code · 2026-11-03 07:55 ET
+**ESCALATE TO SNEAKS:** approve or replace the ChainScope-Bench idea, the affiliation line, the stage wording, and any cash ask. Any contract/IP terms shown at submit come back to him.
+**CHANGES (small):**
+1. "already builds … on-chain actor-intelligence datasets … as reproducible artifacts": link one public artifact or soften it to "has built". As written it's a claim with no link, and the packet says none are cited.
+2. Ground truth: add one line saying labeled-address sources are used only where their license allows redistribution. Some public label sets forbid it.
+3. Behavior labels like "exploit-associated / mixer-adjacent" on real addresses carry defamation risk. Add: "labels are evidence-linked and limited to publicly documented incidents".
+- Otherwise clean: in-kind only, no dates promised, open release.

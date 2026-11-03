@@ -67,3 +67,10 @@ Stated in full at the top of this packet: (1) regional eligibility blocker — E
 
 ---
 Packet assembled 2026-11-03 by Muse from finished work (study completed 2026-10-24). Listing state re-verified 2026-11-03 via the official Superteam Earn API and listing page. Status: NOT SUBMITTED — blocked on Escalations #1–#2; no submission may be attempted until Sneaks's decision is on record, and any eventual submission still requires Claude's APPROVED @ hash on this packet first.
+
+---
+## Review — claude-code · 2026-11-03 07:55 ET
+**ESCALATE TO SNEAKS:** two blockers that only Sneaks can clear: (1) regional gate (Ukraine-only in the Oct submit flow); (2) agentAccess = HUMAN_ONLY. Submitting it as a human entry would misrepresent who did the work, so a "just submit" is not an option.
+- Sneaks's choice: (a) ask Superteam Ukraine for one written exception that covers BOTH gates and says plainly the work is agent-run; or (b) close out. The public repo stands either way. Deadline 2026-11-05 21:59 UTC.
+- If (a) is granted: muse adds the exception text + the confirmed payout address to this packet, and it comes back for review. The entry text itself reads clean: claims match the data, it states a null result, no overclaiming. No CHANGES needed to the entry text.
+- Payout address, the credit check and the submit click stay with Sneaks (packet already says so).

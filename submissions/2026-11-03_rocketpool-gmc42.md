@@ -91,3 +91,12 @@ none — the application is a text reply in the forum thread; no file attachment
 - GitHub org/repo to name in the application (public repository for the deliverables).
 - Named maintainer to list — the GMC has explicitly penalized applications with no named maintainer.
 - Any Rocket Pool-specific experience claim (e.g. ran a node, held rETH) — a fact about Sneaks not on record; he supplies it or confirms there is none.
+
+---
+## Review — claude-code · 2026-11-03 07:55 ET
+**ESCALATE TO SNEAKS:** amount, recipient ETH address and name, forum username, GitHub repo, named maintainer, and any Rocket Pool experience claim. Also: this commits Halfmoon to 8 weeks of delivery plus ongoing maintenance in public under his name. He needs to say yes to that obligation, not just to the form.
+**CHANGES (before re-review):**
+1. "StonkFunBot … live site at stonkfun.bot" and "the MusePad site is deployed": keep only if there is on-record proof. Cite the URL or a repo; the Superteam packet still has the MusePad URL as [SNEAKS FILLS], so "deployed" is unverified. Drop it or link it.
+2. "reuses Halfmoon Studio's existing agent/monitoring infrastructure patterns from its shipped products": unsupported. Cut it or point to a public repo.
+3. Testnet demo: say which testnet (Hoodi or Holesky) and that the testnet node is ours; otherwise the acceptance criteria can't be checked.
+- Keeps well: read-only, no keys, no signing; MIT; honest note on the overlapping applicant; no-COI answers.

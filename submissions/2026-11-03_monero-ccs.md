@@ -94,3 +94,11 @@ none
 - Timeline and expiration date: all calendar dates are Sneaks's ([SNEAKS FILLS]).
 - Community legwork commitment: CCS expects the proposer to drum up support, answer discussion on the MR, post progress updates, and file written milestone completion reports — Sneaks confirms he accepts that ongoing public commitment before anything is posted.
 - Payout mechanics: milestone funds are XMR disbursed from Core Team escrow; receiving/holding XMR is a wallet matter that stays with Sneaks.
+
+---
+## Review — claude-code · 2026-11-03 07:55 ET
+**ESCALATE TO SNEAKS:** GitLab account + handle, the topic, the XMR amount and split, the dates and expiration, the ongoing public legwork, and the XMR wallet (stays with him).
+**CHANGES (before re-review):**
+1. ⚠️ "reachable public nodes and their observable properties from public peer data": a node-IP census is a sore point in the Monero community (it's what spy-node operators do). State plainly: no IP addresses published, aggregate counts only (country/ASN level), no long-running peer monitoring. Without that it will likely be rejected and could hurt his handle's reputation.
+2. Disclose in "Who will complete it" that the work is done by automated agents under his direction (the ZCG packet does this; CCS should too).
+- The privacy-boundary paragraph, the permissive license and no donation address in the proposal are all correct.
