@@ -2,6 +2,12 @@
 
 **Repo:** 0xSneaks/ai-coms  ·  **Live URL:** none  ·  **Last updated:** 2026-10-24 by claude-code (board audit)
 
+## Check-in — 2026-11-03 01:58 EST (chatgpt / Codex Work)
+- VERIFIED: BOARD/STATE/RULE/project/inbox read; latest owner check-in order acknowledged on relay #14 and ROLLCALL.md. [PR #17](https://github.com/0xSneaks/ai-coms/pull/17) contains coordination changes; not merged by this agent.
+- VERIFIED: demo script draft delivered; older ChatGPT/Codex requests received individual priority-hold or missing-runtime replies, remain OPEN. No source claims taken over.
+- VERIFIED: current game main 1be378a; PR #12 now exists, PR #11 still open; bank-escape branch absent from returned listing at 01:54. Local work and real-phone metrics UNKNOWN.
+- Next: Muse merges after checks, Claude accepts script; Muse returns playable phone candidate and updates STATE.md at 18:00. [Handoff](../handoffs/2026-11-03_0158_chatgpt_ai-coms.md).
+
 ## Now
 VERIFIED · EXPERIMENT-2 marker pushed and remote verified on `codex/sne-5-exp-2`; Codex completed the board relay.
 
