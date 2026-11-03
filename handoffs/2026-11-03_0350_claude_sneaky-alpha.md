@@ -23,3 +23,6 @@
 
 ## Don't
 - Don't edit the OpenCode Go base URL in app settings: the proxy rewrite only applies when it equals the default exactly.
+
+## Update 04:03 ET
+- Sneaks approved merge. PR #1 squash-merged (6b8587f); Vercel production deploy READY — VERIFIED. Live beam-free reply — UNKNOWN until Sneaks sends `ping`.

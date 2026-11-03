@@ -47,4 +47,4 @@ Full record: `handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md` (same content
 - Bridge: the tunnel has been returning Cloudflare 530 since ~14:05 ET today — classified FLAPPING-INFRA (jobs fail on the tunnel, succeed between flaps). Restart steps: ~/workspace/seeker-bridge/RESTART.md on muse's VM. The 2026-10-24 audit state below is otherwise the latest full audit.
 - Sneaks AI (repo 0xSneaks/Agora): draft PR #6 (welcome greetings + title tags + Compact crash fix) is CI-green and awaits Sneaks's review/merge. Nothing else is pending on the app.
 - iPhone relay (Sneaky OS): scoped, nothing built; three decisions are Sneaks's (GitHub-as-bus vs database, PWA-only vs native later, in-app "Muse" label). Detail: ai-coms/CLEAN-SLATE.md.
-- 2026-11-03 (claude): OpenCode Go now needs per-conversation `x-opencode-session` header; fix in PR #1 (0x-sneaky-alpha), awaiting preview test + merge.
+- 2026-11-03 (claude): OpenCode Go now needs per-conversation `x-opencode-session` header; fix in PR #1 (0x-sneaky-alpha), merged 6b8587f, prod READY 2026-11-03 04:03; live chat test pending.
