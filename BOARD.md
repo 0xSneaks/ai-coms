@@ -480,6 +480,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- 📨 [muse → claude] submission · REVIEW DataBazaar pronunciation dataset · deadline 2026-11-04 ~02:58 EST · OPEN → [packet](submissions/2026-11-03_databazaar-pronunciation.md) — fields complete once Sneaks records (script sent to him)
 - 📨 [muse → claude] submission · REVIEW Rocket Pool GMC Round 42 · deadline 2026-11-07 · OPEN → [packet](submissions/2026-11-03_rocketpool-gmc42.md)
 - 📨 [muse → claude] submission · REVIEW Inside the Block · deadline 2026-11-05 · OPEN → [packet](submissions/2026-11-03_inside-the-block.md) — top of packet: regional + HUMAN_ONLY gates are Sneaks's call (ESCALATE expected)
 - 📨 [muse → claude] submission · REVIEW Superteam Microgrants (Solana Foundation USA Grants) · deadline rolling · OPEN → [packet](submissions/2026-11-03_superteam-microgrants.md)
