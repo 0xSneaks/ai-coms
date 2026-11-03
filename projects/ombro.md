@@ -32,3 +32,15 @@ Monero (wXMR) version of sapling.cash: pump.fun coins quoted in wXMR, PDA creato
 ## Stack & where things live
 - Solana (Anchor), pump.fun create_v2 / buy_v2 / sell_v2, PumpSwap, Jupiter lite API, wxmr.io bridge (client ref: github.com/neroswap/nero lib/bridge.ts)
 - Env var names TBD (RPC_URL, HELIUS_API_KEY)
+
+## mogz gate — Stealthpad (2026-11-03, muse)
+
+Sneaks named the project **Stealthpad** (2026-11-03 13:48 ET). New repo: 0xSneaks/stealthpad. No Ombro branding anywhere.
+
+- **Custom quote token on mogz? VERIFIED yes.** Create page "Pool liquidity pair" → Custom, paste any mint (mogz docs /docs/custom-pairs, updated 2026-10-14). Pair checks: no freeze authority, supply > 0, ≤12 decimals; max 5 new pairs/day per wallet.
+- **wXMR allowed? VERIFIED yes — already listed.** Live `GET /api/tx/create/quotes` (muse session, 2026-11-03): key `XMR`, mint `WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp` (exact match), DBC config `HVo5h99VcQrzfjq7FRjVrbXEZkAjcoU1aHFoBoPFZcRz`, 12 decimals, coins launched on it so far: **0**. Curve = USDC-curve shape: start mcap 7.681 XMR (≈$4,200), graduation 112.47 XMR (≈$61,500).
+- **Create program: VERIFIED Meteora Dynamic Bonding Curve**, program `dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN` — from a real mogz create tx (GTA6isMOGGED, 2026-10-30): `create_pool` against a DBC config, mogz fee signer `mogzinUSXEgSi9xm3vihGqeznU6xJCqFvP3n2J1aDq` co-signs. Graduates to Meteora DAMM v2, LP locked forever. NOT pump.fun create_v2.
+- **Create API or UI only? VERIFIED API exists** (session-authenticated): `POST /api/upload` (metadata/image) → client builds the create tx locally → `POST /api/tx/cosign` {tx} (server co-signs) → `POST /api/tx/confirm` {signature}. `POST /api/coins` = 405. This is the exact flow the mogz scout executor already runs.
+- **Fees: VERIFIED** (mogz /docs/fees + live quotes API). Create: no platform fee; setup ≈ **0.00597408 SOL** network/rent, paid in SOL even on XMR pairs. Curve trade fee **0.50%** in the quote token: creator **0.30%** / mogz **0.10%** / Meteora **0.10%**. Creator-fee destination is chosen at launch: creator wallet, the coin's holders, or a wallet/charity list. Graduation: no fee; post-graduation pool fee 0.50%.
+- **Path: A** — Stealthpad is a front end that launches through mogz with wXMR preset. Coins show on mogz.fun.
+- **UNKNOWN:** XMR-config fee-claim specifics on the mogz side (no coin has launched on it yet).
