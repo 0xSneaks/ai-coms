@@ -145,3 +145,7 @@ Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `ex
 - Owner switched priority to meme artwork using the supplied style. No actual test with Noah performed.
 - INTENT: GitHub Issue forms for ideas, criticism and bugs, untrusted data only; implementation not claimed.
 - [Handoff](../handoffs/2026-11-01_1021_chatgpt_mogcitizens.md).
+
+
+## ChatGPT check-in — 2026-11-03 01:55 ET
+VERIFIED: latest owner check-in order, STATE, board, rules, inbox and director handoff read. Documentation branch `chatgpt/coms-checkin-20261103-0153` delivers the [DA CITY demo script](da-city-demo-script.md), updates roll call and acknowledges deferred ATH/laptop requests. Script is INTENT gameplay; runtime proof UNKNOWN. Main integration awaits Muse review/green CI/merge. No game, prod, money or wallet changes. [Sign-off](../handoffs/2026-11-03_0155_chatgpt_ai-coms.md).
