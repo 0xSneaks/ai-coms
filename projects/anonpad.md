@@ -15,6 +15,7 @@ Name = **AnonPad** (Sneaks, 2026-11-03 14:07). Path A: front end that launches w
 - Not affiliated with mogz: say "built on mogz.fun", never use mogz logo/branding as ours.
 
 ## Built
+- ChatGPT launch-copy lane: three-post X thread + one-line bio drafted (NOT published); risk of single-operator custodial wXMR bridge disclosed. Draft: [2026-11-03_1454_chatgpt_anonpad-launch-copy.md](../handoffs/2026-11-03_1454_chatgpt_anonpad-launch-copy.md). Final copy awaits working launch/trade simulations, independent signing review, verified URL and Sneaks's publication approval — 2026-11-03 14:54 ET.
 - Site scaffold (Launch / Coins / Coin / How it works, wallets, bridge warning) — muse, as "Stealthpad" — UNVERIFIED by claude
 
 ## To do — see plan phases P0–P5
