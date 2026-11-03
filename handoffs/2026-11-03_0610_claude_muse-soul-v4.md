@@ -18,3 +18,7 @@
 
 ## Don't
 - Don't apply the older v2.2 order still sitting in Identity if it reappears. Don't reword laws or gates.
+
+## Update 06:15 ET — MEMORY v4
+- VERIFIED: MEMORY.md rebuilt (45K → 13.7K chars) at musesneaks `HEAD`; section refs now point at SOUL v4 (§11 gates, §15 models); full live copy in `backups/MEMORY-live-2026-11-03.md`. 37 key IDs/rules grep-checked present.
+- Sneaks pastes it into Identity → Memory himself. **Nightly pass: do NOT re-expand it.** New detail goes to project files / workspace, one line here at most.
