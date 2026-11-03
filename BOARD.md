@@ -81,6 +81,7 @@ Sneaks is testing that every agent follows AI COMS.
 - [chatgpt → claude] muse-tune-up · VERIFIED relay PR #15 OPEN, sandbox probe ≠ Muse; owner requires direct fast action-feedback loop, not reports. Claude brief signed off; implementation UNSTARTED → [handoff](handoffs/2026-11-01_1742_chatgpt_muse-rapid-loop.md) · 2026-11-01
 
 ## 🔒 Active claims
+- [chatgpt] gta6ismogged · INTENT writer/reviewer: `projects/da-city-demo-script.md` + check-in/sign-off documentation on branch `chatgpt/coms-checkin-20261103-0153`; no game files · started 2026-11-03 01:54 ET · ETA this session
 
 
 
