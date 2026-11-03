@@ -25,3 +25,5 @@ _Status values: Active · Paused · Shipped · Dead. UNKNOWN rows were added by 
 - [ombro](ombro.md) — Monero (wXMR) launchpad, Sapling-style (Phase 0 cleared)
 - [kalshi-brain](kalshi-brain/README.md) — HL×Kalshi brain: fair-value model (claude-code); mapper/paper/ledger on Muse's side
 - [narrative-ops](narrative-ops.md) — pulse-driven launch desk (dry run done; awaiting budget + go)
+
+- [anonpad](anonpad.md) — XMR launchpad on mogz.fun (AnonPad)
