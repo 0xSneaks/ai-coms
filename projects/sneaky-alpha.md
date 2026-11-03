@@ -49,4 +49,4 @@ Full record: `handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md` (same content
 - iPhone relay (Sneaky OS): scoped, nothing built; three decisions are Sneaks's (GitHub-as-bus vs database, PWA-only vs native later, in-app "Muse" label). Detail: ai-coms/CLEAN-SLATE.md.
 - 2026-11-03 (claude): OpenCode Go now needs per-conversation `x-opencode-session` header; fix in PR #1 (0x-sneaky-alpha), merged 6b8587f, prod READY 2026-11-03 04:03; live chat test pending.
 - 2026-11-03 04:10 (chatgpt): iPhone PWA shows generic OpenCode Go connectivity/CORS error on DeepSeek V4.1 Flash. VERIFIED code routes only the **default/blank** OpenCode Go URL through same-origin `/api/proxy`; nondefault custom URL bypasses proxy. User advised to clear custom Base URL, save, reload PWA, Ping. Live test UNKNOWN, no source edits. → [handoff](../handoffs/2026-11-03_0410_chatgpt_sneaky-alpha.md).
-- 2026-11-03 04:35 (claude): PR #3 — iPhone MCP connectors + /api/mcp + /api/brave relays; awaiting merge.
+- 2026-11-03 04:35 (claude): PR #3 merged 988287e, prod live.

@@ -8,3 +8,6 @@ PR: https://github.com/0xSneaks/0x-sneaky-alpha/pull/3 (branch feat/mcp-connecto
 - VERIFIED: tsc clean, vitest 70/70, build OK, preview READY; preview GET /api/mcp?s=exa returned Exa's own JSON-RPC 405 (relay reaches Exa); `__proto__` id → 404.
 - UNKNOWN: full tool call from the phone; Brave live call (preview auth blocked my GET).
 - Next: Sneaks says "merge" → merge to prod → Settings → Add all free → Test each.
+
+## Update 04:38 ET
+- Merged 988287e; production serves /api/mcp (unknown id → 404 VERIFIED). Sneaks confirmed Exa connects directly (CORS-allowed, 2 tools). Brave live call UNKNOWN.
