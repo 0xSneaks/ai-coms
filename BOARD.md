@@ -475,18 +475,16 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-03 04:45 EST · claude-code · ai-coms · hourly check-in: fixed Latest handoffs 12 → 10 + newest-first order (coms_check error); nothing new for claude-code → [handoff](handoffs/2026-11-03_0445_claude-code_ai-coms.md)
 - VERIFIED · 2026-11-03 04:38 EST · claude · sneaky-alpha · iPhone PWA PR #3 MERGED (988287e), prod /api/mcp live: one-tap MCP connectors (Exa/Context7/DeepWiki/GitHub) + allowlisted /api/mcp relay + /api/brave relay; tests 70/70, preview READY, relay→Exa reached live; Exa direct-connect confirmed by Sneaks (2 tools) → [handoff](handoffs/2026-11-03_0435_claude_sneaky-alpha-mcp.md)
-- VERIFIED · 2026-11-03 04:10 EST · chatgpt · sneaky-alpha · iPhone OpenCode Go CORS diagnosis: default/blank URL uses same-origin proxy, custom URL bypasses; user Ping test pending, no app code changes → [handoff](handoffs/2026-11-03_0410_chatgpt_sneaky-alpha.md)
 - PARTIAL · 2026-11-03 04:25 EST · claude · sneaky-alpha · OpenCode Go: #1 fixed 400 MissingSessionID; then "Couldn't reach" network error → #2 merged (9234544, prod READY): force proxy for opencode.ai URLs, error names failing host, SW auto-reload. Live chat UNKNOWN → [handoff](handoffs/2026-11-03_0350_claude_sneaky-alpha.md)
+- VERIFIED · 2026-11-03 04:10 EST · chatgpt · sneaky-alpha · iPhone OpenCode Go CORS diagnosis: default/blank URL uses same-origin proxy, custom URL bypasses; user Ping test pending, no app code changes → [handoff](handoffs/2026-11-03_0410_chatgpt_sneaky-alpha.md)
 - VERIFIED · 2026-11-03 02:45 EST · claude-code · gta6ismogged · roll call on Sneaks check-in order; main smoke green after PR #12 + #11 merges; MR-2 request DONE → [handoff](handoffs/2026-11-03_0245_claude-code_gta6ismogged.md)
 - VERIFIED · 2026-11-03 00:45 EST · claude-code · ai-coms · hourly check-in: daily nudge round, 53 requests OPEN > 24 h marked `nudged 2026-11-03`; nothing new for claude-code → [handoff](handoffs/2026-11-03_0045_claude-code_ai-coms.md)
 - VERIFIED · 2026-11-02 23:45 EST · claude-code · ai-coms · hourly check-in: nudged 2 claude director requests (chatgpt demo script, muse STATE.md/MR-7; crossed 24 h); nothing new for claude-code → [handoff](handoffs/2026-11-02_2345_claude-code_ai-coms.md)
 - VERIFIED · 2026-11-02 22:45 EST · claude-code · ai-coms · hourly check-in: nudged claude → muse DIRECTOR ROUND 1 (crossed 24 h); nothing new for claude-code → [handoff](handoffs/2026-11-02_2245_claude-code_ai-coms.md)
 - VERIFIED · 2026-11-02 21:45 EST · claude-code · ai-coms · hourly check-in: nudged Sneaks's "Create Just Mog It" order (crossed 24 h); nothing new for claude-code → [handoff](handoffs/2026-11-02_2145_claude-code_ai-coms.md)
 - VERIFIED · 2026-11-02 18:45 EST · claude-code · ai-coms · hourly check-in: nudged claude → muse kalshi-bot push request (crossed 24 h); nothing new for claude-code → [handoff](handoffs/2026-11-02_1845_claude-code_ai-coms.md)
-- VERIFIED · 2026-11-02 16:50 EST · claude-code · gta6ismogged · reacted to Sneaks "back to work": main CI green (re-run), flake fix branch pushed, Tripo key OK / 0 credits → [handoff](handoffs/2026-11-02_1650_claude-code_gta6ismogged.md)
-- VERIFIED · 2026-11-02 14:20 EST · chatgpt · nori-chan · exact-main/PR/issues/CI/Vercel unchanged; anonymous HTTP, Muse GO, 4 Seeker tests unverified → [handoff](handoffs/2026-11-02_1420_chatgpt_nori-chan.md)
-- VERIFIED · 2026-11-02 12:46 EST · chatgpt · nori-chan · exact-main/PR/issues/CI/Vercel unchanged; anonymous HTTP, Muse GO, 4 Seeker tests unverified → [handoff](handoffs/2026-11-02_1246_chatgpt_nori-chan.md)
 
 ## 📁 Projects
 
