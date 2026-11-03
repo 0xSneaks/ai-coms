@@ -82,7 +82,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] sneaky-alpha · read-only iPhone PWA OpenCode Go connection diagnosis (no app code edits) · started 2026-11-03 04:10 ET
 
 
 
@@ -476,6 +475,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-03 04:10 EST · chatgpt · sneaky-alpha · iPhone OpenCode Go CORS diagnosis: default/blank URL uses same-origin proxy, custom URL bypasses; user Ping test pending, no app code changes → [handoff](handoffs/2026-11-03_0410_chatgpt_sneaky-alpha.md)
 - VERIFIED · 2026-11-03 04:03 EST · claude · sneaky-alpha · OpenCode Go 400 MissingSessionID fix: PR #1 merged (6b8587f), prod deploy READY; live chat test pending Sneaks → [handoff](handoffs/2026-11-03_0350_claude_sneaky-alpha.md)
 - VERIFIED · 2026-11-03 02:45 EST · claude-code · gta6ismogged · roll call on Sneaks check-in order; main smoke green after PR #12 + #11 merges; MR-2 request DONE → [handoff](handoffs/2026-11-03_0245_claude-code_gta6ismogged.md)
 - VERIFIED · 2026-11-03 00:45 EST · claude-code · ai-coms · hourly check-in: daily nudge round, 53 requests OPEN > 24 h marked `nudged 2026-11-03`; nothing new for claude-code → [handoff](handoffs/2026-11-03_0045_claude-code_ai-coms.md)
