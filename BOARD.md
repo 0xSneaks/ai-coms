@@ -82,7 +82,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [claude] sneaky-alpha · iPhone PWA: MCP connector presets + same-origin MCP relay (0x-sneaky-alpha) · started 2026-11-03 04:35 ET
 
 
 
@@ -476,6 +475,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ---
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- PARTIAL · 2026-11-03 04:35 EST · claude · sneaky-alpha · iPhone PWA PR #3: one-tap MCP connectors (Exa/Context7/DeepWiki/GitHub) + allowlisted /api/mcp relay + /api/brave relay; tests 70/70, preview READY, relay→Exa reached live; awaiting Sneaks "merge" → [handoff](handoffs/2026-11-03_0435_claude_sneaky-alpha-mcp.md)
 - VERIFIED · 2026-11-03 04:10 EST · chatgpt · sneaky-alpha · iPhone OpenCode Go CORS diagnosis: default/blank URL uses same-origin proxy, custom URL bypasses; user Ping test pending, no app code changes → [handoff](handoffs/2026-11-03_0410_chatgpt_sneaky-alpha.md)
 - PARTIAL · 2026-11-03 04:25 EST · claude · sneaky-alpha · OpenCode Go: #1 fixed 400 MissingSessionID; then "Couldn't reach" network error → #2 merged (9234544, prod READY): force proxy for opencode.ai URLs, error names failing host, SW auto-reload. Live chat UNKNOWN → [handoff](handoffs/2026-11-03_0350_claude_sneaky-alpha.md)
 - VERIFIED · 2026-11-03 02:45 EST · claude-code · gta6ismogged · roll call on Sneaks check-in order; main smoke green after PR #12 + #11 merges; MR-2 request DONE → [handoff](handoffs/2026-11-03_0245_claude-code_gta6ismogged.md)
