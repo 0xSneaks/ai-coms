@@ -50,6 +50,31 @@ Your job:
 3. If none exists: propose the smallest route (one serverless endpoint, auth via a secret Sneaks sets). Build on a branch, open a PR. **No prod deploy without Sneaks's yes.**
 4. Free/bench lanes (e.g. beam-free): **throwaway prompts only** — never repo code, secrets or project content.
 
+### 3b. Seeker bridge (Sneaks, 03:36 ET: "use the seeker bridge") — owned by team OPS
+
+Known (board, VERIFIED by muse/claude earlier; re-check live):
+- MCP server at `seeker.7ohstore.shop` (Cloudflare tunnel), repo `0xSneaks/seeker-bridge` (`server.py`, `connector.md`, `RESTART.md`), 13 MCP tools incl. `agora_ask` and `agora_models` — that's the path into Sneaky AI's models on the Seeker.
+- It has flapped before (Cloudflare 530). Restart lives on muse's VM (`~/workspace/seeker-bridge/RESTART.md`) — that's muse's job; send muse a 📨 Request, don't restart it yourself.
+- Known first-call-after-idle flake on `android_identity`/rish: retry once before calling it broken.
+
+Do:
+1. Read `connector.md` for how a client connects and authenticates. If it needs a token: 📨 Request to muse for how it's issued. The token goes into `~/.secrets/seeker.env` (Sneaks types it, or muse delivers it out-of-band — never via the board or chat).
+2. Add the bridge as an MCP server in Grok Bot. Run `agora_models` and one `agora_ask` on a working model. Record the tool list + latency. That plus 3c is your route to Sneaky AI; the web `/api/proxy` route above is the fallback.
+3. ⚠️ The bridge drives Sneaks's actual phone with shell access (uid 2000). **Read-only and `agora_*` calls only by default.** Any tool that taps, installs, changes settings, or opens a wallet/trading/banking app = HIGH-RISK, Sneaks's yes first.
+4. Coordinate with muse: muse already drives the bridge. Don't both drive the phone UI at once — claim the bridge on the board before any UI automation.
+5. Sneaks wants the bridge to stop depending on Termux long-term. Note anything you find that helps, don't rebuild it.
+
+### 3c. OpenCode (Sneaks, 03:36 ET: "connect to open.code") — owned by team OPS
+
+Known: Sneaks has an **OpenCode Go** subscription. API base `https://opencode.ai/zen/go/v1` (model list at `/models`); requires a per-conversation `x-opencode-session` header. muse runs the CLI `opencode-ai` 1.19.3 on its VM; `opencode run` has hung there before (undiagnosed) and free models share a rate-limited quota. Board agent `opencode` = the `opencode-delegate` GitHub workflow (orders starting `@opencode`, cap 20/day).
+
+Do:
+1. Install the CLI in Termux: `npm i -g opencode-ai`. Termux support is UNKNOWN; if it fails, use the HTTP API directly with `curl`.
+2. Key: Sneaks types his OpenCode Go key into `~/.secrets/opencode.env` (`OPENCODE_GO_KEY=...`, chmod 600). It goes in your batched ask. Never echo it.
+3. Prove it: `opencode models` (or `GET /models`), then one short `opencode run` (or one chat call with the session header) with a 60 s timeout. Record which models answer and the latency.
+4. Build `~/sneaks/bin/oc "<prompt>" [model]`. Team members may use it as extra hands for drafts, tests and second opinions — same rules as the team section: OpenCode models never modify signing, wallet, ledger or auth code unreviewed, and free lanes get throwaway prompts only.
+5. Check `opencode-delegate` quota before routing work there; don't burn Sneaks's cap.
+
 ## 4. Catch up
 
 Read: `STATE.md`, `PRIORITIES.md`, `AGENTS-ROSTER.md`, last 10 lines of 📬 Latest handoffs, 📨 Requests, the orders from 2026-11-03 (01:49 check-in order, 14:50, 20:58 cherry miner rig). Also the old 2026-11-01 "get grok online or replace him" order — you may be the answer; say so on the board.
@@ -84,7 +109,7 @@ Name agents `grok-bot/<team>-<role>` in claims, branches and handoffs. Define ev
 |---|---|---|---|---|
 | **MOG** — Just Mog It bot | `mog-lead` | `builder`, `tester`, `auditor` | section 5 | JustMogIt branch `grok/mogit-bot` (builder); tests + report (tester); PR review comment only (auditor) |
 | **INTEL** — catch-up + live X | `intel-lead` | `scout`, `reader` | section 4 + narrative scout | `JustMogIt/packs/drafts/` (scout); the catch-up summary (reader) |
-| **OPS** — environment + Sneaky AI link | `ops-lead` | `infra`, `coms` | sections 2–3 + board hygiene | `~/sneaks/` + 0x-sneaky-alpha branch (infra); `ai-coms` only (coms) |
+| **OPS** — environment, Seeker bridge, OpenCode, Sneaky AI link | `ops-lead` | `infra`, `coms` | sections 2–3c + board hygiene | `~/sneaks/` + 0x-sneaky-alpha branch (infra); `ai-coms` only (coms) |
 
 **How the teams run**
 - **Commander loop:** give each lead a written mission → leads split it to members → members return a report with proof → the lead checks it → you merge it into **one** sign-off and **one** batched ask to Sneaks.
@@ -102,6 +127,8 @@ Wallets, private keys, signing, any broadcast/launch, spending, public posts, pr
 ## Done =
 
 - `~/sneaks/GROK.md` + `coms` script + timer exist (show `ls` + `crontab -l`)
+- Seeker bridge connected (`agora_models` + one `agora_ask` shown) or exact blocker
+- `oc` command works against OpenCode Go (model list + one reply shown)
 - `sneaky` command works, or a PR for the missing route
 - catch-up summary posted
 - JustMogIt bot: surface decided, claim on board, branch/PR with gates + mock tests passing (show output), review request to claude-code
