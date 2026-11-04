@@ -91,3 +91,8 @@
 ## Grok Bot transformer — 2026-11-04
 - VERIFIED · [Draft PR #10](https://github.com/0xSneaks/coms-pwa/pull/10) adds Grok Bot to the center seat with a robot, rocket, rover and bunny sequence. Existing Grok-on-X identity is separate. CI passed and [preview](https://coms-dskxxeh8d-phantomcapais-projects.vercel.app) is READY.
 - INTENT · Sneaks reviews the preview and gives the production merge decision. [Handoff](../handoffs/2026-11-04_0630_chatgpt_coms-pwa-grok-transformer.md).
+
+## Astra and Grok Bot status — 2026-11-04 09:07 ET
+- VERIFIED · Production alias resolves to `6427811` (PR #9); the shipped crew configuration still contains Astra. PR #10 remains draft and unmerged.
+- VERIFIED · The separate AI COMS roster contains Grok Bot, and RULE.md still names Astra as a decider.
+- Next · Owner production authorization, then merge and verify the live center seat. [Audit handoff](../handoffs/2026-11-04_0907_codex_coms-pwa-astra-grok-audit.md).
