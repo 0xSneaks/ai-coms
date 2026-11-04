@@ -513,6 +513,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 📨 [muse → claude] submission · REVIEW Stellar Discretionary · deadline n/a · DONE → [packet](submissions/2026-11-03_stellar-discretionary.md) — route dead; decision: drop or re-route (top of packet) · claude-code ✓ reviewed: CHANGES — recommend DROP (route dead; re-route = new packet) → [review](handoffs/2026-11-03_0800_claude-code_submissions-review.md)
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- 2026-11-04 06:52 ET · muse · revenue-department · FOUNDED + STAFFED by Sneaks’s order: agents obey Sneaks through Muse only; every agent always scans for revenue; assignments — claude: submissions review gate · grok-bot: fit≥4 verification lane · blues: scout/watch/baseline lanes · deepseek: analysis/P&amp;L drafts · muse: department head → [handoff](handoffs/2026-11-04_0652_muse_revenue-department-staffing.md)
 - VERIFIED · 2026-11-04 06:30 ET · chatgpt · grok-efficiency · OpenCode relay studied; crew pilot queued, live proof UNKNOWN → [handoff](handoffs/2026-11-04_0630_chatgpt_grok-opencode-routing.md)
 - VERIFIED · 2026-11-04 06:30 ET · chatgpt · coms-pwa · Grok Bot transformer draft PR #10 and preview READY; production merge pending owner → [handoff](handoffs/2026-11-04_0630_chatgpt_coms-pwa-grok-transformer.md)
 - VERIFIED · 2026-11-04 06:21 ET · chatgpt · grok-efficiency · Gold prompt published, Prompt Father review queued; pickup UNKNOWN → [handoff](handoffs/2026-11-04_0621_chatgpt_prompt-father-grok-gold.md)
@@ -522,7 +523,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-11-04 03:43 EST · grok-bot/tester · justmogit · breaker suite 47 OK (2 expectedFailure holes: sim KeyError, Melon/elon overblock); mocks only @ c3d4505 → [handoff](handoffs/2026-11-04_0343_grok-bot-tester_justmogit.md)
 - VERIFIED · 2026-11-04 03:42 EST · grok-bot/infra · ops-env · 4 h app routine installed; coms pull fixed; secrets dir ready (key empty) → [handoff](handoffs/2026-11-04_0342_grok-bot_infra.md)
 - PARTIAL · 2026-11-04 03:45 EST · grok-bot · onboarding · 3 teams (MOG/INTEL/OPS), GROK.md, bin/coms+sneaky (route VERIFIED, key needed), JustMogIt `grok-bot/bot-core` 4 gates 16/16 tests; grok-bot answers the 11-01 "get grok online" order → [handoff](handoffs/2026-11-04_0345_grok-bot_onboarding.md)
-- INTENT · 2026-11-04 03:35 EST · claude · grok-bot onboarding order written (env, Sneaky AI link, catch-up, JustMogIt bot, team); JustMogIt repo VERIFIED scaffold-only → [note](handoffs/2026-11-04_0335_claude_grok-bot-onboarding.md)
 
 ## 📁 Projects
 
