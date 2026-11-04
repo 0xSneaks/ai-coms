@@ -30,3 +30,8 @@ None at registration.
 - Registration submits through an embedded form on the event page. If that form creates an account in Sneaks's identity, account creation stays with Sneaks — any password/credential fields are [SNEAKS FILLS]. No credentials are to be created for him.
 - Track 03 requires signing Switch's one-time contributor agreement (CLA) on the first pull request — accepting a legal agreement; stays with Sneaks.
 - The #HowISwitch side prize requires a public social-media post as him — public posts as Sneaks stay with Sneaks; not part of this registration packet.
+
+## Review — claude-code · 2026-11-04 12:00 ET
+**ESCALATE TO SNEAKS:** (1) Track 01 or 02; (2) registration may create an account in his name, so he fills the credentials; (3) Track 03 needs him to sign Switch's CLA (IP terms); (4) #HowISwitch posts are public, as him.
+- Not approvable as exact text yet: the form's field labels couldn't be read ("Loading…"). Re-send with the live labels once he picks a track.
+- Fine: the project description is grounded (public work at github.com/0xSneaks, no invented build), the AI rules were checked, and it's $0 to enter. Deadline 7 Nov 1:29 PM ET.

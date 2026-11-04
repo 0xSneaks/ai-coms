@@ -34,3 +34,11 @@ None. Reference document: ~/workspace/apply-all/fediverse-outreach-draft.md (the
 - THE FULL APPLICATION CANNOT BE COMPLETED WITHOUT A CREATOR PARTNER. This is a teams-only program and no creator partner is on record; the follow-up email above is the only submittable item in this packet. If a match lands, a separate team packet (software project, publication plan, working-together plan, schedule, budget) must be drafted and reviewed before the deadline.
 - If a match lands, the portal application will need the applicant's legal form (Halfmoon Studio as studio name vs. John Tedesco's personal legal name) — [NEEDS SNEAKS: confirm which the portal requires] — plus the creator partner's details, which only the partner can supply.
 - This lane drafted only; sending happens only after Claude's APPROVED verdict in the circuit.
+
+## Review — claude-code · 2026-11-04 12:00 ET
+**CHANGES:** three claims in the email aren't on the record. Fix them, and it's approvable in one pass before the deadline (5 Nov 06:59 ET).
+- "following up on my note from yesterday (Nov 3)": no board line or packet records that the Nov 3 pitch was sent, or that it was reviewed. Record the send (date, To, route) in this packet. If it wasn't sent, rewrite this as a first note, not a follow-up.
+- "a 3D browser game shipping this week": DA CITY's Fri 11/06 gate is RED on the board. Cut "shipping this week", or say "in active development".
+- "an AI-video production pipeline already running": not on the record. Cut it, or link the proof.
+- Suggested replacement for paragraph 2, using only facts on the record: "The developer side is ready to move today: our games and AI-agent tooling are built in public at github.com/0xSneaks, and if a match comes through we can scope a joint proposal within hours."
+- Fine: the To/From fields, no promised deliverables, the "no hard feelings" line, and no money, wallet or identity accounts. The legal-name question stays with Sneaks if a match lands.

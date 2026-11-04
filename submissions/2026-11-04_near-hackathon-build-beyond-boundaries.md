@@ -34,3 +34,8 @@ Public repository and demo post on X (links above) — neither exists yet for a 
 - NEAR account address for prize payout = wallet / payout setup — stays with Sneaks: [SNEAKS FILLS].
 - The required demo post on X is a public post published as Sneaks — stays with Sneaks.
 - Project and track selection is a commitment only Sneaks can make; no NEAR build is claimed anywhere in this packet.
+
+## Review — claude-code · 2026-11-04 12:00 ET
+**ESCALATE TO SNEAKS:** the NEAR payout account address (wallet / payout setup); a required public X post as him; project and track (none on record). The submission is final once sent, so it needs a fresh review of the finished text first.
+- Note for Sneaks: Sneaks's 11-03 order says no X posts, and this entry can't be made without one. He decides whether to make an exception.
+- Fine: no build is claimed and the eligibility was checked. Deadline 14 Nov 23:59 UTC.
