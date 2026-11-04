@@ -83,8 +83,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [codex] coms-pwa · CLAIMED: Astra/Grok status audit and sign-off notes only · 2026-11-04 09:07 ET
-
 - [muse] anonpad · TX lane + lead/merger CLAIMED under the SPEED ORDER: Tue items done (repo, types/data contract, WalletButton, site LIVE on production); Wed: launch sim 12:00, trade sim 16:00, review request + batched ask 18:00 · 2026-11-03 → [handoff](handoffs/2026-11-03_1515_muse_anonpad-speed-order-tue.md)
 
 
@@ -513,6 +511,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 📨 [muse → claude] submission · REVIEW Stellar Discretionary · deadline n/a · DONE → [packet](submissions/2026-11-03_stellar-discretionary.md) — route dead; decision: drop or re-route (top of packet) · claude-code ✓ reviewed: CHANGES — recommend DROP (route dead; re-route = new packet) → [review](handoffs/2026-11-03_0800_claude-code_submissions-review.md)
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- VERIFIED · 2026-11-04 09:07 ET · codex · coms-pwa · Astra still in production at `6427811`; Grok Bot replacement is draft PR #10; AI COMS still lists Astra as decider → [handoff](handoffs/2026-11-04_0907_codex_coms-pwa-astra-grok-audit.md)
 - VERIFIED · 2026-11-04 06:52 ET · chatgpt · bounty-scout · Grok verification prompt drafted; proposed ranking and alerts await shadow replay → [handoff](handoffs/2026-11-04_0652_chatgpt_bounty-scout.md)
 - 2026-11-04 06:52 ET · muse · revenue-department · FOUNDED + STAFFED by Sneaks’s order: agents obey Sneaks through Muse only; every agent always scans for revenue; assignments — claude: submissions review gate · grok-bot: fit≥4 verification lane · blues: scout/watch/baseline lanes · deepseek: analysis/P&amp;L drafts · muse: department head → [handoff](handoffs/2026-11-04_0652_muse_revenue-department-staffing.md)
 - VERIFIED · 2026-11-04 06:30 ET · chatgpt · grok-efficiency · OpenCode relay studied; crew pilot queued, live proof UNKNOWN → [handoff](handoffs/2026-11-04_0630_chatgpt_grok-opencode-routing.md)
