@@ -4,7 +4,7 @@ Program: Fediverse Multimedia Grants — Social Web Foundation, funded by the In
 Payout if won: Grant of up to US$20,000 to a developer/creator team · Cost to enter: $0
 Eligibility:
 - Live program → VERIFIED: official Social Web Foundation call page fetched 2026-11-04; applications opened 7 Oct 2026 and close today, 4 Nov 2026 (23:59:59 AoE).
-- Developer/creator TEAMS only → NOT MET: the developer half is ready (John Tedesco, Halfmoon Studio) but NO creator partner is on record. The call explicitly offers matchmaking: "For publishers who aren't familiar with Fediverse software, or developers who don't have a good idea for a publisher to work with, please feel free to contact us and we'll try to point you in the right direction to make a match." The original partner-match pitch was sent 2026-11-03 (text in ~/workspace/apply-all/fediverse-outreach-draft.md); no reply yet. This packet is the follow-up to that pitch.
+- Developer/creator TEAMS only → NOT MET: the developer half is ready (John Tedesco, Halfmoon Studio) but NO creator partner is on record. The call explicitly offers matchmaking: "For publishers who aren't familiar with Fediverse software, or developers who don't have a good idea for a publisher to work with, please feel free to contact us and we'll try to point you in the right direction to make a match." The original partner-match pitch WAS sent 2026-11-03 08:27 ET — from thatdudesneaks@gmail.com to evanprodromou@socialwebfoundation.org, subject "Multimedia Grants — developer team looking for a creator partner match", via Gmail (VERIFIED in the Sent folder 2026-11-04 ~06:44 ET; no reply as of that check). Text in ~/workspace/apply-all/fediverse-outreach-draft.md. This packet is the follow-up to that pitch.
 - New publication on the Fediverse, built by the team → cannot be satisfied until a partner exists; the joint proposal would be scoped with the partner.
 AI rules: Not mentioned on the official call page.
 Terms that matter: Grant funding (Interledger Foundation), no equity mentioned; payout method / KYC not stated on the call page. Judging/selection by the Social Web Foundation; decisions 18 Nov 2026.
@@ -19,7 +19,7 @@ Subject: Follow-up — Multimedia Grants: developer team still seeking a creator
 Body:
 Hi Evan — following up on my note from yesterday (Nov 3) about the Multimedia Grants partner match. Applications close today (Nov 4, 23:59:59 anywhere-on-earth), and we're still without the creator half of a team, so I'm writing once more in case a publisher is still looking for a developer partner.
 
-The developer side is ready to move today: we have a 3D browser game shipping this week, live web games, and an AI-video production pipeline already running. If a match comes through, we can scope a joint proposal within hours.
+The developer side is ready to move today: our games and AI-agent tooling are built in public at github.com/0xSneaks, and if a match comes through we can scope a joint proposal within hours.
 
 If no match is possible this round, no hard feelings — we'd still welcome a pointer to creators who might team up with us on future Fediverse work.
 
@@ -42,3 +42,8 @@ None. Reference document: ~/workspace/apply-all/fediverse-outreach-draft.md (the
 - "an AI-video production pipeline already running": not on the record. Cut it, or link the proof.
 - Suggested replacement for paragraph 2, using only facts on the record: "The developer side is ready to move today: our games and AI-agent tooling are built in public at github.com/0xSneaks, and if a match comes through we can scope a joint proposal within hours."
 - Fine: the To/From fields, no promised deliverables, the "no hard feelings" line, and no money, wallet or identity accounts. The legal-name question stays with Sneaks if a match lands.
+
+## Revision — muse · 2026-11-04 12:59 ET (CHANGES applied, awaiting re-review)
+- Nov 3 send RECORDED above with date/To/route (Gmail Sent, verified 2026-11-04 ~06:44 ET; no reply). Follow-up framing kept — the pitch was sent.
+- Paragraph 2 replaced with claude-code's suggested on-record text; "shipping this week" and "AI-video production pipeline" claims CUT.
+- NOT sent. Sending still requires claude-code APPROVED on this revised packet AND Sneaks's OK (follow-up draft was presented to Sneaks 2026-11-04 ~06:44 ET; no decision recorded yet). Deadline 2026-11-05 06:59 ET.
