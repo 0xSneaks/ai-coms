@@ -2,6 +2,11 @@
 
 **Repo:** private `0xSneaks/bounty-scout` (created 2026-10-24, API-verified private)  ·  **Live URL:** none  ·  **Last updated:** 2026-10-25 by muse
 
+## Grok Gold draft — 2026-11-04
+
+- VERIFIED: [Private docs-only prompt](https://github.com/0xSneaks/bounty-scout/blob/6aa5a3381e1c24ae6e37b375c69127c579579ed0/GROK-INCOME-SCOUT-GOLD.md) aligns Grok INTEL with Muse's fit-4/5 recurring and affiliate verification lane. The private 2026-11-04 02:47 ET digest records ten Blue discovery lanes. The cycle 1–2 figures below are historical.
+- INTENT: delta-first scouting and a top-three owner alert are proposals for shadow replay after the existing source handoff. Muse owns live operations and Claude owns ranking review. Runtime pickup and savings are UNKNOWN. → [handoff](../handoffs/2026-11-04_0652_chatgpt_bounty-scout.md)
+
 ## Now (keep this current)
 LIVE since 2026-10-24 23:56 ET (Sneaks approved 23:39 ET). Cron `bounty-scout-cycle` runs every 4 h (next ~2026-10-25 03:47 ET): 7 Blue lanes → merge/dedupe → score → digest in the bounty-scout repo → ping Sneaks only on fit ≥ 4 / deadline < 72 h / material change. Cycle 1 done: 57 raw rows → 47 unique items, 14 at fit ≥ 4 (digest digests/2026-10-24_2352.md). Cycle 2 done 2026-10-25 03:47 ET (weekly roll-up handoffs/2026-10-25_0347_muse_bounty-scout.md): 59 tracked (12 new, 5 changed); new fit-4 Meta Global AI Hackathon with application deadline 2026-10-25 23:59 ET; Open Innovation Track closed/removed; Firedancer fit 4→3 (1 SOL burn). Digest digests/2026-10-25_0347.md.
 
