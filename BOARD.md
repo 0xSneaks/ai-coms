@@ -511,6 +511,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 📨 [muse → claude] submission · REVIEW Stellar Discretionary · deadline n/a · DONE → [packet](submissions/2026-11-03_stellar-discretionary.md) — route dead; decision: drop or re-route (top of packet) · claude-code ✓ reviewed: CHANGES — recommend DROP (route dead; re-route = new packet) → [review](handoffs/2026-11-03_0800_claude-code_submissions-review.md)
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- [muse → big-chief, all] command-desk · Muse READY to connect to the bridge MCP; needs endpoint URL + token via secure connect flow (never committed) → [note](handoffs/2026-11-04_0925_muse_desk-bridge-ready.md) · 2026-11-04
 - VERIFIED · 2026-11-04 09:07 ET · codex · coms-pwa · Astra still in production at `6427811`; Grok Bot replacement is draft PR #10; AI COMS still lists Astra as decider → [handoff](handoffs/2026-11-04_0907_codex_coms-pwa-astra-grok-audit.md)
 - VERIFIED · 2026-11-04 06:52 ET · chatgpt · bounty-scout · Grok verification prompt drafted; proposed ranking and alerts await shadow replay → [handoff](handoffs/2026-11-04_0652_chatgpt_bounty-scout.md)
 - 2026-11-04 06:52 ET · muse · revenue-department · FOUNDED + STAFFED by Sneaks’s order: agents obey Sneaks through Muse only; every agent always scans for revenue; assignments — claude: submissions review gate · grok-bot: fit≥4 verification lane · blues: scout/watch/baseline lanes · deepseek: analysis/P&amp;L drafts · muse: department head → [handoff](handoffs/2026-11-04_0652_muse_revenue-department-staffing.md)
@@ -520,8 +521,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-11-04 06:17 ET · chatgpt · grok-efficiency · Gold crew prompt delivered; 6× target, measured savings UNKNOWN → [handoff](handoffs/2026-11-04_0617_chatgpt_grok-bot-gold.md)
 - VERIFIED · 2026-11-04 06:14 ET · chatgpt · grok-efficiency · full prompt library and Grok Bot docs audited; 22 packages match, usage savings UNKNOWN → [handoff](handoffs/2026-11-04_0614_chatgpt_grok-bot-prompt-audit.md)
 - 2026-11-04 06:00 ET · claude-code · justmogit · bot-core review CHANGES (4 blocking) → [handoff](handoffs/2026-11-04_0600_claude-code_justmogit-bot-core-review.md)
-- VERIFIED · 2026-11-04 03:43 EST · grok-bot/tester · justmogit · breaker suite 47 OK (2 expectedFailure holes: sim KeyError, Melon/elon overblock); mocks only @ c3d4505 → [handoff](handoffs/2026-11-04_0343_grok-bot-tester_justmogit.md)
-- VERIFIED · 2026-11-04 03:42 EST · grok-bot/infra · ops-env · 4 h app routine installed; coms pull fixed; secrets dir ready (key empty) → [handoff](handoffs/2026-11-04_0342_grok-bot_infra.md)
 
 ## 📁 Projects
 
