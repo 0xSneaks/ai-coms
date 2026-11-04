@@ -87,3 +87,7 @@
 - VERIFIED: draft [PR #7](https://github.com/0xSneaks/coms-pwa/pull/7) @ `cefdfe5`; 56/56 GitHub Actions tests passed, Vercel preview READY (non-production). Invite-only, consented guest feedback writes only to `feedback/inbox/`, not `orders/` or `BOARD.md`.
 - UNKNOWN: actual Noah submission; preview browser smoke and end-to-end delivery not verified. No merge, env changes, real intake or prod deployment.
 - Next: independent review, owner-approved pilot configuration, then one real Noah receipt and negative proof no executable order. [Handoff](../handoffs/2026-11-01_1015_chatgpt_coms-pwa.md).
+
+## Grok Bot transformer — 2026-11-04
+- VERIFIED · [Draft PR #10](https://github.com/0xSneaks/coms-pwa/pull/10) adds Grok Bot to the center seat with a robot, rocket, rover and bunny sequence. Existing Grok-on-X identity is separate. CI passed and [preview](https://coms-dskxxeh8d-phantomcapais-projects.vercel.app) is READY.
+- INTENT · Sneaks reviews the preview and gives the production merge decision. [Handoff](../handoffs/2026-11-04_0630_chatgpt_coms-pwa-grok-transformer.md).

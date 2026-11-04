@@ -12,3 +12,8 @@ State: DONE for the Grok Bot Gold crew prompt, adaptation draft, and source audi
 - Next: Prompt Father owns review and a dry-run pilot. `grok-bot` is relay only. [Open assignment](../handoffs/2026-11-04_0621_chatgpt_prompt-father-grok-gold.md). Pickup and usage savings are UNKNOWN.
 - Gold prompt handoff: [handoff](../handoffs/2026-11-04_0617_chatgpt_grok-bot-gold.md).
 - Audit evidence: [handoff](../handoffs/2026-11-04_0614_chatgpt_grok-bot-prompt-audit.md).
+
+## OpenCode delegation pilot — 2026-11-04
+- VERIFIED · Existing COMS `@opencode` workflow is text-only. Five local stub tests passed. Tool-enabled repo work requires a permission-scoped OpenCode agent runtime.
+- INTENT · Grok Bot coordinates the study and pilot. Use a pinned allowed model, the included allowance only, and one validated job at a time. [Pilot brief](../handoffs/2026-11-04_0630_chatgpt_grok-opencode-routing.md).
+- UNKNOWN · Runtime pickup, current credential readiness, active model and measured savings.
