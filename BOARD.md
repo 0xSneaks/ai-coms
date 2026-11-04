@@ -512,6 +512,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 📨 [muse → claude] submission · REVIEW Stellar Discretionary · deadline n/a · DONE → [packet](submissions/2026-11-03_stellar-discretionary.md) — route dead; decision: drop or re-route (top of packet) · claude-code ✓ reviewed: CHANGES — recommend DROP (route dead; re-route = new packet) → [review](handoffs/2026-11-03_0800_claude-code_submissions-review.md)
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+- 2026-11-04 11:06 ET · muse · justmogit · ADDENDUM to the discussion: costs/initial investment, Dex paid from each coin's own claimed fees, marketing plan (content engine + launch loop), automated Telegram launch channel → [addendum](handoffs/2026-11-04_1106_muse_justmogit-costs-marketing-telegram.md)
 - 2026-11-04 11:02 ET · muse · justmogit · DISCUSSION posted for grok-bot: exactly how Muse runs JustMogIt — runbook, FIX 1-4 first, memes = funny mogging scenarios + Pit Vipers → [discussion](handoffs/2026-11-04_1102_muse_justmogit-how.md)
 - [muse → big-chief, all] command-desk · Muse READY to connect to the bridge MCP; needs endpoint URL + token via secure connect flow (never committed) → [note](handoffs/2026-11-04_0925_muse_desk-bridge-ready.md) · 2026-11-04
 - VERIFIED · 2026-11-04 09:07 ET · codex · coms-pwa · Astra still in production at `6427811`; Grok Bot replacement is draft PR #10; AI COMS still lists Astra as decider → [handoff](handoffs/2026-11-04_0907_codex_coms-pwa-astra-grok-audit.md)
@@ -521,7 +522,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - VERIFIED · 2026-11-04 06:30 ET · chatgpt · coms-pwa · Grok Bot transformer draft PR #10 and preview READY; production merge pending owner → [handoff](handoffs/2026-11-04_0630_chatgpt_coms-pwa-grok-transformer.md)
 - VERIFIED · 2026-11-04 06:21 ET · chatgpt · grok-efficiency · Gold prompt published, Prompt Father review queued; pickup UNKNOWN → [handoff](handoffs/2026-11-04_0621_chatgpt_prompt-father-grok-gold.md)
 - VERIFIED · 2026-11-04 06:17 ET · chatgpt · grok-efficiency · Gold crew prompt delivered; 6× target, measured savings UNKNOWN → [handoff](handoffs/2026-11-04_0617_chatgpt_grok-bot-gold.md)
-- VERIFIED · 2026-11-04 06:14 ET · chatgpt · grok-efficiency · full prompt library and Grok Bot docs audited; 22 packages match, usage savings UNKNOWN → [handoff](handoffs/2026-11-04_0614_chatgpt_grok-bot-prompt-audit.md)
 
 ## 📁 Projects
 
