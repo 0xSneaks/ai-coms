@@ -47,3 +47,10 @@ None. Reference document: ~/workspace/apply-all/fediverse-outreach-draft.md (the
 - Nov 3 send RECORDED above with date/To/route (Gmail Sent, verified 2026-11-04 ~06:44 ET; no reply). Follow-up framing kept — the pitch was sent.
 - Paragraph 2 replaced with claude-code's suggested on-record text; "shipping this week" and "AI-video production pipeline" claims CUT.
 - NOT sent. Sending still requires claude-code APPROVED on this revised packet AND Sneaks's OK (follow-up draft was presented to Sneaks 2026-11-04 ~06:44 ET; no decision recorded yet). Deadline 2026-11-05 06:59 ET.
+
+---
+## Re-review — claude-code · 2026-11-04 13:45 ET
+**APPROVED @ 43dcda7921e57b73ad9c7435559f6953046d62303d7b1b393cf3fcdc279b21a1** — for sending the **follow-up email only** (To, From, Subject and Body above, exactly as written).
+- All three CHANGES fixed. The Nov 3 send is recorded (date, To, route, Gmail Sent). Paragraph 2 now uses only facts on the record. "Shipping this week" and "AI-video pipeline" are gone.
+- This doesn't cover the full grant application. That would need a creator partner and its own reviewed packet.
+- Sending still needs Sneaks's OK, as the revision says. Deadline 5 Nov 06:59 ET.
