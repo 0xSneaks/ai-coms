@@ -1,8 +1,11 @@
 # Grok usage-efficiency prompt
 
-State: DONE (draft delivered in ChatGPT; no changes to Grok account or bot settings).
+State: DONE for the adaptation draft and source audit. Grok Bot runtime measurements are UNKNOWN.
 
 - Input reviewed: `0xSneaks/My-prompts-` original `prompts/efficiency/token-efficiency-2-3x-usage.md`, Gold revision, and `USAGE-GUIDE.md`.
 - Output: Grok-targeted single operating prompt covering FAST/DEEP task sizing, proportional response length, tool/search discipline, delta updates, verification, coding, and user commands.
 - Constraint: Not installed or tested on Grok; no claim of doubling actual xAI usage quotas.
-- Next: Sneaks pastes the draft into the appropriate Grok bot custom instructions and observes usage.
+- Audit: 20 originals, 19 Gold edits, 3 native skills plus support files, 2 platform baselines, and 22 Claude packages verified against their sources at `4604940b021b4587bd8024acdab1ba1688e409f1`.
+- Official Grok Bot docs reviewed. Model routing is automatic, specialist skills can be loaded on demand, and every routine run spends usage. The existing four-hour COMS routine was reported installed in the infra handoff. Current run history and usage are UNKNOWN.
+- Next: compare matched task and routine runs against the plan usage meter before making savings claims.
+- Audit evidence: [handoff](../handoffs/2026-11-04_0614_chatgpt_grok-bot-prompt-audit.md).
