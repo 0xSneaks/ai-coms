@@ -74,24 +74,26 @@ Build (claim it on the board first; check muse doesn't already hold it):
 
 **Your edge — use it:** you have live X. Add a **narrative scout**: pull trending narratives, draft candidate packs in `packs/` format (name, ticker, simple description, image idea, source link). Drafts only, ranked, max 5 per run — no spam, no serial launching.
 
-## 6. Your team (Sneaks: you can run multi-agent teams — set it up right)
+## 6. Your bot teams — REQUIRED (Sneaks, 03:33 ET: "set up a multi-team bot team")
 
-Standing team under you, named `grok-bot/<role>` in claims and handoffs (like muse's Blues). Define each in `~/sneaks/team/<role>.md` (lane, inputs, output file, what it must never touch) so it survives sessions.
+You are the **commander**. Stand up **three teams**, each with a lead and members, all reporting to you. Do this right after section 2 (env), so the teams run sections 3–5 in parallel instead of you doing them one by one.
 
-| Role | Job | Writes to |
-|---|---|---|
-| `scout` | Live X + web narrative scan → ranked pack drafts | `JustMogIt/packs/drafts/` only |
-| `builder` | JustMogIt bot code on its branch | its branch only |
-| `tester` | Mock tests, simulate-only checks, tries to break the gates | test files + a report |
-| `auditor` | Independent review of builder's PR **without seeing builder's reasoning**; checks against SKILL.md + the 4 gates | review comment only |
-| `coms` | Check-in, inbox, board lines, sign-offs for the team | `ai-coms` only |
+Name agents `grok-bot/<team>-<role>` in claims, branches and handoffs. Define every agent in `~/sneaks/teams/<team>/<role>.md` (mission, inputs, the one place it writes, what it must never touch, its done-check). Keep a `~/sneaks/teams/ROSTER.md` listing every live agent, so the teams survive sessions.
 
-Rules:
-- Spawn only when it adds real value; one owner per file; no two roles edit the same file.
-- builder ≠ auditor, always. Security/money paths get builder → tester → auditor → claude-code review.
-- Sub-agents inherit section 0 + the hard stops. None of them holds keys or can pass a HIGH-RISK gate.
-- Cheap/fast models may draft and test; they never modify signing, wallet or ledger code unreviewed.
-- You (grok-bot) report for the whole team: one sign-off, one batched ask.
+| Team | Lead | Members | Owns | Writes to |
+|---|---|---|---|---|
+| **MOG** — Just Mog It bot | `mog-lead` | `builder`, `tester`, `auditor` | section 5 | JustMogIt branch `grok/mogit-bot` (builder); tests + report (tester); PR review comment only (auditor) |
+| **INTEL** — catch-up + live X | `intel-lead` | `scout`, `reader` | section 4 + narrative scout | `JustMogIt/packs/drafts/` (scout); the catch-up summary (reader) |
+| **OPS** — environment + Sneaky AI link | `ops-lead` | `infra`, `coms` | sections 2–3 + board hygiene | `~/sneaks/` + 0x-sneaky-alpha branch (infra); `ai-coms` only (coms) |
+
+**How the teams run**
+- **Commander loop:** give each lead a written mission → leads split it to members → members return a report with proof → the lead checks it → you merge it into **one** sign-off and **one** batched ask to Sneaks.
+- **One owner per file.** No two agents edit the same file or branch. Hand-offs between teams go through the lead, never member-to-member edits.
+- **Builder ≠ auditor, always.** The auditor reviews without seeing the builder's reasoning, checking against SKILL.md and the 4 gates. Money and security paths go builder → tester → auditor → claude-code review.
+- **Model fit:** fast or cheap models may scout, draft and test. They never modify signing, wallet, ledger or auth code without review.
+- **Every agent inherits** section 0 + the hard stops. None of them holds keys or can pass a HIGH-RISK gate.
+- **Scale rule:** spawn an extra member only when it saves real time. Kill idle agents. Max 3 members per team unless Sneaks says otherwise.
+- **Proof the teams exist:** `ROSTER.md` + each team's `.md` files + one report per team in your sign-off (what it did, proof, what's next).
 
 ## Hard stops (⚠️ HIGH-RISK — Sneaks's explicit yes, every time)
 
@@ -103,5 +105,6 @@ Wallets, private keys, signing, any broadcast/launch, spending, public posts, pr
 - `sneaky` command works, or a PR for the missing route
 - catch-up summary posted
 - JustMogIt bot: surface decided, claim on board, branch/PR with gates + mock tests passing (show output), review request to claude-code
+- 3 teams live: `teams/ROSTER.md` + role files + one report per team
 - one batched ask to Sneaks (only what truly needs him)
 - sign off: handoff + board line + release claim. End with `Coms: signed off → <file>`.
