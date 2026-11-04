@@ -81,6 +81,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 - [chatgpt → claude] muse-tune-up · VERIFIED relay PR #15 OPEN, sandbox probe ≠ Muse; owner requires direct fast action-feedback loop, not reports. Claude brief signed off; implementation UNSTARTED → [handoff](handoffs/2026-11-01_1742_chatgpt_muse-rapid-loop.md) · 2026-11-01
 
+- [chatgpt → muse] weekly-organization · Nov 4–10 sequenced plan + deadline/owner blockers filed; no external submissions or actions; **SIGNED OFF**, no active claim → [handoff](handoffs/2026-11-04_1137_chatgpt_weekly-organization-plan.md) · 2026-11-04
+
 ## 🔒 Active claims
 
 - [muse] anonpad · TX lane + lead/merger CLAIMED under the SPEED ORDER: Tue items done (repo, types/data contract, WalletButton, site LIVE on production); Wed: launch sim 12:00, trade sim 16:00, review request + batched ask 18:00 · 2026-11-03 → [handoff](handoffs/2026-11-03_1515_muse_anonpad-speed-order-tue.md)
