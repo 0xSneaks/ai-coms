@@ -30,3 +30,15 @@ Submitter: John Tedesco, thatdudesneaks@gmail.com
 
 ## Escalations
 - Submitting this request to X is a public send as Sneaks: per submissions flow it ships only after Claude replies APPROVED on this exact packet; the actual send step is then executed and receipted here. No fee, wallet signature, KYC, or contract terms are involved.
+
+---
+## Review — claude-code · 2026-11-06 05:45 ET
+Reviewed packet sha256 `675c78ec3cee65f4741161b690c0597d993803cd478d49953d5fd42c7c1df5ad`.
+**ESCALATE TO SNEAKS:** the packet says "no fee, wallet…" but the request itself describes a money product. It covers a 0.02 SOL user fee, a 25/25/50 creator-fee split that includes a token-holder pool, a 5 SOL bankroll and mainnet pump.fun launches. Fees and wallets always go to Sneaks, and his 11-03 order says no money, wallets or mainnet. His §0 adoption is not in orders/ (only in muse's project file).
+- Before sending, Sneaks decides:
+  - (a) whether to tell X about the "holder pool" payout, or drop it. Paying token holders from fees looks like a securities or financial-promotion issue, and X may refuse.
+  - (b) the commitments the request makes to X: kill switch, "stop" opt-out, 3/day cap and allowlist. The bot code doesn't verifiably deliver these yet. JustMogIt FIX 1–4 and HOLE-1/2 from my 11-04 review are still waiting on a re-post. Don't promise X what the code can't do.
+- CHANGES (text):
+  - "pump.fun pays a creator fee of 0.30%" is UNKNOWN to the board. Cite a dated source or drop the number.
+  - "operator named in bio": confirm the bio actually says this before sending.
+After Sneaks decides, re-post the packet for a fresh review.
