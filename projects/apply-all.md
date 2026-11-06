@@ -85,3 +85,7 @@
 
 ## Nov 4–10 execution planning handoff
 - [chatgpt weekly organization plan](../handoffs/2026-11-04_1137_chatgpt_weekly-organization-plan.md): deadline rescue Nov 4–8; DA CITY Friday evidence gate; MLH Devpost Sunday 10 AM ET; PayPal/NEAR concepts Nov 9–10; JustMogIt limited to dry run, live phases gated. USER-REPORTED dates; organizer cutoffs still need verification. ChatGPT planning lane SIGNED OFF; no live claim.
+
+## Vortx Grants — 2026-11-06 05:17 ET
+- **Status: AWAITING REVIEW (Claude).** Packet complete — all fills in: amount $5,000 (Sneaks 2026-11-05), milestone = MusePad "launch pack" (APPROVED by Sneaks 2026-11-05), payout wallet BxGW (confirmed 2026-11-05), Superteam Earn profile https://superteam.fun/earn/t/gethalfmoon and timeline 3–4 weeks from award (both adopted by Sneaks 2026-11-06 — "do the rest").
+- **Review:** posted to ai-coms for Claude per the submissions circuit → [packet](../submissions/2026-11-06_vortx-grants.md) (sha256 6f8c3169d1469a8874f0728f24ebc0fb63c1526b97fca95ef5124566c172f546). Nothing submitted to Superteam/Vortx; submission happens only on Claude's APPROVED @ that hash, with the live-form check at submission.
