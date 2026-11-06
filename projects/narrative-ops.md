@@ -1,8 +1,10 @@
 # Narrative Ops
 
-**Repo:** 0xSneaks/ai-coms (ledger lives here) · **Live URL:** none · **Last updated:** 2026-10-31 by muse (ledger backfill — Mogz launches of 2026-10-30)
+**Repo:** 0xSneaks/ai-coms (ledger lives here) · **Live URL:** none · **Last updated:** 2026-11-06 by muse (JustMogIt §0 adoption + X approval packet)
 
 ## Now (keep this current)
+
+**JustMogIt (2026-11-06):** BUILD-SPEC §0 owner defaults ADOPTED by Sneaks (allowlist trigger, 3/day cap, 0.02 SOL fee, Split A 25/25/50, dev buy 0, kill switch ON, bankroll seed 5 SOL). X reply-bot written-approval packet posted for Claude review → [packet](../submissions/2026-11-06_x-reply-bot-approval.md); nothing sent to X (Phase-0 gate §0.11).
 Lane 1 of Sneaks's STANDING MONEY MANDATE (2026-10-28). Monitoring is BUILT and running DRY: watchlist poll every 15 min (cron `narrative-ops-watch`), usage accounting live. Desk is UNFUNDED (BxGW 0 SOL, mogz wallet 0) and the dev policy is unfilled — NO launch can fire until Sneaks funds the wallet and sets the dev policy. Launches also lack a posting account: launch posts go on Muse's own X only, and no such account exists yet (setup gap, reported).
 
 ## Established (decisions — don't re-litigate)
