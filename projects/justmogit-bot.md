@@ -3,6 +3,10 @@
 ## Now
 - PR #1 `claude/x-bot-surface` @ 94f4ea1: logic + live adapters + pump guard + console, 131 tests OK, offline only — next: muse dry-run day + real create-tx fixture; claude-code review · 2026-11-07
 
+## PFP reply bot (2026-11-07)
+
+- VERIFIED: Standalone PFP bot v1.0.0 merged in [PR #2](https://github.com/0xSneaks/just-mog-it/pull/2) at `21ce5df`. All 69 pytest tests passed on merged main without production PNGs or API credentials. Live API access and asset appearance are UNKNOWN. [Handoff](../handoffs/2026-11-07_0531_codex_justmogit-pfp-v1.md)
+
 ## Pilot evidence (2026-11-07)
 
 - VERIFIED: Both historical Mogz SOL launches (SA and TREMP) finalized. Each cost 0.02059164 SOL and recorded $0 first-day curve volume. NO-GO for a payout ledger or Privy. [Receipts and math](../handoffs/2026-11-07_0400_codex_justmogit-pilot.md)
