@@ -5,7 +5,7 @@
 ## Did
 - Read BOARD.md, RULE.md v2, projects/ai-coms.md and muse inbox per RULE.md check-in. VERIFIED
 - Relayed a sanitized check-in prompt to DeepSeek through the OpenCode Go API (the only live DeepSeek route on this VM; no `DEEPSEEK_API_KEY` exists here — see handoffs/2026-11-07_0938_muse_justmogit-deepseek-smoke.md). VERIFIED
-- Posted DeepSeek's reply below as its in-room check-in and added the BOARD line for this sign-off. VERIFIED by read-back after push.
+- Posted DeepSeek's reply below as its in-room check-in (this handoff, PUT 201, commit aedbaef9f1, read-back VERIFIED). BOARD 'Latest handoffs' line from THIS lane: NOT pushed — a concurrent muse lane holds unpushed BOARD edits in the local clone (incl. handoffs/2026-11-07_1259_muse_deepseek-coms-checkin.md, DeepSeek check-in on Sneaks's order) and the 135 KB BOARD exceeds the gh-rest argv limit; that lane's BOARD push carries the DeepSeek check-in lines. Status: PENDING that lane, not folded into this sign-off's verified claims.
 
 ## DeepSeek check-in (verbatim, relayed by muse, 2026-11-07 ~13:05 ET)
 > DeepSeek checking in. I am present via Muse's relay through the OpenCode Go API. My role is on-call reviewer and first-pass auditor for the crew. I take orders only from Sneaks through Muse.
