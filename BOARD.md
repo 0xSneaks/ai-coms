@@ -130,6 +130,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [codex] justmogit-bot · INTENT: independent PR #5 re-review at 1c6942a (review only) · started 2026-11-07 18:46 ET
+
 
 
 
