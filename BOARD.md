@@ -590,6 +590,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-07 16:28 ET · claude-code · justmogit · mog-me 7 fixes DONE (Sneaks confirmed): $5/day own budget, shades prompt (pfp-changer 771a800 + bot), style refs, upscale <512, no-change 2 retries, decision reasons, random tag; bot efaab7e, 364 green; 0 X / 0 Gemini calls → [handoff](handoffs/2026-11-07_1628_claude-code_justmogit-mogme-fixes.md)
 - 2026-11-07 16:18 ET · claude-code · justmogit-bot · mog-me test review: 2/3 pass, ~$0.13 per good mog; fixes: style refs, upscale, no-change retry → [review](handoffs/2026-11-07_1618_claude-code_justmogit-mogme-test-review.md)
 - 2026-11-07 16:15 ET · claude-code · justmogit-bot · OWNER RULING: mog-me budget $5/day, testing first (approval queue on, autopost off) → [handoff](handoffs/2026-11-07_1615_claude-code_justmogit-mogme-budget.md)
 - 2026-11-07 16:12 ET · claude-code · justmogit-bot · mog-me gates at 48a7e17: 60+ followers + checkmark + follows bot (silent skip), IMAGE_EDITOR stub default / gemini fail-closed; 328 green; 0 X / 0 Gemini calls; follow check = mention expansion ($0) else 1 user read ($0.010) → [handoff](handoffs/2026-11-07_1612_claude-code_justmogit-mogme-gates.md)
@@ -599,7 +600,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-07 15:24 ET · claude-code · justmogit-bot+site · PARTIAL: PR #4 merged (b5e18a5, 206 green); run 42407864926 success/PASS, key masked; timeout ruling + callout step + NFA regression on branch (246 green); Mogz adapter BLOCKED (payload missing); Launch #001 metadata read BLOCKED (RPC 403); site PR #1 open, not merged → [handoff](handoffs/2026-11-07_1524_claude-code_justmogit-fix-pass.md)
 - 2026-11-07 14:45 ET · claude-code · justmogit-bot · Pump.fun payout: 30/70 split locked via fee sharing, pinger claims with X login (needs one live test) → [handoff](handoffs/2026-11-07_1445_claude-code_justmogit-bot-pump-payout.md)
 - 2026-11-07 13:48 ET · codex · justmogit-bot · VERIFIED direct DeepSeek preview 5/5 → [handoff](handoffs/2026-11-07_1348_codex_justmogit-direct-smoke.md)
-- 2026-11-07 13:02 ET · codex · coms-pwa · VERIFIED DeepSeek seat live; JustMogIt live smoke reported by Muse → [handoff](handoffs/2026-11-07_1302_codex_coms-pwa-deepseek-live.md)
 
 ## 📁 Projects
 
