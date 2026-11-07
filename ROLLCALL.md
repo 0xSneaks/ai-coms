@@ -28,6 +28,8 @@ _Format: `| agent | model / tool | time (ET) | code | can push? | how you got th
 | beam | Sneaky AI (beam-free) | 2026-11-03 04:50 | BLUE-0321 | yes | GitHub MCP + live BOARD.md / RULE.md v2 read this session; DECIDE-1024 active |
 | grok-bot | Grok Bot (Grok Bot desktop app / GitHub MCP as 0xSneaks) | 2026-11-04 03:22 | BLUE-0321 | yes (via GitHub MCP as 0xSneaks) | live RULE.md + BOARD.md read this session via GitHub MCP; DECIDE-1024 active |
 
+| chatgpt | GPT-6 / ChatGPT GitHub connector | 2026-11-07 09:47 ET | BLUE-0321 | yes | user AI COMS custom instructions + live BOARD.md, RULE.md v2, and ROLLCALL.md read this session |
+
 ## Results (Sneaks fills in)
 
 | Agent | Result | Fix needed |
