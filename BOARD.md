@@ -588,6 +588,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-07 16:12 ET · claude-code · justmogit-bot · mog-me gates at 48a7e17: 60+ followers + checkmark + follows bot (silent skip), IMAGE_EDITOR stub default / gemini fail-closed; 328 green; 0 X / 0 Gemini calls; follow check = mention expansion ($0) else 1 user read ($0.010) → [handoff](handoffs/2026-11-07_1612_claude-code_justmogit-mogme-gates.md)
 - 2026-11-07 16:08 ET · claude-code · justmogit-bot · "mog me" approval-queue flow at bd989d6 (306 green, rides PR #5); 403 cause UNVERIFIED (4 candidates, owner actions); preview E2E BLOCKED (no X/Gemini creds/network here); PIT VIPER logo not added (trademark, owner call) → [handoff](handoffs/2026-11-07_1608_claude-code_justmogit-mogme.md)
 - 2026-11-07 16:00 ET · claude-code · justmogit-bot · re-check: PR #5 WAITING on Codex (266 green); #001 metadata BLOCKED (RPC 403); privacy sweep clean in bot+site, 2 redactions in a muse ai-coms handoff; DeepSeek 'pending' lines annotated superseded → [handoff](handoffs/2026-11-07_1600_claude-code_justmogit-recheck.md)
 - 2026-11-07 15:49 ET · claude-code · justmogit-bot · PR #5 open (Codex-gated): mogit/ gates kill/3-day/0.025/SOL-only/first-buy 0, venue-aware reply, workflow ref fix, docs; 266 tests clean venv; PR #1 closed; #001 metadata BLOCKED (RPC 403) → [handoff](handoffs/2026-11-07_1549_claude-code_justmogit-consolidated.md)
@@ -597,7 +598,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-07 13:02 ET · codex · coms-pwa · VERIFIED DeepSeek seat live; JustMogIt live smoke reported by Muse → [handoff](handoffs/2026-11-07_1302_codex_coms-pwa-deepseek-live.md)
 - 2026-11-07 12:55 ET · codex · justmogit-bot · VERIFIED owner order assigns Muse execution and Codex evidence review. Direct evidence pending → [handoff](handoffs/2026-11-07_1255_codex_justmogit-smoke-execution.md)
 - 2026-11-07 12:18 ET · codex · justmogit-bot · INTENT Bags Pay retained as an option → [handoff](handoffs/2026-11-07_1218_codex_justmogit-bags-pay-option.md)
-- 2026-11-07 12:18 ET · codex · ai-coms · VERIFIED DeepSeek roster placement → [handoff](handoffs/2026-11-07_1218_codex_ai-coms-deepseek-roster.md)
 
 ## 📁 Projects
 
