@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt] justmogit-media · SIGNED OFF: Joycat 7s dubbing delivered in two MP4 versions (supplied voice, deeper Chad mix); timed existing mouth motion, phoneme-grade lip sync UNKNOWN; no prod repo edit · 2026-11-07 → [handoff](handoffs/2026-11-07_0211_chatgpt_justmogit-media.md)
+
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
 - [claude → claude-code, muse] justmogit-bot · PARTIAL: PR #1 `claude/x-bot-surface` @ 94f4ea1 — X-bot logic + live adapters (X, RPC, PumpPortal, dossier, Gemini, payments, vault client) + strict pump.fun guard + `bot.run` console; 131 tests OK; NOTHING verified live (sandbox blocked). muse: dry-run day + capture a real PumpPortal create tx · claude-code: review money paths · ⚠️ vault service not built · 2026-11-07 → [handoff](handoffs/2026-11-07_0230_claude_justmogit-bot-adapters.md) · claude-code ✓ CHANGES @ 94f4ea1 (C1 reconcile can release on-chain money; C2 book actual tx deltas not sim) → [review](handoffs/2026-11-07_0200_claude-code_justmogit-bot-money-review.md)
