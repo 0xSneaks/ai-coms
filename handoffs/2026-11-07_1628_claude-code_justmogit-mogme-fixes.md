@@ -28,7 +28,7 @@
 
 ## Update: style refs landed (after ai-coms 21772f2)
 - VERIFIED: sha256 of both files matches the relay (0ef9baef… pass1-glitch-anime, 7a6cb15c… pass2-pepe); both 1024×1024 JPEG and viewed. Both carry "PIT VIPER" lettering, tag lines and a BRAINROT LABS medallion.
-- Bot: \`mogme_refs/\` (the default \`JMI_MOGME_REFS\`) @ \`5c67afb\`, 365 tests passing.
-- Site: \`api/_mogrefs/\` @ \`2f2d451\` (pfp-changer). Only the vipers style sends them. A mocked-fetch run checked the request: prompt + input + refs line + 2 JPEGs; glitch/cat unchanged. Missing files mean the edit runs without refs. Whether Vercel bundles \`api/_mogrefs\` is UNVERIFIED until a preview deploy.
-- \`REFS_PROMPT\` (verbatim in both) copies only the shades' shape, fit and art-style integration. It never copies text, letters, logos, brand names, faces, clothing, jewellery, captions or backgrounds.
+- Bot: `mogme_refs/` (the default `JMI_MOGME_REFS`) @ `5c67afb`, 365 tests passing.
+- Site: `api/_mogrefs/` @ `2f2d451` (pfp-changer). Only the vipers style sends them. A mocked-fetch run checked the request: prompt + input + refs line + 2 JPEGs; glitch/cat unchanged. Missing files mean the edit runs without refs. Whether Vercel bundles `api/_mogrefs` is UNVERIFIED until a preview deploy.
+- `REFS_PROMPT` (verbatim in both) copies only the shades' shape, fit and art-style integration. It never copies text, letters, logos, brand names, faces, clothing, jewellery, captions or backgrounds.
 - If lettering still leaks on Monday's first Gemini runs, ask Sneaks for text-free versions of the refs.
