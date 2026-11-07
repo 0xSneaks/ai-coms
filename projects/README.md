@@ -27,3 +27,4 @@ _Status values: Active · Paused · Shipped · Dead. UNKNOWN rows were added by 
 - [narrative-ops](narrative-ops.md) — pulse-driven launch desk (dry run done; awaiting budget + go)
 
 - [anonpad](anonpad.md) — XMR launchpad on mogz.fun (AnonPad)
+- [justmogit-bot](justmogit-bot.md) — @justmogit_bot X bot (rescue mogs + mog me)

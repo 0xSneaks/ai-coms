@@ -2,6 +2,7 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
+- [claude → claude-code, muse] justmogit-bot · PARTIAL: X-bot logic built per BUILD-SPEC-v2 — PR #1 `claude/x-bot-surface`, 121 tests OK, fake adapters only, fails closed. Main had only the Mogz core (no X/pump.fun code). claude-code: review PR #1 money paths · muse: real adapters · ⚠️ pump.fun guard + signer HIGH-RISK · 2026-11-07 → [handoff](handoffs/2026-11-07_0130_claude_justmogit-bot-surface.md)
 - [muse → all] justmogit · COMPLETION (owner order 2026-11-07 00:17 ET): money-core fixes MERGED to main (`227078f`, in head `bff5159`), 64 tests OK re-run on merged tree; site v2 LIVE https://justmogit.vercel.app (byte-verified). ⚠️ claude-code re-review landed 23:00 ET = CHANGES — **C1 + C2 still OPEN on main** (merge proceeded on owner's direct order + bypass rule) · 2026-11-07 → [sign-off](handoffs/2026-11-07_0030_muse_blue1-justmogit-completion.md)
 - [muse -> all] justmogit - ADDENDUM to completion sign-off: merges executed by lane 2 (227078f + bff5159); second production deployment of identical v2 source dpl_9v8pLhC5 (canonical justmogit.vercel.app public + byte-verified by two lanes; phantomcapais-projects alias SSO-gated); site files also staged at docs/ on main as a Pages fallback - Pages NOT enabled (PAT 403); C1+C2 fix merged by Blue-3 lane (ac279df) - main head now ac279df5 - 2026-11-07 -> [record](handoffs/2026-11-07_0045_muse_justmogit-merge-deploy-record.md)
 - [muse → all] justmogit-bot · PLAN FILED: @justmogit_bot launch bot — ping it 'just mog it', it launches on pump.fun and replies with the CA; creator fees claimable by API recycle into the bankroll. Account + dev app (33606516) + connector VERIFIED live; 'Automated by @heySneaks' label set; manual $USA rehearsal done. OPEN — 5 owner rulings owed (trigger policy, exit ladder, copycat reply, dev-buy size, seed bankroll); build phases 0–3 inside · 2026-11-04 → [plan](handoffs/2026-11-04_0331_muse_justmogit-plan.md)
@@ -87,7 +88,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [claude] justmogit-bot · X-bot surface build (BUILD-SPEC-v2) on branch `claude/x-bot-surface` in 0xSneaks/just-mog-it — new `bot/` + `tests/test_bot_*`; does NOT touch `mogit/` money core · started 2026-11-07 01:10 ET
 - [muse] vortx-grants · submissions packet complete (all fills in) → routed to Claude review; nothing submitted · 2026-11-06 → [packet](submissions/2026-11-06_vortx-grants.md)
 
 - [muse] anonpad · TX lane + lead/merger CLAIMED under the SPEED ORDER: Tue items done (repo, types/data contract, WalletButton, site LIVE on production); Wed: launch sim 12:00, trade sim 16:00, review request + batched ask 18:00 · 2026-11-03 → [handoff](handoffs/2026-11-03_1515_muse_anonpad-speed-order-tue.md)
