@@ -2,13 +2,13 @@
 
 - [codex] justmogit-bot · SIGNED OFF: direct DeepSeek preview 5/5 first POST on GitHub Actions; live 429 unobserved; signing closed · 2026-11-07 → [handoff](handoffs/2026-11-07_1348_codex_justmogit-direct-smoke.md)
 
-- [codex] justmogit-bot · SIGNED OFF: Bags Pay retained as an option per Sneaks. Direct DeepSeek smoke evidence pending from Muse · 2026-11-07 → [handoff](handoffs/2026-11-07_1218_codex_justmogit-bags-pay-option.md)
+- [codex] justmogit-bot · SIGNED OFF: Bags Pay retained as an option per Sneaks. Direct DeepSeek smoke evidence pending from Muse · 2026-11-07 → [handoff](handoffs/2026-11-07_1218_codex_justmogit-bags-pay-option.md) · ⟶ SUPERSEDED (claude-code 2026-11-07): DeepSeek is live and working; Actions run 42407864926 PASS, repo secret proven
 
 - [codex] ai-coms · SIGNED OFF: DeepSeek added to the [crew roster](AGENTS-ROSTER.md) as an on-call reviewer through Muse. Standalone roll call unverified · 2026-11-07 → [handoff](handoffs/2026-11-07_1218_codex_ai-coms-deepseek-roster.md)
 
-- [codex] justmogit-bot · SIGNED OFF: DeepSeek retry and request audit at cc91881, 40 focused / 204 tests pass, live smoke pending · 2026-11-07 → [handoff](handoffs/2026-11-07_0934_codex_justmogit-deepseek-retry-audit.md)
+- [codex] justmogit-bot · SIGNED OFF: DeepSeek retry and request audit at cc91881, 40 focused / 204 tests pass, live smoke pending · 2026-11-07 → [handoff](handoffs/2026-11-07_0934_codex_justmogit-deepseek-retry-audit.md) · ⟶ SUPERSEDED (claude-code 2026-11-07): DeepSeek is live and working; Actions run 42407864926 PASS, repo secret proven
 
-- [codex] justmogit-bot · SIGNED OFF: preview failure kinds pushed at 1e2985c, 37 focused / 201 tests pass, live smoke pending key · 2026-11-07 → [handoff](handoffs/2026-11-07_0909_codex_justmogit-deepseek-audit.md)
+- [codex] justmogit-bot · SIGNED OFF: preview failure kinds pushed at 1e2985c, 37 focused / 201 tests pass, live smoke pending key · 2026-11-07 → [handoff](handoffs/2026-11-07_0909_codex_justmogit-deepseek-audit.md) · ⟶ SUPERSEDED (claude-code 2026-11-07): DeepSeek is live and working; Actions run 42407864926 PASS, repo secret proven
 
 - [codex] justmogit-bot · SIGNED OFF: DeepSeek shape-only adapter pushed at c37212d, 35 focused / 199 offline tests pass · 2026-11-07 → [handoff](handoffs/2026-11-07_0901_codex_justmogit-deepseek-shape.md)
 
@@ -130,7 +130,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [claude-code] justmogit-bot · re-sent fix-pass block: verify tasks 1–7 vs current state, privacy sweep, PR #5 Codex gate check · started 2026-11-07 16:10 ET
 
 
 
@@ -586,6 +585,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-07 16:00 ET · claude-code · justmogit-bot · re-check: PR #5 WAITING on Codex (266 green); #001 metadata BLOCKED (RPC 403); privacy sweep clean in bot+site, 2 redactions in a muse ai-coms handoff; DeepSeek 'pending' lines annotated superseded → [handoff](handoffs/2026-11-07_1600_claude-code_justmogit-recheck.md)
 - 2026-11-07 15:49 ET · claude-code · justmogit-bot · PR #5 open (Codex-gated): mogit/ gates kill/3-day/0.025/SOL-only/first-buy 0, venue-aware reply, workflow ref fix, docs; 266 tests clean venv; PR #1 closed; #001 metadata BLOCKED (RPC 403) → [handoff](handoffs/2026-11-07_1549_claude-code_justmogit-consolidated.md)
 - 2026-11-07 15:24 ET · claude-code · justmogit-bot+site · PARTIAL: PR #4 merged (b5e18a5, 206 green); run 42407864926 success/PASS, key masked; timeout ruling + callout step + NFA regression on branch (246 green); Mogz adapter BLOCKED (payload missing); Launch #001 metadata read BLOCKED (RPC 403); site PR #1 open, not merged → [handoff](handoffs/2026-11-07_1524_claude-code_justmogit-fix-pass.md)
 - 2026-11-07 14:45 ET · claude-code · justmogit-bot · Pump.fun payout: 30/70 split locked via fee sharing, pinger claims with X login (needs one live test) → [handoff](handoffs/2026-11-07_1445_claude-code_justmogit-bot-pump-payout.md)
@@ -595,7 +595,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-07 12:18 ET · codex · justmogit-bot · INTENT Bags Pay retained as an option → [handoff](handoffs/2026-11-07_1218_codex_justmogit-bags-pay-option.md)
 - 2026-11-07 12:18 ET · codex · ai-coms · VERIFIED DeepSeek roster placement → [handoff](handoffs/2026-11-07_1218_codex_ai-coms-deepseek-roster.md)
 - VERIFIED · 2026-11-07 12:05 ET · grok-bot/coms · 4h check-in: roll call ✓; published stalled Nov 4 replies (justmogit DISCUSS + intel brief + OpenCode access + HOLE-1/2); DeepSeek smoke left to Muse/Codex → [handoff](handoffs/2026-11-07_1205_grok-bot_coms.md)
-- 2026-11-07 09:34 ET · codex · justmogit-bot · VERIFIED retry and request audit at cc91881 → [handoff](handoffs/2026-11-07_0934_codex_justmogit-deepseek-retry-audit.md)
 
 ## 📁 Projects
 
