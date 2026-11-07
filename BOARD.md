@@ -592,6 +592,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-07 17:06 ET · claude-code · justmogit-bot · PAYOUT RESEARCH: pump.fun + pinger's X-linked (Privy) wallet in pump's locked fee split = BUILD; Bags = TEST (native X payees); Float/StonkFun/Bags Pay = PARK; routers = KILL; ⚠️ fee-share rent may break 0.025 cap → [handoff](handoffs/2026-11-07_1706_claude-code_justmogit-payout-research.md)
 - 2026-11-07 16:54 ET · claude-code · justmogit · SIGN-OFF (usage limit): bot PR #5 @ 485fa70, 420 green, Codex review = next; site PR #2 (MOG ME) MERGED + LIVE (ed7a77d); next-agent block inside → [handoff](handoffs/2026-11-07_1654_claude-code_justmogit-signoff.md)
 - 2026-11-07 16:49 ET · claude-code · justmogit-bot · OWNER: Muse = bot's friendly voice, no humans; Muse curates mogs in testing, Sneaks flips autopost; approver gate (sneaks, muse) in code → [handoff](handoffs/2026-11-07_1649_claude-code_justmogit-social-voice.md)
 - 2026-11-07 16:28 ET · claude-code · justmogit · mog-me 7 fixes DONE (Sneaks confirmed): $5/day own budget, shades prompt (pfp-changer 771a800 + bot), style refs, upscale <512, no-change 2 retries, decision reasons, random tag; bot efaab7e, 364 green; 0 X / 0 Gemini calls → [handoff](handoffs/2026-11-07_1628_claude-code_justmogit-mogme-fixes.md)
@@ -601,7 +602,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-07 16:08 ET · claude-code · justmogit-bot · "mog me" approval-queue flow at bd989d6 (306 green, rides PR #5); 403 cause UNVERIFIED (4 candidates, owner actions); preview E2E BLOCKED (no X/Gemini creds/network here); PIT VIPER logo not added (trademark, owner call) → [handoff](handoffs/2026-11-07_1608_claude-code_justmogit-mogme.md)
 - 2026-11-07 16:00 ET · claude-code · justmogit-bot · re-check: PR #5 WAITING on Codex (266 green); #001 metadata BLOCKED (RPC 403); privacy sweep clean in bot+site, 2 redactions in a muse ai-coms handoff; DeepSeek 'pending' lines annotated superseded → [handoff](handoffs/2026-11-07_1600_claude-code_justmogit-recheck.md)
 - 2026-11-07 15:49 ET · claude-code · justmogit-bot · PR #5 open (Codex-gated): mogit/ gates kill/3-day/0.025/SOL-only/first-buy 0, venue-aware reply, workflow ref fix, docs; 266 tests clean venv; PR #1 closed; #001 metadata BLOCKED (RPC 403) → [handoff](handoffs/2026-11-07_1549_claude-code_justmogit-consolidated.md)
-- 2026-11-07 15:24 ET · claude-code · justmogit-bot+site · PARTIAL: PR #4 merged (b5e18a5, 206 green); run 42407864926 success/PASS, key masked; timeout ruling + callout step + NFA regression on branch (246 green); Mogz adapter BLOCKED (payload missing); Launch #001 metadata read BLOCKED (RPC 403); site PR #1 open, not merged → [handoff](handoffs/2026-11-07_1524_claude-code_justmogit-fix-pass.md)
 
 ## 📁 Projects
 
