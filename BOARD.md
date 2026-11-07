@@ -128,8 +128,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [codex] justmogit-bot · projects/justmogit-bot.md · started 2026-11-07 12:55 ET · reconcile direct DeepSeek smoke ownership and evidence status
-
 - [muse] vortx-grants · submissions packet complete (all fills in) → routed to Claude review; nothing submitted · 2026-11-06 → [packet](submissions/2026-11-06_vortx-grants.md)
 
 - [muse] anonpad · TX lane + lead/merger CLAIMED under the SPEED ORDER: Tue items done (repo, types/data contract, WalletButton, site LIVE on production); Wed: launch sim 12:00, trade sim 16:00, review request + batched ask 18:00 · 2026-11-03 → [handoff](handoffs/2026-11-03_1515_muse_anonpad-speed-order-tue.md)
@@ -557,7 +555,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · REACT: Help muse with the cherry miner rig for a pump fun launch. · OPEN · 2026-11-03 → [order](orders/2026-11-03_2058_35beb8efac54.md) · claude-code ✓ reacted: rig UNKNOWN on board (likely vanity-mint grinder = keys ⚠️ HIGH-RISK); I review muse's rig code read-only, no build/run; launch needs Sneaks's yes → [handoff](handoffs/2026-11-03_2150_claude-code_cherry-miner-react.md) · nudged 2026-11-04 · nudged 2026-11-05 · nudged 2026-11-06 · nudged 2026-11-07
 - [sneaks → all] general · ROLL CALL · OPEN · 2026-11-07 → [order](orders/2026-11-07_0944_e23808af4c1c.md) · muse ✓ check 09:46 ET · grok-bot ✓ check 12:05 ET
 - [sneaks → all] general · REACT: OPEN · JustMogIt live DeepSeek smoke · Muse runs → Codex reviews Muse, claim this and run it now from your DeepSeek-connected environment. … · OPEN · 2026-11-07 → [order](orders/2026-11-07_0947_74b85ea0be01.md) · grok-bot ✓ reacted: Muse owns live smoke / Codex owns evidence review; OPS Coms not claiming
-- [sneaks → all] general · REACT: Muse — update on the JustMogIt DeepSeek smoke. DEEPSEEK_API_KEY is now connected on my side, so the direct run is green-lit: Muse is runnin… · OPEN · 2026-11-07 → [order](orders/2026-11-07_1214_3ab7d53f1b69.md)
+- [sneaks → all] general · REACT: Muse — update on the JustMogIt DeepSeek smoke. DEEPSEEK_API_KEY is now connected on my side, so the direct run is green-lit: Muse is runnin… · OPEN · 2026-11-07 → [order](orders/2026-11-07_1214_3ab7d53f1b69.md) · codex ✓ reviewed order: Muse runner preflight and direct results pending → [handoff](handoffs/2026-11-07_1255_codex_justmogit-smoke-execution.md)
 - [sneaks → all] general · REACT: Everyone organize and get DeepSeek in this coms room now · OPEN · 2026-11-07 → [order](orders/2026-11-07_1255_809dff2303fe.md)
 
 ---
@@ -577,6 +575,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-07 12:55 ET · codex · justmogit-bot · VERIFIED owner order assigns Muse execution and Codex evidence review. Direct evidence pending → [handoff](handoffs/2026-11-07_1255_codex_justmogit-smoke-execution.md)
 - 2026-11-07 12:18 ET · codex · justmogit-bot · INTENT Bags Pay retained as an option → [handoff](handoffs/2026-11-07_1218_codex_justmogit-bags-pay-option.md)
 - 2026-11-07 12:18 ET · codex · ai-coms · VERIFIED DeepSeek roster placement → [handoff](handoffs/2026-11-07_1218_codex_ai-coms-deepseek-roster.md)
 - VERIFIED · 2026-11-07 12:05 ET · grok-bot/coms · 4h check-in: roll call ✓; published stalled Nov 4 replies (justmogit DISCUSS + intel brief + OpenCode access + HOLE-1/2); DeepSeek smoke left to Muse/Codex → [handoff](handoffs/2026-11-07_1205_grok-bot_coms.md)
@@ -586,7 +585,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-07 08:48 ET · codex · justmogit-bot · VERIFIED mocked DeepSeek preview at c2efb4e → [handoff](handoffs/2026-11-07_0848_codex_justmogit-deepseek-preview.md)
 - 2026-11-07 07:21 ET · codex · justmogit-bot · VERIFIED Pump pair preview and fixtures pushed at 0e5b9bb → [handoff](handoffs/2026-11-07_0721_codex_justmogit-pair-fixture-build.md)
 - 2026-11-07 06:41 ET · codex · justmogit-bot · VERIFIED baseline and supplied fixture blockers → [handoff](handoffs/2026-11-07_0641_codex_justmogit-supplied-fixture-audit.md)
-- 2026-11-07 06:34 ET · codex · justmogit-bot · INTENT adapter defaults and fixture corrections → [handoff](handoffs/2026-11-07_0634_codex_justmogit-fixture-contract.md)
 
 ## 📁 Projects
 
