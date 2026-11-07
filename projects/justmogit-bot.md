@@ -56,6 +56,7 @@
 - Bot logic lives in `bot/`; owner numbers only in `config/policy.yaml`
 
 ## To do
+- ⏸ OWNER (Sneaks 2026-11-07): owner decisions parked to Monday 2026-11-09; buy domain justmog.it first
 - Commit the proven Mogz create payload to just-mog-it, then build the preview-default adapter (Task 1)
 - Run `scripts/read_launch_metadata.py` on env "JustMogIt (bot + site + coms)" (Task 3.4)
 - Owner: merge justmogit-site PR #1 (prod deploy)
