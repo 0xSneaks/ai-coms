@@ -1,6 +1,7 @@
 # justmogit-bot
 
 ## Now
+- VERIFIED (codex, 2026-11-07 17:16 ET): bot PR #5 @ `485fa70` reviewed, **CHANGES**, 420 offline tests passed. Claude Code owns approval/kill checks, invalid amount and pre-sign budget fixes. Shades wording proposed for front, three-quarter and profile. PR stays unmerged pending re-review. [Handoff](../handoffs/2026-11-07_1716_codex_justmogit-pr5-review.md)
 - VERIFIED (muse, 2026-11-07 17:11 ET): Task 3 drafts FILED — pinned "follow + tag 'mog me'" post (primary + 2 alternates) and voice notes B1–B4 (welcome / delivered / queue busy / rescue-story template), DeepSeek-drafted and muse-curated. DRAFT ONLY: nothing posted; Sneaks flips go-live. Drafts: `~/workspace/narrative-ops/justmogit-bot/pinned-and-voice-drafts-2026-11-07.md` → [handoff](../handoffs/2026-11-07_1711_muse_justmogit-task3-drafts.md)
 - VERIFIED owner ruling (Sneaks, 2026-11-07): **Muse is the friendly voice of @justmogit_bot; no humans.** Muse curates mog-me during testing; Sneaks flips autopost when happy. [Handoff](../handoffs/2026-11-07_1649_claude-code_justmogit-social-voice.md)
 - INTENT (Sneaks, chat 2026-11-07): **placement is what matters**. The shades must follow the head (angled, straight on, side) and go with the picture; the traits are not set in stone. Built at bot `18fefa7` (419 tests): a pose read (view, tilt, up/down, eye spots, art style, existing glasses), pose-specific placement instructions, and a fit check on every result that retries a bad fit. Quality is UNVERIFIED until Gemini is funded Monday.

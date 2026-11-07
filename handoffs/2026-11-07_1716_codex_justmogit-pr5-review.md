@@ -1,0 +1,40 @@
+# JustMogIt PR #5 review and shades wording
+
+**VERIFIED — CHANGES @ `485fa7043cb30fc1d058caedce8e8065105b1777`.** [Bot PR #5](https://github.com/0xSneaks/just-mog-it/pull/5) stays open for Claude Code.
+
+## Did
+
+- VERIFIED — Fresh detached checkout at the full SHA above. A new virtual environment installed `requirements.txt`. `python3 -m pytest -q` reported **420 passed in 7.87s** with live credentials absent and Python socket connections blocked.
+- VERIFIED — Reviewed each entry in `docs/REVIEW-NOTES.md` across `mogit/gates.py`, `mogit/flow.py` and `mogit/ledger.py`. The ledger preserves the kill value across writes. A missing kill value blocks the flow, and the flow checks it before building and again under the ledger lock before signing. The daily limit counts settled and pending records, and legacy records without usable timestamps count toward today's limit. The quote requires wrapped SOL and an exact integer zero for the initial purchase. The existing guard pins the wrapped-SOL account and rejects bundled instructions. Ordinary integer simulation deltas above the per-launch cap are refused. See the malformed input exception below.
+- VERIFIED — The DeepSeek preview retries exactly once on timeout, skips after the second timeout and stays preview-only. The warm-up is a boot hook when a preview is wired. The legacy `mogit.bot.listen` is disabled. The live adapters for the `mogit/` CLI are unwired at this revision.
+
+## Changes for Claude Code
+
+1. **VERIFIED — Approval bypass in [bot/mogme_queue.py:760](https://github.com/0xSneaks/just-mog-it/blob/485fa7043cb30fc1d058caedce8e8065105b1777/bot/mogme_queue.py#L760).** With autopost enabled in a local test policy and the fixture kill value OFF, a pending item with no approver reached the fake X client. An item with status `APPROVED` and an invalid stored `approved_by` also reached it. Require both `APPROVED` and a valid stored Sneaks or Muse approver at dispatch, regardless of the autopost setting. Update [tests/test_mogme_queue.py:226](https://github.com/0xSneaks/just-mog-it/blob/485fa7043cb30fc1d058caedce8e8065105b1777/tests/test_mogme_queue.py#L226), which currently expects the bypass. Cover missing and invalid stored approvers.
+2. **VERIFIED — Stale kill check in [bot/mogme_queue.py:758](https://github.com/0xSneaks/just-mog-it/blob/485fa7043cb30fc1d058caedce8e8065105b1777/bot/mogme_queue.py#L758) and [bot/mogme_queue.py:782](https://github.com/0xSneaks/just-mog-it/blob/485fa7043cb30fc1d058caedce8e8065105b1777/bot/mogme_queue.py#L782).** The batch reads kill once. A fake media upload set the fixture's kill value ON, and the reply still reached fake X. Recheck for each item immediately before upload and again before reply. Cover a stop during upload and a stop between queued items. Preserve the `POSTING` hold when a reply outcome is ambiguous.
+3. **VERIFIED — Invalid amounts reach the signer boundary in [mogit/gates.py:46](https://github.com/0xSneaks/just-mog-it/blob/485fa7043cb30fc1d058caedce8e8065105b1777/mogit/gates.py#L46), [mogit/flow.py:111](https://github.com/0xSneaks/just-mog-it/blob/485fa7043cb30fc1d058caedce8e8065105b1777/mogit/flow.py#L111) and [mogit/flow.py:145](https://github.com/0xSneaks/just-mog-it/blob/485fa7043cb30fc1d058caedce8e8065105b1777/mogit/flow.py#L145).** A negative SOL quote passed with a zero simulation delta. A fractional simulation delta over the per-launch cap was truncated down to the cap. Both reached a sentinel at the stub signer entry. Validate quote amounts and exact whole-lamport simulation deltas before conversion, with controlled refusal for malformed input. Cover the two reproductions and retain the exact-cap pass.
+4. **VERIFIED — Lifetime cap is checked against the wrong amount before signing in [mogit/flow.py:144](https://github.com/0xSneaks/just-mog-it/blob/485fa7043cb30fc1d058caedce8e8065105b1777/mogit/flow.py#L144).** A mocked quote fit under the remaining cap, but the pinned card cost including simulated fees exceeded it. The sentinel at the signer entry was reached because `reserve(cost)` checks that cost only afterward. Check the exact pinned card cost under the existing ledger lock before the signer. Keep the pending record before submission, and test that an over-budget card never calls the signer.
+
+**UNVERIFIED —** The CLI takes the approver name from its arguments. The live operator boundary that restricts who can use the approval command was outside this offline review.
+
+## Shades wording for Task 2
+
+**VERIFIED —** The generic `PLACEMENT_PROMPT` follows the pose-specific instructions and then asks for “both lenses” and full face width, including on a profile. The checker sees the edited image with expected view and roll, and uses the existing five boolean fields. A missing checker verdict is queued as `fit_unchecked`.
+
+**INFERENCE — Suggested wording, text only**
+
+- **`POSE_PROMPT`** — “Read the main face in the first image. Use the direction the nose, muzzle, or beak points for viewer-left or viewer-right. Report eye centers from the top-left, ordered by horizontal position. Include only eyes with a visible center. Never guess an eye hidden by the head, fur, hair, or a crop. Use low confidence when the face landmarks disagree.”
+- **`placement_prompt`, front** — “Fit one continuous shield across the visible eye line. Center its bridge on the upper nose or muzzle and match the actual spacing and tilt of the eyes. Let each arm disappear naturally behind hair, fur, or the ear.”
+- **`placement_prompt`, three-quarter** — “Keep the near side wider and compress the far side along the turn. Let the nose, hair, and face silhouette hide the far edge wherever the source pose requires it. Anchor the near arm from the temple toward the visible ear. Show the far arm only if the source pose leaves it visible.”
+- **`placement_prompt`, profile** — “Use one visible side of the wraparound shield around the visible eye. Follow the forehead and nose or muzzle contour. Run the near arm from the temple toward the ear, tucking it behind hair or fur. Omit the hidden far side and keep the nose tip and mouth clear.”
+- **`VIPERS_PROMPT` and the shared fit instruction** — “Use the first image for face shape, pose, lighting, and palette. Fit the shield over the visible eye region only. Preserve the original crop, face, expression, and head angle. Match the source's line weight, texture, and lighting. References guide frame shape only. Apply lettering only when the selected trait calls for it.” Replace “both lenses” in the trailing fit instruction with “the visible portion of the shield covers the visible eye region.” Preserve the existing trait substitution.
+- **`CHECK_PROMPT`** — “Mark eye coverage false if the shield floats above the eye line, misses a visible eye, or adds a far lens on a profile. Mark head-angle match false if the frame faces front on a turned head, ignores visible tilt or pitch, or the near arm misses the temple. A bridge on the upper nose is normal. Mark nose or mouth coverage true only if the shield obscures the nose tip, nostrils, muzzle opening, or mouth.” Keep the existing JSON keys.
+
+**UNVERIFIED —** Real Gemini fit and palette quality. When owner-approved testing opens, compare the source and edit on front, both three-quarter directions, and both profiles. Include a tilted head and an animal or cartoon. Keep an unchecked fit in manual review.
+
+## State, decision and next step
+
+- VERIFIED — Bot PR #5 remains unmerged. No bot or site source edits. All reproductions used fakes and stopped at the stub signer entry. No live X, Gemini, or transaction calls.
+- VERIFIED — Muse filed the pinned-post and voice drafts under [the Task 3 handoff](2026-11-07_1711_muse_justmogit-task3-drafts.md). Publication remains owner-controlled.
+- INFERENCE — Claude Code should fix the four items on PR #5, add the targeted regressions, and request Codex re-review at the new head SHA. Treat the shades wording as a separate text-only review deliverable.
+- Don't merge the bot PR before a fresh approval and green suite. Site merges and go-live remain with Sneaks.
