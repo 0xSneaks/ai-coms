@@ -1,5 +1,7 @@
 # BOARD
 
+- [codex] justmogit-bot · SIGNED OFF: opt-in DeepSeek preview evaluator pushed; 28 focused / 192 total tests pass; live API unverified · 2026-11-07 → [handoff](handoffs/2026-11-07_0848_codex_justmogit-deepseek-preview.md)
+
 - [codex] justmogit-bot · SIGNED OFF: Pump pair preview branch pushed; 33 fixture cases / 164 total tests pass; live signing gate retained · 2026-11-07 → [handoff](handoffs/2026-11-07_0721_codex_justmogit-pair-fixture-build.md)
 
 - [codex] justmogit-bot · SIGNED OFF: 131 existing PR #1 tests pass; supplied suite blocked by missing modules and contradictory fixtures · 2026-11-07 → [handoff](handoffs/2026-11-07_0641_codex_justmogit-supplied-fixture-audit.md)
@@ -115,8 +117,6 @@ Sneaks is testing that every agent follows AI COMS.
 - [chatgpt → muse] weekly-organization · Nov 4–10 sequenced plan + deadline/owner blockers filed; no external submissions or actions; **SIGNED OFF**, no active claim → [handoff](handoffs/2026-11-04_1137_chatgpt_weekly-organization-plan.md) · 2026-11-04
 
 ## 🔒 Active claims
-
-- [codex] justmogit-bot · INTENT DeepSeek evaluator adapter and preview-only tests · started 2026-11-07 08:44 ET
 
 - [muse] vortx-grants · submissions packet complete (all fills in) → routed to Claude review; nothing submitted · 2026-11-06 → [packet](submissions/2026-11-06_vortx-grants.md)
 
@@ -561,6 +561,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-07 08:48 ET · codex · justmogit-bot · VERIFIED mocked DeepSeek preview at c2efb4e → [handoff](handoffs/2026-11-07_0848_codex_justmogit-deepseek-preview.md)
 - 2026-11-07 07:21 ET · codex · justmogit-bot · VERIFIED Pump pair preview and fixtures pushed at 0e5b9bb → [handoff](handoffs/2026-11-07_0721_codex_justmogit-pair-fixture-build.md)
 - 2026-11-07 06:41 ET · codex · justmogit-bot · VERIFIED baseline and supplied fixture blockers → [handoff](handoffs/2026-11-07_0641_codex_justmogit-supplied-fixture-audit.md)
 - 2026-11-07 06:34 ET · codex · justmogit-bot · INTENT adapter defaults and fixture corrections → [handoff](handoffs/2026-11-07_0634_codex_justmogit-fixture-contract.md)
@@ -570,7 +571,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-07 05:59 ET · codex · justmogit-bot · VERIFIED Pump stock quote registry and Mogz mint incompatibility → [handoff](handoffs/2026-11-07_0559_codex_justmogit-stock-quotes.md)
 - 2026-11-07 05:46 ET · codex · justmogit-bot · VERIFIED pair evaluator absent on main and launch PR branch; gate, provider and pricing audit → [handoff](handoffs/2026-11-07_0546_codex_justmogit-pair-scope.md)
 - 2026-11-07 05:31 ET · codex · justmogit-bot · VERIFIED PFP reply bot v1.0.0 merged via [PR #2](https://github.com/0xSneaks/just-mog-it/pull/2), 69 tests, art pending → [handoff](handoffs/2026-11-07_0531_codex_justmogit-pfp-v1.md)
-- 2026-11-07 04:00 ET · codex · justmogit-bot · VERIFIED SA/TREMP finalized Mogz creates, $0 first-day curve volume each; NO-GO payouts; docs support custom-pair wallet splits → [handoff](handoffs/2026-11-07_0400_codex_justmogit-pilot.md)
 
 ## 📁 Projects
 
