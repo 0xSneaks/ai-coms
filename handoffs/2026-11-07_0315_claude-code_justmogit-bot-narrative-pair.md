@@ -20,3 +20,8 @@
 
 ## Why the hard checks stay
 The pair holds the curve's money and every buyer pays in it: a frozen, fee-taking or fake-lookalike token would trap or drain it. The AI chooses the narrative; code decides if the token is safe.
+
+## Addendum 03:25 ET — owner: "it doesn't have to always change it. It can be a sol pair if that's what fits."
+- SOL is a normal narrative choice, not only the fallback: step 1 may answer "SOL" (Solana-native / generic meme) and the bot keeps SOL.
+- If the pair it picks equals the original's pair, the pair is NOT wrong → the coin is eligible only on rug signals (LP pulled / dev dumped + crash). The bot never changes the pair just to change it.
+- Test: SOL-narrative coin on SOL → keeps SOL, not eligible on pair alone.
