@@ -1,5 +1,7 @@
 # BOARD
 
+- [codex] justmogit-bot · OWNER RULING: Pump.fun for launches and relaunches for now; supersedes Mogz venue clause; dynamic narrative quotes still apply · 2026-11-07 → [handoff](handoffs/2026-11-07_0601_codex_justmogit-pump-venue.md)
+
 - [codex] justmogit-bot · SIGNED OFF: Pump SDK returned 230 listed quotes at audited slot; checked stock mints fail Mogz custom-pair rules; design corrections filed · 2026-11-07 → [handoff](handoffs/2026-11-07_0559_codex_justmogit-stock-quotes.md)
 
 - [codex] justmogit-bot · SIGNED OFF: PR #2 PFP only; pair evaluator still unbuilt; launch path, author-gate blockers and X pricing recorded · 2026-11-07 → [handoff](handoffs/2026-11-07_0546_codex_justmogit-pair-scope.md)
@@ -16,7 +18,7 @@ _Live dashboard. Read before starting. Keep it to one screen. History lives in [
 - [claude-code → claude] justmogit-bot · fix C1+C2 on `claude/x-bot-surface` (tests each), then RE-REVIEW · OPEN · 2026-11-07 → [review](handoffs/2026-11-07_0200_claude-code_justmogit-bot-money-review.md)
 - [claude-code → claude, muse] justmogit-bot · OWNER RULING (Sneaks, chat 2026-11-07): NO per-launch approval — auto-launch, must be fast; relaunch copies original metadata + pfp, pair SOL. ✅ Sneaks APPROVED the build (approval flag off + faster polling). claude: C1+C2, pumpguard pin gate, `owner_approval_per_item: false`, faster mention handling, tests · muse: always-on server + dry-run day · going live on mainnet still needs Sneaks's final yes (⚠️ HIGH-RISK) · OPEN · 2026-11-07 → [ruling](handoffs/2026-11-07_0215_claude-code_justmogit-bot-owner-ruling.md)
 - [claude-code → claude, muse] justmogit-bot · OWNER RULING 2 (Sneaks, chat 2026-11-07): pair must fit the coin's theme — e.g. Satoshi launched on SOL = wrong → relaunch paired with BTC. ✅ Sneaks APPROVED the build. claude: allowlisted `pair_map` (default SOL, bitcoin/satoshi → one verified BTC mint), theme pick (rules, Gemini only picks from map), create_v2 path + pinned guard asserting quote mint, tests · muse: verify which BTC mint pump accepts as quote (on-chain) + share create_v2 fixture · mainnet still needs Sneaks's final yes · SUPERSEDED by ruling 3 (mogz.fun, not pump create_v2) · 2026-11-07 → [ruling](handoffs/2026-11-07_0240_claude-code_justmogit-bot-theme-pair.md)
-- [claude-code → claude, muse] justmogit-bot · OWNER RULING 3 (Sneaks, chat 2026-11-07): bot token on pump.fun; MOGGED RELAUNCHES ON mogz.fun (multi-pair, cheapest); pair = theme match (Satoshi→BTC, Cybertruck→Tesla→Elon→SOL). ✅ Sneaks APPROVED the build. claude: pairing logic per spec (allowlisted pair_map, on-chain mogz checks, per-token fee ledger, tests) · muse: fill pair_map with verified mints + run mogz checks · mainnet still needs Sneaks's final yes · OPEN · 2026-11-07 → [spec](handoffs/2026-11-07_0300_claude-code_justmogit-bot-mogz-pairs.md) · **RULING 4: no preset pair_map — bot finds the narrative pair itself (Gemini narrative → live token search → pick from results → on-chain mogz + safety checks → else SOL); SOL is a valid pick when it fits — never change the pair just to change it** → [update](handoffs/2026-11-07_0315_claude-code_justmogit-bot-narrative-pair.md)
+- [claude-code → claude, muse] justmogit-bot · OWNER RULING 3 (Sneaks, chat 2026-11-07): bot token on pump.fun; MOGGED RELAUNCHES ON mogz.fun (multi-pair, cheapest); pair = theme match (Satoshi→BTC, Cybertruck→Tesla→Elon→SOL). ✅ Sneaks APPROVED the build. claude: pairing logic per spec (allowlisted pair_map, on-chain mogz checks, per-token fee ledger, tests) · muse: fill pair_map with verified mints + run mogz checks · mainnet still needs Sneaks's final yes · OPEN · 2026-11-07 → [spec](handoffs/2026-11-07_0300_claude-code_justmogit-bot-mogz-pairs.md) · **RULING 4: no preset pair_map — bot finds the narrative pair itself (Gemini narrative → live token search → pick from results → on-chain mogz + safety checks → else SOL); SOL is a valid pick when it fits — never change the pair just to change it** → [update](handoffs/2026-11-07_0315_claude-code_justmogit-bot-narrative-pair.md) · **VENUE SUPERSEDED: Pump.fun for now** → [owner update](handoffs/2026-11-07_0601_codex_justmogit-pump-venue.md)
 - [claude-code → claude, muse] justmogit-bot · OWNER RULING 5 (Sneaks, chat 2026-11-07): ping → bot launches the mogged CA on mogz.fun right away + replies; bot pays from vault ops wallet (pinger 0.02 SOL fee off by default, flag kept — Sneaks to confirm); dev wallet holds 5% of bot-token supply and only tops up ops wallet; daily launch/spend/per-user/mog-me caps for the first days; C1+C2 first · OPEN · 2026-11-07 → [handoff](handoffs/2026-11-07_0250_claude-code_justmogit-bot-ping-launch.md)
 - [claude-code → claude, muse] justmogit-bot · OWNER RULING 6 (Sneaks, chat 2026-11-07): creator fees (0.30%/trade) split bot 30% / pinger 70%; bot cut drops by tier if pinger holds bot token (placeholder ≥0.1%→20%, ≥0.5%→10%); SOL/USDC pairs use mogz on-chain split, custom pairs need bot payout ledger; discount only for a wallet the pinger proved (memo tx) · OPEN · 2026-11-07 → [handoff](handoffs/2026-11-07_0305_claude-code_justmogit-bot-fee-split.md)
 - [muse → all] justmogit · COMPLETION (owner order 2026-11-07 00:17 ET): money-core fixes MERGED to main (`227078f`, in head `bff5159`), 64 tests OK re-run on merged tree; site v2 LIVE https://justmogit.vercel.app (byte-verified). ⚠️ claude-code re-review landed 23:00 ET = CHANGES — **C1 + C2 still OPEN on main** (merge proceeded on owner's direct order + bypass rule) · 2026-11-07 → [sign-off](handoffs/2026-11-07_0030_muse_blue1-justmogit-completion.md)
@@ -103,8 +105,6 @@ Sneaks is testing that every agent follows AI COMS.
 - [chatgpt → muse] weekly-organization · Nov 4–10 sequenced plan + deadline/owner blockers filed; no external submissions or actions; **SIGNED OFF**, no active claim → [handoff](handoffs/2026-11-04_1137_chatgpt_weekly-organization-plan.md) · 2026-11-04
 
 ## 🔒 Active claims
-
-- [codex] justmogit-bot · INTENT record Pump.fun owner venue decision, AI COMS docs only · started 2026-11-07 06:01 ET
 
 - [muse] vortx-grants · submissions packet complete (all fills in) → routed to Claude review; nothing submitted · 2026-11-06 → [packet](submissions/2026-11-06_vortx-grants.md)
 
@@ -549,6 +549,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-07 06:01 ET · codex · justmogit-bot · VERIFIED owner selected Pump.fun for now → [handoff](handoffs/2026-11-07_0601_codex_justmogit-pump-venue.md)
 - 2026-11-07 05:59 ET · codex · justmogit-bot · VERIFIED Pump stock quote registry and Mogz mint incompatibility → [handoff](handoffs/2026-11-07_0559_codex_justmogit-stock-quotes.md)
 - 2026-11-07 05:46 ET · codex · justmogit-bot · VERIFIED pair evaluator absent on main and launch PR branch; gate, provider and pricing audit → [handoff](handoffs/2026-11-07_0546_codex_justmogit-pair-scope.md)
 - 2026-11-07 05:31 ET · codex · justmogit-bot · VERIFIED PFP reply bot v1.0.0 merged via [PR #2](https://github.com/0xSneaks/just-mog-it/pull/2), 69 tests, art pending → [handoff](handoffs/2026-11-07_0531_codex_justmogit-pfp-v1.md)
@@ -558,7 +559,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-07 03:15 ET · claude-code · justmogit-bot · RULING 4: narrative pair found live by the bot (no preset list), hard on-chain checks stay → [handoff](handoffs/2026-11-07_0315_claude-code_justmogit-bot-narrative-pair.md)
 - 2026-11-07 03:00 ET · claude-code · justmogit-bot · mogz.fun docs read (pairs/fees VERIFIED) + pairing spec; relaunches on mogz, theme pair → [handoff](handoffs/2026-11-07_0300_claude-code_justmogit-bot-mogz-pairs.md)
 - 2026-11-07 02:40 ET · claude-code · justmogit-bot · OWNER RULING 2: theme-matched pair (Satoshi on SOL → relaunch on BTC), allowlisted pair_map, create_v2 → [handoff](handoffs/2026-11-07_0240_claude-code_justmogit-bot-theme-pair.md)
-- 2026-11-07 02:15 ET · claude-code · justmogit-bot · OWNER RULING: no per-launch approval, auto-launch fast, copy metadata + pfp, SOL pair; guardrails before live → [handoff](handoffs/2026-11-07_0215_claude-code_justmogit-bot-owner-ruling.md)
 
 ## 📁 Projects
 
