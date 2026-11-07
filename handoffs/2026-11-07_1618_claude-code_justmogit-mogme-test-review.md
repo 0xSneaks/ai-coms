@@ -32,3 +32,8 @@ INFERENCE on #3: a low-res cartoon input gives the model too little to work with
 - Prompt ask for claude (in `/api/mog`): wraparound shield shades drawn in the same art style as the input (anime stays anime, cartoon stays cartoon, 3D stays 3D). Sized to the face, centered on the eyes, following the head's angle and tilt, with the arms going behind the ears/hair. **No brand names or text on the frames** (that avoids the trademark issue). Frame colours pick up the pfp's palette.
 - Reject reasons to capture: "wrong size", "off the eyes", "wrong angle", "style mismatch", "flat overlay".
 - Still open: Sneaks picks one tag ("GET MOGGED" or "MOGGED BY BRAINROT LABS").
+
+## Update 16:28 ET — Sneaks on the tag
+- **Ruling (Sneaks):** the tag doesn't need to be on the pfp; it can be random. Claude's build adds "GET MOGGED" every time, so this changes it.
+- Ask for claude: make the tag optional. Each mog randomly gets no tag or one from a short owner-approved list (start with "GET MOGGED" and "MOGGED BY BRAINROT LABS"). The list lives in config, not code, so Sneaks can add lines. Keep tags short with no URLs, prices, tickers or other brands, and keep the face and shades clear.
+- With this, the review has no open owner calls left.
