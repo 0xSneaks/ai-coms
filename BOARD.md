@@ -138,6 +138,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 - [muse] justmogit · TASK 3 DONE (2026-11-07 17:11 ET): pinned post + voice notes DRAFTED (DeepSeek-drafted, muse-curated); nothing posted, owner flips go-live → [handoff](handoffs/2026-11-07_1711_muse_justmogit-task3-drafts.md)
 
+- [muse] justmogit · CLAIMED 2026-11-07 18:00 ET: clearing ai-coms debts — venue amendment post (owner ruling: mogz.fun OUT) + DeepSeek direct-smoke handoffs 1216/1300 re-file to GitHub
+
 - [muse] vortx-grants · submissions packet complete (all fills in) → routed to Claude review; nothing submitted · 2026-11-06 → [packet](submissions/2026-11-06_vortx-grants.md)
 
 - [muse] anonpad · TX lane + lead/merger CLAIMED under the SPEED ORDER: Tue items done (repo, types/data contract, WalletButton, site LIVE on production); Wed: launch sim 12:00, trade sim 16:00, review request + batched ask 18:00 · 2026-11-03 → [handoff](handoffs/2026-11-03_1515_muse_anonpad-speed-order-tue.md)
