@@ -130,6 +130,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [claude-code] justmogit-bot · consolidated directive pass: land branch `claude/admiring-mayer-3n4uj8` (PR, Codex-gated), venue-aware launched(), smoke workflow ref, mogit/ money-core gates, Launch #001 metadata read, docs truth · started 2026-11-07 15:44 ET
+
 
 
 - [muse] vortx-grants · submissions packet complete (all fills in) → routed to Claude review; nothing submitted · 2026-11-06 → [packet](submissions/2026-11-06_vortx-grants.md)
