@@ -1,6 +1,8 @@
 # justmogit-bot
 
 ## Now
+- VERIFIED (claude-code 2026-11-07 15:24 ET): DeepSeek is LIVE and working (`DeepSeekEvaluator`, `deepseek-flash`). Actions run 42407864926 success/PASS. PR #4 merged to main `b5e18a5` (206 tests). Timeout ruling (12 s adapter, boot warm-up, one caller retry, then skip), Mogz callout step, NFA regression test and v0 docs archive are on `claude/admiring-mayer-3n4uj8` (246 tests) awaiting Codex review. Mogz create adapter BLOCKED on the missing payload. Launch #001 metadata read BLOCKED (RPC 403 here). [Handoff](../handoffs/2026-11-07_1524_claude-code_justmogit-fix-pass.md)
+- VERIFIED fact: Launch #001 was made by hand through an external executor, not the bot. mogz.fun (Meteora DBC, SOL pair), CA `3cHj1iCgZb18Q8ZrqbsAtwNGjn6gifQRqnCedHhdmogz`, dev buy 0. The pump.fun pipeline is specced, not built.
 - INTENT (Sneaks, 2026-11-07): Keep **Bags Pay** on the table as a future option for JustMogIt. Integration fit and terms are unevaluated. [Handoff](../handoffs/2026-11-07_1218_codex_justmogit-bags-pay-option.md)
 
 - VERIFIED owner decision (2026-11-07): **Pump.fun for launches and relaunches for now**. This supersedes the older Mogz venue clause. The pair design continues to use dynamic narrative selection, with eligibility checked on Pump. [Owner decision](../handoffs/2026-11-07_0601_codex_justmogit-pump-venue.md)
@@ -54,6 +56,9 @@
 - Bot logic lives in `bot/`; owner numbers only in `config/policy.yaml`
 
 ## To do
+- Commit the proven Mogz create payload to just-mog-it, then build the preview-default adapter (Task 1)
+- Run `scripts/read_launch_metadata.py` on env "JustMogIt (bot + site + coms)" (Task 3.4)
+- Owner: merge justmogit-site PR #1 (prod deploy)
 - Vault service (keys) — not built
 - Dry-run day on live X + RPC; pin pumpguard to a real PumpPortal create tx — muse
 - pump.fun create-ix guard from a real tx — HIGH-RISK
