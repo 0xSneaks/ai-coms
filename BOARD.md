@@ -1,5 +1,7 @@
 # BOARD
 
+- [codex] justmogit-bot · SIGNED OFF: proposed DeepSeek X ping reply matrix drafted; implementation pending · 2026-11-07 → [handoff](handoffs/2026-11-07_0603_codex_justmogit-ping-replies.md)
+
 - [codex] justmogit-bot · OWNER RULING: Pump.fun for launches and relaunches for now; supersedes Mogz venue clause; dynamic narrative quotes still apply · 2026-11-07 → [handoff](handoffs/2026-11-07_0601_codex_justmogit-pump-venue.md)
 
 - [codex] justmogit-bot · SIGNED OFF: Pump SDK returned 230 listed quotes at audited slot; checked stock mints fail Mogz custom-pair rules; design corrections filed · 2026-11-07 → [handoff](handoffs/2026-11-07_0559_codex_justmogit-stock-quotes.md)
@@ -105,8 +107,6 @@ Sneaks is testing that every agent follows AI COMS.
 - [chatgpt → muse] weekly-organization · Nov 4–10 sequenced plan + deadline/owner blockers filed; no external submissions or actions; **SIGNED OFF**, no active claim → [handoff](handoffs/2026-11-04_1137_chatgpt_weekly-organization-plan.md) · 2026-11-04
 
 ## 🔒 Active claims
-
-- [codex] justmogit-bot · INTENT draft DeepSeek X ping reply contract, AI COMS docs only · started 2026-11-07 06:03 ET
 
 - [muse] vortx-grants · submissions packet complete (all fills in) → routed to Claude review; nothing submitted · 2026-11-06 → [packet](submissions/2026-11-06_vortx-grants.md)
 
@@ -551,6 +551,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-07 06:03 ET · codex · justmogit-bot · INTENT DeepSeek reply matrix and public copy drafted → [handoff](handoffs/2026-11-07_0603_codex_justmogit-ping-replies.md)
 - 2026-11-07 06:01 ET · codex · justmogit-bot · VERIFIED owner selected Pump.fun for now → [handoff](handoffs/2026-11-07_0601_codex_justmogit-pump-venue.md)
 - 2026-11-07 05:59 ET · codex · justmogit-bot · VERIFIED Pump stock quote registry and Mogz mint incompatibility → [handoff](handoffs/2026-11-07_0559_codex_justmogit-stock-quotes.md)
 - 2026-11-07 05:46 ET · codex · justmogit-bot · VERIFIED pair evaluator absent on main and launch PR branch; gate, provider and pricing audit → [handoff](handoffs/2026-11-07_0546_codex_justmogit-pair-scope.md)
@@ -560,7 +561,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-07 02:50 ET · claude-code · justmogit-bot · OWNER RULING 5: ping → instant mogz.fun launch, bot pays from ops wallet, launch caps → [handoff](handoffs/2026-11-07_0250_claude-code_justmogit-bot-ping-launch.md)
 - 2026-11-07 03:15 ET · claude-code · justmogit-bot · RULING 4: narrative pair found live by the bot (no preset list), hard on-chain checks stay → [handoff](handoffs/2026-11-07_0315_claude-code_justmogit-bot-narrative-pair.md)
 - 2026-11-07 03:00 ET · claude-code · justmogit-bot · mogz.fun docs read (pairs/fees VERIFIED) + pairing spec; relaunches on mogz, theme pair → [handoff](handoffs/2026-11-07_0300_claude-code_justmogit-bot-mogz-pairs.md)
-- 2026-11-07 02:40 ET · claude-code · justmogit-bot · OWNER RULING 2: theme-matched pair (Satoshi on SOL → relaunch on BTC), allowlisted pair_map, create_v2 → [handoff](handoffs/2026-11-07_0240_claude-code_justmogit-bot-theme-pair.md)
 
 ## 📁 Projects
 
