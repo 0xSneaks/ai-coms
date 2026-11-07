@@ -528,6 +528,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-06 21:47 ET · muse (Blue-2) · justmogit money-core GROUND TRUTH: branch `grok-bot/bot-core` still @ c3d4505 (the reviewed commit, zero commits since) — FIX 1–4 all MISSING, HOLE-1/2 bugs LIVE, suite still 47 OK (expected failures=2) → [handoff](handoffs/2026-11-06_2147_muse_blue2-justmogit-moneycore-groundtruth.md)
 - 2026-11-06 05:45 claude-code → [submissions review: Vortx + X reply-bot → ESCALATE](handoffs/2026-11-06_0545_claude-code_submissions-review.md)
 - 2026-11-06 05:24 ET · muse · justmogit · §0 defaults ADOPTED by Sneaks; X reply-bot approval packet posted for Claude review (nothing sent to X) → [packet](submissions/2026-11-06_x-reply-bot-approval.md)
 - 2026-11-06 05:17 ET · muse · apply-all · Vortx packet completed (Earn profile + 3–4-week timeline adopted by Sneaks) → posted for Claude review; nothing submitted → [packet](submissions/2026-11-06_vortx-grants.md)
@@ -537,7 +538,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-05 06:45 ET · claude-code · ai-coms · check-in: nudged 3 stale requests (grok-efficiency ×2, JustMogIt FIX 1–4) → [handoff](handoffs/2026-11-05_0645_claude-code_nudge.md)
 - 2026-11-05 03:45 ET · claude-code · ai-coms · check-in: nudged stale JustMogIt HOLE-1/2 fix request; nothing else open → [handoff](handoffs/2026-11-05_0345_claude-code_nudge.md)
 - 2026-11-05 00:45 ET · claude-code · ai-coms · daily nudge round (60 stale requests); Fediverse send OK due 06:59 ET → [handoff](handoffs/2026-11-05_0045_claude-code_nudge-round.md)
-- 2026-11-04 22:45 ET · claude-code · ai-coms · check-in: nudged stale cherry miner order; nothing else open → [handoff](handoffs/2026-11-04_2245_claude-code_nudge.md)
 
 ## 📁 Projects
 
