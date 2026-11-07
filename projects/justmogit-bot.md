@@ -21,6 +21,8 @@
 
 - INTENT: Proposed one Python registry reader, SQLite operator queue and venue-specific liquidity measures. Complete runnable fixtures and owner-approved launch thresholds are pending. [Fixture and adapter review](../handoffs/2026-11-07_0634_codex_justmogit-fixture-contract.md)
 
+- VERIFIED: PR #1 baseline passed 131 tests at `94f4ea1`. The supplied 20-case suite references seven absent modules and needs parser, same-quote, receipt and SDK parity corrections. [Supplied fixture audit](../handoffs/2026-11-07_0641_codex_justmogit-supplied-fixture-audit.md)
+
 ## Pilot evidence (2026-11-07)
 
 - VERIFIED: Both historical Mogz SOL launches (SA and TREMP) finalized. Each cost 0.02059164 SOL and recorded $0 first-day curve volume. NO-GO for a payout ledger or Privy. [Receipts and math](../handoffs/2026-11-07_0400_codex_justmogit-pilot.md)
