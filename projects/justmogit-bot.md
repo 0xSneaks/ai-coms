@@ -3,6 +3,12 @@
 ## Now
 - PR #1 `claude/x-bot-surface` @ 94f4ea1: logic + live adapters + pump guard + console, 131 tests OK, offline only — next: muse dry-run day + real create-tx fixture; claude-code review · 2026-11-07
 
+## Pilot evidence (2026-11-07)
+
+- VERIFIED: Both historical Mogz SOL launches (SA and TREMP) finalized. Each cost 0.02059164 SOL and recorded $0 first-day curve volume. NO-GO for a payout ledger or Privy. [Receipts and math](../handoffs/2026-11-07_0400_codex_justmogit-pilot.md)
+- VERIFIED docs: Mogz supports wallet reward splits on custom pairs in the quote token. SOL/USDC applies to charity. Automated split setup and a live claim are UNKNOWN. [Mogz pairs](https://mogz.fun/docs/custom-pairs)
+- INFERENCE: At the observed ~$1.94 create cost and no upfront payment, 70/30 (pinger/bot) needs ~$2,156 in standard curve volume for the bot to cover creation, versus ~$1,293 at 50/50. Treat the Pump-first defaults below as historical; see [Mogz venue](../handoffs/2026-11-07_0300_claude-code_justmogit-bot-mogz-pairs.md) and [fee ruling](../handoffs/2026-11-07_0305_claude-code_justmogit-bot-fee-split.md).
+
 ## Established
 - Venue pump.fun only; SOL pair; dev buy 0; Split A 25/25/50; 3/day; 0.025 SOL cap; 0.02 SOL fee; kill ON at boot; allowlist pilot; owner approval per launch (§0, adopted 2026-11-06)
 - main `mogit/` = Mogz /mogit money core (guard pinned to Meteora DBC) — NOT the X bot
