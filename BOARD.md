@@ -326,6 +326,7 @@ _Stale after 24h with no handoff._
 ---
 
 ## 🚧 Blockers / questions for Sneaks
+- [claude-code → claude] justmogit-bot · OWNER RULING (Sneaks, chat 2026-11-07): "mog me" daily budget $5/day (~72 mogs at ~$0.069); TESTING FIRST: approval queue stays on (autopost false) until Sneaks says testing is done; keep 1/user/24 h + follower gates. claude: set cap in config/policy.yaml, keep mog-me from starving the launch-reply budget · OPEN · 2026-11-07 → [handoff](handoffs/2026-11-07_1615_claude-code_justmogit-mogme-budget.md)
 - [claude-code] justmogit mog-me · (1) X media 403: paste exact error body + endpoint + auth type; check app Read+Write, regenerate OAuth1 token; do the @justmogit_bot app tap with media.write. (2) GEMINI_API_KEY in Vercel + how bot reaches /api/mog (prod URL or bypass secret). (3) PIT VIPER logo on frames = third-party trademark — yes/no. (4) /api/mog is an open Gemini proxy once public — add auth/rate limit before merge? · 2026-11-07 → [handoff](handoffs/2026-11-07_1608_claude-code_justmogit-mogme.md)
 - [claude-code] justmogit · ⏸ PARKED TO MON 2026-11-09 (Sneaks 2026-11-07): buy domain justmog.it FIRST, then all owner decisions below + the 18-item list in the 15:24 handoff · (1) Mogz create payload (quote SOL, firstBuyQuote 0) is in neither repo; commit it to just-mog-it to unblock the adapter. (2) Site PR justmogit-site#1 (venue → mogz.fun) merges to prod: yes/no? (3) Launch #001 metadata read needs a session on env "JustMogIt (bot + site + coms)" (Solana RPC allowed) · 2026-11-07 → [handoff](handoffs/2026-11-07_1524_claude-code_justmogit-fix-pass.md)
 - [claude-code] apply-all · ⚠️ SUBMISSIONS need you (batched): ~~(1) DataBazaar~~ ANSWERED 09:45–10:12: clips recorded, submit with custom reuse term (claude → muse order); ~~(2) Inside the Block~~ ANSWERED 08:27: ASK exception (message approved 08:50); (3) Rocket Pool / Superteam / Zcash / Snorkel / Monero: amounts, payout addresses, handles, and yes/no on each delivery commitment (Zcash M2 means your own phones + real ZEC); ~~(4) Clawlancer + Stellar~~ ANSWERED 08:27: Clawlancer KEPT (read-only check first), Stellar DROPPED · 2026-11-03 → [review](handoffs/2026-11-03_0800_claude-code_submissions-review.md)
@@ -588,6 +589,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-07 16:15 ET · claude-code · justmogit-bot · OWNER RULING: mog-me budget $5/day, testing first (approval queue on, autopost off) → [handoff](handoffs/2026-11-07_1615_claude-code_justmogit-mogme-budget.md)
 - 2026-11-07 16:12 ET · claude-code · justmogit-bot · mog-me gates at 48a7e17: 60+ followers + checkmark + follows bot (silent skip), IMAGE_EDITOR stub default / gemini fail-closed; 328 green; 0 X / 0 Gemini calls; follow check = mention expansion ($0) else 1 user read ($0.010) → [handoff](handoffs/2026-11-07_1612_claude-code_justmogit-mogme-gates.md)
 - 2026-11-07 16:08 ET · claude-code · justmogit-bot · "mog me" approval-queue flow at bd989d6 (306 green, rides PR #5); 403 cause UNVERIFIED (4 candidates, owner actions); preview E2E BLOCKED (no X/Gemini creds/network here); PIT VIPER logo not added (trademark, owner call) → [handoff](handoffs/2026-11-07_1608_claude-code_justmogit-mogme.md)
 - 2026-11-07 16:00 ET · claude-code · justmogit-bot · re-check: PR #5 WAITING on Codex (266 green); #001 metadata BLOCKED (RPC 403); privacy sweep clean in bot+site, 2 redactions in a muse ai-coms handoff; DeepSeek 'pending' lines annotated superseded → [handoff](handoffs/2026-11-07_1600_claude-code_justmogit-recheck.md)
@@ -597,7 +599,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-07 13:48 ET · codex · justmogit-bot · VERIFIED direct DeepSeek preview 5/5 → [handoff](handoffs/2026-11-07_1348_codex_justmogit-direct-smoke.md)
 - 2026-11-07 13:02 ET · codex · coms-pwa · VERIFIED DeepSeek seat live; JustMogIt live smoke reported by Muse → [handoff](handoffs/2026-11-07_1302_codex_coms-pwa-deepseek-live.md)
 - 2026-11-07 12:55 ET · codex · justmogit-bot · VERIFIED owner order assigns Muse execution and Codex evidence review. Direct evidence pending → [handoff](handoffs/2026-11-07_1255_codex_justmogit-smoke-execution.md)
-- 2026-11-07 12:18 ET · codex · justmogit-bot · INTENT Bags Pay retained as an option → [handoff](handoffs/2026-11-07_1218_codex_justmogit-bags-pay-option.md)
 
 ## 📁 Projects
 
