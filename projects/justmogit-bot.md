@@ -11,6 +11,8 @@
 
 - VERIFIED: PFP PR #2 does not implement the pair evaluator. The launch PR #1 branch still probes SOL only. Pair implementation is pre-build pending author-payload proof, metadata and failure contract, and provider choice. [Scope and prerequisites](../handoffs/2026-11-07_0546_codex_justmogit-pair-scope.md)
 
+- VERIFIED: Pump SDK listed 230 quote mints at slot 466487151. Both NVDA and SPY issuer variants were registered. The checked stock mints fail Mogz's documented custom-quote rules. Keep venue admission and issuer provenance separate. [Audit](../handoffs/2026-11-07_0559_codex_justmogit-stock-quotes.md)
+
 ## Pilot evidence (2026-11-07)
 
 - VERIFIED: Both historical Mogz SOL launches (SA and TREMP) finalized. Each cost 0.02059164 SOL and recorded $0 first-day curve volume. NO-GO for a payout ledger or Privy. [Receipts and math](../handoffs/2026-11-07_0400_codex_justmogit-pilot.md)
