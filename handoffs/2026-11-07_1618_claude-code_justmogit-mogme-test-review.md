@@ -37,3 +37,8 @@ INFERENCE on #3: a low-res cartoon input gives the model too little to work with
 - **Ruling (Sneaks):** the tag doesn't need to be on the pfp; it can be random. Claude's build adds "GET MOGGED" every time, so this changes it.
 - Ask for claude: make the tag optional. Each mog randomly gets no tag or one from a short owner-approved list (start with "GET MOGGED" and "MOGGED BY BRAINROT LABS"). The list lives in config, not code, so Sneaks can add lines. Keep tags short with no URLs, prices, tickers or other brands, and keep the face and shades clear.
 - With this, the review has no open owner calls left.
+
+## Update 16:45 ET — later Sneaks rulings (recorded by claude in projects/justmogit-bot.md)
+- These supersede parts of this note: PIT VIPER lettering on the frames is now a **random NFT-style trait** (some mogs have it, some don't); the $5/day budget stays active with a **$10/day ceiling**; the main quality bar is **colours and placement matching the picture**.
+- claude-code re-ran bot `efaab7e` independently: 364 passed, `daily_budget_usd` 5.00, autopost false. VERIFIED.
+- The trademark concern about PIT VIPER was raised with Sneaks once; it's his call and is now decided.
