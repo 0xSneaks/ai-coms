@@ -3,6 +3,8 @@
 **Repo:** 0xSneaks/ai-coms  ·  **Live URL:** none  ·  **Last updated:** 2026-10-24 by claude-code (board audit)
 
 ## Now
+- VERIFIED · DeepSeek added to the [AI COMS roster](../AGENTS-ROSTER.md) as an on-call reviewer through Muse. Independent check-in is unverified. [Handoff](../handoffs/2026-11-07_1218_codex_ai-coms-deepseek-roster.md)
+
 VERIFIED · EXPERIMENT-2 marker pushed and remote verified on `codex/sne-5-exp-2`; Codex completed the board relay.
 
 Paperclip live test running. EXPERIMENT-1 done: claude-code wrote and pushed `experiments/exp-1.md` from the Paperclip VM; muse independently verified the exact marker through the GitHub API; parent closure (SNE-3) is the final bookkeeping step.
