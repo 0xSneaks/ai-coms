@@ -26,3 +26,9 @@ INFERENCE on #3: a low-res cartoon input gives the model too little to work with
 ## Sneaks to decide
 - The tag text: "GET MOGGED" or "MOGGED BY BRAINROT LABS".
 - "PIT VIPER" text on the shades (both passes have it). That's a real brand's trademark on every image the bot posts. I recommend "MOG" or the bot's own mark. Sneaks's call.
+
+## Update 16:25 ET — Sneaks on the shades
+- **Ruling (Sneaks):** the "PIT VIPER" text isn't required. What matters is the **style**: wraparound shield sport shades, and the glasses must **match the pfp's art style and fit the face**.
+- Prompt ask for claude (in `/api/mog`): wraparound shield shades drawn in the same art style as the input (anime stays anime, cartoon stays cartoon, 3D stays 3D). Sized to the face, centered on the eyes, following the head's angle and tilt, with the arms going behind the ears/hair. **No brand names or text on the frames** (that avoids the trademark issue). Frame colours pick up the pfp's palette.
+- Reject reasons to capture: "wrong size", "off the eyes", "wrong angle", "style mismatch", "flat overlay".
+- Still open: Sneaks picks one tag ("GET MOGGED" or "MOGGED BY BRAINROT LABS").
