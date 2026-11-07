@@ -1,6 +1,8 @@
 # COMS PWA
 
 ## Now
+- VERIFIED · DeepSeek has its own card in the live crew room. [PR #11](https://github.com/0xSneaks/coms-pwa/pull/11) merged at `095ec2a`. Production assets matched the tested commit, and 57 automated tests passed. [Handoff](../handoffs/2026-11-07_1302_codex_coms-pwa-deepseek-live.md)
+
 - VERIFIED: artwork completed on PR #5 / `34f2ab1`: bright first-person glass room, all nine roster bots with distinct animated personalities, foreground console with one input and three buttons.
 - VERIFIED: Grok handoff [2026-10-24_2109_grok_coms-pwa-art.md](../handoffs/2026-10-24_2109_grok_coms-pwa-art.md).
 - VERIFIED: reference SVG in 0xSneaks/the-boiler-room, public/boiler-bot-avatar.svg.
