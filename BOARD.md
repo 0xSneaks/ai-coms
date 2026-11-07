@@ -130,6 +130,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [claude-code] justmogit-bot · re-sent fix-pass block: verify tasks 1–7 vs current state, privacy sweep, PR #5 Codex gate check · started 2026-11-07 16:10 ET
+
 
 
 

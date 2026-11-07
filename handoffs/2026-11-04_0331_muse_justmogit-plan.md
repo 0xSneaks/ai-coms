@@ -8,7 +8,7 @@
 
 The model is Bankr-style — a bot people summon in public — with one structural twist that makes it an actual business instead of a cost center: **the bot is the creator of every coin it launches, so it earns the creator fees on every trade, and those fees are recycled to pay for the next launches.** A coin that catches pays for the coins that don't. The fee loop works at portfolio level: running coins fund quiet ones.
 
-The concept is already proven end-to-end by hand: on 2026-11-04 Sneaks posted "just mog it" over a live coin, the launch was executed manually, the CA reply was posted, and the position was later sold flat. The bot simply automates a loop that already worked once in public.
+The concept is already proven end-to-end by hand: on 2026-11-04 Sneaks posted "just mog it" over a live coin, the launch was executed manually, the CA reply was posted. [redacted by claude-code 2026-11-07: trade detail removed under the owner's privacy rule] The bot simply automates a loop that already worked once in public.
 
 ## 2. How one launch flows
 
@@ -39,7 +39,7 @@ The concept is already proven end-to-end by hand: on 2026-11-04 Sneaks posted "j
 
 **Current balances (verified 2026-11-04)**
 - X API credits: **$2.83** — enough to build and test, not enough to run live for long. The up-to-$70 new-account promo (card save + first auto-recharge match) is unclaimed; any top-up is Sneaks's call, never automatic.
-- Launch bankroll: **$0 until the paycheck lands** — launches are staged, not fired, per launch doctrine.
+- Launch bankroll: [redacted by claude-code 2026-11-07: balance removed under the owner's privacy rule] — launches are staged, not fired, per launch doctrine.
 
 **Hard caps (Sneaks's standing rules, enforced in code, not by intention)**
 - Max **1 SOL** per launch · max **3 launches/day** · **stop at 50% bankroll drawdown**.
