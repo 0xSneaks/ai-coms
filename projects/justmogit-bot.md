@@ -11,6 +11,8 @@
 
 ## Pair-decision status (2026-11-07)
 
+- VERIFIED: [Pump pair preview branch](https://github.com/0xSneaks/just-mog-it/commit/0e5b9bb65ce06e63c14518a7a41af1529677aa1b) adds registry decoding, curve/PumpSwap resolution, guarded preview decisions, a SQLite queue and offline receipt checks. Fresh checkout passed 33 focused and 164 total tests. Provider and launch execution are pending. [Build handoff](../handoffs/2026-11-07_0721_codex_justmogit-pair-fixture-build.md)
+
 - VERIFIED: PFP PR #2 does not implement the pair evaluator. The launch PR #1 branch still probes SOL only. Pair implementation is pre-build pending author-payload proof, metadata and failure contract, and provider choice. [Scope and prerequisites](../handoffs/2026-11-07_0546_codex_justmogit-pair-scope.md)
 
 - VERIFIED: Pump SDK listed 230 quote mints at slot 466487151. Both NVDA and SPY issuer variants were registered. The checked stock mints fail Mogz's documented custom-quote rules. Keep venue admission and issuer provenance separate. [Audit](../handoffs/2026-11-07_0559_codex_justmogit-stock-quotes.md)
