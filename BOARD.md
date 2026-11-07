@@ -1,5 +1,7 @@
 # BOARD
 
+- [codex] justmogit-bot · SIGNED OFF: PFP v1.0.0 merged via [PR #2](https://github.com/0xSneaks/just-mog-it/pull/2); 69 tests on merged main, five production PNGs pending, live API UNKNOWN · 2026-11-07 → [handoff](handoffs/2026-11-07_0531_codex_justmogit-pfp-v1.md)
+
 - [codex] justmogit-bot · SIGNED OFF: VERIFIED both existing Mogz launches $0 first-day curve volume; NO-GO ledger/Privy; custom-pair wallet splits documented · 2026-11-07 → [handoff](handoffs/2026-11-07_0400_codex_justmogit-pilot.md)
 
 - [chatgpt] justmogit-media · SIGNED OFF: Joycat 7s dubbing delivered in two MP4 versions (supplied voice, deeper Chad mix); timed existing mouth motion, phoneme-grade lip sync UNKNOWN; no prod repo edit · 2026-11-07 → [handoff](handoffs/2026-11-07_0211_chatgpt_justmogit-media.md)
@@ -97,8 +99,6 @@ Sneaks is testing that every agent follows AI COMS.
 - [chatgpt → muse] weekly-organization · Nov 4–10 sequenced plan + deadline/owner blockers filed; no external submissions or actions; **SIGNED OFF**, no active claim → [handoff](handoffs/2026-11-04_1137_chatgpt_weekly-organization-plan.md) · 2026-11-04
 
 ## 🔒 Active claims
-
-- [codex] justmogit-bot · INTENT PFP reply bot v1.0.0, nine owner-specified paths on separate PR branch · started 2026-11-07 05:23 ET
 
 - [muse] vortx-grants · submissions packet complete (all fills in) → routed to Claude review; nothing submitted · 2026-11-06 → [packet](submissions/2026-11-06_vortx-grants.md)
 
@@ -543,6 +543,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-07 05:31 ET · codex · justmogit-bot · VERIFIED PFP reply bot v1.0.0 merged via [PR #2](https://github.com/0xSneaks/just-mog-it/pull/2), 69 tests, art pending → [handoff](handoffs/2026-11-07_0531_codex_justmogit-pfp-v1.md)
 - 2026-11-07 04:00 ET · codex · justmogit-bot · VERIFIED SA/TREMP finalized Mogz creates, $0 first-day curve volume each; NO-GO payouts; docs support custom-pair wallet splits → [handoff](handoffs/2026-11-07_0400_codex_justmogit-pilot.md)
 - 2026-11-07 03:05 ET · claude-code · justmogit-bot · OWNER RULING 6: creator fees bot 30% / pinger 70%, bot-token holder tiers cut the bot's share → [handoff](handoffs/2026-11-07_0305_claude-code_justmogit-bot-fee-split.md)
 - 2026-11-07 02:50 ET · claude-code · justmogit-bot · OWNER RULING 5: ping → instant mogz.fun launch, bot pays from ops wallet, launch caps → [handoff](handoffs/2026-11-07_0250_claude-code_justmogit-bot-ping-launch.md)
@@ -552,7 +553,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-07 02:15 ET · claude-code · justmogit-bot · OWNER RULING: no per-launch approval, auto-launch fast, copy metadata + pfp, SOL pair; guardrails before live → [handoff](handoffs/2026-11-07_0215_claude-code_justmogit-bot-owner-ruling.md)
 - 2026-11-07 02:00 ET · claude-code · justmogit-bot · PR #1 money review @ 94f4ea1: 131 OK; CHANGES C1 (reconcile can release on-chain money) + C2 (book actual tx deltas, not sim) → [handoff](handoffs/2026-11-07_0200_claude-code_justmogit-bot-money-review.md)
 - 2026-11-07 00:45 ET · claude-code · justmogit · final look main @ ac279df: C1+C2 closed, 67 OK → APPROVED (code); go-live checklist (FIX 1 wiring, tx_sig None guard, vault self-inspect, reconcile tool, Sneaks yes); daily nudge round → [final](handoffs/2026-11-07_0545_claude-code_justmogit-final.md)
-- 2026-11-06 23:00 ET · claude-code · justmogit · re-review `fix/money-core-fixes` @ f665db7: 64 OK; FIX 1/3/4 + HOLEs accepted; CHANGES C1 (commit max(quote,sim): $0 sim leaks cap) + C2 (keep reservation on ok:false) → [re-review](handoffs/2026-11-07_0400_claude-code_justmogit-rereview.md)
 
 ## 📁 Projects
 
