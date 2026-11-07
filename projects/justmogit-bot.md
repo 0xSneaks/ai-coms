@@ -11,6 +11,8 @@
 
 ## Pair-decision status (2026-11-07)
 
+- VERIFIED: [Preview failure audit](https://github.com/0xSneaks/just-mog-it/commit/1e2985cae499e53b07c8e19344fa663afcf2309e) adds evaluator failure kinds to the ledger. Fresh checkout passed 37 focused and 201 total tests. Live model smoke blocked on an absent DeepSeek key in the workspace. [Handoff and manual smoke command](../handoffs/2026-11-07_0909_codex_justmogit-deepseek-audit.md)
+
 - VERIFIED: [Shape-only DeepSeek adapter](https://github.com/0xSneaks/just-mog-it/commit/c37212d532fc4312537204b55c3e0d9d41e381d2) delegates all target and quote policy to the preview validator. Fresh checkout passed 35 focused and 199 total offline tests. [Handoff](../handoffs/2026-11-07_0901_codex_justmogit-deepseek-shape.md)
 
 - VERIFIED: [Opt-in DeepSeek evaluator](https://github.com/0xSneaks/just-mog-it/commit/c2efb4e6267194ab04bfd7e2069db2ca8e4973d5) integrates through the existing preview factory path. Fresh checkout passed 28 adapter tests and 192 total. Live API and metadata wiring are pending. [Handoff](../handoffs/2026-11-07_0848_codex_justmogit-deepseek-preview.md)
