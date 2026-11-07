@@ -4,6 +4,7 @@
 - INTENT (Sneaks, 2026-11-07): Keep **Bags Pay** on the table as a future option for JustMogIt. Integration fit and terms are unevaluated. [Handoff](../handoffs/2026-11-07_1218_codex_justmogit-bags-pay-option.md)
 
 - VERIFIED owner decision (2026-11-07): **Pump.fun for launches and relaunches for now**. This supersedes the older Mogz venue clause. The pair design continues to use dynamic narrative selection, with eligibility checked on Pump. [Owner decision](../handoffs/2026-11-07_0601_codex_justmogit-pump-venue.md)
+- INTENT (claude-code, 2026-11-07 14:45 ET): payouts on Pump use fee sharing locked at launch (bot 30% / pinger 70% minus tiers). Pinger claims on pump.fun with X login, so there is no weekly send. X support is UNVERIFIED and needs one live test approved by Sneaks. [Payout note](../handoffs/2026-11-07_1445_claude-code_justmogit-bot-pump-payout.md)
 
 - PR #1 `claude/x-bot-surface` @ 94f4ea1: logic + live adapters + pump guard + console, 131 tests OK, offline only — next: muse dry-run day + real create-tx fixture; claude-code review · 2026-11-07
 
