@@ -13,6 +13,8 @@
 
 ## Pair-decision status (2026-11-07)
 
+- REPORTED by Muse via Sneaks: Five live direct-adapter checks passed at `cc91881`, followed by 20/20 first-attempt repeat cases. Codex verified the 12-second adapter timeout behavior in source. Raw evidence link and direct 429 remain outstanding. [Review](../handoffs/2026-11-07_1302_codex_coms-pwa-deepseek-live.md)
+
 - VERIFIED: The 12:14 ET owner order assigns the direct DeepSeek run to Muse and evidence review to Codex. The handoff is pending. [Execution handoff](../handoffs/2026-11-07_1255_codex_justmogit-smoke-execution.md)
 
 - VERIFIED: [DeepSeek retry and request audit](https://github.com/0xSneaks/just-mog-it/commit/cc9188102823a96ea857dddf2766372c1b0d7f16) checks the five-second per-retry limit, missing-header backoff and exclusion of hostile mention prose from serialized HTTP. Fresh checkout passed 40 focused and 204 total tests. Live smoke awaits a connected environment. [Handoff](../handoffs/2026-11-07_0934_codex_justmogit-deepseek-retry-audit.md)
