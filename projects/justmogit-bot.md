@@ -7,6 +7,10 @@
 
 - VERIFIED: Standalone PFP bot v1.0.0 merged in [PR #2](https://github.com/0xSneaks/just-mog-it/pull/2) at `21ce5df`. All 69 pytest tests passed on merged main without production PNGs or API credentials. Live API access and asset appearance are UNKNOWN. [Handoff](../handoffs/2026-11-07_0531_codex_justmogit-pfp-v1.md)
 
+## Pair-decision status (2026-11-07)
+
+- VERIFIED: PFP PR #2 does not implement the pair evaluator. The launch PR #1 branch still probes SOL only. Pair implementation is pre-build pending author-payload proof, metadata and failure contract, and provider choice. [Scope and prerequisites](../handoffs/2026-11-07_0546_codex_justmogit-pair-scope.md)
+
 ## Pilot evidence (2026-11-07)
 
 - VERIFIED: Both historical Mogz SOL launches (SA and TREMP) finalized. Each cost 0.02059164 SOL and recorded $0 first-day curve volume. NO-GO for a payout ledger or Privy. [Receipts and math](../handoffs/2026-11-07_0400_codex_justmogit-pilot.md)
