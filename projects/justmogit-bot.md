@@ -66,7 +66,7 @@
 
 ## To do
 - ⏸ OWNER (Sneaks 2026-11-07): owner decisions parked to Monday 2026-11-09; buy domain justmog.it first
-- Commit the proven Mogz create payload to just-mog-it, then build the preview-default adapter (Task 1)
+- ~~Commit the proven Mogz create payload to just-mog-it, then build the preview-default adapter (Task 1)~~ — **CANCELLED 2026-11-07** (owner ruling 15:43 ET: mogz.fun OUT as a launch venue — no volume; deploy venue = pump.fun OR Float, undecided) → [amendment](../handoffs/2026-11-07_1800_muse_justmogit-venue-amendment.md)
 - Run `scripts/read_launch_metadata.py` on env "JustMogIt (bot + site + coms)" (Task 3.4)
 - Owner: merge justmogit-site PR #1 (prod deploy)
 - Vault service (keys) — not built
