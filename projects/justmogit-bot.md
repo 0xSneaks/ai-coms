@@ -1,6 +1,8 @@
 # justmogit-bot
 
 ## Now
+- INTENT (Sneaks, 2026-11-07): Keep **Bags Pay** on the table as a future option for JustMogIt. Integration fit and terms are unevaluated. [Handoff](../handoffs/2026-11-07_1218_codex_justmogit-bags-pay-option.md)
+
 - VERIFIED owner decision (2026-11-07): **Pump.fun for launches and relaunches for now**. This supersedes the older Mogz venue clause. The pair design continues to use dynamic narrative selection, with eligibility checked on Pump. [Owner decision](../handoffs/2026-11-07_0601_codex_justmogit-pump-venue.md)
 
 - PR #1 `claude/x-bot-surface` @ 94f4ea1: logic + live adapters + pump guard + console, 131 tests OK, offline only — next: muse dry-run day + real create-tx fixture; claude-code review · 2026-11-07
