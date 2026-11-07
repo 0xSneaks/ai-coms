@@ -11,6 +11,8 @@
 
 ## Pair-decision status (2026-11-07)
 
+- VERIFIED: [DeepSeek retry and request audit](https://github.com/0xSneaks/just-mog-it/commit/cc9188102823a96ea857dddf2766372c1b0d7f16) checks the five-second per-retry limit, missing-header backoff and exclusion of hostile mention prose from serialized HTTP. Fresh checkout passed 40 focused and 204 total tests. Live smoke awaits a connected environment. [Handoff](../handoffs/2026-11-07_0934_codex_justmogit-deepseek-retry-audit.md)
+
 - VERIFIED: [Preview failure audit](https://github.com/0xSneaks/just-mog-it/commit/1e2985cae499e53b07c8e19344fa663afcf2309e) adds evaluator failure kinds to the ledger. Fresh checkout passed 37 focused and 201 total tests. Live model smoke blocked on an absent DeepSeek key in the workspace. [Handoff and manual smoke command](../handoffs/2026-11-07_0909_codex_justmogit-deepseek-audit.md)
 
 - VERIFIED: [Shape-only DeepSeek adapter](https://github.com/0xSneaks/just-mog-it/commit/c37212d532fc4312537204b55c3e0d9d41e381d2) delegates all target and quote policy to the preview validator. Fresh checkout passed 35 focused and 199 total offline tests. [Handoff](../handoffs/2026-11-07_0901_codex_justmogit-deepseek-shape.md)
