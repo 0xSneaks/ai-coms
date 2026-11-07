@@ -11,6 +11,8 @@
 
 ## Pair-decision status (2026-11-07)
 
+- VERIFIED: [Shape-only DeepSeek adapter](https://github.com/0xSneaks/just-mog-it/commit/c37212d532fc4312537204b55c3e0d9d41e381d2) delegates all target and quote policy to the preview validator. Fresh checkout passed 35 focused and 199 total offline tests. [Handoff](../handoffs/2026-11-07_0901_codex_justmogit-deepseek-shape.md)
+
 - VERIFIED: [Opt-in DeepSeek evaluator](https://github.com/0xSneaks/just-mog-it/commit/c2efb4e6267194ab04bfd7e2069db2ca8e4973d5) integrates through the existing preview factory path. Fresh checkout passed 28 adapter tests and 192 total. Live API and metadata wiring are pending. [Handoff](../handoffs/2026-11-07_0848_codex_justmogit-deepseek-preview.md)
 
 - VERIFIED: [Pump pair preview branch](https://github.com/0xSneaks/just-mog-it/commit/0e5b9bb65ce06e63c14518a7a41af1529677aa1b) adds registry decoding, curve/PumpSwap resolution, guarded preview decisions, a SQLite queue and offline receipt checks. Fresh checkout passed 33 focused and 164 total tests. Provider and launch execution are pending. [Build handoff](../handoffs/2026-11-07_0721_codex_justmogit-pair-fixture-build.md)
