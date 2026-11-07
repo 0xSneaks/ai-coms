@@ -9,7 +9,7 @@
 | Bot work | branch `claude/admiring-mayer-3n4uj8` @ `485fa70` = [PR #5](https://github.com/0xSneaks/just-mog-it/pull/5) | **420 tests passing**, clean. Codex-gated, NOT merged. The PR description is stale (it says 266) |
 | Site main (live) | 0xSneaks/justmogit-site `main` @ `721aca8` | unchanged |
 | Site PR #1 | `claude/admiring-mayer-3n4uj8` @ `b72f7be` | venue → mogz. **Owner: DO NOT MERGE** (mogz is out) |
-| Site PR #2 | `claude/mog-me-section` @ `606f42c` | MOG ME section + 2 example mogs. Waits for the owner's OK (merging deploys) |
+| Site PR #2 | `claude/mog-me-section` @ `606f42c` | **MERGED on owner's "yes merge"** → main `ed7a77d`. **LIVE**: justmogit.vercel.app serves the MOG ME section (VERIFIED by external fetch) |
 | Site pfp-changer | `pfp-changer` @ `d410d56` | /api/mog prompt + style refs. Not merged; pfp.html is a showcase only |
 
 ## Next-agent block (paste as-is)
@@ -37,7 +37,7 @@ Label every claim VERIFIED / INFERENCE / UNVERIFIED.
 1. Buy the justmog.it domain.
 2. Gemini: put `GEMINI_API_KEY` in the bot's runtime env, set `IMAGE_EDITOR=gemini`, run `python3 -m bot.run mogme-preview` once, then `mogme-list`. Nothing posts.
 3. The X media-upload 403: paste the exact error body + endpoint + auth type. Check the app is Read+Write, and do the @justmogit_bot app tap with media.write.
-4. Say yes/no on site PR #2 (MOG ME section). Leave site PR #1 unmerged, or close it.
+4. ~~Site PR #2~~ merged and live. Leave site PR #1 unmerged, or close it.
 5. Answer the open question: where the bot's runtime env lives (names only).
 
 ## Decided today (owner)

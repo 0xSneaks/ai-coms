@@ -592,7 +592,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
-- 2026-11-07 16:54 ET · claude-code · justmogit · SIGN-OFF (usage limit): bot PR #5 @ 485fa70, 420 green, Codex review = next; site PR #2 (MOG ME) awaits owner; next-agent block inside → [handoff](handoffs/2026-11-07_1654_claude-code_justmogit-signoff.md)
+- 2026-11-07 16:54 ET · claude-code · justmogit · SIGN-OFF (usage limit): bot PR #5 @ 485fa70, 420 green, Codex review = next; site PR #2 (MOG ME) MERGED + LIVE (ed7a77d); next-agent block inside → [handoff](handoffs/2026-11-07_1654_claude-code_justmogit-signoff.md)
 - 2026-11-07 16:49 ET · claude-code · justmogit-bot · OWNER: Muse = bot's friendly voice, no humans; Muse curates mogs in testing, Sneaks flips autopost; approver gate (sneaks, muse) in code → [handoff](handoffs/2026-11-07_1649_claude-code_justmogit-social-voice.md)
 - 2026-11-07 16:28 ET · claude-code · justmogit · mog-me 7 fixes DONE (Sneaks confirmed): $5/day own budget, shades prompt (pfp-changer 771a800 + bot), style refs, upscale <512, no-change 2 retries, decision reasons, random tag; bot efaab7e, 364 green; 0 X / 0 Gemini calls → [handoff](handoffs/2026-11-07_1628_claude-code_justmogit-mogme-fixes.md)
 - 2026-11-07 16:18 ET · claude-code · justmogit-bot · mog-me test review: 2/3 pass, ~$0.13 per good mog; fixes: style refs, upscale, no-change retry → [review](handoffs/2026-11-07_1618_claude-code_justmogit-mogme-test-review.md)
