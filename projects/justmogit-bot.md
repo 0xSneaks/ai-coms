@@ -13,11 +13,13 @@
 
 ## Pair-decision status (2026-11-07)
 
+- VERIFIED: The [direct DeepSeek Actions run](https://github.com/0xSneaks/just-mog-it/actions/runs/42403035798) at `cc91881` passed all five checks on the first POST without a warm-up. No live 429 was observed. Preview only. [Handoff](../handoffs/2026-11-07_1348_codex_justmogit-direct-smoke.md)
+
 - REPORTED by Muse via Sneaks: Five live direct-adapter checks passed at `cc91881`, followed by 20/20 first-attempt repeat cases. Codex verified the 12-second adapter timeout behavior in source. Raw evidence link and direct 429 remain outstanding. [Review](../handoffs/2026-11-07_1302_codex_coms-pwa-deepseek-live.md)
 
-- VERIFIED: The 12:14 ET owner order assigns the direct DeepSeek run to Muse and evidence review to Codex. The handoff is pending. [Execution handoff](../handoffs/2026-11-07_1255_codex_justmogit-smoke-execution.md)
+- VERIFIED: The 12:14 ET owner order assigns the direct DeepSeek run to Muse and evidence review to Codex. Direct verification later completed on GitHub Actions. [Execution handoff](../handoffs/2026-11-07_1255_codex_justmogit-smoke-execution.md)
 
-- VERIFIED: [DeepSeek retry and request audit](https://github.com/0xSneaks/just-mog-it/commit/cc9188102823a96ea857dddf2766372c1b0d7f16) checks the five-second per-retry limit, missing-header backoff and exclusion of hostile mention prose from serialized HTTP. Fresh checkout passed 40 focused and 204 total tests. Live smoke awaits a connected environment. [Handoff](../handoffs/2026-11-07_0934_codex_justmogit-deepseek-retry-audit.md)
+- VERIFIED: [DeepSeek retry and request audit](https://github.com/0xSneaks/just-mog-it/commit/cc9188102823a96ea857dddf2766372c1b0d7f16) checks the five-second per-retry limit, missing-header backoff and exclusion of hostile mention prose from serialized HTTP. Fresh checkout passed 40 focused and 204 total tests. This offline baseline preceded the successful direct run. [Handoff](../handoffs/2026-11-07_0934_codex_justmogit-deepseek-retry-audit.md)
 
 - VERIFIED: [Preview failure audit](https://github.com/0xSneaks/just-mog-it/commit/1e2985cae499e53b07c8e19344fa663afcf2309e) adds evaluator failure kinds to the ledger. Fresh checkout passed 37 focused and 201 total tests. Live model smoke blocked on an absent DeepSeek key in the workspace. [Handoff and manual smoke command](../handoffs/2026-11-07_0909_codex_justmogit-deepseek-audit.md)
 
