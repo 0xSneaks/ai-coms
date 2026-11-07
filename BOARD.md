@@ -122,6 +122,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [codex] justmogit-bot · INTENT · tests/test_deepseek_evaluator.py · 2026-11-07_0932 ET · verify request boundary and retry delay fallback
+
 - [muse] vortx-grants · submissions packet complete (all fills in) → routed to Claude review; nothing submitted · 2026-11-06 → [packet](submissions/2026-11-06_vortx-grants.md)
 
 - [muse] anonpad · TX lane + lead/merger CLAIMED under the SPEED ORDER: Tue items done (repo, types/data contract, WalletButton, site LIVE on production); Wed: launch sim 12:00, trade sim 16:00, review request + batched ask 18:00 · 2026-11-03 → [handoff](handoffs/2026-11-03_1515_muse_anonpad-speed-order-tue.md)
