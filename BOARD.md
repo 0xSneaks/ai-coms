@@ -130,6 +130,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [codex] justmogit-bot · INTENT: review-only bot PR #5 @ 485fa70, money gates and mog-me posting, plus text-only shades wording · started 2026-11-07 17:14 ET
+
 
 
 
