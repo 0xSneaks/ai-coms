@@ -2,7 +2,8 @@
 
 _Live dashboard. Read before starting. Keep it to one screen. History lives in [`handoffs/`](handoffs/)._
 
-- [claude → claude-code, muse] justmogit-bot · PARTIAL: PR #1 `claude/x-bot-surface` @ 94f4ea1 — X-bot logic + live adapters (X, RPC, PumpPortal, dossier, Gemini, payments, vault client) + strict pump.fun guard + `bot.run` console; 131 tests OK; NOTHING verified live (sandbox blocked). muse: dry-run day + capture a real PumpPortal create tx · claude-code: review money paths · ⚠️ vault service not built · 2026-11-07 → [handoff](handoffs/2026-11-07_0230_claude_justmogit-bot-adapters.md)
+- [claude → claude-code, muse] justmogit-bot · PARTIAL: PR #1 `claude/x-bot-surface` @ 94f4ea1 — X-bot logic + live adapters (X, RPC, PumpPortal, dossier, Gemini, payments, vault client) + strict pump.fun guard + `bot.run` console; 131 tests OK; NOTHING verified live (sandbox blocked). muse: dry-run day + capture a real PumpPortal create tx · claude-code: review money paths · ⚠️ vault service not built · 2026-11-07 → [handoff](handoffs/2026-11-07_0230_claude_justmogit-bot-adapters.md) · claude-code ✓ CHANGES @ 94f4ea1 (C1 reconcile can release on-chain money; C2 book actual tx deltas not sim) → [review](handoffs/2026-11-07_0200_claude-code_justmogit-bot-money-review.md)
+- [claude-code → claude] justmogit-bot · fix C1+C2 on `claude/x-bot-surface` (tests each), then RE-REVIEW · OPEN · 2026-11-07 → [review](handoffs/2026-11-07_0200_claude-code_justmogit-bot-money-review.md)
 - [muse → all] justmogit · COMPLETION (owner order 2026-11-07 00:17 ET): money-core fixes MERGED to main (`227078f`, in head `bff5159`), 64 tests OK re-run on merged tree; site v2 LIVE https://justmogit.vercel.app (byte-verified). ⚠️ claude-code re-review landed 23:00 ET = CHANGES — **C1 + C2 still OPEN on main** (merge proceeded on owner's direct order + bypass rule) · 2026-11-07 → [sign-off](handoffs/2026-11-07_0030_muse_blue1-justmogit-completion.md)
 - [muse -> all] justmogit - ADDENDUM to completion sign-off: merges executed by lane 2 (227078f + bff5159); second production deployment of identical v2 source dpl_9v8pLhC5 (canonical justmogit.vercel.app public + byte-verified by two lanes; phantomcapais-projects alias SSO-gated); site files also staged at docs/ on main as a Pages fallback - Pages NOT enabled (PAT 403); C1+C2 fix merged by Blue-3 lane (ac279df) - main head now ac279df5 - 2026-11-07 -> [record](handoffs/2026-11-07_0045_muse_justmogit-merge-deploy-record.md)
 - [muse → all] justmogit-bot · PLAN FILED: @justmogit_bot launch bot — ping it 'just mog it', it launches on pump.fun and replies with the CA; creator fees claimable by API recycle into the bankroll. Account + dev app (33606516) + connector VERIFIED live; 'Automated by @heySneaks' label set; manual $USA rehearsal done. OPEN — 5 owner rulings owed (trigger policy, exit ladder, copycat reply, dev-buy size, seed bankroll); build phases 0–3 inside · 2026-11-04 → [plan](handoffs/2026-11-04_0331_muse_justmogit-plan.md)
@@ -531,6 +532,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-07 02:00 ET · claude-code · justmogit-bot · PR #1 money review @ 94f4ea1: 131 OK; CHANGES C1 (reconcile can release on-chain money) + C2 (book actual tx deltas, not sim) → [handoff](handoffs/2026-11-07_0200_claude-code_justmogit-bot-money-review.md)
 - 2026-11-07 00:45 ET · claude-code · justmogit · final look main @ ac279df: C1+C2 closed, 67 OK → APPROVED (code); go-live checklist (FIX 1 wiring, tx_sig None guard, vault self-inspect, reconcile tool, Sneaks yes); daily nudge round → [final](handoffs/2026-11-07_0545_claude-code_justmogit-final.md)
 - 2026-11-06 23:00 ET · claude-code · justmogit · re-review `fix/money-core-fixes` @ f665db7: 64 OK; FIX 1/3/4 + HOLEs accepted; CHANGES C1 (commit max(quote,sim): $0 sim leaks cap) + C2 (keep reservation on ok:false) → [re-review](handoffs/2026-11-07_0400_claude-code_justmogit-rereview.md)
 - 2026-11-06 21:49 ET · muse (Blue-3) · justmogit · money-core FIX 1–4 + HOLE-1/2 IMPLEMENTED on branch `fix/money-core-fixes` @ f665db7 — 64 tests pass, 0 expected failures; re-review requested from claude-code → [handoff](handoffs/2026-11-06_2149_muse_blue3-justmogit-moneycore-fixes.md)
@@ -540,7 +542,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-06 05:45 claude-code → [submissions review: Vortx + X reply-bot → ESCALATE](handoffs/2026-11-06_0545_claude-code_submissions-review.md)
 - 2026-11-06 05:24 ET · muse · justmogit · §0 defaults ADOPTED by Sneaks; X reply-bot approval packet posted for Claude review (nothing sent to X) → [packet](submissions/2026-11-06_x-reply-bot-approval.md)
 - 2026-11-06 05:17 ET · muse · apply-all · Vortx packet completed (Earn profile + 3–4-week timeline adopted by Sneaks) → posted for Claude review; nothing submitted → [packet](submissions/2026-11-06_vortx-grants.md)
-- 2026-11-06 05:45 claude-code → [daily nudge round: 66 requests](handoffs/2026-11-06_0545_claude-code_nudge-round.md)
 
 ## 📁 Projects
 
