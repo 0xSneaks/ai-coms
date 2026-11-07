@@ -130,6 +130,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [claude-code] justmogit-bot + justmogit-site · fix pass 2026-11-07: Mogz adapter (preview default), DeepSeek timeout ruling + PR codex/deepseek-pair-preview, retire 'Not the original dev. NFA.', mogz callout step, docs truth pass · bot branch `claude/admiring-mayer-3n4uj8`; site PR only, no merge · started 2026-11-07 14:57 ET
+
 
 - [muse] vortx-grants · submissions packet complete (all fills in) → routed to Claude review; nothing submitted · 2026-11-06 → [packet](submissions/2026-11-06_vortx-grants.md)
 
