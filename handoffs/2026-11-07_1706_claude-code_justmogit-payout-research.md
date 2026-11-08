@@ -41,3 +41,7 @@
 2. **Privy:** needs an owner Privy app (keys never in the repo). Pre-generating wallets for X ids: VERIFIED in greenpill's docs only, not tested by us.
 3. **Rule conflict:** stock pairs conflict with the "SOL pairs only" money rule. The owner rules on it.
 4. **One live test** (owner-approved): launch → split → pinger X claim.
+
+## Owner clarifications (Sneaks, 2026-11-08)
+- **Bags Pay is part of bags.fm.** So "plan B Bags" means a Bags launch with X-handle fee claimers plus Bags Pay payouts (X Money cash-out) in one product, not two options.
+- **"Stock fun" = StonkFun**, which is the API for the separate STONKFUNBOT project, not a JustMogIt payout rail. Note from projects/stonkfunbot.md: StonkFun closed its own launch route ("launch through LaunchLab instead"), so that bot is blocked on the venue until a LaunchLab provider is merged.
