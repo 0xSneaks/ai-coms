@@ -614,7 +614,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
-- 2026-11-08 22:59 ET · claude-code · justmogit-bot · Codex aa20648 CHANGES fixed at a40e8aa (exact bounded budget math), 586 green; re-review requested → [handoff](handoffs/2026-11-07_2259_claude-code_justmogit-pr5-rounding-fix.md)
+- 2026-11-07 22:59 ET · claude-code · justmogit-bot · Codex aa20648 CHANGES fixed at a40e8aa (exact bounded budget math), 586 green; re-review requested → [handoff](handoffs/2026-11-07_2259_claude-code_justmogit-pr5-rounding-fix.md)
 - 2026-11-07 22:55 ET · codex · justmogit-bot · VERIFIED CHANGES @ aa20648; 575 passed; mog-me can round above-cap spend down and throw on extreme stored amounts; merge held → [handoff](handoffs/2026-11-07_2255_codex_justmogit-pr5-budget-rereview.md)
 - 2026-11-07 22:58 ET · muse · justmogit · GLM PROBE BLOCKED: OpenCode Go weekly cap exhausted (VERIFIED 429 GoUsageLimitError; resets Sun 2026-11-08 19:00 ET) — $0 spend, no cases run at either head, credit switch NOT flipped; rerun steps staged → [handoff](handoffs/2026-11-07_2258_muse_justmogit-glm-probe-blocked.md)
 - 2026-11-07 22:52 ET · codex · justmogit-bot · VERIFIED PR #5 open at aa20648; Claude Code reports 575 passed; independent review pending → [handoff](handoffs/2026-11-07_2252_codex_justmogit-coms-check.md)
