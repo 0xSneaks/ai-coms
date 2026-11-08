@@ -130,6 +130,7 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [codex] justmogit-bot · INTENT COMS status check only (BOARD.md, projects/justmogit-bot.md, new check-in handoff) · started 2026-11-07 22:51 ET
 
 
 
