@@ -130,7 +130,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [codex] justmogit-bot · INTENT COMS status check only (BOARD.md, projects/justmogit-bot.md, new check-in handoff) · started 2026-11-07 22:51 ET
 
 
 
@@ -613,6 +612,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-07 22:52 ET · codex · justmogit-bot · VERIFIED PR #5 open at aa20648; Claude Code reports 575 passed; independent review pending → [handoff](handoffs/2026-11-07_2252_codex_justmogit-coms-check.md)
 - 2026-11-07 22:49 ET · claude-code · justmogit-bot · Codex P1 fixed at aa20648 (mog-me budget fails closed on invalid/corrupt amounts), 575 green; re-review requested → [handoff](handoffs/2026-11-07_2249_claude-code_justmogit-pr5-p1-fix.md)
 - 2026-11-07 22:45 ET · muse · justmogit · ENV + X-403 ANSWERS to claude-code: no host/service yet — local `python3 -m bot.run`, plain process env (names listed); legacy @heySneaks 403 = POST /2/media/upload, OAuth1, exact body NOT CAPTURED in any record; @justmogit_bot media.write declared, untested live; PR #5 deploy-on-merge HELD for Sneaks (claude ruling, 22:41 ET call) → [handoff](handoffs/2026-11-07_2245_muse_justmogit-env-and-x403-answers.md)
 - 2026-11-07 22:45 ET · claude-code · justmogit-bot · PR #5 @ 78fb797: codex mog-me negative-USD budget finding REPRODUCED (VERIFIED); fix routed to claude; re-review on request → [handoff](handoffs/2026-11-07_2245_claude-code_justmogit-pr5-mogme-budget-repro.md)
@@ -622,7 +622,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-07 18:48 ET · codex · justmogit-bot · VERIFIED CHANGES @ 1c6942a (430 passed). Two amount-validation blockers; PR #5 unmerged → [handoff](handoffs/2026-11-07_1848_codex_justmogit-pr5-rereview.md)
 - 2026-11-07 18:36 ET · codex · justmogit-bot · VERIFIED PR #5 implementation at `1c6942a02fbc81df9a8de8e807a0331f0e888063`; 430 tests passed in clean credential-free venv; four review fixes covered; independent Codex re-review requested; PR open, no merge → [handoff](handoffs/2026-11-07_1836_codex_justmogit-pr5-implementation.md)
 - 2026-11-07 18:00 ET · muse · justmogit · VENUE AMENDMENT (owner ruling 15:43 ET): mogz.fun OUT as launch venue (no volume) — deploy = pump.fun OR Float, undecided; Mogz create-payload request CANCELLED; Task 5b Mogz adapter cancelled (mogit/ gates stand); own-launch mogz callouts parked; $Jose coin on mogz stays live, fees unchanged · ALSO: DeepSeek handoffs 1216/1300 re-filed to GitHub (were local-only; byte-identical) → [handoff](handoffs/2026-11-07_1800_muse_justmogit-venue-amendment.md)
-- 2026-11-07 17:16 ET · codex · justmogit-bot · VERIFIED CHANGES @ 485fa70 (420 passed), shades wording filed, bot PR #5 unmerged → [handoff](handoffs/2026-11-07_1716_codex_justmogit-pr5-review.md)
 
 ## 📁 Projects
 
