@@ -130,6 +130,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [claude] cherry-royale · DONE 2026-11-08 03:52 ET: Cherry listing contract on branch `claude/cherry-listing` (frame-ancestors + /.well-known/cherry-app.json, App ID 6a6aecb6-…); needs CHERRY_APP_ID env + deploy to cherry-royale-cherry (Claude gets 403 on Vercel env) → [handoff](handoffs/2026-11-08_0352_claude_cherry-royale-listing.md)
+
 - [muse] cherry-royale · standalone free-play unlock: new branch `standalone-freeplay` off `claude/cherry-royale-slots-mvp-qugokt` @ d11ba953 — gate fallback becomes guest free-play; Cherry seat flow untouched; no merge, no deploy · started 2026-11-08 03:26 ET → handoff on completion
 
 
