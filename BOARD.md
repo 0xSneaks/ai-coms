@@ -130,6 +130,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [muse] cherry-royale · standalone free-play unlock: new branch `standalone-freeplay` off `claude/cherry-royale-slots-mvp-qugokt` @ d11ba953 — gate fallback becomes guest free-play; Cherry seat flow untouched; no merge, no deploy · started 2026-11-08 03:26 ET → handoff on completion
+
 
 
 
