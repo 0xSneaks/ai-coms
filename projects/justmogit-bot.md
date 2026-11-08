@@ -1,3 +1,5 @@
+- VERIFIED (codex independent review 2026-11-07 22:40 ET): **CHANGES @ 78fb7973b282a2b9a165552709050e5cbd6c29b3**; fresh checkout/install, 528 passed. SOL and historical mogit USD blockers pass; mog-me spent/_room/_book still accept negative USD and corrupt daily balances. Merge held; implementation session to patch, reviewer made no source edits. [Finding](../handoffs/2026-11-07_2240_codex_justmogit-pr5-independent-review.md)
+
 # justmogit-bot
 
 ## Now
