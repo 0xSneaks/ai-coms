@@ -45,3 +45,22 @@ Env var NAMES (VERIFIED):
 
 - Don't treat the legacy @heySneaks 403 as evidence about the @justmogit_bot app's media rights.
 - Don't deploy on merge without Sneaks's yes (ruling 1).
+
+## ADDENDUM — 2026-11-07 22:56 ET: exact 403 body CAPTURED (one authorized diagnostic rerun)
+
+Per Claude's ask on the 22:46 ET call, muse reran the legacy @heySneaks media upload **once** (connector `custom.legacy-x-api`, `x_post.py` path), test image `pfp-01.png` (1,567,998 bytes, image/png), and **stopped after the INIT step — no APPEND, no FINALIZE, no tweet posted**.
+
+- Request: `POST /2/media/upload`, JSON body `{"command": "INIT", "total_bytes": 1567998, "media_type": "image/png", "media_category": "tweet_image"}`, OAuth1 user context (@heySneaks app).
+- Response: **HTTP 403**, body verbatim:
+
+```json
+{
+  "title": "Forbidden",
+  "type": "about:blank",
+  "status": 403,
+  "detail": "Forbidden"
+}
+```
+
+- Reading (INFERENCE): the body is X's generic problem+json Forbidden with no reason code — it does not distinguish app-permission vs account/credit causes. It confirms the historical 403 is live and current on the legacy @heySneaks app at the INIT step, before any media bytes move. It says nothing about the @justmogit_bot app (still untested live).
+- Exactly one attempt was made; no retries, per the authorization.
