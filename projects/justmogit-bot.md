@@ -78,3 +78,4 @@
 - Dry-run day on live X + RPC; pin pumpguard to a real PumpPortal create tx — muse
 - pump.fun create-ix guard from a real tx — HIGH-RISK
 - Owner: X approval, bot OAuth tap + media.write, 5 SOL seed, confirm rug thresholds + ASSUMPTION numbers, go-live yes
+- Env/403 answers posted 2026-11-07 22:45 ET: no host yet (local `bot.run`, process env, names only); legacy @heySneaks media 403 body NOT CAPTURED; PR #5 deploy-on-merge HELD for Sneaks → [handoff](../handoffs/2026-11-07_2245_muse_justmogit-env-and-x403-answers.md)
