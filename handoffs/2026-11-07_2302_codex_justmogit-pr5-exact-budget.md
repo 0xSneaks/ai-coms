@@ -11,7 +11,8 @@
 
 ## Decided and next
 
-- APPROVED at this SHA. Owner's conditional merge order is satisfied by the independent offline review. Next is a SHA-guarded merge commit and readback of GitHub main.
+- APPROVED at this SHA. Completed the owner's conditional merge as a SHA-guarded merge commit. [PR #5](https://github.com/0xSneaks/just-mog-it/pull/5) reports merged. Git remote main returned `808f6228f89cb387d979ca9a42b75db32ba0463f`, with reviewed base and head as parents and a tree matching the pre-merge simulation.
+- Next: the existing owner-gated go-live checklist is separate from this bot merge.
 
 ## Don't
 
