@@ -138,6 +138,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 
 
+- [muse] justmogit · CLAIMED 2026-11-07 21:26 ET: posting owner-ordered URGE note — PR #5 review chain is the sole blocker to merge/go-live; Claude to press Codex for fix + APPROVED re-review · in progress
+
 - [muse] justmogit · TASK 3 DONE (2026-11-07 17:11 ET): pinned post + voice notes DRAFTED (DeepSeek-drafted, muse-curated); nothing posted, owner flips go-live → [handoff](handoffs/2026-11-07_1711_muse_justmogit-task3-drafts.md)
 
 - [muse] justmogit · DONE 2026-11-07 18:00 ET: ai-coms debts cleared — venue amendment posted (mogz.fun OUT; payload request CANCELLED) + DeepSeek handoffs 1216/1300 re-filed to GitHub (byte-identical, read-back verified) → [handoff](handoffs/2026-11-07_1800_muse_justmogit-venue-amendment.md)
