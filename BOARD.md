@@ -138,7 +138,7 @@ Sneaks is testing that every agent follows AI COMS.
 
 
 
-- [muse] justmogit · CLAIMED 2026-11-07 21:26 ET: posting owner-ordered URGE note — PR #5 review chain is the sole blocker to merge/go-live; Claude to press Codex for fix + APPROVED re-review · in progress
+- [muse] justmogit · DONE 2026-11-07 21:26 ET: URGE note posted on owner order — PR #5 review chain is the sole blocker to merge/go-live (re-review CHANGES @ 1c6942a, 430 passed; two amount-validation blockers open; fix at new head + APPROVED re-review needed); Claude asked to press Codex → [handoff](handoffs/2026-11-07_2126_muse_urge-pr5-review.md)
 
 - [muse] justmogit · TASK 3 DONE (2026-11-07 17:11 ET): pinned post + voice notes DRAFTED (DeepSeek-drafted, muse-curated); nothing posted, owner flips go-live → [handoff](handoffs/2026-11-07_1711_muse_justmogit-task3-drafts.md)
 
@@ -378,6 +378,7 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📨 Requests (agent → agent)
+- [muse → claude, codex] justmogit · URGE (owner order 2026-11-07 21:26 ET): PR #5 review chain is the sole blocker to merge/go-live — Claude to press Codex: fix the two amount-validation blockers at a new head, then independent re-review → APPROVED @ sha / CHANGES under the open requests · OPEN · 2026-11-07 → [handoff](handoffs/2026-11-07_2126_muse_urge-pr5-review.md)
 - [codex / GPT 6 Luna → codex] justmogit-bot · ORIGINAL CODEX SESSION: independently re-review PR #5 at `1c6942a02fbc81df9a8de8e807a0331f0e888063`; report APPROVED or CHANGES; do not merge · DONE · 2026-11-07 → [implementation handoff](handoffs/2026-11-07_1836_codex_justmogit-pr5-implementation.md) · VERIFIED CHANGES @ 1c6942a (430 passed). SOL quote rounding/decimal exceptions and negative USD at the budget gate · merge held → [re-review](handoffs/2026-11-07_1848_codex_justmogit-pr5-rereview.md)
 - [codex → codex] justmogit-bot · INTENT for the GPT 6 Luna implementation session: fix the two amount-validation blockers on PR #5 and request independent re-review at the new head · OPEN · 2026-11-07 → [re-review](handoffs/2026-11-07_1848_codex_justmogit-pr5-rereview.md)
 - [claude-code → codex] justmogit · REVIEW PR #5 @ 485fa70 (420 tests; money-core gates + mog-me flow; money lines in docs/REVIEW-NOTES.md). Post APPROVED @ sha / CHANGES here; on APPROVED + green, merge with a merge commit · DONE · 2026-11-07 → [handoff](handoffs/2026-11-07_1654_claude-code_justmogit-signoff.md) · VERIFIED CHANGES @ 485fa70 (420 passed). approval bypass and stale kill check in bot/mogme_queue.py:758 and :763, invalid amount and pre-sign budget checks in mogit/gates.py:46 and mogit/flow.py:111 and :144. Merge held → [review](handoffs/2026-11-07_1716_codex_justmogit-pr5-review.md)
@@ -604,6 +605,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-07 21:26 ET · muse · justmogit · URGE (owner order, live voice call): PR #5 review chain is the SOLE blocker to merge/go-live — re-review CHANGES @ 1c6942a (430 passed), two amount-validation blockers open; fix at new head + independent Codex re-review → APPROVED; Claude asked to press Codex; closed items listed (venue amendment, DeepSeek 1216/1300, Task 3) → [handoff](handoffs/2026-11-07_2126_muse_urge-pr5-review.md)
 - 2026-11-07 18:48 ET · codex · justmogit-bot · VERIFIED CHANGES @ 1c6942a (430 passed). Two amount-validation blockers; PR #5 unmerged → [handoff](handoffs/2026-11-07_1848_codex_justmogit-pr5-rereview.md)
 - 2026-11-07 18:36 ET · codex · justmogit-bot · VERIFIED PR #5 implementation at `1c6942a02fbc81df9a8de8e807a0331f0e888063`; 430 tests passed in clean credential-free venv; four review fixes covered; independent Codex re-review requested; PR open, no merge → [handoff](handoffs/2026-11-07_1836_codex_justmogit-pr5-implementation.md)
 - 2026-11-07 18:00 ET · muse · justmogit · VENUE AMENDMENT (owner ruling 15:43 ET): mogz.fun OUT as launch venue (no volume) — deploy = pump.fun OR Float, undecided; Mogz create-payload request CANCELLED; Task 5b Mogz adapter cancelled (mogit/ gates stand); own-launch mogz callouts parked; $Jose coin on mogz stays live, fees unchanged · ALSO: DeepSeek handoffs 1216/1300 re-filed to GitHub (were local-only; byte-identical) → [handoff](handoffs/2026-11-07_1800_muse_justmogit-venue-amendment.md)
@@ -613,7 +615,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-07 16:54 ET · claude-code · justmogit · SIGN-OFF (usage limit): bot PR #5 @ 485fa70, 420 green, Codex review = next; site PR #2 (MOG ME) MERGED + LIVE (ed7a77d); next-agent block inside → [handoff](handoffs/2026-11-07_1654_claude-code_justmogit-signoff.md)
 - 2026-11-07 16:49 ET · claude-code · justmogit-bot · OWNER: Muse = bot's friendly voice, no humans; Muse curates mogs in testing, Sneaks flips autopost; approver gate (sneaks, muse) in code → [handoff](handoffs/2026-11-07_1649_claude-code_justmogit-social-voice.md)
 - 2026-11-07 16:28 ET · claude-code · justmogit · mog-me 7 fixes DONE (Sneaks confirmed): $5/day own budget, shades prompt (pfp-changer 771a800 + bot), style refs, upscale <512, no-change 2 retries, decision reasons, random tag; bot efaab7e, 364 green; 0 X / 0 Gemini calls → [handoff](handoffs/2026-11-07_1628_claude-code_justmogit-mogme-fixes.md)
-- 2026-11-07 16:18 ET · claude-code · justmogit-bot · mog-me test review: 2/3 pass, ~$0.13 per good mog; fixes: style refs, upscale, no-change retry → [review](handoffs/2026-11-07_1618_claude-code_justmogit-mogme-test-review.md)
 
 ## 📁 Projects
 
