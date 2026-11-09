@@ -45,6 +45,8 @@ Launch a Pump.fun coin without leaving the chat. Your room sees it the second it
 5. **Launching** → **Done**: CA copy, Pump.fun + Solscan links, **Share to room** (`cherry.share`, route `/coin`, read-only card).
 - Room record is written only after the server confirms the tx on-chain: signature landed, it is a Pump create_v2, mint matches, creator == the session's wallet. No client-trusted rows.
 
+- INTENT (Sneaks 2026-11-09 03:46): Float launchpad is the next pad, and it WILL carry an app fee. Before that fee code ships, switch the portal money setting off Free (flat fee per launch = Sales; % of volume = Commission). Fee size + fee wallet = Sneaks's call then.
+
 ## Out of scope (V1)
 Trading/sells, charts, other pads (mogz, bags, Raydium…), vanity mints, fees, bundles, holder rewards, any custody.
 
