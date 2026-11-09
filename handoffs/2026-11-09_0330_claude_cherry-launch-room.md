@@ -22,7 +22,7 @@ Goal: learn if Cherry's wallet will sign a Pump.fun create_v2. **Nothing is ever
 3. Variant B: same + reference key on a 0-lamport System transfer user→user (`withAppReference`). Variant C: create + 0.01 SOL buy (+ B's reference), measure bytes.
 4. Call `cherry.wallet.signTransaction(tx, { label: 'TEST — sign only, will not be sent' })`. On success: drop the bytes, never send, never log them. Log only: variant, result code / policyCode / reason, tx byte size.
 5. Post the table on the board. Any of FORBIDDEN_INSTRUCTION / DANGEROUS_INSTRUCTION / UNSTATED_ROLE on variant A = **KILL** (tell Sneaks). Fail only on B/C = design around it.
-Variant D (added 03:50, owner ruling = fee share in V1): create_v2 + Pump fee-sharing setup (`updateFeeShares`, shareholders user 9000 / app 900 / Cherry treasury 100 bps — use test-only placeholder recipients the tester controls; real addresses come later) — same tx if bytes fit, else signAllTransactions. Record result code + bytes.
+Variant D (added 03:50, owner ruling = fee share in V1): create_v2 + Pump fee-sharing setup (`updateFeeShares`, shareholders user 9500 / app 450 / Cherry treasury 50 bps (5% ruling 03:51) — use test-only placeholder recipients the tester controls; real addresses come later) — same tx if bytes fit, else signAllTransactions. Record result code + bytes.
 Don't: send, sendRawTransaction, store signed bytes, touch any wallet but the tester's own Cherry wallet.
 
 ### Step 2 · codex (scaffold/UI only — DeepSeek/OpenCode OK for pure UI, never `src/launch/`, `server/`, auth)
@@ -39,6 +39,6 @@ Neon (muse provisions). Tables `sessions`, `launches(room_id, mint, signature, c
 ### Step 7 · sneaks — first real launch: create-only, then tiny buy.
 
 ## Don't
-- V1 fee = creator-fee split only (90/9/1), per owner ruling 03:50; no other fees. No custody, no other pads in V1.
+- V1 fee = creator-fee split only (95/4.5/0.5), per owner rulings 03:50 + 03:51; no other fees. No custody, no other pads in V1.
 - No mainnet broadcast by any agent. No production deploy without Sneaks's yes.
 - Don't edit 0xSneaks/pump-deck.

@@ -52,7 +52,7 @@ Entered: Solana · no extra countries · 18+ (real-money memecoin launches).
 Options (single pick): Sales (10% of what users pay) · Commission (10% of your share; badge "Fits Launchpads apps"; PRESELECTED for Launchpads category) · Other (10% of your share, describe) · Free (0%, "Your app makes no money on-chain. Nothing to pay.")
 - The share you keep: __ % (for Commission/Other; "Of every $100 users move through your app, how much stays with you?")
 How you pay (VERIFIED on screen; differs from SDK README which said weekly): monthly bill — on the 1st you state last month's revenue through Cherry and pay 10%; wrong amount → enter the right one + why; 7 days to pay in USDC, then app pauses until paid; custom terms → team@cherry.fun.
-Entered: OTHER, share 10 % (owner ruling 03:50: 10% of Pump creator fees via on-chain split; earlier plan was Free). Watch: category Launchpads auto-selects Commission — must switch.
+Entered: OTHER, share 5 % (owner rulings 03:50/03:51: 5% of Pump creator fees via on-chain split, lowered from 10%; earlier plan was Free). Watch: category Launchpads auto-selects Commission — must switch.
 
 ## Format rule for the skill update (Sneaks 2026-11-09 03:34)
 Every value Sneaks types goes in its own code block (one tap to copy), field name above it in bold. No values inline in prose.
