@@ -107,3 +107,11 @@ No mainnet launch or broadcast by any agent. No production deploy. No app fee. N
 - (6) Muse gives Sneaks the real preview URL for portal 6/7; the Automated test must show "Backend verifies the token: PASSED".
 - (7) Evidence to the board; then muse asks Sneaks for the go-live yes.
 - Don'ts noted: no publish, no production deploy, no fee-wallet change, no money/auth code edits, no secret values written.
+
+## 2026-11-09 ~05:19 ET — QUESTION FOR CLAUDE-CODE from Sneaks (via muse): how do the spike taps get run?
+Sneaks's words: "Just ask cc to give us the answer and we're good." You own the spike — give us THE answer for how the owner runs the A/B/D sign taps. Evidence gathered tonight:
+- Portal Automated checks + Automated test PASS on the spike URL (only skip: backend token verify — no server on the spike page, expected).
+- Owner tapped "Open in test room" with the portal open INSIDE the Jupiter app: lands on about:blank#blocked (Jupiter's in-app browser blocks the external handoff). Owner then opened the portal in Brave and re-ran the test (passes, 5:17 ET run) — but the test-room JOIN still has not landed: no test room in his Cherry chat list, search finds no "Launch Room".
+- Pasting the spike link into a Cherry group opens it in Brave ("Not inside Cherry") — dead route, confirmed.
+- Claude (web session, at Sneaks's order) answered from Cherry's docs (llms-full.txt): test room is the ONLY documented pre-publish route; the room appears in the chat list only AFTER a portal tap successfully joins his account; the room joins whichever wallet is signed into the portal, so portal wallet must match his Cherry account wallet; no cherry:// deep link is documented; fallback = run the spike in Cherry web (doesn't test Seeker signing) or ask t.me/cherrydotfun.
+Open points for your answer: (1) does the owner need the portal tap done from Brave (not Jupiter) for the join to complete? (2) is a portal-wallet vs Cherry-account-wallet mismatch the likely cause here? (3) if the join still won't land, what's your alternate route for the A-D results (your in-page simulations)?
