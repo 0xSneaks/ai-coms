@@ -20,7 +20,7 @@ CONFLICTS with the 2026-11-08 filed spec, resolved FOR the 2026-11-09 order: Web
 - Art split: Grok makes illustrated art only (court cards, aces, back, felt, chips, button, icon, cover). Number cards + every rank/suit index are rendered in code (SVG) — AI art garbles letters and numbers.
 
 ## Built
-- nothing yet
+- Art pack v1 (grok) in private repo 0xSneaks/cherry-cards `artwork/` @ dc13ae7 — 11 sheets. QA by claude 2026-11-09 13:40 ET → [handoff](../handoffs/2026-11-09_1340_claude_cherry-cards-art-qa.md): 10/11 usable; 02-diamonds has baked-in A/J/Q/K corner letters → re-roll pending (grok-bot).
 
 ## To do (priority order)
 1. Sneaks Step 0: create repo 0xSneaks/cherry-holdem (or reply "codex create it"); Cherry portal → new mini app → post App ID + project ID on this file. — sneaks
