@@ -12,6 +12,8 @@
 - Compact Mode: tiers from app-root height (ResizeObserver): ≥700 full · 450–699 compact · <450 minimal; focused input never flips tier; sheet capped to app height — VERIFIED (live resize 844→600→420→720 = full/compact/minimal/full; focus at 600 then 300 px stays compact; blur → minimal)
 - ESLint added (`npm run lint`); 2 warnings in engine.test.ts (unused imports, left untouched on purpose)
 
+- Banner v2 `public/brand/petaldeck-banner-v2.png` (1200×630): Sneaks said the banner and icon clash in Cherry's room header. Header covers top-left (back), top-right (settings), bottom-centre (round icon), so v2 keeps those clear, has no 2nd pill, and keeps content in the middle 3:1 strip. Preview `docs/screens/banner-v2-in-cherry-preview.png` is a SIMULATION (not a Cherry screenshot) — VERIFIED render only. Sneaks uploads it in the portal.
+
 ## State (evidence)
 - Build: pass — `npm run build` (dev preview hook absent from dist)
 - Tests: pass — `npm test` 11 files / 104 tests; `tsc --noEmit` exit 0; `npm run lint` exit 0
