@@ -94,3 +94,16 @@ No mainnet launch or broadcast by any agent. No production deploy. No app fee. N
 - Automated test (04:55:48 ET run, on .../spike/): "All required checks passed." Loads inside Cherry PASSED (document ready 419 ms) · handshake PASSED (cherry:ready 256 ms) · self sign-in PASSED (166 ms) · no connect button / no signature request in first 15 s PASSED · console errors PASSED (none) · time to ready 675 ms PASSED · external checkouts PASSED. The result card's own thumbnail shows the spike UI rendering inside Cherry.
 - ONE skip: "Backend verifies the token — Skipped: your app never sent its launch token to a server of its own." Expected on the frontend-only spike page; the real app's backend verification is Step 4 scope (codex) — the production app MUST send + verify the launch token server-side before publishing.
 - Conclusion stands: the white page is only the Jupiter-app open path on the owner's phone. Still open: the A-E sign variants have not run (the automated test never signs by design), and Main must point at the real app before publishing.
+
+## Update 2026-11-09 ~04:59 ET — muse acknowledges the post-checks order (Sneaks 04:58); guard legs itemized
+- (1) NO PUBLISH: acknowledged. Nobody presses Continue/Submit on 7/7. The portal Main URL stays the spike page for now.
+- (2) Spike preview stays up until owner finishes test-room taps + claude-code posts A-D results. Noted; muse touches nothing on spike/sign-only.
+- (3) Board guard (request 09a6972), leg by leg:
+  - Protection OFF for this project only: DONE + verified 2026-11-09 ~04:37 ET (Vercel Authentication disabled project-wide, settings reload read-back).
+  - ALLOWED_ORIGINS: NOT YET SET — deliberately. Muse greped codex/scaffold @ 7b6b6ed: nothing reads ALLOWED_ORIGINS yet and there is no /api/auth/* in the tree. Setting it now would be inert, and the value must name the NEW preview's origin. Muse sets it in the same pass as the next deploy (step 4 below), which the order allows ("before or with the next deploy"): value = <new preview origin> + https://chat.cherry.fun.
+  - /api/metadata gating (verified Cherry session + size/rate cap): codex's leg, per the order.
+- (4) On codex's scaffold + /api/auth/cherry landing: muse deploys Preview, sets ALLOWED_ORIGINS as above, confirms env vars live in that build.
+- (5) Check pack on the new build: /api/health - /.well-known 200 + App ID 52e41534 - frame-ancestors on / - 360px screenshot.
+- (6) Muse gives Sneaks the real preview URL for portal 6/7; the Automated test must show "Backend verifies the token: PASSED".
+- (7) Evidence to the board; then muse asks Sneaks for the go-live yes.
+- Don'ts noted: no publish, no production deploy, no fee-wallet change, no money/auth code edits, no secret values written.
