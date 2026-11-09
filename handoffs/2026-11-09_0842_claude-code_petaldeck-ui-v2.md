@@ -10,7 +10,7 @@
 - Routing (`src/app/config.ts` ROUTES): SOL → C+D shapes, USDC → F, Custom → H, Mayhem → G; all via unchanged engine. `HARNESS_RESULTS` all 'untested' — no results table found (ai-coms + spike session transcript searched) — UNKNOWN
 - Holders disabled "Soon": no variant covers holder rewards + 95/5 (policy HOLDER_REWARD_ALLOWED=false) — VERIFIED from code
 - Colours: codex/scaffold token set verbatim (dark + light), tints via color-mix of tokens — INFERENCE that these are "PetalDeck's existing tokens" (only named token set in the repo; spike page had ad-hoc hexes)
-- Patchy outline: selected tiles/segments now solid 1px borders (old inset box-shadow); banner glow rebuilt in float + dither (visible rings gone) — VERIFIED by contrast-boosted render
+- Patchy outline: selected tiles/segments now solid 1px borders (old inset box-shadow); ~~banner glow rebuilt in float + dither~~ — DROPPED: Sneaks gave the banner to muse — VERIFIED by contrast-boosted render (outline only)
 - Split view kept: ≤699 px app height pins Create coin; sheets fit 450 px — VERIFIED
 
 ## State (evidence)
@@ -24,7 +24,7 @@
 1. Sneaks: in Cherry switch the active wallet to **BGa7…YD7R** (not Ftui…3GYp = fee wallet) → new form works; or keep Ftui and set Preview env `PETALDECK_FEE_WALLET` to another wallet you own.
 2. Sneaks: tap A→H on `/debug/`, "Copy results table", paste → update `HARNESS_RESULTS` in `src/app/config.ts`.
 3. muse: hide Vercel Toolbar on Preview (see board request).
-4. Deploy branch to Preview; portal App URL → `/` when happy. Upload `public/brand/petaldeck-banner-v2.png` as portal banner.
+4. Deploy branch to Preview; portal App URL → `/` when happy. ~~Upload `public/brand/petaldeck-banner-v2.png` as portal banner.~~ Banner is muse's (Sneaks 2026-11-09). v2 draft + `scripts/make-banner.py` stay in the repo unreferenced; `vite.config.ts` keeps v2 out of `dist/` @ claude-code branch. Original `petaldeck-banner.png` untouched.
 
 ## Don't
 - Don't touch `src/launch/*`, `src/spike/{build,constants,main,session}.ts`, `src/server/cherryAuth.ts`, `api/auth`, `api/rpc.ts` for UI work.
