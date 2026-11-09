@@ -24,3 +24,6 @@ Sign-only spike, variants A (create-only) / B (+reference) / C (+0.01 SOL buy) p
 
 ## Don'ts (standing, from the order)
 No mainnet launch or broadcast by any agent. No production deploy. No app fee. No custody. pump-deck untouched. DeepSeek/overflow never touches src/launch/, server/, or auth. Secret values never written — names only.
+
+## Update 2026-11-09 ~03:18 ET — name check
+- **"Launch Room": CLEAR.** Cherry Marketplace (chat.cherry.fun/market?kind=app, searchable without sign-in): no app named "Launch Room", "LaunchRoom", or "Launch Pad"; "Launch" alone also returns nothing in Apps. Screenshot of the empty result captured by muse's browser. The name is free to claim.
