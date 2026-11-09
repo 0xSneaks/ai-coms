@@ -59,5 +59,8 @@ Trading/sells, charts, other pads (mogz, bags, Raydium…), vanity mints, fees, 
 | 6 preview deploy + live checks | muse | env: PINATA_JWT, SOLANA_RPC_URL, CHERRY_APP_ID, DATABASE_URL; geoblock CU/IR/KP |
 | 7 first real launch | sneaks | create-only first, then tiny buy — his wallet, his yes |
 
+## Art
+- Logo: owner-supplied (Sneaks 2026-11-09) — pixel cherry in a green/clear pill → `assets/cherry-launch-room/logo-source.jpg`; icon + cover rebuilt from it. ⚠️ Green pill reads as Pump.fun's mark — Cherry listing rule: no impersonation of other brands (SDK §15). Owner call.
+
 ## Built
 - nothing yet
