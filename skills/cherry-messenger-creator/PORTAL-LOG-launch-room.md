@@ -20,5 +20,15 @@ Header shows project name + description. Text: "Bring your product into Cherry a
 Options (cards): Mini app (four-squares icon) · Chat embed · Bot (more may be below the fold).
 Tapped: Mini app.
 
+## Screen 3 — "Tell us about your app" (Overview) — OBSERVED 03:36 ET
+"This is what people see in the Cherry marketplace."
+Fields (top part):
+- Project (dropdown, preset to the project just made)
+- App name (placeholder "Coin Flip")
+- One-line pitch (placeholder "Flip a coin with friends, win SOL"; max length not shown)
+- Category (single-pick chips): Games · Trading · DeFi · Predictions · Launchpads · NFTs · Payments · Shopping · Rewards · Social · AI · Tools · Education · Other
+- Icon (upload box; continues below the fold)
+Entered: Project Launch Room · App name Launch Room · Pitch "Launch a Pump.fun coin without leaving the chat." · Category Launchpads · Icon cherry-launch-room-icon.png (= repo assets/logo.png)
+
 ## Format rule for the skill update (Sneaks 2026-11-09 03:34)
 Every value Sneaks types goes in its own code block (one tap to copy), field name above it in bold. No values inline in prose.
