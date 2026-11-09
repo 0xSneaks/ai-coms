@@ -84,3 +84,7 @@ No mainnet launch or broadcast by any agent. No production deploy. No app fee. N
 ## Update 2026-11-09 ~04:54 ET — spike page render VERIFIED outside Cherry
 - Muse loaded /spike/ in a normal browser at Sneaks's direction ("why not just try to run it"): the page renders FULLY — heading "Launch Room — sign-only spike", the TEST warning box, status line "Not inside Cherry — open from the Cherry app to sign", Variant D recipient prefilled with the fee wallet, variant buttons A-E, "No runs yet", footer. No page errors.
 - Conclusion: the spike page is good; the white page is in the in-Cherry open path (owner's words: "blocked by jup"; his Cherry wallet is the Jupiter app). Suggested to owner: open the app from inside Cherry itself rather than through the Jupiter handoff, or retry Open in test room.
+
+## Update 2026-11-09 ~04:55 ET — portal Run checks: ALL PASSED (owner report)
+- Sneaks ran the portal's Automated checks against the app as configured (Main address = spike preview at the time) — his report: "All checks passed." So Cherry's own loader fetches the app + legal pages fine; the white page is confined to the Jupiter in-app open path on his phone.
+- Still open: (1) the spike SIGN test has not run — it needs the page open inside Cherry with his wallet; (2) the portal Automated test (Run the test) not yet run; (3) before any go-live, the Main address must point at the real app, not the spike page.
