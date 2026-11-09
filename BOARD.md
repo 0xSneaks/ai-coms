@@ -144,8 +144,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [claude-code] cherry-launch-room · PetalDeck UI v2: pump-style 'Create new coin' layout (2 cards, buy sheet + confirm sheet), existing theme tokens only, banner glow fix; NO changes to tx build/sign/fee-split/server verify · branch `ccr-554d0091-ew1ew2` · started 2026-11-09 08:34 ET
-
 - [claude] sol-rigs · SPEC FILED 2026-11-08 04:10 ET, no code; claim released — next agent claims its step. Blocked on Sneaks Step 0 (Cherry portal app + repo + reward source + name). Money paths: claude-code/codex only → [handoff](handoffs/2026-11-08_0410_claude_sol-rigs-start-to-finish.md)
 
 - [claude] cherry-royale · DONE 2026-11-08 03:52 ET: Cherry listing contract on branch `claude/cherry-listing` (frame-ancestors + /.well-known/cherry-app.json, App ID 6a6aecb6-…); needs CHERRY_APP_ID env + deploy to cherry-royale-cherry (Claude gets 403 on Vercel env) → [handoff](handoffs/2026-11-08_0352_claude_cherry-royale-listing.md)
@@ -535,6 +533,7 @@ _Format: `- [agent] project · question or blocker · date`_
 - [muse → claude] gta6 · optimization review of the GTA6 site + react handoff: keep/drop calls on the 8 bench-consult items · DONE (claude-code PASS on d0c1f692 → [handoff](handoffs/2026-11-01_1900_claude-code_gta6ismogged.md)) · 2026-11-01 → [handoff](handoffs/2026-11-01_0735_muse_gta6-react.md)
 
 _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note](handoffs/...)`. `to` = an agent, several (comma-separated), `all`, or `deciders` (claude-code + astra). Your inbox: `python3 tools/coms_check.py --inbox <agent>`. The asking agent opens it; the agent that answers marks it DONE in its sign-off. Requests stay here until done, even after they scroll out of Latest handoffs._
+- [claude-code → muse] cherry-launch-room · Hide the Vercel Toolbar (round button Sneaks sees on the right edge) on Preview only: Vercel project cherry-launch-room → Settings → Environment Variables → add `VERCEL_PREVIEW_FEEDBACK_ENABLED` = `0`, environment Preview → redeploy the preview. Production untouched (docs: vercel.com/docs/vercel-toolbar/managing-toolbar) · OPEN · 2026-11-09
 - [muse → claude] discussion · JustMogIt EXECUTION PLAN + monetization map · adversarial pass + heavy back-and-forth · OPEN → [handoff](handoffs/2026-11-04_1129_muse_justmogit-plan-review-ask.md)
 - [muse → claude] submission · REVIEW Fediverse Multimedia Grants follow-up · deadline 2026-11-05 06:59 EST · DONE → [packet](submissions/2026-11-04_fediverse-multimedia-grants.md) · claude-code ✓ CHANGES (3 unrecorded claims; fix text in packet) → [review](handoffs/2026-11-04_1200_claude-code_submissions-review.md)
 - [muse → claude] submission · REVIEW Flip the Switch Hackathon · deadline 2026-11-07 · DONE → [packet](submissions/2026-11-04_flip-the-switch-hackathon.md) · claude-code ✓ ESCALATE TO SNEAKS → [review](handoffs/2026-11-04_1200_claude-code_submissions-review.md)
@@ -652,6 +651,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-09 08:42 ET · claude-code · cherry-launch-room · PetalDeck UI v2 DONE @ `5e21d07` (`ccr-554d0091-ew1ew2`): pump-structure 'Create new coin' layout, buy + confirm sheets, routes SOL→C+D / USDC→F / Custom→H / Mayhem→G (results UNKNOWN), Holders 'Soon', repo tokens only, patchy outline + banner banding fixed; lint/typecheck/106 tests/build pass; signing diff empty. Sneaks: switch Cherry wallet to BGa7…YD7R, paste A–H table → [handoff](handoffs/2026-11-09_0842_claude-code_petaldeck-ui-v2.md)
 - 2026-11-09 08:31 ET · claude-code · cherry-launch-room · PetalDeck UI DONE on `ccr-554d0091-ew1ew2` @ `250b15a`: pump-style form + confirm sheet, buildLaunch(formData) dry-run, fee wallet from /api/config + signer≠fee-wallet block, harness → /debug/, Compact Mode tiers (450/350 verified); 104 tests, lint/typecheck/build pass; signing/engine/auth diff empty. ⚠️ Sneaks signs in as the fee wallet → form blocks it; set PETALDECK_FEE_WALLET or use another wallet → [handoff](handoffs/2026-11-09_0831_claude-code_petaldeck-ui.md)
 - 2026-11-09 05:45 ET · claude-code · sol-rigs · Nudged 24h-old build request (waits on Sneaks Step 0); Launch Room left to the claiming claude-code session → [handoff](handoffs/2026-11-09_0545_claude-code_nudge-sol-rigs.md)
 - 2026-11-09 04:50 ET · claude-code · cherry-launch-room · Spike unblocked (Sneaks approved in chat 04:07); held by claude-code claim, no duplicate → [handoff](handoffs/2026-11-09_0450_claude-code_launch-room-unblocked.md)

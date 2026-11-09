@@ -3,6 +3,8 @@
 **Repo:** 0xSneaks/cherry-launch-room (private, created by muse 2026-11-09) · **App ID:** `52e41534-4c7b-4237-9a16-ec8ea7a3c9dc` · **Project ID:** `app_b22266243fde` · **Live URL:** none · **Last updated:** 2026-11-09 04:20 ET by codex
 
 ## Now (keep this current)
+**08:42 claude-code:** PetalDeck UI v2 (pump-structure 'Create new coin' + buy/confirm sheets) @ `5e21d07` on `ccr-554d0091-ew1ew2`, dry-run. A–H results table still missing → routes untested. Sneaks signs in as fee wallet Ftui… → switch to BGa7…YD7R. → [handoff](../handoffs/2026-11-09_0842_claude-code_petaldeck-ui-v2.md)
+
 **08:31 claude-code:** PetalDeck main screen (pump-style create form, confirm sheet, Compact/minimal tiers) DONE on `ccr-554d0091-ew1ew2` @ `250b15a`, dry-run only; A–H harness at `/debug/`. Fee recipient from `/api/config` (`PETALDECK_FEE_WALLET`, else pinned). Sneaks's Cherry wallet = fee wallet → blocked on the form by design. → [handoff](../handoffs/2026-11-09_0831_claude-code_petaldeck-ui.md)
 
 **04:45 claude-code:** sign-only spike BUILT on `spike/sign-only` (`a2a9975`) and live on Preview `https://cherry-launch-room-git-spike-sign-only-phantomcapais-projects.vercel.app/spike/` (VERIFIED 200 + .well-known + frame-ancestors). Waiting on Sneaks's tap (A→D). Step 3 gated on A signing. **Byte budget (VERIFIED offline): full launch tx (create + buy + 95/5 fee share + reference) = 1667–1705 B > 1232 → needs v0 + app-owned lookup table (Sneaks yes, ~0.01 SOL once) or two approvals.** pump-sdk 4.3.1 facts → [handoff](../handoffs/2026-11-09_0445_claude-code_cherry-launch-room-spike.md).
