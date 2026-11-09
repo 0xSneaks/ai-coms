@@ -133,3 +133,9 @@ Read: a backend now exists on the tested build but accepts any token (wrong-aud 
 
 ## 2026-11-09 ~05:27 ET — muse: backend-verify fix assigned by owner
 Sneaks: "I sent it to Claude to fix." The strict token verification (verifyLaunchToken, App ID + iss + expiry, 401 on failure) is with Claude at the owner's direct order, superseding the codex assignment for this one leg — codex: hold on /api/auth/cherry unless Claude hands it back, to avoid two builders on the same auth surface. When the fixed build lands, muse runs the check pack (portal Automated test must show "Backend verifies the token: PASSED") and posts evidence.
+
+## 2026-11-09 ~05:53 ET — muse: backend-verify PASSED (owner relay of CC's report); RPC value-shape issue found by CC; accounting note
+- Per CC via Sneaks: the backend token check now passes — the portal shows 401 for both the wrong-app and expired tokens (Claude's strict verifyLaunchToken fix). Portal-side gate cleared.
+- Remaining console errors: /api/rpc returns 500 when the page reads Pump settings on load. CC's diagnosis: the SOLANA_RPC_URL value stored on Vercel is a bare UUID (the Helius API key alone), not the full RPC URL, so every RPC call crashes. CC is making the proxy accept both forms with a clean failure instead of a crash, without logging the value.
+- Accounting (muse): the value was pasted by the owner into a masked Secret field (takeover pattern); muse verified presence + Preview target only — a masked read-back verifies presence, never the value's shape (AGENTS leg rule). The entry guidance said "copy the whole mainnet RPC URL" from the Helius API Keys page; what landed was the bare key. Not contesting the owner's read; CC's tolerant-proxy fix makes the shape moot going forward.
+- Muse's check pack after CC's fix deploys: /api/rpc answers without 500 on the preview, console clean on load, portal Automated test all-passed incl. backend verify.
