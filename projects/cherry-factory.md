@@ -8,6 +8,8 @@ Plan filed 2026-11-08 23:52 ET. Starter template + Cherry terms check start toni
 ## Established
 - INTENT (Sneaks 2026-11-08): now a verified Cherry dev; wants to ship casino games (blackjack, slots, etc.), the miner (SOL RIGS) and more, and get paid.
 - VERIFIED (Sneaks 2026-11-08): on Cherry, games are not free-to-play — Cherry's platform carries real value.
+- INTENT (Sneaks 2026-11-08 23:54): Cherry pays devs for every app that is successful. What counts as "successful" and the payout terms are UNKNOWN until the terms check (item 2).
+- STRATEGY: many small apps, ship fast, measure, double down on winners, park losers. Every app ships with basic stats (players, sessions, return rate) so winners are visible.
 - GATE: no real-money wager, payout or token wiring in ANY app until the Cherry terms check below is posted AND Sneaks rules on it. Until then build play-chip mode with the wager layer as a disabled stub. Cherry Hold'em's PLAY-CHIPS-ONLY decision stands until that ruling.
 - Money paths (RNG, payouts, wagers, auth) = claude-code or codex review only. DeepSeek, Cherry Builder and other cheap/overflow bots never touch them.
 - Every casino game: provably fair RNG (commit seed hash → deal → reveal), server-authoritative, house edge shown on screen.
