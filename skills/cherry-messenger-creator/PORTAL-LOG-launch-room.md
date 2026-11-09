@@ -14,3 +14,6 @@ Entered:
 - Description: Launch a Pump.fun memecoin from any Cherry chat.
 - Notification email: Sneaks's own email (optional)
 - Invite teammates: skip
+
+## Format rule for the skill update (Sneaks 2026-11-09 03:34)
+Every value Sneaks types goes in its own code block (one tap to copy), field name above it in bold. No values inline in prose.
