@@ -59,5 +59,17 @@ Entered: OTHER (Commission stays preselected — tap Other), share 5 %, descript
 - The share you keep (optional) — "Leave it empty if your revenue doesn't come from what users move. You'll state it on the bill."
 Entered: description = 5% of Pump creator fees via on-chain split, users keep 95%, no cut of in-app SOL; share = EMPTY (revenue is off-app creator fees, declared on the monthly bill).
 
+## Screen 7 — step 6/7 · Integrate — OBSERVED 03:55 ET
+(Step 5/7 not captured — Sneaks passed it without a screenshot.)
+"Paste this prompt into your AI coding agent (Claude Code, Cursor, Codex). It contains everything: SDK, sign-in, wallet, limits, the domain proof and the checks. Deploy, then add the address below and try it in Cherry."
+- Tabs: Prompt for your agent · Header and domain proof · Do it by hand
+- Copy prompt / Download .md — app-specific integration prompt; contains a "Facts about this app" table with the App ID (52e41534-4c7b-4237-9a16-… visible, rest cut off)
+- Where your app runs: URL field + Add ("Staging is fine: add more addresses later and pick the one users get when you go live")
+- Automated checks: Run checks ("We load your app and legal pages the way Cherry will. Run them after deploying.")
+- Automated test: Run the test ("open your app inside Cherry on a phone, as a signed-in test user… signs them in by itself and never asks to connect a wallet. About a minute. Publishing needs a pass on your current URL.")
+- Back / Continue
+Done now: Copy prompt → saved to repo for the build agents. URL / checks / test wait for Muse's preview deploy.
+Skill lesson: the portal now GENERATES the integration prompt — agents should build from it (it is app-specific), not from the skill's hand-written contract alone.
+
 ## Format rule for the skill update (Sneaks 2026-11-09 03:34)
 Every value Sneaks types goes in its own code block (one tap to copy), field name above it in bold. No values inline in prose.
