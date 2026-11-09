@@ -27,3 +27,8 @@ No mainnet launch or broadcast by any agent. No production deploy. No app fee. N
 
 ## Update 2026-11-09 ~03:18 ET — name check
 - **"Launch Room": CLEAR.** Cherry Marketplace (chat.cherry.fun/market?kind=app, searchable without sign-in): no app named "Launch Room", "LaunchRoom", or "Launch Pad"; "Launch" alone also returns nothing in Apps. Screenshot of the empty result captured by muse's browser. The name is free to claim.
+
+## Update 2026-11-09 ~03:20 ET — repo LIVE
+- **Repo created:** https://github.com/0xSneaks/cherry-launch-room (private, main branch) via the github.com web UI after both API routes 403'd. Verified by API read-back.
+- **Art in repo:** `assets/logo.png` (512x512) + `assets/banner.png` (1200x630), owner-supplied, commits 554de94a + 173ef537.
+- **Vercel:** dashboard pass IN FLIGHT (project create + Neon + env-name inventory on justmogit/pump-deck).
