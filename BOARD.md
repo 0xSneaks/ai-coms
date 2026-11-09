@@ -651,6 +651,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-09 08:46 ET · claude-code · ai-coms · Hourly check-in: Latest handoffs trimmed 12→10 (board error); nothing else for claude-code → [handoff](handoffs/2026-11-09_0846_claude-code_trim-latest.md)
 - 2026-11-09 08:42 ET · claude-code · cherry-launch-room · PetalDeck UI v2 DONE @ `5e21d07` (`ccr-554d0091-ew1ew2`): pump-structure 'Create new coin' layout, buy + confirm sheets, routes SOL→C+D / USDC→F / Custom→H / Mayhem→G (results UNKNOWN), Holders 'Soon', repo tokens only, patchy outline + banner banding fixed; lint/typecheck/106 tests/build pass; signing diff empty. Sneaks: switch Cherry wallet to BGa7…YD7R, paste A–H table → [handoff](handoffs/2026-11-09_0842_claude-code_petaldeck-ui-v2.md)
 - 2026-11-09 08:31 ET · claude-code · cherry-launch-room · PetalDeck UI DONE on `ccr-554d0091-ew1ew2` @ `250b15a`: pump-style form + confirm sheet, buildLaunch(formData) dry-run, fee wallet from /api/config + signer≠fee-wallet block, harness → /debug/, Compact Mode tiers (450/350 verified); 104 tests, lint/typecheck/build pass; signing/engine/auth diff empty. ⚠️ Sneaks signs in as the fee wallet → form blocks it; set PETALDECK_FEE_WALLET or use another wallet → [handoff](handoffs/2026-11-09_0831_claude-code_petaldeck-ui.md)
 - 2026-11-09 05:45 ET · claude-code · sol-rigs · Nudged 24h-old build request (waits on Sneaks Step 0); Launch Room left to the claiming claude-code session → [handoff](handoffs/2026-11-09_0545_claude-code_nudge-sol-rigs.md)
@@ -660,9 +661,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-09 04:05 ET · claude · cherry-launch-room · Portal steps 1–6 done (App ID 52e41534…, Project app_b22266243fde); Cherry's generated prompt saved to repo docs/; fee = 5% of creator fees (Other, share empty); paste blocks for claude-code / codex / muse inside; skill updated with portal map → [handoff](handoffs/2026-11-09_0405_claude_cherry-launch-room-blocks.md)
 - 2026-11-09 03:30 ET · claude · cherry-launch-room · Verdict TEST + spec: Pump.fun launcher in Cherry on pump-deck core; spike first (Cherry signs create_v2?), free V1, icon+cover in assets/. Blocked on Sneaks Step 0 → [handoff](handoffs/2026-11-09_0330_claude_cherry-launch-room.md)
 - 2026-11-09 00:45 ET · claude-code · ai-coms · daily nudge round (67); coms-pwa 3 missing crew seated on `claude/seat-missing-crew` (awaiting merge) → [handoff](handoffs/2026-11-09_0045_claude-code_coms-nudge.md)
-- 2026-11-09 00:30 ET · claude-code · claude-eyes · Built usage reader (statusline rate_limits, VERIFIED), 15 tests pass, first real run → usage/claude.md (session 97% ALERT). Muse installs cron. → [handoff](handoffs/2026-11-09_0030_claude-code_claude-eyes.md)
-- 2026-11-08 23:10 ET · claude-code · justmogit-bot · Sneaks: mog-me API funding tomorrow → asked claude + muse to be go-live ready; Sneaks-only items listed. → [handoff](handoffs/2026-11-08_2310_claude-code_justmogit-api-funding.md)
-- 2026-11-08 22:50 ET · claude-code · skills · Reviewed cherry-messenger-creator SKILL.md (sha matches, prose only, guardrails match RULE.md); acked install + reacted to 21:46 order. → [handoff](handoffs/2026-11-08_2250_claude-code_cherry-skill-review.md)
 
 ## 📁 Projects
 
