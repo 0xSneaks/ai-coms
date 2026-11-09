@@ -18,7 +18,7 @@ Launch a Pump.fun coin without leaving the chat. Your room sees it the second it
 ## Established (don't re-litigate)
 - Venue: Pump.fun `create_v2`, SOL pair, standard launch (no mayhem, no cashback, no holder reward). Engine copied from pump-deck @ `1d8cb58` with a provenance note; pump-deck itself untouched.
 - Non-custodial: user's Cherry wallet is creator + fee payer + signer. App never holds user keys or funds. Only keypair the app makes = per-launch mint, in memory.
-- **No app fee in V1.** Declare monetization **free** in the portal. VERIFIED (SDK §13): Cherry bills `volume × declared share × 10%` → share 0 = $0. Fee model is a later Sneaks call, after usage data.
+- ~~No app fee in V1~~ SUPERSEDED. **OWNER RULING (Sneaks 2026-11-09 03:50): V1 takes a cut.** Every coin launched gets a Pump fee-sharing split at launch: **user 90% / app 9% / Cherry treasury 1%** of the coin's creator fees (Cherry's 10% of our 10%, paid in-split, no monthly bill). Portal money setting = **Other, 10%**. VERIFIED (@pump-fun/pump-sdk 4.3.1 README §Fee Sharing): split via `updateFeeShares` (SOL-quoted), shareholders by `shareBps`, settable **once only**; SOL-pair creator fee RATE is not configurable (we split, we don't raise it). Shown to user before signing: "You keep 90% of creator fees. 10% goes to Launch Room + Cherry. Permanent." App wallet = default sneaks.skr — Sneaks confirms. Cherry treasury address from the portal only, never guessed. UNKNOWN: whether off-Cherry trading fees count as 'revenue through Cherry' — paying 1% in-split is the safe default; muse asks team@cherry.fun.
 - Never "launched" before `confirmed` on-chain. Costs come from simulation, never hardcoded.
 - Footer: "Unofficial. Not affiliated with Pump.fun."
 
@@ -36,6 +36,7 @@ Launch a Pump.fun coin without leaving the chat. Your room sees it the second it
 2. Does it accept a tx already needing a second signer (mint)?
 3. Byte budget: create + buy + reference instruction vs 1232. pump-deck measured create+buy at 1188–1231 B with no budget ixs; a reference ix adds ~70 B → likely over. Options (claude-code decides): v0 tx + app-owned ALT of Pump's fixed accounts (one-time rent, needs Sneaks yes), or cap name/ticker length.
 4. How the host prices a brand-new token mint for the $50 check (PRICE_UNAVAILABLE risk on the dev buy).
+5. Fee-sharing setup: the coin's creator becomes the SharingConfig PDA (pump-sdk README). Does Cherry's precheck pass the fee-share instruction (authority-like change)? Same tx as create or a second tx (signAllTransactions, one approval)? Pump SDK is now 4.3.1 (pump-deck pinned 4.0.0) — re-verify create_v2 + fee-sharing against current docs before coding. Spike variant D tests it.
 
 ## Loop / screens (360 px, dark)
 1. **Room feed** (home): coins launched from this room — image, $TICKER, who, when, Pump.fun link. Empty state → "Be first. Launch a coin."
@@ -48,7 +49,7 @@ Launch a Pump.fun coin without leaving the chat. Your room sees it the second it
 - INTENT (Sneaks 2026-11-09 03:46): Float launchpad is the next pad, and it WILL carry an app fee. Before that fee code ships, switch the portal money setting off Free (flat fee per launch = Sales; % of volume = Commission). Fee size + fee wallet = Sneaks's call then.
 
 ## Out of scope (V1)
-Trading/sells, charts, other pads (mogz, bags, Raydium…), vanity mints, fees, bundles, holder rewards, any custody.
+Trading/sells, charts, other pads (mogz, bags, Raydium…), vanity mints, extra fees beyond the creator-fee split, bundles, holder rewards, any custody.
 
 ## Build split
 | Step | Owner | Notes |
