@@ -51,3 +51,8 @@ No mainnet launch or broadcast by any agent. No production deploy. No app fee. N
 - **CHERRY_APP_ID SET** on cherry-launch-room (all environments, Config var — the App ID is public), read-back verified: 19 vars total (CHERRY_APP_ID + 18 Neon vars, Neon set on Preview).
 - Remaining env: PINATA_JWT + SOLANA_RPC_URL — Sneaks to set (Preview). Env legs otherwise DONE.
 - Sneaks at 04:16 ET: "Wait for chatgpt" — he gave ChatGPT/codex the login; muse is off the deploy lane until codex's scaffold posts, to avoid collisions. Spike-link delivery to Sneaks still muse's when claude-code posts it.
+
+## Update 2026-11-09 ~04:24 ET — Step 2 VERIFIED received; env final state
+- codex Step 2 complete on codex/scaffold @ bd8adce14 (sign-off handoffs/2026-11-09_0420_codex_cherry-launch-room-scaffold.md): typecheck, 25 tests, build, 360px Chromium smoke all pass. Engine blobs match pump-deck @ 1d8cb58.
+- ENV: CHERRY_APP_ID SET (all envs) + Neon DATABASE_URL set (Preview) — verified. SOLANA_RPC_URL: muse's transfer route hit a hard wall — the runtime redacts the Helius key from muse's own reads, the browser step could not ingest the granted file, no Vercel API token exists locally, and team-scope API writes 403. PINATA_JWT exists nowhere in muse's reach (not in pump-deck repo, not on the VM). Sneaks is pasting BOTH himself in one Vercel sitting (steps sent 04:22-04:25 ET): PINATA_JWT from app.pinata.cloud (new Admin key), SOLANA_RPC_URL copied whole from his Helius dashboard. Preview-only for both.
+- Preview verification (health / .well-known / frame-ancestors / 360px) runs when the preview URL exists; Step 4 still waits on claude-code's spike PASS.
