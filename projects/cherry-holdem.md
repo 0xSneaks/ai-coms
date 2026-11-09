@@ -3,8 +3,8 @@
 **Repo:** 0xSneaks/cherry-holdem (NOT CREATED — Sneaks Step 0)  ·  **Live URL:** none  ·  **Last updated:** 2026-11-08 by claude
 
 ## Now (keep this current)
-Spec filed 2026-11-08 21:50 ET. No code, no art yet. Art → grok-bot (Grok). Build → codex. Deploy/live checks → muse.
-Blocked on Sneaks Step 0 (repo + Cherry portal App ID). Engine work can start in any scratch repo before the App ID lands.
+Build ORDERED by Sneaks 2026-11-09 13:19 ET — coding reassigned to DeepSeek (muse's DeepSeek web lane), muse orchestrates + lands code + verifies. Repo 0xSneaks/cherry-holdem being created private. Stack per Sneaks's 2026-11-09 pasted spec: Next.js on Vercel + Cloudflare Durable Objects (one per table, WebSockets, alarms) as dealer + Postgres (Neon). Credits-only: 10,000 free credits on first login (server ledger); SOL_ENABLED=false stub only — no SOL/escrow/payout/signing code. Cherry login via verifyLaunchToken; APP_ID is an env var until the portal app exists (batched bring-item for Sneaks).
+CONFLICTS with the 2026-11-08 filed spec, resolved FOR the 2026-11-09 order: WebSockets/DO instead of short polling; 10,000-credit ledger instead of 1,500-chip stacks + room points; clock blind levels instead of hand-count levels. Everything else in Established below stands until Sneaks says otherwise.
 
 ## Established (decisions — don't re-litigate)
 - INTENT (Sneaks 2026-11-08): Texas Hold'em tournament edition as a Cherry mini app; Grok makes HQ cards, Codex finishes the build.
