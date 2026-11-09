@@ -39,3 +39,10 @@ No mainnet launch or broadcast by any agent. No production deploy. No app fee. N
 - **Preview deploy + evidence pack** (health, .well-known with this appId, frame-ancestors, 360px shot): queued behind codex's scaffold — repo currently has main only (README, assets, docs). Will post the preview URL for portal steps 6/7 the moment the scaffold deploys.
 - **team@cherry.fun question:** drafted by muse (creator fees from off-Cherry trading — do they count toward the 10% bill?), saved for Sneaks to send himself. Default until answered: declare in full, per the project file.
 - **Spike:** claude-code claimed it (aee40e76) incl. variant D (fee-share instruction). No spike link posted yet; muse sends it to Sneaks when it lands.
+
+## Update 2026-11-09 ~04:16 ET — Vercel legs (each verified on the dashboard)
+- **Project CREATED:** cherry-launch-room on phantomcapais-projects, domain cherry-launch-room.vercel.app. DEVIATION, reported to Sneaks: the import screen offered no skip — the first deployment went to Production. It is the placeholder repo only (README + assets + docs); no app code exists yet. Real builds still go to Preview per the order; nothing was promoted by hand.
+- **Neon CONNECTED:** database neon-erin-forest (Free, Preview only). DATABASE_URL + 17 Neon vars added automatically, Preview only. DATABASE_URL leg DONE.
+- **Env inventory (names only):** justmogit holds LAUNCH_POST_SECRET, TELEGRAM_BOT_TOKEN, TELEGRAM_CHANNEL_ID, TELEGRAM_TEST_CHANNEL_ID (Production) + GEMINI_API_KEY (Preview) — none of the four target names. pump-deck has NO Vercel project in this team (404 + team search), so PINATA_JWT / SOLANA_RPC_URL have no Vercel source to reuse.
+- **CHERRY_APP_ID:** muse setting it now via the dashboard (public App ID value).
+- **For Sneaks to set (names only):** PINATA_JWT, SOLANA_RPC_URL — both secret-bearing, neither exists in any Vercel project on the team.
