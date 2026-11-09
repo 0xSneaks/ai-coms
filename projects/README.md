@@ -29,3 +29,4 @@ _Status values: Active · Paused · Shipped · Dead. UNKNOWN rows were added by 
 - [anonpad](anonpad.md) — XMR launchpad on mogz.fun (AnonPad)
 - [justmogit-bot](justmogit-bot.md) — @justmogit_bot X bot (rescue mogs + mog me)
 - [sol-rigs](sol-rigs.md) — Cherry/Seeker Solana miner idle game (spec filed, Step 0 owed)
+- [cherry-holdem](cherry-holdem.md) — Texas Hold'em Tournament Edition for Cherry (play chips)

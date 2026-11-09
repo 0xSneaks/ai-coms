@@ -39,6 +39,7 @@ Claims, requests, and decisions are plain Markdown. A small checker (`tools/coms
 | `templates/` | Copy-paste templates for handoffs and project files |
 | `tools/` | `coms_check.py` board checker + per-agent inbox |
 | `skills/ai-coms/` | The same rule packaged as an Agent Skill |
+| `skills/cherry-messenger-creator/` | Cherry mini-app idea → agent build → portal upload sheet |
 | `apps/coms-pwa/` | A read-only PWA view of the board |
 
 ## Labels we use

@@ -1,0 +1,42 @@
+# Cherry Hold'em (working name) — Texas Hold'em Tournament Edition for Cherry
+
+**Repo:** 0xSneaks/cherry-holdem (NOT CREATED — Sneaks Step 0)  ·  **Live URL:** none  ·  **Last updated:** 2026-11-08 by claude
+
+## Now (keep this current)
+Spec filed 2026-11-08 21:50 ET. No code, no art yet. Art → grok-bot (Grok). Build → codex. Deploy/live checks → muse.
+Blocked on Sneaks Step 0 (repo + Cherry portal App ID). Engine work can start in any scratch repo before the App ID lands.
+
+## Established (decisions — don't re-litigate)
+- INTENT (Sneaks 2026-11-08): Texas Hold'em tournament edition as a Cherry mini app; Grok makes HQ cards, Codex finishes the build.
+- PLAY CHIPS ONLY. No buy-in, no purchase, no withdrawal, no cash value, no SOL anywhere in v1. Real-money poker = gambling-license territory → KILL for v1 (claude, 2026-11-08). Changing this needs Sneaks + legal review.
+- Format: single-table Sit & Go, No-Limit Hold'em, 2–6 seats (6-max fits 360px), freezeout (no rebuys).
+- Start stack 1,500 chips. Blinds 10/20 → up every 6 hands: 10/20, 15/30, 25/50, 50/100, 75/150, 100/200, 150/300, 200/400, 300/600, 400/800 (then x1.5). Hand-count levels, not clock levels (no timers on serverless).
+- Turn timer 20 s; on timeout: check if free, else fold. 2 × 30 s time banks per tournament. Disconnected = auto check/fold, seat kept, blinds still posted.
+- Table is created from a Cherry room; seats open to that room's members. Host taps Start at 2+ players. Optional "fill with bots" (simple rule bot) so a table always runs.
+- Finish order → room points: 1st 50, 2nd 30, 3rd 20 (6-max), scaled down for smaller tables. Room leaderboard + weekly leaderboard. Points have no value.
+- Provably fair: per hand, server picks a 32-byte seed, posts sha256(seed‖tableId‖handNo) before dealing, Fisher-Yates with crypto RNG from the seed, reveals the seed after the hand. Client "verify hand" button.
+- Server-authoritative: deck, hole cards, betting, pots all on the server. Hole cards NEVER in a shared payload — each player fetches only their own two cards, authenticated.
+- Stack: Next.js on Vercel (team phantomcapais-projects) + Postgres (Neon via Vercel Marketplace, provisioned by muse) + short polling (≤1 s with ETag/version) for table state. No websocket service → no extra accounts. Turn-based game, 6 players: polling is enough.
+- Art split: Grok makes illustrated art only (court cards, aces, back, felt, chips, button, icon, cover). Number cards + every rank/suit index are rendered in code (SVG) — AI art garbles letters and numbers.
+
+## Built
+- nothing yet
+
+## To do (priority order)
+1. Sneaks Step 0: create repo 0xSneaks/cherry-holdem (or reply "codex create it"); Cherry portal → new mini app → post App ID + project ID on this file. — sneaks
+2. Art pack per [handoff §Art](../handoffs/2026-11-08_2150_claude_cherry-holdem.md) — grok-bot
+3. Engine + tests (no UI) — codex
+4. API + DB + Cherry sign-in — codex (auth path: claude-code reviews)
+5. Table UI 360px + art integration — codex
+6. Preview deploy + live checks — muse
+7. Upload Sheet → Sneaks presses Run checks / Run the test — claude/muse
+
+## Known issues / gotchas
+- "Cherry Casino" is an existing playing-card brand — do not copy its decks or name the game "Cherry Casino". INFERENCE: "Cherry Hold'em" itself has no clash found (web search 2026-11-08); recheck in Cherry before final.
+- Inside Cherry: NO connect-wallet button, NO signMessage login (portal test fails). Lesson from cherry-royale.
+- Vercel Production boots 500 if any env var is missing on the Production target. Preview first.
+
+## Stack & where things live
+- Next.js (App Router, TS), Vercel, Postgres (Neon), `@cherrydotfun/miniapp-sdk` latest.
+- Env NAMES: `CHERRY_APP_ID`, `DATABASE_URL`, `SESSION_SECRET`, `CHERRY_DEV_IDENTITY` (Preview only, never Production).
+- Art: `public/art/` (final, optimized WebP) · `art/raw/grok/` (Grok originals, PNG).
