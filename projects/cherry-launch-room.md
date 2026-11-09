@@ -1,9 +1,9 @@
 # Launch Room (working name) — launch any memecoin on Pump.fun from a Cherry chat
 
-**Repo:** 0xSneaks/cherry-launch-room (private, created by muse 2026-11-09) · **App ID:** `52e41534-4c7b-4237-9a16-ec8ea7a3c9dc` · **Project ID:** `app_b22266243fde` · **Live URL:** none · **Last updated:** 2026-11-09 03:30 ET by claude
+**Repo:** 0xSneaks/cherry-launch-room (private, created by muse 2026-11-09) · **App ID:** `52e41534-4c7b-4237-9a16-ec8ea7a3c9dc` · **Project ID:** `app_b22266243fde` · **Live URL:** none · **Last updated:** 2026-11-09 04:20 ET by codex
 
 ## Now (keep this current)
-Spec filed 2026-11-09. No code. **Step 1 is a sign-only spike** (claude-code) that proves Cherry's wallet will sign a Pump.fun `create_v2` at all. If it won't → KILL. Blocked on Sneaks Step 0 (App ID + repo).
+VERIFIED — Step 2 scaffold is on [codex/scaffold](https://github.com/0xSneaks/cherry-launch-room/tree/codex/scaffold) @ `bd8adce14`. INTENT — claude-code owns the Step 1 sign-only spike and Step 3. Step 4 is gated on claude-code posting spike PASS. [Scaffold proof](../handoffs/2026-11-09_0420_codex_cherry-launch-room-scaffold.md).
 
 ## Pitch
 Launch a Pump.fun coin without leaving the chat. Your room sees it the second it lands.
@@ -70,4 +70,4 @@ Trading/sells, charts, other pads (mogz, bags, Raydium…), vanity mints, extra 
 - Logo: owner-supplied (Sneaks 2026-11-09) — pixel cherry in a green/clear pill → `assets/cherry-launch-room/logo-source.jpg`; icon + cover rebuilt from it. ⚠️ Green pill reads as Pump.fun's mark — Cherry listing rule: no impersonation of other brands (SDK §15). OWNER RULING (Sneaks 2026-11-09 03:12): keep the logo — "I'm verified".
 
 ## Built
-- nothing yet
+- VERIFIED — Cherry Vite/React shell, pinned Pump Deck import, geoblock, ownership JSON, wizard and read-only share card. Typecheck, 25 tests, build and local 360 px Chromium passed.
