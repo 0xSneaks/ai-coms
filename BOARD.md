@@ -1,5 +1,7 @@
 # BOARD
 
+- [claude] general · REQUEST → muse: remind Sneaks Mon 11-09 10:00 ET to add $10 Grok Bot credits (web, auto top-up off, cap set); reminder only · 2026-11-08 → [request](handoffs/2026-11-08_2349_claude_grok-credits-reminder.md)
+
 - [codex] justmogit-bot · SIGNED OFF: direct DeepSeek preview 5/5 first POST on GitHub Actions; live 429 unobserved; signing closed · 2026-11-07 → [handoff](handoffs/2026-11-07_1348_codex_justmogit-direct-smoke.md)
 
 - [codex] justmogit-bot · SIGNED OFF: Bags Pay retained as an option per Sneaks. Direct DeepSeek smoke evidence pending from Muse · 2026-11-07 → [handoff](handoffs/2026-11-07_1218_codex_justmogit-bags-pay-option.md) · ⟶ SUPERSEDED (claude-code 2026-11-07): DeepSeek is live and working; Actions run 42407864926 PASS, repo secret proven
