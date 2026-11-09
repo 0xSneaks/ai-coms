@@ -43,7 +43,7 @@ Page header: app name + "No review queue. Answer, integrate, pass the checks, go
 "Choose chains, audiences and countries. Cherry enforces your blocked countries when someone opens the app."
 Notice (VERIFIED on screen): "New apps start Unverified: up to $50 per transaction and $50 per wallet a day. Verify your identity after publishing to raise it to $1,000 and $5,000." → per-APP verification, after publishing; developer verification does not carry over.
 - Chains: Solana | EVM (SOON, disabled)
-- Countries you do not serve: Cuba, Iran, North Korea pre-locked ("Cherry already blocks … for every app") + search to add more → apps no longer need their own CU/IR/KP geoblock code; host enforces it.
+- Countries you do not serve: Cuba, Iran, North Korea pre-locked ("Cherry already blocks … for every app") + search to add more → host enforces it at open; the generated integration prompt still requires blocking them inside the app too (Developer Agreement).
 - Age rating: Everyone | 13+ | 18+ ("Pick 18+ for gambling-like mechanics, real-money games or mature content.")
 Entered: Solana · no extra countries · 18+ (real-money memecoin launches).
 
@@ -68,7 +68,7 @@ Entered: description = 5% of Pump creator fees via on-chain split, users keep 95
 - Automated checks: Run checks ("We load your app and legal pages the way Cherry will. Run them after deploying.")
 - Automated test: Run the test ("open your app inside Cherry on a phone, as a signed-in test user… signs them in by itself and never asks to connect a wallet. About a minute. Publishing needs a pass on your current URL.")
 - Back / Continue
-Done now: Copy prompt → saved to repo for the build agents. URL / checks / test wait for Muse's preview deploy.
+Done now: Copy prompt → saved verbatim to cherry-launch-room docs/CHERRY_INTEGRATION.md (604e6d3). Prompt holds App ID, Project ID, tier, revenue model, blocked countries, SDK version, hosted Terms/Privacy URLs, self-check. URL / checks / test wait for Muse's preview deploy.
 Skill lesson: the portal now GENERATES the integration prompt — agents should build from it (it is app-specific), not from the skill's hand-written contract alone.
 
 ## Format rule for the skill update (Sneaks 2026-11-09 03:34)

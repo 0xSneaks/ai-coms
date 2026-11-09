@@ -1,6 +1,6 @@
 # Launch Room (working name) — launch any memecoin on Pump.fun from a Cherry chat
 
-**Repo:** 0xSneaks/cherry-launch-room (NOT CREATED — Sneaks Step 0) · **Live URL:** none · **Last updated:** 2026-11-09 03:30 ET by claude
+**Repo:** 0xSneaks/cherry-launch-room (private, created by muse 2026-11-09) · **App ID:** `52e41534-4c7b-4237-9a16-ec8ea7a3c9dc` · **Project ID:** `app_b22266243fde` · **Live URL:** none · **Last updated:** 2026-11-09 03:30 ET by claude
 
 ## Now (keep this current)
 Spec filed 2026-11-09. No code. **Step 1 is a sign-only spike** (claude-code) that proves Cherry's wallet will sign a Pump.fun `create_v2` at all. If it won't → KILL. Blocked on Sneaks Step 0 (App ID + repo).
@@ -21,6 +21,9 @@ Launch a Pump.fun coin without leaving the chat. Your room sees it the second it
 - ~~No app fee in V1~~ SUPERSEDED. **OWNER RULING (Sneaks 2026-11-09 03:50): V1 takes a cut.** Every coin launched gets a Pump fee-sharing split at launch: **user 95% / app 5%** of the coin's creator fees = bps 9500 / 500 (lowered 10%→5% by Sneaks 03:51). Cherry is NOT in the split (changed 03:53, claude): VERIFIED portal step 4/7 says the bill is monthly on self-declared revenue, so Cherry gets 10% of what we actually earn via that bill; an in-split 0.5% would not be tagged to the app and risks paying twice. Portal money setting = **Other, 5%** with a description saying it is 5% of creator fees, not of launch volume (we keep none of the SOL users spend in-app). VERIFIED (@pump-fun/pump-sdk 4.3.1 README §Fee Sharing): split via `updateFeeShares` (SOL-quoted), shareholders by `shareBps`, settable **once only**; SOL-pair creator fee RATE is not configurable (we split, we don't raise it). Shown to user before signing: "You keep 95% of creator fees. 5% goes to Launch Room. Permanent." App wallet = default sneaks.skr — Sneaks confirms. UNKNOWN: whether off-Cherry trading fees count as 'revenue through Cherry' — default: declare it and pay the 10% on the monthly bill; muse asks team@cherry.fun.
 - Never "launched" before `confirmed` on-chain. Costs come from simulation, never hardcoded.
 - Footer: "Unofficial. Not affiliated with Pump.fun."
+
+## Cherry portal integration prompt (VERIFIED, generated for this app 2026-11-09)
+→ repo `docs/CHERRY_INTEGRATION.md` — **build agents follow it.** Key adds vs the SDK README: legal pages are Cherry-hosted — link https://portal.cherry.fun/legal/app_b22266243fde/52e41534-4c7b-4237-9a16-ec8ea7a3c9dc/terms and …/privacy (don't copy); block CU/IR/KP **inside the app too** (Developer Agreement duty, not only the listing); 18+ content behind the 18+ rating; reports acted on within 72 h; no Cherry fee inside our transactions, no billing API; no bill under $100/month volume; reference key on every tx; `isInsideCherry()` for first-frame detection; `useCherryUser()` for name/avatar.
 
 ## Cherry constraints (VERIFIED, @cherrydotfun/miniapp-sdk 0.1.24 README, read 2026-11-09)
 - VERIFIED (portal step 3/7, 2026-11-09): new apps start Unverified ($50/tx, $50/wallet/day); per-app identity verification AFTER publishing raises it to $1,000/$5,000. Cherry blocks CU/IR/KP for every app itself. Prior note kept: INTENT (Sneaks 2026-11-09): he is a verified Cherry developer. If the app's token `tier` = `verified`, caps are $1,000/tx and $5,000/wallet/day; dev account verification vs per-app tier = UNKNOWN → buy cap reads the live `tier` claim, never hardcoded.
