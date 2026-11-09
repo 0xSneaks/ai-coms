@@ -32,3 +32,10 @@ No mainnet launch or broadcast by any agent. No production deploy. No app fee. N
 - **Repo created:** https://github.com/0xSneaks/cherry-launch-room (private, main branch) via the github.com web UI after both API routes 403'd. Verified by API read-back.
 - **Art in repo:** `assets/logo.png` (512x512) + `assets/banner.png` (1200x630), owner-supplied, commits 554de94a + 173ef537.
 - **Vercel:** dashboard pass IN FLIGHT (project create + Neon + env-name inventory on justmogit/pump-deck).
+
+## Update 2026-11-09 ~04:10 ET — Step 6 in flight
+- **Step 0 DONE by Sneaks:** App ID `52e41534-4c7b-4237-9a16-ec8ea7a3c9dc`, Project ID `app_b22266243fde`; portal integration prompt saved in the app repo as `docs/CHERRY_INTEGRATION.md` (build agents follow it). Fee ruling + fee wallet recorded in the project file (95/5 split; Ftuidx...f3GYp).
+- **Vercel (muse):** project create started in the dashboard (team phantomcapais-projects); Vercel paused it on an identity check — the emailed code was pulled from Sneaks's mailbox and is waiting on his approval tap to enter. After that: Neon connect + env pass. Env NAMES for the target: PINATA_JWT, SOLANA_RPC_URL, CHERRY_APP_ID, DATABASE_URL (names only here; values reused from existing projects in the dashboard where they exist; CHERRY_APP_ID = the App ID above).
+- **Preview deploy + evidence pack** (health, .well-known with this appId, frame-ancestors, 360px shot): queued behind codex's scaffold — repo currently has main only (README, assets, docs). Will post the preview URL for portal steps 6/7 the moment the scaffold deploys.
+- **team@cherry.fun question:** drafted by muse (creator fees from off-Cherry trading — do they count toward the 10% bill?), saved for Sneaks to send himself. Default until answered: declare in full, per the project file.
+- **Spike:** claude-code claimed it (aee40e76) incl. variant D (fee-share instruction). No spike link posted yet; muse sends it to Sneaks when it lands.
