@@ -77,5 +77,12 @@ Entered: keep Cherry's standard Terms + Privacy ticked; agreement accepted by Sn
 Done now: Copy prompt → saved verbatim to cherry-launch-room docs/CHERRY_INTEGRATION.md (604e6d3). Prompt holds App ID, Project ID, tier, revenue model, blocked countries, SDK version, hosted Terms/Privacy URLs, self-check. URL / checks / test wait for Muse's preview deploy.
 Skill lesson: the portal now GENERATES the integration prompt — agents should build from it (it is app-specific), not from the skill's hand-written contract alone.
 
+## Screen 8 — step 6/7 after deploy — OBSERVED 04:57 ET (URL = spike preview …/spike/)
+- "Open in test room" button: opens the selected address inside Cherry in a private test room ("Only your team is in it; users never see it") → this is how the owner does in-Cherry wallet tests (spike taps) before publishing.
+- Automated checks (6): HTTPS 200 · frame-ancestors · bridge trusts the origin · domain proof names this app on the origin · Cherry publishes standard Terms · standard Privacy. → ALL PASSED 04:54.
+- Automated test (8): Loads inside Cherry · Answers the handshake · Signs the user in by itself · No connect button or signature request (first 15 s) · Backend verifies the token (SKIPPED when the page never sends its launch token to a server) · Console errors · Time to ready · External checkouts. → all required passed 04:55; "Warnings do not block publishing".
+- Continue → step 7/7 (publish) — NOT pressed: the registered URL is the spike page, never publish it.
+Skill lesson: a page with no backend gets "Backend verifies the token: Skipped" — the real app must make it PASS.
+
 ## Format rule for the skill update (Sneaks 2026-11-09 03:34)
 Every value Sneaks types goes in its own code block (one tap to copy), field name above it in bold. No values inline in prose.
