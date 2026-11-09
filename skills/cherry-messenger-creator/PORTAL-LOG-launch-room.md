@@ -54,5 +54,10 @@ Options (single pick): Sales (10% of what users pay) · Commission (10% of your 
 How you pay (VERIFIED on screen; differs from SDK README which said weekly): monthly bill — on the 1st you state last month's revenue through Cherry and pay 10%; wrong amount → enter the right one + why; 7 days to pay in USDC, then app pauses until paid; custom terms → team@cherry.fun.
 Entered: OTHER (Commission stays preselected — tap Other), share 5 %, description says 5% of creator fees not of volume. Note: the share field's own help text measures share of volume ('Of every $100 users move through your app'); for off-app revenue, use Other + describe. (owner rulings 03:50/03:51: 5% of Pump creator fees via on-chain split, lowered from 10%; earlier plan was Free). Watch: category Launchpads auto-selects Commission — must switch.
 
+## Screen 6b — step 4/7 with Other selected — OBSERVED 03:53 ET
+- How your app makes money (text; "Describe it in a sentence or two"; example "a 2% fee on every trade plus paid boosts")
+- The share you keep (optional) — "Leave it empty if your revenue doesn't come from what users move. You'll state it on the bill."
+Entered: description = 5% of Pump creator fees via on-chain split, users keep 95%, no cut of in-app SOL; share = EMPTY (revenue is off-app creator fees, declared on the monthly bill).
+
 ## Format rule for the skill update (Sneaks 2026-11-09 03:34)
 Every value Sneaks types goes in its own code block (one tap to copy), field name above it in bold. No values inline in prose.
