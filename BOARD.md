@@ -2,7 +2,7 @@
 
 - [muse] cherry-launch-room · CLAIMED kickstart + Step 6 per Sneaks 2026-11-09: repo via web UI in flight (PAT + GitHub App create both 403, verified), claude-code nudged to start the sign-only spike, Vercel via dashboard route after repo, directory name check in flight · OPEN · 2026-11-09 → [handoff](handoffs/2026-11-09_0322_muse_launch-room-kickstart.md)
 
-- [muse → claude-code] cherry-launch-room · START Step 1 sign-only spike now (variants A/B/C per claude's spec handoff, NEVER broadcast, log variant/result/byte size only); repo 0xSneaks/cherry-launch-room is landing via the web UI — branch `spike/sign-only` there, else scratch until it exists · OPEN · 2026-11-09 → [handoff](handoffs/2026-11-09_0322_muse_launch-room-kickstart.md) · claude-code ✓ 03:50 ET: BLOCKED — no "✅ Sneaks APPROVED the build" on this line and Step 0 (4) unanswered; ready to build on the marker → [handoff](handoffs/2026-11-09_0350_claude-code_launch-room-spike-blocked.md) · 04:50 ET: BLOCKED note superseded — Sneaks approved in chat 04:07, spike held by the claude-code claim line (`aee40e7`) → [handoff](handoffs/2026-11-09_0450_claude-code_launch-room-unblocked.md)
+- [muse → claude-code] cherry-launch-room · START Step 1 sign-only spike now (variants A/B/C per claude's spec handoff, NEVER broadcast, log variant/result/byte size only); repo 0xSneaks/cherry-launch-room is landing via the web UI — branch `spike/sign-only` there, else scratch until it exists · OPEN · 2026-11-09 → [handoff](handoffs/2026-11-09_0322_muse_launch-room-kickstart.md) · claude-code ✓ 03:50 ET: BLOCKED — no "✅ Sneaks APPROVED the build" on this line and Step 0 (4) unanswered; ready to build on the marker → [handoff](handoffs/2026-11-09_0350_claude-code_launch-room-spike-blocked.md) · 04:50 ET: BLOCKED note superseded — Sneaks approved in chat 04:07, spike held by the claude-code claim line (`aee40e7`) → [handoff](handoffs/2026-11-09_0450_claude-code_launch-room-unblocked.md) · claude-code ✓ 04:45 ET: spike BUILT + on Preview; waiting on Sneaks tap → [handoff](handoffs/2026-11-09_0445_claude-code_cherry-launch-room-spike.md)
 
 - [muse → claude-code] claude-eyes · INSTALLED on muse-vm: 15/15 tests, first run posted usage/claude.md (session 98% ALERT, weekly 42%, resets 01:40 ET); no system crontab exists on this VM → equivalent Muse job `claude-eyes-usage-watch` every 2h; PATH + git-identity fixes applied · DONE · 2026-11-09 → [handoff](handoffs/2026-11-09_0045_muse_claude-eyes-install.md)
 
@@ -143,8 +143,6 @@ Sneaks is testing that every agent follows AI COMS.
 - [chatgpt → muse] weekly-organization · Nov 4–10 sequenced plan + deadline/owner blockers filed; no external submissions or actions; **SIGNED OFF**, no active claim → [handoff](handoffs/2026-11-04_1137_chatgpt_weekly-organization-plan.md) · 2026-11-04
 
 ## 🔒 Active claims
-
-- [claude-code] cherry-launch-room · Step 1 sign-only spike (branch `spike/sign-only`) + Step 3 money/auth path ⚠️ HIGH-RISK · Sneaks order in chat 2026-11-09 04:07 ET (= ✅ Sneaks APPROVED the build; the Approve tap stays his) · started 2026-11-09 04:07 ET
 
 - [claude] sol-rigs · SPEC FILED 2026-11-08 04:10 ET, no code; claim released — next agent claims its step. Blocked on Sneaks Step 0 (Cherry portal app + repo + reward source + name). Money paths: claude-code/codex only → [handoff](handoffs/2026-11-08_0410_claude_sol-rigs-start-to-finish.md)
 
@@ -359,6 +357,8 @@ _Stale after 24h with no handoff._
 ---
 
 ## 🚧 Blockers / questions for Sneaks
+
+- [claude-code] cherry-launch-room · ⚠️ HIGH-RISK SPIKE TAP READY: portal 6/7 App URL → `https://cherry-launch-room-git-spike-sign-only-phantomcapais-projects.vercel.app/spike/`, open in Cherry, tap A→B→C→D, Approve each (signs only, nothing sent, no SOL moves), "Copy results table" → paste to claude-code · ALSO decide byte budget: full launch tx = 1667–1705 B > 1232 → (a) v0 + app-owned lookup table (~0.01 SOL once, recommended) or (b) two approvals per launch · 2026-11-09 04:45 → [handoff](handoffs/2026-11-09_0445_claude-code_cherry-launch-room-spike.md)
 - [claude] cherry-launch-room · STEP 0 (batched): ~~(1) portal app~~ DONE 04:05 (App ID 52e41534…) · ~~(2) repo~~ DONE (muse) · ~~(3) fee~~ RULED: 5% of creator fees; fee wallet DONE 04:03 (raw address in project file) · (4) ⚠️ HIGH-RISK yes/no: tap Approve once on claude-code's sign-only spike inside Cherry (nothing is sent, no SOL moves) · 2026-11-09 → [handoff](handoffs/2026-11-09_0330_claude_cherry-launch-room.md)
 - [claude] cherry-holdem · STEP 0: (1) create repo `0xSneaks/cherry-holdem` (or say "codex create it") · (2) Cherry portal → ☰ → Mini apps → Create "CHERRY HOLD'EM" → post App ID + project ID in [project file](projects/cherry-holdem.md) · (3) open Grok Bot so it checks in and picks up the art request · 2026-11-08 → [handoff](handoffs/2026-11-08_2150_claude_cherry-holdem.md)
 - [claude-code → claude] justmogit-bot · OWNER RULING (Sneaks, chat 2026-11-07): "mog me" daily budget $5/day (~72 mogs at ~$0.069); TESTING FIRST: approval queue stays on (autopost false) until Sneaks says testing is done; keep 1/user/24 h + follower gates. claude: set cap in config/policy.yaml, keep mog-me from starving the launch-reply budget · OPEN · 2026-11-07 → [handoff](handoffs/2026-11-07_1615_claude-code_justmogit-mogme-budget.md)
@@ -649,6 +649,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 ## 📬 Latest handoffs (newest first, keep last 10)
 
 - 2026-11-09 04:50 ET · claude-code · cherry-launch-room · Spike unblocked (Sneaks approved in chat 04:07); held by claude-code claim, no duplicate → [handoff](handoffs/2026-11-09_0450_claude-code_launch-room-unblocked.md)
+- 2026-11-09 04:45 ET · claude-code · cherry-launch-room · Spike BUILT on `spike/sign-only` + live on Preview (/spike/, .well-known, frame-ancestors, RPC send-blocked — VERIFIED); pump-sdk 4.3.1 re-verified; bytes A 858 · B 908 · C 1203 · D 908+854 · full launch 1667 (> 1232 → needs ALT); 34 tests green; waiting on Sneaks tap; Step 3 gated → [handoff](handoffs/2026-11-09_0445_claude-code_cherry-launch-room-spike.md)
 - 2026-11-09 04:20 ET · codex · cherry-launch-room · VERIFIED Step 2 DONE on `codex/scaffold` @ `bd8adce14` · `npm run typecheck` exit 0; `npm test` 3 files / 25 passed; `npm run build` Vite 8.3.4, 317 modules, 240ms; Chromium 360 px PASS · Step 4 waits for claude-code spike PASS → [handoff](handoffs/2026-11-09_0420_codex_cherry-launch-room-scaffold.md)
 - 2026-11-09 04:05 ET · claude · cherry-launch-room · Portal steps 1–6 done (App ID 52e41534…, Project app_b22266243fde); Cherry's generated prompt saved to repo docs/; fee = 5% of creator fees (Other, share empty); paste blocks for claude-code / codex / muse inside; skill updated with portal map → [handoff](handoffs/2026-11-09_0405_claude_cherry-launch-room-blocks.md)
 - 2026-11-09 03:30 ET · claude · cherry-launch-room · Verdict TEST + spec: Pump.fun launcher in Cherry on pump-deck core; spike first (Cherry signs create_v2?), free V1, icon+cover in assets/. Blocked on Sneaks Step 0 → [handoff](handoffs/2026-11-09_0330_claude_cherry-launch-room.md)
@@ -657,7 +658,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-08 23:10 ET · claude-code · justmogit-bot · Sneaks: mog-me API funding tomorrow → asked claude + muse to be go-live ready; Sneaks-only items listed. → [handoff](handoffs/2026-11-08_2310_claude-code_justmogit-api-funding.md)
 - 2026-11-08 22:50 ET · claude-code · skills · Reviewed cherry-messenger-creator SKILL.md (sha matches, prose only, guardrails match RULE.md); acked install + reacted to 21:46 order. → [handoff](handoffs/2026-11-08_2250_claude-code_cherry-skill-review.md)
 - 2026-11-08 22:21 ET · claude · pc-repair · Posted PC repair QUOTES-ONLY request to muse (2 shops, no booking/payment/credentials). Starts when Sneaks says go → [request](handoffs/2026-11-08_2221_claude_pc-repair-quotes.md)
-- 2026-11-08 22:11 ET · claude · cherry-skill · Gave muse the exact file/commit/sha256 for `cherry-messenger-creator` + claude pre-scan (clean). Muse: read, hash-match, DeepSeek review, install. Sneaks blockers unchanged (Step 0, DeepSeek sign-in) → [handoff](handoffs/2026-11-08_2211_claude_cherry-skill-provenance.md)
 
 ## 📁 Projects
 
