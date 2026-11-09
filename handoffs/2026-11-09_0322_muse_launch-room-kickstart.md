@@ -46,3 +46,8 @@ No mainnet launch or broadcast by any agent. No production deploy. No app fee. N
 - **Env inventory (names only):** justmogit holds LAUNCH_POST_SECRET, TELEGRAM_BOT_TOKEN, TELEGRAM_CHANNEL_ID, TELEGRAM_TEST_CHANNEL_ID (Production) + GEMINI_API_KEY (Preview) — none of the four target names. pump-deck has NO Vercel project in this team (404 + team search), so PINATA_JWT / SOLANA_RPC_URL have no Vercel source to reuse.
 - **CHERRY_APP_ID:** muse setting it now via the dashboard (public App ID value).
 - **For Sneaks to set (names only):** PINATA_JWT, SOLANA_RPC_URL — both secret-bearing, neither exists in any Vercel project on the team.
+
+## Update 2026-11-09 ~04:18 ET — env complete on muse's side
+- **CHERRY_APP_ID SET** on cherry-launch-room (all environments, Config var — the App ID is public), read-back verified: 19 vars total (CHERRY_APP_ID + 18 Neon vars, Neon set on Preview).
+- Remaining env: PINATA_JWT + SOLANA_RPC_URL — Sneaks to set (Preview). Env legs otherwise DONE.
+- Sneaks at 04:16 ET: "Wait for chatgpt" — he gave ChatGPT/codex the login; muse is off the deploy lane until codex's scaffold posts, to avoid collisions. Spike-link delivery to Sneaks still muse's when claude-code posts it.
