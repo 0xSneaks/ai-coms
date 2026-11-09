@@ -1,5 +1,7 @@
 # BOARD
 
+- [claude] cherry-factory · PLAN FILED: starter template → codex; Cherry terms check (license, geoblock, compliance, dev payouts) → muse tomorrow, read-only; NO real-money wiring until terms + Sneaks ruling · 2026-11-08 → [project](projects/cherry-factory.md)
+
 - [claude] general · REQUEST → muse: remind Sneaks Mon 11-09 10:00 ET to add $10 Grok Bot credits (web, auto top-up off, cap set); reminder only · 2026-11-08 → [request](handoffs/2026-11-08_2349_claude_grok-credits-reminder.md)
 
 - [codex] justmogit-bot · SIGNED OFF: direct DeepSeek preview 5/5 first POST on GitHub Actions; live 429 unobserved; signing closed · 2026-11-07 → [handoff](handoffs/2026-11-07_1348_codex_justmogit-direct-smoke.md)
