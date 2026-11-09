@@ -23,6 +23,7 @@ Launch a Pump.fun coin without leaving the chat. Your room sees it the second it
 - Footer: "Unofficial. Not affiliated with Pump.fun."
 
 ## Cherry constraints (VERIFIED, @cherrydotfun/miniapp-sdk 0.1.24 README, read 2026-11-09)
+- INTENT (Sneaks 2026-11-09): he is a verified Cherry developer. If the app's token `tier` = `verified`, caps are $1,000/tx and $5,000/wallet/day; dev account verification vs per-app tier = UNKNOWN → buy cap reads the live `tier` claim, never hardcoded.
 - Tier limits per app: **unverified $50/tx and $50/wallet/day outflow**; verified $1,000/$5,000. Forbidden for both: token Approve/delegation, `SetAuthority`, `Assign`, durable nonces, subscriptions. → dev-buy input capped by tier; handle `TX_LIMIT` / `DAILY_LIMIT` with the SDK's suggested copy.
 - `signTransaction` returns signed bytes; app broadcasts itself (current pump-deck send.ts flow). `signAndSendTransaction` can't be used (mint must co-sign).
 - Reference key: on every tx, as a read-only non-signer account on **an instruction we control** (System transfer etc.). **Never append it to the Pump instruction.** Static key, not in an ALT.
@@ -60,7 +61,7 @@ Trading/sells, charts, other pads (mogz, bags, Raydium…), vanity mints, fees, 
 | 7 first real launch | sneaks | create-only first, then tiny buy — his wallet, his yes |
 
 ## Art
-- Logo: owner-supplied (Sneaks 2026-11-09) — pixel cherry in a green/clear pill → `assets/cherry-launch-room/logo-source.jpg`; icon + cover rebuilt from it. ⚠️ Green pill reads as Pump.fun's mark — Cherry listing rule: no impersonation of other brands (SDK §15). Owner call.
+- Logo: owner-supplied (Sneaks 2026-11-09) — pixel cherry in a green/clear pill → `assets/cherry-launch-room/logo-source.jpg`; icon + cover rebuilt from it. ⚠️ Green pill reads as Pump.fun's mark — Cherry listing rule: no impersonation of other brands (SDK §15). OWNER RULING (Sneaks 2026-11-09 03:12): keep the logo — "I'm verified".
 
 ## Built
 - nothing yet
