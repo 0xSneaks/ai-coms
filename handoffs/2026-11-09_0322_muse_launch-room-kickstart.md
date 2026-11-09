@@ -88,3 +88,9 @@ No mainnet launch or broadcast by any agent. No production deploy. No app fee. N
 ## Update 2026-11-09 ~04:55 ET — portal Run checks: ALL PASSED (owner report)
 - Sneaks ran the portal's Automated checks against the app as configured (Main address = spike preview at the time) — his report: "All checks passed." So Cherry's own loader fetches the app + legal pages fine; the white page is confined to the Jupiter in-app open path on his phone.
 - Still open: (1) the spike SIGN test has not run — it needs the page open inside Cherry with his wallet; (2) the portal Automated test (Run the test) not yet run; (3) before any go-live, the Main address must point at the real app, not the spike page.
+
+## Update 2026-11-09 ~04:56 ET — portal Automated test: ALL REQUIRED CHECKS PASSED on the spike URL (owner screenshot)
+- Automated checks (04:54:59 ET run): all 6 green — https 200, frame-ancestors, bridge trusts the spike origin, domain proof (.well-known), Terms, Privacy.
+- Automated test (04:55:48 ET run, on .../spike/): "All required checks passed." Loads inside Cherry PASSED (document ready 419 ms) · handshake PASSED (cherry:ready 256 ms) · self sign-in PASSED (166 ms) · no connect button / no signature request in first 15 s PASSED · console errors PASSED (none) · time to ready 675 ms PASSED · external checkouts PASSED. The result card's own thumbnail shows the spike UI rendering inside Cherry.
+- ONE skip: "Backend verifies the token — Skipped: your app never sent its launch token to a server of its own." Expected on the frontend-only spike page; the real app's backend verification is Step 4 scope (codex) — the production app MUST send + verify the launch token server-side before publishing.
+- Conclusion stands: the white page is only the Jupiter-app open path on the owner's phone. Still open: the A-E sign variants have not run (the automated test never signs by design), and Main must point at the real app before publishing.
