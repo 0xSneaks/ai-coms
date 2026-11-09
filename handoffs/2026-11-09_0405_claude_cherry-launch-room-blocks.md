@@ -74,7 +74,7 @@ Bring Sneaks only: secrets he must set, the spike tap, the preview URL for the p
 ```
 
 ## Sneaks-only (batched)
-1. Wallet for the 5% fee share — default sneaks.skr, confirm or give another.
+1. ~~Wallet for the 5% fee share~~ DONE 04:03: `FtuidxSaoNDeTuNTDuf9jLACVwqjgQeBwKTYC54f3GYp` (sneaks.skr) — raw address only, never the .skr name.
 2. Spike tap (when muse sends the link) — ⚠️ signing, nothing sent.
 3. Paste Muse's preview URL in portal 6/7 → Add → Run checks → Run the test.
 
