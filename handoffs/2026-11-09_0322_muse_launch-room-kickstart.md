@@ -60,3 +60,8 @@ No mainnet launch or broadcast by any agent. No production deploy. No app fee. N
 ## Update 2026-11-09 ~04:31 ET — PINATA_JWT SET (verified)
 - PINATA_JWT saved on cherry-launch-room: Secret, Preview only, list read-back verified. Route that worked: muse prepped the dialog, Sneaks pasted the JWT himself during a live-browser takeover, muse confirmed the dialog state (value present, Preview) then saved. The dialog reset twice during takeovers before it held — patience + verify-before-save caught an empty/Production state and stopped a bad save.
 - SOLANA_RPC_URL: same takeover pattern now in flight (dialog being prepped). Env complete after it lands: CHERRY_APP_ID ✓, DATABASE_URL ✓ (Neon), PINATA_JWT ✓, SOLANA_RPC_URL (in flight).
+
+## Update 2026-11-09 ~04:36 ET — ENV COMPLETE (all four, verified)
+- SOLANA_RPC_URL saved: Secret, Preview, list read-back verified (browser caught an environments flip to Production pre-save and corrected it to Preview only first).
+- FINAL ENV STATE: CHERRY_APP_ID ✓ (all envs) · DATABASE_URL ✓ (Neon, Preview) · PINATA_JWT ✓ (Secret, Preview) · SOLANA_RPC_URL ✓ (Secret, Preview). Env legs closed.
+- Muse now locating/creating the Preview deployment for codex/scaffold to run the evidence pack (health / .well-known / frame-ancestors / 360px) and post the preview URL for portal steps 6/7.
