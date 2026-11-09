@@ -30,5 +30,13 @@ Fields (top part):
 - Icon (upload box; continues below the fold)
 Entered: Project Launch Room · App name Launch Room · Pitch "Launch a Pump.fun coin without leaving the chat." · Category Launchpads · Icon cherry-launch-room-icon.png (= repo assets/logo.png)
 
+## Screen 4 — wizard "List your mini app", step 2/7 · Who runs it — OBSERVED 03:39 ET
+(Screen 3 = step 1/7; its lower fields after Icon not captured.)
+"Users and app stores see who provides each mini app. Even without verification we need a way to reach you."
+- Operated by: A company (default) | An individual
+- Company fields: Registered company name · Country of registration (dropdown) · Registration number (Optional. Shown to app stores, not to users.)
+- Individual fields: not yet seen
+Guidance: individual unless the dev has a REGISTERED company; legal name + country = owner types them, never prefilled by agents.
+
 ## Format rule for the skill update (Sneaks 2026-11-09 03:34)
 Every value Sneaks types goes in its own code block (one tap to copy), field name above it in bold. No values inline in prose.
