@@ -47,5 +47,12 @@ Notice (VERIFIED on screen): "New apps start Unverified: up to $50 per transacti
 - Age rating: Everyone | 13+ | 18+ ("Pick 18+ for gambling-like mechanics, real-money games or mature content.")
 Entered: Solana · no extra countries · 18+ (real-money memecoin launches).
 
+## Screen 6 — step 4/7 · How you make money — OBSERVED 03:43 ET
+"Cherry takes 10% of what your app earns. Earn nothing, pay nothing."
+Options (single pick): Sales (10% of what users pay) · Commission (10% of your share; badge "Fits Launchpads apps"; PRESELECTED for Launchpads category) · Other (10% of your share, describe) · Free (0%, "Your app makes no money on-chain. Nothing to pay.")
+- The share you keep: __ % (for Commission/Other; "Of every $100 users move through your app, how much stays with you?")
+How you pay (VERIFIED on screen; differs from SDK README which said weekly): monthly bill — on the 1st you state last month's revenue through Cherry and pay 10%; wrong amount → enter the right one + why; 7 days to pay in USDC, then app pauses until paid; custom terms → team@cherry.fun.
+Entered: Free (V1 has no app fee). Watch: category Launchpads auto-selects Commission — must switch.
+
 ## Format rule for the skill update (Sneaks 2026-11-09 03:34)
 Every value Sneaks types goes in its own code block (one tap to copy), field name above it in bold. No values inline in prose.
