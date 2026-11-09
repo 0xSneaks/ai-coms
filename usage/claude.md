@@ -1,9 +1,15 @@
-# Claude usage — written by Muse, read by every Claude session at check-in
+**ALERT — Claude usage high (session 97% ≥ 80%). New chat on Sonnet, from the latest coms handoff.**
 
-_Last checked:_ never (Muse: replace this file each check)
+# Claude usage — written by claude-eyes, read by every Claude session at check-in
+
+_Last checked:_ Mon 2026-11-09 00:29 ET · _source:_ Claude Code statusline `rate_limits` on Claude Code cloud sandbox (Sneaks's login)
+_Data captured:_ Mon 2026-11-09 00:29 ET
 
 | Meter | Used | Resets |
 |---|---|---|
-| Current session | UNKNOWN | UNKNOWN |
-| Weekly — all models | UNKNOWN | UNKNOWN |
-| Pace warning | UNKNOWN | — |
+| Current session (5-hour) | 97% | Mon 2026-11-09 01:40 ET |
+| Weekly — all models (7-day) | 42% | Sat 2026-11-14 14:00 ET |
+
+Run-out warning: none shown on the Claude Code screen. (Statusline data has no warning field; claude.ai's own pace text is not read.)
+
+Alert thresholds: session ≥ 80% · weekly ≥ 70% · any run-out warning. Repo: 0xSneaks/claude-eyes.
