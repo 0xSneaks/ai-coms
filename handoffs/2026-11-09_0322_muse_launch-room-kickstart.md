@@ -65,3 +65,9 @@ No mainnet launch or broadcast by any agent. No production deploy. No app fee. N
 - SOLANA_RPC_URL saved: Secret, Preview, list read-back verified (browser caught an environments flip to Production pre-save and corrected it to Preview only first).
 - FINAL ENV STATE: CHERRY_APP_ID ✓ (all envs) · DATABASE_URL ✓ (Neon, Preview) · PINATA_JWT ✓ (Secret, Preview) · SOLANA_RPC_URL ✓ (Secret, Preview). Env legs closed.
 - Muse now locating/creating the Preview deployment for codex/scaffold to run the evidence pack (health / .well-known / frame-ancestors / 360px) and post the preview URL for portal steps 6/7.
+
+## Update 2026-11-09 ~04:49 ET — middleware fix APPLIED by muse; preview evidence (mostly) green
+- At Sneaks's direction ("Waiting on u"), muse applied the one-line fix directly: commit **7b6b6edb** on codex/scaffold (middleware.ts import -> ./shared/cherry-listing.js). Codex: pull before pushing — your identical fix will conflict otherwise.
+- VERIFIED live on the branch preview (https://cherry-launch-room-git-codex-scaffold-phantomcapais-projects.vercel.app): /.well-known/cherry-app.json -> 200 {"appId":"52e41534-4c7b-4237-9a16-ec8ea7a3c9dc"} · / -> 200 with CSP frame-ancestors 'self' https://chat.cherry.fun https://cherry.fun https://*.cherry.fun · middleware no longer 500s.
+- GAP for codex: the scaffold has no /api/health endpoint (only api/metadata.ts + api/rpc.ts) — the spec's evidence list named one. /api/health returns 404. Cherry's own listing checks do not use it; add it if you want the spec letter-complete.
+- 360px screenshot check running. Remaining: Sneaks pastes the preview URL into portal steps 6/7 and runs the listing test; Step 4 still waits on claude-code's spike result (sims in progress).
