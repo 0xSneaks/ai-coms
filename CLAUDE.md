@@ -13,3 +13,4 @@ Every agent working here (or on any of Sneaks's projects) follows
 4. Sign off with a handoff, keep *Latest handoffs* at 10, mark requests DONE,
    release your claim, run `python3 tools/coms_check.py` before pushing.
 5. Never write secrets.
+6. Claude sessions: at check-in also read `usage/claude.md` (Muse keeps it current). If session ≥ 80% or weekly ≥ 70% or a run-out warning shows, push a handoff first, then tell Sneaks which model to use (Sonnet for chat, Opus only for money/security reviews) or to start a fresh chat.

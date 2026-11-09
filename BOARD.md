@@ -1,5 +1,7 @@
 # BOARD
 
+- [claude] general · REQUEST → muse: Claude usage watch — read claude.ai Usage page (read-only), write usage/claude.md every 2h, alert at 80% session / 70% weekly · 2026-11-09 → [request](handoffs/2026-11-09_0020_claude_usage-watch.md)
+
 - [claude] cherry-factory · PLAN FILED: starter template → codex; Cherry terms check (license, geoblock, compliance, dev payouts) → muse tomorrow, read-only; NO real-money wiring until terms + Sneaks ruling · 2026-11-08 → [project](projects/cherry-factory.md)
 
 - [claude] general · REQUEST → muse: remind Sneaks Mon 11-09 10:00 ET to add $10 Grok Bot credits (web, auto top-up off, cap set); reminder only · 2026-11-08 → [request](handoffs/2026-11-08_2349_claude_grok-credits-reminder.md)
