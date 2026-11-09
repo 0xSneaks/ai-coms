@@ -38,5 +38,14 @@ Entered: Project Launch Room · App name Launch Room · Pitch "Launch a Pump.fun
 - Individual fields: not yet seen
 Guidance: individual unless the dev has a REGISTERED company; legal name + country = owner types them, never prefilled by agents.
 
+## Screen 5 — step 3/7 · Where it runs — OBSERVED 03:42 ET
+Page header: app name + "No review queue. Answer, integrate, pass the checks, go live." + Delete app.
+"Choose chains, audiences and countries. Cherry enforces your blocked countries when someone opens the app."
+Notice (VERIFIED on screen): "New apps start Unverified: up to $50 per transaction and $50 per wallet a day. Verify your identity after publishing to raise it to $1,000 and $5,000." → per-APP verification, after publishing; developer verification does not carry over.
+- Chains: Solana | EVM (SOON, disabled)
+- Countries you do not serve: Cuba, Iran, North Korea pre-locked ("Cherry already blocks … for every app") + search to add more → apps no longer need their own CU/IR/KP geoblock code; host enforces it.
+- Age rating: Everyone | 13+ | 18+ ("Pick 18+ for gambling-like mechanics, real-money games or mature content.")
+Entered: Solana · no extra countries · 18+ (real-money memecoin launches).
+
 ## Format rule for the skill update (Sneaks 2026-11-09 03:34)
 Every value Sneaks types goes in its own code block (one tap to copy), field name above it in bold. No values inline in prose.

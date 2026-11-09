@@ -23,7 +23,7 @@ Launch a Pump.fun coin without leaving the chat. Your room sees it the second it
 - Footer: "Unofficial. Not affiliated with Pump.fun."
 
 ## Cherry constraints (VERIFIED, @cherrydotfun/miniapp-sdk 0.1.24 README, read 2026-11-09)
-- INTENT (Sneaks 2026-11-09): he is a verified Cherry developer. If the app's token `tier` = `verified`, caps are $1,000/tx and $5,000/wallet/day; dev account verification vs per-app tier = UNKNOWN → buy cap reads the live `tier` claim, never hardcoded.
+- VERIFIED (portal step 3/7, 2026-11-09): new apps start Unverified ($50/tx, $50/wallet/day); per-app identity verification AFTER publishing raises it to $1,000/$5,000. Cherry blocks CU/IR/KP for every app itself. Prior note kept: INTENT (Sneaks 2026-11-09): he is a verified Cherry developer. If the app's token `tier` = `verified`, caps are $1,000/tx and $5,000/wallet/day; dev account verification vs per-app tier = UNKNOWN → buy cap reads the live `tier` claim, never hardcoded.
 - Tier limits per app: **unverified $50/tx and $50/wallet/day outflow**; verified $1,000/$5,000. Forbidden for both: token Approve/delegation, `SetAuthority`, `Assign`, durable nonces, subscriptions. → dev-buy input capped by tier; handle `TX_LIMIT` / `DAILY_LIMIT` with the SDK's suggested copy.
 - `signTransaction` returns signed bytes; app broadcasts itself (current pump-deck send.ts flow). `signAndSendTransaction` can't be used (mint must co-sign).
 - Reference key: on every tx, as a read-only non-signer account on **an instruction we control** (System transfer etc.). **Never append it to the Pump instruction.** Static key, not in an ALT.
