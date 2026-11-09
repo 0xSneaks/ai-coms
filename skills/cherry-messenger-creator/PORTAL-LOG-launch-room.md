@@ -59,8 +59,14 @@ Entered: OTHER (Commission stays preselected — tap Other), share 5 %, descript
 - The share you keep (optional) — "Leave it empty if your revenue doesn't come from what users move. You'll state it on the bill."
 Entered: description = 5% of Pump creator fees via on-chain split, users keep 95%, no cut of in-app SOL; share = EMPTY (revenue is off-app creator fees, declared on the monthly bill).
 
+## Screen 6c — step 5/7 · Terms — OBSERVED 03:58 ET (captured after step 6 via Back)
+"Your app needs Terms of Service and a Privacy Policy, and you agree to the Cherry Developer Agreement."
+- Checkbox (pre-ticked): "Use Cherry's standard Terms of Service and Privacy Policy" — "Cherry generates them from your answers and publishes them for your app. You are the operator named in them. Nothing else to do."
+- Links: Terms of Service ↗ · Privacy Policy ↗ · Preview
+- Cherry Developer Agreement section below (accept box — below the fold)
+Entered: keep Cherry's standard Terms + Privacy ticked; agreement accepted by Sneaks.
+
 ## Screen 7 — step 6/7 · Integrate — OBSERVED 03:55 ET
-(Step 5/7 not captured — Sneaks passed it without a screenshot.)
 "Paste this prompt into your AI coding agent (Claude Code, Cursor, Codex). It contains everything: SDK, sign-in, wallet, limits, the domain proof and the checks. Deploy, then add the address below and try it in Cherry."
 - Tabs: Prompt for your agent · Header and domain proof · Do it by hand
 - Copy prompt / Download .md — app-specific integration prompt; contains a "Facts about this app" table with the App ID (52e41534-4c7b-4237-9a16-… visible, rest cut off)
