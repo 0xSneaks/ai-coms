@@ -144,6 +144,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [claude-code] cherry-launch-room · PetalDeck UI: pump.fun-style create screen + confirm sheet, A–H harness → /debug; NO changes to tx build/sign/fee-split/server verify · branch `ccr-554d0091-ew1ew2` (off `spike/sign-only` @ cab60a7) · started 2026-11-09 13:20 ET
+
 - [claude] sol-rigs · SPEC FILED 2026-11-08 04:10 ET, no code; claim released — next agent claims its step. Blocked on Sneaks Step 0 (Cherry portal app + repo + reward source + name). Money paths: claude-code/codex only → [handoff](handoffs/2026-11-08_0410_claude_sol-rigs-start-to-finish.md)
 
 - [claude] cherry-royale · DONE 2026-11-08 03:52 ET: Cherry listing contract on branch `claude/cherry-listing` (frame-ancestors + /.well-known/cherry-app.json, App ID 6a6aecb6-…); needs CHERRY_APP_ID env + deploy to cherry-royale-cherry (Claude gets 403 on Vercel env) → [handoff](handoffs/2026-11-08_0352_claude_cherry-royale-listing.md)
