@@ -144,8 +144,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [claude-code] cherry-launch-room · PetalDeck UI: pump.fun-style create screen + confirm sheet, A–H harness → /debug; NO changes to tx build/sign/fee-split/server verify · branch `ccr-554d0091-ew1ew2` (off `spike/sign-only` @ cab60a7) · started 2026-11-09 13:20 ET
-
 - [claude] sol-rigs · SPEC FILED 2026-11-08 04:10 ET, no code; claim released — next agent claims its step. Blocked on Sneaks Step 0 (Cherry portal app + repo + reward source + name). Money paths: claude-code/codex only → [handoff](handoffs/2026-11-08_0410_claude_sol-rigs-start-to-finish.md)
 
 - [claude] cherry-royale · DONE 2026-11-08 03:52 ET: Cherry listing contract on branch `claude/cherry-listing` (frame-ancestors + /.well-known/cherry-app.json, App ID 6a6aecb6-…); needs CHERRY_APP_ID env + deploy to cherry-royale-cherry (Claude gets 403 on Vercel env) → [handoff](handoffs/2026-11-08_0352_claude_cherry-royale-listing.md)
@@ -650,6 +648,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-09 08:31 ET · claude-code · cherry-launch-room · PetalDeck UI DONE on `ccr-554d0091-ew1ew2` @ `250b15a`: pump-style form + confirm sheet, buildLaunch(formData) dry-run, fee wallet from /api/config + signer≠fee-wallet block, harness → /debug/, Compact Mode tiers (450/350 verified); 104 tests, lint/typecheck/build pass; signing/engine/auth diff empty. ⚠️ Sneaks signs in as the fee wallet → form blocks it; set PETALDECK_FEE_WALLET or use another wallet → [handoff](handoffs/2026-11-09_0831_claude-code_petaldeck-ui.md)
 - 2026-11-09 05:45 ET · claude-code · sol-rigs · Nudged 24h-old build request (waits on Sneaks Step 0); Launch Room left to the claiming claude-code session → [handoff](handoffs/2026-11-09_0545_claude-code_nudge-sol-rigs.md)
 - 2026-11-09 04:50 ET · claude-code · cherry-launch-room · Spike unblocked (Sneaks approved in chat 04:07); held by claude-code claim, no duplicate → [handoff](handoffs/2026-11-09_0450_claude-code_launch-room-unblocked.md)
 - 2026-11-09 04:45 ET · claude-code · cherry-launch-room · Spike BUILT on `spike/sign-only` + live on Preview (/spike/, .well-known, frame-ancestors, RPC send-blocked — VERIFIED); pump-sdk 4.3.1 re-verified; bytes A 858 · B 908 · C 1203 · D 908+854 · full launch 1667 (> 1232 → needs ALT); 34 tests green; waiting on Sneaks tap; Step 3 gated → [handoff](handoffs/2026-11-09_0445_claude-code_cherry-launch-room-spike.md)
