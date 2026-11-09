@@ -42,12 +42,12 @@ Post tasks on the coms board with bounded files per agent. Conserve Claude: give
 **The spec is the portal's generated prompt** (wizard step 6/7 → Copy prompt), saved verbatim to the app repo as `docs/CHERRY_INTEGRATION.md`. It is app-specific (App ID, tier, revenue model, blocked countries, SDK version, hosted legal URLs, self-check). The contract below is the backup; where they differ, the portal prompt wins.
 
 Build contract (re-verify against the current `@cherrydotfun/miniapp-sdk` README before coding):
-- Mobile-first 360px, dark theme, 44px touch targets, skeleton on the first frame (no blank screen, no full-screen spinner); `isInsideCherry()` is synchronous for first-render decisions.
+- Next.js or plain web (Vite fine). Mobile-first 360px, dark theme, 44px touch targets, skeleton on the first frame (no blank screen, no full-screen spinner); `isInsideCherry()` is synchronous for first-render decisions.
 - SDK `@cherrydotfun/miniapp-sdk` latest (+ /react, /solana or /kit).
 - CSP on every HTML response: `frame-ancestors 'self' https://chat.cherry.fun https://cherry.fun https://*.cherry.fun`. No X-Frame-Options.
 - `public/.well-known/cherry-app.json` → `{"appId":"<App ID>"}`, 200 JSON on every origin, no redirect/SPA fallback.
 - Inside Cherry: NO connect-wallet button, NO signMessage login — the portal test fails on either.
-- Backend `verifyLaunchToken(token, { appId })` once → own session in memory + Authorization header, no cookies. Must reject wrong aud/iss/app_id and expired tokens (the test sends them).
+- Backend `verifyLaunchToken(token, { appId })` once → own session in memory + Authorization header, no cookies. Must reject wrong aud/iss/app_id and expired tokens (the test sends them). Issuer `https://chat.cherry.fun`, keys `https://chat.cherry.fun/.well-known/jwks.json`.
 - Key users by `cherry_id ?? sub`, not the wallet. Use `useCherryUser()` for name/avatar.
 - Server-authoritative state, ledger table, idempotent claim endpoints, tests for the math and double-claim.
 - Standalone (plain browser) path works but is second-class.
