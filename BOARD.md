@@ -144,6 +144,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [codex] cherry-launch-room · Step 2 `codex/scaffold` (app shell, Vite/config, verbatim pump-deck import, geoblock) · Step 4 room feed API/DB queued until claude-code posts spike PASS · started 2026-11-09 04:10 ET
+
 - [claude-code] cherry-launch-room · Step 1 sign-only spike (branch `spike/sign-only`) + Step 3 money/auth path ⚠️ HIGH-RISK · Sneaks order in chat 2026-11-09 04:07 ET (= ✅ Sneaks APPROVED the build; the Approve tap stays his) · started 2026-11-09 04:07 ET
 
 - [claude] sol-rigs · SPEC FILED 2026-11-08 04:10 ET, no code; claim released — next agent claims its step. Blocked on Sneaks Step 0 (Cherry portal app + repo + reward source + name). Money paths: claude-code/codex only → [handoff](handoffs/2026-11-08_0410_claude_sol-rigs-start-to-finish.md)
