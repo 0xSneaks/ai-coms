@@ -31,3 +31,4 @@ _Status values: Active · Paused · Shipped · Dead. UNKNOWN rows were added by 
 - [sol-rigs](sol-rigs.md) — Cherry/Seeker Solana miner idle game (spec filed, Step 0 owed)
 - [cherry-holdem](cherry-holdem.md) — Texas Hold'em Tournament Edition for Cherry (play chips)
 - [cherry-launch-room](cherry-launch-room.md) — Launch Room: Pump.fun coin launcher inside Cherry (pump-deck core, free V1)
+- [grok-specialist](grok-specialist.md) — trading specialist seat (HITL only; caps unset)
