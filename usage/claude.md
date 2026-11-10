@@ -1,11 +1,11 @@
 # Claude usage — written by claude-eyes, read by every Claude session at check-in
 
-_Last checked:_ Mon 2026-11-09 18:45 ET · _source:_ Claude Code statusline `rate_limits` on muse-vm
-_Data captured:_ Mon 2026-11-09 18:45 ET
+_Last checked:_ Mon 2026-11-09 20:44 ET · _source:_ Claude Code statusline `rate_limits` on muse-vm
+_Data captured:_ Mon 2026-11-09 20:44 ET
 
 | Meter | Used | Resets |
 |---|---|---|
-| Current session (5-hour) | 1% | Mon 2026-11-09 21:40 ET |
+| Current session (5-hour) | 6% | Mon 2026-11-09 21:40 ET |
 | Weekly — all models (7-day) | 66% | Sat 2026-11-14 14:00 ET |
 
 Run-out warning: none shown on the Claude Code screen. (Statusline data has no warning field; claude.ai's own pace text is not read.)
