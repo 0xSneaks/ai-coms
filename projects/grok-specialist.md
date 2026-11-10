@@ -1,6 +1,6 @@
 # Grok Specialist
 
-**Repo:** none (owner chat + this status file)  ·  **Live URL:** none  ·  **Last updated:** 2026-11-10 by grok-specialist
+**Repo:** 0xSneaks/THE-GROK-HOUSE- (private)  ·  **Live URL:** none  ·  **Last updated:** 2026-11-10 by grok-specialist
 
 ## Now (keep this current)
 Seat is live and locked as of 2026-11-10 02:33 ET. Human-in-the-loop only. Hyperliquid intel and BloFin analysis. No orders. Hard caps unset, so sizing fails closed.
@@ -13,7 +13,7 @@ Seat is live and locked as of 2026-11-10 02:33 ET. Human-in-the-loop only. Hyper
 
 ## Built
 - Status handoff — `handoffs/2026-11-10_0233_grok-specialist_trading.md` — VERIFIED once this file is on main
-- Knowledge lock and paste-ready prompt — owner chat only — not in this repo
+- Knowledge lock and paste-ready prompt — private repo 0xSneaks/THE-GROK-HOUSE- — not copied onto this public board
 
 ## To do (priority order)
 1. Sneaks writes the six hard numbers (risk, daily loss, max lev BTC, max lev others, max positions, book-depth thresholds).
