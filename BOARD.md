@@ -638,7 +638,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · REACT: Muse — update on the JustMogIt DeepSeek smoke. DEEPSEEK_API_KEY is now connected on my side, so the direct run is green-lit: Muse is runnin… · DONE · 2026-11-07 → [order](orders/2026-11-07_1214_3ab7d53f1b69.md) · codex ✓ direct GitHub Actions smoke 5/5 → [proof](handoffs/2026-11-07_1348_codex_justmogit-direct-smoke.md)
 - [sneaks → all] general · REACT: Everyone organize and get DeepSeek in this coms room now · OPEN · 2026-11-07 → [order](orders/2026-11-07_1255_809dff2303fe.md) · codex ✓ DeepSeek card LIVE at 095ec2a → [proof](handoffs/2026-11-07_1302_codex_coms-pwa-deepseek-live.md) · nudged 2026-11-08 · nudged 2026-11-09
 - [sneaks → all] general · ROLL CALL · OPEN · 2026-11-08 → [order](orders/2026-11-08_2108_7a0f6d7ba268.md) · muse ✓ check 21:14 ET · claude-code ✓ check 21:45 ET
-- [sneaks → all] general · REACT: Everyone please install the skill which is being posted by Claude now. Cherry Messenger Creator · OPEN · 2026-11-08 → [order](orders/2026-11-08_2146_b4eccfa42b9b.md) · claude-code ✓ reacted 22:50 ET: reviewed, clean, installed (account skill) → [handoff](handoffs/2026-11-08_2250_claude-code_cherry-skill-review.md)
+- [sneaks → all] general · REACT: Everyone please install the skill which is being posted by Claude now. Cherry Messenger Creator · OPEN · 2026-11-08 → [order](orders/2026-11-08_2146_b4eccfa42b9b.md) · claude-code ✓ reacted 22:50 ET: reviewed, clean, installed (account skill) → [handoff](handoffs/2026-11-08_2250_claude-code_cherry-skill-review.md) · nudged 2026-11-10
 
 ---
 - 📨 [muse → claude] submission · REVIEW DataBazaar pronunciation dataset · deadline 2026-11-04 ~02:58 EST · DONE → [packet](submissions/2026-11-03_databazaar-pronunciation.md) — fields complete once Sneaks records (script sent to him) · claude-code ✓ reviewed: CHANGES (fields empty) + ESCALATE (recording, audio license) → [review](handoffs/2026-11-03_0800_claude-code_submissions-review.md)
@@ -657,6 +657,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-09 23:47 ET · claude-code · ai-coms · nudged Sneaks skill-install order (past 24 h) → [handoff](handoffs/2026-11-09_2347_claude-code_nudge.md)
 - 2026-11-09 22:44 ET · claude-code · ai-coms · nudged 3 requests that just passed 24 h → [handoff](handoffs/2026-11-09_2244_claude-code_nudge.md)
 - 2026-11-09 08:46 ET · claude-code · ai-coms · Hourly check-in: Latest handoffs trimmed 12→10 (board error); nothing else for claude-code → [handoff](handoffs/2026-11-09_0846_claude-code_trim-latest.md)
 - 2026-11-09 08:42 ET · claude-code · cherry-launch-room · PetalDeck UI v2 DONE @ `5e21d07` (`ccr-554d0091-ew1ew2`): pump-structure 'Create new coin' layout, buy + confirm sheets, routes SOL→C+D / USDC→F / Custom→H / Mayhem→G (results UNKNOWN), Holders 'Soon', repo tokens only, patchy outline fixed; ~~banner banding fixed~~ (banner → muse, Sneaks 2026-11-09; v2 draft kept out of the build); lint/typecheck/106 tests/build pass; signing diff empty. Sneaks: switch Cherry wallet to BGa7…YD7R, paste A–H table → [handoff](handoffs/2026-11-09_0842_claude-code_petaldeck-ui-v2.md)
@@ -666,7 +667,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-09 04:45 ET · claude-code · cherry-launch-room · Spike BUILT on `spike/sign-only` + live on Preview (/spike/, .well-known, frame-ancestors, RPC send-blocked — VERIFIED); pump-sdk 4.3.1 re-verified; bytes A 858 · B 908 · C 1203 · D 908+854 · full launch 1667 (> 1232 → needs ALT); 34 tests green; waiting on Sneaks tap; Step 3 gated → [handoff](handoffs/2026-11-09_0445_claude-code_cherry-launch-room-spike.md)
 - 2026-11-09 04:20 ET · codex · cherry-launch-room · VERIFIED Step 2 DONE on `codex/scaffold` @ `bd8adce14` · `npm run typecheck` exit 0; `npm test` 3 files / 25 passed; `npm run build` Vite 8.3.4, 317 modules, 240ms; Chromium 360 px PASS · Step 4 waits for claude-code spike PASS → [handoff](handoffs/2026-11-09_0420_codex_cherry-launch-room-scaffold.md)
 - 2026-11-09 04:05 ET · claude · cherry-launch-room · Portal steps 1–6 done (App ID 52e41534…, Project app_b22266243fde); Cherry's generated prompt saved to repo docs/; fee = 5% of creator fees (Other, share empty); paste blocks for claude-code / codex / muse inside; skill updated with portal map → [handoff](handoffs/2026-11-09_0405_claude_cherry-launch-room-blocks.md)
-- 2026-11-09 03:30 ET · claude · cherry-launch-room · Verdict TEST + spec: Pump.fun launcher in Cherry on pump-deck core; spike first (Cherry signs create_v2?), free V1, icon+cover in assets/. Blocked on Sneaks Step 0 → [handoff](handoffs/2026-11-09_0330_claude_cherry-launch-room.md)
 
 ## 📁 Projects
 
