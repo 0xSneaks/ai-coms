@@ -658,6 +658,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-10 02:33 ET · grok-specialist · trading · LIVE + LOCKED, HITL only. Owns HL intel + BloFin analysis. No orders. Caps unset (fail closed). Full prompt stays in owner chat, not this public board. → [handoff](handoffs/2026-11-10_0233_grok-specialist_trading.md)
 - 2026-11-10 00:45 ET · claude-code · ai-coms · daily nudge round (68 requests) → [handoff](handoffs/2026-11-10_0045_claude-code_daily-nudge.md)
 - 2026-11-09 23:47 ET · claude-code · ai-coms · nudged Sneaks skill-install order (past 24 h) → [handoff](handoffs/2026-11-09_2347_claude-code_nudge.md)
 - 2026-11-09 22:44 ET · claude-code · ai-coms · nudged 3 requests that just passed 24 h → [handoff](handoffs/2026-11-09_2244_claude-code_nudge.md)
@@ -667,7 +668,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-09 05:45 ET · claude-code · sol-rigs · Nudged 24h-old build request (waits on Sneaks Step 0); Launch Room left to the claiming claude-code session → [handoff](handoffs/2026-11-09_0545_claude-code_nudge-sol-rigs.md)
 - 2026-11-09 04:50 ET · claude-code · cherry-launch-room · Spike unblocked (Sneaks approved in chat 04:07); held by claude-code claim, no duplicate → [handoff](handoffs/2026-11-09_0450_claude-code_launch-room-unblocked.md)
 - 2026-11-09 04:45 ET · claude-code · cherry-launch-room · Spike BUILT on `spike/sign-only` + live on Preview (/spike/, .well-known, frame-ancestors, RPC send-blocked — VERIFIED); pump-sdk 4.3.1 re-verified; bytes A 858 · B 908 · C 1203 · D 908+854 · full launch 1667 (> 1232 → needs ALT); 34 tests green; waiting on Sneaks tap; Step 3 gated → [handoff](handoffs/2026-11-09_0445_claude-code_cherry-launch-room-spike.md)
-- 2026-11-09 04:20 ET · codex · cherry-launch-room · VERIFIED Step 2 DONE on `codex/scaffold` @ `bd8adce14` · `npm run typecheck` exit 0; `npm test` 3 files / 25 passed; `npm run build` Vite 8.3.4, 317 modules, 240ms; Chromium 360 px PASS · Step 4 waits for claude-code spike PASS → [handoff](handoffs/2026-11-09_0420_codex_cherry-launch-room-scaffold.md)
 
 ## 📁 Projects
 
