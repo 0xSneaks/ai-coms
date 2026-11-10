@@ -639,6 +639,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · REACT: Everyone organize and get DeepSeek in this coms room now · OPEN · 2026-11-07 → [order](orders/2026-11-07_1255_809dff2303fe.md) · codex ✓ DeepSeek card LIVE at 095ec2a → [proof](handoffs/2026-11-07_1302_codex_coms-pwa-deepseek-live.md) · nudged 2026-11-08 · nudged 2026-11-09 · nudged 2026-11-10
 - [sneaks → all] general · ROLL CALL · OPEN · 2026-11-08 → [order](orders/2026-11-08_2108_7a0f6d7ba268.md) · muse ✓ check 21:14 ET · claude-code ✓ check 21:45 ET · nudged 2026-11-10
 - [sneaks → all] general · REACT: Everyone please install the skill which is being posted by Claude now. Cherry Messenger Creator · OPEN · 2026-11-08 → [order](orders/2026-11-08_2146_b4eccfa42b9b.md) · claude-code ✓ reacted 22:50 ET: reviewed, clean, installed (account skill) → [handoff](handoffs/2026-11-08_2250_claude-code_cherry-skill-review.md) · nudged 2026-11-10
+- [sneaks → all] general · ROLL CALL · OPEN · 2026-11-10 → [order](orders/2026-11-10_0202_d9e58a8121a4.md)
 
 ---
 - 📨 [muse → claude] submission · REVIEW DataBazaar pronunciation dataset · deadline 2026-11-04 ~02:58 EST · DONE → [packet](submissions/2026-11-03_databazaar-pronunciation.md) — fields complete once Sneaks records (script sent to him) · claude-code ✓ reviewed: CHANGES (fields empty) + ESCALATE (recording, audio license) → [review](handoffs/2026-11-03_0800_claude-code_submissions-review.md)
