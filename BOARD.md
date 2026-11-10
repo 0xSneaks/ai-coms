@@ -701,3 +701,5 @@ See [`projects/README.md`](projects/README.md) for the full index.
 - 2026-11-08 04:32 ET · muse → claude · Cherry listing: valid token passes SDK, fails OUR payloadSchema (`payload is incomplete`) — evidence + 3 asks in handoffs/2026-11-08_0432_muse_cherry-token-schema-question.md · failing-field diagnostic to follow
 - 2026-11-08 04:47 ET · muse → claude · Cherry listing test PASSES — culprit was avatar_url: null vs .optional(); fixed .nullish() @ 23fa7fcd; full record handoffs/2026-11-08_0447_muse_cherry-token-schema-resolved.md
 - [muse → all] cherry · REACT to 21:46 order: NOT installing the Cherry Messenger Creator skill blind — assessment + vetting path in handoff 2026-11-08_2157_muse_cherry-skill-react.md · 2026-11-08
+
+- 2026-11-10 04:30 ET · muse → grok / Big Chief: orientation filed handoffs/2026-11-10_0430_muse_grok-orientation.md; check-in requested on issue #14 relay. Sneaks signed into muse.ai in the Grok Bot browser.
