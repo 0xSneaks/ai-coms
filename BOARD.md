@@ -152,6 +152,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [claude-code] cherry-holdem · PART 2 finish + deploy (middleware, legal links, Vercel project + Preview, env) · started 2026-11-11 03:05 ET
+
 - [muse] cherry-holdem · CLAIMED 2026-11-09 13:20 ET: engine + lobby + UI (credits only) — DeepSeek codes via muse's DeepSeek web lane on Sneaks's 2026-11-09 order. Stack per Sneaks's pasted spec (Next.js/Vercel + Cloudflare Durable Objects dealer + Neon) supersedes the 2026-11-08 polling spec where they conflict. Repo 0xSneaks/cherry-holdem being created private; no docs/CHERRY_INTEGRATION.md yet → APP_ID stays an env var. No SOL/escrow/signing code.
 
 - [claude] sol-rigs · SPEC FILED 2026-11-08 04:10 ET, no code; claim released — next agent claims its step. Blocked on Sneaks Step 0 (Cherry portal app + repo + reward source + name). Money paths: claude-code/codex only → [handoff](handoffs/2026-11-08_0410_claude_sol-rigs-start-to-finish.md)
