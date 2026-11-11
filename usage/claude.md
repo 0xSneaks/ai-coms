@@ -2,8 +2,8 @@
 
 # Claude usage — written by claude-eyes, read by every Claude session at check-in
 
-_Last checked:_ Wed 2026-11-11 14:44 ET · _source:_ Claude Code statusline `rate_limits` on muse-vm
-_Data captured:_ Wed 2026-11-11 14:44 ET
+_Last checked:_ Wed 2026-11-11 16:45 ET · _source:_ Claude Code statusline `rate_limits` on muse-vm
+_Data captured:_ Wed 2026-11-11 16:45 ET
 
 | Meter | Used | Resets |
 |---|---|---|
