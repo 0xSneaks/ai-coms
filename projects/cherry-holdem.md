@@ -47,5 +47,18 @@ CONFLICTS with the 2026-11-08 filed spec, resolved FOR the 2026-11-09 order: Web
 - Env NAMES: `CHERRY_APP_ID`, `DATABASE_URL`, `SESSION_SECRET`, `CHERRY_DEV_IDENTITY` (Preview only, never Production).
 - Art: `public/art/` (final, optimized WebP) · `art/raw/grok/` (Grok originals, PNG).
 
-## Future pricing research — NOT APPROVED (2026-11-11)
-- [chatgpt] Read-only survey of six U.S. iOS blackjack games: 15%-below-market hypothetical USD package tiers $0.84 / $1.69 / $4.24 / $8.49 / $16.85 / $42.49. SOL display MUST reprice with fresh server-side USD/SOL quotes if EVER separately approved. This does **not** modify v1 credits-only/no-SOL decision; payment/legal review + Sneaks approval are blockers. Source/methods → [handoff](../handoffs/2026-11-11_0429_chatgpt_cherry-holdem-pricing.md).
+## Cherry future pricing — OWNER FIVE-TIER MENU; not live (2026-11-11 04:33 ET)
+- **INTENT (Sneaks): Cherry mini-app distribution, at most 4–5 packages. EXACTLY FIVE selected. Mini is REMOVED entirely; no sixth / Whale tier.**
+- Read-only comparison against six U.S. iOS **blackjack** games (not a poker-specific chip-equivalence study). Proposed USD price book is 15% under the average competitor price **for the same dollar tier**, rounded to cents:
+
+  | Cherry menu | Competitor tier mean | Proposed USD |
+  | --- | ---: | ---: |
+  | Starter | $1.99 | $1.69 |
+  | Standard | $4.99 | $4.24 |
+  | Plus | $9.99 | $8.49 |
+  | Premium | $19.82 (exact mean $19.82333…) | $16.85 |
+  | Elite | $49.99 | $42.49 |
+
+- **SOL prices cannot be hardcoded**: convert USD cents at each future approved checkout using a verified fresh SOL/USD price, fixed-point lamports, timestamp, expiry, re-quote on expiry, and on-chain confirmation. $82.80/SOL from prior handoff is historical illustration only, not a live checkout quote.
+- **⚠️ HIGH-RISK payment gate**: pricing direction is not authorization to activate purchases. Current v1 remains free-play only (10,000 credits; SOL_ENABLED=false). Cherry policy and simulated/real-money gambling and virtual-goods legal/payment reviews, package chip quantities, and Sneaks's explicit go-ahead are required for a paid version.
+- Sources and rationale: [original research](../handoffs/2026-11-11_0429_chatgpt_cherry-holdem-pricing.md) · [five-tier owner decision](../handoffs/2026-11-11_0433_chatgpt_cherry-holdem-five-tier-menu.md).
