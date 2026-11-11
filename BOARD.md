@@ -160,6 +160,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] cherry-holdem-pricing · competitive blackjack mobile IAP package pricing + 15% USD discount + read-only SOL quotes; files: AI COMS handoff + project note only, no app changes/wallet/payment wiring · started 2026-11-11 04:27 ET
+
 
 - [muse] cherry-holdem · CLAIMED 2026-11-09 13:20 ET: engine + lobby + UI (credits only) — DeepSeek codes via muse's DeepSeek web lane on Sneaks's 2026-11-09 order. Stack per Sneaks's pasted spec (Next.js/Vercel + Cloudflare Durable Objects dealer + Neon) supersedes the 2026-11-08 polling spec where they conflict. Repo 0xSneaks/cherry-holdem being created private; no docs/CHERRY_INTEGRATION.md yet → APP_ID stays an env var. No SOL/escrow/signing code.
 
