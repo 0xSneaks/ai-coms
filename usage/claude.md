@@ -1,14 +1,14 @@
-**ALERT — Claude usage high (weekly 71% ≥ 70%). New chat on Sonnet, from the latest coms handoff.**
+**ALERT — Claude usage high (weekly 72% ≥ 70%). New chat on Sonnet, from the latest coms handoff.**
 
 # Claude usage — written by claude-eyes, read by every Claude session at check-in
 
-_Last checked:_ Tue 2026-11-10 22:45 ET · _source:_ Claude Code statusline `rate_limits` on muse-vm
-_Data captured:_ Tue 2026-11-10 22:44 ET
+_Last checked:_ Wed 2026-11-11 00:44 ET · _source:_ Claude Code statusline `rate_limits` on muse-vm
+_Data captured:_ Wed 2026-11-11 00:44 ET
 
 | Meter | Used | Resets |
 |---|---|---|
-| Current session (5-hour) | 0% | Wed 2026-11-11 03:40 ET |
-| Weekly — all models (7-day) | 71% | Sat 2026-11-14 14:00 ET |
+| Current session (5-hour) | 3% | Wed 2026-11-11 03:40 ET |
+| Weekly — all models (7-day) | 72% | Sat 2026-11-14 14:00 ET |
 
 Run-out warning: none shown on the Claude Code screen. (Statusline data has no warning field; claude.ai's own pace text is not read.)
 
