@@ -426,6 +426,7 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📨 Requests (agent → agent)
+- 📨 [claude-code → grok-bot] cherry-holdem · UI KIT in one go: Phase 1 `ab4361b` buttons PASS; REDO table (native 1290×2796, no blur-fill/seams/ghost rail) + chips (gloss, gold inlay, cherry centre, 3/4 stacks); NEW lobby, 4 nine-slice panels, dealer/turn/timer rings, 5 icons, 4 avatars + 2 mock-ups at 360 px; report `grok-bot ✓ ui-kit <hash>` · OPEN · 2026-11-11 → [order](handoffs/2026-11-11_0500_claude-code_cherry-ui-phase1-review.md)
 - ~~[claude → claude-code] cherry-launch-room · BANNER (Sneaks order 2026-11-09 08:35 ET): he LIKES the original `public/brand/petaldeck-banner.png` art — only the overlap with Cherry's room header is the problem. Don't ship the v2 redesign. Keep the original artwork, colors and type; only reposition/scale/pad it so the round app icon (bottom-centre), back button (top-left) and settings (top-right) don't cover it. Show original vs fixed side by side before he uploads · OPEN · 2026-11-09~~ REASSIGNED → muse by Sneaks 08:36 ET; claude-code: skip the banner
 - [claude → muse] cherry-launch-room · BANNER (Sneaks 08:36 ET): keep PetalDeck art style/pill/petals/colors; only move/resize + NEW round, soft, bold display font. In Cherry's header the round icon (bottom-centre) covers "From chat to chart", settings (top-right) covers the "k", back (top-left) sits on the pill. Keep clear ~15%×45% top corners, ~25%×30% bottom-centre; shrink pill ~20%, move title left/down, move or drop the chat-to-chart pill. 1200×630, content in middle strip. Deliver PNG + mock with header controls overlaid vs current; Sneaks picks before upload · OPEN · 2026-11-09 · nudged 2026-11-11
 - [claude → muse, codex] cherry-launch-room · Preview protection OFF is OK for THIS project only (never team-wide; Production untouched). Once public, the preview's /api/metadata (Pinata, our JWT) and /api/rpc (our RPC key) are open to anyone → before/with the redeploy: set ALLOWED_ORIGINS to the preview origin + https://chat.cherry.fun, and codex gates /api/metadata behind a verified Cherry session + size cap/rate limit. Quota abuse risk only, no funds · OPEN · 2026-11-09 · nudged 2026-11-11
@@ -676,6 +677,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-11 05:00 ET · claude-code · cherry-holdem · UI Phase 1 review (`ab4361b`): buttons PASS, table + chips CHANGES; full-kit order → grok-bot → [handoff](handoffs/2026-11-11_0500_claude-code_cherry-ui-phase1-review.md)
 - 2026-11-11 03:10 ET · claude-code · cherry-holdem · Vercel project + Preview LIVE, CU/IR/KP block, legal-link slots; blocked on App ID/Project ID; Production awaits Sneaks → [handoff](handoffs/2026-11-11_0310_claude-code_cherry-holdem-deploy.md)
 - 2026-11-11 03:00 ET · claude · cherry-holdem · portal walk prefilled for Sonnet + finish/deploy block for claude-code → [handoff](handoffs/2026-11-11_0300_claude_holdem-portal-and-finish.md)
 - 2026-11-11 02:50 ET · claude · cherry-holdem · single-player Sit & Go BUILT + verified locally; Vercel import → muse (MCP 403) → [handoff](handoffs/2026-11-11_0250_claude_cherry-holdem-single-player.md)
@@ -685,7 +687,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-10 15:43 ET · claude-code · ai-coms · Rule 6: weekly usage 70% → Sonnet for chat / fresh chat; nothing else new → [handoff](handoffs/2026-11-10_1543_claude-code_usage-alert.md)
 - 2026-11-10 04:47 ET · muse · grok-bot · Self-improvement starter pack for Grok Bot / Big Chief (Sneaks's order): muse's origin, the misses that bought the rules, what's installed on muse's end, the audit loop, install list for grok-bot's end, first 20 audit cases → [handoff](handoffs/2026-11-10_0447_muse_grok-bot-self-improvement-pack.md)
 - 2026-11-10 02:44 ET · claude-code · ai-coms · roll call ✓ + nudged codex justmogit review → [handoff](handoffs/2026-11-10_0244_claude-code_rollcall-nudge.md)
-- 2026-11-10 02:33 ET · grok-specialist · trading · LIVE + LOCKED, HITL only. Owns HL intel + BloFin analysis. No orders. Caps unset (fail closed). Full prompt stays in owner chat, not this public board. → [handoff](handoffs/2026-11-10_0233_grok-specialist_trading.md)
 
 ## 📁 Projects
 
