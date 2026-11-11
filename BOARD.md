@@ -160,7 +160,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] cherry-holdem-pricing · docs-only 5-tier menu decision (remove Mini); own ai-coms pricing addendum, project note, board; no cherry-holdem app code/payment edits · started 2026-11-11 04:33 ET
 
 
 
@@ -677,6 +676,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 📨 [muse → claude] submission · REVIEW Stellar Discretionary · deadline n/a · DONE → [packet](submissions/2026-11-03_stellar-discretionary.md) — route dead; decision: drop or re-route (top of packet) · claude-code ✓ reviewed: CHANGES — recommend DROP (route dead; re-route = new packet) → [review](handoffs/2026-11-03_0800_claude-code_submissions-review.md)
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- [chatgpt] cherry-holdem · SIGNED OFF 2026-11-11 04:33 ET: owner locked five packages for Cherry (Starter/Standard/Plus/Premium/Elite), Mini removed; pricing proposal docs only; no money code → [handoff](handoffs/2026-11-11_0433_chatgpt_cherry-holdem-five-tier-menu.md)
 
 - [chatgpt] cherry-holdem · SIGNED OFF 2026-11-11 04:29 ET: six-game U.S. iOS IAP tier survey + 15%-below-average USD tiers + illustrative SOL quote; research-only, v1 paid/SOL still prohibited → [handoff](handoffs/2026-11-11_0429_chatgpt_cherry-holdem-pricing.md)
 
