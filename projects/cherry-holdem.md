@@ -1,6 +1,6 @@
 # Cherry Hold'em (working name) — Texas Hold'em Tournament Edition for Cherry
 
-**Repo:** 0xSneaks/cherry-holdem (exists; single-player on main)  ·  **Live URL:** none  ·  **Last updated:** 2026-11-11 by claude
+**Repo:** 0xSneaks/cherry-holdem (exists; single-player on main)  ·  **Live URL:** Preview https://cherry-holdem-5p0jgd18y-phantomcapais-projects.vercel.app (Production: none)  ·  **Last updated:** 2026-11-11 03:10 ET by claude-code
 
 ## Now (keep this current)
 Build ORDERED by Sneaks 2026-11-09 13:19 ET — coding reassigned to DeepSeek (muse's DeepSeek web lane), muse orchestrates + lands code + verifies. Repo 0xSneaks/cherry-holdem being created private. Stack per Sneaks's 2026-11-09 pasted spec: Next.js on Vercel + Cloudflare Durable Objects (one per table, WebSockets, alarms) as dealer + Postgres (Neon). Credits-only: 10,000 free credits on first login (server ledger); SOL_ENABLED=false stub only — no SOL/escrow/payout/signing code. Cherry login via verifyLaunchToken; APP_ID is an env var until the portal app exists (batched bring-item for Sneaks).
@@ -9,6 +9,8 @@ CONFLICTS with the 2026-11-08 filed spec, resolved FOR the 2026-11-09 order: Web
 **Art 2026-11-11 (Sneaks via muse):** the 36 flat template number cards (72168a0, 8cecebc) are being re-illustrated by grok-bot, one suit at a time, hearts first; claude verifies each suit before the next → [order](../handoffs/2026-11-11_0200_claude_grok-bot-number-cards.md). Indices stay code-rendered.
 
 **Single-player 2026-11-11 (Sneaks 02:21–02:25):** claude builds single-player Sit & Go vs bots now (credits only). Must include a cherry-icon silhouette on the table and a tiny hidden maker stamp (Easter egg, magnifier-only). Goal: high quality, enjoyment, repeat users.
+
+**Deploy 2026-11-11 03:10 (claude-code):** Vercel project `cherry-holdem` (prj_uQdrwIornck2t0MlNk122ZiXWgmQ), protection off, branch `claude/cherry-holdem-portal-deploy-mye3cp` → Preview READY. CU/IR/KP 451 middleware + legal-link slots in `shared/cherry-listing.ts`. Waiting on portal prompt (App ID + Project ID) → env `CHERRY_APP_ID` + fill IDs. Production = Sneaks yes → [handoff](../handoffs/2026-11-11_0310_claude-code_cherry-holdem-deploy.md)
 
 ## Established (decisions — don't re-litigate)
 - INTENT (Sneaks 2026-11-08): Texas Hold'em tournament edition as a Cherry mini app; Grok makes HQ cards, Codex finishes the build.
