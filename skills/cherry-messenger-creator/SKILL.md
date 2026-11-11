@@ -11,6 +11,7 @@ Triggers: "cherry messenger creator", "new cherry app", "make a cherry mini app"
 ## Mission (Sneaks, 2026-11-11 — read first, applies to every phase)
 - **Goal:** bring social activity back to Cherry rooms with HQ products, and profit. The end test is high-quality output and user enjoyment — a reason to come back. Repeat users are the goal.
 - **The badge:** Sneaks is one of the first 5 Cherry developers to get the verified badge, and it's on his profile. Every app ships under it. Treat it as trust to repay: polished before the portal, clean on policy, never sloppy or borderline. Full upload rights are a responsibility, not a shortcut.
+- **Limits ≠ income (OBSERVED portal 2026-11-11 03:15 ET):** identity documents submitted, status "Checking your documents"; Sneaks still shows **Unverified** ($50/tx, $50/wallet/day). When it clears, his projects "switch to Verified on their own": $1,000/tx, $5,000 per wallet per day, Verified badge, featured-shelf eligibility. Those are caps on what one user's wallet can move through an app, not earnings. Revenue comes from the money model each app declares (step 4/7) and Cherry's 10% bill. Play-credit apps move no money.
 - So every app needs a repeat-play hook (daily bonus/streaks, stats, room leaderboards, share-to-room) and a quality bar (360px polish, fast first frame, no dead ends) before it's listed.
 
 Label every platform claim: VERIFIED (read today in docs/code/live URL/portal screen) · OBSERVED (seen in Sneaks's portal session, may change) · ASSUMPTION. Never invent field names, limits, fees or IDs.
