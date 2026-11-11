@@ -56,6 +56,14 @@ Build contract (re-verify against the current `@cherrydotfun/miniapp-sdk` README
 - Fees: nothing for Cherry inside our transactions, no billing API. Cherry bills monthly on the revenue we report (10%); no bill under $100/month volume.
 - Compliance: Cherry blocks CU/IR/KP at open AND the developer agreement requires blocking them in-app too. Link Cherry-hosted Terms + Privacy (URLs in the portal prompt) — link, don't copy. 18+ content behind the 18+ rating. Act on reports within 72 h.
 
+## Policy rules learned the hard way (cherry-launch-room, 2026-11-09)
+- VERIFIED (portal.cherry.fun/docs/mini-apps/policy.md, version 2026-11-09, read by claude-code): token launches, presales, ICOs/IDOs, bonding-curve launches and launchpads are **Partner apps only** (written agreement with Cherry + own licences). Verified tier does NOT unlock restricted categories. Check the policy page in Phase 1 for every idea — KILL or PARK anything restricted unless the app's live `tier` claim says partner.
+- VERIFIED (wallet.md): authority changes / account reassignment are **Refused** for Unverified + Verified. Pump create_v2 CPIs `SetAuthority`, so every in-Cherry Pump launch is refused with `DANGEROUS_INSTRUCTION` (the A–H spike). Nothing to strip on our side.
+- VERIFIED (policy.md): Cherry may PAUSE an app that keeps sending refused transactions → after one refused spike tap, stop and diagnose; never re-tap in a loop.
+- VERIFIED (policy.md): no wallet-connect or signing outside Cherry → no external-wallet workaround.
+- OBSERVED: a claimed partner deal means nothing until the server-verified launch token shows `tier: partner` for that App ID.
+- UNKNOWN — casino / games of chance / play credits: the Cherry terms check (projects/cherry-factory.md item 2) has no posted result. Casino games stay play-credits only with the wager layer stubbed, until that check posts and Sneaks rules.
+
 ## Phase 4 — Verify (evidence, not claims)
 Muse deploys to Vercel PREVIEW first (every env var set on the target, or boot = 500). Then check and paste results on the board:
 - `/api/health` shows Cherry identity configured
