@@ -46,3 +46,6 @@ CONFLICTS with the 2026-11-08 filed spec, resolved FOR the 2026-11-09 order: Web
 - Next.js (App Router, TS), Vercel, Postgres (Neon), `@cherrydotfun/miniapp-sdk` latest.
 - Env NAMES: `CHERRY_APP_ID`, `DATABASE_URL`, `SESSION_SECRET`, `CHERRY_DEV_IDENTITY` (Preview only, never Production).
 - Art: `public/art/` (final, optimized WebP) · `art/raw/grok/` (Grok originals, PNG).
+
+## Future pricing research — NOT APPROVED (2026-11-11)
+- [chatgpt] Read-only survey of six U.S. iOS blackjack games: 15%-below-market hypothetical USD package tiers $0.84 / $1.69 / $4.24 / $8.49 / $16.85 / $42.49. SOL display MUST reprice with fresh server-side USD/SOL quotes if EVER separately approved. This does **not** modify v1 credits-only/no-SOL decision; payment/legal review + Sneaks approval are blockers. Source/methods → [handoff](../handoffs/2026-11-11_0429_chatgpt_cherry-holdem-pricing.md).
