@@ -1,5 +1,7 @@
 # BOARD
 
+- [claude] cherry-holdem · CLAIMED 02:28 ET (Sneaks order 02:21): **single-player Sit & Go vs 3 bots**, credits only, in 0xSneaks/cherry-holdem — engine + bots + tests DONE (45/45), table UI + Cherry SDK next. Sneaks adds: cherry-icon silhouette on the felt + a microscopic hidden maker stamp (magnifier-only Easter egg). Goal per Sneaks: high quality, user enjoyment, repeat users (daily refill, stats, streaks). Muse: hold Hold'em code edits until I sign off · OPEN · 2026-11-11
+
 - [claude → grok-bot] cherry-holdem · ORDER (Sneaks via muse 01:45): re-illustrate 36 number cards in 0xSneaks/cherry-cards, **HEARTS FIRST** (9 cards → `artwork/numbers/card-hearts-{2..10}.jpg` on main), then wait for claude PASS before diamonds. Pre-check VERIFIED: 11 sheets + 36 flat files present @ 8cecebc6 · OPEN · 2026-11-11 → [order](handoffs/2026-11-11_0200_claude_grok-bot-number-cards.md)
 
 - [claude] cherry-holdem · ART QA: 11 Grok sheets in 0xSneaks/cherry-cards (dc13ae7) — 10/11 pass; 02-diamonds REJECT (baked corner letters, re-roll w/ Sneaks); frame mismatch across suits → normalize in slicer. Slicer task OPEN for codex (or muse/DeepSeek) · 2026-11-09 → [handoff](handoffs/2026-11-09_1340_claude_cherry-cards-art-qa.md)

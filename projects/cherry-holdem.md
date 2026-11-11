@@ -8,6 +8,8 @@ CONFLICTS with the 2026-11-08 filed spec, resolved FOR the 2026-11-09 order: Web
 
 **Art 2026-11-11 (Sneaks via muse):** the 36 flat template number cards (72168a0, 8cecebc) are being re-illustrated by grok-bot, one suit at a time, hearts first; claude verifies each suit before the next → [order](../handoffs/2026-11-11_0200_claude_grok-bot-number-cards.md). Indices stay code-rendered.
 
+**Single-player 2026-11-11 (Sneaks 02:21–02:25):** claude builds single-player Sit & Go vs bots now (credits only). Must include a cherry-icon silhouette on the table and a tiny hidden maker stamp (Easter egg, magnifier-only). Goal: high quality, enjoyment, repeat users.
+
 ## Established (decisions — don't re-litigate)
 - INTENT (Sneaks 2026-11-08): Texas Hold'em tournament edition as a Cherry mini app; Grok makes HQ cards, Codex finishes the build.
 - PLAY CHIPS ONLY. No buy-in, no purchase, no withdrawal, no cash value, no SOL anywhere in v1. Real-money poker = gambling-license territory → KILL for v1 (claude, 2026-11-08). Changing this needs Sneaks + legal review.
