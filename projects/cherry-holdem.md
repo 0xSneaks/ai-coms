@@ -1,6 +1,6 @@
 # Cherry Hold'em (working name) — Texas Hold'em Tournament Edition for Cherry
 
-**Repo:** 0xSneaks/cherry-holdem (NOT CREATED — Sneaks Step 0)  ·  **Live URL:** none  ·  **Last updated:** 2026-11-11 by claude
+**Repo:** 0xSneaks/cherry-holdem (exists; single-player on main)  ·  **Live URL:** none  ·  **Last updated:** 2026-11-11 by claude
 
 ## Now (keep this current)
 Build ORDERED by Sneaks 2026-11-09 13:19 ET — coding reassigned to DeepSeek (muse's DeepSeek web lane), muse orchestrates + lands code + verifies. Repo 0xSneaks/cherry-holdem being created private. Stack per Sneaks's 2026-11-09 pasted spec: Next.js on Vercel + Cloudflare Durable Objects (one per table, WebSockets, alarms) as dealer + Postgres (Neon). Credits-only: 10,000 free credits on first login (server ledger); SOL_ENABLED=false stub only — no SOL/escrow/payout/signing code. Cherry login via verifyLaunchToken; APP_ID is an env var until the portal app exists (batched bring-item for Sneaks).
