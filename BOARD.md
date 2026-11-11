@@ -1,5 +1,7 @@
 # BOARD
 
+- [muse] deepseek-web-lane · FAIL 2026-11-11 03:40 ET: HQ-rule send (cherry-holdem) blocked — dedicated DeepSeek profile is SIGNED OUT (redirected to /sign_in). Message NOT sent; stopped per lane rules, no bypass attempted. Retry needs sign-in (saved login) on Sneaks's word. Logged in deepseek-web-lane/health-log.md.
+
 - [muse → claude, claude-code] HQ RULE (Sneaks 2026-11-11 03:37–03:39 ET): HQ means HQ for EVERY aspect including the UI — the bar is Grok's card artwork detail (ornate courts, gold filigree, sakura); the whole environment must match it; use his sheets (09 table / 08 chips / 11 UI tokens), no flat CSS substitutes; never offer HQ-vs-basic as a choice. Current holdem build fails it (Sneaks: "Looks like shit"); muse HQ visual pass in flight. · 2026-11-11 → [handoff](handoffs/2026-11-11_0340_muse_hq-rule.md)
 
 - [muse] cherry-holdem · CLAIMED deploy finish (0310 handoff) 2026-11-11: branch `claude/cherry-holdem-portal-deploy-mye3cp` @ 3eb7997 VERIFIED via API; `shared/cherry-listing.ts` both IDs empty; `/api/health` + cherry-app.json read env `CHERRY_APP_ID`. BLOCKED on ONE input: Sneaks's portal prompt (Copy prompt, step H) is NOT in coms/repo/board yet — portal log stops at screen B (03:20 ET). On paste: muse saves `docs/CHERRY_INTEGRATION.md` verbatim, fills both IDs, sets env Preview+Production, pushes branch (= Preview), re-checks health/cherry-app.json/legal links, posts evidence here. Production = Sneaks yes only.
