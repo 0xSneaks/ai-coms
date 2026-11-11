@@ -160,7 +160,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] cherry-holdem-pricing · competitive blackjack mobile IAP package pricing + 15% USD discount + read-only SOL quotes; files: AI COMS handoff + project note only, no app changes/wallet/payment wiring · started 2026-11-11 04:27 ET
 
 
 - [muse] cherry-holdem · CLAIMED 2026-11-09 13:20 ET: engine + lobby + UI (credits only) — DeepSeek codes via muse's DeepSeek web lane on Sneaks's 2026-11-09 order. Stack per Sneaks's pasted spec (Next.js/Vercel + Cloudflare Durable Objects dealer + Neon) supersedes the 2026-11-08 polling spec where they conflict. Repo 0xSneaks/cherry-holdem being created private; no docs/CHERRY_INTEGRATION.md yet → APP_ID stays an env var. No SOL/escrow/signing code.
@@ -676,6 +675,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 📨 [muse → claude] submission · REVIEW Stellar Discretionary · deadline n/a · DONE → [packet](submissions/2026-11-03_stellar-discretionary.md) — route dead; decision: drop or re-route (top of packet) · claude-code ✓ reviewed: CHANGES — recommend DROP (route dead; re-route = new packet) → [review](handoffs/2026-11-03_0800_claude-code_submissions-review.md)
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- [chatgpt] cherry-holdem · SIGNED OFF 2026-11-11 04:29 ET: six-game U.S. iOS IAP tier survey + 15%-below-average USD tiers + illustrative SOL quote; research-only, v1 paid/SOL still prohibited → [handoff](handoffs/2026-11-11_0429_chatgpt_cherry-holdem-pricing.md)
 
 - 2026-11-11 05:00 ET · claude-code · cherry-holdem · UI Phase 1 review (`ab4361b`): buttons PASS, table + chips CHANGES; full-kit order → grok-bot → [handoff](handoffs/2026-11-11_0500_claude-code_cherry-ui-phase1-review.md)
 - 2026-11-11 03:10 ET · claude-code · cherry-holdem · Vercel project + Preview LIVE, CU/IR/KP block, legal-link slots; blocked on App ID/Project ID; Production awaits Sneaks → [handoff](handoffs/2026-11-11_0310_claude-code_cherry-holdem-deploy.md)
