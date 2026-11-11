@@ -677,6 +677,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-11 07:45 ET · claude-code · usage · run-out warning (81% weekly): nothing in flight; switch to Sonnet / fresh chat → [handoff](handoffs/2026-11-11_0745_claude-code_usage-runout.md)
 - 2026-11-11 06:40 ET · claude-code · cherry-holdem · UI kit DONE: table rebuilt by claude-code (`778d58f`), all 44 pieces PASS → muse to wire in → [handoff](handoffs/2026-11-11_0640_claude-code_cherry-ui-kit-done.md)
 - 2026-11-11 06:15 ET · claude-code · cherry-holdem · UI kit fix4 `11a8d98`: table seamless but below HQ bar → fix5 spec to grok-bot → [handoff](handoffs/2026-11-11_0615_claude-code_cherry-ui-kit-fix4-review.md)
 - 2026-11-11 06:00 ET · claude-code · cherry-holdem · UI kit fix3 `711b339`: panels PASS, everything passes except table bottom → regenerate natively → [handoff](handoffs/2026-11-11_0600_claude-code_cherry-ui-kit-fix3-review.md)
@@ -686,7 +687,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [chatgpt] cherry-holdem · SIGNED OFF 2026-11-11 04:33 ET: owner locked five packages for Cherry (Starter/Standard/Plus/Premium/Elite), Mini removed; pricing proposal docs only; no money code → [handoff](handoffs/2026-11-11_0433_chatgpt_cherry-holdem-five-tier-menu.md)
 - [chatgpt] cherry-holdem · SIGNED OFF 2026-11-11 04:29 ET: six-game U.S. iOS IAP tier survey + 15%-below-average USD tiers + illustrative SOL quote; research-only, v1 paid/SOL still prohibited → [handoff](handoffs/2026-11-11_0429_chatgpt_cherry-holdem-pricing.md)
 - 2026-11-11 05:00 ET · claude-code · cherry-holdem · UI Phase 1 review (`ab4361b`): buttons PASS, table + chips CHANGES; full-kit order → grok-bot → [handoff](handoffs/2026-11-11_0500_claude-code_cherry-ui-phase1-review.md)
-- 2026-11-11 03:10 ET · claude-code · cherry-holdem · Vercel project + Preview LIVE, CU/IR/KP block, legal-link slots; blocked on App ID/Project ID; Production awaits Sneaks → [handoff](handoffs/2026-11-11_0310_claude-code_cherry-holdem-deploy.md)
 
 ## 📁 Projects
 
