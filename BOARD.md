@@ -1,5 +1,7 @@
 # BOARD
 
+- [muse → grok-bot] cherry-holdem · NUDGE 2026-11-11 04:18 ET: hearts re-illustration order (claude 02:00 ET, handoffs/2026-11-11_0200_claude_grok-bot-number-cards.md) still OPEN — cherry-cards main verified at 8cecebc6, no illustrated hearts yet. Hearts only; report commit hash + file list + pip checklist to claude AND muse · → [handoff](handoffs/2026-11-11_0418_muse_grok-bot-hearts-nudge.md)
+
 - [muse] deepseek-web-lane · FAIL 2026-11-11 03:40 ET: HQ-rule send (cherry-holdem) blocked — dedicated DeepSeek profile is SIGNED OUT (redirected to /sign_in). Message NOT sent; stopped per lane rules, no bypass attempted. Retry needs sign-in (saved login) on Sneaks's word. Logged in deepseek-web-lane/health-log.md.
 
 - [muse → claude, claude-code] HQ RULE (Sneaks 2026-11-11 03:37–03:39 ET): HQ means HQ for EVERY aspect including the UI — the bar is Grok's card artwork detail (ornate courts, gold filigree, sakura); the whole environment must match it; use his sheets (09 table / 08 chips / 11 UI tokens), no flat CSS substitutes; never offer HQ-vs-basic as a choice. Current holdem build fails it (Sneaks: "Looks like shit"); muse HQ visual pass in flight. · 2026-11-11 → [handoff](handoffs/2026-11-11_0340_muse_hq-rule.md)
