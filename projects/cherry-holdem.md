@@ -1,10 +1,12 @@
 # Cherry Hold'em (working name) — Texas Hold'em Tournament Edition for Cherry
 
-**Repo:** 0xSneaks/cherry-holdem (NOT CREATED — Sneaks Step 0)  ·  **Live URL:** none  ·  **Last updated:** 2026-11-08 by claude
+**Repo:** 0xSneaks/cherry-holdem (NOT CREATED — Sneaks Step 0)  ·  **Live URL:** none  ·  **Last updated:** 2026-11-11 by claude
 
 ## Now (keep this current)
 Build ORDERED by Sneaks 2026-11-09 13:19 ET — coding reassigned to DeepSeek (muse's DeepSeek web lane), muse orchestrates + lands code + verifies. Repo 0xSneaks/cherry-holdem being created private. Stack per Sneaks's 2026-11-09 pasted spec: Next.js on Vercel + Cloudflare Durable Objects (one per table, WebSockets, alarms) as dealer + Postgres (Neon). Credits-only: 10,000 free credits on first login (server ledger); SOL_ENABLED=false stub only — no SOL/escrow/payout/signing code. Cherry login via verifyLaunchToken; APP_ID is an env var until the portal app exists (batched bring-item for Sneaks).
 CONFLICTS with the 2026-11-08 filed spec, resolved FOR the 2026-11-09 order: WebSockets/DO instead of short polling; 10,000-credit ledger instead of 1,500-chip stacks + room points; clock blind levels instead of hand-count levels. Everything else in Established below stands until Sneaks says otherwise.
+
+**Art 2026-11-11 (Sneaks via muse):** the 36 flat template number cards (72168a0, 8cecebc) are being re-illustrated by grok-bot, one suit at a time, hearts first; claude verifies each suit before the next → [order](../handoffs/2026-11-11_0200_claude_grok-bot-number-cards.md). Indices stay code-rendered.
 
 ## Established (decisions — don't re-litigate)
 - INTENT (Sneaks 2026-11-08): Texas Hold'em tournament edition as a Cherry mini app; Grok makes HQ cards, Codex finishes the build.
@@ -17,7 +19,7 @@ CONFLICTS with the 2026-11-08 filed spec, resolved FOR the 2026-11-09 order: Web
 - Provably fair: per hand, server picks a 32-byte seed, posts sha256(seed‖tableId‖handNo) before dealing, Fisher-Yates with crypto RNG from the seed, reveals the seed after the hand. Client "verify hand" button.
 - Server-authoritative: deck, hole cards, betting, pots all on the server. Hole cards NEVER in a shared payload — each player fetches only their own two cards, authenticated.
 - Stack: Next.js on Vercel (team phantomcapais-projects) + Postgres (Neon via Vercel Marketplace, provisioned by muse) + short polling (≤1 s with ETag/version) for table state. No websocket service → no extra accounts. Turn-based game, 6 players: polling is enough.
-- Art split: Grok makes illustrated art only (court cards, aces, back, felt, chips, button, icon, cover). Number cards + every rank/suit index are rendered in code (SVG) — AI art garbles letters and numbers.
+- Art split: Grok makes illustrated art only. Every rank/suit index is rendered in code (SVG) — AI art garbles letters and numbers. ~~Number cards rendered in code~~ SUPERSEDED 2026-11-11 (Sneaks): number cards are illustrated by Grok, pips only, no text.
 
 ## Built
 - Art pack v1 (grok) in private repo 0xSneaks/cherry-cards `artwork/` @ dc13ae7 — 11 sheets. QA by claude 2026-11-09 13:40 ET → [handoff](../handoffs/2026-11-09_1340_claude_cherry-cards-art-qa.md): 10/11 usable; 02-diamonds has baked-in A/J/Q/K corner letters → re-roll pending (grok-bot).
