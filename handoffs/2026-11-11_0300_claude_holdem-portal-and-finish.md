@@ -7,7 +7,7 @@ Repo `0xSneaks/cherry-holdem` @ main. State VERIFIED by claude 02:50 ET: 45/45 t
 
 ## PART 1 — Sonnet chat: portal walk-through (skill: cherry-messenger-creator, Phase 5)
 
-Rules: one screen per message, every typed value in its own copy box with the field name in bold above it, wait for Sneaks's screenshot, log each screen to `skills/cherry-messenger-creator/PORTAL-LOG-cherry-holdem.md`. Assets: `assets/cherry-holdem-icon.png` (512) and `assets/cherry-holdem-cover.png` (1200×630) in the app repo — already sent to Sneaks in chat.
+Use the BOARD copy of the skill (`skills/cherry-messenger-creator/SKILL.md`) — the installed copy is older and lacks the Mission + policy sections. Rules: one screen per message, every typed value in its own copy box with the field name in bold above it, wait for Sneaks's screenshot, log each screen to `skills/cherry-messenger-creator/PORTAL-LOG-cherry-holdem.md`. Assets: `assets/cherry-holdem-icon.png` (512) and `assets/cherry-holdem-cover.png` (1200×630) in the app repo — already sent to Sneaks in chat.
 
 Prefilled values (Sneaks confirms; change only if he says):
 - **A. New project** — Name `Cherry Hold'em` · Description `Texas Hold'em Sit & Go against bots, inside your Cherry room.` · skip invites · Create project. (Sent to Sneaks 02:50; resume from his screenshot.)

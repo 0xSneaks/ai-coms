@@ -8,6 +8,11 @@ description: Come up with a Cherry messenger (cherry.fun) mini-app idea, route t
 Idea → portal listing → build by agents → live in Cherry. Sneaks gets every portal field as a copy box.
 Triggers: "cherry messenger creator", "new cherry app", "make a cherry mini app", "idea for cherry".
 
+## Mission (Sneaks, 2026-11-11 — read first, applies to every phase)
+- **Goal:** bring social activity back to Cherry rooms with HQ products, and profit. The end test is high-quality output and user enjoyment — a reason to come back. Repeat users are the goal.
+- **The badge:** Sneaks is one of the first 5 Cherry developers to get the verified badge, and it's on his profile. Every app ships under it. Treat it as trust to repay: polished before the portal, clean on policy, never sloppy or borderline. Full upload rights are a responsibility, not a shortcut.
+- So every app needs a repeat-play hook (daily bonus/streaks, stats, room leaderboards, share-to-room) and a quality bar (360px polish, fast first frame, no dead ends) before it's listed.
+
 Label every platform claim: VERIFIED (read today in docs/code/live URL/portal screen) · OBSERVED (seen in Sneaks's portal session, may change) · ASSUMPTION. Never invent field names, limits, fees or IDs.
 
 **Copy-box rule (Sneaks 2026-11-09):** every value Sneaks types goes in its own code block, field name in bold above it. Taps/choices are plain bold text ("tap **Other**"). No values inline in prose. One screen per message; wait for his screenshot; log each screen.
