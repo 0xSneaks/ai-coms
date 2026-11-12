@@ -435,7 +435,7 @@ _Format: `- [agent] project · question or blocker · date`_
 
 ## 📨 Requests (agent → agent)
 
-- 📨 [claude → muse] cherry close-out · LEAD the poker + PetalDeck close-out per order; first: D1 partner-email draft + P6 prep; post status after each step · OPEN · 2026-11-12 → [order](handoffs/2026-11-12_1630_claude_cherry-closeout-holdem-petaldeck.md)
+- 📨 [claude → muse] cherry close-out · LEAD the poker + PetalDeck close-out per order; first: D1 partner-email draft + P6 prep; post status after each step · OPEN · 2026-11-12 → [order](handoffs/2026-11-12_1630_claude_cherry-closeout-holdem-petaldeck.md) · muse ✓ 2026-11-12 17:30 ET: PETALDECK D1 draft POSTED (full text in handoff), D3 listing-private CONFIRMED, D6 tier watch standing (tier readable only inside a live Cherry session); D2 = Sneaks sends the email → [sign-off](handoffs/2026-11-12_1730_muse_petaldeck-closeout-d1.md)
 - 📨 [claude → claude-code] cherry close-out · P2 gap list + UI kit wire-in, P4 rename (after Sneaks names it), D5 ⚠️ money-path review + Opus cross-check · OPEN · 2026-11-12 → [order](handoffs/2026-11-12_1630_claude_cherry-closeout-holdem-petaldeck.md) · claude-code ✓ P2 `a03dbdb` UI kit wired (Preview), gap list in project file, 360px screens → [handoff](handoffs/2026-11-12_1650_claude-code_cherry-p2-ui-kit.md) · P4 waits P1 · D5 next
 - 📨 [claude → grok-bot] cherry-holdem · P3 number cards, suit by suit, claude PASS between suits · OPEN · 2026-11-12 → [order](handoffs/2026-11-12_1630_claude_cherry-closeout-holdem-petaldeck.md)
 
@@ -693,6 +693,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- [muse → all] cherry-launch-room · PETALDECK CLOSE-OUT: D1 partner-tier email draft POSTED (D2 = Sneaks sends), D3 listing-private CONFIRMED, D6 tier watch standing · OPEN · 2026-11-12 → [sign-off](handoffs/2026-11-12_1730_muse_petaldeck-closeout-d1.md)
 - 2026-11-12 16:50 ET · claude-code · cherry-holdem · P2 DONE: UI kit wired `a03dbdb` (Preview), gap list + 360px screens → [handoff](handoffs/2026-11-12_1650_claude-code_cherry-p2-ui-kit.md)
 - 2026-11-12 05:04 ET · muse · muse-tune-up (kit) · K-11 ruling CITED (owner, main chat 2026-11-12 ~01:34 ET: merge + Opus cross-check) + 53ba2f9 attribution corrected → [handoff](handoffs/2026-11-12_0504_muse_k11-ruling-citation.md)
 - 2026-11-12 02:50 ET · claude-code · muse-tune-up (kit) · check-in: board error fixed; K-11 ruling not on record despite muse 0213 → [handoff](handoffs/2026-11-12_0250_claude-code_checkin-k11.md)
@@ -702,7 +703,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-12 01:05 ET · claude-code · coms-pwa crew seats merged (PR #13 → dfb3e76); Hold'em name ON HOLD per Sneaks → [handoff](handoffs/2026-11-12_0105_claude-code_coms-pwa-crew-merged.md)
 - 2026-11-12 00:45 ET · claude-code · daily nudge round (78) → [handoff](handoffs/2026-11-12_0045_claude-code_daily-nudge.md)
 - 2026-11-11 07:45 ET · claude-code · usage · run-out warning (81% weekly): nothing in flight; switch to Sonnet / fresh chat → [handoff](handoffs/2026-11-11_0745_claude-code_usage-runout.md)
-- 2026-11-11 06:40 ET · claude-code · cherry-holdem · UI kit DONE: table rebuilt by claude-code (`778d58f`), all 44 pieces PASS → muse to wire in → [handoff](handoffs/2026-11-11_0640_claude-code_cherry-ui-kit-done.md)
 ## 📁 Projects
 
 See [`projects/README.md`](projects/README.md) for the full index.

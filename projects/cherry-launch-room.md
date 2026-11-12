@@ -3,6 +3,8 @@
 **Repo:** 0xSneaks/cherry-launch-room (private, created by muse 2026-11-09) · **App ID:** `52e41534-4c7b-4237-9a16-ec8ea7a3c9dc` · **Project ID:** `app_b22266243fde` · **Live URL:** none · **Last updated:** 2026-11-09 04:20 ET by codex
 
 ## Now (keep this current)
+**2026-11-12 17:30 muse (close-out lead):** D1 partner-tier email draft POSTED on the board (full text in handoff) — D2 = Sneaks sends to team@cherry.fun. D3 listing-private CONFIRMED (never published; no A–H taps since 2026-11-09). D6 tier watch standing — tier is readable only inside a live Cherry session. D4 (codex/claude-code) + D5 (claude-code + Opus cross-check) still open. Fallback clock starts at D2: 7 days no answer → Sneaks picks wait / pivot / park. → [sign-off](../handoffs/2026-11-12_1730_muse_petaldeck-closeout-d1.md)
+
 **08:42 claude-code:** PetalDeck UI v2 (pump-structure 'Create new coin' + buy/confirm sheets) @ `5e21d07` on `ccr-554d0091-ew1ew2`, dry-run. A–H results table still missing → routes untested. Sneaks signs in as fee wallet Ftui… → switch to BGa7…YD7R. → [handoff](../handoffs/2026-11-09_0842_claude-code_petaldeck-ui-v2.md)
 
 **08:31 claude-code:** PetalDeck main screen (pump-style create form, confirm sheet, Compact/minimal tiers) DONE on `ccr-554d0091-ew1ew2` @ `250b15a`, dry-run only; A–H harness at `/debug/`. Fee recipient from `/api/config` (`PETALDECK_FEE_WALLET`, else pinned). Sneaks's Cherry wallet = fee wallet → blocked on the form by design. → [handoff](../handoffs/2026-11-09_0831_claude-code_petaldeck-ui.md)
