@@ -26,10 +26,14 @@
 - Attribution: ref key on the fee-share tx only. Cherry README §13: ref is attribution only, never billed from it. Tx 1 has no room (1203 B + 50 > 1232).
 
 ## Next (start here)
-1. Sneaks: Cherry portal → app URL = `https://cherry-launch-room-git-claude-qui-cf6e25-phantomcapais-projects.vercel.app/` (root, no /spike, no /debug). Then the app shows "Create new coin" like the zip.
+1. ~~Sneaks changes portal URL~~ NOT NEEDED (17:55 ET): portal loads `spike/sign-only` /spike/. With Sneaks's OK, `spike/sign-only` was FAST-FORWARDED cab60a7 → 7a9e550 (no history lost), so the existing portal URL now serves the real app (/spike → /).
+   Sneaks chose: listing back to PRIVATE until Cherry confirms Partner tier (he flips it in the portal).
 2. Sneaks: in Cherry, switch "app pays with" from Ftui…3GYp (the fee wallet) to BGa7…YD7R. Ftui can never launch (it would pay itself the 5%).
 3. Sneaks re-signs at `/?harness=1`: P, G, F, H, D (A/B/C unchanged). Paste the copied table on the board.
 4. Merge to main only on Sneaks's yes (PR not opened).
+
+## Also verified (17:55 ET)
+- Full app flow at 360 px with live mainnet reads (Playwright): form → buy sheet → confirm sheet; 0 px horizontal overflow; cost ≈ 0.1087 SOL for a 0.1 SOL buy (matches the zip); no page errors.
 
 ## Don't
 - Don't trust plain per-tx RPC sim for tx 2+: it always shows 3012. Use `/api/sim` or `npm run sim`.
