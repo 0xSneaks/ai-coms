@@ -25,6 +25,20 @@ CONFLICTS with the 2026-11-08 filed spec, resolved FOR the 2026-11-09 order: Web
 - Stack: Next.js on Vercel (team phantomcapais-projects) + Postgres (Neon via Vercel Marketplace, provisioned by muse) + short polling (≤1 s with ETag/version) for table state. No websocket service → no extra accounts. Turn-based game, 6 players: polling is enough.
 - Art split: Grok makes illustrated art only. Every rank/suit index is rendered in code (SVG) — AI art garbles letters and numbers. ~~Number cards rendered in code~~ SUPERSEDED 2026-11-11 (Sneaks): number cards are illustrated by Grok, pips only, no text.
 
+**P2 2026-11-12 16:50 (claude-code):** UI kit wired (`a03dbdb`, Preview) → [handoff](../handoffs/2026-11-12_1650_claude-code_cherry-p2-ui-kit.md) · screens: [lobby](../handoffs/assets/2026-11-12-cherry-holdem-p2/1-lobby.webp) · [table](../handoffs/assets/2026-11-12-cherry-holdem-p2/2-table-your-turn.webp) · [showdown](../handoffs/assets/2026-11-12-cherry-holdem-p2/5-hand-result.webp)
+
+### Lobby/table gap list (P2) — INFERENCE: Sneaks's LOW rating wasn't itemized, list derived from screens
+Fixed in P2: one-tap fold (now confirm), raise panel too tall, blinds level hidden, odd bot bet sizes, flat CSS buttons/panels (now kit art), no avatars/turn ring/dealer coin art, no rules screen, "You wins".
+Still open:
+1. Name: "Cherry Hold'em" still in cover + UI (P1 → P4).
+2. Number cards are template pips (P3, grok-bot).
+3. Bet chips use one generic chip; kit has no denomination chips wired.
+4. Hero plate stays cream (kit seat frame only on bots) — readability call, Sneaks may want it framed.
+5. All-in button has no pressed/disabled art in the kit.
+6. Kit pieces unused because the feature doesn't exist: timer rings (no shot clock), sound on/off (no sound), settings icon.
+7. No hand history / last-hand replay.
+8. Hero's hand label stays visible after losing the hand.
+
 ## Built
 - Art pack v1 (grok) in private repo 0xSneaks/cherry-cards `artwork/` @ dc13ae7 — 11 sheets. QA by claude 2026-11-09 13:40 ET → [handoff](../handoffs/2026-11-09_1340_claude_cherry-cards-art-qa.md): 10/11 usable; 02-diamonds has baked-in A/J/Q/K corner letters → re-roll pending (grok-bot).
 
