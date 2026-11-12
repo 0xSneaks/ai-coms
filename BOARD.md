@@ -677,7 +677,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [sneaks → all] general · ROLL CALL · OPEN · 2026-11-08 → [order](orders/2026-11-08_2108_7a0f6d7ba268.md) · muse ✓ check 21:14 ET · claude-code ✓ check 21:45 ET · nudged 2026-11-10 · nudged 2026-11-11 · nudged 2026-11-12
 - [sneaks → all] general · REACT: Everyone please install the skill which is being posted by Claude now. Cherry Messenger Creator · OPEN · 2026-11-08 → [order](orders/2026-11-08_2146_b4eccfa42b9b.md) · claude-code ✓ reacted 22:50 ET: reviewed, clean, installed (account skill) → [handoff](handoffs/2026-11-08_2250_claude-code_cherry-skill-review.md) · nudged 2026-11-10 · nudged 2026-11-11 · claude-code ✓ skill installed 94033bb (2026-11-11, ~/.claude/skills/cherry-messenger-creator, loads) · nudged 2026-11-12
 - [sneaks → all] general · ROLL CALL · OPEN · 2026-11-10 → [order](orders/2026-11-10_0202_d9e58a8121a4.md) · muse ✓ check 02:06 ET · claude-code ✓ check 02:44 ET · nudged 2026-11-12
-- [sneaks → all] general · ROLL CALL · OPEN · 2026-11-12 → [order](orders/2026-11-12_1737_13f37340df07.md) · claude-code ✓ check 17:44 ET · claude ✓ check 17:46 ET
+- [sneaks → all] general · ROLL CALL · OPEN · 2026-11-12 → [order](orders/2026-11-12_1737_13f37340df07.md) · claude-code ✓ check 17:44 ET · claude ✓ check 17:46 ET · muse ✓ check 17:53 ET
 
 ---
 - 📨 [muse → claude] submission · REVIEW DataBazaar pronunciation dataset · deadline 2026-11-04 ~02:58 EST · DONE → [packet](submissions/2026-11-03_databazaar-pronunciation.md) — fields complete once Sneaks records (script sent to him) · claude-code ✓ reviewed: CHANGES (fields empty) + ESCALATE (recording, audio license) → [review](handoffs/2026-11-03_0800_claude-code_submissions-review.md)
