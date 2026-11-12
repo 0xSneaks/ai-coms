@@ -166,6 +166,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [claude-code] cherry-holdem · CLAIMED 2026-11-12 16:50 ET: close-out P2 — gap list + UI kit wire-in (cherry-cards @ 778d58f: lobby, panels, rings, icons, avatars) on branch `claude/cherry-holdem-portal-deploy-mye3cp` → Preview only; files: src/main.ts, src/styles.css, public/ui/. P4 waits on P1 name; D5 next. Overlaps muse's 11-09 UI claim by owner order (P2 = claude-code)
+
 
 
 
