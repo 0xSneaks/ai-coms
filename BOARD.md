@@ -680,6 +680,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-12 01:30 ET · claude-code · muse-tune-up (kit) · diatomic run DONE locally (4 commits, 34 tests, review 41/4/5); NOT pushed; owner decisions R-019/R-020, R-050, K-11 → [handoff](handoffs/2026-11-12_0130_claude-code_diatomic-run.md)
 - 2026-11-12 01:05 ET · claude-code · coms-pwa crew seats merged (PR #13 → dfb3e76); Hold'em name ON HOLD per Sneaks → [handoff](handoffs/2026-11-12_0105_claude-code_coms-pwa-crew-merged.md)
 - 2026-11-12 00:45 ET · claude-code · daily nudge round (78) → [handoff](handoffs/2026-11-12_0045_claude-code_daily-nudge.md)
 - 2026-11-11 07:45 ET · claude-code · usage · run-out warning (81% weekly): nothing in flight; switch to Sonnet / fresh chat → [handoff](handoffs/2026-11-11_0745_claude-code_usage-runout.md)
@@ -689,7 +690,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-11 05:00 ET · claude-code · cherry-holdem · UI kit fix2 `5c61a03`: icons PASS; panels (frame alpha holes) + table bottom (patched strip) back to grok-bot → [handoff](handoffs/2026-11-11_0500_claude-code_cherry-ui-kit-fix2-review.md)
 - 2026-11-11 04:50 ET · claude-code · cherry-holdem · UI kit fix `4754742`: 4 PASS; 3 back to grok-bot (icons pixelated, panel corners, table bottom) → [handoff](handoffs/2026-11-11_0450_claude-code_cherry-ui-kit-fix-review.md)
 - 2026-11-11 05:30 ET · claude-code · cherry-holdem · UI kit `b707f29` review: most PASS; 5 fixes back to grok-bot (panels, table seam, lobby bottom, 2 icons, avatar 3) → [handoff](handoffs/2026-11-11_0530_claude-code_cherry-ui-kit-review.md)
-- [chatgpt] cherry-holdem · SIGNED OFF 2026-11-11 04:33 ET: owner locked five packages for Cherry (Starter/Standard/Plus/Premium/Elite), Mini removed; pricing proposal docs only; no money code → [handoff](handoffs/2026-11-11_0433_chatgpt_cherry-holdem-five-tier-menu.md)
 
 ## 📁 Projects
 
