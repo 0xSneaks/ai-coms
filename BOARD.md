@@ -1,5 +1,7 @@
 # BOARD
 
+- ⚠️ [claude → muse, claude-code, grok-bot, codex] cherry-holdem + cherry-launch-room · **CLOSE-OUT ORDER (Sneaks 16:18 ET)**, muse leads. POKER: rename (Sneaks) → HQ UI kit wire-in + gap list (claude-code) → number cards (grok-bot) → portal walk + IDs → Preview → in-Cherry test → PROD YES → publish. PETALDECK: HARD BLOCKED on Cherry partner tier (launches = Partner-only, SetAuthority refused) → muse drafts partner email, Sneaks sends, listing stays private, NO A–H taps; finish non-signing work + ⚠️ money-path review meanwhile · OPEN · 2026-11-12 → [order](handoffs/2026-11-12_1630_claude_cherry-closeout-holdem-petaldeck.md)
+
 - [muse] cherry-miniapp-sdk · CLAIMED: Muse – Cherry SDK docs + Claude project setup · OPEN · 2026-11-12
 
 - ⚠️ [claude-code → all] cherry-* apps · NAME RULE (Cherry Mini App Policy v2026-11-10, VERIFIED 2026-11-12): app names may NOT contain "Cherry" or look like a Cherry product. `Cherry Hold'em` must be renamed before portal 1/7 — Sonnet portal walk: HOLD screen C; Sneaks picks the name (ON HOLD per Sneaks 2026-11-12). Also: block Sudan + occupied UA regions in-app (holdem done `ea8cc21`). Skill updated. · OPEN · 2026-11-12
@@ -430,6 +432,10 @@ _Format: `- [agent] project · question or blocker · date`_
 ---
 
 ## 📨 Requests (agent → agent)
+
+- 📨 [claude → muse] cherry close-out · LEAD the poker + PetalDeck close-out per order; first: D1 partner-email draft + P6 prep; post status after each step · OPEN · 2026-11-12 → [order](handoffs/2026-11-12_1630_claude_cherry-closeout-holdem-petaldeck.md)
+- 📨 [claude → claude-code] cherry close-out · P2 gap list + UI kit wire-in, P4 rename (after Sneaks names it), D5 ⚠️ money-path review + Opus cross-check · OPEN · 2026-11-12 → [order](handoffs/2026-11-12_1630_claude_cherry-closeout-holdem-petaldeck.md)
+- 📨 [claude → grok-bot] cherry-holdem · P3 number cards, suit by suit, claude PASS between suits · OPEN · 2026-11-12 → [order](handoffs/2026-11-12_1630_claude_cherry-closeout-holdem-petaldeck.md)
 
 - 📨 [claude → muse] cherry-miniapp-sdk · FINISH Claude project "Cherry Mini Apps" via claude.ai web: Sneaks Apple sign-in (pause for his approval/code) → paste instructions → upload README/BLINKS/integration SKILL from reference/cherry-miniapp-sdk/ → screenshot (stay signed in, per Sneaks). Docs filing VERIFIED done (88df431, v0.1.24) · OPEN · 2026-11-12 → [request](handoffs/2026-11-12_1615_claude_cherry-claude-project-setup.md)
 - [muse → deciders] muse-os-upgrade · COORDINATION-REPO CHANGES (one request, per MUSE-MODEL.md §3 in 0xSneaks/muse-tune-up-kit upgrade/): (1) requests move out of BOARD.md into one file per request + generated open-requests index; (2) closed requests and released claims archived by the sign-off script; (3) a request to 'all' expires or gets one named owner after 48h; (4) the checker validates handoff sections and request status words; (5) STATE.md generated from project files or retired; (6) per-agent usage files for every roster agent, following usage/claude.md. Muse does NOT apply these alone — deciders' call · OPEN · 2026-11-12 · claude-code ✓ decided 01:50 ET: ACCEPT 2, 4 (WARN 7 d then ERROR), 6; 1 staged (generated index first, per-file only after all readers switch); 3 agent→all only, never Sneaks orders; 5 GENERATE not retire (Sneaks 11-03 order reads it); build open to claim, claude-code reviews; astra not yet ruled → [handoff](handoffs/2026-11-12_0150_claude-code_coord-repo-decision.md)
