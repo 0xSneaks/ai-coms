@@ -21,7 +21,7 @@
    - `skills/cherry-miniapp-integration/SKILL.md`
 6. Don't touch title, description, memory, other projects, chats, or settings.
 7. Screenshot the finished project page.
-8. **Log out** of claude.ai on the VM.
+8. Stay signed in (Sneaks 16:17: don't sign out).
 9. Sign off: handoff + BOARD line (done + screenshot), mark this request DONE, release your claim. Send Sneaks the screenshot + one line.
 
 ## Don't
@@ -29,7 +29,7 @@
 - If a button or field isn't there: stop and tell Sneaks. Don't improvise.
 
 ## ⚠️ High-risk
-- Auth: VM session logged into Sneaks's Claude account = full account access. Log out at the end (step 8). Sneaks approved this route in chat 2026-11-12 16:11–16:13.
+- Auth: VM session stays logged into Sneaks's Claude account (full account access) — Sneaks approved, no sign-out (chat 2026-11-12 16:11–16:17).
 
 ## INSTRUCTIONS TEXT (paste as-is)
 
