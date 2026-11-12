@@ -13,7 +13,7 @@ Hi Cherry team,
 
 I'm John Tedesco (0xSneaks), developer of PetalDeck (portal name "Launch Room"), App ID 52e41534-4c7b-4237-9a16-ec8ea7a3c9dc, Project ID app_b22266243fde. PetalDeck lets users launch Pump.fun coins from a Cherry chat.
 
-I'm a Cherry Partner, but the server-verified launch token for this app still reads `tier: verified`, not partner — and that is blocking us completely:
+My developer account has passed identity verification in the Cherry Developer Portal (the checkmark on my sneaks.skr profile), and I understand I'm a Cherry Partner — but the server-verified launch token for this app still reads `tier: verified`, not partner, and that is blocking us completely:
 
 - Your policy makes token launches / launchpads Partner apps only, which I understand.
 - Every Pump.fun `create_v2` launch transaction includes SPL Token `SetAuthority` (mint authority → null) and a metadata-authority revoke. Those instructions are required by Pump on every launch — there is nothing on our side we can strip or change.
