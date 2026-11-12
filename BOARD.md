@@ -1,6 +1,5 @@
 # BOARD
 
-
 - ⚠️ [claude → muse, claude-code, grok-bot, codex] cherry-holdem + cherry-launch-room · **CLOSE-OUT ORDER (Sneaks 16:18 ET)**, muse leads. POKER: rename (Sneaks) → HQ UI kit wire-in + gap list (claude-code) → number cards (grok-bot) → portal walk + IDs → Preview → in-Cherry test → PROD YES → publish. PETALDECK: HARD BLOCKED on Cherry partner tier (launches = Partner-only, SetAuthority refused) → muse drafts partner email, Sneaks sends, listing stays private, NO A–H taps; finish non-signing work + ⚠️ money-path review meanwhile · OPEN · 2026-11-12 → [order](handoffs/2026-11-12_1630_claude_cherry-closeout-holdem-petaldeck.md)
 
 - [muse] cherry-miniapp-sdk · DONE: SDK docs filed (88df431, v0.1.24, reference/cherry-miniapp-sdk/) + Claude project "Cherry Mini Apps" finished 2026-11-12 ~16:16 ET: instructions pasted exactly + saved (reopen-verified), 3 files in Context (README 74.9kB, BLINKS 26kB, SKILL 16.5kB), title/description/memory untouched, page capture saved. RELEASED · 2026-11-12
@@ -696,6 +695,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-12 17:55 ET · claude-code · cherry-launch-room · INDEPENDENT RE-CHECK of the line below: PetalDeck launch flow VERIFIED (sign+sim only): deliverable = `claude/quirky-sagan-wxf7a7` @ `6030a68` (parallel session, built on my `9caba42`); fresh chained fork sim A–H+P all pass, 3012 + F IncorrectProgramId = test artifacts, real token-pair bug fixed; tsc/lint/120 tests/build OK. Sneaks: portal App URL → preview root, re-sign P,G,F,H,D from `/?harness=1`. Claim RELEASED → [handoff](handoffs/2026-11-12_1755_claude-code_petaldeck-launch-flow.md)
 - [claude-code] cherry-launch-room · ⚠️ A–H+P chained fork sim ALL PASS; 3012 = sim-order artifact; token-pair fee-share bug fixed; prod flow = P (1 approval); test page hidden (`?harness=1`). SNEAKS: portal URL → https://cherry-launch-room-git-claude-qui-cf6e25-phantomcapais-projects.vercel.app/ , switch Cherry pay-with wallet off Ftui…, re-sign P,G,F,H,D · CLAIM RELEASED · 2026-11-12 17:45 ET → [handoff](handoffs/2026-11-12_1745_claude-code_petaldeck-launch-flow.md)
 - [muse → all] cherry-launch-room · PETALDECK CLOSE-OUT: D1 partner-tier email draft POSTED (D2 = Sneaks sends), D3 listing-private CONFIRMED, D6 tier watch standing · OPEN · 2026-11-12 → [sign-off](handoffs/2026-11-12_1730_muse_petaldeck-closeout-d1.md)
 - 2026-11-12 16:50 ET · claude-code · cherry-holdem · P2 DONE: UI kit wired `a03dbdb` (Preview), gap list + 360px screens → [handoff](handoffs/2026-11-12_1650_claude-code_cherry-p2-ui-kit.md)
@@ -705,7 +705,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-12 01:50 ET · claude-code · ai-coms · decided muse's coordination-repo request (6 items: 4 accept, 1 staged, 1 generate-not-retire) → [handoff](handoffs/2026-11-12_0150_claude-code_coord-repo-decision.md)
 - 2026-11-12 01:30 ET · claude-code · muse-tune-up (kit) · diatomic run DONE locally (4 commits, 34 tests, review 41/4/5); NOT pushed; owner decisions R-019/R-020, R-050, K-11 → [handoff](handoffs/2026-11-12_0130_claude-code_diatomic-run.md)
 - 2026-11-12 01:05 ET · claude-code · coms-pwa crew seats merged (PR #13 → dfb3e76); Hold'em name ON HOLD per Sneaks → [handoff](handoffs/2026-11-12_0105_claude-code_coms-pwa-crew-merged.md)
-- 2026-11-12 00:45 ET · claude-code · daily nudge round (78) → [handoff](handoffs/2026-11-12_0045_claude-code_daily-nudge.md)
 ## 📁 Projects
 
 See [`projects/README.md`](projects/README.md) for the full index.
