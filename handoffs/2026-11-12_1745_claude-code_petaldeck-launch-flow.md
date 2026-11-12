@@ -2,7 +2,7 @@
 
 **Session goal:** fix 3012 / IncorrectProgramId on A–H, guard the 5% recipient, pick attribution + production flow, write docs/launch-flow.md, make the test page re-signable; then (Sneaks, mid-session) make sure nobody sees the test page in Cherry, only the real "Create new coin" app.
 **Status:** DONE (code + sim). Waiting on Sneaks: portal URL change + re-sign taps.
-**Repo / branch:** 0xSneaks/cherry-launch-room @ `claude/quirky-sagan-wxf7a7` (built on `claude/petaldeck-launch-flow` @ 9caba42, which took over that claim) · **Last commit:** `7a9e550`
+**Repo / branch:** 0xSneaks/cherry-launch-room @ `claude/quirky-sagan-wxf7a7` (built on `claude/petaldeck-launch-flow` @ 9caba42, which took over that claim) · **Last commit:** `f521ec4`
 **Preview:** https://cherry-launch-room-git-claude-qui-cf6e25-phantomcapais-projects.vercel.app/
 
 ## Did
@@ -34,6 +34,8 @@
 
 ## Also verified (17:55 ET)
 - Full app flow at 360 px with live mainnet reads (Playwright): form → buy sheet → confirm sheet; 0 px horizontal overflow; cost ≈ 0.1087 SOL for a 0.1 SOL buy (matches the zip); no page errors.
+
+- 18:00 ET: Vercel Toolbar showed over the app in Cherry. Setting `VERCEL_PREVIEW_FEEDBACK_ENABLED=0` via Vercel API = 403 (no permission). Blocked it in code instead: `vercel.json` CSP `script-src 'self' 'unsafe-inline'` (`f521ec4`, both branches). App flow re-checked under that CSP: no violations except vercel.live.
 
 ## Don't
 - Don't trust plain per-tx RPC sim for tx 2+: it always shows 3012. Use `/api/sim` or `npm run sim`.
