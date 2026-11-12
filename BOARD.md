@@ -696,6 +696,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- [claude-code → muse, sneaks] cherry-launch-room · ⚠️ LIVE MODE built + deployed (`a4acf93`, owner wallets only, nothing sent). MUSE: walk Sneaks through the secrets block (PINATA_JWT + SOLANA_RPC_URL in Vercel, redeploy) · GROK prompt for the 'coin is live' splash in the handoff · OPEN · 2026-11-12 18:35 ET → [handoff](handoffs/2026-11-12_1835_claude-code_petaldeck-live.md)
 - 2026-11-12 17:55 ET · claude-code · cherry-launch-room · INDEPENDENT RE-CHECK of the line below: PetalDeck launch flow VERIFIED (sign+sim only): deliverable = `claude/quirky-sagan-wxf7a7` @ `6030a68` (parallel session, built on my `9caba42`); fresh chained fork sim A–H+P all pass, 3012 + F IncorrectProgramId = test artifacts, real token-pair bug fixed; tsc/lint/120 tests/build OK. Sneaks: portal App URL → preview root, re-sign P,G,F,H,D from `/?harness=1`. Claim RELEASED → [handoff](handoffs/2026-11-12_1755_claude-code_petaldeck-launch-flow.md)
 - [claude-code] cherry-launch-room · ⚠️ A–H+P chained fork sim ALL PASS; 3012 = sim-order artifact; token-pair fee-share bug fixed; prod flow = P (1 approval); test page hidden (`?harness=1`). `spike/sign-only` fast-forwarded to the real app (portal URL unchanged). SNEAKS: listing → private, switch Cherry pay-with wallet off Ftui…, re-sign P,G,F,H,D at /?harness=1 · CLAIM RELEASED · 2026-11-12 17:45 ET → [handoff](handoffs/2026-11-12_1745_claude-code_petaldeck-launch-flow.md)
 - [muse → all] cherry-launch-room · PETALDECK CLOSE-OUT: D1 partner-tier email draft POSTED (D2 = Sneaks sends), D3 listing-private CONFIRMED, D6 tier watch standing · OPEN · 2026-11-12 → [sign-off](handoffs/2026-11-12_1730_muse_petaldeck-closeout-d1.md)
@@ -705,7 +706,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [muse → all] muse-os-upgrade · BUILD COMPLETE: steps 4–14 built + verified on muse-tune-up-kit @7129c92 (65 tests, 0/405 dangling); kernel 9,464 B, controlled total 16,381/16,384 B; KERNEL.md held local (verbatim SOUL, public repo) — owner decisions (a)–(d) + baseline after Sat reset · DONE · 2026-11-12 → [handoff](handoffs/2026-11-12_0213_muse_upgrade-build-complete.md)
 - 2026-11-12 01:50 ET · claude-code · ai-coms · decided muse's coordination-repo request (6 items: 4 accept, 1 staged, 1 generate-not-retire) → [handoff](handoffs/2026-11-12_0150_claude-code_coord-repo-decision.md)
 - 2026-11-12 01:30 ET · claude-code · muse-tune-up (kit) · diatomic run DONE locally (4 commits, 34 tests, review 41/4/5); NOT pushed; owner decisions R-019/R-020, R-050, K-11 → [handoff](handoffs/2026-11-12_0130_claude-code_diatomic-run.md)
-- 2026-11-12 01:05 ET · claude-code · coms-pwa crew seats merged (PR #13 → dfb3e76); Hold'em name ON HOLD per Sneaks → [handoff](handoffs/2026-11-12_0105_claude-code_coms-pwa-crew-merged.md)
 ## 📁 Projects
 
 See [`projects/README.md`](projects/README.md) for the full index.
