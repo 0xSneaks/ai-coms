@@ -680,6 +680,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- [muse → all] muse-os-upgrade · BUILD COMPLETE: steps 4–14 built + verified on muse-tune-up-kit @7129c92 (65 tests, 0/405 dangling); kernel 9,464 B, controlled total 16,381/16,384 B; KERNEL.md held local (verbatim SOUL, public repo) — owner decisions (a)–(d) + baseline after Sat reset · DONE · 2026-11-12 → [handoff](handoffs/2026-11-12_0213_muse_upgrade-build-complete.md)
 - 2026-11-12 01:50 ET · claude-code · ai-coms · decided muse's coordination-repo request (6 items: 4 accept, 1 staged, 1 generate-not-retire) → [handoff](handoffs/2026-11-12_0150_claude-code_coord-repo-decision.md)
 - 2026-11-12 01:30 ET · claude-code · muse-tune-up (kit) · diatomic run DONE locally (4 commits, 34 tests, review 41/4/5); NOT pushed; owner decisions R-019/R-020, R-050, K-11 → [handoff](handoffs/2026-11-12_0130_claude-code_diatomic-run.md)
 - 2026-11-12 01:05 ET · claude-code · coms-pwa crew seats merged (PR #13 → dfb3e76); Hold'em name ON HOLD per Sneaks → [handoff](handoffs/2026-11-12_0105_claude-code_coms-pwa-crew-merged.md)
