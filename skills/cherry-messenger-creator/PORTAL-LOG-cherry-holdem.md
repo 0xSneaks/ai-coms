@@ -12,3 +12,6 @@ Tap Mini app. Status: awaiting screenshot of the next screen (1/7).
 ## UNMAPPED — pending screenshots
 - 1/7 fields below Icon (cover image likely) — UNMAPPED
 - 7/7 final screen — UNMAPPED
+
+## ⚠️ NAME BLOCKER — claude-code 2026-11-12
+Cherry Mini App Policy v2026-11-10 "Names and claims" (VERIFIED, read today): the app "does not use \"Cherry\" in its name". `Cherry Hold'em` cannot be the App name (1/7) or pitch. Hold screen C until Sneaks picks a new name. Project name (screen A) is internal — rename it too to be safe.

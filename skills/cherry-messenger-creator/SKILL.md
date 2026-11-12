@@ -27,7 +27,7 @@ Check in on 0xSneaks/ai-coms (BOARD.md + projects/<slug>.md). Respect claims. Ad
 2. Each idea must use Cherry's edge: it runs inside a chat room. Use room context (room id, title, member count) as the growth loop — group play, room leaderboards, room-vs-room, share-to-room.
 3. Score each: fun in 10 seconds · room/social hook · build size (S/M/L) · money risk · Cherry fit on a 360px phone.
 4. Verdict per idea: KILL / PARK / TEST / BUILD, one line of evidence + cost.
-5. Name check: search Cherry + web for the name. ("SOL Miner" was already taken by a Cherry group.)
+5. Name check: NO "Cherry" in the name (policy, VERIFIED 2026-11-10). Search Cherry + web for the name. ("SOL Miner" was already taken by a Cherry group.)
 6. Reuse first: check Sneaks's repos for an engine that already does the core job (e.g. pump-deck for Pump.fun launches).
 7. Default to PLAY-CREDITS mode for games. Real SOL only behind a flag, after adversarial review.
 8. Hard no: rewards paid from new players' deposits (Ponzi-shaped), fake APR/rewards, "mining" claims that imply real SOL issuance, hidden fees.
@@ -64,6 +64,10 @@ Build contract (re-verify against the current `@cherrydotfun/miniapp-sdk` README
 - Compliance: Cherry blocks CU/IR/KP at open AND the developer agreement requires blocking them in-app too. Link Cherry-hosted Terms + Privacy (URLs in the portal prompt) — link, don't copy. 18+ content behind the 18+ rating. Act on reports within 72 h.
 
 ## Policy rules learned the hard way (cherry-launch-room, 2026-11-09)
+- VERIFIED (policy.md v2026-11-10, "Names and claims", read by claude-code 2026-11-12): "Your app has its own name and branding. It does not use \"Cherry\" in its name, or look like a Cherry product." Never "official/endorsed/approved/audited by Cherry"; Verified is not a safety mark. → No "Cherry" in app name, pitch, titles, icon or cover text.
+- VERIFIED (policy.md v2026-11-10, "Countries and sanctions"): every app is blocked in Cuba, Iran, North Korea AND Sudan; apps also may not serve Crimea, Sevastopol, occupied Donetsk/Luhansk/Kherson/Zaporizhzhia, or other comprehensively sanctioned places — block in-app too.
+- VERIFIED (policy.md v2026-11-10): free-to-play games of skill where nothing paid in can be won back or cashed out are NOT iGaming. iGaming (stakes of value) needs Verified tier, 18+, extra country blocks, published odds, not on iOS.
+- VERIFIED (policy.md v2026-11-10): a working support channel inside the app; act on reports within 72 h.
 - VERIFIED (portal.cherry.fun/docs/mini-apps/policy.md, version 2026-11-09, read by claude-code): token launches, presales, ICOs/IDOs, bonding-curve launches and launchpads are **Partner apps only** (written agreement with Cherry + own licences). Verified tier does NOT unlock restricted categories. Check the policy page in Phase 1 for every idea — KILL or PARK anything restricted unless the app's live `tier` claim says partner.
 - VERIFIED (wallet.md): authority changes / account reassignment are **Refused** for Unverified + Verified. Pump create_v2 CPIs `SetAuthority`, so every in-Cherry Pump launch is refused with `DANGEROUS_INSTRUCTION` (the A–H spike). Nothing to strip on our side.
 - VERIFIED (policy.md): Cherry may PAUSE an app that keeps sending refused transactions → after one refused spike tap, stop and diagnose; never re-tap in a loop.
