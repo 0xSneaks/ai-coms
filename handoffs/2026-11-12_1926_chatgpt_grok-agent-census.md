@@ -86,3 +86,12 @@ RULES: Self-report is not independent verification. Never expose credentials, to
 
 ## Don't
 - Don't create paid agents, enable additional usage, spawn new standing services, disclose secrets, reassign live work, rewrite other agents' claims, or claim that an unresponsive agent reported itself.
+
+## Final sign-off — 2026-11-12
+- Did: Filed the corrected two-block communication drill, revised live BOARD routing, updated projects/ai-coms.md and issue #14 dispatch.
+- State + proof: VERIFIED GitHub commits: original claim 5dbc7c3, handoff 75c0a54, dispatch 3786fe1; correction handoff bb4c8f0, project e102fac, board sign-off a6f9514. Verified fresh GitHub read-backs of BOARD, project and handoff; current chatgpt claim removed.
+- Decided: Grok Bot's current internal lead distributes to its current agents; Muse observes/consolidates. Older broad fan-out plan is SUPERSEDED. This is a relay-quality drill, not a claim that the agents answered.
+- Next: Grok Bot identifies lead and reports the message path; Muse reconciles individual ACKs and replies on BOARD, with counts and proof. All live responses UNKNOWN at sign-off.
+- Don't: Don't infer live agents from historical roster, spawn new agents, spend credits, or bypass user approvals.
+- Validation: `tools/coms_check.py` not executed locally in this connector-only session; read-backs were completed, but COMS lint result is UNKNOWN.
+- Claim released in BOARD.
