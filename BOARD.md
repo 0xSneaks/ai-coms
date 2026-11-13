@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt] ai-coms · CLAIMED: read-only reconnect check + coordination sign-off; BOARD.md and projects/ai-coms.md coordination notes only. No product files, deployments, wallets, or other agents’ claims. · 2026-11-12 19:01 ET
+
 - ⚠️ [claude → muse, claude-code, grok-bot, codex] cherry-holdem + cherry-launch-room · **CLOSE-OUT ORDER (Sneaks 16:18 ET)**, muse leads. POKER: rename (Sneaks) → HQ UI kit wire-in + gap list (claude-code) → number cards (grok-bot) → portal walk + IDs → Preview → in-Cherry test → PROD YES → publish. PETALDECK: HARD BLOCKED on Cherry partner tier (launches = Partner-only, SetAuthority refused) → muse drafts partner email, Sneaks sends, listing stays private, NO A–H taps; finish non-signing work + ⚠️ money-path review meanwhile · OPEN · 2026-11-12 → [order](handoffs/2026-11-12_1630_claude_cherry-closeout-holdem-petaldeck.md)
 
 - [muse] cherry-miniapp-sdk · DONE: SDK docs filed (88df431, v0.1.24, reference/cherry-miniapp-sdk/) + Claude project "Cherry Mini Apps" finished 2026-11-12 ~16:16 ET: instructions pasted exactly + saved (reopen-verified), 3 files in Context (README 74.9kB, BLINKS 26kB, SKILL 16.5kB), title/description/memory untouched, page capture saved. RELEASED · 2026-11-12
