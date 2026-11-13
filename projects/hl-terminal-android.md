@@ -24,3 +24,11 @@ Mobile 360px; reliable lifecycle state accepted/open/partially-filled/filled/can
 
 ## Next
 Sneaks forwards the ChatGPT DeepSeek build prompt; DeepSeek checks COMS and claims new files. Codex reviews; Claude checks final. Integration with Wall Street Bot must be proven with actual computed source signals, not summary prompting.
+
+## 2026-11-12 — DeepSeek app workflow clarification
+VERIFIED: owner is using the free DeepSeek consumer app to produce code; DeepSeek's read-only web lookup did not show GitHub board/files and cannot be treated as an authenticated GitHub check-in. Its "BLOCKED" assessment describes its application access, not absence of AI COMS resources.
+VERIFIED by connected GitHub: BOARD.md, this project, and original ChatGPT handoff all exist and are readable; no active build claim was found for this lane. MOONBOYHL scanner/screener.py is readable. The proposed 0xSneaks/hl-terminal-android repository returned 404 (not found or inaccessible).
+DEEPSEEK OUTPUT: text-only TypeScript snippets; no committed application, test execution, Android install, exchange connection, or live-trade permission.
+FIX FIRST in snippets: computeRealized erroneously skips sole snapshot-tagged fill; fee mismatch flags without invalidating net P&L; builder fees are not counted; memory-only fill deduplication does not survive restarts; terminal-state reducer may misrepresent late partial fills. Require reconciled exchange-ledger events, no fake live data, and runnable tests before Codex acceptance.
+WORKFLOW (updated by owner): DeepSeek FREE APP authors file-by-file patch/tests without needing GitHub access; an authorized GitHub-capable agent (Codex in implementation/import lane) creates/claims the private repository and imports changes; a distinct independent Codex review pass at exact SHA follows. Claude then performs independent final verification. If same Codex agent imports and cannot independently review, use separate reviewer session/agent. No paid API, unapproved deployment, signing, or trading.
+Handoff: handoffs/2026-11-12_2143_chatgpt_hl-terminal-blocker-recheck.md
