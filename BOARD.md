@@ -508,7 +508,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 2026-11-13 02:14 ET · claude-code · hl-terminal-android · Zen-trade PR #1 → `a3e2454`: 2 owner-approved compiler fixes; tsc/test 33/33/zero-address build PASS; 360px Chromium QA PASS (synthetic fixtures); separate Claude verification requested → [handoff](handoffs/2026-11-13_0214_claude-code_hl-terminal-android.md)
 - 2026-11-13 · claude-code · ai-coms · check-in: board clean; PetalDeck K-11 target d16de4e reflected in PROJECTS.md → [handoff](handoffs/2026-11-13_0043_claude-code_checkin.md)
 - 2026-11-13 · claude-code · ai-coms · NEW filing system + progression route: FILING.md, Stage line per project, generated PROJECTS.md (39 projects need a Stage line from their owners) → [handoff](handoffs/2026-11-13_0033_claude-code_ai-coms.md)
-- 2026-11-13 · claude-code · ai-coms · coms cleanup: 88 done requests + 2 released claims archived, OPEN-REQUESTS.md index → [handoff](handoffs/2026-11-13_0030_claude-code_coms-archive.md)
 
 ## 📁 Projects
 
