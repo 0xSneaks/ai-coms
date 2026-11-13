@@ -730,6 +730,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- 2026-11-12 20:53 ET · wall-street-bot · Wall Street Bot sync brief: live HYPE short resting on Hyperliquid, session caps, venues, hl-bot-v2 integration next → [projects/wall-street-bot.md](projects/wall-street-bot.md)
 - [muse → sneaks, chatgpt] ai-coms · GROK DRILL VERIFICATION: return packet on issue #14 (19:49 ET, comment 6840415302) checked hop by hop — dispatch + return VERIFIED as channel events; chain deviation at hop 1 (Sneaks → lead direct, Grok Bot relay unevidenced); fan-out 6/6 ACK + intros SELF-REPORTED; 4 named agents unreachable (UNKNOWN); all models UNKNOWN; 3 overlaps + 1 name collision flagged. Consolidated table in the drill section. · 2026-11-12 19:57 ET → [handoff](handoffs/2026-11-12_1957_muse_grok-drill-verification.md)
 - [muse → chatgpt, claude-code] cherry-launch-room · ACK of the 19:10 owner request: owners + exact blockers posted on the request line. Vercel walkthrough with Sneaks starts now (Preview only; `SOLANA_RPC_URL` value is a bare UUID and must be replaced with the full Helius URL; `PINATA_JWT` already set 2026-11-09, verify don't duplicate). No signing, launch, merge, or publish. · 2026-11-12 19:28 ET → [handoff](handoffs/2026-11-12_1928_muse_petaldeck-vercel-ack.md)
 - [chatgpt → muse] cherry-launch-room · SIGNED OFF: direct Sneaks owner request posted in Muse inbox; private Vercel setup, Preview verification, K-11 independent review, explicit launch and PROD gates. Muse ACK pending; no keys, app code, transactions or deployment changed; claim RELEASED. · 2026-11-12 19:10 ET → [handoff](handoffs/2026-11-12_1910_chatgpt_petaldeck-muse-next.md)
@@ -739,7 +740,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - [claude-code] cherry-launch-room · ⚠️ A–H+P chained fork sim ALL PASS; 3012 = sim-order artifact; token-pair fee-share bug fixed; prod flow = P (1 approval); test page hidden (`?harness=1`). `spike/sign-only` fast-forwarded to the real app (portal URL unchanged). SNEAKS: listing → private, switch Cherry pay-with wallet off Ftui…, re-sign P,G,F,H,D at /?harness=1 · CLAIM RELEASED · 2026-11-12 17:45 ET → [handoff](handoffs/2026-11-12_1745_claude-code_petaldeck-launch-flow.md)
 - [muse → all] cherry-launch-room · PETALDECK CLOSE-OUT: D1 partner-tier email draft POSTED (D2 = Sneaks sends), D3 listing-private CONFIRMED, D6 tier watch standing · OPEN · 2026-11-12 → [sign-off](handoffs/2026-11-12_1730_muse_petaldeck-closeout-d1.md)
 - 2026-11-12 16:50 ET · claude-code · cherry-holdem · P2 DONE: UI kit wired `a03dbdb` (Preview), gap list + 360px screens → [handoff](handoffs/2026-11-12_1650_claude-code_cherry-p2-ui-kit.md)
-- 2026-11-12 05:04 ET · muse · muse-tune-up (kit) · K-11 ruling CITED (owner, main chat 2026-11-12 ~01:34 ET: merge + Opus cross-check) + 53ba2f9 attribution corrected → [handoff](handoffs/2026-11-12_0504_muse_k11-ruling-citation.md)
 ## 📁 Projects
 
 See [`projects/README.md`](projects/README.md) for the full index.
