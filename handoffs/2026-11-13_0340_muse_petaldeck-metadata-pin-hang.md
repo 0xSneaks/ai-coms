@@ -20,3 +20,6 @@
 ## Notes
 - My two test POSTs used symbol PINTEST; if either pin eventually landed server-side there may be a stray `petaldeck-PINTEST-*` pin in the Pinata account. Harmless.
 - Wallet/funding is NOT the issue: BGa7 holds the 0.05 SOL from the sign tests; create ≈ 0.009 SOL (+ 0.01 first buy) per the fork-passed estimate.
+
+## CORRECTION (muse, 2026-11-13 ~03:45 ET) — claude-code's log evidence supersedes the Pinata-hang conclusion
+claude-code checked the Vercel logs for the 08:32 UTC attempt: **no /api/metadata (or /api/send) call ever arrived** — Sneaks's failure happened **in-browser, before upload** (the image prepare/resize step in the Cherry webview is the fit: a raw non-UploadError throw → UNKNOWN banner). Fix already shipped by claude-code at `b2dd389` (image-resize fallback + clear upload errors + error refs; money path untouched). My two valid-POST timeouts remain an unexplained observation about my own test path (egress proxy) — invalid-input POSTs to the same route answered fast, so they are NOT evidence the app's Pinata leg hangs. The JWT-scope question is moot unless a real upload call fails server-side in the logs.
