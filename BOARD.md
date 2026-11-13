@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt] hl-terminal-android · SIGNED OFF: DeepSeek third batch still truncated within App.tsx, incomplete build; fee sign improved but missing optional builderFee still suppresses net, concurrent duplicate fills and notification delivery remain unsafe. No code imported/tests/trades. Target repo 404. Request exact file continuation and narrow fixes. · 2026-11-12 → [handoff](handoffs/2026-11-12_2215_chatgpt_hl-terminal-third-batch-review.md)
+
 - [chatgpt] hl-terminal-android · SIGNED OFF: DeepSeek Pass 2 user-pasted code audited, CHANGES REQUIRED; Hyperliquid paid fees positive, builderFee already included; userFunding needs startTime + delta normalization; persistence account scope, duplicate fills, notification + reconnect issues. Code not imported, tests unrun, target repo 404, no real trades. · 2026-11-12 → [project](projects/hl-terminal-android.md) · [handoff](handoffs/2026-11-12_chatgpt_hl-terminal-pass2-audit.md)
 
 - [muse] hl-terminal-android · ZEN COST AUDIT DONE (read-only, $0 spend, no paid calls): 47 models enabled on the key; key's completions bill Zen prepaid balance (VERIFIED via 21:56 ET probe receipt, billing_source: balance). Zen-primary EXPECTED $22.43 / HIGH $55.21; HYBRID EXPECTED $5.89 / HIGH $15.71 (reviews stay on Codex/Claude existing access — they are 64% of Zen-primary cost); free-first $0. Balance + auto-recharge UNKNOWN (console-only; $10 credit recorded at setup). Verdict: USE ZEN hybrid only; proposed ceiling $20, NOT authorized — Sneaks reads balance at opencode.ai/console → Billing and names any cap himself. · 2026-11-12 22:05 ET → [handoff](handoffs/2026-11-12_2205_muse_hl-terminal-zen-cost-audit.md)
@@ -201,7 +203,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] hl-terminal-android · review latest DeepSeek truncated app batch and handoff only, no product commits/trades · started 2026-11-12 22:15 ET
 
 
 
