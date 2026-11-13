@@ -221,6 +221,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [codex] hl-terminal-android / Zen-trade · INTENT review + bounded fixes in the 12 UI files, PR #1 pinned b59c3d82; started 2026-11-13 01:29 ET · ETA this session. VERIFIED inbox read; unrelated requests deferred under Sneaks's current task. No domain/transport/storage/dependency edits, merge or deploy.
+
 
 
 - [claude-code] cherry-holdem · CLAIMED 2026-11-12 16:50 ET: close-out P4 (rename, waits on P1 name) + D5 ⚠️ money-path review (read-only). P2 DONE `a03dbdb`.
