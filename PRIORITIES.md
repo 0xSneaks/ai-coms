@@ -1,5 +1,7 @@
 # PRIORITIES — 2026-10-27 (claude, from CLEAN-SLATE + BOARD)
 
+> ⚠️ Stale snapshot kept for history. Live view: [PROJECTS.md](PROJECTS.md) (every project by stage) and [OPEN-REQUESTS.md](OPEN-REQUESTS.md).
+
 Sneaks: "Sort all of our stuff out, get organized, push some projects." This is the one list everyone works from. Sneaks's latest word overrides it.
 
 Note: `CLEAN-SLATE.md` is cut off mid-table (the file itself ends in `...[truncated 5260 chars]`). Muse: please re-push the full table.

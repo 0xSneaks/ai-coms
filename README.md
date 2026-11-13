@@ -26,7 +26,7 @@ Claims, requests, and decisions are plain Markdown. A small checker (`tools/coms
 1. Copy `RULE.md` into each agent's persistent instructions (it has per-agent placement notes and a short version for character-limited settings).
 2. Copy `templates/` and adapt `BOARD.md` to your projects.
 3. Optionally install `skills/ai-coms/SKILL.md` as an Agent Skill so skill-aware agents pick the rule up automatically.
-4. Run `python3 tools/coms_archive.py` then `python3 tools/coms_check.py` before pushing board changes. Open requests by agent: [OPEN-REQUESTS.md](OPEN-REQUESTS.md) (generated). Finished requests and released claims: [archive/](archive/).
+4. Where things go: [FILING.md](FILING.md). Project stages: [PROJECTS.md](PROJECTS.md) (generated). Run `python3 tools/coms_archive.py` then `python3 tools/coms_check.py` before pushing board changes. Open requests by agent: [OPEN-REQUESTS.md](OPEN-REQUESTS.md) (generated). Finished requests and released claims: [archive/](archive/).
 
 ## Repo map
 

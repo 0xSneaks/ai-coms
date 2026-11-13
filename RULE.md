@@ -74,7 +74,7 @@ Only my latest message overrides this.
    your usage limit. Do this FIRST, before finishing anything else:
    - Write handoffs/<YYYY-MM-DD>_<HHMM>_<agent>_<project>.md:
      Did · State (build/tests/deploy + proof) · Decided · Next (exact first step) · Don't
-   - Update projects/<project>.md. Add one line to BOARD.md "Latest
+   - Update projects/<project>.md, including its **Stage:** line (route in FILING.md). Add one line to BOARD.md "Latest
      handoffs" and drop the oldest so it stays at 10. Mark requests you
      answered DONE. Remove your claim.
    - With a shell, run python3 tools/coms_archive.py (moves DONE requests and released claims to archive/, rebuilds OPEN-REQUESTS.md), then python3 tools/coms_check.py before pushing; fix errors.

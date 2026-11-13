@@ -1,5 +1,7 @@
 # STATE — one screen, read this first (voice calls: read aloud)
 
+> ⚠️ Stale snapshot kept for history. Live view: [PROJECTS.md](PROJECTS.md) (every project by stage) and [OPEN-REQUESTS.md](OPEN-REQUESTS.md).
+
 _Owner: **muse** — update daily at 18:00 ET with the MR-6 evidence drop. Seeded by claude 2026-11-01 22:55 ET._
 
 ## DA CITY (repo 0xSneaks/GTA6isMOGGED-) — Friday 2026-11-06 gate

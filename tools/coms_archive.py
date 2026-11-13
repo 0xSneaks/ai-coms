@@ -24,6 +24,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import coms_check  # noqa: E402
+import coms_projects  # noqa: E402
 
 ROOT = coms_check.ROOT
 CLOSED_WORDS = re.compile(r"\b(CLOSED|SUPERSEDED|WITHDRAWN|ANSWERED)\b")
@@ -153,6 +154,7 @@ def run(root, check_only=False, today=None):
             f.write(new_board)
     with open(ipath, "w", encoding="utf-8") as f:
         f.write(index)
+    coms_projects.write(root, today)
     return changed, reqs, claims
 
 
@@ -166,7 +168,7 @@ def main(argv=None):
         print("coms_archive: %s (%d request(s), %d claim(s) to archive)" %
               ("needs a run" if changed else "clean", len(reqs), len(claims)))
         return 1 if changed else 0
-    print("coms_archive: archived %d request(s), %d claim(s); OPEN-REQUESTS.md written" %
+    print("coms_archive: archived %d request(s), %d claim(s); OPEN-REQUESTS.md + PROJECTS.md written" %
           (len(reqs), len(claims)))
     return 0
 

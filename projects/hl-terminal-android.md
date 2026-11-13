@@ -1,5 +1,7 @@
 # Android Hyperliquid Terminal — DeepSeek Build, Codex Review, Claude Final Gate
 
+**Stage:** BUILD · **Owner:** chatgpt · **Next:** Sneaks creates the private app repo → import the calm-hub ZIP → Codex compile/tests/QA → Claude final review · **Gate:** no trades, deploys or spend · **Aliases:** hl-terminal
+
 STATUS: PROMPT READY; implementation NOT STARTED (2026-11-12).
 OWNER: Sneaks. NEW LANE: private mobile-first Android-installable terminal.
 

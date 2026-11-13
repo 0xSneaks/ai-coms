@@ -1,5 +1,7 @@
 # Cherry Hold'em (working name) — Texas Hold'em Tournament Edition for Cherry
 
+**Stage:** PARKED · **Owner:** claude-code · **Next:** on hold until PetalDeck is finished (Sneaks 2026-11-13); then rename once Sneaks picks a name · **Gate:** PROD YES for main → Production · **Aliases:** holdem
+
 **Repo:** 0xSneaks/cherry-holdem (exists; single-player on main)  ·  **Live URL:** Preview https://cherry-holdem-5p0jgd18y-phantomcapais-projects.vercel.app (Production: none)  ·  **Last updated:** 2026-11-11 03:10 ET by claude-code
 
 ## Now (keep this current)

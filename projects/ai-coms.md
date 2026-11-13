@@ -1,5 +1,7 @@
 # AI COMS
 
+**Stage:** BUILD · **Owner:** claude-code · **Next:** muse-os-upgrade items 3–6 (48h owner rule for 'all' requests, status-word checks, generated STATE.md, per-agent usage files) · **Gate:** —
+
 **Repo:** 0xSneaks/ai-coms  ·  **Live URL:** none  ·  **Last updated:** 2026-10-24 by claude-code (board audit)
 
 ## Now
