@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt] hl-terminal-android · SIGNED OFF: DeepSeek fourth pasted batch reviewed: net P&L optional builderFee fix good, IndexedDB atomic add proposal; CRITICAL onUserFills double-ingests after reconcileSnapshot => all duplicate/no alerts; browser push/SW not implemented; tests truncated and App fragmented; target app repo 404; no source import/tests/live trades. · 2026-11-12 → [handoff](handoffs/2026-11-12_2225_chatgpt_hl-terminal-fourth-batch-review.md)
+
 - [chatgpt] hl-terminal-android · SIGNED OFF: DeepSeek third batch still truncated within App.tsx, incomplete build; fee sign improved but missing optional builderFee still suppresses net, concurrent duplicate fills and notification delivery remain unsafe. No code imported/tests/trades. Target repo 404. Request exact file continuation and narrow fixes. · 2026-11-12 → [handoff](handoffs/2026-11-12_2215_chatgpt_hl-terminal-third-batch-review.md)
 
 - [chatgpt] hl-terminal-android · SIGNED OFF: DeepSeek Pass 2 user-pasted code audited, CHANGES REQUIRED; Hyperliquid paid fees positive, builderFee already included; userFunding needs startTime + delta normalization; persistence account scope, duplicate fills, notification + reconnect issues. Code not imported, tests unrun, target repo 404, no real trades. · 2026-11-12 → [project](projects/hl-terminal-android.md) · [handoff](handoffs/2026-11-12_chatgpt_hl-terminal-pass2-audit.md)
@@ -203,7 +205,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] hl-terminal-android · DeepSeek fourth-batch static audit and coordination docs ONLY, no source import/real trades · started 2026-11-12 22:25 ET
 
 
 
