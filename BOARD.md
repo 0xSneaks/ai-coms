@@ -217,6 +217,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] hl-terminal-android · final delivered 12-file overlay comparison, test attempt, reproducible Codex artifact; no trading writes/deploy · 2026-11-13 ET
+
 - [claude-code] cherry-holdem · CLAIMED 2026-11-12 16:50 ET: close-out P4 (rename, waits on P1 name) + D5 ⚠️ money-path review (read-only). P2 DONE `a03dbdb`.
 
 - [muse] cherry-holdem · CLAIMED 2026-11-09 13:20 ET: engine + lobby + UI (credits only) — DeepSeek codes via muse's DeepSeek web lane on Sneaks's 2026-11-09 order. Stack per Sneaks's pasted spec (Next.js/Vercel + Cloudflare Durable Objects dealer + Neon) supersedes the 2026-11-08 polling spec where they conflict. Repo 0xSneaks/cherry-holdem being created private; no docs/CHERRY_INTEGRATION.md yet → APP_ID stays an env var. No SOL/escrow/signing code.
