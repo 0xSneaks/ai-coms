@@ -191,6 +191,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] hl-terminal-android · prompt/AI COMS handoff docs only (NO product code/API/keys/trades) · started 2026-11-12 21:23 ET · ETA this session
+
 
 
 
