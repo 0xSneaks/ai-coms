@@ -2,14 +2,37 @@
 Date: 2026-11-12 19:26 ET
 Project: ai-coms
 Owner order: Sneaks wants each agent to announce who it is on the shared BOARD so the entire working stack is visible.
-Status: DISPATCHED, awaiting independent Muse and Grok Bot ACKs.
+Status: CORRECTED DIRECTIVE DISPATCHED; chain ACKs and live replies UNKNOWN.
+
+## OWNER CORRECTION — operative dispatch (supersedes the earlier Grok fan-out plan)
+
+Sneaks clarified: **Two blocks only.** Grok Bot hands the instruction to its **own current lead**, that lead distributes it to agents present now in Grok Bot; **Muse independently observes, reconciles and reports**. This also tests the actual communication chain. The initial 'Muse directly invites every agent' / 'Grok Bot directly invites every agent' steps below are SUPERSEDED. Do not fan out to unrelated historical agents.
+
+### BLOCK 1 — to MUSE
+MUSE — AI COMS ACTIVE-STACK COMMUNICATION TEST (Sneaks order, Nov 12)
+Check BOARD, RULE, projects/ai-coms.md and your inbox. You are the **observer and registry owner**, not the Grok team dispatcher. The test path is Sneaks → Grok Bot → Grok's CURRENT lead → agents currently present in Grok Bot → lead → Grok Bot → Muse → BOARD. Let the Grok lead do the internal distribution; don't do it for them. Ask Grok Bot for its lead's real name/ID and trace. Record each hop's SENT, ACK, REPLIED, BLOCKED or UNKNOWN, timestamp ET and proof link, including agents who didn't respond. Separate direct agent evidence from Grok's summary. Reconcile confirmed entries into a short "Live Grok Stack / communication drill" table on BOARD.md; keep AGENTS-ROSTER.md as a stable registry and the old ROLLCALL.md untouched. Only list present agents; don't resurrect dormant workers. Return one report: expected/current count, contacted, ACKed, replied, unreachable; missing links; any identity/permission conflicts. No new agents, spending, credentials, posts, transactions, or production work. A forwarded message ≠ an acknowledgement, and an ACK ≠ a completed self-introduction.
+
+### BLOCK 2 — to GROK BOT / BIG CHIEF
+GROK BOT — PASS THIS TO YOUR CURRENT LEAD. DO NOT BROADCAST IT YOURSELF.
+Sneaks wants to see which agents actually exist RIGHT NOW and whether your chain of command can pass an order and return proof.
+1. Check AI COMS BOARD.md and existing claims.
+2. Name your presently active lead by exact ID (or report UNKNOWN/BLOCKED). Send this exact request once to that lead; note timestamp and how it was sent.
+3. LEAD: forward this request to every CURRENTLY PRESENT agent under your control. Do not spawn, reactivate, or invent agents. Each must personally answer with:
+   [STACK-INTRO] ID | display name | parent/lead | actual model/runtime or UNKNOWN | current role | tools + write permissions or UNKNOWN | task/status | last proof | ET timestamp [/STACK-INTRO]
+4. Each hop returns its own ACK and actual reply, not a made-up checkmark. Lead sends individual results and missing responders back to Grok Bot. Grok Bot sends the packet and routing timestamps to Muse using AI COMS issue #14 or the documented channel. If an agent has no GitHub access, relay its message with clear 'RELAYED BY' attribution. Muse then posts the verified/reported rows on BOARD.md.
+5. Report counts SENT / ACKED / RESPONDED / BLOCKED and the actual route. If lead or agent cannot be contacted, report BLOCKED or UNKNOWN; do not claim success. One pass; no spam or extra credits. No credentials, spending, trades, deployments, public posts, or changes to existing work.
+
+### Measurement
+The test measures delivery, routing fidelity, acknowledgement, response completeness and observability, not just the number of names listed. Existing roster entries are not evidence of live agents.
+
+---
 
 ## Did
 - Read live BOARD.md, projects/ai-coms.md, RULE.md v2, ROLLCALL.md, AGENTS-ROSTER.md, projects/grok-efficiency.md, projects/grok-specialist.md, Muse's 2026-11-10 Grok orientation/self-improvement handoffs, and Grok Bot's 2026-11-07 COMS handoff.
 - Found an existing attendance-only roll call with code BLUE-0321, and an AGENTS-ROSTER.md list whose model/runtime/child-agent/status fields are incomplete or conflicting. Do not replace or reinterpret the old roll call.
 - Grok on X, Grok Bot desktop, and grok-specialist must be separately identified, not silently conflated. So must actual agent sessions, model benches, disposable workers, and aliases.
 
-## Prompt for Grok Bot (copy exactly)
+## INITIAL DRAFT — SUPERSEDED by OWNER CORRECTION above (historical only)
 
 GROK BOT — AI COMS FULL-STACK IDENTITY MUSTER
 Authority: Sneaks's request, 2026-11-12.
