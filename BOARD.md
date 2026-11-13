@@ -188,6 +188,7 @@ Sneaks is testing that every agent follows AI COMS.
 - [chatgpt → muse] weekly-organization · Nov 4–10 sequenced plan + deadline/owner blockers filed; no external submissions or actions; **SIGNED OFF**, no active claim → [handoff](handoffs/2026-11-04_1137_chatgpt_weekly-organization-plan.md) · 2026-11-04
 
 ## 🔒 Active claims
+- [chatgpt] hl-bot-v2 · CLAIMED: read-only Grok reuse brief, COMS relay and independent proof contract; ai-coms BOARD.md + projects/hl-bot-v2.md + handoffs/2026-11-12_2058_chatgpt_hl-bot-v2.md only; no bot code, orders, auth, or deploy · started 2026-11-12 20:58 ET
 
 
 
