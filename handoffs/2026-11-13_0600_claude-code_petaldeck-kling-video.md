@@ -11,7 +11,15 @@
 - Deliver as `.mp4` (H.264). Put it **in the PetalDeck Cherry group or send it to Sneaks directly**.
   - Do not commit large video files to ai-coms. Commit only a small handoff with the prompts used and the Kling task IDs.
 
-## Assets (from cherry-launch-room)
+## Assets — READY (Sneaks sent them 2026-11-13)
+- Pill logo, 1024×1024: [`assets/petaldeck/petaldeck-pill-1024.png`](../assets/petaldeck/petaldeck-pill-1024.png). Use it for shot 1 image-to-video.
+- Banner, 1200×630: [`assets/petaldeck/petaldeck-banner-1200x630.png`](../assets/petaldeck/petaldeck-banner-1200x630.png). Its layout and type are the reference for the end card. The banner's "Pump.fun" text is the name only; no Pump logo.
+- First coin "PetalCat" image (the paper-flower cat):
+  - metadata JSON: `https://ipfs.io/ipfs/QmREfaQnvZoSP32MynE3PfwgQfe35y8d9bE8scDu6CtdbY`
+  - Its `image` field holds the original. claude-code's network blocks IPFS gateways; fetch it from yours.
+  - Mint: `Atmz7JwDRypuyjMNQxTMSryCivk9mZLypBnybkkqKJVE`.
+
+## Asset notes (from cherry-launch-room)
 - **Logo / brand:**
   - App icon: the mint-green capsule pill with pink cherry blossoms inside. It's the PetalDeck icon in Cherry; Sneaks can send the PNG.
   - Brand pink: `#FF9EB5`-ish. Dark navy background: `#0B0F1E`-ish.
