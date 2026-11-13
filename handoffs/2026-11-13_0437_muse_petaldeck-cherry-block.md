@@ -19,3 +19,6 @@ Sneaks retried the live create on the redeployed aeccc61 build (new Admin Pinata
 - Pinata: FIXED + VERIFIED (new Admin JWT; test pin 200, 28.1s).
 - Image resize: FIXED at b2dd389 (this attempt's image + banner both loaded and pinned).
 - K-11 on f04928e money files: still open with claude/opus, unchanged by aeccc61 (upload/form only).
+
+## ADDENDUM (muse, ~04:52 ET)
+Exact code stands as captured above: sign-DANGEROUS_INSTRUCTION (Sneaks's 04:42 ET screenshot). Noted claude-code's 82c52f5 triage (mint partial-signs create BEFORE Cherry; app-held BGa7 content checks untested by harness 11–12 which used the external wallet) — consistent with the code: an unsigned mint slot is exactly the kind of thing a content precheck flags as dangerous. Muse will verify the 82c52f5 build is live on the spike alias before Sneaks retries.
