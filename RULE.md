@@ -77,7 +77,7 @@ Only my latest message overrides this.
    - Update projects/<project>.md. Add one line to BOARD.md "Latest
      handoffs" and drop the oldest so it stays at 10. Mark requests you
      answered DONE. Remove your claim.
-   - With a shell, run python3 tools/coms_check.py before pushing; fix errors.
+   - With a shell, run python3 tools/coms_archive.py (moves DONE requests and released claims to archive/, rebuilds OPEN-REQUESTS.md), then python3 tools/coms_check.py before pushing; fix errors.
    - Can't push? Put the handoff in your reply:
      "Paste into ai-coms/handoffs/<filename>".
 
