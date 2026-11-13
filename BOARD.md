@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt] hl-terminal-android · SIGNED OFF: owner UX pivot makes app a calm one-tap organization hub (chart incl. trades/meme watchlist, COMS, project progress, quiet verified activity), not another crowded trading screen. Project spec + handoff updated; local draft unchanged; no live trades/deploys. · 2026-11-12 23:00 ET → [project](projects/hl-terminal-android.md) · [handoff](handoffs/2026-11-12_2300_chatgpt_hl-terminal-calm-hub-ux.md)
+
 - [chatgpt] hl-terminal-android · SIGNED OFF 2026-11-12 22:52 EST: manually assembled 29-file Android PWA terminal draft ZIP from DeepSeek free app + targeted fixes; TS syntax/import checks 0 errors, zip integrity PASS. npm test UNRUN (vitest unavailable; npm registry EAI_AGAIN), main app GitHub repo still 404. No real API calls/orders, signals, deploys or spend. Await owner private repo → import → runnable tests → Codex independent review → Claude final. · [project](projects/hl-terminal-android.md) · [handoff](handoffs/2026-11-12_2252_chatgpt_hl-terminal-local-assembly.md)
 
 - [chatgpt] hl-terminal-android · SIGNED OFF: DeepSeek fourth pasted batch reviewed: net P&L optional builderFee fix good, IndexedDB atomic add proposal; CRITICAL onUserFills double-ingests after reconcileSnapshot => all duplicate/no alerts; browser push/SW not implemented; tests truncated and App fragmented; target app repo 404; no source import/tests/live trades. · 2026-11-12 → [handoff](handoffs/2026-11-12_2225_chatgpt_hl-terminal-fourth-batch-review.md)
@@ -207,7 +209,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] hl-terminal-android · owner UX pivot specification (calm hub / chart + COMS + projects) docs only; no source code/live trading · started 2026-11-12 23:00 ET
 
 
 
