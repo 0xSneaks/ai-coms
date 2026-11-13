@@ -1,6 +1,6 @@
 # Launch Room (working name) — launch any memecoin on Pump.fun from a Cherry chat
 
-**Stage:** PREVIEW · **Owner:** claude-code · **Next:** K-11 money-path review at 16d3e7a (claude + Opus cross-check); then ALLOWED_ORIGINS/guard/sim checks · **Gate:** ⚠️ Sneaks yes for a real test launch; PROD YES for Production · **Aliases:** petaldeck, launch-room
+**Stage:** PREVIEW · **Owner:** claude-code · **Next:** K-11 money-path review at d16de4e incl. holder-reward paths (claude + Opus cross-check); then ALLOWED_ORIGINS/guard/sim checks · **Gate:** ⚠️ Sneaks yes for a real test launch; PROD YES for Production · **Aliases:** petaldeck, launch-room
 
 **Repo:** 0xSneaks/cherry-launch-room (private, created by muse 2026-11-09) · **App ID:** `52e41534-4c7b-4237-9a16-ec8ea7a3c9dc` · **Project ID:** `app_b22266243fde` · **Live URL:** none (Preview: https://cherry-launch-room-git-claude-qui-cf6e25-phantomcapais-projects.vercel.app/) · **Last updated:** 2026-11-09 04:20 ET by codex
 

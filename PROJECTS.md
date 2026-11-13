@@ -26,7 +26,7 @@ Move a project by editing the `**Stage:**` line at the top of its `projects/<nam
 
 | Project | Owner | Next | Gate | Open req | Last handoff |
 |---|---|---|---|---|---|
-| [cherry-launch-room](projects/cherry-launch-room.md) | claude-code | K-11 money-path review at 16d3e7a (claude + Opus cross-check); then ALLOWED_ORIGINS/guard/sim checks | ⚠️ Sneaks yes for a real test launch; PROD YES for Production | 4 | [2026-11-13](handoffs/2026-11-13_0015_muse_petaldeck-post-validation.md) (0d) |
+| [cherry-launch-room](projects/cherry-launch-room.md) | claude-code | K-11 money-path review at d16de4e incl. holder-reward paths (claude + Opus cross-check); then ALLOWED_ORIGINS/guard/sim checks | ⚠️ Sneaks yes for a real test launch; PROD YES for Production | 4 | [2026-11-13](handoffs/2026-11-13_0042_muse_petaldeck-k11-target-update.md) (0d) |
 
 ## PARKED (1)
 
