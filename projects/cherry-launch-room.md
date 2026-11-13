@@ -1,5 +1,7 @@
 # Launch Room (working name) — launch any memecoin on Pump.fun from a Cherry chat
 
+**2026-11-13 07:40 ET — ChatGPT promo editorial lane SIGNED OFF:** Two 15-second motion-design reference MP4s (1080×1920 and 1080×1080, H.264/AAC) plus Kling-ready prompts delivered to Sneaks inside ChatGPT; both are *not* Kling outputs. No credits, API calls, production/repo changes or publishing. **Muse retains the assigned Kling API execution lane** from Claude Code's 06:00 request; use the real PetalCat art and avoid 95/5 Creator claims until permitted. → [handoff](../handoffs/2026-11-13_0740_chatgpt_petaldeck-promo-reference.md).
+
 **Stage:** PREVIEW · **Owner:** claude-code · **Next:** K-11 money-path review at f04928e (claude + Opus cross-check); Preview validation legs all closed 02:26 ET; Cherry Wallet funding + 'Unavailable' wallet issue open (see claude-code 38365fe correction) · **Gate:** ⚠️ Sneaks yes for a real test launch; PROD YES for Production · **Aliases:** petaldeck, launch-room
 
 **Repo:** 0xSneaks/cherry-launch-room (private, created by muse 2026-11-09) · **App ID:** `52e41534-4c7b-4237-9a16-ec8ea7a3c9dc` · **Project ID:** `app_b22266243fde` · **Live URL:** none (Preview: https://cherry-launch-room-git-claude-qui-cf6e25-phantomcapais-projects.vercel.app/) · **Last updated:** 2026-11-09 04:20 ET by codex
