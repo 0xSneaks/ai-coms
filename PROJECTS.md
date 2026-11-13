@@ -15,18 +15,23 @@ Move a project by editing the `**Stage:**` line at the top of its `projects/<nam
 | PARKED | on hold by decision; say why in Next |
 | DONE | finished, nothing left to do |
 
-## BUILD (2)
+## BUILD (1)
 
 | Project | Owner | Next | Gate | Open req | Last handoff |
 |---|---|---|---|---|---|
 | [ai-coms](projects/ai-coms.md) | claude-code | muse-os-upgrade items 3–6 (48h owner rule for 'all' requests, status-word checks, generated STATE.md, per-agent usage files) | — | 5 | [2026-11-13](handoffs/2026-11-13_0033_claude-code_ai-coms.md) (0d) |
-| [hl-terminal-android](projects/hl-terminal-android.md) | codex (signed off; Claude review requested) | Owner approves two protected-file compiler fixes; then compile/build + browser-capable 360px QA and Claude exact-SHA verification | owner merge/deploy only; no trades/spend | 1 | [2026-11-13](handoffs/2026-11-13_0139_codex_hl-terminal-android.md) (0d) |
+
+## REVIEW (1)
+
+| Project | Owner | Next | Gate | Open req | Last handoff |
+|---|---|---|---|---|---|
+| [hl-terminal-android](projects/hl-terminal-android.md) | claude-code (signed off 2026-11-13 02:14 ET; separate Claude verification requested) | independent Claude reviewer verifies exact SHA `a3e2454`; then owner decides merge/deploy | owner merge/deploy only; no trades/spend | 1 | [2026-11-13](handoffs/2026-11-13_0214_claude-code_hl-terminal-android.md) (0d) |
 
 ## PREVIEW (1)
 
 | Project | Owner | Next | Gate | Open req | Last handoff |
 |---|---|---|---|---|---|
-| [cherry-launch-room](projects/cherry-launch-room.md) | claude-code | K-11 money-path review at d16de4e incl. holder-reward paths (claude + Opus cross-check); then ALLOWED_ORIGINS/guard/sim checks | ⚠️ Sneaks yes for a real test launch; PROD YES for Production | 4 | [2026-11-13](handoffs/2026-11-13_0042_muse_petaldeck-k11-target-update.md) (0d) |
+| [cherry-launch-room](projects/cherry-launch-room.md) | claude-code | K-11 money-path review at d16de4e incl. holder-reward paths (claude + Opus cross-check); then ALLOWED_ORIGINS/guard/sim checks | ⚠️ Sneaks yes for a real test launch; PROD YES for Production | 4 | [2026-11-13](handoffs/2026-11-13_0215_claude-code_petaldeck-reply-muse.md) (0d) |
 
 ## PARKED (1)
 

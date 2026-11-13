@@ -1,0 +1,119 @@
+{
+  "console": [],
+  "pageErrors": [],
+  "requests": [
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "type": "clearinghouseState"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "type": "frontendOpenOrders"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "type": "userFillsByTime"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "type": "userFunding"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "type": "clearinghouseState"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "type": "frontendOpenOrders"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "type": "userFillsByTime"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "type": "userFunding"
+    }
+  ],
+  "externalBlocked": [],
+  "ws": [
+    {
+      "url": "wss://api.hyperliquid.xyz/ws"
+    },
+    {
+      "in": "{\"method\":\"subscribe\",\"subscription\":{\"type\":\"userFills\",\"user\":\"0x0000000000000000000000000000000000000000\"}}"
+    },
+    {
+      "in": "{\"method\":\"subscribe\",\"subscription\":{\"type\":\"orderUpdates\",\"user\":\"0x0000000000000000000000000000000000000000\"}}"
+    },
+    {
+      "in": "{\"method\":\"subscribe\",\"subscription\":{\"type\":\"userFundings\",\"user\":\"0x0000000000000000000000000000000000000000\"}}"
+    }
+  ],
+  "steps": [
+    {
+      "name": "01-home",
+      "horizontalOverflow": false,
+      "scrollW": 360,
+      "clientW": 360,
+      "tapTargetsUnder44": [],
+      "mainText": "ACCOUNT\nTrading →\n0.0\nAvailable 0.0\nNEEDS ATTENTION\nTrade history incomplete\nP&L is partial until fills and funding reconcile.\nAlerts disabled\nEnable notifications for fills while the terminal is open.\nEnable fill alerts\nREALIZED P&L (30D)\nPartial history — full 30-day reconciliation is unproven."
+    },
+    {
+      "name": "02-chart",
+      "horizontalOverflow": false,
+      "scrollW": 360,
+      "clientW": 360,
+      "tapTargetsUnder44": [],
+      "mainText": "MARKETS\n\nMarket feed not yet wired. Prices intentionally omitted.\n\nHYPE / USD\nNo feed\nBTC / USD\nNo feed\nETH / USD\nNo feed\nSOL / USD\nNo feed\nWIF / USD\nmemecoin\nNo feed\nBONK / USD\nmemecoin\nNo feed\nEXCHANGE LINK\nSocket open — account freshness shown on Home"
+    },
+    {
+      "name": "03-coms",
+      "horizontalOverflow": false,
+      "scrollW": 360,
+      "clientW": 360,
+      "tapTargetsUnder44": [],
+      "mainText": "CREW ROOM\n\nCrew summaries are provided by the AI COMS board. The board is not yet wired into this terminal.\n\nNo crew summary available in-app yet.\nOPEN COMS\n\nAccess the existing passkey-protected board. Authentication and origin boundaries are enforced by that application.\n\nOpen AI COMS →"
+    },
+    {
+      "name": "04-projects",
+      "horizontalOverflow": false,
+      "scrollW": 360,
+      "clientW": 360,
+      "tapTargetsUnder44": [],
+      "mainText": "PROJECTS\n\nProgress is not driven by a live source. Rows marked UNVERIFIED reflect the last observed state only.\n\nhl-terminal-android\nUNVERIFIED\nAgent\nDeepSeek\nProgress\nCalm-hub UI delivered; backend untouched.\nBlocker\nAwaiting ChatGPT import and test run.\nNext\nRun npm test; hand to Codex for review."
+    },
+    {
+      "name": "05-activity",
+      "horizontalOverflow": false,
+      "scrollW": 360,
+      "clientW": 360,
+      "tapTargetsUnder44": [],
+      "mainText": "SINCE YOU LAST CHECKED\n\nLast checked just now.\n\nTrade history incomplete\nFull 30-day coverage has not been proven; P&L is partial.\n07:13 AM"
+    },
+    {
+      "name": "10-home-trading",
+      "horizontalOverflow": false,
+      "scrollW": 360,
+      "clientW": 360,
+      "tapTargetsUnder44": [],
+      "mainText": "← Back\nACCOUNT\nEquity\n0.0\nAvailable margin\n0.0\nREALIZED P&L (30D)\n\nHistory incomplete — fills and funding for the full window have not both been reconciled. Values below are partial.\n\nClosed P&L\n0.0000\nFees (positive = paid)\n0.0000\nBuilder fees (included in fees)\n0.0000\nFunding\n0.0000\nNet realized\n0"
+    },
+    {
+      "name": "11-trading-back-home",
+      "horizontalOverflow": false,
+      "scrollW": 360,
+      "clientW": 360,
+      "tapTargetsUnder44": [],
+      "mainText": "ACCOUNT\nTrading →\n0.0\nAvailable 0.0\nNEEDS ATTENTION\nTrade history incomplete\nP&L is partial until fills and funding reconcile.\nAlerts disabled\nEnable notifications for fills while the terminal is open.\nEnable fill alerts\nREALIZED P&L (30D)\nPartial history — full 30-day reconciliation is unproven."
+    }
+  ],
+  "tabs": [
+    "Home",
+    "Chart",
+    "COMS",
+    "Projects",
+    "Activity"
+  ],
+  "backReturnedHome": "Home"
+}

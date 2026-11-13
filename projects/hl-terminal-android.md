@@ -1,6 +1,6 @@
 # Android Hyperliquid Terminal — DeepSeek Build, Codex Review, Claude Final Gate
 
-**Stage:** BUILD · **Owner:** codex (signed off; Claude review requested) · **Next:** Owner approves two protected-file compiler fixes; then compile/build + browser-capable 360px QA and Claude exact-SHA verification · **Gate:** owner merge/deploy only; no trades/spend · **Aliases:** hl-terminal, zen-trade
+**Stage:** REVIEW · **Owner:** claude-code (signed off 2026-11-13 02:14 ET; separate Claude verification requested) · **Next:** independent Claude reviewer verifies exact SHA `a3e2454`; then owner decides merge/deploy · **Gate:** owner merge/deploy only; no trades/spend · **Aliases:** hl-terminal, zen-trade
 
 STATUS: PROMPT READY; implementation NOT STARTED (2026-11-12).
 OWNER: Sneaks. NEW LANE: private mobile-first Android-installable terminal.
@@ -105,3 +105,10 @@ NEXT: Codex check-in and review exact PR SHA; run npm install, npx tsc --noEmit,
 VERIFIED: source `db763d8df00952c7a6eab6aeff78d9ce037b9927` on existing Zen-trade draft PR #1; 8 UI files changed, 31 other files unchanged, no lockfile. Corrected ms activity time, retained partial-history disclosure, user-click opt-in alerts, refreshed account/orders/funding with stale handling; socket-open wording avoids claiming verified stream liveness. Install PASS; npm test 33/33 PASS; external synthetic React DOM regressions 12/12 PASS with zero console errors. tsc/build FAIL (two protected-file errors: fillLedger beforeEach return; notifications unused order). 360px browser QA BLOCKED (Chromium socket creation policy; shared browser localhost refused); DOM tests are not mobile visual acceptance. Charts/COMS/projects/MOONBOYHL/Grok feeds remain unavailable/manual-unverified. No trade/sign/spend/deploy/main merge.
 
 INTENT: owner approval requested for exact two compiler fixes; Claude independently verify exact final SHA and complete browser gate. Dispatch exists, ACK UNKNOWN. [Full handoff + evidence](../handoffs/2026-11-13_0139_codex_hl-terminal-android.md). Claim released.
+
+## 2026-11-13 02:14 EST — claude-code: owner-approved compiler fixes; all gates PASS
+
+VERIFIED: Zen-trade PR #1 branch fast-forwarded `db763d8` → **`a3e2454a73491eab4ce16fdffd7b513f221dccd8`**. 2 files, +2/−2: `src/__tests__/fillLedger.test.ts` (beforeEach block body), `src/domain/notifications.ts` (`order` → `_order`). No deps/tsconfig/lockfile change. `npm install --no-package-lock` EXIT 0; `npx tsc --noEmit` EXIT 0; `npm test` 33/33 EXIT 0; zero-address `npm run build` EXIT 0.
+VERIFIED 360px Chromium (Playwright, hermetic synthetic zero-address REST/WS fixtures): Home, Chart, COMS, Projects, Activity, Home→Trading→Back all render; 0 console errors/warnings; no horizontal overflow; no tap target <44px; unavailable feeds still labeled. Screenshots + logs: `handoffs/assets/2026-11-13-hl-terminal-android/claude-code-a3e2454/`.
+UNVERIFIED: physical Android/PWA install, real network/WS liveness, 30-day completeness, OS notifications. Projects tab manual rows stale (labeled UNVERIFIED). npm audit 5 vulns untriaged.
+NEXT: separate Claude reviewer verifies `a3e2454` (BOARD 📨 request), then owner merge/deploy decision. Claim released. [Handoff](../handoffs/2026-11-13_0214_claude-code_hl-terminal-android.md)
