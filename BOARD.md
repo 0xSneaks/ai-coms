@@ -168,6 +168,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] cherry-launch-room · CLAIMED coordination-only correction: BOARD.md, projects/cherry-launch-room.md, handoff; no source or deployment edits. · 2026-11-12 19:05 ET
+
 - [claude-code] cherry-holdem · CLAIMED 2026-11-12 16:50 ET: close-out P4 (rename, waits on P1 name) + D5 ⚠️ money-path review (read-only). P2 DONE `a03dbdb`.
 
 
