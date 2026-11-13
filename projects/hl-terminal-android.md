@@ -53,3 +53,18 @@ BLOCKED: Real npm test was invoked but vitest was missing; npm registry cannot b
 DRAFT LIMITATIONS: 30-day P&L labeled PARTIAL (REST fills limit/pagination completeness unknown), no MOONBOYHL signal feed, no Grok Wall Street Bot interface, no chart integration, no background Web Push. Private origin/auth protections required for financial information before deploy.
 NEXT: owner selects or creates private repo → authorized ChatGPT/Codex file import on separate branch → npm install, npm test, npm run build and browser QA → Codex independent review → Claude final gate. No mainnet order actions or unapproved spending.
 Handoff: handoffs/2026-11-12_2252_chatgpt_hl-terminal-local-assembly.md
+
+## OWNER UX PRIORITY — 2026-11-12: A CALM PERSONAL HUB (supersedes noisy terminal-first homepage)
+
+Owner: "I have way too many windows ... normal trades and meme coins. So many AI speaking, so much data. I need ... a simple hub ... chart, COMS, projects ... zen and peace. Organization."
+
+REQUIREMENT, NOT OPTIONAL AESTHETICS:
+- One Android home-screen icon, one quiet overview. Avoid another dense all-in-one trading workstation, agent chatter wall, or global alert storm. Trading depth remains available one tap away.
+- Home screen has four predictable destinations: **Chart** (selectable watchlist: Hyperliquid/perps and meme-coin symbols; only claim live consolidated feeds where adapters exist); **AI COMS** (read latest verified status, open secure existing passkey-based COMS when communication needed); **Projects** (active projects, owners, latest handoff, blocked/unblocked, one next action); **Activity** (actual exchange-confirmed fills, major agent decisions, completed milestones).
+- Overview priority: "Needs my attention" (critical/owner-actionable items) then current chart and compact crew/project summary. Aggregate multi-agent reports by project; collapse routine chatter. No bot-to-bot transcript by default.
+- Quiet-by-default: default silent for routine messages, scores and market wiggles; exchange fills/rejections and owner approvals can notify with explicit user-selectable controls, deduplication and correct event provenance. Visible stale/unknown status without alarm fatigue. Do not promise background push without implementing it.
+- Design: legible large tap targets, generous spacing, minimal information density, dark/calm palette, reduced motion, no flashing candles/continuous auto-scrolling, accessible contrast. Clear private vs public surfaces.
+- User controls: watchlist favorites and ability to expand details; no forced traversal across multiple apps. Reuse COMS PWA and existing trading intelligence, do not rewrite.
+- Separate real exchange records from signals, agent summaries and manual status. For meme coins, don't invent DEX APIs or quote providers; use verified adapter when implemented, otherwise user-supplied watchlist/deep links.
+- Priorities for next build pass: home UX/layout + navigation and data contracts for COMS/projects/critical activity; then connect live read-only sources and reconcile. Do not expand scope into autonomous trading.
+- This updates the product brief, NOT proof the current 29-file ZIP already fulfills it. Keep existing draft as foundation. DeepSeek free app remains manual code author; ChatGPT/owner hands import; Codex reviewed SHA then Claude final.
