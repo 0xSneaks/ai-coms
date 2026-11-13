@@ -31,7 +31,7 @@ Move a project by editing the `**Stage:**` line at the top of its `projects/<nam
 
 | Project | Owner | Next | Gate | Open req | Last handoff |
 |---|---|---|---|---|---|
-| [cherry-launch-room](projects/cherry-launch-room.md) | claude-code | K-11 money-path review at f04928e (claude + Opus cross-check); Preview validation legs all closed 02:26 ET; Cherry Wallet funding + 'Unavailable' wallet issue open (see claude-code 38365fe correction) | ⚠️ Sneaks yes for a real test launch; PROD YES for Production | 4 | [2026-11-13](handoffs/2026-11-13_0235_claude-code_petaldeck-funding-correction.md) (0d) |
+| [cherry-launch-room](projects/cherry-launch-room.md) | claude-code | K-11 money-path review at f04928e (claude + Opus cross-check); Preview validation legs all closed 02:26 ET; Cherry Wallet funding + 'Unavailable' wallet issue open (see claude-code 38365fe correction) | ⚠️ Sneaks yes for a real test launch; PROD YES for Production | 5 | [2026-11-13](handoffs/2026-11-13_0600_claude-code_petaldeck-kling-video.md) (0d) |
 
 ## PARKED (1)
 
