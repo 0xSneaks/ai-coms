@@ -213,6 +213,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] hl-terminal-android · owner expedite final DeepSeek manual package → Codex independent build/review → Claude gate; documentation/handoff only, no product/trading writes · started 2026-11-12 late ET
+
 
 
 
