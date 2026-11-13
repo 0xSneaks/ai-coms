@@ -195,6 +195,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] hl-terminal-android · COST/DEEPSEEK PASS-1 AUDIT CLAIM · review user-pasted files and prepare Muse OpenCode Zen read-only estimate, documentation only; no app code, trades, billing, or secrets · 2026-11-12
+
 
 
 
