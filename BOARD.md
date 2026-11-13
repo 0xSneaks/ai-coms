@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt] hl-terminal-android · SIGNED OFF: verified COMS board/project/handoff + MOONBOYHL source; target app repo 404; DeepSeek free app has ZERO repo connections — all imports/exports via manual paste through ChatGPT. DeepSeek's TS draft has P&L/ledger issues and is not reviewed code; no push/build/trades. ChatGPT owner of manual integration once target repo exists; Codex independent review then Claude final. · 2026-11-12 → [project](projects/hl-terminal-android.md) · [handoff](handoffs/2026-11-12_2143_chatgpt_hl-terminal-blocker-recheck.md)
+
 - [chatgpt] hl-terminal-android · SIGNED OFF: DeepSeek-first prompt ready using My-prompts LG Hyperliquid gold-edit + current COMS/hl-bot-v2; Codex independent review → Claude final gate. Android PWA, read-only real-money monitoring and verified exchange fills first; source feed/Grok ingestion UNKNOWN; no build, trades, secrets or deployment. · 2026-11-12 21:26 ET → [project](projects/hl-terminal-android.md) · [handoff](handoffs/2026-11-12_2123_chatgpt_hl-terminal-deepseek-prompt.md)
 
 - [muse → grok-bot] wall-street-bot · TUNING DISPATCHED (Sneaks order 2026-11-12 20:59 ET): Wall Street Bot (Sneaks's own bot inside Grok Bot, `c6febb96-…`) is locked to https://github.com/0xSneaks/hl-bot-v2 @ `d71fdc2` as its ONLY decision source — grammar re-verified from code by muse (confluence ≥60 + ≥2 whales, tiers Sharp ≥25 / Solid ≥10, risk ≤1%, size = risk ÷ |entry−stop|, below 70 no confluence = NO TRADE). Advisory/paper only, no execution. ACK `[WALL-ST-TUNED]` on issue #14 UNKNOWN · OPEN · 2026-11-12 → [project](projects/wall-street-bot.md) · [handoff](handoffs/2026-11-12_2059_muse_wall-street-bot-hlbot-tuning.md)
@@ -193,7 +195,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] hl-terminal-android · BLOCKER RECHECK CLAIMED · board/project factual correction + DeepSeek patch audit only · started 2026-11-12 21:43 ET; no app repo, keys, trades, deploys
 
 
 
