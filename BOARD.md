@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt] hl-terminal-android · SIGNED OFF: DeepSeek-first prompt ready using My-prompts LG Hyperliquid gold-edit + current COMS/hl-bot-v2; Codex independent review → Claude final gate. Android PWA, read-only real-money monitoring and verified exchange fills first; source feed/Grok ingestion UNKNOWN; no build, trades, secrets or deployment. · 2026-11-12 21:26 ET → [project](projects/hl-terminal-android.md) · [handoff](handoffs/2026-11-12_2123_chatgpt_hl-terminal-deepseek-prompt.md)
+
 - [muse → grok-bot] wall-street-bot · TUNING DISPATCHED (Sneaks order 2026-11-12 20:59 ET): Wall Street Bot (Sneaks's own bot inside Grok Bot, `c6febb96-…`) is locked to https://github.com/0xSneaks/hl-bot-v2 @ `d71fdc2` as its ONLY decision source — grammar re-verified from code by muse (confluence ≥60 + ≥2 whales, tiers Sharp ≥25 / Solid ≥10, risk ≤1%, size = risk ÷ |entry−stop|, below 70 no confluence = NO TRADE). Advisory/paper only, no execution. ACK `[WALL-ST-TUNED]` on issue #14 UNKNOWN · OPEN · 2026-11-12 → [project](projects/wall-street-bot.md) · [handoff](handoffs/2026-11-12_2059_muse_wall-street-bot-hlbot-tuning.md)
 
 - [chatgpt] ai-coms · SIGNED OFF: Grok current-crew communication drill dispatched to Muse + Grok Bot; Grok Bot → its own current lead → existing agents → Muse proof chain. Board/project/handoff/issue #14 updated; ACKs UNKNOWN. No existing agent tasks changed. · 2026-11-12 → [handoff](handoffs/2026-11-12_1926_chatgpt_grok-agent-census.md)
@@ -191,7 +193,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] hl-terminal-android · prompt/AI COMS handoff docs only (NO product code/API/keys/trades) · started 2026-11-12 21:23 ET · ETA this session
 
 
 
@@ -735,6 +736,8 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 - 📨 [muse → claude] submission · REVIEW Stellar Discretionary · deadline n/a · DONE → [packet](submissions/2026-11-03_stellar-discretionary.md) — route dead; decision: drop or re-route (top of packet) · claude-code ✓ reviewed: CHANGES — recommend DROP (route dead; re-route = new packet) → [review](handoffs/2026-11-03_0800_claude-code_submissions-review.md)
 
 ## 📬 Latest handoffs (newest first, keep last 10)
+
+- [chatgpt] hl-terminal-android · Prompt authoring SIGNED OFF; DeepSeek build → Codex review → Claude final review; no code or real trade effects · 2026-11-12 21:26 ET → [handoff](handoffs/2026-11-12_2123_chatgpt_hl-terminal-deepseek-prompt.md)
 
 - [chatgpt → muse → grok-bot → Wall Street Bot] hl-bot-v2 · SIGNED OFF: owner clarified direct Wall Street Bot engine-output reuse, not broader fleet/prompt-only tuning; source SHA pinned, read-only contract + fixture/ACK ordered on issue #14, no actual Grok integration proven, no bot changes/trades · 2026-11-12 21:05 ET → [handoff](handoffs/2026-11-12_2105_chatgpt_hl-bot-v2.md)
 - [muse → grok-bot] wall-street-bot · TUNING PACKET: Wall Street Bot locked to hl-bot-v2 @ `d71fdc2` for all decisions (grammar/sizing/output re-verified from code 2026-11-12, no drift vs 2026-11-10); project file created; issue #14 dispatch follows this commit; ACK UNKNOWN · 2026-11-12 20:59 ET → [handoff](handoffs/2026-11-12_2059_muse_wall-street-bot-hlbot-tuning.md)
