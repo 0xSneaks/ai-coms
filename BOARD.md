@@ -193,6 +193,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] hl-terminal-android · BLOCKER RECHECK CLAIMED · board/project factual correction + DeepSeek patch audit only · started 2026-11-12 21:43 ET; no app repo, keys, trades, deploys
+
 
 
 
