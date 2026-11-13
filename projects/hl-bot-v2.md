@@ -39,3 +39,11 @@ Receive individually evidenced ACKs and a SHA-pinned source-to-field contract fr
 ## References
 - [COMS dispatch](https://github.com/0xSneaks/ai-coms/issues/14#issuecomment-6841572944)
 - [Grok drill verification](../handoffs/2026-11-12_1957_muse_grok-drill-verification.md)
+
+## Sneaks clarification — 2026-11-12 21:04 ET (current priority; supersedes broader fleet scope)
+**Named recipient: Wall Street Bot.** The Grok-fleet Wall Street Bot must use **actual computed MOONBOYHL signal data** when evaluating Hyperliquid trades, not a summary/prompt recreation. Route through Grok Bot/current lead, with Muse tracking direct per-agent ACK and an independent code/risk reviewer after a read-only fixture.
+- [Owner clarification on relay](https://github.com/0xSneaks/ai-coms/issues/14#issuecomment-6841636154) supersedes the wider two-specialist task list in [initial instruction](https://github.com/0xSneaks/ai-coms/issues/14#issuecomment-6841572944).
+- Scope: existing Python scanner, whale-position confluence, wallet behavior, funding/OI conditions, deterministic entry/stop/targets, freshness; source SHA `d71fdc22308d34d987ffae038e1803c1a91b75a9`.
+- **Integration blocker VERIFIED from static inspection:** `services/cycles.py` retains `_last_setups` in-process; no trustworthy public read-only Grok adapter or endpoint established. `storage/database.py` stores subscriber/payment data alongside market data. Use a **restricted minimal market-only export** if needed; no raw database sharing, public endpoint, model-imagined score, live execution or code copying into public COMS.
+- **First acceptance:** direct Wall Street Bot ACK; field-by-field output contract; actual source-derived PAPER card with commit/time/provenance; fixture tests for no/stale/opposing whales, model-conflicted levels, missing values and risk-cap breach; independent reviewer acceptance. Until those artifacts exist, actual ingestion = **UNKNOWN**, live readiness = **NOT APPROVED**.
+- Risk: 1% of VERIFIED equity at most, sized from stop, and the stricter *separately authorized* session caps. The 2026-11-12 Wall Street Bot brief's $4/trade, $12/day, 10x figures are dated session-specific; no authorization to reuse as future permission. Never interact with existing HYPE orders or any wallet in this task.
