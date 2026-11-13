@@ -205,6 +205,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] hl-terminal-android · local reconstruction/test and DeepSeek handoff audit only; target app repo not yet created, no mainnet writes · started 2026-11-12 22:40 ET
+
 
 
 
