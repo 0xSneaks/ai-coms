@@ -215,6 +215,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] hl-terminal-android · integrate final DeepSeek calm-hub UI into local draft, static/test verification, create review ZIP; no GitHub app repo or trading permission · started 2026-11-12 late ET
+
 
 
 
