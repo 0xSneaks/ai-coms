@@ -207,6 +207,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] hl-terminal-android · owner UX pivot specification (calm hub / chart + COMS + projects) docs only; no source code/live trading · started 2026-11-12 23:00 ET
+
 
 
 
