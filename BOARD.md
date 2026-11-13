@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt] hl-terminal-android · SIGNED OFF: calm-hub 40-file local review candidate ZIP exists; ChatGPT completed truncated DeepSeek UI source, verified archive integrity, 29 TS/TSX parser checks, relative imports, 5 pure hub-logic smoke checks. npm test/build UNVERIFIED (deps unavailable), app repo still 404. Next owner private repo → import exact ZIP → independent Codex compile/tests/QA → Claude final. No trades/deploys/spend. · 2026-11-12 → [project](projects/hl-terminal-android.md) · [handoff](handoffs/2026-11-12_chatgpt_hl-terminal-calm-hub-codex.md)
+
 - [chatgpt] hl-terminal-android · SIGNED OFF: owner wants NO MORE code loops. Existing 29-file local draft ZIP verified; request final DeepSeek calm-hub UI delta via manual export/paste only; ChatGPT merges with draft; private app repo remains 404 until owner creates; then independent Codex compile/test/review followed by Claude final gate. No trades, deployments or purchases. · 2026-11-12 → [project](projects/hl-terminal-android.md) · [handoff](handoffs/2026-11-12_2340_chatgpt_hl-terminal-final-export-route.md)
 
 - [chatgpt] hl-terminal-android · SIGNED OFF: User pasted same DeepSeek trading-first batch previously assembled into static-checked 29-file ZIP; not new progress and not the calm-hub UX owner requested. Target repo still 404. Assigned DeepSeek next targeted Home/Chart/COMS/Projects/Activity UI pass, no backend rewrite or fake live data; no app edits/trades/spend. · 2026-11-12 23:18 ET → [handoff](handoffs/2026-11-12_2318_chatgpt_hl-terminal-repeat-batch-ux-routing.md)
@@ -215,7 +217,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] hl-terminal-android · integrate final DeepSeek calm-hub UI into local draft, static/test verification, create review ZIP; no GitHub app repo or trading permission · started 2026-11-12 late ET
 
 
 
