@@ -211,6 +211,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] hl-terminal-android · recheck repeated DeepSeek batch vs latest calm-hub UX; instructions/handoff only, no app changes/trades · 2026-11-12 23:18 ET
+
 
 
 
