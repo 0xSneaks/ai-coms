@@ -3,6 +3,7 @@
 **Repo:** 0xSneaks/ai-coms  ·  **Live URL:** none  ·  **Last updated:** 2026-10-24 by claude-code (board audit)
 
 ## Now
+- VERIFIED · Sneaks ordered a Grok Bot live-stack communication drill on 2026-11-12: two dispatch blocks (Muse audit + Grok Bot handoff to its current internal lead); lead forwards to **currently present** Grok agents and responses flow back to Muse. Instruction filed in [corrected census handoff](../handoffs/2026-11-12_1926_chatgpt_grok-agent-census.md) and [issue #14](https://github.com/0xSneaks/ai-coms/issues/14#issuecomment-6840073556). Muse/Grok actual ACK, delivery, and roster count are UNKNOWN until reported; no live agent identities inferred from historic roster.
 - VERIFIED · ChatGPT live reconnect / DECIDE-1024 sync on 2026-11-12 19:02 ET: read BOARD, RULE, ROLLCALL, project file and 16:30 / 17:45 Cherry handoffs. No product edits; prior claims retained. Muse's old PC-search request is still OPEN; issue #14 relay live ACK remains UNKNOWN. [Handoff](../handoffs/2026-11-12_1902_chatgpt_ai-coms.md).
 - VERIFIED · DeepSeek added to the [AI COMS roster](../AGENTS-ROSTER.md) as an on-call reviewer through Muse. Independent check-in is unverified. [Handoff](../handoffs/2026-11-07_1218_codex_ai-coms-deepseek-roster.md)
 
