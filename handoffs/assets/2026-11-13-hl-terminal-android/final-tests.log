@@ -1,0 +1,19 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> hl-terminal-android@0.1.0 test
+> vitest run
+
+
+ RUN  v1.6.1 /workspace/scratch/7c6176060d0f/Zen-trade
+
+ ✓ src/components/__tests__/hubLogic.test.ts  (14 tests) 7ms
+ ✓ src/__tests__/fillLedger.test.ts  (5 tests) 11ms
+ ✓ src/__tests__/notifications.test.ts  (5 tests) 7ms
+ ✓ src/__tests__/orderLifecycle.test.ts  (4 tests) 5ms
+ ✓ src/__tests__/pnl.test.ts  (5 tests) 6ms
+
+ Test Files  5 passed (5)
+      Tests  33 passed (33)
+   Start at  01:38:25
+   Duration  520ms (transform 245ms, setup 186ms, collect 318ms, tests 36ms, environment 1ms, prepare 558ms)
+

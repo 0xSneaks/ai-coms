@@ -1,0 +1,62 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+ RUN  v1.6.1 /workspace/scratch/7c6176060d0f/Zen-trade
+
+ ❯ src/components/__tests__/hubLogic.test.ts  (14 tests | 2 failed) 19ms
+   ❯ src/components/__tests__/hubLogic.test.ts > buildActivity > returns a fill item for fills newer than since
+     → expected 1794551571663000 to be 1794551571663 // Object.is equality
+   ❯ src/components/__tests__/hubLogic.test.ts > buildActivity > excludes millisecond fills at or before the last check
+     → expected [ { tone: 'ok', …(3) } ] to deeply equal []
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/components/__tests__/hubLogic.test.ts > buildActivity > returns a fill item for fills newer than since
+AssertionError: expected 1794551571663000 to be 1794551571663 // Object.is equality
+
+- Expected
++ Received
+
+- 1794551571663
++ 1794551571663000
+
+ ❯ src/components/__tests__/hubLogic.test.ts:126:27
+    124|       1
+    125|     );
+    126|     expect(items[0].time).toBe(now - 30_000);
+       |                           ^
+    127|   });
+    128| 
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  src/components/__tests__/hubLogic.test.ts > buildActivity > excludes millisecond fills at or before the last check
+AssertionError: expected [ { tone: 'ok', …(3) } ] to deeply equal []
+
+- Expected
++ Received
+
+- Array []
++ Array [
++   Object {
++     "detail": "BUY 1 HYPE @ 100 · BUY 1 HYPE @ 100",
++     "time": 1700000000000000,
++     "title": "2 new fills",
++     "tone": "ok",
++   },
++ ]
+
+ ❯ src/components/__tests__/hubLogic.test.ts:131:102
+    129|   it("excludes millisecond fills at or before the last check", () => {
+    130|     const since = 1_700_000_000_000;
+    131|     expect(buildActivity(hub({ fills: [fill({ time: since }), fill({ t…
+       |                                                                                                      ^
+    132|   });
+    133| 
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+ Test Files  1 failed (1)
+      Tests  2 failed | 12 passed (14)
+   Start at  01:33:21
+   Duration  579ms (transform 80ms, setup 37ms, collect 60ms, tests 19ms, environment 0ms, prepare 96ms)
+

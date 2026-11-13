@@ -1,0 +1,98 @@
+
+ RUN  v1.6.1 /workspace/scratch/7c6176060d0f
+
+stderr | evidence/app-regression.test.jsx > never requests notification permission on mount, only through the explicit alert control
+Warning: `ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.
+
+ ❯ evidence/app-regression.test.jsx  (6 tests | 5 failed) 1726ms
+   ❯ evidence/app-regression.test.jsx > never requests notification permission on mount, only through the explicit alert control
+     → expected [ true ] to have a length of +0 but got 1
+   ❯ evidence/app-regression.test.jsx > retains partial-history disclosure after a successful capped REST response
+     → expected 'AccountTrading →100Available 80Needs …' to contain 'Trade history incomplete'
+   ❯ evidence/app-regression.test.jsx > refreshes account and open orders after an order event
+     → expected '← BackAccountEquity100Available margi…' to contain '200'
+   ❯ evidence/app-regression.test.jsx > marks account data stale after disconnect instead of implying current orders
+     → expected '← BackAccountEquity100Available margi…' to contain 'stale'
+   ❯ evidence/app-regression.test.jsx > refreshes funding-only events and excludes persisted fills outside the 30-day window
+     → expected 4 to be greater than 4
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 5 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  evidence/app-regression.test.jsx > never requests notification permission on mount, only through the explicit alert control
+AssertionError: expected [ true ] to have a length of +0 but got 1
+
+- Expected
++ Received
+
+- 0
++ 1
+
+ ❯ evidence/app-regression.test.jsx:35:22
+     33| afterEach(async()=>{await act(async()=>root.unmount());dom.window.clos…
+     34| it('never requests notification permission on mount, only through the …
+     35|  expect(permissions).toHaveLength(0);await click('Enable fill alerts')…
+       |                      ^
+     36| });
+     37| it('retains partial-history disclosure after a successful capped REST …
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/5]⎯
+
+ FAIL  evidence/app-regression.test.jsx > retains partial-history disclosure after a successful capped REST response
+AssertionError: expected 'AccountTrading →100Available 80Needs …' to contain 'Trade history incomplete'
+
+- Expected
++ Received
+
+- Trade history incomplete
++ AccountTrading →100Available 80Needs attentionNothing to attend to.Realized P&L (30d)0.9000Net of fees and funding.
+
+ ❯ evidence/app-regression.test.jsx:37:101
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/5]⎯
+
+ FAIL  evidence/app-regression.test.jsx > refreshes account and open orders after an order event
+AssertionError: expected '← BackAccountEquity100Available margi…' to contain '200'
+
+- Expected
++ Received
+
+- 200
++ ← BackAccountEquity100Available margin80Realized P&L (30d)Closed P&L1.0000Fees (positive = paid)0.1000Builder fees (included in fees)UNAVAILABLEFunding0.0000Net realized0.9000Builder-fee breakdown incomplete; net P&L remains independent of optional builderFee.Open ordersBUY HYPE 1 @ 100 oid 1Recent fillsBUY HYPE 1 @ 100 fee 0.1 USDC
+
+ ❯ evidence/app-regression.test.jsx:44:42
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/5]⎯
+
+ FAIL  evidence/app-regression.test.jsx > marks account data stale after disconnect instead of implying current orders
+AssertionError: expected '← BackAccountEquity100Available margi…' to contain 'stale'
+
+- Expected
++ Received
+
+- stale
++ ← BackAccountEquity100Available margin80Realized P&L (30d)Closed P&L1.0000Fees (positive = paid)0.1000Builder fees (included in fees)UNAVAILABLEFunding0.0000Net realized0.9000Builder-fee breakdown incomplete; net P&L remains independent of optional builderFee.Open ordersBUY HYPE 1 @ 100 oid 1Recent fillsBUY HYPE 1 @ 100 fee 0.1 USDC
+
+ ❯ evidence/app-regression.test.jsx:47:99
+     45| });
+     46| it('marks account data stale after disconnect instead of implying curr…
+     47|  await act(async()=>sockets.at(-1).close());await flush();await click(…
+       |                                                                                                   ^
+     48| });
+     49| it('refreshes funding-only events and excludes persisted fills outside…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/5]⎯
+
+ FAIL  evidence/app-regression.test.jsx > refreshes funding-only events and excludes persisted fills outside the 30-day window
+AssertionError: expected 4 to be greater than 4
+ ❯ evidence/app-regression.test.jsx:52:191
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/5]⎯
+
+ Test Files  1 failed (1)
+      Tests  5 failed | 1 passed (6)
+   Start at  01:34:19
+   Duration  2.84s (transform 217ms, setup 0ms, collect 792ms, tests 1.73s, environment 0ms, prepare 93ms)
+

@@ -1,0 +1,10 @@
+
+ RUN  v1.6.1 /workspace/scratch/7c6176060d0f
+
+ ✓ evidence/app-regression.test.jsx  (12 tests) 5933ms
+
+ Test Files  1 passed (1)
+      Tests  12 passed (12)
+   Start at  01:38:15
+   Duration  7.04s (transform 249ms, setup 0ms, collect 797ms, tests 5.93s, environment 0ms, prepare 90ms)
+

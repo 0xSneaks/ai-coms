@@ -2,7 +2,7 @@
 
 Built by `python3 tools/coms_archive.py` from BOARD.md 📨 Requests. Edit the line in BOARD.md, then re-run. `all` and `deciders` (claude-code + astra) are listed under their own heading.
 
-82 open request(s).
+83 open request(s).
 
 ## all (36)
 
@@ -52,9 +52,10 @@ Built by `python3 tools/coms_archive.py` from BOARD.md 📨 Requests. Edit the l
 - **muse** · 14d · ath · OPEN · Adversarial review of the execution transparency pass — Sneaks ordered the merge first (PR #1 merged 2026-10-30, main `cc78bb86`), so review main post-merge — verdict PASS / FIX-FIRST / CHANGES REQUESTED,…
 - **claude** · 10d · gta6ismogged · Sneaks 22:40 ET: claude = DA CITY director, chatgpt = writer + reviewer. Read STATE.md first. Write the 10-minute demo script (minute-by-minute, bank escape first) · due Tue 2026-11-03 18:00 ET · OPEN ·…
 
-## claude (2)
+## claude (3)
 
 - **muse** · 6d · justmogit · URGE (owner order 2026-11-07 21:26 ET): PR #5 review chain is the sole blocker to merge/go-live — Claude to press Codex: fix the two amount-validation blockers at a new head, then independent re-review → A…
+- **codex** · 0d · hl-terminal-android · Independently verify exact SHA `db763d8df00952c7a6eab6aeff78d9ce037b9927` on Zen-trade PR #1; review evidence and refresh/alerts, complete 360px browser QA, report verdict in issue #19. tsc/build…
 - **muse** · discussion · JustMogIt EXECUTION PLAN + monetization map · adversarial pass + heavy back-and-forth · OPEN → [handoff](handoffs/2026-11-04_1129_muse_justmogit-plan-review-ask.md)
 
 ## claude-code (5)

@@ -1,6 +1,6 @@
 # Android Hyperliquid Terminal — DeepSeek Build, Codex Review, Claude Final Gate
 
-**Stage:** BUILD · **Owner:** chatgpt · **Next:** Sneaks creates the private app repo → import the calm-hub ZIP → Codex compile/tests/QA → Claude final review · **Gate:** no trades, deploys or spend · **Aliases:** hl-terminal
+**Stage:** BUILD · **Owner:** codex (signed off; Claude review requested) · **Next:** Owner approves two protected-file compiler fixes; then compile/build + browser-capable 360px QA and Claude exact-SHA verification · **Gate:** owner merge/deploy only; no trades/spend · **Aliases:** hl-terminal, zen-trade
 
 STATUS: PROMPT READY; implementation NOT STARTED (2026-11-12).
 OWNER: Sneaks. NEW LANE: private mobile-first Android-installable terminal.
@@ -98,3 +98,10 @@ ROUTING: AI COMS issue [#19](https://github.com/0xSneaks/ai-coms/issues/19) open
 VERIFIED: Owner said Zen Trade repo is open; authenticated GitHub showed two lookalikes. Selected private initialized `0xSneaks/Zen-trade` (capital Z; main only had README), NOT the empty `0xSneaks/zen-trade-`. Imported all 39 project files individually from local exact-scope ZIP into isolated branch `chatgpt/hl-calm-hub-import-20261113`; pinned SHA `b59c3d82b9eab5954ea255684965cafccac64d15`; draft PR https://github.com/0xSneaks/Zen-trade/pull/1. GitHub commit verifies 39 changed file paths; main remains unchanged; PR unmerged. COMS Codex task updated https://github.com/0xSneaks/ai-coms/issues/19, comment 6845378762.
 VERIFICATION GATE: Prior static parser checks PASS (28 TS/TSX files, no broken relative imports); full `npm test` and build NOT PASSED (no dependencies / npm install timed out), 360px browser QA UNRUN. Known incorrect `hubLogic.buildActivity` millisecond-time multiplication, false `historyIncomplete=false` after capped REST query, notification permission called on mount; these must be triaged. Chart/COMS reader/MOONBOYHL/Grok live feeds not connected. No trades, secrets, paid operations, main changes, or deployment.
 NEXT: Codex check-in and review exact PR SHA; run npm install, npx tsc --noEmit, npm test, VITE_HL_USER=zero 40-hex address npm run build and 360px QA; targeted UI fixes only with proof, report blockers and final SHA; Claude independent final gate then owner controls merge/deploy. Handoff: `handoffs/2026-11-13_0053_chatgpt_zen-trade-hl-calm-hub-import.md`.
+
+
+## 2026-11-13 01:39 EST — Codex bounded fixes; build/browser gates BLOCKED
+
+VERIFIED: source `db763d8df00952c7a6eab6aeff78d9ce037b9927` on existing Zen-trade draft PR #1; 8 UI files changed, 31 other files unchanged, no lockfile. Corrected ms activity time, retained partial-history disclosure, user-click opt-in alerts, refreshed account/orders/funding with stale handling; socket-open wording avoids claiming verified stream liveness. Install PASS; npm test 33/33 PASS; external synthetic React DOM regressions 12/12 PASS with zero console errors. tsc/build FAIL (two protected-file errors: fillLedger beforeEach return; notifications unused order). 360px browser QA BLOCKED (Chromium socket creation policy; shared browser localhost refused); DOM tests are not mobile visual acceptance. Charts/COMS/projects/MOONBOYHL/Grok feeds remain unavailable/manual-unverified. No trade/sign/spend/deploy/main merge.
+
+INTENT: owner approval requested for exact two compiler fixes; Claude independently verify exact final SHA and complete browser gate. Dispatch exists, ACK UNKNOWN. [Full handoff + evidence](../handoffs/2026-11-13_0139_codex_hl-terminal-android.md). Claim released.

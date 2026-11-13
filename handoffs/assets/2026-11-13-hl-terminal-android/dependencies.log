@@ -1,0 +1,12 @@
+hl-terminal-android@0.1.0 /workspace/scratch/7c6176060d0f/Zen-trade
+├── @types/react-dom@18.3.7
+├── @types/react@18.3.31
+├── @vitejs/plugin-react@4.7.0
+├── decimal.js@10.6.0
+├── fake-indexeddb@5.0.2
+├── react-dom@18.3.1
+├── react@18.3.1
+├── typescript@5.9.3
+├── vite@5.4.21
+└── vitest@1.6.1
+

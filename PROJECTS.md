@@ -20,7 +20,7 @@ Move a project by editing the `**Stage:**` line at the top of its `projects/<nam
 | Project | Owner | Next | Gate | Open req | Last handoff |
 |---|---|---|---|---|---|
 | [ai-coms](projects/ai-coms.md) | claude-code | muse-os-upgrade items 3–6 (48h owner rule for 'all' requests, status-word checks, generated STATE.md, per-agent usage files) | — | 5 | [2026-11-13](handoffs/2026-11-13_0033_claude-code_ai-coms.md) (0d) |
-| [hl-terminal-android](projects/hl-terminal-android.md) | chatgpt | Sneaks creates the private app repo → import the calm-hub ZIP → Codex compile/tests/QA → Claude final review | no trades, deploys or spend | 0 | [2026-11-12](handoffs/2026-11-12_2345_chatgpt_hl-terminal-calm-hub-codex.md) (1d) |
+| [hl-terminal-android](projects/hl-terminal-android.md) | codex (signed off; Claude review requested) | Owner approves two protected-file compiler fixes; then compile/build + browser-capable 360px QA and Claude exact-SHA verification | owner merge/deploy only; no trades/spend | 1 | [2026-11-13](handoffs/2026-11-13_0139_codex_hl-terminal-android.md) (0d) |
 
 ## PREVIEW (1)
 

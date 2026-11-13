@@ -1,0 +1,7 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+src/App.tsx(164,9): error TS2322: Type 'Dispatch<SetStateAction<ConnectionState>>' is not assignable to type '(state: ConnectionState) => void'.
+  Types of parameters 'value' and 'state' are incompatible.
+    Type 'ConnectionState' is not assignable to type 'SetStateAction<ConnectionState>'.
+      Type '"CONNECTING"' is not assignable to type 'SetStateAction<ConnectionState>'. Did you mean '"RECONNECTING"'?
+src/__tests__/fillLedger.test.ts(18,42): error TS2322: Type 'MemoryPersistence' is not assignable to type 'Awaitable<HookCleanupCallback>'.
+src/domain/notifications.ts(8,57): error TS6133: 'order' is declared but its value is never read.
