@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt] Zen-trade / hl-terminal-android · SIGNED OFF: owner now requests user-initiated live trade placement in chart-centered AI crew hub; recorded safe manual ticket, testnet/dry-run development, SDK-based wallet signing, sizing from stop at <=1% estimated equity loss, order receipt/reconciliation and separate Codex/Claude/owner approvals. This is authorization to BUILD only, NOT to submit real orders/deploy. No code or live money touched. → [project](projects/hl-terminal-android.md) · [handoff](handoffs/2026-11-14_chatgpt_zen-trade-manual-trading-scope.md)
+
 - [chatgpt] Zen-trade / hl-terminal-android · SIGNED OFF: owner corrected scope to **single-screen chart-first trading + AI crew hub**: chart with actual entries/orders/positions, incoming HL Bot v2 trade rationale, verified Grok bot actions, ChatGPT/Claude/Muse/Grok communications; minimal noise. Project brief updated; existing shell does not implement live integrations. Docs only, no trade/sign/deploy. → [project](projects/hl-terminal-android.md) · [handoff](handoffs/2026-11-14_chatgpt_zen-trade-chart-coms-owner-scope.md)
 
 - [chatgpt] hl-terminal-android / Zen-trade · SIGNED OFF: Owner clarified four-feature functional MVP: actual chart + own read-only positions + authorized AI COMS crew communications + verified Grok bot comparison. Existing PR #1 still chart/COMS placeholders and no position/bot feed; 33 tests only cover shell. Project scope and prompt updated; no code, trades, auth bypass, deploy, spend or merge. → [project](projects/hl-terminal-android.md) · [handoff](handoffs/2026-11-14_chatgpt_zen-trade-four-feature-mvp.md)
@@ -235,7 +237,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] Zen-trade / hl-terminal-android · owner-directed manual trading capability specification with wallet safety and chart/AI COMS integration, documentation/handoff only; no code/orders/deploy · 2026-11-14 ET
 
 
 
