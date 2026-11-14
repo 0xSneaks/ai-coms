@@ -235,6 +235,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] Zen-trade / hl-terminal-android · owner-directed manual trading capability specification with wallet safety and chart/AI COMS integration, documentation/handoff only; no code/orders/deploy · 2026-11-14 ET
+
 
 
 
