@@ -237,6 +237,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] rush-four-assets · projects/rush-four-assets.md + new 2026-11-14 prompt handoff · started 2026-11-14 09:44 ET · prompt only, no code/wallet/spend
+
 
 
 
