@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt] Zen-trade / hl-terminal-android · SIGNED OFF: owner corrected scope to **single-screen chart-first trading + AI crew hub**: chart with actual entries/orders/positions, incoming HL Bot v2 trade rationale, verified Grok bot actions, ChatGPT/Claude/Muse/Grok communications; minimal noise. Project brief updated; existing shell does not implement live integrations. Docs only, no trade/sign/deploy. → [project](projects/hl-terminal-android.md) · [handoff](handoffs/2026-11-14_chatgpt_zen-trade-chart-coms-owner-scope.md)
+
 - [chatgpt] hl-terminal-android / Zen-trade · SIGNED OFF: Owner clarified four-feature functional MVP: actual chart + own read-only positions + authorized AI COMS crew communications + verified Grok bot comparison. Existing PR #1 still chart/COMS placeholders and no position/bot feed; 33 tests only cover shell. Project scope and prompt updated; no code, trades, auth bypass, deploy, spend or merge. → [project](projects/hl-terminal-android.md) · [handoff](handoffs/2026-11-14_chatgpt_zen-trade-four-feature-mvp.md)
 
 - [chatgpt] hl-terminal-android / Zen-trade · SIGNED OFF: owner wants Android-installable calm hub. PR #1 remains draft; prior Claude Code 33/33 tests, build, 360px Chromium QA PASS at a3e2454; actual phone install/HTTPS release/independent Claude gate UNKNOWN. Supplied DeepSeek free-app focused PWA installability prompt, no source edits/deploy, owner approves release. → [project](projects/hl-terminal-android.md) · [handoff](handoffs/2026-11-14_chatgpt_zen-trade-android-install-prompt.md)
@@ -233,7 +235,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] hl-terminal-android / Zen-trade · clarify user chart-centered COMS + actual order/entry markers + hl-bot-v2 logic UI; docs only, no code/real trades · 2026-11-14 ET
 
 
 
