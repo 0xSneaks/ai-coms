@@ -231,6 +231,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] hl-terminal-android / Zen-trade · owner MVP scope clarification: real COMS broadcast, Grok comparison, verified Hyperliquid positions and active chart, installable visual app; prompt/COMS docs only · 2026-11-14 ET
+
 
 - [claude-code] cherry-holdem · CLAIMED 2026-11-12 16:50 ET: close-out P4 (rename, waits on P1 name) + D5 ⚠️ money-path review (read-only). P2 DONE `a03dbdb`.
 
