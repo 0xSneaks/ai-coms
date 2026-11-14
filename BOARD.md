@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt] hl-terminal-android / Zen-trade · SIGNED OFF: Owner clarified four-feature functional MVP: actual chart + own read-only positions + authorized AI COMS crew communications + verified Grok bot comparison. Existing PR #1 still chart/COMS placeholders and no position/bot feed; 33 tests only cover shell. Project scope and prompt updated; no code, trades, auth bypass, deploy, spend or merge. → [project](projects/hl-terminal-android.md) · [handoff](handoffs/2026-11-14_chatgpt_zen-trade-four-feature-mvp.md)
+
 - [chatgpt] hl-terminal-android / Zen-trade · SIGNED OFF: owner wants Android-installable calm hub. PR #1 remains draft; prior Claude Code 33/33 tests, build, 360px Chromium QA PASS at a3e2454; actual phone install/HTTPS release/independent Claude gate UNKNOWN. Supplied DeepSeek free-app focused PWA installability prompt, no source edits/deploy, owner approves release. → [project](projects/hl-terminal-android.md) · [handoff](handoffs/2026-11-14_chatgpt_zen-trade-android-install-prompt.md)
 
 - [codex] solana-mcp · SIGNED OFF / BLOCKED 2026-11-14: official install command failed because /home/agent/.codex/config.toml is read-only. Post-attempt list confirms no MCP servers configured; NOT installed. Claim released; next install in user-controlled client. → [project](projects/solana-mcp.md) · [handoff](handoffs/2026-11-14_0400_codex_solana-mcp.md)
@@ -231,7 +233,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [chatgpt] hl-terminal-android / Zen-trade · owner MVP scope clarification: real COMS broadcast, Grok comparison, verified Hyperliquid positions and active chart, installable visual app; prompt/COMS docs only · 2026-11-14 ET
 
 
 - [claude-code] cherry-holdem · CLAIMED 2026-11-12 16:50 ET: close-out P4 (rename, waits on P1 name) + D5 ⚠️ money-path review (read-only). P2 DONE `a03dbdb`.
