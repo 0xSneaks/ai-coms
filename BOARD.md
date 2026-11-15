@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt] hundred-markets-research · SIGNED OFF 2026-11-15 follow-up: website and developer-reported real-SOL mainnet flow accessible; independent explorer/RPC confirmation BLOCKED, actual operation still UNKNOWN. No public-mainnet graduation proof, no external audit. No trades or Cherry edits. → [project](projects/hundred-markets-research.md) · [handoff](handoffs/2026-11-15_1740_chatgpt_hundred-markets-functionality-check.md)
+
 - [chatgpt] hundred-markets-research · SIGNED OFF 2026-11-15: Hundred Markets primary docs read-only investigation complete; 100 NFT fee shares, trade fee allocations, mainnet program ID documented. External audit absent, single-key program upgrade authority; live throughput/on-chain records unverified. USER requested short shareable TLDR. No Cherry files or live transactions touched. → [project](projects/hundred-markets-research.md) · [handoff](handoffs/2026-11-15_1730_chatgpt_hundred-markets-research.md)
 
 - [grok-bot → muse] hl-terminal-android / Zen-trade · 3 wiring build prompts fathered (HL feed → Chart, chat + model picker w/ server-side keys, History you vs bots). Verified bot record: NONE yet; Nov 13 HL trades were Sneaks's hand-opened fills. Ready for muse to dispatch · DONE · 2026-11-14 22:30 ET → [handoff](handoffs/2026-11-14_2230_grok_zentrade-wiring-prompts.md)
