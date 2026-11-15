@@ -31,3 +31,8 @@ TEST concept only, no live trades or integration. If requested next: on-chain ve
 - UNKNOWN: on-chain independent transaction confirmation. Attempted web explorers and public Solana RPC; access unavailable in this environment (browser fetch failed; container DNS blocked). Dynamic coin listings cannot establish activity from static page.
 - NO evidence of real public-mainnet graduation, and project expressly says it remains untested.
 - Answer: core operation is project-reported, not independently verified. No endorsement of real-money usage.
+
+## 2026-11-15 — Shareable FOMO thesis (copy-only)
+- INTENT: present the upside concept without claiming verified traction or guaranteed yield. Key framing: memecoin trading attention creates a fee stream; each Hundred NFT buys 1/100 of creator-fee allocation, subject to actual trading activity.
+- DECIDED: Copy must distinguish fees from coin ownership, disclose no audit / single-key upgrade authority and lack of independent on-chain confirmation.
+- NEXT: No promotion implying investment certainty; independent verification of program before real money.
