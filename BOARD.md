@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt] hundred-markets-research · CLAIMED 2026-11-15 17:xx ET: copy-only FOMO thesis for previously researched Hundred Markets; own only project research notes, this new handoff and BOARD entry; no transactions, promotional false claims or Cherry edits. Next: draft brief shareable thesis, sign off.
+
 - [chatgpt] hundred-markets-research · SIGNED OFF 2026-11-15 follow-up: website and developer-reported real-SOL mainnet flow accessible; independent explorer/RPC confirmation BLOCKED, actual operation still UNKNOWN. No public-mainnet graduation proof, no external audit. No trades or Cherry edits. → [project](projects/hundred-markets-research.md) · [handoff](handoffs/2026-11-15_1740_chatgpt_hundred-markets-functionality-check.md)
 
 - [chatgpt] hundred-markets-research · SIGNED OFF 2026-11-15: Hundred Markets primary docs read-only investigation complete; 100 NFT fee shares, trade fee allocations, mainnet program ID documented. External audit absent, single-key program upgrade authority; live throughput/on-chain records unverified. USER requested short shareable TLDR. No Cherry files or live transactions touched. → [project](projects/hundred-markets-research.md) · [handoff](handoffs/2026-11-15_1730_chatgpt_hundred-markets-research.md)
