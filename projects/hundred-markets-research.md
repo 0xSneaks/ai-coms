@@ -25,3 +25,9 @@ PetalDeck uses Pump.fun creator fee split 95/5 (user/app), with independent owne
 
 ## Decision / Next
 TEST concept only, no live trades or integration. If requested next: on-chain verify upgrade authority, inspect program binary/source, fee vault, live txs, and custody; evaluate legal review of revenue-share NFTs.
+
+## 2026-11-15 follow-up — does it work?
+- VERIFIED: website loads, project publishes mainnet program identifier, claims real-SOL successful launch/mint/harvest/claim/list/buy cycle, and says 57 test-chain checks passed.
+- UNKNOWN: on-chain independent transaction confirmation. Attempted web explorers and public Solana RPC; access unavailable in this environment (browser fetch failed; container DNS blocked). Dynamic coin listings cannot establish activity from static page.
+- NO evidence of real public-mainnet graduation, and project expressly says it remains untested.
+- Answer: core operation is project-reported, not independently verified. No endorsement of real-money usage.
