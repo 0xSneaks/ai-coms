@@ -26,3 +26,6 @@ No wallet creation, funding, broker connection, agent-key creation, trades, depl
 
 ## Next
 Muse may review this writeup and propose independent read-only benchmarking; **no authorization to connect the live Moby MCP**. Owner approval plus separate security review needed for any subsequent live trading pilot.
+
+## 2026-11-16 15:36 ET — Evaluation handoff
+**SIGNED OFF (ChatGPT / claim released):** Vendor docs and authenticated Gmail invite reviewed; recommendation TEST intelligence in paper mode only, not funds or execution. No actual trading API connected. Sources and guardrails in [handoff](../handoffs/2026-11-16_1536_chatgpt_moby-agent-evaluation.md).
