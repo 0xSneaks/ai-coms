@@ -1,6 +1,6 @@
 # BOARD
 
-- [chatgpt] family-1960s-kling · **CLAIMED 2026-11-16 18:07 ET**: Select strongest source portrait and Kling 10s input settings; no personal photo stored in COMS. → [project](projects/family-1960s-kling.md)
+- [chatgpt] family-1960s-kling · **SIGNED OFF / CLAIM RELEASED 2026-11-16 18:08 ET**: Clean portrait recommended as primary source; 4:3 / 720p / 10s test settings. No video, no family photo stored. → [project](projects/family-1960s-kling.md) · [handoff](handoffs/2026-11-16_1808_chatgpt_family-1960s-kling-photo-selection.md)
 
 - [chatgpt] family-1960s-kling · **SIGNED OFF / CLAIM RELEASED 2026-11-16 18:05 ET**: 10-second Kling-ready Ellen New York comedy prompt and dialogue-only copy supplied; stone-age luxury car replaces Jaguar, 'Oh my God. Of course.' payoff. No render or photo upload. → [project](projects/family-1960s-kling.md) · [handoff](handoffs/2026-11-16_1805_chatgpt_family-1960s-kling-final-dialogue.md)
 
