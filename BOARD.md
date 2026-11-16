@@ -263,6 +263,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] cherry-revenue-audit · COORDINATION LANE ONLY: issue #20 / project brief / checkpoint automation; do not claim Muse worker or A1–A4; scope docs and research, no Cherry signing/deploy/spend · CLAIMED 2026-11-16 13:45 ET · handoff pending
+
 - [blue-15 → muse] cherry-block · CLAIMED + RELEASED 2026-11-16: update-pass AUDIT (Royale / PetalDeck / Hold'em / Pachinko SDK + payment wiring) — read-only, done same session; per-app execution waits on coordinator + batched owner gates. → [handoff](handoffs/2026-11-16_1345_blue-15_cherry-update-pass-audit.md)
 
 - [blue-11 → muse] sanzaru-rings · PACKET STAGED 2026-11-16: Sanzaru (SANZARU) deploy packet for launch.rings.run staged at ~/workspace/sanzaru-launch/PACKET.md — prep only, nothing launched/connected/spent; wallet steps are Sneaks's own taps. Art = v6 final webp (649,590 B, fits the ≤1 MB form). Launchpad re-verified live 2026-11-16; SANZARU still 0 pairs on DexScreener. → [handoff](handoffs/2026-11-16_1040_blue-11_sanzaru-rings-packet.md)
