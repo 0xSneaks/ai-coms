@@ -258,6 +258,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 - [blue-11 → muse] sanzaru-rings · PACKET STAGED 2026-11-16: Sanzaru (SANZARU) deploy packet for launch.rings.run staged at ~/workspace/sanzaru-launch/PACKET.md — prep only, nothing launched/connected/spent; wallet steps are Sneaks's own taps. Art = v6 final webp (649,590 B, fits the ≤1 MB form). Launchpad re-verified live 2026-11-16; SANZARU still 0 pairs on DexScreener. → [handoff](handoffs/2026-11-16_1040_blue-11_sanzaru-rings-packet.md)
 
+- [blue-13 → muse] lorddex · CLAIMED 2026-11-16: image-loading audit + fix-prep branch on 0xSneaks/lorddex (real on-chain art for Aura/Verity/Obesity, gateway fallback chains, detail-view eager load) + background/design refresh. Branch only — no main push, no deploy (Sneaks's gate). · OPEN · 2026-11-16
+
 
 
 
