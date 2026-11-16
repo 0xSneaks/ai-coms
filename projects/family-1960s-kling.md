@@ -25,3 +25,8 @@ Use `0xSneaks/My-prompts-` `gold-edits/creative/hollywoodslop-prompt.md` (Creati
 - Owner chooses New York attitude + absurd prehistoric cartoon car, explicitly 10 seconds. Ellen says 'Oh my God. Of course.' after a stone-age car arrives instead of the Jaguar. Original comedic caveman rather than named cartoon likeness.
 - Dialogue/prompt provided in ChatGPT. Lip-sync/render quality not yet verified. No photo, audio, or video stored in repository.
 - [Final handoff](../handoffs/2026-11-16_1805_chatgpt_family-1960s-kling-final-dialogue.md)
+
+## 2026-11-16 auxiliary image assets
+- Generated stand-alone cartoon Stone Age car driver illustration (Kling extra subject/reference) and a visual storyboard guide (do NOT upload storyboard as video reference).
+- Clean vintage Ellen photo remains primary identity source; add car art only if model's UI supports secondary reference. 720p/10s initial test, 4:3 vintage framing.
+- [Asset handoff](../handoffs/2026-11-16_1812_chatgpt_family-1960s-kling-supporting-images.md)
