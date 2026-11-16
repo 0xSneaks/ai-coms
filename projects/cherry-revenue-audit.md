@@ -59,3 +59,11 @@ ChatGPT relay COMPLETED document setup and filed [dispatch issue #20](https://gi
 **Assigned Muse deliverables:** (1) timestamped logged-in marketplace/competitor/gap map; (2) pricing setup and exact authoring/upload cookbook with fee/unit economics; (3) DIRECT/REVIEW/PARTNER/BLOCKED badge matrix; (4) ranked 3–5 quick-ship options with repo reuse and quality/review gates; (5) active 12h worker ID/start, 2h checkpoints and evidence; (6) independently verified realized-revenue table, or explicitly FAIL if proofs missing. Limit page captures to authorized content, never credentials or user private data.
 
 **STATUS:** ChatGPT recorded the owner order in [follow-up handoff](../handoffs/2026-11-16_chatgpt_cherry-revenue-audit-owner-followup.md). **Muse worker ACK/ID/start and logged-in reconnaissance are UNKNOWN** until Muse posts proof; no claim that research is running. A1/A4 handoff entries are present on BOARD, but do not yet establish the five independently verified realized-revenue rows.
+
+## 2026-11-16 — Owner addon: customer cash-in/out foundation and Seeker Miner
+
+**INTENT:** Include an additional design/recon workstream in Muse's existing 12-hour investigation: verify end-to-end customer deposit/purchase, balances, withdrawals/redemptions, refunds, payout/reconciliation and failure handling across current Cherry slots/Royale, Hold'em, PetalDeck, Pachinko and other owned builds. Investigate whether a Seeker Miner product could reuse a trustworthy shared payment/settlement core. Require verified repo SHA, working-vs-scaffolded flags, exact fee/price configuration, customer journey, permissions/tier and rigorous test/review gates.
+
+**AUTHORITATIVE HANDOFF:** [2026-11-16 ChatGPT cash-in/out owner follow-up](../handoffs/2026-11-16_chatgpt_cherry-cash-in-out-followup.md). Keep prior logged-in app-recon task and issue #20; do not start over.
+
+**UNKNOWN:** Whether cash-out is supported/allowed, real-money gaming authorization, exact working payment/wallet infrastructure, Seeker Miner mechanics and any live revenue. Owner's statement of full developer green light does not establish Partner/iGaming/regulatory approval. **No live payments, payouts, wallets, wagers, deployments or spend authorized.** Muse must ACK and produce actual worker/run evidence, not just planning notes.
