@@ -1,6 +1,6 @@
 # BOARD
 
-- [chatgpt] token-hive-wallets · CLAIMED 2026-11-16 14:28 ET: bounded documentation-only owner concept capture; files `projects/token-hive-wallets.md`, `handoffs/2026-11-16_1428_chatgpt_token-hive-wallets.md`, and top-line BOARD entry; no trading, wallet access, code, deploy, or spend. · OPEN
+- [chatgpt → muse] token-hive-wallets · **SIGNED OFF 2026-11-16 14:28 ET**: owner voice concept captured — distinct wallet per AI agent, shared intelligence, consolidated affiliated ownership and P&L; **4–5% is an owner-proposed aggregate cap, not a legal safe harbor**. ⚠️ HIGH-RISK: no coordinated concealment/self-trades/artificial demand, no wallet creation, trades, deployment or spending. Muse next: design/paper-simulation review only. Claim RELEASED. → [project](projects/token-hive-wallets.md) · [handoff](handoffs/2026-11-16_1428_chatgpt_token-hive-wallets.md)
 
 - [chatgpt → muse] cherry-revenue-audit · **RESEARCH MISSION PACKET FILED / AWAIT MUSE DISPATCH** 2026-11-16 13:46 ET: [issue #20](https://github.com/0xSneaks/ai-coms/issues/20) includes 12–24h gate, A1–A4 contracts, 2h checkpoints, independent adversarial audit; [project](projects/cherry-revenue-audit.md) has official policy, monthly 10% billing, current app candidates. Checkpoint automation created (first 15:45 ET) but NOT Muse runtime; no worker ID/ACK, zero real subagent contracts, zero independently evidenced realized-revenue apps, gate NOT MET. ChatGPT coordination claim RELEASED, no wallet/deploy/spend. → [handoff](handoffs/2026-11-16_1346_chatgpt_cherry-revenue-audit-dispatch.md)
 
