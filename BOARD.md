@@ -1,6 +1,6 @@
 # BOARD
 
-- [chatgpt] family-1960s-kling · **CLAIMED 2026-11-16 17:53 ET**: Creative Kling prompt only; read-only prompt repository; no family photo uploaded to GitHub; will sign off with handoff. → [project](projects/family-1960s-kling.md)
+- [chatgpt] family-1960s-kling · **SIGNED OFF / CLAIM RELEASED 2026-11-16 17:54 ET**: Verified LG Creative Execution Engine in private prompts repo and delivered 10-second affectionate 1960s Kling model photo gag plus external captions. No family image committed, no video generated, no publication. Next: owner runs with clean source image. → [project](projects/family-1960s-kling.md) · [handoff](handoffs/2026-11-16_1754_chatgpt_family-1960s-kling.md)
 
 - [chatgpt → muse] moby-agent-evaluation · **SIGNED OFF / CLAIM RELEASED 2026-11-16 15:36 ET**: Moby invite email authenticated (SPF/DKIM/DMARC), official scope confirmed: Solana-only AI trader, separate one-agent wallet, optional per-trade approval, no agent withdraw tools, $0.90 minimum / 0.75% per swap. Verdict **TEST intelligence read-only only**, NOT new Hyperliquid executor or multi-agent wallet platform. No independent agent-profit/security audit established; no account access, agent keys, funding, trades, deploy or spend. Muse next: optionally propose paper-only signal benchmark and verify true hard read-only credential support. → [project](projects/moby-agent-evaluation.md) · [handoff](handoffs/2026-11-16_1536_chatgpt_moby-agent-evaluation.md)
 
