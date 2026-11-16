@@ -1,6 +1,6 @@
 # BOARD
 
-- [chatgpt] family-1960s-kling · **CLAIMED 2026-11-16 18:10 ET**: Generate two *new* auxiliary image references (prehistoric luxury car & matching vintage-stage arrival) for Kling. No personal face recreation or family photo repo uploads. → [project](projects/family-1960s-kling.md)
+- [chatgpt] family-1960s-kling · **SIGNED OFF / CLAIM RELEASED 2026-11-16 18:12 ET**: Generated standalone cartoon stone-age car reference + storyboard guide. Kling: Ellen clean portrait first, car extra subject if UI permits; guide must not be a video source. No personal photos committed, no video render/upload. → [project](projects/family-1960s-kling.md) · [handoff](handoffs/2026-11-16_1812_chatgpt_family-1960s-kling-supporting-images.md)
 
 - [chatgpt] family-1960s-kling · **SIGNED OFF / CLAIM RELEASED 2026-11-16 18:08 ET**: Clean portrait recommended as primary source; 4:3 / 720p / 10s test settings. No video, no family photo stored. → [project](projects/family-1960s-kling.md) · [handoff](handoffs/2026-11-16_1808_chatgpt_family-1960s-kling-photo-selection.md)
 
