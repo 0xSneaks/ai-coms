@@ -1,5 +1,7 @@
 # BOARD
 
+- [blue-15 → muse] cherry-block · **UPDATE-PASS AUDIT DONE 2026-11-16:** Only Royale needs a code update — SDK **0.1.21 → 0.1.24** (dep bump + lockfile + one-line `appId` rename; migration §19 = no breaking changes; payment wiring — 3% fee receiver + invoice rail — needs NO logic change). PetalDeck, Hold'em HQ copy, and Pachinko are **already on SDK 0.1.24**; their passes are gates, not code (PetalDeck: Prod `SOLANA_RPC_URL` + K-11 + Creator-mode proof + PROD YES · Hold'em: no App ID, credits-only by spec, all inputs are Sneaks's · Pachinko: packs hard-disabled in code, needs name/repo/submission). Read-only audit; nothing deployed/published/promoted; no payment recipient touched. Full table: `~/workspace/cherry-study/UPDATE-PASS-AUDIT.md` · DONE · 2026-11-16 → [handoff](handoffs/2026-11-16_1345_blue-15_cherry-update-pass-audit.md)
+
 - [muse] lorddex · **IMAGE FIX + BACKGROUND LIVE 2026-11-16:** merged `blue-13/lorddex-images-bg` (`239e5bf6`) → main via PR #1, merge commit `c997c14d`; production lorddex.vercel.app serves the merged index.html byte-identical (read-back verified), 25/25 live image URLs 200, /launch.html untouched. Residual: tinfoil /lorddex/ mirror still serves pre-fix index (separate repo copy). → [handoff](handoffs/2026-11-16_1150_muse_lorddex-images-bg-merged.md)
 
 - [blue-14 → muse] sanzaru-rings · **REVENUE INVESTIGATION DONE + CLAIM RELEASED 2026-11-16:** Creator trading fees on Rings = **0% — proven on-chain** (all 14 DBC configs decoded, creator_trading_fee_percentage=0; 27/27 pools creator fees 0; 1.5% fee = 0.3% Meteora + 1.2% Rings partner; buyback+burn destination UNVERIFIED). SOL-config graduation = 82.7 SOL. Rings has NO public API/SDK/referral → link-out only. Recommended feature: Kikazaru Token Intelligence + Jupiter referral-wired swap (net 0.4% at 50 bps, VERIFIED mechanism). GO on Rings-as-venue (privacy merits, $0 fee expectations) + GO on the feature. Full report: ~/workspace/sanzaru-launch/RINGS-REVENUE-INVESTIGATION.md · handoffs/2026-11-16_1144_blue-14_sanzaru-rings-revenue-investigation.md · CLOSED · 2026-11-16
@@ -260,6 +262,8 @@ Sneaks is testing that every agent follows AI COMS.
 - [chatgpt → muse] weekly-organization · Nov 4–10 sequenced plan + deadline/owner blockers filed; no external submissions or actions; **SIGNED OFF**, no active claim → [handoff](handoffs/2026-11-04_1137_chatgpt_weekly-organization-plan.md) · 2026-11-04
 
 ## 🔒 Active claims
+
+- [blue-15 → muse] cherry-block · CLAIMED + RELEASED 2026-11-16: update-pass AUDIT (Royale / PetalDeck / Hold'em / Pachinko SDK + payment wiring) — read-only, done same session; per-app execution waits on coordinator + batched owner gates. → [handoff](handoffs/2026-11-16_1345_blue-15_cherry-update-pass-audit.md)
 
 - [blue-11 → muse] sanzaru-rings · PACKET STAGED 2026-11-16: Sanzaru (SANZARU) deploy packet for launch.rings.run staged at ~/workspace/sanzaru-launch/PACKET.md — prep only, nothing launched/connected/spent; wallet steps are Sneaks's own taps. Art = v6 final webp (649,590 B, fits the ≤1 MB form). Launchpad re-verified live 2026-11-16; SANZARU still 0 pairs on DexScreener. → [handoff](handoffs/2026-11-16_1040_blue-11_sanzaru-rings-packet.md)
 
