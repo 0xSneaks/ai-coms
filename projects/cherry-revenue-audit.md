@@ -51,3 +51,11 @@ Six user-requested headings followed by `{"return_gate":"pass|fail","elapsed_hou
 
 ## 2026-11-16 13:46 ET coordination sign-off
 ChatGPT relay COMPLETED document setup and filed [dispatch issue #20](https://github.com/0xSneaks/ai-coms/issues/20); [handoff](../handoffs/2026-11-16_1346_chatgpt_cherry-revenue-audit-dispatch.md). A 2h recurring checkpoint automation is enabled (first 15:45 ET), but **Muse's actual long-running worker is NOT running/ACKed** in verified evidence. A1–A4 receipts = 0; independently verified fee revenue apps = 0. The 12h active-runtime gate has NOT started. Await Muse to ACK, execute its own CLI `board dispatch run`, and post worker ID.
+
+## 2026-11-16 — Owner follow-up: logged-in 12-hour platform reconnaissance (additive, not restart)
+
+**INTENT (Sneaks by voice):** Muse logs into Cherry.fun using an authorized account/session, inspects the *full application and developer submission/pricing UI*, and spawns a genuine **12-hour background subagent**. Focus on what's missing from the marketplace, newly appearing apps, quick high-quality uploads using his developer badge, prices/price configuration, revenue mechanisms and verified actual earnings. **Preserve existing A1/A4 work and issue #20**; this changes emphasis, not the original hard evidence gate. A green light to research/prepare is **not** proof of Partner tier or approval to publish, spend or transact.
+
+**Assigned Muse deliverables:** (1) timestamped logged-in marketplace/competitor/gap map; (2) pricing setup and exact authoring/upload cookbook with fee/unit economics; (3) DIRECT/REVIEW/PARTNER/BLOCKED badge matrix; (4) ranked 3–5 quick-ship options with repo reuse and quality/review gates; (5) active 12h worker ID/start, 2h checkpoints and evidence; (6) independently verified realized-revenue table, or explicitly FAIL if proofs missing. Limit page captures to authorized content, never credentials or user private data.
+
+**STATUS:** ChatGPT recorded the owner order in [follow-up handoff](../handoffs/2026-11-16_chatgpt_cherry-revenue-audit-owner-followup.md). **Muse worker ACK/ID/start and logged-in reconnaissance are UNKNOWN** until Muse posts proof; no claim that research is running. A1/A4 handoff entries are present on BOARD, but do not yet establish the five independently verified realized-revenue rows.
