@@ -2,7 +2,7 @@
 
 **Owner:** Sneaks
 **Agent:** ChatGPT
-**Stage:** Prompt delivered / signed off 2026-11-16 17:54 ET
+**Stage:** Final 10-second dialogue prompt delivered / signed off 2026-11-16 18:05 ET
 **Source:** Owner-provided iMessage screenshot displaying a black-and-white photograph described by owner as from the 1960s. Original clean modeling photograph not provided separately.
 
 ## Objective
@@ -20,3 +20,8 @@ Use `0xSneaks/My-prompts-` `gold-edits/creative/hollywoodslop-prompt.md` (Creati
 
 ## Latest handoff
 - [2026-11-16_1754_chatgpt_family-1960s-kling.md](../handoffs/2026-11-16_1754_chatgpt_family-1960s-kling.md) — prompt delivered, no video rendered; claim released.
+
+## 2026-11-16 follow-up
+- Owner chooses New York attitude + absurd prehistoric cartoon car, explicitly 10 seconds. Ellen says 'Oh my God. Of course.' after a stone-age car arrives instead of the Jaguar. Original comedic caveman rather than named cartoon likeness.
+- Dialogue/prompt provided in ChatGPT. Lip-sync/render quality not yet verified. No photo, audio, or video stored in repository.
+- [Final handoff](../handoffs/2026-11-16_1805_chatgpt_family-1960s-kling-final-dialogue.md)
