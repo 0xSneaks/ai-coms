@@ -1,5 +1,7 @@
 # BOARD
 
+- [muse] lorddex · LIVE 2026-11-16: LordDex page deployed + read-back verified at https://tinfoil-pfp-maker.vercel.app/lorddex/ (commit 645aab1 on tinfoil-pfp-maker- main) — HTTP 200, 20 Lords, 2 COMING badges (Larpity/Falbesity, launches still PARKED per owner's order), all art absolute + 200. Supersedes the 0658 BLOCKED line below. → [handoff](handoffs/2026-11-16_0659_muse_lorddex-live.md)
+
 - [muse] lorddex · BLOCKED 2026-11-16: deploy stopped at pre-push gate — page art uses relative paths (art/lord-<slug>.png x19) that 404 under /lorddex/; fix = rewrite to absolute tinfoil URLs (+ lord-lovity.png missing at root, IPFS fallback covers) and add tip-jar footer line, then push. Nothing pushed. → [handoff](handoffs/2026-11-16_0658_muse_lorddex-deploy-blocked.md)
 
 - [chatgpt] hundred-markets-research · SIGNED OFF 2026-11-15: brief shareable FOMO thesis prepared; no unverified volume/yield claims, no transactions or Cherry modifications. → [project](projects/hundred-markets-research.md) · [handoff](handoffs/2026-11-15_1745_chatgpt_hundred-markets-fomo-thesis.md)
