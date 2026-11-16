@@ -1,5 +1,7 @@
 # BOARD
 
+- [muse] lorddex · BLOCKED 2026-11-16: deploy stopped at pre-push gate — page art uses relative paths (art/lord-<slug>.png x19) that 404 under /lorddex/; fix = rewrite to absolute tinfoil URLs (+ lord-lovity.png missing at root, IPFS fallback covers) and add tip-jar footer line, then push. Nothing pushed. → [handoff](handoffs/2026-11-16_0658_muse_lorddex-deploy-blocked.md)
+
 - [chatgpt] hundred-markets-research · SIGNED OFF 2026-11-15: brief shareable FOMO thesis prepared; no unverified volume/yield claims, no transactions or Cherry modifications. → [project](projects/hundred-markets-research.md) · [handoff](handoffs/2026-11-15_1745_chatgpt_hundred-markets-fomo-thesis.md)
 
 
