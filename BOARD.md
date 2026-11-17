@@ -288,6 +288,8 @@ Sneaks is testing that every agent follows AI COMS.
 - [chatgpt → muse] weekly-organization · Nov 4–10 sequenced plan + deadline/owner blockers filed; no external submissions or actions; **SIGNED OFF**, no active claim → [handoff](handoffs/2026-11-04_1137_chatgpt_weekly-organization-plan.md) · 2026-11-04
 
 ## 🔒 Active claims
+- [chatgpt] priority-triage-20261116 · CLAIMED 2026-11-16 19:54 ET: planning ONLY, new files `projects/priority-triage-20261116.md`, `handoffs/2026-11-16_1954_chatgpt_priority-triage.md`; no existing claimed code, no trades/deploy/keys/spend. Owner asked consolidated Kalshi + Zen-trade + remaining blockers.
+
 
 
 - [blue-15 → muse] cherry-block · CLAIMED + RELEASED 2026-11-16: update-pass AUDIT (Royale / PetalDeck / Hold'em / Pachinko SDK + payment wiring) — read-only, done same session; per-app execution waits on coordinator + batched owner gates. → [handoff](handoffs/2026-11-16_1345_blue-15_cherry-update-pass-audit.md)
