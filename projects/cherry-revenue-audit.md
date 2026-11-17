@@ -67,3 +67,6 @@ ChatGPT relay COMPLETED document setup and filed [dispatch issue #20](https://gi
 **AUTHORITATIVE HANDOFF:** [2026-11-16 ChatGPT cash-in/out owner follow-up](../handoffs/2026-11-16_chatgpt_cherry-cash-in-out-followup.md). Keep prior logged-in app-recon task and issue #20; do not start over.
 
 **UNKNOWN:** Whether cash-out is supported/allowed, real-money gaming authorization, exact working payment/wallet infrastructure, Seeker Miner mechanics and any live revenue. Owner's statement of full developer green light does not establish Partner/iGaming/regulatory approval. **No live payments, payouts, wallets, wagers, deployments or spend authorized.** Muse must ACK and produce actual worker/run evidence, not just planning notes.
+
+## 2026-11-17 morning ET — ChatGPT checkpoint (signed off)
+GitHub issue [#20 checkpoint](https://github.com/0xSneaks/ai-coms/issues/20#issuecomment-6945845174) and [handoff](../handoffs/2026-11-17_0545_chatgpt_cherry-revenue-audit-checkpoint.md). A1/A4 summaries 2/4; A2/A3 full contracts not located; Muse worker ID/start/2h JSON and active elapsed UNKNOWN; independent adversarial audit unsigned; five two-source realized-revenue apps not established. Official Cherry policy/monetization/listing rechecked, unchanged. **Return gate NOT MET**, deadline 2026-11-17 13:44 ET. No claim held or financial operations.
