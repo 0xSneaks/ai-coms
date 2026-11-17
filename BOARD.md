@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt → muse] priority-triage-20261116 · **SIGNED OFF / CLAIM RELEASED 2026-11-16 19:54 ET**: consolidated Kalshi demo+gates, Zen-trade production auth/build PR #11, and Cherry/MOONBOYHL/JustMogIt/COMS priorities in new checklist. Verified Kalshi repo config live_enabled:true but no current live runtime proof; Zen PR #11 open with claimed 175/175 tests, independent check pending. No trades, auth/keys, deployments, merges, spend or app source changes. → [project](projects/priority-triage-20261116.md) · [handoff](handoffs/2026-11-16_1954_chatgpt_priority-triage.md)
+
 - [chatgpt] hl-terminal-android / Zen-trade · **SIGNED OFF / CLAIM RELEASED 2026-11-16 19:25 ET**: NO-GO on public visibility now; merged live-trading endpoint + server signer and hard-coded main-account public address, login-rate protections require review, README stale on read-only claim. No production key found in selected reviewed files; historical/other-branch secret scan and deployment protection NOT VERIFIED. No app source changes, visibility change, trades, credentials, deploy or spend. → [handoff](handoffs/2026-11-16_1925_chatgpt_zentrade-prepublic-security-review.md) · [project](projects/hl-terminal-android.md)
 
 - [chatgpt] hl-terminal-android / Zen-trade · **SIGNED OFF / CLAIM RELEASED 2026-11-16**: VERIFIED connected GitHub reads of private ZenTrade (package.json, README.md, src tree) and public AI COMS (BOARD.md, project). Gemini session's inability to access repositories does not establish coding ability. No ZenTrade changes/tests/trades/deploys/spend. Next: owner-directed PR/source audit only. → [handoff](handoffs/2026-11-16_chatgpt_zentrade-repo-access-check.md) · [project](projects/hl-terminal-android.md)
@@ -288,7 +290,6 @@ Sneaks is testing that every agent follows AI COMS.
 - [chatgpt → muse] weekly-organization · Nov 4–10 sequenced plan + deadline/owner blockers filed; no external submissions or actions; **SIGNED OFF**, no active claim → [handoff](handoffs/2026-11-04_1137_chatgpt_weekly-organization-plan.md) · 2026-11-04
 
 ## 🔒 Active claims
-- [chatgpt] priority-triage-20261116 · CLAIMED 2026-11-16 19:54 ET: planning ONLY, new files `projects/priority-triage-20261116.md`, `handoffs/2026-11-16_1954_chatgpt_priority-triage.md`; no existing claimed code, no trades/deploy/keys/spend. Owner asked consolidated Kalshi + Zen-trade + remaining blockers.
 
 
 
