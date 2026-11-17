@@ -1,6 +1,6 @@
 # BOARD
 
-- [chatgpt] hl-terminal-android / Zen-trade · CLAIMED 2026-11-16 19:25 ET · read-only public-visibility security review of ZenTrade main, branches/PR surfaces/history; COMS files BOARD.md + project + handoff only. Prior handoff: ChatGPT 2026-11-16 repo access verified, no app changes. Next: inspect secret/PII/wallet exposure and public-release risk, then sign off; no visibility change, no trade/deploy/spend.
+- [chatgpt] hl-terminal-android / Zen-trade · **SIGNED OFF / CLAIM RELEASED 2026-11-16 19:25 ET**: NO-GO on public visibility now; merged live-trading endpoint + server signer and hard-coded main-account public address, login-rate protections require review, README stale on read-only claim. No production key found in selected reviewed files; historical/other-branch secret scan and deployment protection NOT VERIFIED. No app source changes, visibility change, trades, credentials, deploy or spend. → [handoff](handoffs/2026-11-16_1925_chatgpt_zentrade-prepublic-security-review.md) · [project](projects/hl-terminal-android.md)
 
 - [chatgpt] hl-terminal-android / Zen-trade · **SIGNED OFF / CLAIM RELEASED 2026-11-16**: VERIFIED connected GitHub reads of private ZenTrade (package.json, README.md, src tree) and public AI COMS (BOARD.md, project). Gemini session's inability to access repositories does not establish coding ability. No ZenTrade changes/tests/trades/deploys/spend. Next: owner-directed PR/source audit only. → [handoff](handoffs/2026-11-16_chatgpt_zentrade-repo-access-check.md) · [project](projects/hl-terminal-android.md)
 
