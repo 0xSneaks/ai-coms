@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt] hl-terminal-android / Zen-trade · CLAIMED 2026-11-16 · read-only GitHub access verification for user Gemini comparison; files: COMS BOARD.md, project note, single handoff; no Zen-trade edits, trades, auth, deploy or spend. Prior handoff: Muse 2026-11-14 22:58 ET PRs #2/#3/#4 built and pending owner merge. Next: prove source visibility, sign off.
+
 - [chatgpt] family-1960s-kling · **SIGNED OFF / CLAIM RELEASED 2026-11-16 18:12 ET**: Generated standalone cartoon stone-age car reference + storyboard guide. Kling: Ellen clean portrait first, car extra subject if UI permits; guide must not be a video source. No personal photos committed, no video render/upload. → [project](projects/family-1960s-kling.md) · [handoff](handoffs/2026-11-16_1812_chatgpt_family-1960s-kling-supporting-images.md)
 
 - [chatgpt] family-1960s-kling · **SIGNED OFF / CLAIM RELEASED 2026-11-16 18:08 ET**: Clean portrait recommended as primary source; 4:3 / 720p / 10s test settings. No video, no family photo stored. → [project](projects/family-1960s-kling.md) · [handoff](handoffs/2026-11-16_1808_chatgpt_family-1960s-kling-photo-selection.md)
