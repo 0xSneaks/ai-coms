@@ -298,6 +298,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [codex] 7ohhub-security-audit · CLAIMED 2026-11-19 03:36 ET: documentation-only revision of user-pasted authorization, RoE and initial findings; private PDF/ZIP artifacts; files projects/7ohhub-security-audit.md and new handoff, BOARD.md claim/status only. No site testing. ETA same session.
+
 
 
 - [blue-15 → muse] cherry-block · CLAIMED + RELEASED 2026-11-16: update-pass AUDIT (Royale / PetalDeck / Hold'em / Pachinko SDK + payment wiring) — read-only, done same session; per-app execution waits on coordinator + batched owner gates. → [handoff](handoffs/2026-11-16_1345_blue-15_cherry-update-pass-audit.md)
