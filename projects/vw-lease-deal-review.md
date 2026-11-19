@@ -8,6 +8,10 @@
 - **UNKNOWN:** Current VW model, term, payment, residual, mileage, lease-end date, ZIP, financial qualification, exact budget, buyout quote, available dealers, and all current offers. ChatGPT did not retrieve private lease records or quote prices.
 - **⚠️ HIGH-RISK:** Financial terms and credit. No dealer outreach, credit application, credit pull, commitment, booking, payment, or signature without fresh owner approval.
 
+## 2026-11-19 — expanded competitor requirement
+- **INTENT:** Muse must search and compare better deals from **other automakers**, competing dealers and legitimate independent leasing companies or brokers on equal footing with VW. Test switching incentives, all-in lease costs, up-front cash and lease-end obligations. Cite actual terms and availability; no unsupported savings claims.
+- **VERIFIED:** [revised prompt handoff](../handoffs/2026-11-19_1626_chatgpt_vw-lease-competitor-expansion.md).
+
 ## Next
 1. Sneaks pastes the ChatGPT-authored Muse instruction in a dedicated sub-chat.
 2. Muse reads its authorized user context and lease records, fills provenance for fields, identifies only blockers, then researches current live OEM/dealer offers.
