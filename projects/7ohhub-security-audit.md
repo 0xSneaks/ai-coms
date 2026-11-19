@@ -30,3 +30,17 @@ Owner-supplied target: https://7ohhub.com. Scope: non-destructive, anonymous, pu
 ## Handoff
 - Initial project: no earlier handoff.
 - Next: site owner or authorized maintainer to secure direct file access, export sanitized debug logs for review, validate mitigations, and run an authenticated controlled assessment.
+
+## Proposed authorization addendum — Credential & Authentication Resilience Testing (PENDING DOCUMENT INSERTION)
+
+**Status: INTENT ONLY.** On 2026-11-19, owner requested explicit password attack / brute-force engagement language in a Google Drive document at ID `1RkYFcbV3iMn2HHydil1vc_eByMW5JBn9`. The connected account returned 404, so no document contents were verified and no Drive document was modified. This addendum is **not** itself authorization to run attacks.
+
+**Proposed wording**:
+
+> **Credential and Authentication Security Testing — Explicit Authorization.** Subject to the Rules of Engagement below and written approval of an execution schedule, the Client authorizes the named Assessor to perform controlled password-security testing on the expressly listed Client-owned authentication endpoints of **7ohhub.com**. Authorized techniques include username/author enumeration; password-strength and password-guessing simulations; limited online brute-force attempts; limited password spraying; and controlled simulations of credential stuffing using *synthetic, Client-provided credential pairs only*. Testing may assess password policies, account enumeration resistance, rate limiting, lockouts, CAPTCHA, multifactor-authentication enforcement, and alerts. This authorization does not extend to third-party services or systems, or production customer accounts, absent separate explicit written permission.
+>
+> **Rules of Engagement.** Before any active attempts, both parties must record the Assessor's identity and source IP(s), exact target hostnames/URLs, dedicated test account IDs, contact/emergency stop method, and start/end date and timezone. Default limits unless separately agreed in writing: at most **five dedicated test accounts**, **ten login attempts per account per 24 hours**, and **one authentication request per second site-wide**, with no distributed traffic, automated scaling or lockout testing against real customers. Stop immediately upon unexpected lockout of a non-test user, increase in 5xx errors, checkout disruptions, abuse alerts, data exposure, or Client revocation. No password resets, account takeover, unauthorized persistence, production data changes, DoS, real-world credential stuffing with leaked credentials, or exfiltration. Store test evidence securely, redact secrets and customer data, and provide a confidential report containing test conditions, proof, impact and remediation.
+>
+> **Authorization Gate.** Execution is NOT authorized merely by inclusion of this clause in a draft. Testing begins only after the Client and Assessor both approve the Rules of Engagement and confirm that they have authority over all in-scope infrastructure and any hosting-provider restrictions.
+
+**Before adopting in actual terms:** ensure contract signers are accurate, substitute exact tester organization/person, confirm 7ohhub.com ownership, validate acceptable request caps with hosting provider, and have a qualified legal reviewer assess indemnity and jurisdiction-specific compliance. No login attempts performed by ChatGPT.
