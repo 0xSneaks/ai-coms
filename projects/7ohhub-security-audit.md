@@ -44,3 +44,13 @@ Owner-supplied target: https://7ohhub.com. Scope: non-destructive, anonymous, pu
 > **Authorization Gate.** Execution is NOT authorized merely by inclusion of this clause in a draft. Testing begins only after the Client and Assessor both approve the Rules of Engagement and confirm that they have authority over all in-scope infrastructure and any hosting-provider restrictions.
 
 **Before adopting in actual terms:** ensure contract signers are accurate, substitute exact tester organization/person, confirm 7ohhub.com ownership, validate acceptable request caps with hosting provider, and have a qualified legal reviewer assess indemnity and jurisdiction-specific compliance. No login attempts performed by ChatGPT.
+
+## 2026-11-19 03:25 ET — Authorization package and evidence ZIP
+
+- INTENT / DOCUMENTATION: Created 7OHHub_Security_Engagement_2026-11-19.zip as a confidential conversation artifact, **not uploaded to public GitHub**.
+- Files: 01_Authorization_Letter.docx/.pdf, 02_Rules_of_Engagement.docx/.pdf, 03_Findings_Report.docx/.pdf, CSV register of 6 observations, JSON manifest, preflight, README, SHA256SUMS.
+- Date prepared: 2026-11-19. Owner listed Tom Harrington (user-provided); assessor listed 0xDev (alias only). Proposed window Nov 20, 2026 10:00–14:00 EST, not approved. Contacts, source IP, signatures, legal entity if relevant, dedicated test accounts and Bluehost clearance missing. Execution gate **CLOSED**.
+- RoE permits restricted brute-force/password-spray and **synthetic-credential** simulations against dedicated test accounts **only after executed approvals** (max 5 accounts, max 10 attempts/account/24h, 1 auth request/sec site-wide). No production admin/user testing, data extraction, DoS or social engineering.
+- 6 evidence register entries are based on prior read-only findings. No verified wallet/customer data or secrets leaks; listed file bodies NOT reviewed. No active attack performed.
+- VERIFIED offline deliverable: all 3 DOCX→PDF render (2 pages each) and inspected; ZIP contains 11 files, CRC passes; package SHA256 70cef89dc73515767b0513e0a475e5ac3c955a50c00e99b9262020e9a3438bd1.
+- Bluehost policy reference: https://www.bluehost.com/terms/acceptable-use-policy (unauthorized probing/authentication attacks prohibited). Hosting-provider approval/policy compatibility is not yet confirmed.
