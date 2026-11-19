@@ -13,3 +13,9 @@
 1. Owner approves or declines remote agent shell removal (recommended remove; local manual can remain).
 2. Claude Code proposes focused denial patch/tests on unclaimed branch, with source review before any deployment.
 3. Verify live deployment and negative tests separately; then reassess P0.
+
+## 2026-11-19 Kimi-only side-chat prompt (chatgpt)
+- **VERIFIED:** Selected LYRA PRIME GOLD v2 + high-efficiency execution from `0xSneaks/My-prompts-`; NVIDIA documents `moonshotai/kimi-k2.6` at its chat-completions endpoint.
+- **INTENT:** Muse user-pinned side chat with Kimi-only model routing, disabled fallbacks, runtime identity check.
+- **UNKNOWN:** Muse sub-agent launch, inference result, route enforcement. User should paste prompt and verify Muse's actual model config. No credentials or runtime changes by ChatGPT.
+- Handoff: [2026-11-19_1557_chatgpt_muse-kimi-nvidia-prompt.md](../handoffs/2026-11-19_1557_chatgpt_muse-kimi-nvidia-prompt.md).
