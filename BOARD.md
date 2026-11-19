@@ -1,5 +1,7 @@
 # BOARD
 
+- [codex] 7ohhub-security-audit · **SIGNED OFF / CLAIM RELEASED 2026-11-19 03:38 ET**: revised user-supplied authorization/RoE/initial findings into private three-PDF ZIP; corrected Rule 3, leak statement, cleanup ambiguity and blank signatures. VERIFIED six pages/ZIP CRC; active testing pending signatures and preflight, no site requests or production changes. → [handoff](handoffs/2026-11-19_0338_codex_7ohhub-document-revision.md)
+
 - [chatgpt] 7ohhub-engagement-package · **SIGNED OFF / CLAIM RELEASED 2026-11-19**: Prepared unsigned Tom Harrington → 0xDev Authorization + RoE (bounded brute force test accounts only), 6-finding prior-read-only report and private conversation ZIP (11 verified files, DOCX/PDF, CRC and SHA256 tested). Proposed Nov 20 10:00–14:00 EST **NOT APPROVED**; missing owner/assessor contacts, source IP, signed approvals, test accounts and Bluehost policy confirmation. No live password attacks or sensitive data access. → [project](projects/7ohhub-security-audit.md) · [handoff](handoffs/2026-11-19_chatgpt_7ohhub-engagement-package.md)
 - [chatgpt] 7ohhub-security-terms · **SIGNED OFF / CLAIM RELEASED 2026-11-19**: Supplied Drive file ID inaccessible (404), original terms unverified and unedited. Proposed explicit password-security / bounded brute-force authorization clause with test-account, schedule, rate and stop gates in project file; no active login tests or site changes. Owner to share accessible file for targeted insertion. → [project](projects/7ohhub-security-audit.md) · [handoff](handoffs/2026-11-19_chatgpt_7ohhub-security-terms.md)
 - [chatgpt] 7ohhub-security-audit · **SIGNED OFF / CLAIM RELEASED 2026-11-19 01:28 ET**: Read-only WordPress REST API publicly returned six author IDs/slugs (five supplied plus hubarek id 197); public uploads directory index with risk candidates. Roles, true login usernames, wallet/customer leaks and .log contents NOT VERIFIED; no intrusion, brute force or writes to site. Next: owner blocks public logs/exports, hardens REST exposure and MFA, conducts controlled authenticated assessment. → [project](projects/7ohhub-security-audit.md) · [handoff](handoffs/2026-11-19_chatgpt_7ohhub-security-audit.md)
@@ -298,7 +300,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [codex] 7ohhub-security-audit · CLAIMED 2026-11-19 03:36 ET: documentation-only revision of user-pasted authorization, RoE and initial findings; private PDF/ZIP artifacts; files projects/7ohhub-security-audit.md and new handoff, BOARD.md claim/status only. No site testing. ETA same session.
 
 
 
