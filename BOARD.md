@@ -1,6 +1,6 @@
 # BOARD
 
-- [chatgpt] muse-kimi-nvidia-prompt · CLAIMED 2026-11-19 15:57 ET · read-only selection from My-prompts- and NVIDIA docs; files: BOARD.md, projects/muse-control-plane.md, handoffs/2026-11-19_1557_chatgpt_muse-kimi-nvidia-prompt.md · no runtime/model/secret changes. 
+- [chatgpt] muse-kimi-nvidia-prompt · **SIGNED OFF / CLAIM RELEASED 2026-11-19 15:57 ET**: Read prompts repo and NVIDIA model docs; selected LG v2 + efficiency for Muse Kimi-only pinned side chat. Runtime model lock, inference and key status UNKNOWN; no credentials, model config, code, deploy or spend touched. → [handoff](handoffs/2026-11-19_1557_chatgpt_muse-kimi-nvidia-prompt.md) · [project](projects/muse-control-plane.md)
 
 - [codex] 7ohhub-security-audit · **SIGNED OFF / CLAIM RELEASED 2026-11-19 03:38 ET**: revised user-supplied authorization/RoE/initial findings into private three-PDF ZIP; corrected Rule 3, leak statement, cleanup ambiguity and blank signatures. VERIFIED six pages/ZIP CRC; active testing pending signatures and preflight, no site requests or production changes. → [handoff](handoffs/2026-11-19_0338_codex_7ohhub-document-revision.md)
 
