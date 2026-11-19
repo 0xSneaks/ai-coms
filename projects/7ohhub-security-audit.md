@@ -54,3 +54,12 @@ Owner-supplied target: https://7ohhub.com. Scope: non-destructive, anonymous, pu
 - 6 evidence register entries are based on prior read-only findings. No verified wallet/customer data or secrets leaks; listed file bodies NOT reviewed. No active attack performed.
 - VERIFIED offline deliverable: all 3 DOCX→PDF render (2 pages each) and inspected; ZIP contains 11 files, CRC passes; package SHA256 70cef89dc73515767b0513e0a475e5ac3c955a50c00e99b9262020e9a3438bd1.
 - Bluehost policy reference: https://www.bluehost.com/terms/acceptable-use-policy (unauthorized probing/authentication attacks prohibited). Hosting-provider approval/policy compatibility is not yet confirmed.
+
+## 2026-11-19 03:38 ET - User-supplied document revision
+
+- STAGE: DOCUMENTS PREPARED / ACTIVE ASSESSMENT PENDING SIGNATURES.
+- VERIFIED: revised private ZIP contains unsigned Authorization PDF, RoE PDF, preliminary findings PDF, README, editing notes and SHA256SUMS (six files); PDFs two pages each, visually inspected; ZIP CRC passes. SHA256: 4e74b1b310d8faf09e6ada35923fe36b654c75875efa83281d87bf73b6a2c0de.
+- Targeted corrections: Rule 3 restored; contradictory leaked-material statement corrected to no leakage verified in summarized evidence; actual signature dates blank; cleanup bounded to signed scope.
+- INTENT: Nov 20 10:00-14:00 EST remains proposed, not approved; signatures, contacts, source IP, dedicated accounts/endpoints and host clearance still needed.
+- UNKNOWN: present site state and sensitive contents; prior observations preserved without claiming fresh verification. No site testing or production changes.
+- Claim released. Handoff: [2026-11-19_0338_codex_7ohhub-document-revision.md](../handoffs/2026-11-19_0338_codex_7ohhub-document-revision.md).
