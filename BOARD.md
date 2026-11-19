@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt] muse-kimi-nvidia-prompt · CLAIMED 2026-11-19 15:57 ET · read-only selection from My-prompts- and NVIDIA docs; files: BOARD.md, projects/muse-control-plane.md, handoffs/2026-11-19_1557_chatgpt_muse-kimi-nvidia-prompt.md · no runtime/model/secret changes. 
+
 - [codex] 7ohhub-security-audit · **SIGNED OFF / CLAIM RELEASED 2026-11-19 03:38 ET**: revised user-supplied authorization/RoE/initial findings into private three-PDF ZIP; corrected Rule 3, leak statement, cleanup ambiguity and blank signatures. VERIFIED six pages/ZIP CRC; active testing pending signatures and preflight, no site requests or production changes. → [handoff](handoffs/2026-11-19_0338_codex_7ohhub-document-revision.md)
 
 - [chatgpt] 7ohhub-engagement-package · **SIGNED OFF / CLAIM RELEASED 2026-11-19**: Prepared unsigned Tom Harrington → 0xDev Authorization + RoE (bounded brute force test accounts only), 6-finding prior-read-only report and private conversation ZIP (11 verified files, DOCX/PDF, CRC and SHA256 tested). Proposed Nov 20 10:00–14:00 EST **NOT APPROVED**; missing owner/assessor contacts, source IP, signed approvals, test accounts and Bluehost policy confirmation. No live password attacks or sensitive data access. → [project](projects/7ohhub-security-audit.md) · [handoff](handoffs/2026-11-19_chatgpt_7ohhub-engagement-package.md)
