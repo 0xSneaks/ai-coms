@@ -1,6 +1,6 @@
 # VW lease deal review — Muse sub-chat prompt
 
-**Stage:** PREPARED · **Owner:** Sneaks via Muse · **Agent lane:** ChatGPT prompt selection, read-only
+**Stage:** PROMPT DELIVERED · **Owner:** Sneaks via Muse · **Agent lane:** ChatGPT prompt selection, read-only
 
 ## Now — 2026-11-19
 - **VERIFIED:** Prompt source `0xSneaks/My-prompts-/gold-edits/travel-and-negotiation/hotel-negotiations.md` is an LG negotiation framework for hotel contracts, explicitly requiring verified comparable offers, total-cost comparisons, exact counters and walk-away conditions. Universal support: `prompts/universal/lyra-prime-gold-v2.md`.
