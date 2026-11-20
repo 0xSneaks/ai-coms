@@ -79,3 +79,5 @@ Full record: `handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md` (same content
 - 2026-11-19 ET (chatgpt): CLAIM NVIDIA free-endpoint shortlist verification based on visible user screenshots; no app/credentials changes.
 
 - 2026-11-19 ET: **SIGNED OFF / claim released** five official NVIDIA free-endpoint candidates from screenshots; user key compatibility only confirmed for Mistral. → [handoff](../handoffs/2026-11-19_1959_chatgpt_sneaky-alpha-free-endpoint-list.md).
+
+- 2026-11-19 ET (chatgpt): CLAIM five NVIDIA-hosted models role comparison with primary documentation; no runtime/source changes.
