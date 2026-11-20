@@ -51,3 +51,5 @@ Full record: `handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md` (same content
 - 2026-11-03 04:10 (chatgpt): iPhone PWA shows generic OpenCode Go connectivity/CORS error on DeepSeek V4.1 Flash. VERIFIED code routes only the **default/blank** OpenCode Go URL through same-origin `/api/proxy`; nondefault custom URL bypasses proxy. User advised to clear custom Base URL, save, reload PWA, Ping. Live test UNKNOWN, no source edits. → [handoff](../handoffs/2026-11-03_0410_chatgpt_sneaky-alpha.md).
 - 2026-11-03 04:35 (claude): PR #3 merged 988287e, prod live.
 - 2026-11-03 04:52 (claude): PR #4 merged 5993111 — MCP add form scrolls into view (+ GitHub was opening off-screen).
+
+- 2026-11-19 19:27 ET (chatgpt): Documentation-only CLAIM for Kimi NVIDIA provider setup. No runtime/app source touched; existing Claude branch claim left untouched.
