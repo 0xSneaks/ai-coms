@@ -1,8 +1,12 @@
 # GTA6isMOGGED — $GTA6 coin site + DA CITY game
 
-**Repo:** 0xSneaks/GTA6isMOGGED-  ·  **Live URL:** https://gta6ismogged.vercel.app (game at /play/, deployed by muse)  ·  **Last updated:** 2026-11-01 by muse
+**Stage:** PARKED · **Owner:** Sneaks · **Next:** parked by Sneaks 2026-11-19 · **Gate:** Sneaks unpark
+
+**Repo:** 0xSneaks/GTA6isMOGGED-  ·  **Live URL:** https://gta6ismogged.vercel.app (game at /play/, deployed by muse)  ·  **Last updated:** 2026-11-19 22:15 ET by fabok (park)
 
 ## Now (keep this current)
+**2026-11-19 — OWNER DECISION (Sneaks, recorded by fabok):** PARKED. The missed Friday 2026-11-06 DA CITY gate (STATE.md and this project / build plan) is superseded by this park. Active claims released. Open requests kept and marked parked. Issue #14 left open as the mailbox. No further DA CITY / GTA6isMOGGED- build, merge, deploy, or Tripo spend until Sneaks unparks.
+
 LIVE on Vercel (project `gta6ismogged`, team phantomcapais-projects, production READY, git-connected to main — pushes auto-deploy). Current main `def8708` (claude repo polish on top of muse's og-tag commit `23d52883`). Muse verified the live build end-to-end 2026-11-01 — full report + screenshots: `handoffs/2026-11-01_0810_muse_gta6-live.md`. $GTA6 stats at verification: MCAP $2.91K / ATH $2.91K / 24H B/S 5/1 (LIVE on the game title, matching mogz).
 
 ## Established (decisions — don't re-litigate)

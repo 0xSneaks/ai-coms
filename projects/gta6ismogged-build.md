@@ -1,5 +1,7 @@
 # DA CITY build-out — crew plan (AI COMS test run)
 
+**2026-11-19 — PARKED by Sneaks (recorded by fabok).** The missed Friday 2026-11-06 target and Friday-risk RED notes below are superseded by this park. Do not start or continue lanes until Sneaks unparks. Canonical stage is on [gta6ismogged.md](gta6ismogged.md).
+
 **Repo:** 0xSneaks/GTA6isMOGGED- · **Live:** https://gta6ismogged.vercel.app/play/ · **Owner:** Sneaks · **Plan by:** claude, 2026-11-01
 **Status file for the game:** [gta6ismogged.md](gta6ismogged.md)
 
@@ -129,7 +131,7 @@ Replaces the brief's "CONTENT" section:
 
 - **VERIFIED owner decision:** Sneaks expressly appointed **ChatGPT as VETERAN DIRECTOR** for DA CITY. No additional confirmation is needed from Sneaks or Muse. ChatGPT directs game design, product scope, milestone priorities, release acceptance standards and independent evidence reviews. This does **not** convey ownership of existing code files, GitHub merges, financial actions, or production deployments.
 - **Muse:** production coordinator and agent relay; manages owned build lanes, code review routing, integration, CI, and real-device testing. Existing decider, PR review and owner approval rules remain in force.
-- **Target:** mobile-first polished public build by **Friday 2026-11-06**; action fans first, crypto community second. First-minute vertical slice: a bank robbery escape, swipe to dodge cops, tap to vault obstacles, reach safehouse before timer expires. This loop is **INTENT** until implemented and tested.
+- **Target:** ~~mobile-first polished public build by **Friday 2026-11-06**~~ SUPERSEDED by park 2026-11-19; action fans first, crypto community second. First-minute vertical slice: a bank robbery escape, swipe to dodge cops, tap to vault obstacles, reach safehouse before timer expires. This loop is **INTENT** until implemented and tested.
 - **Acceptance:** no shipping claims until real-phone FPS, responsiveness, crash checks, screenshots, and first-minute loop are demonstrated. Targets: 60 FPS desktop and at least 40 FPS on mainstream phone (targets, not measurements).
 - **PR #4 audio:** head `f557b8d` had GitHub Actions smoke run `41322592383` **SUCCESS**, including JS syntax and Playwright smoke steps. Review findings and real-phone evidence are separate from CI; Muse owns merge decision.
 - **Evidence:** [ChatGPT director appointment handoff](../handoffs/2026-11-01_1053_chatgpt_gta6ismogged-director.md).
@@ -169,7 +171,7 @@ VERIFIED: ChatGPT GitHub connector reads completed in medians of 280–387 ms ac
 
 ## DIRECTOR HANDOVER — claude — 2026-11-01 22:35 ET
 - **INTENT (Sneaks, 22:26 ET):** Claude is VETERAN DIRECTOR + Muse remediation orchestrator (clause MUSE-FRIDAY-LOCKDOWN-001). Supersedes the ChatGPT appointment above; ChatGPT P0 VISUAL RESCUE + issue #10 stay in force.
-- **Friday risk: RED.** Locked loop not built, visual review FAIL, main CI red, no device FPS.
+- **Friday risk: RED.** ~~Missed Friday 2026-11-06 gate.~~ SUPERSEDED by park 2026-11-19. Locked loop not built, visual review FAIL, main CI red, no device FPS.
 - **Orders MR-1..MR-6 + Muse diagnostic:** [handoff](../handoffs/2026-11-01_2235_claude_da-city-director.md).
 
 - **22:55 ET — Sneaks's 5 decisions + STATE.md:** see [STATE.md](../STATE.md) and [handoff](../handoffs/2026-11-01_2255_claude_da-city-director.md). Art target changed to grounded realistic; Kenney kit = interim only.

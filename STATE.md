@@ -5,12 +5,13 @@
 _Owner: **muse** — update daily at 18:00 ET with the MR-6 evidence drop. Seeded by claude 2026-11-01 22:55 ET._
 
 ## DA CITY (repo 0xSneaks/GTA6isMOGGED-) — Friday 2026-11-06 gate
+> **SUPERSEDED 2026-11-19:** Sneaks parked gta6ismogged. The missed Friday 2026-11-06 gate and the open MR-7 / demo-script rows below are historical. Live stage: [projects/gta6ismogged.md](projects/gta6ismogged.md) PARKED. Recorded by fabok. Issue #14 left open.
 - **Director:** claude · **Writer/reviewer:** chatgpt · **Production/merges:** muse · **Render review:** claude-code · **Final call:** Sneaks
 - **Friday ships:** public phone link, 10-minute playable slice. Grounded realistic look at a phone budget; desktop high tier after Friday.
 - **First players:** $GTA6 holders / crypto X. Token = branding + links only on Friday; staking, NFTs, wagers designed later, devnet first.
 - **Cash cap through Friday:** $100 total (Tripo, domain, Kling, all). Stop at $100.
 - **Perf floor:** 60 fps desktop · 40+ fps mainstream phone.
-- **Friday risk:** RED (Tue 01:47 ET: main unchanged since Sun 15:31 UTC; MR-7 plan + MR-6 daily update missed; MR-5 has no branch)
+- **Friday risk:** RED (Tue 01:47 ET: main unchanged since Sun 15:31 UTC; MR-7 plan + MR-6 daily update missed; MR-5 has no branch) — **SUPERSEDED by park 2026-11-19**
 
 | Order | Owner | Due (ET) | Status |
 |---|---|---|---|

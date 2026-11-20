@@ -40,11 +40,12 @@ Move a project by editing the `**Stage:**` line at the top of its `projects/<nam
 |---|---|---|---|---|---|
 | [cherry-launch-room](projects/cherry-launch-room.md) | claude-code | K-11 money-path review at f04928e (claude + Opus cross-check) still OPEN; spike-tap HIGH-RISK blocker still OPEN | owner confirmed live on cherry.fun 2026-11-19 (real test-launch yes/no answered / live). Separate PROD YES remains owner-gated if a distinct production cut is still required | 5 | [2026-11-14](handoffs/2026-11-14_1010_muse_petaldeck-provider-verified.md) (5d) |
 
-## PARKED (2)
+## PARKED (3)
 
 | Project | Owner | Next | Gate | Open req | Last handoff |
 |---|---|---|---|---|---|
 | [cherry-holdem](projects/cherry-holdem.md) | claude-code | on hold until PetalDeck is finished (Sneaks 2026-11-13); then rename once Sneaks picks a name | PROD YES for main → Production | 1 | [2026-11-11](handoffs/2026-11-11_0433_chatgpt_cherry-holdem-five-tier-menu.md) (8d) |
+| [gta6ismogged](projects/gta6ismogged.md) | Sneaks | parked by Sneaks 2026-11-19 | Sneaks unpark | 6 | [2026-11-03](handoffs/2026-11-03_0245_claude-code_gta6ismogged.md) (16d) |
 | [justmogit-bot](projects/justmogit-bot.md) | Sneaks | parked by Sneaks 2026-11-19, for now | Sneaks unpark / go-live yes | 0 | [2026-11-07](handoffs/2026-11-07_1445_claude-code_justmogit-bot-pump-payout.md) (12d) |
 
 ## DONE (2)
@@ -54,7 +55,7 @@ Move a project by editing the `**Stage:**` line at the top of its `projects/<nam
 | [family-1960s-kling](projects/family-1960s-kling.md) | Sneaks | none — prompt delivered / signed off 2026-11-16 18:05 ET (stage normalized by fabok 2026-11-19 from evident sign-off; was a nonstandard Stage string) | — | 0 | [2026-11-16](handoffs/2026-11-16_1812_chatgpt_family-1960s-kling-supporting-images.md) (3d) |
 | [hundred-markets-research](projects/hundred-markets-research.md) | ChatGPT (research) | none — signed off, research only (stage added by fabok 2026-11-19 from evident Status line) | — | 0 | [2026-11-15](handoffs/2026-11-15_1730_chatgpt_hundred-markets-research.md) (4d) |
 
-## UNSTAGED (46) — owner: add a Stage line
+## UNSTAGED (45) — owner: add a Stage line
 
 _Activity below is INFERENCE from handoff file names; dormant = no handoff in 14 days._
 
@@ -76,7 +77,6 @@ _Activity below is INFERENCE from handoff file names; dormant = no handoff in 14
 | [justmogit-media](projects/justmogit-media.md) | active | 0 | [2026-11-07](handoffs/2026-11-07_0211_chatgpt_justmogit-media.md) (12d) |
 | [grok-efficiency](projects/grok-efficiency.md) | dormant | 2 | [2026-11-04](handoffs/2026-11-04_0524_chatgpt_grok-efficiency.md) (15d) |
 | [anonpad](projects/anonpad.md) | dormant | 0 | [2026-11-03](handoffs/2026-11-03_1605_muse_anonpad-ombro-correction.md) (16d) |
-| [gta6ismogged](projects/gta6ismogged.md) | dormant | 6 | [2026-11-03](handoffs/2026-11-03_0245_claude-code_gta6ismogged.md) (16d) |
 | [ombro](projects/ombro.md) | dormant | 0 | [2026-11-03](handoffs/2026-11-03_1310_claude_ombro-on-mogz.md) (16d) |
 | [nori-chan](projects/nori-chan.md) | dormant | 0 | [2026-11-02](handoffs/2026-11-02_1935_chatgpt_nori-chan.md) (17d) |
 | [gta6](projects/gta6.md) | dormant | 0 | [2026-11-01](handoffs/2026-11-01_1723_chatgpt_gta6-visual-rescue.md) (18d) |
