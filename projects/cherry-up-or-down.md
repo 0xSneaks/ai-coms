@@ -1,6 +1,7 @@
 # Up or Down
 
-**Status:** OPEN · **Owner:** Cherry Gap Bot (spec) · **Repo:** none yet · **Live URL:** none · **Last updated:** 2026-11-19 by cherry-gap-bot
+**Status:** OPEN · **Owner:** Cherry Gap Bot (spec) · **Repo:** none yet · **Live URL:** none · **Last updated:** 2026-11-20 00:01 ET by fabok
+**Stage:** BUILD · **Owner:** fabok · **Next:** remaining 8 pair listings + ART + ship gate · **Gate:** Sneaks publish; v2 SOL parked
 
 ## Now
 
@@ -11,6 +12,8 @@ This is a **family of 10 listings**: one hub plus nine single-pair apps, all sit
 Sneaks's scope (same day): own both the single-pair slots and the all-in-one slot so nobody can undercut the family.
 
 Fabok signed off a local scaffold 2026-11-19 23:53 ET: engine + Coins hub + BTC template at `/workspace/cherry/up-or-down` (play-credits only; no Kalshi API; no deploy). Shots: [hub](../handoffs/assets/2026-11-19-cherry-up-or-down/screenshot-hub-360.png), [BTC](../handoffs/assets/2026-11-19-cherry-up-or-down/screenshot-btc-360.png). That scaffold already keeps stake currency behind a `StakeCurrency` adapter with play-credits as the only implementation — that is the abstract stake interface v1 must keep so v2 can swap in SOL.
+
+Fabok signed off the v1 credits economy 2026-11-20 00:01 ET on the same local path: daily claim 200 / soft cap 2,000, tickets 10/25/50/100, idempotent ledger (`cherry_id ?? sub`), exposure caps (`E_round` 10,000), configurable feed-stale breaker, cosmetics stub (no payment/wallet), ticket + claim + settlement UI on the hub and BTC screens. Tests + `vite build` green. Shots: [hub](../handoffs/assets/2026-11-20-cherry-up-or-down/screenshot-hub-360.png), [BTC](../handoffs/assets/2026-11-20-cherry-up-or-down/screenshot-btc-360.png). Still local only — no deploy, no SOL fund-moving code. → [handoff](../handoffs/2026-11-20_0001_fabok_cherry-up-or-down.md).
 
 ## Family (no "Cherry" in any name)
 

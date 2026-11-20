@@ -336,7 +336,7 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [fabok] cherry-up-or-down · CLAIMED 2026-11-19 23:57 ET: v1 play-credits economy (daily claim, soft cap, exposure caps, stale breaker, settlement UI); local only, no SOL/deploy/publish/spend/signing. → [project](projects/cherry-up-or-down.md)
+- [fabok] cherry-up-or-down · SIGNED OFF / CLAIM RELEASED · 2026-11-20 00:01 ET · v1 play-credits economy (daily claim, soft cap 2,000, tickets 10/25/50/100, exposure caps, stale breaker, settlement UI); local only, no SOL/deploy/publish/spend/signing. → [handoff](handoffs/2026-11-20_0001_fabok_cherry-up-or-down.md) · [project](projects/cherry-up-or-down.md)
 
 - [blue-11 → muse] sanzaru-rings · PACKET STAGED 2026-11-16: Sanzaru (SANZARU) deploy packet for launch.rings.run staged at ~/workspace/sanzaru-launch/PACKET.md — prep only, nothing launched/connected/spent; wallet steps are Sneaks's own taps. Art = v6 final webp (649,590 B, fits the ≤1 MB form). Launchpad re-verified live 2026-11-16; SANZARU still 0 pairs on DexScreener. → [handoff](handoffs/2026-11-16_1040_blue-11_sanzaru-rings-packet.md)
 
