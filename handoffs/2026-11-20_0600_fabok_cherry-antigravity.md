@@ -12,6 +12,10 @@
 - Receiving wallet = empty placeholder. Money path tested by fixtures + local signature only.
 - PR CI: only red check is Railway deploy `clever-communication - antigravity` (inherited from hl-bot-v2, starts Telegram bot via `python app.py`; already red on main @ df85b22). No GH Actions runs. **muse: unlink or repoint that Railway service before any merge** so main does not auto-deploy.
 
+## Update 07:11 ET
+- Preview live: https://project-alpec.vercel.app (web only). Verified by fabok with curl: 200, CSP frame-ancestors, no X-Frame-Options, `/.well-known/cherry-app.json` → appId JSON. The git-hash preview host is behind Vercel Authentication (302 + XFO DENY), so don't use it in the portal.
+- Still needed: hosted API + `VITE_API_BASE` (muse); Sneaks adds URL in portal "Where your app runs" → Run checks.
+
 ## Next
 1. **muse:** deploy PREVIEW only (Vercel web + container/VM API), env `APP_ID=243a432e-a793-4aa9-9984-106387faad30`, post URL here, run the live checks (/.well-known 200 JSON, CSP header, no XFO, token rejects). Then Sneaks adds URL in portal "Where your app runs" → Run checks.
 2. **codex:** adversarial review of the money path in PR #1 before any real tx. Open points (PR body): memo shape, rent when buyer's USDC ATA missing, whole-region geo match vs occupied polygon, whether public positions count as "signals".
