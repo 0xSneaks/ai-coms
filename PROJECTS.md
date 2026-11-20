@@ -25,8 +25,8 @@ Move a project by editing the `**Stage:**` line at the top of its `projects/<nam
 
 | Project | Owner | Next | Gate | Open req | Last handoff |
 |---|---|---|---|---|---|
-| [ai-coms](projects/ai-coms.md) | claude-code | muse-os-upgrade items 3–6 (48h owner rule for 'all' requests, status-word checks, generated STATE.md, per-agent usage files) | — | 5 | [2026-11-19](handoffs/2026-11-19_2215_fabok_ai-coms.md) (1d) |
-| [cherry-up-or-down](projects/cherry-up-or-down.md) | muse | fill out v1 from projects/cherry-up-or-down/app/ (appIds, launch-token verify, remaining 8 pairs, ART, hosting); ship gate = Sneaks publishes | Sneaks publish; v2 SOL parked | 1 | [2026-11-20](handoffs/2026-11-20_0014_fabok_cherry-up-or-down.md) (0d) |
+| [ai-coms](projects/ai-coms.md) | claude-code | muse-os-upgrade items 3–6 (48h owner rule for 'all' requests, status-word checks, generated STATE.md, per-agent usage files) | — | 5 | [2026-11-20](handoffs/2026-11-20_0736_codex_ai-coms-checkin.md) (0d) |
+| [cherry-up-or-down](projects/cherry-up-or-down.md) | muse | portal appIds + hosting + Pyth key + receiving wallet + ART (grok-bot); ship gate = Sneaks publishes | Sneaks publish; v2 SOL parked | 0 | [2026-11-20](handoffs/2026-11-20_0032_muse_cherry-up-or-down.md) (0d) |
 
 ## REVIEW (2)
 
@@ -41,11 +41,10 @@ Move a project by editing the `**Stage:**` line at the top of its `projects/<nam
 |---|---|---|---|---|---|
 | [cherry-launch-room](projects/cherry-launch-room.md) | claude-code | K-11 money-path review at f04928e (claude + Opus cross-check) still OPEN; spike-tap HIGH-RISK blocker still OPEN | owner confirmed live on cherry.fun 2026-11-19 (real test-launch yes/no answered / live). Separate PROD YES remains owner-gated if a distinct production cut is still required | 5 | [2026-11-14](handoffs/2026-11-14_1010_muse_petaldeck-provider-verified.md) (6d) |
 
-## PARKED (3)
+## PARKED (2)
 
 | Project | Owner | Next | Gate | Open req | Last handoff |
 |---|---|---|---|---|---|
-| [cherry-holdem](projects/cherry-holdem.md) | claude-code | on hold until PetalDeck is finished (Sneaks 2026-11-13); then rename once Sneaks picks a name | PROD YES for main → Production | 1 | [2026-11-11](handoffs/2026-11-11_0433_chatgpt_cherry-holdem-five-tier-menu.md) (9d) |
 | [gta6ismogged](projects/gta6ismogged.md) | Sneaks | parked by Sneaks 2026-11-19 | Sneaks unpark | 6 | [2026-11-03](handoffs/2026-11-03_0245_claude-code_gta6ismogged.md) (17d) |
 | [justmogit-bot](projects/justmogit-bot.md) | Sneaks | parked by Sneaks 2026-11-19, for now | Sneaks unpark / go-live yes | 0 | [2026-11-07](handoffs/2026-11-07_1445_claude-code_justmogit-bot-pump-payout.md) (13d) |
 
@@ -56,13 +55,15 @@ Move a project by editing the `**Stage:**` line at the top of its `projects/<nam
 | [family-1960s-kling](projects/family-1960s-kling.md) | Sneaks | none — prompt delivered / signed off 2026-11-16 18:05 ET (stage normalized by fabok 2026-11-19 from evident sign-off; was a nonstandard Stage string) | — | 0 | [2026-11-16](handoffs/2026-11-16_1812_chatgpt_family-1960s-kling-supporting-images.md) (4d) |
 | [hundred-markets-research](projects/hundred-markets-research.md) | ChatGPT (research) | none — signed off, research only (stage added by fabok 2026-11-19 from evident Status line) | — | 0 | [2026-11-15](handoffs/2026-11-15_1730_chatgpt_hundred-markets-research.md) (5d) |
 
-## UNSTAGED (47) — owner: add a Stage line
+## UNSTAGED (50) — owner: add a Stage line
 
 _Activity below is INFERENCE from handoff file names; dormant = no handoff in 14 days._
 
 | Project | Activity | Open req | Last handoff |
 |---|---|---|---|
-| [cherry](projects/cherry.md) | active | 0 | [2026-11-20](handoffs/2026-11-20_0014_fabok_cherry-up-or-down.md) (0d) |
+| [cherry](projects/cherry.md) | active | 0 | [2026-11-20](handoffs/2026-11-20_0600_fabok_cherry-antigravity.md) (0d) |
+| [cherry-antigravity](projects/cherry-antigravity.md) | active | 1 | [2026-11-20](handoffs/2026-11-20_0600_fabok_cherry-antigravity.md) (0d) |
+| [sol-rigs](projects/sol-rigs.md) | active | 1 | [2026-11-20](handoffs/2026-11-20_0304_chatgpt_sol-rigs-skr-vote.md) (0d) |
 | [sneaky-alpha](projects/sneaky-alpha.md) | active | 1 | [2026-11-19](handoffs/2026-11-19_2152_muse_sneaky-alpha-nvidia-p1-web.md) (1d) |
 | [vw-lease-deal-review](projects/vw-lease-deal-review.md) | active | 0 | [2026-11-19](handoffs/2026-11-19_1625_chatgpt_vw-lease-deal-review.md) (1d) |
 | [cherry-revenue-audit](projects/cherry-revenue-audit.md) | active | 0 | [2026-11-17](handoffs/2026-11-17_0941_chatgpt_cherry-revenue-audit-checkpoint.md) (3d) |
@@ -73,8 +74,8 @@ _Activity below is INFERENCE from handoff file names; dormant = no handoff in 14
 | [wall-street-bot](projects/wall-street-bot.md) | active | 0 | [2026-11-14](handoffs/2026-11-14_2210_muse_wall-street-bot.md) (6d) |
 | [coms-pwa](projects/coms-pwa.md) | active | 0 | [2026-11-12](handoffs/2026-11-12_0105_claude-code_coms-pwa-crew-merged.md) (8d) |
 | [hl-bot-v2](projects/hl-bot-v2.md) | active | 0 | [2026-11-12](handoffs/2026-11-12_2105_chatgpt_hl-bot-v2.md) (8d) |
+| [cherry-holdem](projects/cherry-holdem.md) | active | 1 | [2026-11-11](handoffs/2026-11-11_0433_chatgpt_cherry-holdem-five-tier-menu.md) (9d) |
 | [bounty-scout](projects/bounty-scout.md) | active | 0 | [2026-11-08](handoffs/2026-11-08_1547_muse_bounty-scout-weekly.md) (12d) |
-| [sol-rigs](projects/sol-rigs.md) | active | 1 | [2026-11-08](handoffs/2026-11-08_0445_claude-code_sol-rigs-react.md) (12d) |
 | [justmogit-media](projects/justmogit-media.md) | active | 0 | [2026-11-07](handoffs/2026-11-07_0211_chatgpt_justmogit-media.md) (13d) |
 | [grok-efficiency](projects/grok-efficiency.md) | dormant | 2 | [2026-11-04](handoffs/2026-11-04_0524_chatgpt_grok-efficiency.md) (16d) |
 | [anonpad](projects/anonpad.md) | dormant | 0 | [2026-11-03](handoffs/2026-11-03_1605_muse_anonpad-ombro-correction.md) (17d) |
@@ -106,6 +107,7 @@ _Activity below is INFERENCE from handoff file names; dormant = no handoff in 14
 | [cherry-banner-brawl](projects/cherry-banner-brawl.md) | no handoffs | 0 | — |
 | [cherry-factory](projects/cherry-factory.md) | no handoffs | 0 | — |
 | [cherry-grok-bot](projects/cherry-grok-bot.md) | no handoffs | 0 | — |
+| [cherry-room-swap](projects/cherry-room-swap.md) | no handoffs | 0 | — |
 | [grok-specialist](projects/grok-specialist.md) | no handoffs | 0 | — |
 | [gta6ismogged-build](projects/gta6ismogged-build.md) | no handoffs | 0 | — |
 | [trade-desk-deepseek](projects/trade-desk-deepseek.md) | no handoffs | 0 | — |
