@@ -63,3 +63,5 @@ Full record: `handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md` (same content
 - 2026-11-19 19:35 ET (chatgpt): CLAIM read-only NVIDIA auto-discovered model catalog explanation; no source/credential changes.
 
 - 2026-11-19 19:35 ET: **SIGNED OFF / claim released** auto-fetched NVIDIA model catalog explains 33 discovered, 0 enabled; no testing or settings changed. → [handoff](../handoffs/2026-11-19_1935_chatgpt_sneaky-alpha-nvidia-catalog.md).
+
+- 2026-11-19 19:36 ET (chatgpt): CLAIM read-only NVIDIA API free-tier/model compatibility research and handoff; no app edits.
