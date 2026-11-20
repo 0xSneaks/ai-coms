@@ -85,3 +85,5 @@ Full record: `handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md` (same content
 - 2026-11-19 ET: **SIGNED OFF / claim released** compared Kimi K3.1, Mistral Large 4, MiniMax M3.1 Flash, Muse Glimmer 30B and Gemma 4 31B; proposed roles only, selected vendor bench metrics, no live tests or rerouting. → [handoff](../handoffs/2026-11-19_2000_chatgpt_sneaky-alpha-five-model-comparison.md).
 
 - 2026-11-19 20:07 ET (chatgpt): **SIGNED OFF / claim released** NVIDIA Skills catalogue suitability review. Recommended sandbox agent-side `nvidia-skill-finder`, `ethos-write`; separate technical evaluation of `nemo-relay-instrument-calls`, `nemo-relay-plugin-observability`, `nemo-retriever-mcp`. No native mobile/PWA skill loader verified; no app source/config, key, server, spend or deployment changed. → [handoff](../handoffs/2026-11-19_2007_chatgpt_sneaky-alpha-nvidia-skills.md).
+
+- 2026-11-19 ET (chatgpt): **CLAIM** read-only Claude Sonnet research-to-Muse implementation brief with NVIDIA catalog 33-model reconciliation and app optimization scope. Docs only; no code/config/spend/deploy.
