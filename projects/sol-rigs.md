@@ -32,3 +32,12 @@ Full plan: [handoff](../handoffs/2026-11-08_0410_claude_sol-rigs-start-to-finish
 ## Stack & where things live
 - Next.js · @cherrydotfun/miniapp-sdk@^0.1.24 · Postgres · Vercel
 - Env var names: CHERRY_APP_ID, CHERRY_EXPECTED_ORIGIN (values never here)
+
+## 2026-11-20 — Seeker Miner conversion assessment (ChatGPT; read-only)
+**Stage:** CONCEPT / RECONCILIATION NEEDED — no build authorization, no mainnet gate.
+
+- **VERIFIED:** A different already-existing repository, [`0xSneaks/cherry-tree-mining-rig-`](https://github.com/0xSneaks/cherry-tree-mining-rig-), contains THE CHERRY TREE's Next.js app, Rust reward engine, Anchor `programs/sol-rigs`, Cherry integration and funded-reward vault logic. It is NOT the not-created `0xSneaks/sol-rigs` repo proposed in the 2026-11-08 plan.
+- **VERIFIED:** Current source-facing branding is centralized in `app/src/lib/brand.ts`; user-triggered claim/compound and a devnet-only deploy runbook are documented. Repository docs explicitly disclaim proof-of-work SOL mining; tests and live Seeker handshake were not run by ChatGPT.
+- **INTENT:** Prefer a separate Seeker-branded derivative preserving Cherry Tree source/history, after BUSL-1.1 and PhantomCapAI trademark rights are checked. Replace theme/UI; keep or audit program IDs/PDAs, money-path security, and funded vaults. Cherry host = Cherry wallet; standalone Seeker web/PWA = Seeker Connect; optional signed Seeker Genesis Token verification for holder features.
+- **BLOCKED / owner decisions:** choose Cherry-only vs standalone Seeker vs dual mode, actual reward funding (or play-only), final branding and rights, developer listing eligibility. Real SOL/paid game code, deployment and signing require explicit owner approval plus independent review and policy/legal check. No source, keys, SOL or production touched.
+- **Handoff:** [2026-11-20 ChatGPT Seeker Miner conversion](../handoffs/2026-11-20_0255_chatgpt_sol-rigs-seeker-conversion.md).
