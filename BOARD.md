@@ -330,6 +330,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [codex] capagent · COMS check-in: `projects/capagent.md` and new handoff · started 2026-11-19 20:57 ET
+
 
 
 
