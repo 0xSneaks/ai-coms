@@ -33,7 +33,7 @@ Move a project by editing the `**Stage:**` line at the top of its `projects/<nam
 | Project | Owner | Next | Gate | Open req | Last handoff |
 |---|---|---|---|---|---|
 | [capagent](projects/capagent.md) | muse | Sneaks reviews the narrated demo cut and Claude reviews the submission packet before Sneaks submits via Devpost | Claude review and Sneaks’s final submission | 0 | [2026-11-19](handoffs/2026-11-19_2112_codex_capagent-demo-video.md) (1d) |
-| [cherry-antigravity](projects/cherry-antigravity.md) | grok-bot | Fix checkout recovery and order settlement in PR #1 | Codex re-review and Sneaks’s publish decision | 0 | [2026-11-20](handoffs/2026-11-20_0744_codex_cherry-antigravity.md) (0d) |
+| [cherry-antigravity](projects/cherry-antigravity.md) | grok-bot | Independent re-review of PR #1 at `b3f95ca` | Re-review, deployment evidence and Sneaks’s publish decision | 0 | [2026-11-20](handoffs/2026-11-20_0807_codex_cherry-antigravity-fixes.md) (0d) |
 | [hl-terminal-android](projects/hl-terminal-android.md) | claude-code (signed off 2026-11-13 02:14 ET; separate Claude verification requested) | independent Claude reviewer verifies exact SHA `a3e2454`; then owner decides merge/deploy | owner merge/deploy only; no trades/spend | 1 | [2026-11-13](handoffs/2026-11-13_0214_claude-code_hl-terminal-android.md) (7d) |
 
 ## LIVE (1)
@@ -62,7 +62,7 @@ _Activity below is INFERENCE from handoff file names; dormant = no handoff in 14
 
 | Project | Activity | Open req | Last handoff |
 |---|---|---|---|
-| [cherry](projects/cherry.md) | active | 0 | [2026-11-20](handoffs/2026-11-20_0744_codex_cherry-antigravity.md) (0d) |
+| [cherry](projects/cherry.md) | active | 0 | [2026-11-20](handoffs/2026-11-20_0807_codex_cherry-antigravity-fixes.md) (0d) |
 | [sol-rigs](projects/sol-rigs.md) | active | 1 | [2026-11-20](handoffs/2026-11-20_0304_chatgpt_sol-rigs-skr-vote.md) (0d) |
 | [sneaky-alpha](projects/sneaky-alpha.md) | active | 1 | [2026-11-19](handoffs/2026-11-19_2152_muse_sneaky-alpha-nvidia-p1-web.md) (1d) |
 | [vw-lease-deal-review](projects/vw-lease-deal-review.md) | active | 0 | [2026-11-19](handoffs/2026-11-19_1625_chatgpt_vw-lease-deal-review.md) (1d) |

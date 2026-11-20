@@ -1,6 +1,10 @@
 # Antigravity — see where Hyperliquid money is flowing (Cherry mini app, raw data only)
 
-**Stage:** REVIEW · **Owner:** grok-bot · **Next:** Fix checkout recovery and order settlement in PR #1 · **Gate:** Codex re-review and Sneaks’s publish decision
+**Stage:** REVIEW · **Owner:** grok-bot · **Next:** Independent re-review of PR #1 at `b3f95ca` · **Gate:** Re-review, deployment evidence and Sneaks’s publish decision
+
+## Now — 2026-11-20 08:07 ET
+
+- VERIFIED · PR #1 on `grok/antigravity-v1` points to `b3f95ca39d96064a67a33bc3b3ae0cafd4d61fdb` with fixes for payment recovery, atomic settlement, exact token accounts, geo and session checks, and durable ledger and aggregate whale data. Local Python and web suites and build passed. Live deployment evidence pending. [Handoff](../handoffs/2026-11-20_0807_codex_cherry-antigravity-fixes.md).
 
 ## Now — 2026-11-20 07:44 ET
 
