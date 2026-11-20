@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <title>Up or Down</title>
+    <meta name="description" content="Up or Down — play-credits only. Not a Cherry-branded app." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="stage">
+      <div class="ambience" aria-hidden="true"></div>
+      <div class="vignette" aria-hidden="true"></div>
+      <div class="grain" aria-hidden="true"></div>
+
+      <div id="app" class="phone">
+        <section id="view-hub" class="view view-hub">
+          <header class="hub-head">
+            <button class="icon-btn" type="button" id="hub-back" aria-label="Back">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5 8 12l7 7"/></svg>
+            </button>
+            <h1>Coins</h1>
+          </header>
+          <nav class="hub-tabs" role="tablist" aria-label="Interval">
+            <button class="hub-tab is-on" data-interval="15m" type="button">15 MIN</button>
+            <button class="hub-tab" data-interval="1h" type="button">HOURLY</button>
+            <button class="hub-tab is-soon" type="button" disabled title="Soon — not in v1">DAILY</button>
+            <button class="hub-tab is-soon" type="button" disabled title="Soon — not in v1">WEEKLY</button>
+            <button class="hub-tab is-soon" type="button" disabled title="Soon — not in v1">MONTHLY</button>
+          </nav>
+          <div id="hub-list" class="hub-list"></div>
+        </section>
+
+        <section id="view-market" class="view view-market" hidden>
+          <div class="chip-strip" id="chip-strip" aria-label="Family pairs"></div>
+
+          <nav class="nav-row">
+            <button class="icon-btn" type="button" id="mkt-back" aria-label="Back">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5 8 12l7 7"/></svg>
+            </button>
+            <button class="live-chat" type="button" id="live-chat">Live chat</button>
+            <div class="nav-spacer"></div>
+            <button class="text-btn" type="button" id="btn-armory">Armory</button>
+          </nav>
+
+          <div class="title-row">
+            <div class="title-left">
+              <span id="title-glyph"></span>
+              <h1 id="market-title">BTC 15 min</h1>
+            </div>
+            <div class="title-right">
+              <span class="live-tag">LIVE</span>
+              <div class="countdown-pill" id="countdown">15:00</div>
+            </div>
+          </div>
+
+          <div class="price-row">
+            <div class="price-block">
+              <div class="price-label">TO BEAT <span id="target-time"></span></div>
+              <div class="price-value" id="target-price">—</div>
+            </div>
+            <div class="price-block">
+              <div class="price-label now-label">
+                NOW
+                <span id="now-delta" class="delta"></span>
+                <span id="now-pct" class="delta"></span>
+              </div>
+              <div class="price-value" id="now-price">—</div>
+            </div>
+          </div>
+
+          <div class="chart-wrap">
+            <div class="target-tag" id="target-tag">TARGET</div>
+            <canvas id="chart" aria-label="Price chart"></canvas>
+            <div class="win-stream" id="win-stream" aria-hidden="true"></div>
+          </div>
+
+          <div class="meta-row">
+            <div class="past">
+              <span class="past-label">Past</span>
+              <span class="past-marks" id="past-marks"></span>
+            </div>
+            <div class="tabs" role="tablist" aria-label="Interval">
+              <button class="tab is-soon" type="button" disabled title="Soon — not in v1">5M</button>
+              <button class="tab is-active" data-tab="15m" type="button">15M</button>
+              <button class="tab" data-tab="1h" type="button">1H</button>
+            </div>
+          </div>
+
+          <div class="chance-row">
+            <span>Chance</span>
+            <strong id="chance-mid">—</strong>
+            <span class="muted" id="chance-down"></span>
+          </div>
+
+          <div class="also-rail-wrap">
+            <div class="also-label">People are also trading</div>
+            <div class="also-rail" id="also-rail"></div>
+          </div>
+
+          <div class="activity" id="activity"></div>
+
+          <div class="tickets" id="tickets" role="group" aria-label="Ticket size"></div>
+
+          <div class="action-row">
+            <div class="action">
+              <button class="bet-btn up" id="btn-up" type="button">Up · <span id="up-pct">—</span></button>
+              <div class="mult" id="up-mult">—</div>
+            </div>
+            <div class="action">
+              <button class="bet-btn down" id="btn-down" type="button">Down · <span id="down-pct">—</span></button>
+              <div class="mult" id="down-mult">—</div>
+            </div>
+          </div>
+
+          <p class="disclaimer">Play credits only · not cashable · not for sale</p>
+
+          <footer class="foot-row">
+            <div class="foot-chip">Streak <strong id="streak">0</strong></div>
+            <div class="foot-chip">Daily <strong id="grant-label">200 cr</strong></div>
+            <button class="foot-chip" type="button" id="btn-board">Room board</button>
+            <button class="foot-chip" type="button" id="btn-share">Share</button>
+          </footer>
+        </section>
+
+        <div class="econ-bar">
+          <div class="credits-pill" id="credits-pill">0 cr</div>
+          <button type="button" class="claim-btn" id="btn-claim">Claim 200 cr</button>
+        </div>
+        <div class="top-alerts">
+          <div class="banner" id="breaker-banner" hidden></div>
+          <div class="banner" id="result-banner" hidden></div>
+        </div>
+        <div class="feed-flag" id="feed-flag" hidden></div>
+        <div class="toast" id="toast" hidden></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

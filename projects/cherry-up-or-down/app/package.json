@@ -1,0 +1,21 @@
+{
+  "name": "up-or-down",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Up or Down — play-credits hub + pair template. Official family names per spec; no 'Cherry' in any app name.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173",
+    "test": "vite-node src/engine/selftest.ts"
+  },
+  "dependencies": {
+    "@cherrydotfun/miniapp-sdk": "^0.1.24"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^6.0.0",
+    "vite-node": "^3.0.0"
+  }
+}
