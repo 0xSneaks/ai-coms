@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt] sneaky-alpha-mistral-board-prompt · **CLAIMED 2026-11-19 ET**: research and write an owner-facing Muse prompt for model capability/bench registration; COMS docs-only, no device/model/deploy/spend.
+
 - [chatgpt] sneaky-alpha-mistral-ping · **SIGNED OFF / CLAIM RELEASED 2026-11-19 19:52 ET**: screenshot shows Mistral Large 4 selected and successful ping→LYRA-styled Pong; 2s is thinking indicator only; actual total latency unknown; no app config/code/auth actions. → [handoff](handoffs/2026-11-19_1952_chatgpt_sneaky-alpha-mistral-ping.md) · [project](projects/sneaky-alpha.md).
 
 - [chatgpt] sneaky-alpha-nvidia-free-tier · **SIGNED OFF / CLAIM RELEASED 2026-11-19 19:36 ET**: NVIDIA free endpoints are developer trial (not unlimited); Kimi 2.6, Mistral 4, Gemma 4 31B, Muse Glimmer, MiniMax M3.1 listed; StarCoder2 deprecated; Kimi account-specific 404 independently reported. User key/runtime UNKNOWN; no code, tokens, spend. → [handoff](handoffs/2026-11-19_1936_chatgpt_sneaky-alpha-nvidia-free-tier.md) · [project](projects/sneaky-alpha.md).
