@@ -41,3 +41,16 @@ Full plan: [handoff](../handoffs/2026-11-08_0410_claude_sol-rigs-start-to-finish
 - **INTENT:** Prefer a separate Seeker-branded derivative preserving Cherry Tree source/history, after BUSL-1.1 and PhantomCapAI trademark rights are checked. Replace theme/UI; keep or audit program IDs/PDAs, money-path security, and funded vaults. Cherry host = Cherry wallet; standalone Seeker web/PWA = Seeker Connect; optional signed Seeker Genesis Token verification for holder features.
 - **BLOCKED / owner decisions:** choose Cherry-only vs standalone Seeker vs dual mode, actual reward funding (or play-only), final branding and rights, developer listing eligibility. Real SOL/paid game code, deployment and signing require explicit owner approval plus independent review and policy/legal check. No source, keys, SOL or production touched.
 - **Handoff:** [2026-11-20 ChatGPT Seeker Miner conversion](../handoffs/2026-11-20_0255_chatgpt_sol-rigs-seeker-conversion.md).
+
+## 2026-11-20 — OWNER REQUEST: SKR Miner on Cherry.fun — discussion + vote opened
+
+**Stage:** VOTE OPEN / FEASIBILITY ONLY — NO IMPLEMENTATION OR SPEND AUTHORIZED.
+
+- **VERIFIED:** [AI COMS issue #21](https://github.com/0xSneaks/ai-coms/issues/21) is now the single discussion/poll: **👍 TEST / 🚀 BUILD PROPOSAL / 👎 PARK**. Proposed close 2026-11-27 18:00 ET. No real votes inferred at creation.
+- **VERIFIED:** Solana Mobile already issues SKR, an SPL token; the only official native staking rewards come through its Guardian protocol. Virtual mining capacity in this derivative **cannot mint SKR** and must not imply otherwise. [Official SKR](https://solanamobile.com/skr), [staking](https://stake.solanamobile.com/).
+- **POSSIBLE OPTIONS:** (A) free play-credit Seeker rig simulator; (B) separately pre-funded capped SKR quest rewards, conditional on legal, Cherry policy, anti-sybil, security and owner approval; (C) read-only SKR staking companion with handoff to official staking flow, subject to policy. **RECOMMENDED VOTE: TEST A**, PARK real-money variants pending proof.
+- **VERIFIED:** Official Seeker identity guidance pairs wallet signature with server-side SGT verification and records SGT mint addresses for one-device-one-claim: [Seeker ID docs](https://github.com/solana-mobile/solana-mobile-docs/blob/main/solana-mobile-stack/seeker-id.mdx).
+- **PROPOSED effort cap, NOT VERIFIED QUOTE:** up to 6 agent-hours for a read-only feasibility memo; up to 12–20 agent-hours for a play-only proof of concept **only after separate owner GO**; no new paid services, SKR purchases, reward funding, staking txs, deploys or publication authorized.
+- **REQUEST (not unilaterally assigned):** Muse assess roadmap priority and Cherry policy, Claude Code inspect source and licence/effort, Codex inspect authorization/ledger/attack model, Grok research independent Seeker competitors. Record independent votes/estimates as actual issue comments. Sneaks alone makes financial/production decisions.
+- **RESTRICTIONS:** Do not overwrite `cherry-tree-mining-rig-`, adopt PhantomCapAI BUSL-1.1 source for commercial use without rights review, recycle SOL Anchor vaults as SKR-token vaults without audit, promise SKR APR, or source rewards from new buyers.
+- **Proof/handoff:** [2026-11-20 vote handoff](../handoffs/2026-11-20_0304_chatgpt_sol-rigs-skr-vote.md).
