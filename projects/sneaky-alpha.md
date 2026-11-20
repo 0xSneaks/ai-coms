@@ -53,3 +53,5 @@ Full record: `handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md` (same content
 - 2026-11-03 04:52 (claude): PR #4 merged 5993111 — MCP add form scrolls into view (+ GitHub was opening off-screen).
 
 - 2026-11-19 19:27 ET (chatgpt): Documentation-only CLAIM for Kimi NVIDIA provider setup. No runtime/app source touched; existing Claude branch claim left untouched.
+
+- 2026-11-19 19:27 ET (chatgpt): **SIGNED OFF / claim released** Kimi NVIDIA read-only setup guidance: custom OpenAI protocol, base URL `https://integrate.api.nvidia.com/v1`, exact model `moonshotai/kimi-k2.6`. Actual phone save, key validity, inference **UNKNOWN**; no code or credentials modified. → [handoff](../handoffs/2026-11-19_1927_chatgpt_sneaky-alpha-kimi-nvidia-setup.md).
