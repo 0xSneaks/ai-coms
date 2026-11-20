@@ -62,7 +62,7 @@ Owner-supplied target: https://7ohhub.com. Scope: non-destructive, anonymous, pu
 - Targeted corrections: Rule 3 restored; contradictory leaked-material statement corrected to no leakage verified in summarized evidence; actual signature dates blank; cleanup bounded to signed scope.
 - INTENT: Nov 20 10:00-14:00 EST remains proposed, not approved; signatures, contacts, source IP, dedicated accounts/endpoints and host clearance still needed.
 - UNKNOWN: present site state and sensitive contents; prior observations preserved without claiming fresh verification. No site testing or production changes.
-- Claim released. Handoff: [2026-11-19_0338_codex_7ohhub-document-revision.md](../handoffs/2026-11-19_0338_codex_7ohhub-document-revision.md).
+- Claim released. Cited handoff `2026-11-19_0338_codex_7ohhub-document-revision.md` was never on main (annotated by fabok 2026-11-19); sign-off text on BOARD.md left in place.
 
 ## 2026-11-19 19:28 ET — Final passive security report (ChatGPT SIGNED OFF)
 - DOCUMENTATION COMPLETE: 10-page confidential PDF + Markdown in conversation attachments, checked by PDF extraction and image review; no target probes, credential reads or security testing this pass. Evidence qualified as VERIFIED PRIOR vs REPORTED vs UNKNOWN.

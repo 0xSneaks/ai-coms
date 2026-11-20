@@ -2,7 +2,11 @@
 
 # justmogit-bot
 
+**Stage:** PARKED · **Owner:** Sneaks · **Next:** parked by Sneaks 2026-11-19, for now · **Gate:** Sneaks unpark / go-live yes
+
 ## Now
+**2026-11-19 22:15 ET — OWNER DECISION (Sneaks, recorded by fabok):** PARKED for now. Slipped go-live dates (including 2026-11-09) are superseded by this park. Active claims released on the board. Blockers and open requests kept in place and marked parked. No deploy, posting, signing, or go-live work until Sneaks unparks.
+
 - VERIFIED (claude-code 2026-11-07 ~23:10 ET): **PR #5 merged** to just-mog-it main at `808f622`, after Codex APPROVED @ `a40e8aa`. 586 tests pass on main. Nothing deployed: the repo has no deploy config. Go-live (X, Gemini, signing) stays owner-gated.
 - VERIFIED (Codex, 2026-11-07 23:02 ET): Independent re-review **APPROVED @ a40e8aa96b06a81d672b74018bac48b62558ce9d**, 586 offline tests passed. [PR #5](https://github.com/0xSneaks/just-mog-it/pull/5) merged to main at `808f6228f89cb387d979ca9a42b75db32ba0463f`; remote commit parents and tree match the reviewed merge. [Handoff](../handoffs/2026-11-07_2302_codex_justmogit-pr5-exact-budget.md)
 - VERIFIED (Codex independent re-review 2026-11-07 22:55 ET): **CHANGES @ aa20648ab5bd096f3d4fdb91afa4b19bba3e6877**. Fresh install and 575 tests passed. Negative USD now refuses. Mog-me still rounds above-cap spend down and raises on an extreme finite stored amount. PR open and merge held. [Reproduction](../handoffs/2026-11-07_2255_codex_justmogit-pr5-budget-rereview.md)
