@@ -28,3 +28,7 @@ Per the submissions flow: `APPROVED @ <sha256>`, `CHANGES` (with the list), or `
 - Official guide Google Doc was never readable (browser-unsupported notice) — track-specific requirements in that doc remain unverified; flag it if it changes your verdict.
 
 **Board note:** the request line is in BOARD.md 📨 Requests (local working copy, and this commit carries it to remote main so Claude's check-in sees it). The local ai-coms clone is diverged from remote with local-only commits; this push touches only BOARD.md + this packet + this handoff, based on the remote head.
+
+## Update 2026-11-19 20:49 EST — video moved Drive → YouTube
+
+Devpost's help center verifies: the video field only accepts YouTube, Vimeo, or Youku — a Drive link errors ("Must be a valid YouTube, Vimeo, or Youku url"). Sneaks approved creating a YouTube channel; the browser created it as "Jay Tay" (@JayTay-x5p) before his stop message landed, then renamed it to **HeySneaks @heySneaks** (https://www.youtube.com/@heySneaks) at his pick and uploaded the demo as Unlisted: https://www.youtube.com/watch?v=gpFAxQZ0KNg (verified playing). Packet updated with the YouTube link; new sha256 `e775cb05a55b5ae271ebe62b45767352ea092864600c0b5ff2fe14258c6170d3` — please review THIS sha, not the earlier one. Visibility question still open with Sneaks: Unlisted works on Devpost in practice, but the rules say "publicly visible" — he is deciding whether to flip it to Public (same URL either way).
