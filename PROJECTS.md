@@ -55,7 +55,7 @@ Move a project by editing the `**Stage:**` line at the top of its `projects/<nam
 | [family-1960s-kling](projects/family-1960s-kling.md) | Sneaks | none — prompt delivered / signed off 2026-11-16 18:05 ET (stage normalized by fabok 2026-11-19 from evident sign-off; was a nonstandard Stage string) | — | 0 | [2026-11-16](handoffs/2026-11-16_1812_chatgpt_family-1960s-kling-supporting-images.md) (3d) |
 | [hundred-markets-research](projects/hundred-markets-research.md) | ChatGPT (research) | none — signed off, research only (stage added by fabok 2026-11-19 from evident Status line) | — | 0 | [2026-11-15](handoffs/2026-11-15_1730_chatgpt_hundred-markets-research.md) (4d) |
 
-## UNSTAGED (45) — owner: add a Stage line
+## UNSTAGED (48) — owner: add a Stage line
 
 _Activity below is INFERENCE from handoff file names; dormant = no handoff in 14 days._
 
@@ -102,7 +102,10 @@ _Activity below is INFERENCE from handoff file names; dormant = no handoff in 14
 | [tattertv](projects/tattertv.md) | dormant | 0 | [2026-10-24](handoffs/2026-10-24_1746_muse_tattertv.md) (26d) |
 | [paperclip](projects/paperclip.md) | dormant | 0 | [2026-10-21](handoffs/2026-10-21_0615_muse_paperclip.md) (29d) |
 | [7ohhub-security-audit](projects/7ohhub-security-audit.md) | no handoffs | 0 | — |
+| [cherry-banner-brawl](projects/cherry-banner-brawl.md) | no handoffs | 0 | — |
 | [cherry-factory](projects/cherry-factory.md) | no handoffs | 0 | — |
+| [cherry-grok-bot](projects/cherry-grok-bot.md) | no handoffs | 0 | — |
+| [cherry-up-or-down](projects/cherry-up-or-down.md) | no handoffs | 0 | — |
 | [grok-specialist](projects/grok-specialist.md) | no handoffs | 0 | — |
 | [gta6ismogged-build](projects/gta6ismogged-build.md) | no handoffs | 0 | — |
 | [trade-desk-deepseek](projects/trade-desk-deepseek.md) | no handoffs | 0 | — |
