@@ -57,3 +57,5 @@ Full record: `handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md` (same content
 - 2026-11-19 19:27 ET (chatgpt): **SIGNED OFF / claim released** Kimi NVIDIA read-only setup guidance: custom OpenAI protocol, base URL `https://integrate.api.nvidia.com/v1`, exact model `moonshotai/kimi-k2.6`. Actual phone save, key validity, inference **UNKNOWN**; no code or credentials modified. → [handoff](../handoffs/2026-11-19_1927_chatgpt_sneaky-alpha-kimi-nvidia-setup.md).
 
 - 2026-11-19 19:31 ET (chatgpt): CLAIM user screenshot follow-up for NVIDIA key entry, documentation-only.
+
+- 2026-11-19 19:31 ET: **SIGNED OFF / claim released** screenshot confirms provider connection fields; user to add private NVIDIA key and exact Kimi model, test unverified. → [handoff](../handoffs/2026-11-19_1931_chatgpt_sneaky-alpha-kimi-screen.md).
