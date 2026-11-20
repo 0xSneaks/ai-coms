@@ -28,11 +28,12 @@ Move a project by editing the `**Stage:**` line at the top of its `projects/<nam
 | [ai-coms](projects/ai-coms.md) | claude-code | muse-os-upgrade items 3–6 (48h owner rule for 'all' requests, status-word checks, generated STATE.md, per-agent usage files) | — | 5 | [2026-11-20](handoffs/2026-11-20_0736_codex_ai-coms-checkin.md) (0d) |
 | [cherry-up-or-down](projects/cherry-up-or-down.md) | muse | portal appIds + hosting + Pyth key + receiving wallet + ART (grok-bot); ship gate = Sneaks publishes | Sneaks publish; v2 SOL parked | 0 | [2026-11-20](handoffs/2026-11-20_0032_muse_cherry-up-or-down.md) (0d) |
 
-## REVIEW (2)
+## REVIEW (3)
 
 | Project | Owner | Next | Gate | Open req | Last handoff |
 |---|---|---|---|---|---|
 | [capagent](projects/capagent.md) | muse | Sneaks reviews the narrated demo cut and Claude reviews the submission packet before Sneaks submits via Devpost | Claude review and Sneaks’s final submission | 0 | [2026-11-19](handoffs/2026-11-19_2112_codex_capagent-demo-video.md) (1d) |
+| [cherry-antigravity](projects/cherry-antigravity.md) | grok-bot | Fix checkout recovery and order settlement in PR #1 | Codex re-review and Sneaks’s publish decision | 0 | [2026-11-20](handoffs/2026-11-20_0744_codex_cherry-antigravity.md) (0d) |
 | [hl-terminal-android](projects/hl-terminal-android.md) | claude-code (signed off 2026-11-13 02:14 ET; separate Claude verification requested) | independent Claude reviewer verifies exact SHA `a3e2454`; then owner decides merge/deploy | owner merge/deploy only; no trades/spend | 1 | [2026-11-13](handoffs/2026-11-13_0214_claude-code_hl-terminal-android.md) (7d) |
 
 ## LIVE (1)
@@ -55,14 +56,13 @@ Move a project by editing the `**Stage:**` line at the top of its `projects/<nam
 | [family-1960s-kling](projects/family-1960s-kling.md) | Sneaks | none — prompt delivered / signed off 2026-11-16 18:05 ET (stage normalized by fabok 2026-11-19 from evident sign-off; was a nonstandard Stage string) | — | 0 | [2026-11-16](handoffs/2026-11-16_1812_chatgpt_family-1960s-kling-supporting-images.md) (4d) |
 | [hundred-markets-research](projects/hundred-markets-research.md) | ChatGPT (research) | none — signed off, research only (stage added by fabok 2026-11-19 from evident Status line) | — | 0 | [2026-11-15](handoffs/2026-11-15_1730_chatgpt_hundred-markets-research.md) (5d) |
 
-## UNSTAGED (50) — owner: add a Stage line
+## UNSTAGED (49) — owner: add a Stage line
 
 _Activity below is INFERENCE from handoff file names; dormant = no handoff in 14 days._
 
 | Project | Activity | Open req | Last handoff |
 |---|---|---|---|
-| [cherry](projects/cherry.md) | active | 0 | [2026-11-20](handoffs/2026-11-20_0600_fabok_cherry-antigravity.md) (0d) |
-| [cherry-antigravity](projects/cherry-antigravity.md) | active | 1 | [2026-11-20](handoffs/2026-11-20_0600_fabok_cherry-antigravity.md) (0d) |
+| [cherry](projects/cherry.md) | active | 0 | [2026-11-20](handoffs/2026-11-20_0744_codex_cherry-antigravity.md) (0d) |
 | [sol-rigs](projects/sol-rigs.md) | active | 1 | [2026-11-20](handoffs/2026-11-20_0304_chatgpt_sol-rigs-skr-vote.md) (0d) |
 | [sneaky-alpha](projects/sneaky-alpha.md) | active | 1 | [2026-11-19](handoffs/2026-11-19_2152_muse_sneaky-alpha-nvidia-p1-web.md) (1d) |
 | [vw-lease-deal-review](projects/vw-lease-deal-review.md) | active | 0 | [2026-11-19](handoffs/2026-11-19_1625_chatgpt_vw-lease-deal-review.md) (1d) |
