@@ -1,8 +1,8 @@
-# Tidegauge — Hyperliquid whale and flow data, as a Cherry mini app
+# Antigravity — see where Hyperliquid money is flowing (Cherry mini app, raw data only)
 
 **Status:** OPEN 2026-11-20 (spec filed by Cherry Gap Bot). Not built, not deployed, no portal listing, no App ID.
 **Owner order:** Sneaks, 2026-11-20: "Ok so make it applicable to cherry where I can't get banned." and "Copy the repo and then update it to fit a cherry subscription plan."
-**Code:** private copy [0xSneaks/tidegauge-cherry](https://github.com/0xSneaks/tidegauge-cherry) (copy of [0xSneaks/hl-bot-v2](https://github.com/0xSneaks/hl-bot-v2) `main` @ `d71fdc2`, history kept). The original hl-bot-v2 / MOONBOYHL Telegram bot is **not touched** and keeps running separately as-is.
+**Code:** private copy [0xSneaks/antigravity](https://github.com/0xSneaks/antigravity) (copy of [0xSneaks/hl-bot-v2](https://github.com/0xSneaks/hl-bot-v2) `main` @ `d71fdc2`, history kept; Sneaks's private email in old merge commits masked to his GitHub noreply address, so `main` SHAs differ from hl-bot-v2). A superseded duplicate `0xSneaks/tidegauge-cherry` (created before the rename; the bot's GitHub token cannot rename or delete repos) should be deleted or archived by Sneaks. The original hl-bot-v2 / MOONBOYHL Telegram bot is **not touched** and keeps running separately as-is.
 **Build checklist:** `CHERRY_TODO.md` in the app repo. **Integration prompt:** `docs/CHERRY_INTEGRATION.md` in the app repo (placeholder until the portal's 6/7 prompt replaces it).
 
 > "Subscription plan" on Cherry = **one-time passes** that the user buys again. Cherry refuses recurring subscriptions below Partner (wallet.md). hl-bot-v2's passes are already one-time USDC payments that extend access (README "Paying again refills your time"); nothing in it auto-renews. We keep that model and drop the word "subscription" from the UI.
@@ -25,7 +25,7 @@ VERIFIED from https://portal.cherry.fun/docs/mini-apps/wallet.md: Unverified $50
 
 VERIFIED from https://portal.cherry.fun/docs/mini-apps/monetization.md: Sales = "Everything users pay you: items, entry fees, subscriptions, tips", 10% of what users pay; first $100/month of volume free; bill on the 1st, pay in USDC within 7 days or the app pauses; "You build nothing for fees: no fee code in your transactions"; every tx carries the app reference key (`withAppReference(ix, APP_ID)`, `sha256("cherry:app:" + appId)`).
 
-**Policy class: Tools / data (Sales). Not a restricted category IF the rules below hold.** The Telegram bot's `/scan` (entry/stop/TP1-3, leverage, "Risk % of account", LLM rationale) and its `/paid` pass for those setups are "signals for a fee" = Partner-only. Tidegauge sells the instrument, not the reading.
+**Policy class: Tools / data (Sales). Not a restricted category IF the rules below hold.** The Telegram bot's `/scan` (entry/stop/TP1-3, leverage, "Risk % of account", LLM rationale) and its `/paid` pass for those setups are "signals for a fee" = Partner-only. Antigravity sells the instrument, not the reading.
 
 ## Key changes vs the Telegram bot (MOONBOYHL)
 
@@ -38,12 +38,12 @@ VERIFIED from https://portal.cherry.fun/docs/mini-apps/monetization.md: Sales = 
 
 ## Pick card
 
-- **Name:** Tidegauge (no "Cherry"). Name check 2026-11-20: web search shows only a macOS system monitor and a DeepSeek plugin named Tidegauge, no crypto or Cherry app. "Deepwater" and "Undertow" were rejected (existing Solana/Hyperliquid whale-alert bots). Re-check Cherry's marketplace search at the portal step.
-- **One-line pitch (≤50):** `Hyperliquid whale and flow data, measured live` (46). Fallback: `Live Hyperliquid whale and flow data` (36).
+- **Name:** Antigravity (named by Sneaks 2026-11-20; no "Cherry"). Pitch direction from Sneaks: "See the direction traders are being pulled towards", kept neutral/data-only. Name check 2026-11-20: "Google Antigravity" is Google's AI coding IDE (launched Nov 2025) and appears all over Hyperliquid MCP/bot tutorials, so expect search confusion and some trademark risk; no Cherry or crypto-data app named Antigravity found. Sneaks's call; re-check Cherry's marketplace search at the portal step. Earlier working name "Tidegauge" is retired.
+- **One-line pitch (≤50):** `See where Hyperliquid money is flowing` (46). Fallback: `Live Hyperliquid whale and flow data` (36).
 - **Category:** Tools (not Trading, not Predictions). **Age rating:** 18+. **Money model:** Sales.
 - **Size:** **M.** Data engine, trackers, payment verifier and replay ledger already exist in Python; new work = a thin read-only HTTP API, Cherry auth, pass purchase flow, a 360px web front end, compliance shell and the copy lint.
-- **10-second loop:** open in a room → Tide Report loads (biggest whale move in the last hour, top 3 OI movers, funding extremes) → tap a whale move card → see the wallet's codename, position size, open price, liq distance → tap **Share to room** (`cherry.share`) → room sees the card, taps it, lands in Tidegauge.
-- **Repeat play:** daily Tide Report (resets 00:00 UTC), in-app alerts inbox for the user's own watchlist (coins and wallets), "days checked" streak badge (cosmetic only), weekly room recap card. Optional v1.1: Paper League on play credits (see Room hook).
+- **10-second loop:** open in a room → Flow Report loads (biggest whale move in the last hour, top 3 OI movers, funding extremes) → tap a whale move card → see the wallet's codename, position size, open price, liq distance → tap **Share to room** (`cherry.share`) → room sees the card, taps it, lands in Antigravity.
+- **Repeat play:** daily Flow Report (resets 00:00 UTC), in-app alerts inbox for the user's own watchlist (coins and wallets), "days checked" streak badge (cosmetic only), weekly room recap card. Optional v1.1: Paper League on play credits (see Room hook).
 - **Room hook (documented SDK only):** `cherry.share` posts a whale-move / OI-move card (coin, codename, size, time UTC, "Data only. Not financial advice.") into the room. `cherry.room` `{id, title, memberCount}` only to label the room recap and group the optional league board; no member lists, no scraping. Optional v1.1 **Paper League:** Up/Down on HL mark price with free daily play credits, room board in-app, nothing purchasable that affects play, nothing cashes out (free-to-play skill game per policy). Its copy uses Up/Down, never long/short, and it needs its own review before it ships.
 
 ## Feature map: Telegram source → Cherry build
@@ -66,7 +66,7 @@ VERIFIED from https://portal.cherry.fun/docs/mini-apps/monetization.md: Sales = 
 
 ## Screens (360px, dark, 44px targets)
 
-1. **Tide Report** (home, free): biggest tracked-whale move last hour, top 3 OI Δ, top 3 funding extremes, HIP-3 market count; Share button per card. Free tier data is 15 minutes delayed and labelled "15-min delayed".
+1. **Flow Report** (home, free): biggest tracked-whale move last hour, top 3 OI Δ, top 3 funding extremes, HIP-3 market count; Share button per card. Free tier data is 15 minutes delayed and labelled "15-min delayed".
 2. **Whale Board** (pass; free = top 5 delayed): tracked wallets by codename, positions, size, avg open price, liq distance, uPnL; Whale Clusters tab.
 3. **Coin page** (pass; free = BTC/ETH/SOL delayed): metrics grid per timeframe, funding history sparkline, OI Δ, 24h range, tracked-whale exposure.
 4. **Flow** (pass): funding and OI movers table across the universe incl. HIP-3 (`/dexs`).
@@ -81,13 +81,13 @@ VERIFIED from https://portal.cherry.fun/docs/mini-apps/monetization.md: Sales = 
 1. **Model:** Sales. The user pays for time-boxed access to data tools. Day-1 prices (USDC, one-time each):
    - **Pass 7d — $10.00**: 7 days of live (undelayed) Whale Board, Whale Clusters, Coin pages for every market incl. HIP-3, Flow table, watchlist (25 coins / 10 wallets), alert rules + inbox, 30-day history and CSV export.
    - **Pass 30d — $30.00**: same, 30 days.
-   - **Free:** Tide Report (15-min delayed), top 5 whales delayed, BTC/ETH/SOL coin pages delayed, 1 watchlist coin, share cards; one **12-hour full trial** per `cherry_id` (reuses `TRIAL_HOURS`).
+   - **Free:** Flow Report (15-min delayed), top 5 whales delayed, BTC/ETH/SOL coin pages delayed, 1 watchlist coin, share cards; one **12-hour full trial** per `cherry_id` (reuses `TRIAL_HOURS`).
    - Buying again extends: `new_until = max(now, paid_until) + days`. Nothing renews by itself.
    - Caps: both prices sit inside the **Unverified** $50/tx cap that every new app starts on (wallet.md + skill note: a new listing starts Unverified even for a verified developer). Under Unverified the $50/wallet/day cap allows one 30d + one 7d the same UTC day ($40) but not two 30d passes ($60); handle `POLICY_DENIED` `DAILY_LIMIT` with "Daily limit reached, try again tomorrow". Read the live `tier` claim; never hardcode limits.
 2. **Payment flow (builder):**
    1. `POST /api/session` — `verifyLaunchToken(token, { appId: APP_ID })` (issuer `https://chat.cherry.fun`, JWKS `https://chat.cherry.fun/.well-known/jwks.json`) **before anything else**; reject wrong aud/iss/app_id and expired tokens. Session in memory + `Authorization` header, no cookies. User key = `cherry_id ?? sub`. Read `tier`, `wallet`, `payment_wallet` claims.
    2. `POST /api/pass/order {plan}` — server creates `order_id`, fixed USD amount, plan, receiving address (from env, Sneaks to confirm), expiry 10 min. One open order per user.
-   3. Client builds one USDC `transferChecked` to the receiving address's USDC ATA (create-ATA-idempotent only if missing) for `paymentWallet` when set, plus an SPL Memo with `order_id`; `withAppReference(transferIx, APP_ID)` on the transfer instruction we control; shows plan + amount before signing; `signAndSendTransaction(tx, { label })`. Labels: `Tidegauge 7-day data pass ($10 USDC)` (36 chars) and `Tidegauge 30-day data pass ($30 USDC)` (37). **No Cherry fee in the tx.** One-time only: no approvals, delegation, durable nonce or recurring anything.
+   3. Client builds one USDC `transferChecked` to the receiving address's USDC ATA (create-ATA-idempotent only if missing) for `paymentWallet` when set, plus an SPL Memo with `order_id`; `withAppReference(transferIx, APP_ID)` on the transfer instruction we control; shows plan + amount before signing; `signAndSendTransaction(tx, { label })`. Labels: `Antigravity 7-day data pass ($10 USDC)` (36 chars) and `Antigravity 30-day data pass ($30 USDC)` (37). **No Cherry fee in the tx.** One-time only: no approvals, delegation, durable nonce or recurring anything.
    4. `POST /api/pass/confirm {order_id, signature}` — server runs the reused `verify_usdc_payment` (fail-closed: success, finalized, recent, USDC mint, receiving owner's USDC balance +amount via pre/post token balances) **plus**: amount == plan price exactly, signer/fee payer == session `payment_wallet ?? wallet`, memo == `order_id`, app reference key `sha256("cherry:app:"+APP_ID)` present, block time after order creation, signature not already in the replay ledger. Only then extend `paid_until`. Idempotent: the same signature confirms once, a second call returns the existing receipt.
    5. Errors: `USER_REJECTED` → quiet "Cancelled"; `TX_LIMIT` / `DAILY_LIMIT` / `FORBIDDEN_INSTRUCTION` / `APP_PAUSED` / `SIMULATION_FAILED` / `PRICE_UNAVAILABLE` / `PRECHECK_UNAVAILABLE` → wallet.md messages; `WALLET_CHANGED` / `NOT_A_SIGNER` → rebuild for the new wallet. No retry loops (Cherry may pause apps that keep sending refused txs).
    6. A **sign-only spike** first (build the real tx, `signTransaction`, never broadcast, record the host result) before UI work, per skill Phase 2.
@@ -118,11 +118,11 @@ Banned words (case-insensitive, whole word, UI copy + API text + share cards + l
 - **Python core as API:** add `api/` (FastAPI) in the private repo that imports `integrations/hyperliquid.py`, `scanner/flow.py`, `scanner/indicators.py` (metrics only), `trackers/wallet_tracker.py`, `services/correlation.current_wallet_confluence`, `core/solana_pay.py`, entitlements logic. Background poller reuses `services/cycles.py` minus setup jobs. Read-only market endpoints + session/pass endpoints. No Telegram process (`RUN_TELEGRAM=false` / separate entrypoint).
 - **Web mini app:** `web/` (Vite or Next.js), `@cherrydotfun/miniapp-sdk` latest (+ `/solana`), 360px dark, skeleton first frame, `cherry:ready` < 5 s, `isInsideCherry()` for first render, `useCherryUser()` for name/avatar. No connect-wallet button and no signMessage login inside Cherry.
 - **Headers:** CSP `frame-ancestors 'self' https://chat.cherry.fun https://cherry.fun https://*.cherry.fun` on every HTML response, no X-Frame-Options. `/.well-known/cherry-app.json` → `{"appId":"<App ID>"}`, 200 JSON, no redirect or SPA fallback. `/api/health` reports Cherry identity configured.
-- **Telegram bot:** stays in hl-bot-v2, untouched, separate DB and process. Nothing from it is linked from Tidegauge.
+- **Telegram bot:** stays in hl-bot-v2, untouched, separate DB and process. Nothing from it is linked from Antigravity.
 
 ## Art (console-grade bar, Sneaks 2026-11-19)
 
-Near-PS4/PS5 cinematic look: deep-ocean abyss scene, volumetric god-rays through dark water, bioluminescent whale silhouettes, a brass-and-glass tide-gauge instrument as the hero object with depth-of-field and caustics, data rendered as glowing sonar rings. Jewel teal/cyan on near-black with warm brass accents. No candles, arrows up/down, rockets, moons, money or "gains" imagery. No Cherry marks. Deliver: 512×512 icon (5% black padding), 1200×630 cover (logo left, name + pitch right), 9:16 splash, share-card frame (1200×630, with the disclaimer slot), whale-move card backgrounds ×3, subtle sonar-ping FX sprite sheet. In-app: WebGL/pre-rendered backgrounds lazy-loaded after `cherry:ready`; data tables stay crisp text.
+Near-PS4/PS5 cinematic look on the antigravity theme, read as "forces", not "price goes up": a dark zero-g observatory where capital is visualised as orbiting particles drawn into gravity wells (one well per market, size = open interest, glow = funding), whale positions as massive slow-moving bodies bending the field, volumetric light, depth of field, lens flares, glassy holographic HUD. Palette: deep space near-black, ion-blue/violet with warm amber for the biggest wells. No rockets, moons, upward arrows, candles, money stacks or "gains" imagery (the name must not read as "number goes up"). No Cherry marks, no Google Antigravity look-alike marks. Deliver: 512×512 icon (5% black padding), 1200×630 cover (logo left, name + pitch right), 9:16 splash, share-card frame (1200×630, with the disclaimer slot), whale-move card backgrounds ×3, particle-orbit / gravity-ripple FX sprite sheet. In-app: WebGL/pre-rendered backgrounds lazy-loaded after `cherry:ready`; data tables stay crisp text.
 
 ## Acceptance tests
 
