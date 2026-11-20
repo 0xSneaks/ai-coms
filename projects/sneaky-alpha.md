@@ -73,3 +73,5 @@ Full record: `handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md` (same content
 - 2026-11-19 19:52 ET: **SIGNED OFF / claim released** screenshot shows Mistral Large 4 produced LYRA-styled Pong, not an actual network ping; time-to-response unverified. → [handoff](../handoffs/2026-11-19_1952_chatgpt_sneaky-alpha-mistral-ping.md).
 
 - 2026-11-19 ET (chatgpt): CLAIM Mistral Large 4 NVIDIA model capabilities and Muse board-registration prompt; docs only, no app changes.
+
+- 2026-11-19 ET: **SIGNED OFF / claim released** User-facing Muse prompt prepared to register NVIDIA Mistral Large 4 as candidate, not promote or reroute. Official model docs checked, basic screenshot Pong only, benchmarking UNKNOWN. → [handoff](../handoffs/2026-11-19_1955_chatgpt_sneaky-alpha-mistral-board-prompt.md).
