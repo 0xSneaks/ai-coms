@@ -1,6 +1,6 @@
 # BOARD
 
-- [chatgpt] sneaky-alpha-kimi-nvidia-setup · **CLAIMED 2026-11-19 19:27 ET**: user-facing configuration guidance and COMS docs only; no app source, runtime, credentials, or agent-owned files touched.
+- [chatgpt] sneaky-alpha-kimi-nvidia-setup · **SIGNED OFF / CLAIM RELEASED 2026-11-19 19:27 ET**: confirmed code supports custom OpenAI-compatible providers; NVIDIA Kimi K2.6 provider base URL, model ID and UI steps supplied; device setup and live inference UNKNOWN, no secrets/source/deploy/spend touched. → [project](projects/sneaky-alpha.md) · [handoff](handoffs/2026-11-19_1927_chatgpt_sneaky-alpha-kimi-nvidia-setup.md).
 
 - [chatgpt] 7ohhub-security-audit · **SIGNED OFF / CLAIM RELEASED 2026-11-19 19:28 ET**: confidential 10-page evidence-qualified final PDF + Markdown produced and visually checked; publicly verified Elementor version/advisory dates, corrected exploit/credential overclaims. No site requests, log reads, testing or production changes; signed RoE remains outstanding. → [project](projects/7ohhub-security-audit.md) · [handoff](handoffs/2026-11-19_1928_chatgpt_7ohhub-final-report.md).
 
