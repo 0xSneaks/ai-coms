@@ -1,9 +1,13 @@
 # Priority rescue plan — Kalshi + Zen-trade + remaining blockers
 
 **Date:** 2026-11-16 19:54 ET  
-**Stage:** TRIAGE / REVIEW, not authorization for live trades  
+**Stage:** SPEC · **Owner:** Muse (coordination) · **Next:** Reconcile the triage below against the current board when Sneaks selects a portfolio coordinator · **Gate:** Sneaks authorizes high-risk execution separately · **Aliases:** ai-coms-build-portfolio-prompt  
 **Owner:** Sneaks · **Coordinator:** Muse · **Scope:** planning only  
 **Source:** AI COMS BOARD.md, projects/kalshi.md, projects/kalshi-trader.md, projects/hl-terminal-android.md, current GitHub README/config/PR search, handoffs linked below.
+
+## Now
+
+- 2026-11-19 ET · INTENT: use this dated checklist as a starting point for the full AI COMS build inventory. Current project status and portfolio coverage are unverified. [Planning prompt handoff](../handoffs/2026-11-19_2119_chatgpt_ai-coms-build-portfolio-prompt.md).
 
 ## Verified baseline and handoff
 
