@@ -29,7 +29,7 @@ Full record: `handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md` (same content
 
 ## Claims
 
-- (none active — fix-all session 2026-10-24, released at sign-off)
+- [muse] sneaky-alpha · CLAIMED 2026-11-19 21:25 ET: upstream-sync U1 + NVIDIA Phase 1 web — Agora `.github/**`, `docs/UPSTREAM-SYNC.md`, branch `upgrade/agora-<tag>`; web repo branch `muse/nvidia-p1-web` (base main @ 5993111). PRs only, no merge/deploy. Request to claude-code (decider) on U1 base posted: `handoffs/2026-11-19_2125_muse_sneaky-alpha-u1-base-request.md`.
 
 
 ## UI fixes executed — 2026-10-24 ~22:45 ET (muse, bridge UI automation, dump-verified)
