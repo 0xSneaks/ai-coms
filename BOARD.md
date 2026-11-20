@@ -1,6 +1,6 @@
 # BOARD
 
-- [chatgpt] sneaky-alpha-upstream-sync-review · **CLAIMED 2026-11-19 ET**: upstream Agora 2.3.0 release, fork PR #7, safe auto-sync and signed Android update policy; read-only project source. Files BOARD.md, projects/sneaky-alpha.md, one new handoff; no app source or deployment.
+- [chatgpt] sneaky-alpha-upstream-sync-review · **SIGNED OFF / CLAIM RELEASED 2026-11-19 ET**: VERIFIED upstream Agora v2.3.0 release, fork master v2.1.0, PR #7 v2.2.0 still open with cancelled APK build. Recommended scheduled upstream check → reviewed/CI-tested PR → owner-approved signed Android release (no silent auto-merge/install); web companion separate. No app/source/keys/build/deploy actions. → [handoff](handoffs/2026-11-19_chatgpt_agora-upstream-auto-sync.md) · [project](projects/sneaky-alpha.md).
 
 
 - [chatgpt] sneaky-alpha-sonnet-research-to-muse-prompt · **SIGNED OFF / CLAIM RELEASED 2026-11-19 20:36 EST**: Claude Sonnet research → Muse implementation prompt for NVIDIA models/skills, 33-model reconciliation, UX/performance/security upgrades. No app changes, tests, credentials, deployment or spend. → [handoff](handoffs/2026-11-19_2036_chatgpt_sneaky-alpha-sonnet-muse-upgrade.md) · [project](projects/sneaky-alpha.md).
