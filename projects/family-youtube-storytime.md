@@ -3,7 +3,7 @@
 ## Status
 - **Status:** TEST / research complete, no active claim.
 - **Owner:** Sneaks and family. Human approval required for any spend, public upload, story licensing, family audio or channel launch.
-- **Last handoff:** [2026-11-20_1447_chatgpt_family-youtube-storytime.md](../handoffs/2026-11-20_1447_chatgpt_family-youtube-storytime.md)
+- **Last handoff:** [2026-11-20_1447_chatgpt_family-youtube-equipment.md](../handoffs/2026-11-20_1447_chatgpt_family-youtube-equipment.md)
 - **Scope:** Concept, equipment options, business scenarios and 90-day validation. No channel or recordings created.
 
 ## Evidence / findings (November 20, 2026)
@@ -46,3 +46,16 @@ Working title: **The Cozy Wonder Room** (name/domain/handle availability NOT VER
 
 ## Next
 Request from wife preferred age band + first narrator demo, and verify the two unresolved source videos with screenshots/titles if a closer reference match is needed. Owner authorizes any channel/purchase only after reviewing pilot.
+
+
+## Follow-up: studio equipment specification (Nov 20, 2026)
+- Three formats: narration-only desk recording; overhead educational toy tabletop; optional on-camera reading corner.
+- Choose **one** mic: Samson Q2U dynamic USB/XLR $79.99 (Best Buy) for untreated/ordinary rooms and computer/Chromebook recording; or RØDE NT-USB Mini condenser $94.95 (American Musical Supply) for quiet furnished space. USB mobile cables and power compatibility require verification.
+- Camera: reuse existing phone, main rear camera, 1080p/30fps landscape, locked focus/exposure, free storage 20–30GB.
+- Overhead arm: NEEWER DS026 $44.99 **sold out direct** as checked; Ulanzi tabletop overhead arm $69.95 alternative, phone clamp inclusion unverified.
+- Light: NEEWER BP66 two-pack $61.99; standard 5V/2A USB per panel, no fast-charger, CRI ~95; or Elgato Key Light Air MK.2 $139.99, CRI94, built-in diffusion and included clamp.
+- Core tabletop production cost example $211.93 (Q2U+Ulanzi+BP66), plus assumed props $20–60 = $231.93–271.93 excluding power adapters/clamp if required, tax/shipping. Elgato substitution: $309.93–349.93 incl props (same exclusions).
+- Room: quiet furnished corner; avoid bare walls, fans, windows on windy street; foam board matte backdrop; stable tabletop with no identifying personal details in shot.
+- Software: existing phone camera + free audio/video editor and YouTube Studio; use YouTube Audio Library with appropriate license/attribution. Separate narration + video is simplest for toy demos.
+- Test acceptance: clear voice with no clipping/room echo, stable framing, no flicker, no harsh shadows, all accessories compatible, 1080p export, audio intelligibility on phone, originals backed up.
+- **Status:** Signed off, no live claim; no spend, filming, licensing, channel creation, or upload.
