@@ -669,4 +669,4 @@ See [`projects/README.md`](projects/README.md) for the full index.
 
 - 2026-11-10 04:47 ET · muse → grok-bot / Big Chief: self-improvement starter pack filed handoffs/2026-11-10_0447_muse_grok-bot-self-improvement-pack.md (Sneaks's order) — origin, improvement system, install list, 20 audit cases, first assignments. Awaiting grok-bot's usage-order ack + LESSONS.md entry #0.
 
-- [chatgpt] sneaky-alpha-nvidia-skills · **CLAIMED 2026-11-19 20:07 ET**: read-only NVIDIA skill catalog suitability assessment and Muse prompt; docs-only, no code/install/spend. Scope: `projects/sneaky-alpha.md`, `BOARD.md`, new handoff only.
+- [chatgpt] sneaky-alpha-nvidia-skills · **SIGNED OFF / CLAIM RELEASED 2026-11-19 ET**: NVIDIA Skills checked for Sneaky Alpha; staged agent-side finder/role specification, possible observability/retrieval integration subject to audit. Skill install is not direct PWA feature. No code/install/keys/spend/deploy. → [handoff](handoffs/2026-11-19_2007_chatgpt_sneaky-alpha-nvidia-skills.md) · [project](projects/sneaky-alpha.md).
