@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt] sneaky-alpha-nvidia-model-catalog · **CLAIMED 2026-11-19 19:35 ET**: explain read-only auto-discovered NVIDIA models from user screenshot and Android source; no code, credentials, provider changes.
+
 - [chatgpt] sneaky-alpha-kimi-nvidia-screen · **SIGNED OFF / CLAIM RELEASED 2026-11-19 19:31 ET**: screen verified Base URL/OpenAI/Responses API OFF, user instructed NVIDIA key/model setup; no credentials exposed, no live inference verified, no source/spend. → [handoff](handoffs/2026-11-19_1931_chatgpt_sneaky-alpha-kimi-screen.md) · [project](projects/sneaky-alpha.md).
 
 - [chatgpt] sneaky-alpha-kimi-nvidia-setup · **SIGNED OFF / CLAIM RELEASED 2026-11-19 19:27 ET**: confirmed code supports custom OpenAI-compatible providers; NVIDIA Kimi K2.6 provider base URL, model ID and UI steps supplied; device setup and live inference UNKNOWN, no secrets/source/deploy/spend touched. → [project](projects/sneaky-alpha.md) · [handoff](handoffs/2026-11-19_1927_chatgpt_sneaky-alpha-kimi-nvidia-setup.md).
