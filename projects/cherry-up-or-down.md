@@ -1,7 +1,7 @@
 # Up or Down
 
-**Status:** OPEN · **Owner:** Cherry Gap Bot (spec) · **Repo:** none yet · **Live URL:** none · **Last updated:** 2026-11-20 00:01 ET by fabok
-**Stage:** BUILD · **Owner:** fabok · **Next:** remaining 8 pair listings + ART + ship gate · **Gate:** Sneaks publish; v2 SOL parked
+**Status:** OPEN · **Owner:** Cherry Gap Bot (spec) · **Repo:** none yet · **Live URL:** none · **Last updated:** 2026-11-20 00:14 ET by fabok
+**Stage:** BUILD · **Owner:** muse · **Next:** fill out v1 from projects/cherry-up-or-down/app/ (appIds, launch-token verify, remaining 8 pairs, ART, hosting); ship gate = Sneaks publishes · **Gate:** Sneaks publish; v2 SOL parked
 
 ## Now
 
@@ -14,6 +14,26 @@ Sneaks's scope (same day): own both the single-pair slots and the all-in-one slo
 Fabok signed off a local scaffold 2026-11-19 23:53 ET: engine + Coins hub + BTC template at `/workspace/cherry/up-or-down` (play-credits only; no Kalshi API; no deploy). Shots: [hub](../handoffs/assets/2026-11-19-cherry-up-or-down/screenshot-hub-360.png), [BTC](../handoffs/assets/2026-11-19-cherry-up-or-down/screenshot-btc-360.png). That scaffold already keeps stake currency behind a `StakeCurrency` adapter with play-credits as the only implementation — that is the abstract stake interface v1 must keep so v2 can swap in SOL.
 
 Fabok signed off the v1 credits economy 2026-11-20 00:01 ET on the same local path: daily claim 200 / soft cap 2,000, tickets 10/25/50/100, idempotent ledger (`cherry_id ?? sub`), exposure caps (`E_round` 10,000), configurable feed-stale breaker, cosmetics stub (no payment/wallet), ticket + claim + settlement UI on the hub and BTC screens. Tests + `vite build` green. Shots: [hub](../handoffs/assets/2026-11-20-cherry-up-or-down/screenshot-hub-360.png), [BTC](../handoffs/assets/2026-11-20-cherry-up-or-down/screenshot-btc-360.png). Still local only — no deploy, no SOL fund-moving code. → [handoff](../handoffs/2026-11-20_0001_fabok_cherry-up-or-down.md).
+
+Fabok copied that scaffold into this repo at [app/](cherry-up-or-down/app/) on 2026-11-20 00:14 ET, with a run/architecture README, and filed a request for Muse to fill out the rest (see **Next**). No deploy, no secrets, no SOL fund-moving code. → [handoff](../handoffs/2026-11-20_0014_fabok_cherry-up-or-down.md).
+
+
+## Next
+
+Sneaks routed remaining v1 fill-out to **Muse** (2026-11-20: "Push what's needed in coms and I'll have muse fill out the rest."). Start from [app/](cherry-up-or-down/app/) and its [README](cherry-up-or-down/app/README.md). The board request is `[fabok → muse] cherry-up-or-down`.
+
+Muse should:
+
+1. Real `appId`s and `/.well-known/cherry-app.json` per listing (hub + 9 pairs, each on its own origin).
+2. Server-side launch-token verify (replace `app/server/auth-stub.ts`; key users by `cherry_id ?? sub`).
+3. Wire `VITE_PYTH_API_KEY` once Sneaks provides it. Never commit the key.
+4. Cosmetics checkout + receiving wallet after Sneaks confirms the wallet: `withAppReference` + ≤80-char label; unlock only after confirmation.
+5. Remaining 8 pair apps from the BTC template.
+6. ART to the console-grade bar (icon / cover / in-app).
+7. 5M / Daily / Weekly / Monthly tabs + Crypto Leader race.
+8. Hosting + CSP + private test rooms.
+
+**Ship gate:** Sneaks publishes. **v2 SOL** stays parked at [v2-sol-partner.md](cherry-up-or-down/v2-sol-partner.md) — do not implement fund-moving SOL. **Hard rules:** credits never sold or cashed out; no deploy, publish, or spend without Sneaks's yes.
 
 ## Family (no "Cherry" in any name)
 
@@ -36,7 +56,7 @@ Other name ideas (rejected for v1, kept if a listing is taken): Markline, Tape C
 
 One shared engine / back end, ten front-end listings.
 
-**Shared engine (one deployable service):** N(d) pricing, constant-spread house book, Pyth 60-second settlement, **abstract stake interface** (v1 = play-credits), exposure caps, feed-stale circuit breaker, credits ledger, cosmetics store, room leaderboards, sale ledger. No app UI code in this repo; this file is the spec only.
+**Shared engine (one deployable service):** N(d) pricing, constant-spread house book, Pyth 60-second settlement, **abstract stake interface** (v1 = play-credits), exposure caps, feed-stale circuit breaker, credits ledger, cosmetics store, room leaderboards, sale ledger. This file remains the spec. The v1 play-credits scaffold now lives at [app/](cherry-up-or-down/app/) (Sneaks 2026-11-20: push what's needed in coms so Muse can fill out the rest). Do not commit secrets, `.env` files, `node_modules`, or `dist`.
 
 **Ten listings:** each front end is its own Cherry mini app with its **own `appId`** and its own `/.well-known/cherry-app.json` on its own origin. Subdomains are fine (example shape, not a claim of a live domain: `hub.example`, `btc.example`, …). Each listing verifies launch tokens for **its** `appId`.
 
@@ -430,9 +450,9 @@ CONSOLE-GRADE (Sneaks 2026-11-19): near-PS4/PS5 — cinematic 3D, volumetric lig
 
 ## Tasks
 
-### BUILD — Fabok (lead)
+### BUILD — Muse (fill-out, as of 2026-11-20)
 
-Shared engine first, then the hub, then the nine single-pair apps from one template.
+Fabok delivered the local shared engine, Coins hub, and BTC template (now at [app/](cherry-up-or-down/app/)). Sneaks asked Muse to fill out the rest. Shared engine first, then the hub, then the nine single-pair apps from one template.
 
 Acceptance:
 

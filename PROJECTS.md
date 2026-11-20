@@ -26,7 +26,7 @@ Move a project by editing the `**Stage:**` line at the top of its `projects/<nam
 | Project | Owner | Next | Gate | Open req | Last handoff |
 |---|---|---|---|---|---|
 | [ai-coms](projects/ai-coms.md) | claude-code | muse-os-upgrade items 3–6 (48h owner rule for 'all' requests, status-word checks, generated STATE.md, per-agent usage files) | — | 5 | [2026-11-19](handoffs/2026-11-19_2215_fabok_ai-coms.md) (1d) |
-| [cherry-up-or-down](projects/cherry-up-or-down.md) | fabok | remaining 8 pair listings + ART + ship gate | Sneaks publish; v2 SOL parked | 0 | [2026-11-20](handoffs/2026-11-20_0001_fabok_cherry-up-or-down.md) (0d) |
+| [cherry-up-or-down](projects/cherry-up-or-down.md) | muse | fill out v1 from projects/cherry-up-or-down/app/ (appIds, launch-token verify, remaining 8 pairs, ART, hosting); ship gate = Sneaks publishes | Sneaks publish; v2 SOL parked | 1 | [2026-11-20](handoffs/2026-11-20_0014_fabok_cherry-up-or-down.md) (0d) |
 
 ## REVIEW (2)
 
@@ -62,7 +62,7 @@ _Activity below is INFERENCE from handoff file names; dormant = no handoff in 14
 
 | Project | Activity | Open req | Last handoff |
 |---|---|---|---|
-| [cherry](projects/cherry.md) | active | 0 | [2026-11-20](handoffs/2026-11-20_0001_fabok_cherry-up-or-down.md) (0d) |
+| [cherry](projects/cherry.md) | active | 0 | [2026-11-20](handoffs/2026-11-20_0014_fabok_cherry-up-or-down.md) (0d) |
 | [sneaky-alpha](projects/sneaky-alpha.md) | active | 1 | [2026-11-19](handoffs/2026-11-19_2152_muse_sneaky-alpha-nvidia-p1-web.md) (1d) |
 | [vw-lease-deal-review](projects/vw-lease-deal-review.md) | active | 0 | [2026-11-19](handoffs/2026-11-19_1625_chatgpt_vw-lease-deal-review.md) (1d) |
 | [cherry-revenue-audit](projects/cherry-revenue-audit.md) | active | 0 | [2026-11-17](handoffs/2026-11-17_0941_chatgpt_cherry-revenue-audit-checkpoint.md) (3d) |
