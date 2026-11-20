@@ -29,7 +29,7 @@ Full record: `handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md` (same content
 
 ## Claims
 
-- [muse] sneaky-alpha · CLAIMED 2026-11-19 21:25 ET: upstream-sync U1 + NVIDIA Phase 1 web — Agora `.github/**`, `docs/UPSTREAM-SYNC.md`, branch `upgrade/agora-<tag>`; web repo branch `muse/nvidia-p1-web` (base main @ 5993111). PRs only, no merge/deploy. Request to claude-code (decider) on U1 base posted: `handoffs/2026-11-19_2125_muse_sneaky-alpha-u1-base-request.md`.
+- [muse] sneaky-alpha · CLAIMED 2026-11-19 21:25 ET: upstream-sync U1 — Agora `.github/**`, `docs/UPSTREAM-SYNC.md`, branch `upgrade/agora-<tag>`. Waiting on claude-code's U1-base answer. NVIDIA Phase 1 web DONE (PRs #6–#8, 2026-11-19 21:52 ET).
 
 
 ## UI fixes executed — 2026-10-24 ~22:45 ET (muse, bridge UI automation, dump-verified)
@@ -89,3 +89,15 @@ Full record: `handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md` (same content
 - 2026-11-19 20:36 EST (chatgpt): **SIGNED OFF / claim released** Claude Sonnet research-to-Muse prompt delivered. Includes provider/API/catalog 33-model discrepancy analysis, free-usage verification, skills review, app tuning, measurable acceptance tests and controlled PR gate. No app source/config/test/credentials/deploy/spend touched. → [handoff](../handoffs/2026-11-19_2036_chatgpt_sneaky-alpha-sonnet-muse-upgrade.md).
 
 - 2026-11-19 ET (chatgpt): **SIGNED OFF / claim released** Agora v2.3.0 upstream review and safe auto-upgrade recommendation. Current Android fork v2.1.0; PR #7 v2.2.0 open, build cancelled. Recommend upgrade-to-v2.3.0 PR, CI+Seeker tests, scheduled upstream PR sync with owner merge/install gates. No app source/config/keys/deploy modified. → [handoff](../handoffs/2026-11-19_chatgpt_agora-upstream-auto-sync.md).
+
+
+## NVIDIA Phase 1 web — DONE 2026-11-19 21:52 ET (muse)
+
+**Stage:** 3 DRAFT PRs open · **Owner:** muse · **Next:** owner merge decision; claude-code U1-base answer gates all Android work · **Gate:** Sneaks
+
+- PR #6 (P1-A + P1-C): model-fetch diagnostics + `refreshModels` prune — branch `muse/nvidia-p1ac-web` @ `964d255a`, 12 files +359/−32. https://github.com/0xSneaks/0x-sneaky-alpha/pull/6 — vitest 77/77, e2e chromium-iphone 8/8.
+- PR #7 (P1-B): NVIDIA proxy edge functions + provider preset — branch `muse/nvidia-p1-web` @ `89fac2f8`, 8 files +334/−2. https://github.com/0xSneaks/0x-sneaky-alpha/pull/7 — vitest 88/88, e2e 8/8. CORS need supported from spoofed origin, UNPROVEN from a Vercel preview origin (follow-up after the PR exists). Production deploy = OWNER GATE.
+- PR #8 (P1-D + P1-E): error classification + `stream_options` fallback — branch `muse/nvidia-p1de-web` @ `ca9d72c3`, 6 files +275/−23. https://github.com/0xSneaks/0x-sneaky-alpha/pull/8 — vitest 97/97, e2e 8/8.
+- Base main @ `5993111` for all three; typecheck clean everywhere; `npm ci` clean everywhere. WebKit e2e not runnable in this VM (missing system libs) — pre-existing gap. No live NVIDIA calls, no key, no GLM/z-ai, no merge, no deploy.
+- U1 Android still blocked on claude-code's U1-base answer (request `handoffs/2026-11-19_2125_muse_sneaky-alpha-u1-base-request.md`).
+- Full record: `handoffs/2026-11-19_2152_muse_sneaky-alpha-nvidia-p1-web.md`
