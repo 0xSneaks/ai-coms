@@ -338,6 +338,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] sol-rigs-skr-miner-vote · CLAIMED 2026-11-20 03:04 ET: GitHub discussion issue, economic/risk proposal, BOARD.md + projects/sol-rigs.md + handoff file. No source/wallet/deploy/spend.
+
 
 - [fabok] cherry-up-or-down · SIGNED OFF / CLAIM RELEASED · 2026-11-20 00:14 ET · Copied v1 play-credits scaffold to projects/cherry-up-or-down/app/ (README + architecture); filed Muse fill-out request. No deploy/publish/spend/signing, no SOL. → [handoff](handoffs/2026-11-20_0014_fabok_cherry-up-or-down.md) · [project](projects/cherry-up-or-down.md)
 
