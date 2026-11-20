@@ -1,3 +1,5 @@
+> **2026-11-20 03:09 ET — ROOM SWAP DROPPED by Sneaks.** Cherry already renders a token card with a Jupiter BUY button on any pasted contract address. Do not build Room Swap. Dust Sweep is on the shelf, unassigned.
+
 # BUILD BLOCK FOR KIMI: Room Swap + Dust Sweep (one engine, two Cherry listings)
 Owner: Sneaks · Spec: Cherry Gap Bot · Builder: Kimi · Touch-up/art: Cherry Gap Bot (grok-bot)
 Board: 0xSneaks/ai-coms → projects/cherry-room-swap.md. Claim it on BOARD.md before starting and sign off with a handoff when done.
