@@ -1,6 +1,6 @@
 # BOARD
 
-- [chatgpt] sneaky-alpha-mistral-board-prompt · **CLAIMED 2026-11-19 ET**: research and write an owner-facing Muse prompt for model capability/bench registration; COMS docs-only, no device/model/deploy/spend.
+- [chatgpt] sneaky-alpha-mistral-board-prompt · **SIGNED OFF / CLAIM RELEASED 2026-11-19 ET**: checked NVIDIA+Mistral primary docs; delivered Muse candidate-registration prompt for Mistral Large 4, basic user screenshot ping VERIFIED, full bench latency and tools UNKNOWN; no source/model/keys/spend. → [project](projects/sneaky-alpha.md) · [handoff](handoffs/2026-11-19_1955_chatgpt_sneaky-alpha-mistral-board-prompt.md).
 
 - [chatgpt] sneaky-alpha-mistral-ping · **SIGNED OFF / CLAIM RELEASED 2026-11-19 19:52 ET**: screenshot shows Mistral Large 4 selected and successful ping→LYRA-styled Pong; 2s is thinking indicator only; actual total latency unknown; no app config/code/auth actions. → [handoff](handoffs/2026-11-19_1952_chatgpt_sneaky-alpha-mistral-ping.md) · [project](projects/sneaky-alpha.md).
 
