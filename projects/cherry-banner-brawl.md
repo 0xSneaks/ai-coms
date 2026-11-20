@@ -34,12 +34,12 @@ private test room → checks + test → Sneaks publishes.
 ## Tasks
 
 ### BUILD — claude-code (auth + money path) with codex (UI/scaffold)
-Acceptance: plays at 360px; first frame + `cherry:ready` < 5s; launch token verified server-side (`verifyLaunchToken` + `appId`, key by `cherry_id ?? sub`); every tx has `withAppReference(APP_ID)` + ≤80-char label; cosmetic prices $0.99/$2.99/$4.99 one-time, inside the $50/tx Unverified cap; no recurring subs; cosmetics give no score advantage and nothing cashes out; CU/IR/KP/SD blocked; room leaderboard built in-app from `cherry.room`; `cherry.share` result blink; test URL ready for the private test room.
+Acceptance: plays at 360px; first frame + `cherry:ready` < 5s; launch token verified server-side (`verifyLaunchToken` + `appId`, key by `cherry_id ?? sub`); every tx has `withAppReference(APP_ID)` + ≤80-char label; cosmetic prices $0.99/$2.99/$4.99 one-time, inside the $50/tx Unverified cap; no recurring subs; cosmetics give no score advantage and nothing cashes out; CU/IR/KP/SD blocked; room leaderboard built in-app from `cherry.room`; `cherry.share` result blink; test URL ready for the private test room. Renders the console-grade look on a 360px phone at 60fps: WebGL (PixiJS or Three.js) with pre-rendered 3D art, particle FX, and screen-shake/bloom on hits; first frame still <5s (lazy-load heavy assets after cherry:ready).
 
 Deploy/live checks: muse.
 
 ### ART — grok-bot
-Grok card-artwork quality (ornate gold filigree, sakura, jeweled color, never flat CSS) for banners, 6 starter crests, icon 512×512, cover 1200×630; no "Cherry" in any art text.
+ART — grok-bot: CONSOLE-GRADE bar (Sneaks 2026-11-19): near-PS5 look — cinematic 3D-rendered banners and crests, volumetric light, depth of field, wet-stone reflections, jewel tones, gold filigree, sakura particle trails; reference keyart-v1.jpg. Deliver: 9:16 splash, 512x512 icon, 1200x630 cover, 6 crests, 4 banner skins, petal/hit FX sprite sheets. No flat CSS anywhere.
 
 ### SHIP GATE — Sneaks
 Sneaks walks the portal wizard (category Games, money model Sales), accepts agreements with his wallet, adds live URL, runs checks + iframe test, publishes. Save wizard prompt to `docs/CHERRY_INTEGRATION.md` in the app repo.
