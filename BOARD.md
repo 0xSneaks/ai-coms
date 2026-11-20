@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt] sneaky-alpha-five-model-comparison · **CLAIMED 2026-11-19 ET**: source-grounded model use-case and AI COMS role comparison; docs-only (BOARD, project, unique handoff), no model routing/keys/code/tests/spend.
+
 - [chatgpt] sneaky-alpha-free-endpoint-list · **SIGNED OFF / CLAIM RELEASED 2026-11-19 ET**: verified five advertised NVIDIA free developer endpoints from screenshots; only Mistral confirmed chat response; no unlimited/production use established, no code/keys/spend. → [handoff](handoffs/2026-11-19_1959_chatgpt_sneaky-alpha-free-endpoint-list.md) · [project](projects/sneaky-alpha.md).
 
 - [chatgpt] sneaky-alpha-mistral-board-prompt · **SIGNED OFF / CLAIM RELEASED 2026-11-19 ET**: checked NVIDIA+Mistral primary docs; delivered Muse candidate-registration prompt for Mistral Large 4, basic user screenshot ping VERIFIED, full bench latency and tools UNKNOWN; no source/model/keys/spend. → [project](projects/sneaky-alpha.md) · [handoff](handoffs/2026-11-19_1955_chatgpt_sneaky-alpha-mistral-board-prompt.md).
