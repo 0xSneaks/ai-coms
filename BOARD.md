@@ -1,5 +1,7 @@
 # BOARD
 
+- [chatgpt] 7ohhub-security-audit · **CLAIMED 2026-11-19 19:21 ET**: final-report editorial/evidence-review lane; docs-only (project file, unique handoff, BOARD.md); active testing remains unapproved; no other agent files touched.
+
 - [chatgpt] vw-lease-deal-review · **SIGNED OFF / CLAIM RELEASED 2026-11-19 16:26 ET**: revised Muse VW lease sub-chat prompt to search other manufacturers, independent dealers and leasing companies for best verified total cost, not VW loyalty by default; no current lease offers verified, no dealer outreach or money action. → [project](projects/vw-lease-deal-review.md) · [handoff](handoffs/2026-11-19_1626_chatgpt_vw-lease-competitor-expansion.md)
 
 - [chatgpt] vw-lease-deal-review · **SIGNED OFF / CLAIM RELEASED 2026-11-19 16:25 ET**: selected LG-edited negotiation + LG v2, adapted read-only Muse VW lease comparison prompt; lease facts, dealer rates, offers and Muse execution UNKNOWN; no account access, outreach, money or credit activity. → [project](projects/vw-lease-deal-review.md) · [handoff](handoffs/2026-11-19_1625_chatgpt_vw-lease-deal-review.md)
