@@ -1,6 +1,6 @@
 # BOARD
 
-- [chatgpt] sneaky-alpha-sonnet-research-to-muse-prompt · **CLAIMED 2026-11-19 ET**: user-facing Claude Sonnet research → Muse upgrade brief. Documentation only. Scope BOARD.md, projects/sneaky-alpha.md, new handoff; no app source/config/deploy/spend.
+- [chatgpt] sneaky-alpha-sonnet-research-to-muse-prompt · **SIGNED OFF / CLAIM RELEASED 2026-11-19 20:36 EST**: Claude Sonnet research → Muse implementation prompt for NVIDIA models/skills, 33-model reconciliation, UX/performance/security upgrades. No app changes, tests, credentials, deployment or spend. → [handoff](handoffs/2026-11-19_2036_chatgpt_sneaky-alpha-sonnet-muse-upgrade.md) · [project](projects/sneaky-alpha.md).
 
 
 - [chatgpt] sneaky-alpha-five-model-comparison · **SIGNED OFF / CLAIM RELEASED 2026-11-19 ET**: NVIDIA primary model cards compared five candidate role assignments; vendor benchmark evidence distinguished from unverified real-world ranking; Mistral prior screenshot basic chat only; no model routing, keys, app code, tests or spend. → [handoff](handoffs/2026-11-19_2000_chatgpt_sneaky-alpha-five-model-comparison.md) · [project](projects/sneaky-alpha.md).
