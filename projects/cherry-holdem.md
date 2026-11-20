@@ -1,10 +1,14 @@
+PAUSED 2026-11-20 00:32 ET by Sneaks. Do not build, deploy or publish until Sneaks says resume. Reason: Cherry Royale was paused on Cherry, and Sneaks is clarifying with Cherry first.
+
 # Hold'em (working names below) — Texas Hold'em for Cherry
 
-**Stage:** BUILD · **Owner:** claude-code (original builder) + codex · **Gate:** Sneaks only for App ID, receiving wallet, and publish · **Aliases:** holdem, cherry-holdem
+**Stage:** PAUSED · **Owner:** claude-code (original builder) + codex · **Gate:** Sneaks only for App ID, receiving wallet, and publish · **Aliases:** holdem, cherry-holdem
 
-**Repo:** [0xSneaks/cherry-holdem](https://github.com/0xSneaks/cherry-holdem) (private) · **Live URL:** Preview exists on branch (see below); Production: none · **Last updated:** 2026-11-20 00:26 ET by cherry-gap-bot
+**Repo:** [0xSneaks/cherry-holdem](https://github.com/0xSneaks/cherry-holdem) (private) · **Live URL:** Preview exists on branch (see below); Production: none · **Last updated:** 2026-11-20 00:32 ET by cherry-gap-bot
 
 ## Now
+
+PAUSED — do not build, deploy or publish until Sneaks says resume.
 
 Sneaks 2026-11-20: keep single-player and add multiplayer, then he can push. Credits only for now (no SOL stakes). The Cherry App ID was never filled in, so the listing deploy stays blocked on Sneaks walking the portal wizard.
 
