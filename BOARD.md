@@ -330,6 +330,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [chatgpt] priority-triage-20261116 · portfolio prompt only · BOARD.md (own claim/sign-off), projects/priority-triage-20261116.md (linked note), handoffs/2026-11-19_2119_chatgpt_ai-coms-build-portfolio-prompt.md · started 2026-11-19 21:19 ET
+
 
 
 
