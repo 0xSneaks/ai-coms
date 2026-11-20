@@ -13,7 +13,7 @@ Board: 0xSneaks/ai-coms → projects/cherry-room-swap.md. Claim it on BOARD.md b
 
 ## SHARED ENGINE (packages/swap-engine)
 1. Auth: verify the launch token server-side (verifyLaunchToken + CHERRY_APP_ID, 5-min JWT). Key users by cherry_id ?? sub. Reject if JWKS is unavailable.
-2. Quotes + tx: Jupiter Swap V2 `/build` (https://developers.jup.ag/docs/swap/build), with platformFeeBps=50 and feeAccount = the FEE_WALLET ATA for the fee mint (create it if missing; the user pays rent only if Sneaks approves, otherwise skip the fee on that mint). Fallback flag: `/order` + referral account (Jupiter keeps 20% of the fee). DFlow is optional backup (platformFeeBps + feeAccount).
+2. Quotes + tx: Jupiter Swap V2 `/build` (https://developers.jup.ag/docs/swap/build), with platformFeeBps=35 and feeAccount = the FEE_WALLET ATA for the fee mint (create it if missing; the user pays rent only if Sneaks approves, otherwise skip the fee on that mint). Fallback flag: `/order` + referral account (Jupiter keeps 20% of the fee). DFlow is optional backup (platformFeeBps + feeAccount).
 3. Every tx: withAppReference(APP_ID) and a label of 80 chars or fewer (e.g. "Swap 1.2 SOL → BONK · Room Swap"). Fresh blockhash. Fee payer = user. Do NOT add Cherry's 10% to the tx.
 4. Show before sign: input, min out, our fee as a line item in $ and %, route, and price impact. Block if price impact > 5% or the quote is stale (> 20s).
 5. Caps: read the tier from the launch-token claim. Enforce the per-tx and per-wallet/day caps for that tier (Verified: $1,000/tx, $5,000/wallet/day; Unverified: $50/$50). Reset at 00:00 UTC. Never hardcode the tier.
@@ -30,19 +30,21 @@ Pitch: drop a swap card in any room; everyone taps it and swaps from their own w
 - Token safety: show the mint, and warn on unverified tokens via Jupiter's token list tags. Never call anything "safe".
 
 ## APP 2: DUST SWEEP (working name)
-Pitch: SOL Reclaim skips accounts with dust. We sell the dust, close the accounts, and hand you the SOL.
+Pitch: sell your dust instead of burning it, close the accounts, and get the SOL back. 1.5% fee, no minimums.
 - Loop: open → scan (getTokenAccountsByOwner for SPL Token + Token-2022) → list accounts with dust (value < $1 or user-selected) plus empty ones → "Sweep" → review → sign batch(es) → receipt card → share to room.
-- Per account: Jupiter `/build` swap dust → SOL (50 bps platform fee), then closeAccount to the user. Skip: no route, frozen accounts, Token-2022 with withheld fees or close authority ≠ user, and NFTs (exclude decimals=0 with supply 1).
+- Per account: Jupiter `/build` swap dust → SOL (35 bps platform fee). Only offer SELL when quote out > swap fees + network fee; otherwise offer burn-and-close (user's choice, labeled "destroys the tokens"), then closeAccount to the user. Skip: no route, frozen accounts, Token-2022 with withheld fees or close authority ≠ user, and NFTs (exclude decimals=0 with supply 1).
 - Batch to fit the tx size limit (use address lookup tables from /build). Each batch is a separate signature, and progress is shown.
-- Utility fee: 10% of recovered rent SOL (DAY-1 PRICE, SNEAKS TO CONFIRM), as a SystemProgram transfer to FEE_WALLET in the same tx, shown before sign as "Rent recovered X · Fee Y · You receive Z". No fee if rent recovered < 0.002 SOL.
+- Utility fee: 1.5% of recovered rent, NO per-account minimum, same rate for SPL and Token-2022, as a SystemProgram transfer to FEE_WALLET in the same tx. Show a separate fee row before sign: "Rent recovered X · Our fee (1.5%) Y · Swap fee Z · You receive W". Floor math: fee = floor(rent × 150 / 10000).
+- Competitive basis (checked 2026-11-20): Sol Incinerator charges 2% of rent with a ~40,785-lamport minimum per classic account, a flat ~74,080 lamports per Token-2022 account, and 0.5% on its swap tool; it BURNS dust (tokens destroyed). SOL Reclaim (Cherry-run) does not publish its fee and does not close dusty accounts as empty. Sources: https://docs.sol-incinerator.com/tool-guide/fees · https://cherry.fun/learn/guides/reclaim-sol-rent/
+- Allowed copy: "Sell your dust instead of burning it." "1.5% fee, no minimums, fee shown before you sign." NOT allowed: naming SOL Reclaim or Cherry, or "beats"/"cheapest" claims about apps whose fees we can't verify. Re-check Incinerator's fee page before any "lower fee than Sol Incinerator" copy goes live.
 - Copy: "estimated", never "guaranteed". Show the actual amount after confirmation.
 - Room hook: "I swept N accounts, got back X SOL" share card via cherry.share. In-app room board of SOL swept.
 - Repeat: "re-scan" reminder card when new dust appears (in-app only, no push spam).
 
 ## MONEY IMPLEMENTATION
-- Model: Commission (both apps), declared in the portal. Room Swap: 0.50% of swap input. Dust Sweep: 0.50% on dust swaps + 10% of recovered rent (pending Sneaks's yes).
+- Model: Commission (both apps), declared in the portal. Room Swap: 0.35% of swap input. Dust Sweep: 0.35% on dust swaps + 1.5% of recovered rent, no minimums.
 - Payment flow: launch token verified server-side first → one-time user-signed tx → withAppReference + ≤80-char label → fee is a visible line item → record in the ledger only after on-chain confirmation.
-- Cherry bills 10% of our kept fee monthly (first $100 of volume free), so net is about 0.45% of swap volume.
+- Cherry bills 10% of our kept fee monthly (first $100 of volume free), so net is about 0.315% of swap volume and 1.35% of recovered rent.
 - Caps: live tier from the token claim, enforced server-side.
 - Targets: set from the Billing page after 7 days. Park line: combined fee revenue < $25 by day 14 → park.
 
@@ -50,7 +52,7 @@ Pitch: SOL Reclaim skips accounts with dust. We sell the dust, close the account
 1. 360px phone iframe: first frame + cherry:ready in < 5s; no dead screens.
 2. Launch-token verify: valid/expired/wrong-app/tampered tests, as in cherry-up-or-down server/auth.ts (reuse it).
 3. Every built tx contains the app reference + a label of 80 chars or fewer; Cherry's fee is not in the tx.
-4. The fee line on the review screen matches the fee in the tx exactly (unit test against the /build response).
+4. The fee line on the review screen matches the fee in the tx exactly (unit test against the /build response), and the rent fee is exactly floor(rent × 150 / 10000) with no minimum, for both SPL and Token-2022.
 5. Caps enforced for both tiers (unit test with mocked claims).
 6. Dust Sweep: devnet or mainnet-fork test closes a dusty account and the user receives net SOL. NFTs and non-closable accounts are skipped.
 7. Blink renders inline and swaps with the viewer wallet (test room).
@@ -65,5 +67,5 @@ Pitch: SOL Reclaim skips accounts with dust. We sell the dust, close the account
 
 ## ONLY SNEAKS CAN DO
 1. Run the portal wizard twice (Commission model) → 2 App IDs.
-2. Confirm FEE_WALLET and the 10% rent fee.
+2. Confirm FEE_WALLET (rates are set: 0.35% swaps, 1.5% rent, no minimums).
 3. Approve deploy to test rooms, then publish.
