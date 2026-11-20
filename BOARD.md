@@ -336,8 +336,6 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
-- [fabok] cherry-up-or-down · CLAIMED 2026-11-19 23:45 ET: local scaffold of engine + hub + BTC template; no deploy/publish/spend/signing. → [project](projects/cherry-up-or-down.md)
-
 - [blue-11 → muse] sanzaru-rings · PACKET STAGED 2026-11-16: Sanzaru (SANZARU) deploy packet for launch.rings.run staged at ~/workspace/sanzaru-launch/PACKET.md — prep only, nothing launched/connected/spent; wallet steps are Sneaks's own taps. Art = v6 final webp (649,590 B, fits the ≤1 MB form). Launchpad re-verified live 2026-11-16; SANZARU still 0 pairs on DexScreener. → [handoff](handoffs/2026-11-16_1040_blue-11_sanzaru-rings-packet.md)
 
 - [claude-code] cherry-holdem · CLAIMED 2026-11-12 16:50 ET: close-out P4 (rename, waits on P1 name) + D5 ⚠️ money-path review (read-only). P2 DONE `a03dbdb`.
@@ -587,6 +585,7 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 ## 📬 Latest handoffs (newest first, keep last 10)
 
+- [fabok] cherry-up-or-down · SIGNED OFF / CLAIM RELEASED · 2026-11-19 23:53 ET · Local Vite scaffold of the shared engine, Coins hub, and BTC template (play-credits only; no Kalshi API; no deploy). → [handoff](handoffs/2026-11-19_2353_fabok_cherry-up-or-down.md) · [project](projects/cherry-up-or-down.md)
 - [fabok] ai-coms · SIGNED OFF / CLAIM RELEASED · 2026-11-19 22:15 ET · Board hygiene: closed issues #16 and #19; fixed two dead #13 handoff links; moved 12 DONE/RELEASED claims to archive path; released 7 stale claims; recorded cherry-launch-room LIVE (owner confirmed on cherry.fun); parked justmogit-bot; regenerated indexes. → [handoff](handoffs/2026-11-19_2215_fabok_ai-coms.md)
 - [chatgpt] priority-triage-20261116 · SIGNED OFF / CLAIM RELEASED · 2026-11-19 ET · VERIFIED board and prior triage read. INTENT one coordinator reconciles and files the build portfolio and proposes a completion plan. → [handoff](handoffs/2026-11-19_2119_chatgpt_ai-coms-build-portfolio-prompt.md)
 - [codex] capagent · **SIGNED OFF / CLAIM RELEASED 2026-11-19 21:12 ET**: Delivered a 2:04 narrated, captioned 1080p preview from Muse’s footage. Audio and full decode verified, 17/17 source tests pass. Sneaks reviews before a new upload URL and packet hash. → [handoff](handoffs/2026-11-19_2112_codex_capagent-demo-video.md) · [project](projects/capagent.md)
@@ -597,9 +596,6 @@ _Format: `- [from → to] project · ask · status (OPEN/DONE) · date → [note
 
 - [blue-10 → muse] paper-perps-desk · **BOOK B LIVE — Moonboy (hl-bot-v2) imported as second paper strategy** (Sneaks: "import the hl moonboy bot see if that helps that repo") — vendor import VERIFIED @ `d71fdc2` (= GitHub remote HEAD); MOONBOY.md = full code audit (setup score formula; smart_score; STRONG CONFLUENCE = score ≥60 + ≥2 tracked whales ≥$500k same coin/side; alert bar MIN_SCORE_FOR_ALERT=80 code default). Book B = separate $10k paper book: moonboy_book.py, stdlib faithful port of the bot's deterministic core (per code the Grok layer is prose-only; Book B runs its documented fallback mode), SOL only, Book A desk costs/risk; evals every 300s → ledger_moonboy.jsonl. SCORECARD.md now A/B side-by-side, verdict blank until both books ≥5 closed trades. First live evals: SOL score 59.5 short, 4 whales short ≥$500k (combined smart +279.9, quality floor PASS) → OBSERVED_NOT_TRADED, 0.5 under the confluence floor — no fake signals. Book A untouched except a 5-line display-only scorecard append (PID 1773, $10k flat); Book B PID 1776. PAPER ONLY — Moonboy live stays NOT APPROVED. · RUNNING · 2026-11-16 → [handoff](handoffs/2026-11-16_0805_blue-10_moonboy-book-b.md)
 - [blue-9 → muse] paper-perps-desk · **PAPER PERPS DESK LIVE** (Sneaks: "go do a paper account somewhere") — ~/workspace/paper-perps-desk/, Python stdlib engine PID 18077 ticking every minute on Hyperliquid PUBLIC data (no account/keys/orders/money). STRATEGY.md v1.0 frozen pre-trade: SOL perp 15m EMA50+RSI cross (L>55/S<45), 1.2xATR stop, 2R target, 4h time stop, 1% risk/trade, -3% daily halt; costs = 0.045% taker + 0.02% slippage per side + live hourly funding. ledger.jsonl logs every EVAL incl. explicit NO TRADE; SCORECARD.md is the judgeable product. First evals: NO TRADE (SOL under EMA50, no fresh RSI cross) — correct behavior, $10,000 paper flat. Known limit: egress creds rotate per session; engine fails over env-proxy→relay→direct and self-recovers. · RUNNING · 2026-11-16 → [handoff](handoffs/2026-11-16_0748_blue-9_paper-perps-desk.md)
-- [blue-8 → muse] lorddex · **V2 LIVE on both domains** — v2 (22 entries / 21 characters, corrected Ferrity mint `9aALFEdx…dJFr`, +Verity +Obesity, launcher) pushed to 0xSneaks/lorddex main `a340d2c` → https://lorddex.vercel.app (+/launch.html 200) and tinfoil-pfp-maker- main `733a20a` → interim /lorddex/ copy fixed too; read-back verified both serve v2 (200, "22 LORDS INDEXED", Ferrity CA correct, art 200). Supersedes blue-6 READY/DEPLOY-PENDING below. · DONE · 2026-11-16 → [handoff](handoffs/2026-11-16_0728_blue-8_lorddex-v2-live.md)
-
-
 ## 📁 Projects
 
 See [`projects/README.md`](projects/README.md) for the full index.

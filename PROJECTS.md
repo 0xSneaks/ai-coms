@@ -21,11 +21,12 @@ Move a project by editing the `**Stage:**` line at the top of its `projects/<nam
 |---|---|---|---|---|---|
 | [priority-triage-20261116](projects/priority-triage-20261116.md) | Muse (coordination) | Reconcile the triage below against the current board when Sneaks selects a portfolio coordinator | Sneaks authorizes high-risk execution separately | 0 | [2026-11-19](handoffs/2026-11-19_2119_chatgpt_ai-coms-build-portfolio-prompt.md) (0d) |
 
-## BUILD (1)
+## BUILD (2)
 
 | Project | Owner | Next | Gate | Open req | Last handoff |
 |---|---|---|---|---|---|
 | [ai-coms](projects/ai-coms.md) | claude-code | muse-os-upgrade items 3–6 (48h owner rule for 'all' requests, status-word checks, generated STATE.md, per-agent usage files) | — | 5 | [2026-11-19](handoffs/2026-11-19_2215_fabok_ai-coms.md) (0d) |
+| [cherry-up-or-down](projects/cherry-up-or-down.md) | fabok (local scaffold) | remaining 8 pair listings from the template, then ART (grok-bot) and the 10-listing ship gate (Sneaks) | Sneaks publish; money path for real-money stakes ON HOLD | 0 | [2026-11-19](handoffs/2026-11-19_2353_fabok_cherry-up-or-down.md) (0d) |
 
 ## REVIEW (2)
 
@@ -55,15 +56,15 @@ Move a project by editing the `**Stage:**` line at the top of its `projects/<nam
 | [family-1960s-kling](projects/family-1960s-kling.md) | Sneaks | none — prompt delivered / signed off 2026-11-16 18:05 ET (stage normalized by fabok 2026-11-19 from evident sign-off; was a nonstandard Stage string) | — | 0 | [2026-11-16](handoffs/2026-11-16_1812_chatgpt_family-1960s-kling-supporting-images.md) (3d) |
 | [hundred-markets-research](projects/hundred-markets-research.md) | ChatGPT (research) | none — signed off, research only (stage added by fabok 2026-11-19 from evident Status line) | — | 0 | [2026-11-15](handoffs/2026-11-15_1730_chatgpt_hundred-markets-research.md) (4d) |
 
-## UNSTAGED (48) — owner: add a Stage line
+## UNSTAGED (47) — owner: add a Stage line
 
 _Activity below is INFERENCE from handoff file names; dormant = no handoff in 14 days._
 
 | Project | Activity | Open req | Last handoff |
 |---|---|---|---|
+| [cherry](projects/cherry.md) | active | 0 | [2026-11-19](handoffs/2026-11-19_2353_fabok_cherry-up-or-down.md) (0d) |
 | [sneaky-alpha](projects/sneaky-alpha.md) | active | 1 | [2026-11-19](handoffs/2026-11-19_2152_muse_sneaky-alpha-nvidia-p1-web.md) (0d) |
 | [vw-lease-deal-review](projects/vw-lease-deal-review.md) | active | 0 | [2026-11-19](handoffs/2026-11-19_1625_chatgpt_vw-lease-deal-review.md) (0d) |
-| [cherry](projects/cherry.md) | active | 0 | [2026-11-17](handoffs/2026-11-17_0941_chatgpt_cherry-revenue-audit-checkpoint.md) (2d) |
 | [cherry-revenue-audit](projects/cherry-revenue-audit.md) | active | 0 | [2026-11-17](handoffs/2026-11-17_0941_chatgpt_cherry-revenue-audit-checkpoint.md) (2d) |
 | [moby-agent-evaluation](projects/moby-agent-evaluation.md) | active | 0 | [2026-11-16](handoffs/2026-11-16_1536_chatgpt_moby-agent-evaluation.md) (3d) |
 | [token-hive-wallets](projects/token-hive-wallets.md) | active | 0 | [2026-11-16](handoffs/2026-11-16_1428_chatgpt_token-hive-wallets.md) (3d) |
@@ -105,7 +106,6 @@ _Activity below is INFERENCE from handoff file names; dormant = no handoff in 14
 | [cherry-banner-brawl](projects/cherry-banner-brawl.md) | no handoffs | 0 | — |
 | [cherry-factory](projects/cherry-factory.md) | no handoffs | 0 | — |
 | [cherry-grok-bot](projects/cherry-grok-bot.md) | no handoffs | 0 | — |
-| [cherry-up-or-down](projects/cherry-up-or-down.md) | no handoffs | 0 | — |
 | [grok-specialist](projects/grok-specialist.md) | no handoffs | 0 | — |
 | [gta6ismogged-build](projects/gta6ismogged-build.md) | no handoffs | 0 | — |
 | [trade-desk-deepseek](projects/trade-desk-deepseek.md) | no handoffs | 0 | — |

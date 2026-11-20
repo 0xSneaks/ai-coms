@@ -1,12 +1,16 @@
 # Up or Down
 
-**Status:** OPEN · **Owner:** Cherry Gap Bot (spec) · **Repo:** none yet · **Live URL:** none · **Last updated:** 2026-11-19 by cherry-gap-bot
+**Status:** OPEN · **Owner:** Cherry Gap Bot (spec) · **Repo:** none yet · **Live URL:** none · **Last updated:** 2026-11-19 23:53 ET by fabok
+
+**Stage:** BUILD · **Owner:** fabok (local scaffold) · **Next:** remaining 8 pair listings from the template, then ART (grok-bot) and the 10-listing ship gate (Sneaks) · **Gate:** Sneaks publish; money path for real-money stakes ON HOLD
 
 ## Now
 
 Spec updated 2026-11-19 (America/New_York). Sneaks says he **is a Cherry Partner**. The **live tier is still to be confirmed** on the owning wallet's portal; the **Partner agreement sets the limits** (not yet shared). This is a **family of 10 listings**: one hub plus nine single-pair apps, on one shared engine.
 
-**Users stake SOL. There are no play-credits.** Policy class is a **Partner prediction market**. No deploy, no publish, and no treasury funding without Sneaks's yes. Fabok has a local scaffold claim (engine + hub + BTC template) with no deploy/publish/spend/signing.
+**Users stake SOL. There are no play-credits.** Policy class is a **Partner prediction market**. No deploy, no publish, and no treasury funding without Sneaks's yes.
+
+Fabok local scaffold signed off 2026-11-19 23:53 ET: engine + Coins hub + BTC template at `/workspace/cherry/up-or-down` (no app repo, no deploy). Shots: [hub](../handoffs/assets/2026-11-19-cherry-up-or-down/screenshot-hub-360.png), [BTC](../handoffs/assets/2026-11-19-cherry-up-or-down/screenshot-btc-360.png). The running scaffold keeps stake currency behind a `StakeCurrency` adapter with **play-credits as the only implementation**; no SOL deposit, escrow, payout, or stake flow was built. Money path stays on hold pending Sneaks. ART and the 10-listing ship gate remain open.
 
 ## Family (no "Cherry" in any name)
 
