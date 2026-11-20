@@ -7,6 +7,16 @@ import { GameLedger } from './ledger';
 import { memoryKV } from './store';
 import { bookExposure, checkCaps, circuitBreaker } from './risk';
 import { RISK, type RiskConfig } from '../config/risk';
+import { ASSETS, PAIRS, isAsset } from '../config/pairs';
+import { APP_IDS, LISTINGS, isPlaceholder } from '../config/apps';
+import { readPythApiKey } from './pricing';
+import { generateKeyPair, exportJWK, SignJWT } from 'jose';
+import {
+  verifyCherryUser,
+  requireCherryUser,
+  CherryAuthError,
+  userKeyFromClaims,
+} from '../../server/auth';
 
 function assert(cond: boolean, msg: string): void {
   if (!cond) throw new Error(msg);
@@ -206,3 +216,154 @@ function fresh(risk: RiskConfig = RISK) {
 // (existing tests)
 
 console.log('credits economy tests: ok');
+
+// ---- v1 fill-out: pair-config completeness (all 9 pairs + hub) ----
+{
+  assert(Object.keys(LISTINGS).length === 10, 'exactly 10 listings');
+  assert(APP_IDS.hub === LISTINGS.hub.appId, 'hub appId matches listings.json');
+  for (const a of ASSETS) {
+    assert(isAsset(a), `${a} resolves as a pair route`);
+    const p = PAIRS[a];
+    assert(p.appName === `${a} Up or Down`, `${a} app name`);
+    assert(/^[0-9a-f]{64}$/.test(p.pythId), `${a} Pyth feed id is 64 hex chars`);
+    assert(p.color.startsWith('#') && p.mockSeed > 0, `${a} has a color and mock seed`);
+    assert(APP_IDS[a] === LISTINGS[a].appId, `${a} appId matches listings.json`);
+    assert(LISTINGS[a].appName === p.appName, `${a} listing name matches pair config`);
+  }
+  // Pre-portal: every appId is still a TODO placeholder — no real id invented.
+  for (const id of Object.keys(LISTINGS)) {
+    assert(isPlaceholder(APP_IDS[id as keyof typeof APP_IDS]), `${id} appId still a TODO placeholder`);
+  }
+}
+
+// ---- v1 fill-out: Pyth key is read from env only, never committed ----
+{
+  assert(readPythApiKey({}) === undefined, 'no key without env');
+  assert(readPythApiKey({ VITE_PYTH_API_KEY: '   ' }) === undefined, 'blank key is unset');
+  assert(readPythApiKey({ VITE_PYTH_API_KEY: '  test-key  ' }) === 'test-key', 'key is trimmed');
+}
+
+console.log('pair config + pyth env tests: ok');
+
+// ---- v1 fill-out: server launch-token verify (server/auth.ts) ----
+await (async () => {
+  const { publicKey, privateKey } = await generateKeyPair('RS256');
+  const jwk = await exportJWK(publicKey);
+  jwk.kid = 'test-key-1';
+  jwk.alg = 'RS256';
+  const jwks = { keys: [jwk] };
+  const TEST_APP_ID = '11111111-1111-4111-8111-111111111111';
+
+  const baseClaims = {
+    iss: 'https://chat.cherry.fun',
+    sub: 'wallet-abc',
+    app_id: TEST_APP_ID,
+    aud: TEST_APP_ID,
+    room_id: 'room-1',
+    origin: 'https://example.invalid',
+    jti: 'test-jti-1',
+  };
+  const sign = (claims: Record<string, unknown>, expSeconds = 300) =>
+    new SignJWT(claims)
+      .setProtectedHeader({ alg: 'RS256', kid: 'test-key-1' })
+      .setIssuedAt()
+      .setExpirationTime(Math.floor(Date.now() / 1000) + expSeconds)
+      .sign(privateKey);
+
+  // Valid token with a cherry_id → keyed by cherry_id.
+  const good = await sign({ ...baseClaims, cherry_id: 'cherry-user-7' });
+  const u = await verifyCherryUser(good, TEST_APP_ID, { jwks });
+  assert(u.userKey === 'cherry-user-7', 'userKey is cherry_id when present');
+  assert(u.cherryId === 'cherry-user-7' && u.sub === 'wallet-abc', 'claims carried through');
+  assert(u.appId === TEST_APP_ID && u.roomId === 'room-1', 'app + room carried through');
+
+  // No cherry_id → fall back to sub.
+  const noId = await sign({ ...baseClaims, jti: 'test-jti-2' });
+  const u2 = await verifyCherryUser(noId, TEST_APP_ID, { jwks });
+  assert(u2.userKey === 'wallet-abc', 'userKey falls back to sub');
+  assert(userKeyFromClaims({ sub: 'wallet-abc' }) === 'wallet-abc', 'userKeyFromClaims fallback');
+  assert(
+    userKeyFromClaims({ cherry_id: 'c1', sub: 'wallet-abc' }) === 'c1',
+    'userKeyFromClaims prefers cherry_id',
+  );
+
+  // Bearer-header helper.
+  const viaHeader = await requireCherryUser(
+    { authorization: `Bearer ${good}` },
+    TEST_APP_ID,
+    { jwks },
+  );
+  assert(viaHeader.userKey === 'cherry-user-7', 'requireCherryUser reads Bearer header');
+  await requireCherryUser({}, TEST_APP_ID, { jwks }).then(
+    () => {
+      throw new Error('missing header should reject');
+    },
+    (err: unknown) => {
+      assert(err instanceof CherryAuthError && err.code === 'TOKEN_INVALID', 'missing header → TOKEN_INVALID');
+    },
+  );
+
+  // Wrong app → rejected. A token carrying `aud` fails on audience first;
+  // one without `aud` fails on the app_id claim.
+  await verifyCherryUser(good, '22222222-2222-4222-8222-222222222222', { jwks }).then(
+    () => {
+      throw new Error('wrong appId should reject');
+    },
+    (err: unknown) => {
+      assert(err instanceof CherryAuthError && err.code === 'AUDIENCE_MISMATCH', 'wrong appId (aud present) → AUDIENCE_MISMATCH');
+    },
+  );
+  const { aud: _aud, ...noAudClaims } = baseClaims;
+  const noAud = await sign({ ...noAudClaims, jti: 'test-jti-2b' });
+  await verifyCherryUser(noAud, '22222222-2222-4222-8222-222222222222', { jwks }).then(
+    () => {
+      throw new Error('wrong appId should reject');
+    },
+    (err: unknown) => {
+      assert(err instanceof CherryAuthError && err.code === 'APP_ID_MISMATCH', 'wrong appId (no aud) → APP_ID_MISMATCH');
+    },
+  );
+  const expired = await sign({ ...baseClaims, jti: 'test-jti-3' }, -60);
+  await verifyCherryUser(expired, TEST_APP_ID, { jwks }).then(
+    () => {
+      throw new Error('expired token should reject');
+    },
+    (err: unknown) => {
+      assert(err instanceof CherryAuthError && err.code === 'TOKEN_EXPIRED', 'expired → TOKEN_EXPIRED');
+    },
+  );
+  await verifyCherryUser('not-a-jwt', TEST_APP_ID, { jwks }).then(
+    () => {
+      throw new Error('garbage token should reject');
+    },
+    (err: unknown) => {
+      assert(err instanceof CherryAuthError && err.code === 'TOKEN_INVALID', 'garbage → TOKEN_INVALID');
+    },
+  );
+  const sigParts = good.split('.');
+  const tampered =
+    sigParts.length === 3
+      ? `${sigParts[0]}.${sigParts[1]}.${sigParts[2]!.startsWith('A') ? 'B' : 'A'}${sigParts[2]!.slice(1)}`
+      : `${good.slice(0, -2)}AA`;
+  await verifyCherryUser(tampered, TEST_APP_ID, { jwks }).then(
+    () => {
+      throw new Error('tampered token should reject');
+    },
+    (err: unknown) => {
+      assert(
+        err instanceof CherryAuthError && err.code === 'SIGNATURE_INVALID',
+        'tampered signature → SIGNATURE_INVALID',
+      );
+    },
+  );
+  await verifyCherryUser(good, 'TODO_APP_ID_BTC', { jwks }).then(
+    () => {
+      throw new Error('placeholder appId should reject');
+    },
+    (err: unknown) => {
+      assert(err instanceof CherryAuthError && err.code === 'INVALID_OPTIONS', 'placeholder appId → INVALID_OPTIONS');
+    },
+  );
+})();
+
+console.log('launch-token verify tests: ok');

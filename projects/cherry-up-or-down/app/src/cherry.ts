@@ -14,8 +14,9 @@ export function startCherryHandshake(): void {
   void app
     .init()
     .then(() => {
-      // TODO(server): POST launchToken to /auth/cherry (see server/auth-stub.ts)
-      // verifyLaunchToken(token, { appId }) and key users by cherry_id ?? sub.
+      // Server-side: POST launchToken to /auth/cherry (see server/auth.ts —
+      // verifyCherryUser) and key users by cherry_id ?? sub. The claims the
+      // client can read are display-only and must never authorize anything.
       const claims = (app as unknown as { claims?: { cherry_id?: string; sub?: string } }).claims;
       const ctx = (app as unknown as { context?: { cherryId?: string } }).context;
       userKey = claims?.cherry_id ?? ctx?.cherryId ?? claims?.sub ?? 'standalone-local';

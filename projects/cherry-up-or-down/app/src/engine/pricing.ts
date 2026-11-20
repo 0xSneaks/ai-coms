@@ -11,7 +11,18 @@ const HISTORY_MS = 2 * 60 * 60 * 1000;
 export type PriceListener = () => void;
 
 function apiKey(): string | undefined {
-  const key = (import.meta as ImportMeta & { env?: Record<string, string> }).env?.VITE_PYTH_API_KEY;
+  return readPythApiKey(
+    (import.meta as ImportMeta & { env?: Record<string, string> }).env ?? {},
+  );
+}
+
+/**
+ * Read the Pyth Hermes API key from the environment only. The key is never
+ * committed, never hardcoded, and never read from anywhere else. Returns
+ * undefined (→ labeled mock feed) when unset or blank.
+ */
+export function readPythApiKey(env: Record<string, string | undefined>): string | undefined {
+  const key = env.VITE_PYTH_API_KEY;
   return key && key.trim() ? key.trim() : undefined;
 }
 

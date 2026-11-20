@@ -1,7 +1,7 @@
 # Up or Down
 
-**Status:** OPEN · **Owner:** Cherry Gap Bot (spec) · **Repo:** none yet · **Live URL:** none · **Last updated:** 2026-11-20 00:14 ET by fabok
-**Stage:** BUILD · **Owner:** muse · **Next:** fill out v1 from projects/cherry-up-or-down/app/ (appIds, launch-token verify, remaining 8 pairs, ART, hosting); ship gate = Sneaks publishes · **Gate:** Sneaks publish; v2 SOL parked
+**Status:** OPEN · **Owner:** Cherry Gap Bot (spec) · **Repo:** none yet · **Live URL:** none · **Last updated:** 2026-11-20 00:32 ET by muse
+**Stage:** BUILD · **Owner:** muse · **Next:** portal appIds + hosting + Pyth key + receiving wallet + ART (grok-bot); ship gate = Sneaks publishes · **Gate:** Sneaks publish; v2 SOL parked
 
 ## Now
 
@@ -34,6 +34,38 @@ Muse should:
 8. Hosting + CSP + private test rooms.
 
 **Ship gate:** Sneaks publishes. **v2 SOL** stays parked at [v2-sol-partner.md](cherry-up-or-down/v2-sol-partner.md) — do not implement fund-moving SOL. **Hard rules:** credits never sold or cashed out; no deploy, publish, or spend without Sneaks's yes.
+
+### Fill-out status — 2026-11-20 00:32 ET (muse)
+
+Board request `[fabok → muse] cherry-up-or-down` is **DONE** —
+[handoff](../handoffs/2026-11-20_0032_muse_cherry-up-or-down.md).
+
+- (1) appIds + domain proof: **done as far as code can go** —
+  `app/src/config/listings.json` is the single source of truth; all 10
+  appIds are still `TODO_APP_ID_*` (portal ids do not exist, none invented);
+  every build writes `dist/.well-known/cherry-app.json` for its listing
+  (`VITE_LISTING`, `scripts/build-listing.mjs`).
+- (2) Launch-token verify: **done** — `app/server/auth.ts` replaces the
+  stub; tested (wrong-app / expired / garbage / tampered / placeholder
+  appId all rejected).
+- (3) Pyth key: **blocked on Sneaks** — code reads it from env only, mock
+  fallback labeled. Never commit the key.
+- (4) Cosmetics checkout: **blocked on the receiving wallet** — stub stays;
+  no wallet address anywhere in the tree.
+- (5) Remaining 8 pair apps: **done** — all nine pairs are first-class
+  listings (per-listing builds; pair listings open on their pair screen).
+- (6) ART: **blocked — grok-bot's lane.** No grok-bot art for this family
+  exists in the repo. Still missing: 10 icons, 10 covers, 9:16 hub splash,
+  pair-screen chrome kit.
+- (7) Tabs + Crypto Leader: **done/verified** — 15 MIN + HOURLY live, 5M /
+  Daily / Weekly / Monthly greyed "soon"; Leader card tappable, race is v2.
+- (8) Hosting + CSP + test rooms: **prepared only** (`app/DEPLOY-PLAN.md`,
+  `app/vercel.json`). Nothing deployed.
+
+**Correction — Partner status is UNCONFIRMED.** The parked v2 file says
+"Sneaks says he is a Cherry Partner"; treat that as unconfirmed, not
+established (live portal tier showed Verified, and a Partner-agreement
+request to team@cherry.fun was drafted). Nothing here un-parks v2.
 
 ## Family (no "Cherry" in any name)
 

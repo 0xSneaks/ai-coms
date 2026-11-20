@@ -1,6 +1,6 @@
 import { startCherryHandshake, getUserKey, openRoomStub, shareResultStub } from './cherry';
 import { ASSETS, PAIRS, isAsset, type Asset } from './config/pairs';
-import { HUB_APP_NAME } from './config/apps';
+import { CURRENT_ASSET, HUB_APP_NAME } from './config/apps';
 import {
   PriceEngine,
   GameLedger,
@@ -50,6 +50,14 @@ const toastEl = $<HTMLElement>('toast');
 function routeFromHash(): void {
   const raw = (location.hash.replace(/^#/, '') || '/').replace(/^\//, '');
   if (!raw) {
+    // A pair listing opens directly on its own pair screen; the hub opens
+    // the Coins list. Hash routing still wins when a link names a pair.
+    if (CURRENT_ASSET) {
+      marketAsset = CURRENT_ASSET;
+      marketInterval = '15m';
+      showMarket();
+      return;
+    }
     showHub();
     return;
   }
