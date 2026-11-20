@@ -59,3 +59,5 @@ Full record: `handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md` (same content
 - 2026-11-19 19:31 ET (chatgpt): CLAIM user screenshot follow-up for NVIDIA key entry, documentation-only.
 
 - 2026-11-19 19:31 ET: **SIGNED OFF / claim released** screenshot confirms provider connection fields; user to add private NVIDIA key and exact Kimi model, test unverified. → [handoff](../handoffs/2026-11-19_1931_chatgpt_sneaky-alpha-kimi-screen.md).
+
+- 2026-11-19 19:35 ET (chatgpt): CLAIM read-only NVIDIA auto-discovered model catalog explanation; no source/credential changes.
