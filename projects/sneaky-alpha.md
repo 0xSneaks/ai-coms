@@ -75,3 +75,5 @@ Full record: `handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md` (same content
 - 2026-11-19 ET (chatgpt): CLAIM Mistral Large 4 NVIDIA model capabilities and Muse board-registration prompt; docs only, no app changes.
 
 - 2026-11-19 ET: **SIGNED OFF / claim released** User-facing Muse prompt prepared to register NVIDIA Mistral Large 4 as candidate, not promote or reroute. Official model docs checked, basic screenshot Pong only, benchmarking UNKNOWN. → [handoff](../handoffs/2026-11-19_1955_chatgpt_sneaky-alpha-mistral-board-prompt.md).
+
+- 2026-11-19 ET (chatgpt): CLAIM NVIDIA free-endpoint shortlist verification based on visible user screenshots; no app/credentials changes.
