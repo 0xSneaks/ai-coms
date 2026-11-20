@@ -100,7 +100,10 @@ signing. No SOL fund-moving code. Credits are never sold or cashed out.
   `app/src/config/apps.ts`, `app/src/engine/pricing.ts`,
   `app/src/engine/selftest.ts`, `app/src/main.ts`, `app/tsconfig.json`,
   `app/vite.config.ts`
-- Deleted: `app/server/auth-stub.ts`
+- Deleted in the local branch: `app/server/auth-stub.ts` (replaced by
+  `app/server/auth.ts`). NOTE: the snapshot push cannot carry deletions,
+  so the stub file still exists on remote `main` — dead code, nothing
+  references it; delete via web UI or git (see "Push" above).
 - Added: `app/server/auth.ts`, `app/src/config/listings.json`,
   `app/scripts/gen-domain-proof.mjs`, `app/scripts/build-listing.mjs`,
   `app/PORTAL-CHECKLIST.md`, `app/DEPLOY-PLAN.md`, `app/vercel.json`
@@ -152,7 +155,25 @@ in this handoff states he is a Partner, and nothing here un-parks v2.
   three PNG screenshots stay in the local clone; see "Files changed").
 - Sync record: `~/workspace/cherry-up-or-down.muse-github-snapshot-sync.json`
   (adjacent to the clone, per the snapshot-push procedure).
-- [FILL AFTER PUSH: commit SHA + read-back evidence]
+- **Pushed 2026-11-20 ~00:45 ET — commit
+  [`ccfbe4b7a2039d8d1daac5fd84e77ab788d26c02`](https://github.com/0xSneaks/ai-coms/commit/ccfbe4b7a2039d8d1daac5fd84e77ab788d26c02)
+  on remote `main`** (head before push: `a687a07`). Read-back verified two
+  ways: MCP `list_commits` head = `ccfbe4b…`, and `git fetch` origin/main =
+  same SHA; `auth.ts` + `listings.json` present in the remote tree;
+  remote `BOARD.md` contains the DONE marker and "v1 fill-out DONE
+  2026-11-20 by muse". Sync record updated with the commit + per-path
+  sha256. Two upstream commits landed mid-session (`beac617`,
+  `a687a07` — holdem BOARD pointer + Hold'em pause); both rebased in,
+  BOARD.md conflicts resolved keeping the upstream holdem line.
+- **Known gap — `auth-stub.ts` deletion NOT carried:** the snapshot flow
+  cannot push deletions, so `projects/cherry-up-or-down/app/server/auth-stub.ts`
+  still exists on remote `main` (verified in the remote tree). Nothing
+  references it anymore (grep clean except historical handoffs + the
+  task-list wording in the project file). Delete it via the GitHub web UI
+  or a normal git push; until then it is dead code, not a live stub.
+- **Screenshots stay local only** (binary, snapshot flow cannot carry
+  them): `handoffs/assets/2026-11-20-cherry-up-or-down/*.png` in the
+  local clone at `~/workspace/cherry-up-or-down/`.
 
 ## Next
 
