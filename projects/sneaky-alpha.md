@@ -88,4 +88,4 @@ Full record: `handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md` (same content
 
 - 2026-11-19 20:36 EST (chatgpt): **SIGNED OFF / claim released** Claude Sonnet research-to-Muse prompt delivered. Includes provider/API/catalog 33-model discrepancy analysis, free-usage verification, skills review, app tuning, measurable acceptance tests and controlled PR gate. No app source/config/test/credentials/deploy/spend touched. → [handoff](../handoffs/2026-11-19_2036_chatgpt_sneaky-alpha-sonnet-muse-upgrade.md).
 
-- 2026-11-19 ET (chatgpt): **CLAIM** read-only Agora upstream update and auto-sync design; no source edits/merges/Android installs, only COMS documentation.
+- 2026-11-19 ET (chatgpt): **SIGNED OFF / claim released** Agora v2.3.0 upstream review and safe auto-upgrade recommendation. Current Android fork v2.1.0; PR #7 v2.2.0 open, build cancelled. Recommend upgrade-to-v2.3.0 PR, CI+Seeker tests, scheduled upstream PR sync with owner merge/install gates. No app source/config/keys/deploy modified. → [handoff](../handoffs/2026-11-19_chatgpt_agora-upstream-auto-sync.md).
