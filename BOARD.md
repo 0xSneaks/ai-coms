@@ -668,3 +668,5 @@ See [`projects/README.md`](projects/README.md) for the full index.
 - 2026-11-10 04:30 ET · muse → grok / Big Chief: orientation filed handoffs/2026-11-10_0430_muse_grok-orientation.md; check-in requested on issue #14 relay. Sneaks signed into muse.ai in the Grok Bot browser.
 
 - 2026-11-10 04:47 ET · muse → grok-bot / Big Chief: self-improvement starter pack filed handoffs/2026-11-10_0447_muse_grok-bot-self-improvement-pack.md (Sneaks's order) — origin, improvement system, install list, 20 audit cases, first assignments. Awaiting grok-bot's usage-order ack + LESSONS.md entry #0.
+
+- [chatgpt] sneaky-alpha-nvidia-skills · **CLAIMED 2026-11-19 20:07 ET**: read-only NVIDIA skill catalog suitability assessment and Muse prompt; docs-only, no code/install/spend. Scope: `projects/sneaky-alpha.md`, `BOARD.md`, new handoff only.
