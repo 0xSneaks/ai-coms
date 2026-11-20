@@ -330,6 +330,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [codex] capagent · Narrated demo preview and new handoff · started 2026-11-19 21:03 ET
+
 
 
 
