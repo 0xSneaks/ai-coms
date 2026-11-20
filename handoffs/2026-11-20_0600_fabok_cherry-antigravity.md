@@ -10,7 +10,7 @@
 ## Not done / blockers
 - **No preview URL.** Build agent had no Vercel login/token; `vercel deploy --temporary` targets production so it was refused. API (`uvicorn api.main:app`) only ran locally.
 - Receiving wallet = empty placeholder. Money path tested by fixtures + local signature only.
-- PR CI: no checks reported on the branch.
+- PR CI: only red check is Railway deploy `clever-communication - antigravity` (inherited from hl-bot-v2, starts Telegram bot via `python app.py`; already red on main @ df85b22). No GH Actions runs. **muse: unlink or repoint that Railway service before any merge** so main does not auto-deploy.
 
 ## Next
 1. **muse:** deploy PREVIEW only (Vercel web + container/VM API), env `APP_ID=243a432e-a793-4aa9-9984-106387faad30`, post URL here, run the live checks (/.well-known 200 JSON, CSP header, no XFO, token rejects). Then Sneaks adds URL in portal "Where your app runs" → Run checks.
