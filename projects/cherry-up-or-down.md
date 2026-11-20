@@ -4,9 +4,9 @@
 
 ## Now
 
-Spec filed 2026-11-19 (America/New_York). This is a **family of 10 listings**: one hub plus nine single-pair apps, all sitting on one shared engine. No app repo or portal listing yet. Build, art, and the 10-listing ship gate are unclaimed.
+Spec updated 2026-11-19 (America/New_York). Sneaks says he **is a Cherry Partner**. The **live tier is still to be confirmed** on the owning wallet's portal; the **Partner agreement sets the limits** (not yet shared). This is a **family of 10 listings**: one hub plus nine single-pair apps, on one shared engine.
 
-Sneaks's scope (same day): own both the single-pair slots and the all-in-one slot so nobody can undercut the family.
+**Users stake SOL. There are no play-credits.** Policy class is a **Partner prediction market**. No deploy, no publish, and no treasury funding without Sneaks's yes. Fabok has a local scaffold claim (engine + hub + BTC template) with no deploy/publish/spend/signing.
 
 ## Family (no "Cherry" in any name)
 
@@ -29,19 +29,19 @@ Other name ideas (rejected for v1, kept if a listing is taken): Markline, Tape C
 
 One shared engine / back end, ten front-end listings.
 
-**Shared engine (one deployable service):** N(d) pricing, constant-spread house book, Pyth 60-second settlement, credits ledger, cosmetics store, room leaderboards, sale ledger. No app UI code in this repo; this file is the spec only.
+**Shared engine:** N(d) pricing, 3% overround house book, exposure caps, Pyth 60-second settlement, treasury bet/payout flow, optional cosmetics store, room leaderboards, sale and bet ledger. Treasury **signing keys never go in client code or the repo**. Payouts need a signer Sneaks controls. No app UI code in this repo; this file is the spec only.
 
-**Ten listings:** each front end is its own Cherry mini app with its **own `appId`** and its own `/.well-known/cherry-app.json` on its own origin. Subdomains are fine (example shape, not a claim of a live domain: `hub.example`, `btc.example`, …). Each listing verifies launch tokens for **its** `appId`.
+**Ten listings:** each front end is its own Cherry mini app with its **own `appId`** and its own `/.well-known/cherry-app.json` on its own origin. Subdomains are fine. Each listing verifies launch tokens for **its** `appId`.
 
-**Shared account:** credits and cosmetic unlocks are keyed by `cherry_id` (fallback `sub`) and are **shared across all 10 apps**. A skin bought in BTC Up or Down is equipped in the hub and in every other pair app. A daily credit grant is once per `cherry_id`, not once per listing.
+**Shared account:** optional cosmetic unlocks are keyed by `cherry_id` (fallback `sub`) and are **shared across all 10 apps**. Bets, limits, and self-exclusion are also per `cherry_id` (and per payment wallet) across the family.
 
-**Build order:** shared engine first, then the hub, then the nine single-pair apps from one template (pair screen + that asset's theme). Tapping a hub card opens the matching single-pair screen — in the hub webview for a first paint, and via `navigate` / deep link into the pair listing when that app is installed.
+**Build order:** shared engine first, then the hub, then the nine single-pair apps from one template. Tapping a hub card opens the matching single-pair screen — in the hub webview for a first paint, and via `navigate` / deep link into the pair listing when that app is installed.
 
 ## Spec
 
 ### Loop (10s)
 
-open the hub in a room → pick a pair card (or open a pair listing directly) → see Price to beat vs Current, Chance, and the countdown → tap Up or Down with play-credits → watch the window → result + `cherry.share`.
+open the hub in a room → pick a pair card (or open a pair listing directly) → see Price to beat vs Current, Chance, and the countdown → stake SOL on Up or Down (one tx, after on-chain confirmation, before the 30s lock) → watch the window → after the 5-minute confirm, treasury pays or the stake is refunded → `cherry.share`.
 
 ### Screens
 
@@ -53,7 +53,7 @@ open the hub in a room → pick a pair card (or open a pair listing directly) �
 - **Price to beat** next to **Current**, with a red/green arrow delta
 - a sparkline in the asset color
 - **Up %** in a green pill and **Down %** in a red pill
-- bottom-left credits volume for the window, bottom-right room-message count
+- bottom-left **SOL volume** for the window, bottom-right room-message count
 - a **Crypto Leader — 15 minutes** race card showing the top 2 coins with multipliers and %; tappable in v1, playable race is v2
 - tapping a pair card opens the single-pair screen (layout below)
 
@@ -65,80 +65,185 @@ open the hub in a room → pick a pair card (or open a pair listing directly) �
 - target line on the chart
 - a red **LIVE** tag
 - the **Past** triangle pill (prior window results)
-- interval tabs **5M / 15M / 1H** — v1 live: **15M** and **1H** (Hourly); **5M** greyed **"soon"** (present on the Kalshi pair reference, same proof bar as Daily/Weekly/Monthly)
-- a **Chance** row
+- interval tabs **5M / 15M / 1H** — v1 live: **15M** and **1H**; **5M** greyed **"soon"**
+- a **Chance** row and published house edge / odds (see Policy)
 - **Up** / **Down** buttons with implied % and the multiplier (e.g. Up · 30% and 3.08x)
+- stake entry in SOL (day-1 min 0.01 SOL, max per caps below)
 - a **Live chat** button, mapped to a Cherry room via `navigate.openRoom`
 - a **People are also trading** rail, mapped to the other family pairs
 - an **Activity** feed
-- Result (+ `cherry.share`), Armory (shared cosmetics), Streak/Daily, Room Board
+- Result (+ `cherry.share`), Armory (optional cosmetics), Room Board, Limits / self-exclusion, Support
+
+First-run and every session: **18+ age gate**, geo/eligibility check, and a clear "no guaranteed or expected return" line before any stake sheet.
 
 ### Size
 
-L (one shared engine, 10 listings, nine assets × two live intervals).
+L (one shared engine, 10 listings, nine assets × two live intervals, real-money treasury).
 
 ### Room hook
 
-`cherry.room` `{id,title,memberCount}` groups scores into a room leaderboard; `cherry.share` result blink; `navigate.openRoom` from Live chat and from rival rows. Hub bottom-right count is that room's message count, not a scraped member list.
+`cherry.room` `{id,title,memberCount}` groups scores into a room leaderboard; `cherry.share` result blink (never a claim of a guaranteed return or of a Kalshi payout); `navigate.openRoom` from Live chat and from rival rows. Hub bottom-right count is that room's message count, not a scraped member list.
 
 ### Repeat play
 
-Daily free credit grant (once per `cherry_id` at 00:00 UTC); in-window tickets; 3- and 5-win streaks (see Math); room board resets 00:00 UTC.
+In-window SOL tickets until the 30-second lock; room board resets 00:00 UTC. Streaks are **leaderboard / cosmetic hooks only** — they do not increase SOL payouts (that would raise house exposure). No daily credit grant.
 
 ### Policy class
 
-Free-to-play + paid cosmetic. Play-credits only: **credits can never be cashed out, transferred, or bought back into anything of value, and (day-1) cannot be purchased.** Not a Partner prediction market. Not iGaming (no stakes of crypto or anything of value). See Research and Money implementation. If Cherry later classes this as a prediction market or as iGaming, stop and write to team@cherry.fun before publishing.
+**Prediction market (Partner-only), under Sneaks's Partner agreement.** Users stake SOL on the outcome of a real-world event (whether the Pyth USD price of an asset finishes at or above the opening mark). This is not a free-to-play credit game and is not listed as iGaming, but several iGaming fair-play and safety rules are applied as a conservative real-money bar (quoted below). If the Partner agreement or Cherry classes this differently, stop and follow the agreement / team@cherry.fun before publishing.
+
+See **Policy constraints (quoted)** below.
 
 ### Money
 
-Sales; cosmetics only (see Money implementation). Day-1 prices $0.99 asset tick skin, $2.99 jeweled frame, $4.99 pack. Target $0.03 per daily user. Park line: combined 7-day Billing volume across all 10 apps under $25 after 14 days live. Receiving wallet: Sneaks to confirm.
+**Commission** on the house book: Cherry bills **10% of the house share we keep** (net house revenue after payouts and refunds). Optional **Sales** cosmetics on top (see Money implementation). Stakes go to a treasury wallet Sneaks confirms, never hardcoded. Day-1 min stake **0.01 SOL**. Max stake in USD is the live Partner limit, **UNKNOWN** until Sneaks shares the agreement; **default to the Verified caps of $1,000/tx and $5,000/wallet/day** until confirmed. Park line and target revenue: see Risk math.
 
 ### Ship path
 
-private test room (engine + hub + one pair) → checks + test → Sneaks publishes all 10 listings.
+private test room (engine + hub + one pair, **devnet or a Sneaks-approved test treasury only**) → checks + test → Sneaks's **separate yeses** for treasury funding, then publish of the 10 listings. **No deploy, publish, or treasury funding without Sneaks's yes.**
+
+## Policy constraints (quoted)
+
+Canonical docs (the short paths `/docs/policy` and `/docs/wallet` 404; these are the published pages): [Mini App Policy](https://portal.cherry.fun/docs/mini-apps/policy) v2026-11-10 and [Wallet and limits](https://portal.cherry.fun/docs/mini-apps/wallet). Monetization: [Monetization](https://portal.cherry.fun/docs/mini-apps/monetization). This page explains rules, it is not legal advice.
+
+### Partner-only prediction markets
+
+Policy, Tiers: Partner is obtained by "A written agreement with Cherry." Partner limits are **"By agreement"** (not the Verified $1,000 / $5,000 figures). Restricted categories:
+
+> These activities are open only to Partner apps, under a written agreement with Cherry, with the operator holding every licence the activity needs in every country it serves:
+>
+> - **Prediction markets.** Markets or contracts on the outcome of real-world events.
+
+> **Your licences, your law.** You decide whether your games are lawful wherever they can be played, and hold every licence they need. Cherry does not check that you do.
+
+(The "licences, your law" sentence sits in the iGaming list; the Partner-restricted paragraph also requires "the operator holding every licence the activity needs in every country it serves.")
+
+> This page explains rules, it is not legal advice. You decide which laws apply to your app and hold the licences they require. Cherry does not check that you do.
+
+Sneaks is the operator. Cherry does not hold or pay out stakes. From iGaming (operator rule, applied because we run a house book):
+
+> **You are the operator.** You run the games, set their rules, odds and return to player, control the contracts and wallets that receive stakes, pay out winnings and deal with players. Cherry is not the operator, organiser, promoter, host or licensee of any game, never accepts, holds or pays out stakes or winnings, and is not a party to any wager.
+
+### 18+ age gate
+
+> Mini apps are for adults: users must be at least the age of legal majority where they live (typically 18). Your app is not directed at children and does not knowingly collect their data. Rate your app 18+ when it can ask users to sign a transaction that moves value, shows real-money prices or prizes, or has mature content.
+
+iGaming also: "**Adults only.** The app is rated 18+ and admits only people old enough to gamble lawfully where they are."
+
+**Build:** 18+ rating, a blocking age gate before any stake sheet, refuse minors.
+
+### Published odds and the house edge
+
+iGaming fair-play: "**Fair play.** Publish the odds or the return to player, and offer players limits and self-exclusion."
+
+v1 publishes, on the pair screen and in Rules: the live Up/Down ask, the multiplier (`100/ask`), and the **3% overround** (house edge in a balanced book ≈ 2.91% of stakes; see Risk math). Odds must not be misstated.
+
+> No promotion that misstates odds, prices or returns, and no unsolicited messages to users through bots tied to your app.
+
+### Per-user limits and self-exclusion
+
+Fair-play requires offering **limits and self-exclusion**. Wallet limits (trust tier) are a separate, platform-enforced cap:
+
+> Limits count the value that **leaves the user's wallet** in a transaction, in USD, measured by simulating it. Swaps count their input, payments count the amount paid.
+
+| | Unverified | Verified | Partner |
+| --- | --- | --- | --- |
+| Per transaction | $50 | $1,000 | By agreement |
+| Per wallet, per app, per day | $50 | $5,000 | By agreement |
+
+> The daily limit resets at 00:00 UTC.
+
+Until the Partner agreement is on hand, **treat max stake as the Verified caps: $1,000/tx and $5,000/wallet/day**, converted to SOL at the live USD price at bet time, and also enforce them in-app (do not rely only on Cherry's `TX_LIMIT` / `DAILY_LIMIT`). Offer stricter **user-set limits** and a **self-exclusion** control (pause this `cherry_id` for a chosen period or indefinitely). Family-wide: daily cap is per wallet per app on Cherry's side, but our in-app cap should also cover the family so a user cannot 10× the risk by hopping listings — default **one family-wide daily USD cap** equal to the Partner (or default Verified) daily cap. Confirm with Sneaks.
+
+`POLICY_DENIED` + `TX_LIMIT` / `DAILY_LIMIT` must show the Wallet doc messages ("Offer a smaller amount" / "Daily limit reached, try again tomorrow").
+
+### Country blocks; US is a legal question for Sneaks
+
+Every app:
+
+> Cherry blocks every app in Cuba, Iran, North Korea and Sudan, and every iGaming app in the countries listed above. Your app also may not serve Crimea, Sevastopol or the other Russian-occupied regions of Ukraine, including the occupied parts of the Donetsk, Luhansk, Kherson and Zaporizhzhia regions, any other country or region under comprehensive sanctions or embargo administered by the United States, the United Nations Security Council, the European Union or the United Kingdom, any country where self-custodial wallets or digital assets are prohibited, or anyone who is the target of sanctions or on a restricted-party list. Declare the other countries you do not serve in your listing, and block them inside your app as well.
+
+The iGaming-only automatic list (Australia, Belgium, China, France, Germany, Italy, the Netherlands, Singapore, Spain, Sweden, Turkey, the United Arab Emirates, the United Kingdom and the **United States**) is written for **"every iGaming app."** This product is classed as a **prediction market**, not iGaming, so that list is **not automatically quoted as applying**. Real-money prediction markets are still restricted or licensed in many countries and in **US states**. **The United States (and state-by-state treatment) is a legal question for Sneaks.** Do not serve the US, or any other country where this activity is unlicensed or unlawful, until he confirms the Partner agreement and the licence map. Block CU, IR, KP, SD and the sanctioned regions above on day 1. Declare every additional block in the listing and enforce it in-app.
+
+### Not on iOS — only if this class is treated as iGaming
+
+> **Not on iOS.** iGaming apps are not offered in Cherry's iOS app.
+
+The policy says this **for iGaming**, not in the prediction-market paragraph. **UNKNOWN** whether Cherry also hides Partner prediction markets on iOS. Ask Sneaks / team@cherry.fun before relying on iOS distribution. If Cherry treats this listing as iGaming, iOS is unavailable and the iGaming country list applies in full.
+
+### Support channel and 72h report SLA
+
+> Give users a working support channel in your app and act on reports within 72 hours. Refunds and disputes are between you and your users.
+
+**Build:** in-app support entry on every listing, 72-hour SLA on reports, operator = Sneaks.
+
+### No guaranteed or expected returns
+
+> No app, of any tier, states or implies a guaranteed or expected return.
+
+Show this on the gate, the stake sheet, and the Rules. `cherry.share` cards must not imply a guaranteed return.
+
+### Wallet and transaction rules (real-money play)
+
+> Users hold their own keys. Your app never receives a user's private key, recovery phrase or wallet password, and never asks for them or for a one-time code.
+
+> Your app reaches users' wallets only through the Cherry SDK. It shows no wallet-connect button of its own, and never asks users to connect, import or create another wallet or to sign anything outside Cherry.
+
+> Before a user signs, the app says what the transaction does and how much it moves, and its label matches the transaction.
+
+> The user approves or declines every request. Neither your app nor Cherry can sign for them.
+
+> Name the action and the thing … in at most 80 characters of plain text. Never state an amount different from what the transaction moves.
+
+> Cherry is not a party to your app's transactions and does not hold, settle or guarantee them.
+
+> Some users pay from a different wallet than the one they signed in with. The SDK exposes it as `paymentWallet` … Build transactions for it when it is set.
+
+Partner-tier rows for token approvals, recurring subscriptions, authority changes, and durable-nonce transactions are **"By agreement"** — do not use them unless the agreement says so. v1 bets are **one-time** payments, no recurring subs, no durable nonce.
 
 ## Money implementation
 
-1. **Money model:** Sales. The user pays for one-time cosmetic unlocks (skins, frames, packs). Cosmetics give no better odds, no extra credits, and nothing cashes out. **Credits are not for sale.** Sold credits that boost winnings could look like stakes of value under the Mini App Policy; the safest day-1 choice is **cosmetics only, credits non-purchasable** (granted daily, earned in-app, never withdrawn). Day-1 prices: **$0.99** asset tick skin, **$2.99** jeweled frame, **$4.99** pack (one skin + one frame + a crest). The store is shared: a purchase in any of the 10 listings unlocks the item for that `cherry_id` everywhere.
-2. **Payment flow:** verify launch token server-side first (`verifyLaunchToken` + that listing's `appId`, key by `cherry_id ?? sub`), then one-time payment only — no recurring subscriptions. Every tx carries `withAppReference(APP_ID)` for **the listing the purchase was made in** and a label ≤80 chars (example: `Up or Down cosmetic: BTC tick skin`). Never bake Cherry's 10% fee into the tx. Credit the cosmetic unlock only AFTER the tx is verified on-chain, never before.
-3. **Caps check:** use the live tier from the portal that day (re-check daily; this wallet's live tier was **UNKNOWN** on 2026-11-19). $4.99 max is under Verified ($1,000/tx, $5,000/wallet/day) and under Unverified ($50/tx, $50/wallet/day), so it is safe on either tier. Reject any cart above the live cap. Receiving wallet = TBD by Sneaks; never hardcode one, never ask for a seed/private key.
-4. **Play-credits only.** No real-money stakes, no credit cash-out, no credit purchase. This is free-to-play + paid cosmetic, not iGaming and not a prediction market. Pooled or brokered real-money routing to Kalshi (or any exchange) is out — see Kalshi data feed.
-5. **Ledger + kill line:** log `cherry_id`, listing `appId`, tx signature, USD amount, item, and timestamp for every sale. Target revenue **$0.03 per daily user**. Breakeven: Cherry bills `volume above $100 × 10%` per app, per calendar month (Sales share is everything the user pays). There is no separate user-count breakeven because DAU is unknown; the park line is the kill switch. **Park the family** if combined 7-day Billing volume across all 10 apps is under **$25** after 14 days live; also flag any single listing with $0. Check those numbers on each app's Billing page.
+1. **Money model:** **Commission** on the SOL house book. Cherry bills **10% of the house share we keep** — i.e. 10% of **net house revenue** (stakes received minus payouts and refunds) in the month, not 10% of gross stakes. Optional **Sales** cosmetics ($0.99 asset tick skin, $2.99 jeweled frame, $4.99 pack) with no odds or payout advantage and nothing cashed out as a credit. The listing wizard offers a single model; a mix is **Other** ("Commission on house net from SOL stakes, plus Sales of cosmetics"). Use **Other** in the wizard if it will not accept both, and describe both streams. If the bill assumes a fixed share of volume, **correct it to actual net house revenue** (official: "If your revenue does not follow volume, or the bill is off for another reason, enter on the Billing page the amount you believe is right"). Volume is stakes that leave users' wallets. Official: "Money flowing back to your users is not volume." **Treasury payouts and refunds are excluded from Cherry volume.**
+2. **Stake flow (one-time tx per bet):**
+   - Verify launch token server-side first (`verifyLaunchToken` + that listing's `appId`, key by `cherry_id ?? sub`). Build the tx for `paymentWallet` when set.
+   - User stakes **SOL** to the **house treasury wallet Sneaks confirms** (never hardcoded). One tx per bet. Every stake tx carries `withAppReference(APP_ID)` of the listing it was made in and a label ≤80 chars (example: `Up or Down: bet 0.01 SOL on BTC 15m Up`).
+   - The house book quotes with a **3% overround**, `yes_ask + no_ask = 103` (asks in 1–99), **multiplier = 100/ask**. A winning stake of `S` is paid `S × (100/ask)` SOL from the treasury (stake return included). Losing stakes stay in the treasury.
+   - **Credit (accept) a bet only AFTER the stake tx is verified on-chain, and only if that confirmation is before the round lock.** Lock window: **30 seconds before close**. A confirmation that lands after lock is **not** a bet — **refund** the stake. Reject any new sign request after lock.
+   - Settlement is the **60-second Pyth average**; **Up wins when close ≥ target**. Payouts are sent from the treasury **after the 5-minute confirm**. Void or missing prints **refund the stake**. Payouts and refunds are idempotent (one payout/refund tx per accepted bet).
+   - Day-1 min **0.01 SOL**. Max in USD terms within Partner limits (**UNKNOWN** until the agreement is shared; **default $1,000/tx and $5,000/wallet/day**). Convert at the live USD price; reject above the cap. Never bake Cherry's 10% into the stake or payout tx.
+3. **Caps check:** use the live Partner limits once they are confirmed on the portal / agreement; until then use the Verified defaults above. Re-check the live tier **daily**. Reject any stake above the live cap. Receiving / treasury wallet = TBD by Sneaks; never hardcode; never ask for a seed or private key. Treasury keys are not in the client or the repo; payouts use a signer Sneaks controls.
+4. **Real-money prediction market**, not play-credits. No credit grant, no credit purchase, no credit cash-out. Cosmetics are optional extra Sales only. Pooled or brokered routing of user funds to Kalshi (or any third-party exchange) is still out (see Kalshi data feed).
+5. **Ledger + kill line:** for every bet log `cherry_id`, bet tx signature, payout tx signature (or refund sig, or empty until settled), round id, side, stake, price (ask), multiplier, result, and timestamp. Also log listing `appId` and payment wallet. For every cosmetic sale log `cherry_id`, tx signature, USD amount, item, and timestamp. Target revenue, breakeven, and the 7-day park line are in Risk math. Check Billing pages for stake volume; payouts should not appear as volume.
 
 ### Billing math for 10 listings
 
-Cherry's free slice and bill are **per app**, not per developer or per family. Official rule ([Monetization](https://portal.cherry.fun/docs/mini-apps/monetization)): "The first $100 of volume your app moves each calendar month is free. An app that stays under it never gets a bill. Above it, only the volume over $100 counts." Volume is attributed by the `withAppReference` key for that listing's `appId`.
-
-So ten listings mean **ten separate $100/month free thresholds** (up to $1,000 family volume in a month with no bill, if no single listing exceeds $100). A $4.99 frame bought inside BTC Up or Down counts only on the BTC app's bill; a purchase in the hub counts only on the hub. Do not route a purchase through a different listing than the one the user is in. Do not treat the ten thresholds as a scheme to avoid fees; they are just how per-app Billing works on this architecture. If listings are later merged, the free slice shrinks to one $100.
+Cherry's free slice and bill are **per app**. Official: "The first $100 of volume your app moves each calendar month is free." Volume is "the value that leaves your users' wallets in transactions they approve in Cherry" and "Money flowing back to your users is not volume." Ten listings mean ten `$100` free slices on **stake** volume, attributed by each listing's `withAppReference`. Do not route a stake through a different listing than the one the user is in. The bill is 10% of **house share (net)**, not 10% of stakes. Correct any volume×share estimate that ignores payouts.
 
 ## Math
 
-Play-credits only. Prices and payouts are in credits. Nothing here is a dollar claim, a Kalshi order, or a cash settlement.
-
 ### Rounds
 
-v1 live intervals: **15 minutes** and **1 hour**, on every pair. Windows:
+v1 live intervals: **15 minutes** and **1 hour**, on every pair.
 
-- 15M: open/close at `:00`, `:15`, `:30`, `:45` (America/New_York clock, same :00/:15/:30/:45 cadence observed on Kalshi).
+- 15M: open/close at `:00`, `:15`, `:30`, `:45` (America/New_York cadence observed on Kalshi).
 - 1H: open/close on the hour.
+- **Lock:** no new bets accepted from **30 seconds before close**. Confirmation must be on-chain **before** that lock.
 
-The pair-screen **5M** tab and the hub **DAILY / WEEKLY / MONTHLY** tabs stay **"soon"** until math and liquidity are proven. Crypto Leader (coin race) is a hub card in v1; the playable race is v2.
+5M, Daily, Weekly, Monthly stay **"soon."** Crypto Leader is a hub card in v1; the playable race is v2.
 
-Strike **K** (Price to beat / TO BEAT) is the Kalshi-style **opening mark**: the simple average of 60 one-second Pyth prints in the minute before the window opens. Because one window opens as the last one closes, K equals the previous window's closing average when both 60-second samples are complete.
+Strike **K** (Price to beat / TO BEAT) is the simple average of 60 one-second Pyth prints in the minute before the window opens. When both samples are complete, K equals the previous window's closing average.
 
 ### Quotes and payout
 
-YES (Up) and NO (Down) trade in **integer credits from 1 to 99**. A winning contract pays **100 credits**. Losing contracts pay 0. The button multiplier is:
+YES (Up) and NO (Down) asks are integers **1 to 99**. A winning stake `S` is paid `S × (100 / ask)` SOL from the treasury. The button multiplier is:
 
 ```
 multiplier = 100 / ask
 ```
 
-e.g. an Up ask of 32 credits shows 3.13x and pays 100 if Up settles. This matches the observed Kalshi pattern that the multiplier is **1 / price-in-cents including the spread**, not 1 / the displayed Chance mid.
+### Implied probability (N(d)) — default mid
 
-### Implied probability (N(d)) — default line
-
-Let `S` be the live Pyth mid, `K` the strike, `t` the minutes remaining in the window (never less than a 1-second floor). Let `σ` be the realized volatility of the **last N = 60 minutes** of one-minute log returns `r_i = ln(P_i / P_{i-1})`, so `σ` is the sample standard deviation of those returns (same units as `sqrt(t)` when `t` is in minutes). Then:
+Let `S` be the live Pyth mid, `K` the strike, `t` the minutes remaining (never less than a 1-second floor). Let `σ` be the realized volatility of the **last N = 60 minutes** of one-minute log returns `r_i = ln(P_i / P_{i-1})`. Then:
 
 ```
 d     = ln(S / K) / (σ * sqrt(t))
@@ -146,109 +251,133 @@ P(up) = Φ(d)
 P(down) = Φ(-d) = 1 - P(up)
 ```
 
-where `Φ` is the standard normal CDF. This is the v1 formula Sneaks asked for. A later optional refinement is the Black–Scholes `d2` term, `d = (ln(S/K) - 0.5 σ² t) / (σ sqrt(t))` with `t` converted consistently; v1 does not require it.
+If `σ` is undefined, fall back to a mid of 50/50 and apply the exposure/spread rules. Optional later refinement: Black–Scholes `d2`; not required in v1.
 
-If `σ` is undefined (not enough prints), fall back to a mid of 50/50 and a wider spread (see below).
+**Do not use a Kalshi price feed as the live line unless Sneaks has prior written authorization from Kalshi** (see Kalshi data feed). Default v1 mid is N(d).
 
-### House book and spread (fitted to live Kalshi multipliers)
+### House book (3% overround)
 
-v1 quotes a **constant-spread house book** around the `P(up)` mid, not an LMSR, so the buttons stay Kalshi-like (stable 1–99 asks, visible multiplier). LMSR is the documented alternative if inventory starts to bite.
-
-Let `m = round(100 * P(up))` be the mid in credits, clamped so both sides can take a spread. Target **overround: yes_ask + no_ask = 103** (3 credits, about 3%), split as evenly as integer rounding allows:
+Let `m = round(100 * P(up))`. Target **overround: yes_ask + no_ask = 103**, both clamped to 1..99:
 
 ```
-yes_ask = clamp(1, 99, m + 2)     # 1 or 2 credits of spread, see rounding rule in tests
-no_ask  = 103 - yes_ask           # clamp so both stay in 1..99; if a clamp hits, put leftover on the other side
+yes_ask + no_ask = 103
+multiplier_up   = 100 / yes_ask
+multiplier_down = 100 / no_ask
 ```
 
-Use the integer split that keeps `yes_ask + no_ask = 103` whenever both asks fit in 1..99. Multiplier on each button is `100 / ask`.
+This is the same 3-credit (3%) overround fitted to the 2026-11-19 Kalshi on-screen multipliers (e.g. 30%/70% showed 3.08x/1.40x; 32/71 → 3.13x/1.41x). Quotes then **skew toward the balancing side** when a new bet would raise exposure (see Risk math): raise the ask on the heavy side, lower it on the light side, keeping at least the 3% overround, and **reject** the bet if even the skewed quote would breach a cap.
 
-**Fit to live Kalshi category/pair multipliers** (logged-out recon, 2026-11-19 about 11:33 PM ET, plus the 30/70 point on Sneaks's mobile reference). Observed:
-
-| Displayed Chance | Observed Up / Down multiplier | 100/ask implied asks | 3-credit overround (this spec) |
-| --- | --- | --- | --- |
-| ETH 27% / 72% | 3.51x / 1.35x | 28.5 / 74.1 | 29 / 74 → 3.45x / 1.35x |
-| SOL 23% / 78% | 3.97x / 1.28x | 25.2 / 78.1 | 25 / 78 → 4.00x / 1.28x |
-| BTC 34% / 66% | 2.89x / 1.46x | 34.6 / 68.5 | 36 / 67 → 2.78x / 1.49x |
-| 30% / 70% (ref shot) | 3.08x / 1.40x | 32.5 / 71.4 | 32 / 71 → 3.13x / 1.41x |
-
-The observed multipliers are consistent with **1/ask including the spread**, not 1/displayed mid. A 3-credit overround tracks those points closely (SOL and the 30/70 ref almost exact; ETH very close; BTC a little wide on the Up ask because of integer split). Do not call this Kalshi's official fee formula; it is a fit to the on-screen multipliers.
-
-**LMSR alternative** (not v1 default): cost function `C(q) = b ln(e^{q_up/b} + e^{q_down/b})`. Instantaneous price `P_up = e^{q_up/b} / (e^{q_up/b} + e^{q_down/b})`. Seed `q` so mid matches `P(up)` from N(d). Quote the ask as the cost of buying one contract (or the ticket size) from the current `q`; the bid as the proceeds of selling one. `b` is the liquidity parameter (in credits). Use this later if the house inventory on one side gets large; still add at least the 3-credit overround so the credit economy does not inflate.
-
-### House edge and the credit economy
-
-The 3-credit overround is the v1 house edge (~3% of the two asks). Winners are paid 100 from the house ledger; the overround is what the house keeps in expectation, and it has to cover the daily grant and any streak credit bonus.
-
-Let `G` be the daily grant, `R` average rounds played per granted user per day, `S` average credits staked per round, `e ≈ 0.03` the expected edge, and `B` the expected extra credits paid on streaks. The book does not inflate when:
-
-```
-R * S * e >= G + B
-```
-
-v1 knobs (starting point, tune after a week of ledger data, never estimate live users here):
-
-- Daily grant **G = 200** credits per `cherry_id` at 00:00 UTC, no rollover above a **2,000** soft cap (grants stop until the balance is below the cap; winnings may sit above it but cannot be withdrawn).
-- Ticket sizes: 10, 25, 50, 100 credits.
-- Streak bonus on **credits** is capped and small: +5% payout at 3 straight wins, +10% at 5, then it resets on a loss or at the daily reset. That bonus is `B` above and must stay inside the edge. **Room / leaderboard points** take the larger streak multiplier (2× at 5 wins) so the visible streak hook does not print credits.
-- Credits never expire in v1 (simpler UX); the soft cap and the overround are the brakes. If the ledger inflates, flip on 7-day expiry or cut `G` — that is a Sneaks decision after the first week of numbers, not a day-1 change.
+LMSR remains a documented alternative, not the v1 default.
 
 ### Settlement
 
-**Source: Pyth.** Use the official Pyth USD spot feed for each v1 asset, with feed IDs recorded in the in-app Rules at ship time (confirm all nine exist before publish; if an asset has no official Pyth USD spot feed, do not list it until a disclosed free public substitute is approved by Sneaks).
+**Source: Pyth** official USD spot feed per asset, feed IDs in the in-app Rules at ship time. Confirm all nine feeds exist before publish; if an asset has no official Pyth USD spot feed, do not list it until Sneaks approves a disclosed substitute.
 
-Justification: Pyth is free and public, has one-second-capable prints, and is native to Solana (Cherry's chain). That lets us **mirror Kalshi's 60-second averaging method** without a CF Benchmarks license and without redistributing Kalshi or CF data. CoinGecko is also free and public but is not a reliable 1-second series for a 15-minute window, so it is not the v1 settler.
+Justification: Pyth is free and public, one-second-capable, and Solana-native, so we can mirror Kalshi's **60-second averaging method** without a CF Benchmarks license and without redistributing Kalshi data.
 
-**Method (must be in the settlement tests, every asset):**
+- `K`: simple average of 60 one-second Pyth prices in the minute before open.
+- `C`: simple average of 60 one-second Pyth prices in the final minute before close.
+- **Up** iff `C >= K`. Otherwise **Down**.
+- Payouts after a **5-minute confirm** following close.
+- If either 60-second window has missing prints, or the feed-stale circuit breaker applies at settlement, **void and refund**.
 
-- Opening mark `K`: simple average of 60 one-second Pyth prices in the minute before open.
-- Closing mark `C`: simple average of 60 one-second Pyth prices in the final minute before close.
-- **Up** if and only if `C >= K` ("at least" the target, same rule as Kalshi). Otherwise **Down**.
-- Result is posted after a **5-minute confirm** following close (Kalshi's on-screen "payout 5 minutes after close"), then credits move.
-- If either 60-second window has missing prints (feed gap), **void and refund** the credits staked on that window. Do not invent prices.
-
-Rules copy must say we settle on **Pyth**, not on CF Benchmarks, not on Kalshi, and not on any one exchange's chart.
+Rules must say we settle on **Pyth**, not CF Benchmarks, not Kalshi, and not a single exchange chart.
 
 ### Ties
 
-An exact `C == K` is **Up**, because the rule is "at least" the target. This matches Kalshi's 15-minute crypto rule as documented in Research. A void/refund is only for a missing or incomplete sample, not for a numeric tie.
+`C == K` is **Up** ("at least" the target), matching Kalshi's 15-minute rule. Refunds are for missing or incomplete samples (or a settlement-time circuit breaker), not for a numeric tie.
 
-### Daily grant, streaks, room board, share
+## Risk math (house book)
 
-Already specified under Repeat play and House edge. Leaderboard is computed in-app from results + `cherry.room`. `cherry.share` posts a result card (asset, window, Up/Down, mark vs close, streak), never a claim of cash or of a Kalshi payout.
+This section is a go-live gate. Do not take real SOL until Sneaks has confirmed the treasury wallet, the bankroll, and the caps.
+
+### Exposure per round
+
+For a round, after accepted (on-chain, pre-lock) bets:
+
+```
+Liab_up   = Σ (stake_i × multiplier_i)   for accepted Up bets
+Liab_down = Σ (stake_j × multiplier_j)   for accepted Down bets
+U = Σ stake_i on Up
+D = Σ stake_j on Down
+Treasury already holds U + D
+
+Exposure_up   = Liab_up   - D     # pay Up winners; Down stakes offset
+Exposure_down = Liab_down - U
+Exposure      = max(Exposure_up, Exposure_down)
+```
+
+That is: **max(Up liability, Down liability) minus the opposite stakes**. A negative side-exposure is a locked-in profit on that outcome. `Exposure` is the most the treasury can be asked to pay **net of opposite stakes** if the worse side wins.
+
+Example: 10 SOL on Up at 3.13x and 8 SOL on Down at 1.41x → Liab_up = 31.3, Liab_down = 11.28, Exposure_up = 31.3 − 8 = 23.3, Exposure_down = 11.28 − 10 = 1.28, Exposure = 23.3 SOL.
+
+### Caps, reject, reprice
+
+Until Sneaks sets numbers, use bankroll `B` (SOL, UNKNOWN) as follows:
+
+- Up to **18 windows** can be open at once (9 assets × 15M and 1H).
+- Per-round cap: `E_round = B / 60` (about 1/60 of bankroll; 18 concurrent rounds use at most 30% of `B` if every window is at cap).
+- Per-asset cap: `E_asset = 2 × E_round` (the 15M and 1H books for that asset combined).
+- **Hard reject** any bet whose acceptance would make post-bet `Exposure > E_round` or the asset's combined exposure `> E_asset`.
+- Before rejecting, **reprice / skew**: move mid toward the heavy side (raise the heavy-side ask, lower the light-side ask) so the new bet, at the new ask, stays inside the cap and the overround is still at least 3%. If no legal ask in 1..99 exists, reject.
+
+Do not go live with `B` unset. A 0.01 SOL minimum does not change the cap math.
+
+### Bankroll sizing
+
+Do not use raw Kelly to size a single house-book bet (the edge is on a *balanced* book; one-sided flow is a loss, not a Kelly edge). Use **coverage of max exposure**:
+
+```
+B >= 3 × (18 × E_round)     # recommended: 3× the worst-case simultaneous cap use
+```
+
+With `E_round = B / 60`, this is internally consistent (3 × 18/60 = 0.9, so 90% of bankroll is the theoretical max simultaneous cap; the remaining 10% is a buffer for fees, refund races, and SOL/USD moves). Sneaks may pick a larger `B` or a tighter `E_round`. **Kelly-style optional check:** after a week of ledgers, if the realized edge is μ and the variance of round P&L is known, a fractional-Kelly (e.g. half-Kelly) daily risk cap can tighten `E_round`; it does not replace the coverage rule.
+
+**Do not fund the treasury and do not take mainnet stakes until Sneaks sets `B` and sends the funds himself.**
+
+### Circuit breakers
+
+Halt **new** bets (and do not send a stake sheet) when any of these is true:
+
+- Pyth mid (or the 1-second series) is **stale by more than 5 seconds**.
+- A **vol spike**: last 1-minute absolute log return `> 4σ` (σ from the 60-minute window), or the trailing 15-minute σ `> 3×` its 24-hour median.
+
+In-flight (already accepted) bets still settle on the Pyth 60-second rule, unless the breaker is a **settlement-time** feed failure or staleness — then **void and refund**. Resume only when the feed is fresh and σ is back inside the band for a full minute.
+
+### Expected house edge per 100 SOL wagered
+
+At a 3% overround (`yes_ask + no_ask = 103`), a **balanced** book (equal liability on both sides) collects 103 of stake for every 100 of liability paid to the winner. House gross = 3 per 103 of stakes = **2.91 SOL per 100 SOL wagered**, when both sides are taken at the asks in liability-balanced proportion.
+
+This is **not** a guaranteed return (and must not be marketed as one). A one-sided book can lose up to the exposure cap. After Cherry's **10% of net house revenue**, expected keep in a balanced book is **0.9 × 2.91 ≈ 2.62 SOL per 100 SOL wagered**.
+
+### Target revenue, breakeven, 7-day park line
+
+- **Target revenue per daily user:** `0.0262 ×` (SOL that user wagers that day), after Cherry's 10%, in a balanced book. Example only, not a user forecast: 0.1 SOL wagered → about **0.00262 SOL / DAU**. USD equivalent depends on the live SOL price (do not hardcode). Cosmetic sales are extra and sit on the Sales / Other stream.
+- **Breakeven:** after payouts, **90% of net house revenue** (the 10% is Cherry's bill) must cover infra. The first $100 of **stake volume** per listing per month is free of Cherry's volume-based estimate; correct the bill to actual net. There is no user-count breakeven because DAU is unknown.
+- **Park the family** if, after 14 days live, **7-day net house revenue after payouts and after Cherry's 10% is ≤ 0**, or if **treasury drawdown exceeds 20% of starting bankroll `B`**, or if circuit breakers are tripping as a matter of course. Check stake volume on each app's Billing page; confirm payouts were not counted as volume.
 
 ## Kalshi data feed
 
-This section is about **reading** Kalshi market data as an optional quote source. It is **not** a plan to route user funds, orders, or KYC through Kalshi.
+Reading Kalshi market data is an optional, **gated** quote aid. It is **not** a path to route user funds, orders, or KYC through Kalshi. We run our **own** SOL house book.
 
 ### What the public API allows technically
 
-Official docs: [Quick Start: Market Data](https://docs.kalshi.com/getting_started/quick_start_market_data), [API Keys](https://docs.kalshi.com/getting_started/api_keys), [Rate Limits and Tiers](https://docs.kalshi.com/getting_started/rate_limits), [API Environments](https://docs.kalshi.com/getting_started/api_environments), [Quick Start: WebSockets](https://docs.kalshi.com/getting_started/quick_start_websockets).
+Official: [Quick Start: Market Data](https://docs.kalshi.com/getting_started/quick_start_market_data), [API Keys](https://docs.kalshi.com/getting_started/api_keys), [Rate Limits and Tiers](https://docs.kalshi.com/getting_started/rate_limits), [API Environments](https://docs.kalshi.com/getting_started/api_environments), [Quick Start: WebSockets](https://docs.kalshi.com/getting_started/quick_start_websockets).
 
 - Production REST: `https://external-api.kalshi.com/trade-api/v2`.
-- **Events, markets, series, and order books can be read with no authentication.** "Kalshi provides several public endpoints that don't require API keys." "No authentication headers are required for the endpoints in this guide. You can start making requests immediately!" ([Market Data](https://docs.kalshi.com/getting_started/quick_start_market_data))
-- "Public endpoints such as market data need no scope." ([API Keys](https://docs.kalshi.com/getting_started/api_keys))
-- Series and tickers (including `KXBTC15M` and the other eight 15-minute series in Research) are fetched with `GET /series/{series_ticker}`, `GET /markets?series_ticker=...`, `GET /events/{event_ticker}`, `GET /markets/{ticker}`, `GET /markets/{ticker}/orderbook`.
-- REST market data is cached: "prices, sizes and status can lag the exchange by several seconds." "Poll REST for discovery and reference data; when you need current prices or state, use WebSockets." ([Market Data](https://docs.kalshi.com/getting_started/quick_start_market_data))
-- **WebSockets require an authenticated handshake** even for public channels (`ticker`, `trade`, …): "WebSocket connections require authentication during the connection handshake." ([WebSockets](https://docs.kalshi.com/getting_started/quick_start_websockets)) That means a **Kalshi member API key**. A data-only / read-only key exists: "Accounts with data-only access are the exception: their keys are always read-only." "An API key limited to market data" can subscribe to public channels and is refused on private activity channels. ([API Keys](https://docs.kalshi.com/getting_started/api_keys), [WebSockets](https://docs.kalshi.com/getting_started/quick_start_websockets))
-- Authenticated read budget is token-based and published. Most requests cost 10 tokens. Basic Read refill is 200 tokens/second (20 default-cost reads/s). "Unauthenticated public requests are subject to separate limits. Authenticate requests where supported and back off on `429`." The **numeric unauthenticated IP limit is not published** (UNKNOWN). "Public endpoints charge your IP address's budget first, even on signed requests… A signed request that the IP budget rejects falls through to your account's Read bucket." Publicly cacheable market-data responses "carry none of these headers." 429 body: `{"error": {"code": "too_many_requests", "message": "too many requests"}}` with no `Retry-After`. ([Rate Limits](https://docs.kalshi.com/getting_started/rate_limits))
-- "Kalshi may update these rate limits whenever needed, without prior notice." ([Developer Agreement v1.1](https://assets.kalshi.com/Kalshi-Developer-Agreement.pdf) §2.3)
+- Events, markets, series, and order books can be read with **no authentication**. "No authentication headers are required for the endpoints in this guide." "Public endpoints such as market data need no scope."
+- REST can lag "several seconds." Use WebSockets for current prices. **WebSockets require an authenticated handshake** (a Kalshi member API key). Data-only / read-only keys exist.
+- Unauthenticated public requests have separate IP limits; the **numeric limit is UNKNOWN**. Back off on 429. Authenticated Basic Read is 200 tokens/s, most calls cost 10 tokens. Rate limits may change without notice (Developer Agreement §2.3).
 
-Technical access ≠ permission to show that data in our app. See terms below.
+Technical access ≠ permission to display that data in our app.
 
 ### Design option (gated): mirror Kalshi's live Up/Down % and target
 
-Optional path, **off until Sneaks has prior written authorization from Kalshi**:
+**Off** until Sneaks has **prior written authorization from Kalshi**. If authorized: display Kalshi target and Up/Down % as the quote line for matching 15-minute series; **fall back to N(d)** when the feed is stale, 429s, or missing (including our open-to-close 1H windows). **Settlement of SOL is always Pyth**, never Kalshi or CF Benchmarks.
 
-- For 15-minute windows that match a live Kalshi series (`KXBTC15M`, `KXETH15M`, …), display Kalshi's target and live Up/Down % (and derived 100/ask multipliers) as the credit-game line.
-- If the feed is stale, 429s, unauthorized, or missing a window (including all **Hourly** windows we settle as open-to-close, which are not the same as every Kalshi "Hourly" crypto contract — see Research), **fall back to our own N(d) + house book**.
-- Settlement of credits is **always Pyth**, never Kalshi's CF Benchmarks print. The Kalshi line would be a display/quote aid only.
+### Terms (do not redistribute without written authorization)
 
-**Do not ship this option without that written authorization.** Default v1 is N(d) + house book only.
-
-### Terms: redistributing or displaying Kalshi data in a third-party app
-
-**Developer Agreement v1.1** ([PDF](https://assets.kalshi.com/Kalshi-Developer-Agreement.pdf)), binding on "any user" of the API, effective on first use:
+**Developer Agreement v1.1** ([PDF](https://assets.kalshi.com/Kalshi-Developer-Agreement.pdf)):
 
 > Use of Kalshi APIs is expressly limited to facilitating a members own trading on the Exchange; all other usages are disallowed and may result in account suspension.
 
@@ -260,92 +389,40 @@ Optional path, **off until Sneaks has prior written authorization from Kalshi**:
 
 > 4.1.1. You must be a Member of Kalshi's Exchange and comply with Kalshi's Rulebook.
 
-**Kalshi Data Terms of Use** ([PDF](https://kalshi-public-docs.s3.amazonaws.com/kalshi-data-terms-of-service.pdf)):
+**Kalshi Data Terms of Use** ([PDF](https://kalshi-public-docs.s3.amazonaws.com/kalshi-data-terms-of-service.pdf)): personal, non-commercial use of Website data only; **publicly displaying**, distributing, creating derivative works, or using Kalshi Data to create, calculate, issue, settle, or support any financial instruments, indexes, products, or services is prohibited without prior written authorization.
 
-> You are only permitted to access and use the Kalshi Data in the form in which it is presented on the Website. … You may access content only for your personal use for non-commercial purposes. Non-commercial use does not include the use of Kalshi Data without prior written consent from Kalshi in connection with: (1) the development of any software program … or (2) providing archived or cached data sets containing Kalshi Data to another person or entity.
+### Out: no pooled or brokered real-money routing to Kalshi
 
-> unless Kalshi … give you prior written authorization, you are strictly prohibited from selling, licensing, renting, modifying, changing, manipulating, altering, printing, collecting, copying, reproducing, downloading (other than to view only where a link is provided), uploading, transmitting, disclosing, distributing, disseminating, publicly displaying, publishing, editing, adapting, creating derivative works, electronically extracting or scrubbing, scraping, compiling … or otherwise transfer any of the content to any third person
-
-> You agree not to, and have no rights to, use the Kalshi Data to create, calculate, issue, settle, maintain, support or develop any financial instruments … indexes, products, services … or any other derivative works without the express written consent of Kalshi.
-
-A market-data endpoint that answers without a key does not waive these terms. Showing Kalshi's % or target inside a Cherry mini app is a **public display** and a **derivative product** unless Kalshi has given prior written authorization. Website scraping is separately prohibited.
-
-### Out: no pooled or brokered real-money routing
-
-**Do not design or build any path that places Kalshi orders for users, pools user funds, or brokers Kalshi trades.** Reasons, which stay in force even if a data license is later granted:
-
-- Kalshi's API is "expressly limited to facilitating a members own trading." Facilitating trading or account creation by other members is prohibited (§3.2). Each trader must be a **Member** and hold their **own** API/account (§4.1.1). Membership and trading are identity-checked (KYC) on Kalshi's side; we will not collect Kalshi passwords or keys (also §3.2, and Cherry policy forbids asking for keys).
-- On Cherry, **prediction markets** ("Markets or contracts on the outcome of real-world events") are **Partner-only** ([Mini App Policy](https://portal.cherry.fun/docs/mini-apps/policy) v2026-11-10). A real-money Up/Down book, or a front end that routes money to Kalshi, is in that class. This family is play-credits + cosmetics, not a Partner prediction market.
+**Do not place Kalshi orders for users, pool user funds, or broker Kalshi trades.** The API is limited to a member's own trading; facilitating trading or account creation by others is prohibited. Each Kalshi trader must be a Member with their own KYC'd account. Our book is a Cherry Partner prediction market settled in SOL from Sneaks's treasury, not a Kalshi front end.
 
 ## Research (2026-11-19, America/New_York)
 
-Research only; no app code. Live Kalshi pages were viewed **logged out** at about **11:33 PM ET**. In-app Cherry recon the same day is in [recon-2026-11-19.md](cherry-gap-bot/recon-2026-11-19.md). Official Cherry policy URLs are `/docs/mini-apps/policy` and `/docs/mini-apps/monetization` (`/docs/policy` and `/docs/monetization` are not the docs; those short paths 404 as `.md`).
+Live Kalshi pages were viewed **logged out** at about **11:33 PM ET**. In-app Cherry recon: [recon-2026-11-19.md](cherry-gap-bot/recon-2026-11-19.md).
 
-### 1. Kalshi crypto up/down
+### Kalshi crypto up/down
 
-Official: [Crypto Markets help](https://help.kalshi.com/en/articles/13823838-crypto-markets) (updated Oct 9, 2026), [Market Settlement](https://docs.kalshi.com/getting_started/market_settlement), [15-minute Pro help](https://kalshi.com/pro/help/fifteen-minute-markets) (updated 2026-09-28), [15 min Crypto category](https://kalshi.com/category/crypto/frequency/fifteen_min), [Hourly](https://kalshi.com/category/crypto/frequency/hourly), [Daily](https://kalshi.com/category/crypto/frequency/daily), [Fee schedule](https://kalshi.com/fee-schedule).
+Official: [Crypto Markets help](https://help.kalshi.com/en/articles/13823838-crypto-markets), [Market Settlement](https://docs.kalshi.com/getting_started/market_settlement), [15-minute Pro help](https://kalshi.com/pro/help/fifteen-minute-markets), [15 min Crypto](https://kalshi.com/category/crypto/frequency/fifteen_min), [Hourly](https://kalshi.com/category/crypto/frequency/hourly), [Daily](https://kalshi.com/category/crypto/frequency/daily), [Fee schedule](https://kalshi.com/fee-schedule).
 
-- Kalshi lists crypto frequencies **15 min, Hourly, Daily, Weekly, Monthly**. The 15-minute crypto **up/down** product is the open-to-close series (target = opening 60-second average). The Hourly and Daily category pages, as of this recon, showed **clock-time "price at … EST" above/below and range** markets more than open-to-close up/down. Our **1H** game is open-to-close, like the 15-minute series, not a copy of every contract on Kalshi's Hourly tab.
-- **15-min up/down pairs in scope for v1 (all 9):** BTC, ETH, SOL, XRP, DOGE, BNB, HYPE, NEAR, ZEC. Series tickers: `KXBTC15M`, `KXETH15M`, `KXSOL15M`, `KXXRP15M`, `KXDOGE15M`, `KXBNB15M`, `KXHYPE15M`, `KXNEAR15M`, `KXZEC15M`. Event format example: `KXBTC15M-26NOV192345`. Windows `:00/:15/:30/:45`. Payout 5 minutes after close.
-- **Crypto Leader 15 min** (coin race) exists on the category page; it is a **v2** playable mode and a v1 hub card.
-- Settlement (help center, verbatim meaning): most crypto price markets settle on a **CF Benchmarks** index. "A 15-minute market compares the average from the minute before it closes with the average from the minute before it opened." "For most crypto price markets, the expiration value is based on a simple average of the CF Benchmarks index over the 60 seconds before the time named in the market's rules." Example named index: CF Bitcoin Real-Time Index (BRTI). **At least** the target resolves Up. We copy the **averaging rule and the tie rule**, not the CF Benchmarks source.
-- Yes/No pricing: binary event contracts; winning side pays **$1.00**, losing side $0 ([Market Settlement](https://docs.kalshi.com/getting_started/market_settlement)). On-screen Chance is a mid/%; the button multiplier fits **1/ask including spread** (see Math). Official standard taker fees apply to "Most markets" ([Fee schedule](https://kalshi.com/fee-schedule)); this app does not pay or charge Kalshi fees.
-- UI loop (Pro help + live mobile/desktop): a series page that rolls to the next window, target vs live price, orange countdown, LIVE tag, Past pill, Chance, Up/Down, activity, "people are also trading." That loop is the layout bar for our pair screen and hub.
+- Frequencies on Kalshi: 15 min, Hourly, Daily, Weekly, Monthly. Our v1 live set is 15M and 1H (open-to-close). Kalshi's Hourly/Daily category pages, as of this recon, showed clock-time above/below and range markets more than open-to-close up/down.
+- Nine 15-min pairs in v1: BTC, ETH, SOL, XRP, DOGE, BNB, HYPE, NEAR, ZEC. Tickers: `KXBTC15M`, `KXETH15M`, `KXSOL15M`, `KXXRP15M`, `KXDOGE15M`, `KXBNB15M`, `KXHYPE15M`, `KXNEAR15M`, `KXZEC15M`. Event example: `KXBTC15M-26NOV192345`. Windows `:00/:15/:30/:45`. Payout 5 minutes after close. Crypto Leader 15 min is v2 playable / v1 hub card.
+- Kalshi settles 15-minute crypto on a **CF Benchmarks** real-time index, simple average of 60 one-second prints in the last minute vs the opening minute; **at least** the target is Up. We copy the averaging and tie rule, and settle on **Pyth**.
+- Observed multipliers (logged out, ~11:33 PM ET, plus the 30/70 mobile ref): ETH 27/72% → 3.51x/1.35x; SOL 23/78% → 3.97x/1.28x; BTC 34/66% → 2.89x/1.46x; 30/70% → 3.08x/1.40x. Multiplier is 1/ask including spread, not 1/displayed mid.
 
-### 2. Other up/down games (for hooks, not for money)
+### Other up/down games
 
-- **Polymarket** 15m BTC/ETH/SOL/XRP Up or Down, real money, $1 winning shares, Chainlink BTC/USD TWAP among the published sources: [polymarket.com/crypto/15M](https://polymarket.com/crypto/15M). Already wrapped on Cherry as the Polymarket mini app, not a short-loop game we own.
-- **Jupiter Forecast**: Solana 15-minute BTC up/down, USDC, Chainlink, real money: [docs](https://developers.jup.ag/docs/prediction/forecast).
-- **TakePair**: P2P 15/30/60m BTC/ETH UP/DOWN, USDC/USDT, Binance 1m close, ~1.96× after a 4% win fee, web + Telegram: [about](https://takepair.com/en/about).
-- **Predikt** Telegram: 60s UP/DOWN on BTC/ETH/SOL, Solana via Hxro, real-money positioning, hourly jackpots / parlays: [t.me/predikt_app_bot](https://t.me/predikt_app_bot).
-- **OKX Event Contracts**: real-money Up/Down on BTC/ETH, 15m to daily, USDT, OKX index, 0.01–0.99 prices: [learn](https://www.okx.com/en-us/learn/okx-event-contracts).
-- **OKX Racer** (Telegram, points): 5-second Moon/Doom, points not cash, streaks and a leaderboard, fuel upgrades, referrals — [Decrypt, Jul 22, 2024](https://decrypt.co/240917/okx-bitcoin-price-guessing-game-telegram). Closest **free** hook pattern (streaks, board, no cash-out).
-- **Byte Quest Fast Predict**: 60s BTC up/down, **free points only**, 1.9×, refund on unchanged, daily points pool: [BEXC help](https://bexc.io/help/gs-fast-predict).
+Polymarket 15m ([crypto/15M](https://polymarket.com/crypto/15M)); Jupiter Forecast ([docs](https://developers.jup.ag/docs/prediction/forecast)); TakePair ([about](https://takepair.com/en/about)); Predikt ([t.me/predikt_app_bot](https://t.me/predikt_app_bot)); OKX Event Contracts ([learn](https://www.okx.com/en-us/learn/okx-event-contracts)); OKX Racer points hooks ([Decrypt](https://decrypt.co/240917/okx-bitcoin-price-guessing-game-telegram)); Byte Quest Fast Predict free points ([BEXC](https://bexc.io/help/gs-fast-predict)).
 
-### 3. Cherry.fun — no dedicated up/down app
+### Cherry.fun — no first-party up/down app
 
-Web, marketplace, and X search did not find a BTC/ETH/SOL (or other) up-or-down mini app on cherry.fun / chat.cherry.fun / @cherrydotfun.
-
-In-app marketplace recon the same day (signed in as Silver Birch): **"No BTC/ETH/SOL higher-or-lower app listed. Closest: Crypto Trading Simulator (16 members, 'Bitcoin, ETH demo trading app', virtual $10000, https://chat.cherry.fun/g/KPFYik6XJbGI5BcCSlBC); MemeRace (1 member, pick a meme coin, new race every 30s, 'win SOL', https://chat.cherry.fun/g/vSTmIOPqvJ8LaIAaW9D5)."** Source: [recon-2026-11-19.md](cherry-gap-bot/recon-2026-11-19.md).
-
-What does exist: the **Polymarket** mini app at [chat.cherry.fun/@predict](https://chat.cherry.fun/@predict) / [predict.cherry.fun](https://predict.cherry.fun/) — real-money YES/NO on Polymarket events, including longer BTC price markets, not a first-party short-loop Up/Down game and not a slot we own.
-
-X: a relevancy search for Cherry + prediction/BTC terms did not surface a Cherry up/down mini app; a tighter `"up or down"` / 15m / Kalshi query against cherry.fun / cherrydotfun returned **0 posts**.
-
-### 4. Cherry policy (exact class)
-
-[Mini App Policy](https://portal.cherry.fun/docs/mini-apps/policy) v2026-11-10:
-
-> These activities are open only to Partner apps, under a written agreement with Cherry, with the operator holding every licence the activity needs in every country it serves:
->
-> - Prediction markets. Markets or contracts on the outcome of real-world events.
-
-> Free-to-play games of skill, where nothing paid in can be won back or cashed out, are not iGaming and are not restricted.
-
-> Gambling and games of chance with stakes are allowed only in the iGaming category: casino games, coin flips, dice, crash, slots and pachinko-style games played for crypto or anything of value; sports and event betting; … loot boxes or gacha with prizes that can be traded or cashed out.
-
-The official policy **does not use the phrase "play credits."** Closest language is the free-to-play skill carve-out and the iGaming test ("crypto or anything of value," "prizes that can be traded or cashed out").
-
-[Monetization](https://portal.cherry.fun/docs/mini-apps/monetization):
-
-> What your app may sell at all is set by the Mini App Policy: gambling goes in the iGaming category under its rules, and prediction markets, token launches and regulated financial services are open only to licensed Partner apps.
-
-> Whatever users pay for in your app, an NFT, a game item, a marketplace purchase or a swap, the rule is the same.
-
-**Class for this family:**
-
-- **Real-money** Up/Down (cashable credits, purchased credits that can win more value, or routed Kalshi/Polymarket orders) = **Partner-only prediction market**. Not this project.
-- **iGaming** would apply if we took stakes of crypto or anything of value. We do not.
-- **Day-1 allowed path we are taking:** free play-credits that **cannot be bought, cashed out, or converted**, plus **paid cosmetics** that do not affect odds and cannot be redeemed for credits or cash. This is the closest fit to "nothing paid in can be won back or cashed out." A short-window price call is not obviously a "game of skill"; if Cherry disagrees, stop and ask team@cherry.fun before publish.
-- **Paid cosmetics:** allowed under Sales if the core stays in the carve-out. **Do not sell credits.**
+In-app recon: no BTC/ETH/SOL higher-or-lower app. Closest: **Crypto Trading Simulator (16 members)** and **MemeRace (1 member)**. Polymarket at [chat.cherry.fun/@predict](https://chat.cherry.fun/@predict) is a third-party event desk, not this product. X search did not find a Cherry up/down mini app.
 
 ### Verdict
 
-**BUILD.** Cherry has no first-party Up/Down app. The closest listed games are Crypto Trading Simulator (16 members) and MemeRace (1 member). Kalshi's 15-minute nine-pair loop is the layout and rules model; our money stays play-credits + cosmetics; we ship a hub plus nine pair listings on one engine so the family holds both slots.
+**BUILD**, as a **Partner prediction market** with a SOL house book, subject to the open questions below. Cherry still has no first-party Up/Down app.
 
 ## Art bar
 
-CONSOLE-GRADE (Sneaks 2026-11-19): near-PS4/PS5 — cinematic 3D, volumetric light, depth, asset-colored metal and glass, live tickers that feel like a console market terminal, not flat CSS. Layout fidelity: hub follows hub-ref-1/2/3; pair screen follows kalshi-ref-btc15.jpg as the **primary** layout. Family branding must be consistent across all 10 icons and covers so the 10 listings read as one product line.
+CONSOLE-GRADE (Sneaks 2026-11-19): near-PS4/PS5 — cinematic 3D, volumetric light, depth, asset-colored metal and glass, a console market terminal, not flat CSS. Hub follows hub-ref-1/2/3; pair screen follows kalshi-ref-btc15.jpg as the **primary** layout. Consistent family branding across all 10 icons and covers. No "Cherry" lettering.
 
 ## Tasks
 
@@ -358,24 +435,41 @@ Acceptance:
 - plays at 360px; first frame + `cherry:ready` < 5s (lazy-load heavy art after ready)
 - launch token verified server-side (`verifyLaunchToken` + **that listing's** `appId`, key by `cherry_id ?? sub`)
 - ten origins, each with `/.well-known/cherry-app.json` and its own `appId`
-- credits and cosmetics shared per `cherry_id` across all 10 apps; daily grant once per `cherry_id`
-- every sale tx has `withAppReference(APP_ID)` of the listing it was made in + ≤80-char label; unlock only after on-chain confirmation; sale ledger row written; no recurring subs; cosmetics only (no credit purchases, no cash-out, no odds advantage)
-- money path stays inside the **live** tier limits (re-checked that day; $4.99 is under both Unverified and Verified caps)
-- settlement tests **per asset**: 60 one-second Pyth prints → simple average; Up iff `C >= K`; missing prints → refund; confirm delay 5 minutes; tests for BTC, ETH, SOL, ZEC, XRP, NEAR, HYPE, DOGE, BNB
-- pricing tests: N(d) mid, 3-credit overround, multiplier `100/ask`, 1–99 clamps; fallback mid 50/50 on undefined σ
-- hub UI matches the Coins reference (tabs, cards, Price to beat / Current, sparkline, pills, pie timer, volume + room-message count, Crypto Leader card); pair UI matches kalshi-ref-btc15.jpg (TO BEAT / NOW, orange countdown, red LIVE, Past pill, Chance, Live chat → `navigate.openRoom`, People are also trading, Activity)
-- 15 MIN and HOURLY live; 5M / Daily / Weekly / Monthly greyed "soon"
-- room leaderboard from `cherry.room`; `cherry.share` result blink
-- test URL ready for a private test room (engine + hub + at least one pair). Renders the console-grade look on a 360px phone at 60fps (WebGL / PixiJS or Three.js, pre-rendered 3D, particle FX)
+- **18+ age gate**, geo block (CU, IR, KP, SD, sanctioned regions, plus every additional country/state Sneaks lists), published odds and 3% overround, per-user limits, self-exclusion, support channel with 72h report SLA, no guaranteed-or-expected-return copy
+- a bet is **rejected after lock** (30s before close); a sign request is not offered after lock
+- a bet is **only accepted after on-chain confirmation**, and only if that confirmation is before lock; otherwise refund
+- every stake tx has `withAppReference(APP_ID)` of the listing + ≤80-char label; stake to the Sneaks-confirmed treasury (not hardcoded)
+- settlement tests **per asset**: 60 one-second Pyth prints → simple average; Up iff `C >= K`; missing prints → refund; 5-minute confirm; tests for BTC, ETH, SOL, ZEC, XRP, NEAR, HYPE, DOGE, BNB
+- **payout idempotency** (no double pay / no double refund)
+- **exposure cap** enforced (reject or reprice; never accept a bet that breaches `E_round` or `E_asset`)
+- **feed-stale circuit breaker** (>5s stale, or vol spike as specified) blocks new bets; settlement-time failure voids and refunds
+- **treasury keys never in client code or repo**; payouts need a signer Sneaks controls
+- money path stays inside the **live** Partner limits (default Verified caps until the agreement is confirmed); min 0.01 SOL; family-wide daily cap as specified
+- optional cosmetics: one-time Sales, unlock only after on-chain confirmation, no odds advantage
+- pricing tests: N(d) mid, 3% overround, multiplier `100/ask`, 1–99 clamps
+- hub and pair UI as specified; 15 MIN and HOURLY live; 5M / Daily / Weekly / Monthly greyed "soon"
+- room leaderboard from `cherry.room`; `cherry.share` without a guaranteed-return claim
+- bet ledger row written per bet; cosmetic sale ledger row per sale
+- test URL ready for a private test room (engine + hub + at least one pair) on **devnet or a Sneaks-approved test treasury only**. Console-grade look on a 360px phone at 60fps (WebGL / PixiJS or Three.js)
 
 Acceptance tests must also reject a tx without a valid launch token.
 
-Deploy/live checks: muse.
+**No deploy, publish, or treasury funding without Sneaks's yes.**
+
+Deploy/live checks: muse (after Sneaks's yes).
 
 ### ART — grok-bot
 
-10 icons (512×512) and 10 covers (1200×630) in console-grade style, **consistent family branding**, plus a 9:16 splash for the hub and a pair-screen chrome kit (asset metals, Up/Down buttons, pie timer, sparkline, LIVE/Past pills). Reference: hub-ref-1/2/3 and kalshi-ref-btc15.jpg. No "Cherry" lettering. No flat CSS as the finished look.
+10 icons (512×512) and 10 covers (1200×630) in console-grade style, **consistent family branding**, plus a 9:16 splash for the hub and a pair-screen chrome kit. Reference: hub-ref-1/2/3 and kalshi-ref-btc15.jpg. No "Cherry" lettering. No flat CSS as the finished look.
 
 ### SHIP GATE — Sneaks
 
-Sneaks walks the portal wizard **10 times** (or the then-supported multi-app flow): category Games, money model Sales, agreements signed with his wallet, live URL per listing, checks + iframe test, publish. Save wizard prompts to `docs/CHERRY_INTEGRATION.md` in the app repo. Do not publish if live tier / Policy class is in doubt — ask team@cherry.fun first.
+Sneaks confirms the **treasury wallet**, **Partner limits**, **US/geo stance**, and **bankroll `B`**, funds the treasury himself if he wants to go live, then walks the portal wizard **10 times** (category and model per Money implementation; 18+; country blocks he approved), agreements signed with his wallet, live URL per listing, checks + iframe test, publish. Save wizard prompts to `docs/CHERRY_INTEGRATION.md` in the app repo. **No deploy, publish, or treasury funding without his yes.**
+
+## Open questions only Sneaks can answer
+
+1. **Treasury wallet** — which Solana address receives stakes and pays winners? (Never hardcoded until he names it; keys stay with him.)
+2. **Partner limits** — the written agreement's per-transaction and per-wallet-per-day caps, and any other Partner terms. Until he shares them, the spec defaults to Verified $1,000/tx and $5,000/wallet/day. Live tier still needs a portal confirmation on the owning wallet.
+3. **US / geo stance** — whether to serve the United States (and which states), and the full country block list beyond CU, IR, KP, SD and sanctioned regions. This is a legal/licence question; Cherry's automatic US block is written for iGaming, not explicitly for Partner prediction markets.
+4. **Bankroll `B`** — how much SOL he will fund, which sets `E_round = B/60` and the 3× coverage rule. No mainnet stakes until `B` is set and funded by him.
+5. Also confirm: iOS distribution (policy's "not on iOS" is written for iGaming); whether the listing wizard should be Other (mix of Commission + cosmetic Sales) or Commission only; the family-wide daily cap vs per-app Cherry caps.
