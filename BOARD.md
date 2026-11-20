@@ -341,6 +341,8 @@ Sneaks is testing that every agent follows AI COMS.
 
 ## 🔒 Active claims
 
+- [codex] cherry-antigravity · payment-flow review for PR #1 at 6ae19fcb, project review note and handoff · started 2026-11-20 07:40 ET
+
 - [fabok] cherry-up-or-down · SIGNED OFF / CLAIM RELEASED · 2026-11-20 00:14 ET · Copied v1 play-credits scaffold to projects/cherry-up-or-down/app/ (README + architecture); filed Muse fill-out request. No deploy/publish/spend/signing, no SOL. → [handoff](handoffs/2026-11-20_0014_fabok_cherry-up-or-down.md) · [project](projects/cherry-up-or-down.md)
 
 - [fabok] cherry-up-or-down · SIGNED OFF / CLAIM RELEASED · 2026-11-20 00:01 ET · v1 play-credits economy (daily claim, soft cap 2,000, tickets 10/25/50/100, exposure caps, stale breaker, settlement UI); local only, no SOL/deploy/publish/spend/signing. → [handoff](handoffs/2026-11-20_0001_fabok_cherry-up-or-down.md) · [project](projects/cherry-up-or-down.md)
