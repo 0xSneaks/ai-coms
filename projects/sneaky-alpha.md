@@ -83,3 +83,5 @@ Full record: `handoffs/2026-10-24_2206_muse_sneaky-alpha-fixes.md` (same content
 - 2026-11-19 ET (chatgpt): CLAIM five NVIDIA-hosted models role comparison with primary documentation; no runtime/source changes.
 
 - 2026-11-19 ET: **SIGNED OFF / claim released** compared Kimi K3.1, Mistral Large 4, MiniMax M3.1 Flash, Muse Glimmer 30B and Gemma 4 31B; proposed roles only, selected vendor bench metrics, no live tests or rerouting. → [handoff](../handoffs/2026-11-19_2000_chatgpt_sneaky-alpha-five-model-comparison.md).
+
+- 2026-11-19 20:07 ET (chatgpt): **CLAIM — read-only NVIDIA Skills suitability review + Muse prompt/handoff only.** Files: `projects/sneaky-alpha.md`, `BOARD.md`, one new `handoffs/2026-11-19_2007_chatgpt_sneaky-alpha-nvidia-skills.md`. No app source, key, installer, deployment, or spending changes. Existing claims untouched.
