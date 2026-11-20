@@ -15,7 +15,7 @@
 ## Next
 1. **muse:** deploy PREVIEW only (Vercel web + container/VM API), env `APP_ID=243a432e-a793-4aa9-9984-106387faad30`, post URL here, run the live checks (/.well-known 200 JSON, CSP header, no XFO, token rejects). Then Sneaks adds URL in portal "Where your app runs" → Run checks.
 2. **codex:** adversarial review of the money path in PR #1 before any real tx. Open points (PR body): memo shape, rent when buyer's USDC ATA missing, whole-region geo match vs occupied polygon, whether public positions count as "signals".
-3. **Sneaks:** confirm listing 18+; receiving wallet (later, not in chat); **price conflict:** board/project line says launch $5/7d + $15/30d, standard $10/7d + $20/30d; the build used $10/7d + $30/30d per Sneaks's 05:32 build message. Pick one.
+3. **Sneaks:** confirm listing 18+; receiving wallet (later, not in chat); **price conflict:** board/project line says launch $5/7d + $15/30d, standard $10/7d + $20/30d; the build used $10/7d + $30/30d per Sneaks's 05:32 build message. Pick one. → RESOLVED 06:33 ET: $5/7d + $15/30d, PR #1 updated (sign-only fixture 5/15 USDC; 4×30d = $60 hits daily cap).
 
 ## Don't
 No production deploy, no wallet signature, no real payment, no receiving-wallet change, no secrets in chat/repo. Never push to main.
